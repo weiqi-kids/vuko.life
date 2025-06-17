@@ -57,14 +57,6 @@
             }
         }
 
-        // 拍頻配置對應表
-        const BEAT_FREQUENCY_MAP = {
-            'deep_relaxed': 4,    // 深度放鬆 - Delta波
-            'relaxed': 6,         // 放鬆狀態 - Theta波  
-            'normal': 10,         // 正常狀態 - Alpha波
-            'tense': 14           // 緊張狀態 - Beta波
-        };
-
         // ===== 配置區域結束 =====
 
         let audioContext;
@@ -589,7 +581,8 @@
             const content = getLanguageContent();
             const toggleBtn = document.getElementById('monitorToggleBtn');
             toggleBtn.textContent = content.buttons.start;
-            document.getElementById('breathCircle').classList.remove('breathing');
+            const breathCircle = document.getElementById('breathCircle');
+            if (breathCircle) breathCircle.classList.remove('breathing');
 
             // 重置統計顯示
             resetStatsDisplay();
@@ -750,32 +743,24 @@
         // 更新呼吸統計
         function updateBreathingStats(breathRate) {
             const content = getLanguageContent();
-            document.getElementById('breathRate').textContent = `${breathRate.toFixed(1)} ${content.units.perMin}`;
-            
-            let state, beatFreq, brainwave, stateKey;
-            
+            const units = content.units || {};
+            document.getElementById('breathRate').textContent = `${breathRate.toFixed(1)} ${units.perMin || ''}`;
+
+            let beatFreq, stateKey;
+
             if (breathRate < 10) {
-                state = content.states.deep_relaxed;
                 stateKey = 'deep_relaxed';
-                brainwave = content.waves.delta;
+                beatFreq = 4;
             } else if (breathRate < 15) {
-                state = content.states.relaxed;
                 stateKey = 'relaxed';
-                brainwave = content.waves.theta;
+                beatFreq = 6;
             } else if (breathRate < 20) {
-                state = content.states.normal;
                 stateKey = 'normal';
-                brainwave = content.waves.alpha;
+                beatFreq = 10;
             } else {
-                state = content.states.tense;
                 stateKey = 'tense';
-                brainwave = content.waves.beta;
+                beatFreq = 14;
             }
-            
-            beatFreq = BEAT_FREQUENCY_MAP[stateKey];
-            
-            document.getElementById('currentState').textContent = state;
-            document.getElementById('brainwaveType').textContent = brainwave;
             
             // 更新拍頻
             if (beatFreq !== currentBeatFreq) {

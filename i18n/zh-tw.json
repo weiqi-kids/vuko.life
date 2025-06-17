@@ -9,9 +9,6 @@
   "volumeRatioDetail": "拍頻 {binaural}% / 背景音 {background}%",
   "labels": {
     "breathRate": "呼吸速率：",
-    "currentState": "當前狀態：",
-    "beatFreq": "拍頻頻率：",
-    "brainwave": "腦波類型：",
     "baseFreq": "基頻頻率：",
     "audioFile": "背景音檔：",
     "volumeRatio": "音量比例：",
@@ -39,11 +36,5 @@
     "perMin": "次/分",
     "hz": "Hz",
     "none": "無"
-  },
-  "waves": {
-    "delta": "Delta波",
-    "theta": "Theta波",
-    "alpha": "Alpha波",
-    "beta": "Beta波"
   }
 }

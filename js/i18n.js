@@ -62,18 +62,21 @@ async function updateLanguageContent() {
     document.getElementById('musicSearchInput').placeholder = labels.searchPlaceholder || '';
     document.getElementById('deviceTestBtn').innerHTML = `🎤 ${labels.deviceTest || ''}`;
 
-    document.getElementById('baseFreqLabel').textContent = labels.baseFreq || '';
-    document.getElementById('audioFileLabel').textContent = labels.audioFile || '';
-    document.getElementById('volumeRatioLabel').textContent = labels.volumeRatio || '';
+    const baseFreqLabel = document.getElementById('baseFreqLabel');
+    if (baseFreqLabel) baseFreqLabel.textContent = labels.baseFreq || '';
+
+    const audioFileLabel = document.getElementById('audioFileLabel');
+    if (audioFileLabel) audioFileLabel.textContent = labels.audioFile || '';
+
+    const volumeRatioLabel = document.getElementById('volumeRatioLabel');
+    if (volumeRatioLabel) volumeRatioLabel.textContent = labels.volumeRatio || '';
 
     document.querySelector('.breath-visual h3').textContent = labels.breathVisual || '';
     document.querySelector('.breath-stats h3').textContent = labels.realTimeData || '';
 
     const statLabels = document.querySelectorAll('.stat-label');
-    if (statLabels.length >= 3) {
+    if (statLabels.length >= 1) {
         statLabels[0].textContent = labels.breathRate || '';
-        statLabels[1].textContent = labels.currentState || '';
-        statLabels[2].textContent = labels.brainwave || '';
     }
 
     const toggleBtn = document.getElementById('monitorToggleBtn');
@@ -86,8 +89,5 @@ async function updateLanguageContent() {
 function resetStatsDisplay() {
     const content = getLanguageContent();
     const units = content.units || {};
-    const status = content.status || {};
     document.getElementById('breathRate').textContent = `-- ${units.perMin || ''}`;
-    document.getElementById('currentState').textContent = status.waiting || '';
-    document.getElementById('brainwaveType').textContent = '--';
 }
