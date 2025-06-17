@@ -7,6 +7,7 @@
             SAMPLE_RATE: 16000,              // 取樣率
             ANALYSIS_DURATION: 10,           // 分析時間長度 (秒)
             BREATH_DETECTION_SENSITIVITY: 0.7, // 呼吸檢測敏感度 (0.0-1.0)
+            WAVEFORM_SCALE: 10,              // 呼吸波形對數放大倍率
             
             // 語言設定
             LANGUAGE: 'auto',                // 'auto' 為自動偵測，或指定 'zh-TW', 'zh-CN', 'en', 'ja', 'ko'
@@ -723,10 +724,16 @@
             ctx.beginPath();
             
             const sliceWidth = canvas.width / samples.length;
+            const scale = CONFIG.WAVEFORM_SCALE || 1;
             let x = 0;
-            
+
             for (let i = 0; i < samples.length; i++) {
-                const y = (samples[i] * canvas.height / 2) + canvas.height / 2;
+                const sample = samples[i];
+                let scaled = sample;
+                if (scale > 1) {
+                    scaled = Math.log1p(sample * (scale - 1)) / Math.log(scale);
+                }
+                const y = (scaled * canvas.height / 2) + canvas.height / 2;
                 
                 if (i === 0) {
                     ctx.moveTo(x, y);
