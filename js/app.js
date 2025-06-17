@@ -396,69 +396,6 @@
             }
         }
 
-
-        // 獲取當前語言內容
-        function getLanguageContent() {
-            return LANGUAGE_CONTENT[currentLanguage] || LANGUAGE_CONTENT['zh-TW'];
-        }
-
-        // 更新頁面語言內容
-        function updateLanguageContent() {
-            const content = getLanguageContent();
-            
-            // 更新主要標題與頁面標題
-            document.title = content.title;
-            document.querySelector('h1').textContent = content.title;
-            document.querySelector('.adaptive-mode h3').textContent = content.subtitle;
-
-            // 更新使用說明
-            const headphoneItem = document.getElementById('instructionHeadphones');
-            const micItem = document.getElementById('instructionMicrophone');
-            if (headphoneItem && micItem && content.instructions) {
-                headphoneItem.innerHTML = content.instructions.headphones;
-                micItem.innerHTML = content.instructions.microphone;
-            }
-            
-            // 更新配置區域
-            document.getElementById('systemConfigTitle').textContent = content.labels.systemConfig;
-            document.getElementById('audioSearchTitle').textContent = content.labels.audioSearch;
-            
-            // 更新搜尋框佔位符
-            document.getElementById('musicSearchInput').placeholder = content.labels.searchPlaceholder;
-            
-            // 更新設備測試按鈕
-            document.getElementById('deviceTestBtn').innerHTML = `🎤 ${content.labels.deviceTest}`;
-
-            // 配置標籤
-            document.getElementById('audioFileLabel').textContent = content.labels.audioFile;
-            document.getElementById('headphonesLabel').textContent = content.labels.headphones;
-            document.getElementById('microphoneLabel').textContent = content.labels.microphone;
-            
-            // 更新標籤
-            document.querySelector('.breath-visual h3').textContent = content.labels.breathVisual;
-            document.querySelector('.breath-stats h3').textContent = content.labels.realTimeData;
-            
-            // 更新統計標籤
-            document.querySelectorAll('.stat-label')[0].textContent = content.labels.breathRate;
-            document.querySelectorAll('.stat-label')[1].textContent = content.labels.currentState;
-            document.querySelectorAll('.stat-label')[2].textContent = content.labels.brainwave;
-            
-            // 更新按鈕文字依狀態
-            const toggleBtn = document.getElementById('monitorToggleBtn');
-            toggleBtn.textContent = isRecording ? content.buttons.stop : content.buttons.start;
-            
-            // 重置統計顯示
-            resetStatsDisplay();
-        }
-
-        // 重置統計顯示
-        function resetStatsDisplay() {
-            const content = getLanguageContent();
-            document.getElementById('breathRate').textContent = `-- ${content.units.perMin}`;
-            document.getElementById('currentState').textContent = content.status.waiting;
-            document.getElementById('brainwaveType').textContent = '--';
-        }
-
         // 獲取背景音檔URL
         function getBackgroundAudioUrl() {
             if (CONFIG.MUSIC_CONTENT.TYPE === 'custom') {
@@ -1024,19 +961,13 @@
             initGoogleAnalytics();
             
             // 自動偵測用戶語言
-            detectUserLanguage().then(() => {
-                // 更新語言內容
-                updateLanguageContent();
-                
-                // 初始化配置顯示
+            detectUserLanguage().then(async () => {
+                await updateLanguageContent();
                 initConfigDisplay();
-                
-                // 顯示語言偵測狀態
                 showLanguageDetectionStatus();
-            }).catch(error => {
+            }).catch(async error => {
                 console.error('語言偵測失敗:', error);
-                // 使用預設語言
-                updateLanguageContent();
+                await updateLanguageContent();
                 initConfigDisplay();
             });
             
