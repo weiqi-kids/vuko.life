@@ -4,7 +4,7 @@
   "description": "系統會即時監測你的呼吸狀態，並自動調整拍頻來引導你進入不同的意識狀態：",
   "instructions": {
     "headphones": "請使用<strong>雙聲道耳機</strong>，這樣才能達成腦中拍頻的效果。",
-    "microphone": "若您同意使用您的<strong>麥克風</strong>，我們會嘗試監測狀態，引導你進入不同的狀態。"
+    "microphone": "若您同意使用您的<strong>麥克風</strong>，請將麥克風靠近口鼻，我們會嘗試引導您進入更深層的狀態。"
   },
   "volumeRatioDetail": "拍頻 {binaural}% / 背景音 {background}%",
   "labels": {

@@ -1,13 +1,13 @@
         // ===== 開發者配置區域 =====
         const CONFIG = {
             // 音訊設定
-            BASE_FREQUENCY: 200,              // 基頻 (Hz)
+            BASE_FREQUENCY: 200,             // 基頻 (Hz)
             BINAURAL_VOLUME: 0.3,            // 拍頻音量 (0.0-1.0)
             BACKGROUND_VOLUME: 0.7,          // 背景音音量 (0.0-1.0)
             SAMPLE_RATE: 16000,              // 取樣率
             ANALYSIS_DURATION: 10,           // 分析時間長度 (秒)
-            BREATH_DETECTION_SENSITIVITY: 0.7, // 呼吸檢測敏感度 (0.0-1.0)
-            WAVEFORM_SCALE: 10,              // 呼吸波形對數放大倍率
+            BREATH_DETECTION_SENSITIVITY: 1, // 呼吸檢測敏感度 (0.0-1.0)
+            WAVEFORM_SCALE: 100,             // 呼吸波形對數放大倍率
             
             // 語言設定
             LANGUAGE: 'auto',                // 'auto' 為自動偵測，或指定 'zh-TW', 'zh-CN', 'en', 'ja', 'ko'
@@ -691,8 +691,6 @@
                         if (now - lastBreathTime > 1000) { // 至少1秒間隔
                             breathCount++;
                             lastBreathTime = now;
-                            
-                            // 呼吸視覺化已移除，不需要動畫
                         }
                     }
                 }
@@ -732,6 +730,7 @@
             const sliceWidth = canvas.width / samples.length;
             const scale = CONFIG.WAVEFORM_SCALE || 1;
             let x = 0;
+            const EXP = CONFIG.WAVEFORM_EXP || 4; // 可調參數，建議從 1.2 ~ 4 之間試試看
 
             for (let i = 0; i < samples.length; i++) {
                 const sample = samples[i];
@@ -739,14 +738,15 @@
                 if (scale > 1) {
                     scaled = Math.log1p(sample * (scale - 1)) / Math.log(scale);
                 }
+                scaled = Math.sign(scaled) * Math.pow(Math.abs(scaled), EXP);
                 const y = (scaled * canvas.height / 2) + canvas.height / 2;
-                
+
                 if (i === 0) {
                     ctx.moveTo(x, y);
                 } else {
                     ctx.lineTo(x, y);
                 }
-                
+
                 x += sliceWidth;
             }
             
