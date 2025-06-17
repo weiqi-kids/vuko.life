@@ -66,9 +66,17 @@ async function updateLanguageContent() {
     if (binauralList) {
         binauralList.innerHTML = '';
         const options = content.binauralOptions || [];
-        options.forEach(text => {
+        options.forEach((text, idx) => {
             const li = document.createElement('li');
-            li.textContent = text;
+            const label = document.createElement('label');
+            const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = 'binauralPreset';
+            input.value = text;
+            if (idx === 0) input.checked = true;
+            label.appendChild(input);
+            label.appendChild(document.createTextNode(' ' + text));
+            li.appendChild(label);
             binauralList.appendChild(li);
         });
     }
