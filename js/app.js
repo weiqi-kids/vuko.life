@@ -459,9 +459,9 @@
             tempStatus.style.marginBottom = '15px';
             tempStatus.textContent = statusMessage;
             
-            const container = document.querySelector('.container');
             const configInfo = document.querySelector('.config-info');
-            container.insertBefore(tempStatus, configInfo.nextSibling);
+            const configContainer = configInfo.parentNode;
+            configContainer.insertBefore(tempStatus, configInfo.nextSibling);
             
             // 3秒後自動移除
             setTimeout(() => {
