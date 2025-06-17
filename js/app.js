@@ -34,7 +34,7 @@
             
             // 音樂內容選擇
             MUSIC_CONTENT: {
-                TYPE: 'nature',              // 'nature', 'ambient', 'meditation', 'white_noise', 'custom'
+                TYPE: 'none',               // 'none', 'nature', 'ambient', 'meditation', 'white_noise', 'custom'
                 CUSTOM_URL: '',              // 當 TYPE 為 'custom' 時使用的自訂URL
                 LOOP: true,                  // 是否循環播放
                 FADE_IN_DURATION: 3,         // 淡入時間 (秒)
@@ -393,7 +393,10 @@
         }
 
         // 獲取背景音檔URL
-        function getBackgroundAudioUrl() {
+       function getBackgroundAudioUrl() {
+            if (CONFIG.MUSIC_CONTENT.TYPE === 'none') {
+                return '';
+            }
             if (CONFIG.MUSIC_CONTENT.TYPE === 'custom') {
                 return CONFIG.MUSIC_CONTENT.CUSTOM_URL;
             }
