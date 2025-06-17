@@ -209,8 +209,9 @@
         .config-info {
             background: rgba(255, 255, 255, 0.7);
             border-radius: 10px;
-            padding: 20px;
-            border-left: 5px solid #667eea;
+            padding: 10px 20px 0px 20px;
+            border-left: 2px solid #667eea;
+            border-right: 2px solid #667eea;
         }
 
         .config-info h4 {
@@ -273,13 +274,6 @@
             }
         }
 
-        .config-item {
-            display: flex;
-            justify-content: space-between;
-            margin: 8px 0;
-            color: #666;
-        }
-
         .config-audio-container {
             display: grid;
             grid-template-columns: 2fr 1fr;
@@ -311,7 +305,7 @@
             cursor: pointer;
             transition: all 0.3s ease;
             margin-top: 15px;
-            width: 100%;
+            width: 90%;
         }
 
         .device-test-btn:hover:not(:disabled) {
