@@ -659,6 +659,50 @@
             status.style.display = 'block';
         }
 
+        // 在 adaptive-mode 區塊的提示文字閃爍
+        function flashAdaptiveMode() {
+            const items = document.querySelectorAll('.adaptive-mode li');
+            items.forEach(li => li.classList.add('flash'));
+            setTimeout(() => {
+                items.forEach(li => li.classList.remove('flash'));
+            }, 2000);
+        }
+
+        // 左右聲道播放測試
+        function playStereoTest(callback) {
+            const ctx = new (window.AudioContext || window.webkitAudioContext)();
+            const leftOsc = ctx.createOscillator();
+            const rightOsc = ctx.createOscillator();
+            const leftGain = ctx.createGain();
+            const rightGain = ctx.createGain();
+            const merger = ctx.createChannelMerger(2);
+
+            leftOsc.frequency.value = 440;
+            rightOsc.frequency.value = 440;
+
+            leftOsc.connect(leftGain).connect(merger, 0, 0);
+            rightOsc.connect(rightGain).connect(merger, 0, 1);
+            merger.connect(ctx.destination);
+
+            leftOsc.start();
+            rightOsc.start();
+
+            leftGain.gain.value = 0.5;
+            rightGain.gain.value = 0;
+            showStatus('左聲道測試中...', 'processing');
+            setTimeout(() => {
+                leftGain.gain.value = 0;
+                rightGain.gain.value = 0.5;
+                showStatus('右聲道測試中...', 'processing');
+                setTimeout(() => {
+                    leftOsc.stop();
+                    rightOsc.stop();
+                    ctx.close();
+                    if (callback) callback();
+                }, 1000);
+            }, 1000);
+        }
+
         // 呼吸檢測
         function startBreathDetection() {
             const canvas = document.getElementById('waveform');
@@ -889,16 +933,17 @@
         function testDevice() {
             const btn = document.getElementById('deviceTestBtn');
             const originalText = btn.innerHTML;
-            
+
             btn.disabled = true;
             btn.innerHTML = '🔄 測試中...';
-            
+            showStatus('麥克風測試中...', 'processing');
+
             // 測試麥克風
-            navigator.mediaDevices.getUserMedia({ 
+            navigator.mediaDevices.getUserMedia({
                 audio: {
                     sampleRate: 16000,
                     channelCount: 1
-                } 
+                }
             }).then(stream => {
                 // 簡單測試音訊輸入
                 const testContext = new (window.AudioContext || window.webkitAudioContext)();
@@ -932,26 +977,27 @@
                         
                         // 顯示測試結果
                         if (maxVolume > 10) {
-                            btn.innerHTML = '✅ 設備正常';
-                            btn.style.background = 'linear-gradient(45deg, #28a745, #20c997)';
+                            showStatus('麥克風正常', 'success');
                         } else {
-                            btn.innerHTML = '⚠️ 音量過低';
-                            btn.style.background = 'linear-gradient(45deg, #ffc107, #fd7e14)';
+                            showStatus('⚠️ 麥克風音量過低', 'error');
+                            flashAdaptiveMode();
                         }
-                        
-                        setTimeout(() => {
+
+                        playStereoTest(() => {
                             btn.innerHTML = originalText;
                             btn.style.background = 'linear-gradient(45deg, #28a745, #20c997)';
                             btn.disabled = false;
-                        }, 2000);
+                            showStatus('設備測試完成', 'success');
+                        });
                     }
                 }, 100);
-                
+
             }).catch(error => {
                 console.error('設備測試失敗:', error);
                 btn.innerHTML = '❌ 測試失敗';
                 btn.style.background = 'linear-gradient(45deg, #dc3545, #c82333)';
-                
+                flashAdaptiveMode();
+
                 setTimeout(() => {
                     btn.innerHTML = originalText;
                     btn.style.background = 'linear-gradient(45deg, #28a745, #20c997)';
