@@ -1,23 +1,73 @@
-[
-  {
-    "file": "https://yourcdn.com/audio/forest.mp3",
-    "title": "Forest Rain",
-    "tag": ["forest", "rain", "relax", "nature", "meditation"],
-    "desc": "Gentle rain in the forest, perfect for relaxation and healing.",
-    "embedding": [0.001, -0.003, 0.014]
-  },
-  {
-    "file": "https://yourcdn.com/audio/ocean.mp3",
-    "title": "Ocean Waves",
-    "tag": ["ocean", "waves", "calm", "beach"],
-    "desc": "Soothing ocean waves for deep sleep or relaxation.",
-    "embedding": [0.001, -0.003, 0.014]
-  },
-  {
-    "file": "https://yourcdn.com/audio/whitenoise.mp3",
-    "title": "White Noise",
-    "tag": ["white noise", "focus", "work", "sleep"],
-    "desc": "Classic white noise for masking distractions.",
-    "embedding": [0.001, -0.003, 0.014]
-  }
-]
+{
+  "nature": [
+    {
+      "name": "森林雨聲",
+      "name_en": "Forest Rain",
+      "url": "https://cdn.pixabay.com/audio/2022/03/10/audio_2f2e3908a4.mp3",
+      "keywords": ["森林", "雨聲", "下雨", "樹林", "forest", "rain", "trees", "senlin", "yusheng", "xiaoyu"],
+      "description": "深林中的細雨聲，帶來寧靜放鬆的感受"
+    },
+    {
+      "name": "海浪聲",
+      "name_en": "Ocean Waves",
+      "url": "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3",
+      "keywords": ["海浪", "海洋", "波浪", "海邊", "ocean", "waves", "sea", "beach", "hailang", "haiyang", "bolang"],
+      "description": "溫柔的海浪拍打聲，模擬海邊的寧靜氛圍"
+    },
+    {
+      "name": "鳥鳴聲",
+      "name_en": "Bird Songs",
+      "url": "https://cdn.pixabay.com/audio/2021/08/04/audio_12b0c7a7ce.mp3",
+      "keywords": ["鳥鳴", "鳥叫", "鳥聲", "自然", "birds", "singing", "chirping", "niaomine", "niaojiao", "ziran"],
+      "description": "清晨鳥兒的悅耳歌聲，充滿生機與活力"
+    }
+  ],
+  "ambient": [
+    {
+      "name": "環境音樂",
+      "name_en": "Ambient Music",
+      "url": "https://cdn.pixabay.com/audio/2022/02/11/audio_8be2d3a1c8.mp3",
+      "keywords": ["環境", "氛圍", "背景", "音樂", "ambient", "atmosphere", "background", "huanjing", "fenwei", "beinjing"],
+      "description": "柔和的環境音樂，創造舒適的背景氛圍"
+    },
+    {
+      "name": "太空音樂",
+      "name_en": "Space Music",
+      "url": "https://cdn.pixabay.com/audio/2021/12/06/audio_2b1e9d4c5a.mp3",
+      "keywords": ["太空", "宇宙", "星空", "科幻", "space", "cosmic", "universe", "sci-fi", "taikong", "yuzhou", "xingkong"],
+      "description": "神秘的太空音效，帶來無限想像空間"
+    }
+  ],
+  "meditation": [
+    {
+      "name": "冥想音樂",
+      "name_en": "Meditation Music",
+      "url": "https://cdn.pixabay.com/audio/2022/01/18/audio_7d5c8f9b2e.mp3",
+      "keywords": ["冥想", "靜心", "禪修", "放鬆", "meditation", "mindfulness", "zen", "relax", "mingxiang", "jingxin", "chanxiu"],
+      "description": "專為冥想設計的寧靜音樂，幫助深度放鬆"
+    },
+    {
+      "name": "療癒音樂",
+      "name_en": "Healing Music",
+      "url": "https://cdn.pixabay.com/audio/2021/11/21/audio_4a8c9e7f1b.mp3",
+      "keywords": ["療癒", "治療", "修復", "舒緩", "healing", "therapy", "soothing", "recovery", "liaoyu", "zhiliao", "shufu"],
+      "description": "具有療癒效果的音樂，撫慰心靈創傷"
+    }
+  ],
+  "white_noise": [
+    {
+      "name": "白噪音",
+      "name_en": "White Noise",
+      "url": "https://cdn.pixabay.com/audio/2022/06/15/audio_9c3f2a8d7e.mp3",
+      "keywords": ["白噪音", "噪音", "專注", "遮蔽", "white noise", "focus", "masking", "baizaoyin", "zhuanzhu", "zhebei"],
+      "description": "均勻的白噪音，幫助專注和遮蔽外界干擾"
+    },
+    {
+      "name": "粉紅噪音",
+      "name_en": "Pink Noise",
+      "url": "https://cdn.pixabay.com/audio/2021/09/30/audio_6b5e1f4a9c.mp3",
+      "keywords": ["粉紅噪音", "睡眠", "深層", "休息", "pink noise", "sleep", "deep", "rest", "fenhongzaoyin", "shuimian", "xiuxi"],
+      "description": "溫和的粉紅噪音，促進深層睡眠品質"
+    }
+  ]
+}
