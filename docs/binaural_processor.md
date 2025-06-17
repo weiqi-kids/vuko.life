@@ -19,38 +19,24 @@
 
 ## 輸入參數（Input）
 
-### 一、基礎呼吸與背景訊號（從麥克風音源來）
-
-| 參數名稱             | 類型           | 說明                 | 範例                 |
-| ---------------- | ------------ | ------------------ | ------------------ |
-| B\_user\_raw     | array<float> | 原始呼吸訊號時間序列         | \[0.01, 0.05, ...] |
-| B\_user          | float        | 即時呼吸頻率（Hz 或 BPM）   | 0.25               |
-| B\_user\_quality | float        | 呼吸偵測品質分數（0\~1）     | 0.93               |
-| B\_user\_stable  | bool         | 呼吸頻率是否穩定           | true               |
-| S\_breath\_raw   | array<float> | 呼吸聲原始波形資料          | \[0.01, 0.05, ...] |
-| N\_bg\_level     | float        | 背景噪音強度（0\~1）       | 0.35               |
-| N\_bg\_freq      | array<float> | 背景噪音主頻分佈（Hz）       | \[0.20, 0.50, ...] |
-| N\_bg\_quality   | float        | 收音品質評分（0\~1）       | 0.88               |
-| N\_bg\_corr      | float        | 呼吸訊號與背景噪音相關性（0\~1） | 0.25               |
-
 ---
+### 配置物件格式
 
-### 二、目標頻率與引導設定（從選擇音檔來）
-
-| 參數名稱                  | 類型           | 說明                | 範例                     |
-| --------------------- | ------------ | ----------------- | ---------------------- |
-| B\_target             | float        | 目標呼吸頻率（Hz 或 BPM）  | 0.20                   |
-| target\_curve         | array<float> | 進階模式下目標頻率曲線       | \[0.22, 0.21, 0.20...] |
-| context.mode          | string       | 當前情境模式            | "relax"                |
-| context.music\_type   | string       | 音樂/導引音類型          | "binaural"             |
-| context.base\_freq    | float        | 基礎導引音頻率（Hz）       | 528                    |
-| context.bg\_type      | string       | 背景音類型             | "forest"               |
-| context.bg\_weight    | float        | 背景音音量比例（0\~1）     | 0.4                    |
-| context.threshold     | float        | 偏離啟動導引門檻（Hz）      | 0.03                   |
-| context.max\_diff     | float        | 最大偏離容忍值           | 0.15                   |
-| context.accept\_range | array<float> | 可接受的目標頻率範圍        | \[0.18, 0.22]          |
-
----
+| 欄位 | 類型 | 說明 | 範例 |
+| --- | --- | --- | --- |
+| `breath.target` | float | 目標呼吸頻率 (Hz) | `0.2` |
+| `breath.curve` | array<float> | 呼吸頻率引導曲線 | `[0.18,0.19,0.2]` |
+| `breath.range` | array<float> | 可接受的呼吸頻率範圍 | `[0.18,0.22]` |
+| `breath.threshold` | float | 偏離觸發門檻 (Hz) | `0.02` |
+| `breath.max_diff` | float | 最大容許偏差 (Hz) | `0.07` |
+| `bgm.main_freq` | float | 背景音基頻 (Hz) | `741` |
+| `bgm.file` | string | 背景音檔案 URL | `https://.../rainforest.mp3` |
+| `bgm.type` | string | 背景音類型 | `rainforest` |
+| `bgm.volume` | float | 背景音音量比例 (0~1) | `0.5` |
+| `beat.init` | float | 拍頻初始值 (Hz) | `12` |
+| `beat.target` | float | 拍頻目標值 (Hz) | `8` |
+| `beat.curve` | array<float> | 拍頻引導曲線 | `[12,10,8]` |
+| `meta.version` | string | 設定檔版本號 | `"1.0"` |
 
 ## 輸出參數（Output）
 
