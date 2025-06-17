@@ -27,6 +27,8 @@
                     brainwave: '腦波類型：',
                     baseFreq: '基頻頻率：',
                     audioFile: '背景音檔：',
+                    headphones: '耳機：',
+                    microphone: '麥克風：',
                     volumeRatio: '音量比例：',
                     breathVisual: '呼吸視覺化',
                     realTimeData: '即時數據',

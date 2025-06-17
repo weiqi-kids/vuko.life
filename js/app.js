@@ -430,9 +430,9 @@
             document.getElementById('deviceTestBtn').innerHTML = `🎤 ${content.labels.deviceTest}`;
 
             // 配置標籤
-            document.getElementById('baseFreqLabel').textContent = content.labels.baseFreq;
             document.getElementById('audioFileLabel').textContent = content.labels.audioFile;
-            document.getElementById('volumeRatioLabel').textContent = content.labels.volumeRatio;
+            document.getElementById('headphonesLabel').textContent = content.labels.headphones;
+            document.getElementById('microphoneLabel').textContent = content.labels.microphone;
             
             // 更新標籤
             document.querySelector('.breath-visual h3').textContent = content.labels.breathVisual;
@@ -480,18 +480,9 @@
             const content = getLanguageContent();
             const audioUrl = getBackgroundAudioUrl();
 
-            document.getElementById('configBaseFreq').textContent = `${CONFIG.BASE_FREQUENCY} ${content.units.hz}`;
-
-            const binauralPct = Math.round(CONFIG.BINAURAL_VOLUME * 100);
-            const bgPct = Math.round((1 - CONFIG.BINAURAL_VOLUME) * 100);
-            if (content.volumeRatioDetail) {
-                document.getElementById('configVolumeRatio').textContent =
-                    content.volumeRatioDetail
-                        .replace('{binaural}', binauralPct)
-                        .replace('{background}', bgPct);
-            } else {
-                document.getElementById('configVolumeRatio').textContent = `${binauralPct}% / ${bgPct}%`;
-            }
+            // 預設耳機與麥克風資訊留空
+            document.getElementById('configHeadphones').textContent = '';
+            document.getElementById('configMicrophone').textContent = '';
             
             // 顯示音樂類型和國家資訊
             let audioInfo = content.units.none;
