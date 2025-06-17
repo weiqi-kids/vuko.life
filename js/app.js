@@ -6,7 +6,7 @@
             BACKGROUND_VOLUME: 0.7,          // 背景音音量 (0.0-1.0)
             SAMPLE_RATE: 16000,              // 取樣率
             ANALYSIS_DURATION: 10,           // 分析時間長度 (秒)
-            BREATH_DETECTION_SENSITIVITY: 1, // 呼吸檢測敏感度，值越高越不易觸發
+            BREATH_DETECTION_SENSITIVITY: 0.8, // 呼吸檢測敏感度，建議 0.5~1.5，值越高越不易觸發
             WAVEFORM_SCALE: 100,             // 呼吸波形對數放大倍率
             
             // 語言設定
@@ -643,10 +643,13 @@
                 if (breathingSamples.length > 10) {
                     const recent = breathingSamples.slice(-10);
                     const avgEnergy = recent.reduce((a, b) => a + b) / recent.length;
-                    // 依平均能量計算動態門檻值
-                    const threshold = avgEnergy * (1 + CONFIG.BREATH_DETECTION_SENSITIVITY);
 
-                    if (energy > threshold) {
+                    const variance = recent.reduce((sum, v) => sum + Math.pow(v - avgEnergy, 2), 0) / recent.length;
+                    const std = Math.sqrt(variance);
+                    // 依平均值與標準差計算動態門檻
+                    const threshold = avgEnergy + std * CONFIG.BREATH_DETECTION_SENSITIVITY;
+
+                    if (energy > threshold && energy > recent[recent.length - 1]) {
                         const now = Date.now();
                         if (now - lastBreathTime > 1000) { // 至少1秒間隔
                             breathCount++;
