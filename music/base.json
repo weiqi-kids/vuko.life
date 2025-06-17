@@ -1,0 +1,23 @@
+[
+  {
+    "file": "https://yourcdn.com/audio/forest.mp3",
+    "title": "Forest Rain",
+    "tag": ["forest", "rain", "relax", "nature", "meditation"],
+    "desc": "Gentle rain in the forest, perfect for relaxation and healing.",
+    "embedding": [0.001, -0.003, 0.014]
+  },
+  {
+    "file": "https://yourcdn.com/audio/ocean.mp3",
+    "title": "Ocean Waves",
+    "tag": ["ocean", "waves", "calm", "beach"],
+    "desc": "Soothing ocean waves for deep sleep or relaxation.",
+    "embedding": [0.001, -0.003, 0.014]
+  },
+  {
+    "file": "https://yourcdn.com/audio/whitenoise.mp3",
+    "title": "White Noise",
+    "tag": ["white noise", "focus", "work", "sleep"],
+    "desc": "Classic white noise for masking distractions.",
+    "embedding": [0.001, -0.003, 0.014]
+  }
+]

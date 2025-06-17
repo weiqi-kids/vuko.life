@@ -1,0 +1,26 @@
+{
+  "baseFrequency": 200,
+  "volume": {
+    "binaural": 0.3,
+    "background": 0.7
+  },
+  "sampleRate": 16000,
+  "defaultLanguage": "zh-tw",
+
+  "binaural": {
+    "beatThreshold": 3,
+    "beatMaxDiff": 10,
+    "interpolation": 0.4,
+    "targetMap": {
+      "relaxed": 6,
+      "focus": 10,
+      "tense": 14
+    }
+  },
+
+  "background": {
+    "ratio_relaxed": {"nature": 0.8, "white_noise": 0.2},
+    "ratio_focus":   {"nature": 0.5, "white_noise": 0.5},
+    "ratio_tense":   {"nature": 0.2, "white_noise": 0.8}
+  }
+}
