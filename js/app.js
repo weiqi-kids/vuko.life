@@ -406,17 +406,18 @@
         function updateLanguageContent() {
             const content = getLanguageContent();
             
-            // 更新主要標題
+            // 更新主要標題與頁面標題
+            document.title = content.title;
             document.querySelector('h1').textContent = content.title;
             document.querySelector('.adaptive-mode h3').textContent = content.subtitle;
-            document.querySelector('.adaptive-mode p').textContent = content.description;
-            
-            // 更新狀態描述
-            const listItems = document.querySelectorAll('.adaptive-mode li');
-            listItems[0].innerHTML = `<strong>${content.states.deep_relaxed}</strong> ${content.stateDescriptions.deep_relaxed}`;
-            listItems[1].innerHTML = `<strong>${content.states.relaxed}</strong> ${content.stateDescriptions.relaxed}`;
-            listItems[2].innerHTML = `<strong>${content.states.normal}</strong> ${content.stateDescriptions.normal}`;
-            listItems[3].innerHTML = `<strong>${content.states.tense}</strong> ${content.stateDescriptions.tense}`;
+
+            // 更新使用說明
+            const headphoneItem = document.getElementById('instructionHeadphones');
+            const micItem = document.getElementById('instructionMicrophone');
+            if (headphoneItem && micItem && content.instructions) {
+                headphoneItem.innerHTML = content.instructions.headphones;
+                micItem.innerHTML = content.instructions.microphone;
+            }
             
             // 更新配置區域
             document.getElementById('systemConfigTitle').textContent = content.labels.systemConfig;
@@ -427,6 +428,11 @@
             
             // 更新設備測試按鈕
             document.getElementById('deviceTestBtn').innerHTML = `🎤 ${content.labels.deviceTest}`;
+
+            // 配置標籤
+            document.getElementById('baseFreqLabel').textContent = content.labels.baseFreq;
+            document.getElementById('audioFileLabel').textContent = content.labels.audioFile;
+            document.getElementById('volumeRatioLabel').textContent = content.labels.volumeRatio;
             
             // 更新標籤
             document.querySelector('.breath-visual h3').textContent = content.labels.breathVisual;
@@ -473,8 +479,19 @@
         function initConfigDisplay() {
             const content = getLanguageContent();
             const audioUrl = getBackgroundAudioUrl();
-            
+
             document.getElementById('configBaseFreq').textContent = `${CONFIG.BASE_FREQUENCY} ${content.units.hz}`;
+
+            const binauralPct = Math.round(CONFIG.BINAURAL_VOLUME * 100);
+            const bgPct = Math.round((1 - CONFIG.BINAURAL_VOLUME) * 100);
+            if (content.volumeRatioDetail) {
+                document.getElementById('configVolumeRatio').textContent =
+                    content.volumeRatioDetail
+                        .replace('{binaural}', binauralPct)
+                        .replace('{background}', bgPct);
+            } else {
+                document.getElementById('configVolumeRatio').textContent = `${binauralPct}% / ${bgPct}%`;
+            }
             
             // 顯示音樂類型和國家資訊
             let audioInfo = content.units.none;

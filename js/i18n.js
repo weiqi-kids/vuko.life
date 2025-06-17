@@ -27,6 +27,11 @@
                     normal: '(15-20次/分)：Alpha波 10Hz - 專注與平靜',
                     tense: '(&gt;20次/分)：Beta波 14Hz - 提升專注力'
                 },
+                instructions: {
+                    headphones: '請使用<strong>雙聲道耳機</strong>，這樣才能達成腦中拍頻的效果。',
+                    microphone: '若您同意使用您的<strong>麥克風</strong>，我們會嘗試監測狀態，引導你進入不同的狀態。'
+                },
+                volumeRatioDetail: '拍頻 {binaural}% / 背景音 {background}%',
                 labels: {
                     breathRate: '呼吸速率：',
                     currentState: '當前狀態：',
@@ -83,6 +88,11 @@
                     normal: '(15-20次/分)：Alpha波 10Hz - 专注与平静',
                     tense: '(&gt;20次/分)：Beta波 14Hz - 提升专注力'
                 },
+                instructions: {
+                    headphones: '请使用<strong>双声道耳机</strong>，这样才能达成脑中拍频的效果。',
+                    microphone: '若您同意使用您的<strong>麦克风</strong>，我们会尝试监测状态，引导你进入不同的状态。'
+                },
+                volumeRatioDetail: '拍频 {binaural}% / 背景音 {background}%',
                 labels: {
                     breathRate: '呼吸速率：',
                     currentState: '当前状态：',
@@ -139,6 +149,11 @@
                     normal: '(15-20/min): Alpha 10Hz - Focus & calm',
                     tense: '(&gt;20/min): Beta 14Hz - Enhanced concentration'
                 },
+                instructions: {
+                    headphones: 'Please use <strong>stereo headphones</strong> to achieve the binaural effect.',
+                    microphone: 'If you allow the use of your <strong>microphone</strong>, we will attempt to monitor your state and guide you.'
+                },
+                volumeRatioDetail: 'Binaural {binaural}% / Background {background}%',
                 labels: {
                     breathRate: 'Breath Rate:',
                     currentState: 'Current State:',
@@ -195,6 +210,11 @@
                     normal: '(15-20回/分)：アルファ波 10Hz - 集中と平静',
                     tense: '(&gt;20回/分)：ベータ波 14Hz - 集中力向上'
                 },
+                instructions: {
+                    headphones: '<strong>ステレオヘッドホン</strong>を使用すると、脳内ビート効果が得られます。',
+                    microphone: '<strong>マイク</strong>の使用を許可すると、状態をモニタリングして導きます。'
+                },
+                volumeRatioDetail: 'バイノーラル {binaural}% / 背景音 {background}%',
                 labels: {
                     breathRate: '呼吸数：',
                     currentState: '現在の状態：',
@@ -251,6 +271,11 @@
                     normal: '(15-20회/분): 알파파 10Hz - 집중과 평온',
                     tense: '(&gt;20회/분): 베타파 14Hz - 집중력 향상'
                 },
+                instructions: {
+                    headphones: '<strong>스테레오 헤드폰</strong>을 사용해야 두뇌 비트 효과를 얻을 수 있습니다.',
+                    microphone: '<strong>마이크</strong> 사용을 허용하면 상태를 모니터링하여 안내합니다.'
+                },
+                volumeRatioDetail: '바이노럴 {binaural}% / 배경음 {background}%',
                 labels: {
                     breathRate: '호흡 속도:',
                     currentState: '현재 상태:',
@@ -307,6 +332,11 @@
                     normal: '(15-20/min): Alpha 10Hz - Enfoque y calma',
                     tense: '(>20/min): Beta 14Hz - Mayor concentración'
                 },
+                instructions: {
+                    headphones: 'Por favor utiliza <strong>auriculares estéreo</strong> para lograr el efecto binaural.',
+                    microphone: 'Si permites el uso de tu <strong>micrófono</strong>, intentaremos monitorizar tu estado y guiarte.'
+                },
+                volumeRatioDetail: 'Binaural {binaural}% / Fondo {background}%',
                 labels: {
                     breathRate: 'Frecuencia respiratoria:',
                     currentState: 'Estado actual:',
@@ -363,6 +393,11 @@
                     normal: '(15-20/min): Alpha 10Hz - Foco e calma',
                     tense: '(>20/min): Beta 14Hz - Concentração aprimorada'
                 },
+                instructions: {
+                    headphones: 'Por favor use <strong>fones de ouvido estéreo</strong> para alcançar o efeito binaural.',
+                    microphone: 'Se permitir o uso do seu <strong>microfone</strong>, tentaremos monitorar seu estado e orientá-lo.'
+                },
+                volumeRatioDetail: 'Binaural {binaural}% / Fundo {background}%',
                 labels: {
                     breathRate: 'Taxa de respiração:',
                     currentState: 'Estado atual:',
