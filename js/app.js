@@ -77,7 +77,6 @@
         let backgroundGainNode;
         let currentBeatFreq = 8;
         let currentLanguage = CONFIG.FALLBACK_LANGUAGE;
-        let gaInitialized = false;
         let userCountry = null;
         let selectedMusicItem = null;
         let allMusicItems = [];
@@ -397,39 +396,6 @@
             }
         }
 
-        // 初始化 Google Analytics
-        function initGoogleAnalytics() {
-            if (!CONFIG.GOOGLE_ANALYTICS.ENABLE_TRACKING || !CONFIG.GOOGLE_ANALYTICS.GA_ID || gaInitialized) {
-                return;
-            }
-
-            // 載入 GA4 腳本
-            const script1 = document.createElement('script');
-            script1.async = true;
-            script1.src = `https://www.googletagmanager.com/gtag/js?id=${CONFIG.GOOGLE_ANALYTICS.GA_ID}`;
-            document.head.appendChild(script1);
-
-            // 初始化 GA4
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            window.gtag = gtag;
-            gtag('js', new Date());
-            gtag('config', CONFIG.GOOGLE_ANALYTICS.GA_ID);
-
-            gaInitialized = true;
-        }
-
-        // 發送 GA 事件
-        function trackEvent(eventName, parameters = {}) {
-            if (!CONFIG.GOOGLE_ANALYTICS.ENABLE_TRACKING || !window.gtag) {
-                return;
-            }
-
-            window.gtag('event', eventName, {
-                event_category: 'binaural_beats',
-                ...parameters
-            });
-        }
 
         // 獲取當前語言內容
         function getLanguageContent() {
