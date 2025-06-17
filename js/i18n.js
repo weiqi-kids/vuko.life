@@ -84,9 +84,6 @@ async function updateLanguageContent() {
     const baseFreqLabel = document.getElementById('baseFreqLabel');
     if (baseFreqLabel) baseFreqLabel.textContent = labels.baseFreq || '';
 
-    const audioFileLabel = document.getElementById('audioFileLabel');
-    if (audioFileLabel) audioFileLabel.textContent = labels.audioFile || '';
-
     const volumeRatioLabel = document.getElementById('volumeRatioLabel');
     if (volumeRatioLabel) volumeRatioLabel.textContent = labels.volumeRatio || '';
 

@@ -6,7 +6,7 @@
             BACKGROUND_VOLUME: 0.7,          // 背景音音量 (0.0-1.0)
             SAMPLE_RATE: 16000,              // 取樣率
             ANALYSIS_DURATION: 10,           // 分析時間長度 (秒)
-            BREATH_DETECTION_SENSITIVITY: 0.8, // 呼吸檢測敏感度，建議 0.5~1.5
+            BREATH_DETECTION_SENSITIVITY: 0.8, // 呼吸檢測敏感度，建議 0.5~1.5，值越高越不易觸發
             WAVEFORM_SCALE: 100,             // 呼吸波形對數放大倍率
             
             // 語言設定
@@ -347,7 +347,6 @@
                         });
                     }
 
-                    console.log(`🌍 自動偵測語言: ${userCountry} -> ${currentLanguage}`);
                     resolve(currentLanguage);
 
                 }).catch(error => {
@@ -413,10 +412,6 @@
         function initConfigDisplay() {
             const content = getLanguageContent();
             const audioUrl = getBackgroundAudioUrl();
-
-            // 預設耳機與麥克風資訊留空
-            document.getElementById('configHeadphones').textContent = '';
-            document.getElementById('configMicrophone').textContent = '';
             
             // 顯示音樂類型和國家資訊
             let audioInfo = content.units.none;
@@ -432,43 +427,6 @@
             if (userCountry) {
                 audioInfo += ` (${userCountry})`;
             }
-            
-            document.getElementById('configAudioFile').textContent = audioInfo;
-        }
-
-        // 顯示語言偵測狀態
-        function showLanguageDetectionStatus() {
-            const content = getLanguageContent();
-            let statusMessage = '';
-            
-            if (CONFIG.LANGUAGE === 'auto') {
-                if (userCountry) {
-                    statusMessage = `🌍 已自動偵測: ${userCountry} → ${currentLanguage}`;
-                } else {
-                    statusMessage = `🌐 使用瀏覽器語言: ${currentLanguage}`;
-                }
-            } else {
-                statusMessage = `⚙️ 手動設定語言: ${currentLanguage}`;
-            }
-            
-            // 在狀態區域顯示語言偵測結果
-            const tempStatus = document.createElement('div');
-            tempStatus.className = 'status success';
-            tempStatus.style.fontSize = '14px';
-            tempStatus.style.padding = '10px';
-            tempStatus.style.marginBottom = '15px';
-            tempStatus.textContent = statusMessage;
-            
-            const configInfo = document.querySelector('.config-info');
-            const configContainer = configInfo.parentNode;
-            configContainer.insertBefore(tempStatus, configInfo.nextSibling);
-            
-            // 3秒後自動移除
-            setTimeout(() => {
-                if (tempStatus.parentNode) {
-                    tempStatus.parentNode.removeChild(tempStatus);
-                }
-            }, 3000);
         }
 
         // 初始化 Web Audio API
@@ -685,6 +643,7 @@
                 if (breathingSamples.length > 10) {
                     const recent = breathingSamples.slice(-10);
                     const avgEnergy = recent.reduce((a, b) => a + b) / recent.length;
+
                     const variance = recent.reduce((sum, v) => sum + Math.pow(v - avgEnergy, 2), 0) / recent.length;
                     const std = Math.sqrt(variance);
                     // 依平均值與標準差計算動態門檻
@@ -1002,7 +961,7 @@
             detectUserLanguage().then(async () => {
                 await updateLanguageContent();
                 initConfigDisplay();
-                showLanguageDetectionStatus();
+                getLanguageContent();
             }).catch(async error => {
                 console.error('語言偵測失敗:', error);
                 await updateLanguageContent();

@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1 id="mainTitle"></h1>
-        
+
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
@@ -34,22 +34,12 @@
             <div class="config-info">
                 <h4 id="systemConfigTitle"></h4>
                 <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <div class="config-item">
-                    <span id="audioFileLabel"></span>
-                    <span id="configAudioFile">無</span>
-                </div>
-                <div class="config-item">
-                    <span id="headphonesLabel"></span>
-                    <span id="configHeadphones"></span>
-                </div>
-                <div class="config-item">
-                    <span id="microphoneLabel"></span>
-                    <span id="configMicrophone"></span>
-                </div>
                 <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
             </div>
         </div>
 
+        <div id="status" class="status" style="display: none;"></div>
+        
         <div class="breathing-monitor">
             <div class="breath-visual">
                 <h3></h3>
@@ -68,8 +58,6 @@
         <div class="control-buttons">
             <button onclick="toggleAdaptiveMode()" id="monitorToggleBtn"></button>
         </div>
-
-        <div id="status" class="status" style="display: none;"></div>
     </div>
 
     <script src="js/i18n.js"></script>
