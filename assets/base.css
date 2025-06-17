@@ -223,8 +223,10 @@
             margin-bottom: 15px;
         }
 
-        .binaural-options li {
+        .binaural-options label {
+            display: block;
             color: #666;
+            margin-bottom: 5px;
         }
 
         .config-item {
