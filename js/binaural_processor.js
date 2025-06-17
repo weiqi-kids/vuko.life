@@ -122,7 +122,3 @@ function processBinaural(input) {
 
     return { F_beat, V, R_bg, F_base, warning, log };
 }
-
-if (typeof module !== 'undefined') {
-    module.exports = { processBinaural };
-}
