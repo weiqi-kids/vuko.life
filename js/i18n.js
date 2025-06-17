@@ -45,8 +45,8 @@
                     deviceTest: '設備測試'
                 },
                 buttons: {
-                    start: '🎙️ 開始呼吸監測',
-                    stop: '⏹️ 停止監測'
+                    start: '🎶 開始',
+                    stop: '🍂停止'
                 },
                 status: {
                     monitoring: '🎙️ 呼吸監測中... 請保持自然呼吸',
@@ -101,8 +101,8 @@
                     deviceTest: '设备测试'
                 },
                 buttons: {
-                    start: '🎙️ 开始呼吸监测',
-                    stop: '⏹️ 停止监测'
+                    start: '🎶 开始',
+                    stop: '🍂停止'
                 },
                 status: {
                     monitoring: '🎙️ 呼吸监测中... 请保持自然呼吸',
@@ -157,8 +157,8 @@
                     deviceTest: 'Device Test'
                 },
                 buttons: {
-                    start: '🎙️ Start Monitoring',
-                    stop: '⏹️ Stop Monitoring'
+                    start: '🎶 Start',
+                    stop: '🍂 Stop'
                 },
                 status: {
                     monitoring: '🎙️ Monitoring breathing... Please breathe naturally',
@@ -213,8 +213,8 @@
                     deviceTest: 'デバイステスト'
                 },
                 buttons: {
-                    start: '🎙️ モニタリング開始',
-                    stop: '⏹️ モニタリング停止'
+                    start: '🎶 開始',
+                    stop: '🍂停止'
                 },
                 status: {
                     monitoring: '🎙️ 呼吸をモニタリング中... 自然に呼吸してください',
@@ -269,8 +269,8 @@
                     deviceTest: '장치 테스트'
                 },
                 buttons: {
-                    start: '🎙️ 모니터링 시작',
-                    stop: '⏹️ 모니터링 중지'
+                    start: '🎶 시작',
+                    stop: '🍂중지'
                 },
                 status: {
                     monitoring: '🎙️ 호흡 모니터링 중... 자연스럽게 호흡하세요',
@@ -325,8 +325,8 @@
                     deviceTest: 'Prueba de dispositivo'
                 },
                 buttons: {
-                    start: '🎙️ Iniciar monitoreo',
-                    stop: '⏹️ Detener monitoreo'
+                    start: '🎶 Iniciar',
+                    stop: '🍂Detener'
                 },
                 status: {
                     monitoring: '🎙️ Monitoreando respiración... Respira naturalmente',
@@ -381,8 +381,8 @@
                     deviceTest: 'Teste do dispositivo'
                 },
                 buttons: {
-                    start: '🎙️ Iniciar monitoramento',
-                    stop: '⏹️ Parar monitoramento'
+                    start: '🎶 Iniciar',
+                    stop: '🍂Parar'
                 },
                 status: {
                     monitoring: '🎙️ Monitorando respiração... Respire naturalmente',

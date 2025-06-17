@@ -471,9 +471,9 @@
             document.querySelectorAll('.stat-label')[1].textContent = content.labels.currentState;
             document.querySelectorAll('.stat-label')[2].textContent = content.labels.brainwave;
             
-            // 更新按鈕
-            document.getElementById('startAdaptiveBtn').textContent = content.buttons.start;
-            document.getElementById('stopAdaptiveBtn').textContent = content.buttons.stop;
+            // 更新按鈕文字依狀態
+            const toggleBtn = document.getElementById('monitorToggleBtn');
+            toggleBtn.textContent = isRecording ? content.buttons.stop : content.buttons.start;
             
             // 重置統計顯示
             resetStatsDisplay();
@@ -579,6 +579,15 @@
             });
         }
 
+        // 切換監測狀態
+        function toggleAdaptiveMode() {
+            if (isRecording) {
+                stopAdaptiveMode();
+            } else {
+                startAdaptiveMode();
+            }
+        }
+
         // 開始智能呼吸監測模式
         function startAdaptiveMode() {
             initAudioContext().then(() => {
@@ -620,10 +629,9 @@
                     loadBackgroundAudio(audioUrl);
                 }
                 
-                document.getElementById('startAdaptiveBtn').disabled = true;
-                document.getElementById('stopAdaptiveBtn').disabled = false;
-                
                 const content = getLanguageContent();
+                const toggleBtn = document.getElementById('monitorToggleBtn');
+                toggleBtn.textContent = content.buttons.stop;
                 showStatus(content.status.monitoring, 'processing');
                 
             }).catch(error => {
@@ -667,14 +675,13 @@
                 }, fadeOutDuration * 1000);
             }
 
-            document.getElementById('startAdaptiveBtn').disabled = false;
-            document.getElementById('stopAdaptiveBtn').disabled = true;
+            const content = getLanguageContent();
+            const toggleBtn = document.getElementById('monitorToggleBtn');
+            toggleBtn.textContent = content.buttons.start;
             document.getElementById('breathCircle').classList.remove('breathing');
 
             // 重置統計顯示
             resetStatsDisplay();
-
-            const content = getLanguageContent();
             showStatus(content.status.stopped, 'success');
         }
 
@@ -1036,7 +1043,7 @@
             if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
                 const content = getLanguageContent();
                 showStatus(content.status.unsupported, 'error');
-                document.getElementById('startAdaptiveBtn').disabled = true;
+                document.getElementById('monitorToggleBtn').disabled = true;
                 document.getElementById('deviceTestBtn').disabled = true;
             }
         });
