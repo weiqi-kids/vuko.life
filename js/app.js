@@ -620,6 +620,7 @@
             let breathingSamples = [];
             let lastBreathTime = Date.now();
             let breathCount = 0;
+            let lastLogTime = Date.now();
             
             function detectBreath() {
                 if (!isRecording) return;
@@ -638,21 +639,27 @@
                 if (breathingSamples.length > 300) { // 保持約10秒的數據
                     breathingSamples.shift();
                 }
-                
+
                 // 繪製波形
                 drawWaveform(ctx, canvas, breathingSamples);
-                
-                // 檢測呼吸峰值
-                if (breathingSamples.length > 10) {
-                    const recent = breathingSamples.slice(-10);
-                    const avgEnergy = recent.reduce((a, b) => a + b) / recent.length;
 
-                    const variance = recent.reduce((sum, v) => sum + Math.pow(v - avgEnergy, 2), 0) / recent.length;
+                // 檢測呼吸峰值：使用前 10 個樣本計算門檻，
+                // 以前一個樣本作為峰值候選
+                if (breathingSamples.length > 12) {
+                    const recent = breathingSamples.slice(-12);
+                    const analysis = recent.slice(0, -2); // 排除最新兩個樣本
+                    const avgEnergy = analysis.reduce((a, b) => a + b, 0) / analysis.length;
+
+                    const variance = analysis.reduce((sum, v) => sum + Math.pow(v - avgEnergy, 2), 0) / analysis.length;
                     const std = Math.sqrt(variance);
                     // 依平均值與標準差計算動態門檻
                     const threshold = avgEnergy + std * CONFIG.BREATH_DETECTION_SENSITIVITY;
 
-                    if (energy > threshold && energy > recent[recent.length - 1]) {
+                    const prevPrevEnergy = recent[recent.length - 2];
+                    const prevEnergy = recent[recent.length - 1];
+
+                    // 前一個樣本高於兩側且超過門檻視為峰值
+                    if (prevEnergy > threshold && prevEnergy > prevPrevEnergy && prevEnergy > energy) {
                         const now = Date.now();
                         if (now - lastBreathTime > 1000) { // 至少1秒間隔
                             breathCount++;
@@ -666,6 +673,18 @@
                     const breathRate = (breathCount / (breathingSamples.length / 30)) * 60;
                     updateBreathingStats(breathRate);
                     breathCount = Math.floor(breathCount * 0.8); // 衰減舊數據
+                }
+
+                // 每10秒輸出一次除錯資訊
+                if (Date.now() - lastLogTime >= 10000) {
+                    const breathRate = (breathCount / (breathingSamples.length / 30)) * 60;
+                    console.log('Breath debug', {
+                        time: new Date().toISOString(),
+                        breathRate: breathRate.toFixed(1),
+                        breathCount,
+                        samples: [...breathingSamples]
+                    });
+                    lastLogTime = Date.now();
                 }
                 
                 requestAnimationFrame(detectBreath);
