@@ -14,7 +14,7 @@
     "volumeRatio": "音量比例：",
     "breathVisual": "呼吸視覺化",
     "realTimeData": "即時數據",
-    "systemConfig": "🔧 系統配置",
+    "systemConfig": "雙耳拍頻設置",
     "audioSearch": "🎵 背景音樂搜尋",
     "searchPlaceholder": "搜尋音樂... (例如: 森林、海浪、冥想)",
     "noResults": "找不到相關音樂",
@@ -36,5 +36,13 @@
     "perMin": "次/分",
     "hz": "Hz",
     "none": "無"
-  }
+  },
+  "binauralOptions": [
+    "專注",
+    "冥想",
+    "舒曼共振",
+    "睡眠",
+    "提神",
+    "激發靈感"
+  ]
 }
