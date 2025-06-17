@@ -62,6 +62,17 @@ async function updateLanguageContent() {
     document.getElementById('musicSearchInput').placeholder = labels.searchPlaceholder || '';
     document.getElementById('deviceTestBtn').innerHTML = `🎤 ${labels.deviceTest || ''}`;
 
+    const binauralList = document.getElementById('binauralOptionsList');
+    if (binauralList) {
+        binauralList.innerHTML = '';
+        const options = content.binauralOptions || [];
+        options.forEach(text => {
+            const li = document.createElement('li');
+            li.textContent = text;
+            binauralList.appendChild(li);
+        });
+    }
+
     const baseFreqLabel = document.getElementById('baseFreqLabel');
     if (baseFreqLabel) baseFreqLabel.textContent = labels.baseFreq || '';
 
