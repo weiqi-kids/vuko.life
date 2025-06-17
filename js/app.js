@@ -590,15 +590,8 @@
                     });
                 }
                 
-                // 取得麥克風權限
-                return navigator.mediaDevices.getUserMedia({ 
-                    audio: {
-                        sampleRate: CONFIG.SAMPLE_RATE,
-                        channelCount: 1,
-                        echoCancellation: true,
-                        noiseSuppression: true
-                    } 
-                });
+                // 取得麥克風權限 - 使用簡化的音訊設定以提高相容性
+                return navigator.mediaDevices.getUserMedia({ audio: true });
             }).then(stream => {
                 mediaStream = stream;
                 
@@ -643,89 +636,26 @@
         // 停止智能模式
         function stopAdaptiveMode() {
             isRecording = false;
-            
-            // Google Analytics 追蹤
-            if (CONFIG.GOOGLE_ANALYTICS.TRACK_EVENTS.STOP_MONITORING) {
-                trackEvent('stop_monitoring', {
-                    language: currentLanguage
-                });
-            }
-            
-            if (mediaStream) {
-                mediaStream.getTracks().forEach(track => track.stop());
-            }
-            
-            // 停止拍頻
-            stopBinauralBeats();
-            
-            // 停止背景音樂（帶淡出效果）
-            if (backgroundAudioSource && backgroundGainNode) {
-                const fadeOutDuration = CONFIG.MUSIC_CONTENT.FADE_OUT_DURATION;
-                backgroundGainNode.gain.exponentialRampToValueAtTime(
-                    0.001, 
-                    audioContext.currentTime + fadeOutDuration
-                );
-                setTimeout(() => {
-                    if (backgroundAudioSource) {
-                        backgroundAudioSource.stop();
-                        backgroundAudioSource = null;
-                        backgroundGainNode = null;
-                    }
-                }, fadeOutDuration * 1000);
-            }
-            
-            document.getElementById('startAdaptiveBtn').disabled = false;
-            document.getElementById('stopAdaptiveBtn').disabled = true;
-            
-            // 重置統計顯示
-            resetStatsDisplay();
-            
-            const content = getLanguageContent();
-            showStatus(content.status.stopped, 'success');
-        }                startBinauralBeats();
-                
-                // 載入背景音檔（如果有配置）
-                const audioUrl = getBackgroundAudioUrl();
-                if (audioUrl) {
-                    await loadBackgroundAudio(audioUrl);
-                }
-                
-                document.getElementById('startAdaptiveBtn').disabled = true;
-                document.getElementById('stopAdaptiveBtn').disabled = false;
-                
-                const content = getLanguageContent();
-                showStatus(content.status.monitoring, 'processing');
-                
-            } catch (error) {
-                console.error('啟動失敗:', error);
-                const content = getLanguageContent();
-                showStatus(`${content.status.error}${error.message}`, 'error');
-            }
-        }
 
-        // 停止智能模式
-        function stopAdaptiveMode() {
-            isRecording = false;
-            
             // Google Analytics 追蹤
             if (CONFIG.GOOGLE_ANALYTICS.TRACK_EVENTS.STOP_MONITORING) {
                 trackEvent('stop_monitoring', {
                     language: currentLanguage
                 });
             }
-            
+
             if (mediaStream) {
                 mediaStream.getTracks().forEach(track => track.stop());
             }
-            
+
             // 停止拍頻
             stopBinauralBeats();
-            
+
             // 停止背景音樂（帶淡出效果）
             if (backgroundAudioSource && backgroundGainNode) {
                 const fadeOutDuration = CONFIG.MUSIC_CONTENT.FADE_OUT_DURATION;
                 backgroundGainNode.gain.exponentialRampToValueAtTime(
-                    0.001, 
+                    0.001,
                     audioContext.currentTime + fadeOutDuration
                 );
                 setTimeout(() => {
@@ -736,14 +666,14 @@
                     }
                 }, fadeOutDuration * 1000);
             }
-            
+
             document.getElementById('startAdaptiveBtn').disabled = false;
             document.getElementById('stopAdaptiveBtn').disabled = true;
             document.getElementById('breathCircle').classList.remove('breathing');
-            
+
             // 重置統計顯示
             resetStatsDisplay();
-            
+
             const content = getLanguageContent();
             showStatus(content.status.stopped, 'success');
         }
@@ -801,7 +731,6 @@
                             lastBreathTime = now;
                             
                             // 呼吸視覺化已移除，不需要動畫
-                        }
                         }
                     }
                 }
