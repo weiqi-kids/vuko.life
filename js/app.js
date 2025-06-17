@@ -620,7 +620,10 @@
             let breathingSamples = [];
             let lastBreathTime = Date.now();
             let breathCount = 0;
+
+            let breathTimestamps = [];
             let lastLogTime = Date.now();
+            const ANALYSIS_WINDOW = 24; // 約1秒的樣本數
             
             function detectBreath() {
                 if (!isRecording) return;
@@ -635,17 +638,22 @@
                 }
                 energy = Math.sqrt(energy / dataArray.length);
 
-                // 前一個樣本作為峰值候選
-                if (breathingSamples.length >= 2) {
+
+                // 最近樣本僅用於比較，計算門檻時排除
+                if (breathingSamples.length >= ANALYSIS_WINDOW + 2) {
                     const prevEnergy = breathingSamples[breathingSamples.length - 1];
                     const prevPrevEnergy = breathingSamples[breathingSamples.length - 2];
 
-                    const start = Math.max(0, breathingSamples.length - 12);
+                    const start = Math.max(0, breathingSamples.length - ANALYSIS_WINDOW - 2);
                     const analysis = breathingSamples.slice(start, breathingSamples.length - 2);
 
-                    if (analysis.length > 0) {
-                        const avgEnergy = analysis.reduce((a, b) => a + b, 0) / analysis.length;
-                        const variance = analysis.reduce((sum, v) => sum + Math.pow(v - avgEnergy, 2), 0) / analysis.length;
+                    if (analysis.length) {
+                        const sorted = [...analysis].sort((a, b) => a - b);
+                        const trim = Math.floor(sorted.length * 0.2);
+                        const trimmed = sorted.slice(0, sorted.length - trim);
+                        const avgEnergy = trimmed.reduce((a, b) => a + b, 0) / trimmed.length;
+                        const variance = trimmed.reduce((sum, v) => sum + Math.pow(v - avgEnergy, 2), 0) / trimmed.length;
+
                         const std = Math.sqrt(variance);
                         const threshold = avgEnergy + std * CONFIG.BREATH_DETECTION_SENSITIVITY;
 
@@ -655,6 +663,8 @@
                             if (now - lastBreathTime > 1000) {
                                 breathCount++;
                                 lastBreathTime = now;
+
+                                breathTimestamps.push(now);
                             }
                         }
                     }
@@ -670,9 +680,24 @@
                 
                 // 每5秒計算一次呼吸速率
                 if (breathingSamples.length % 150 === 0) {
-                    const breathRate = (breathCount / (breathingSamples.length / 30)) * 60;
+                    const now = Date.now();
+                    breathTimestamps = breathTimestamps.filter(t => now - t <= 60000);
+                    const breathRate = breathTimestamps.length; // 60 秒內的次數即 BPM
                     updateBreathingStats(breathRate);
-                    breathCount = Math.floor(breathCount * 0.8); // 衰減舊數據
+                }
+
+                // 每10秒輸出一次除錯資訊
+                if (Date.now() - lastLogTime >= 10000) {
+                    const now = Date.now();
+                    breathTimestamps = breathTimestamps.filter(t => now - t <= 60000);
+                    const breathRate = breathTimestamps.length;
+                    console.log('Breath debug', {
+                        time: new Date().toISOString(),
+                        breathRate: breathRate.toFixed(1),
+                        breathCount,
+                        samples: [...breathingSamples]
+                    });
+                    lastLogTime = Date.now();
                 }
 
                 // 每10秒輸出一次除錯資訊
