@@ -396,9 +396,6 @@
             }
         }
 
-
-        // 語言相關函式已移至 i18n.js
-
         // 獲取背景音檔URL
         function getBackgroundAudioUrl() {
             if (CONFIG.MUSIC_CONTENT.TYPE === 'custom') {
@@ -420,18 +417,9 @@
             const content = getLanguageContent();
             const audioUrl = getBackgroundAudioUrl();
 
-            document.getElementById('configBaseFreq').textContent = `${CONFIG.BASE_FREQUENCY} ${content.units.hz}`;
-
-            const binauralPct = Math.round(CONFIG.BINAURAL_VOLUME * 100);
-            const bgPct = Math.round((1 - CONFIG.BINAURAL_VOLUME) * 100);
-            if (content.volumeRatioDetail) {
-                document.getElementById('configVolumeRatio').textContent =
-                    content.volumeRatioDetail
-                        .replace('{binaural}', binauralPct)
-                        .replace('{background}', bgPct);
-            } else {
-                document.getElementById('configVolumeRatio').textContent = `${binauralPct}% / ${bgPct}%`;
-            }
+            // 預設耳機與麥克風資訊留空
+            document.getElementById('configHeadphones').textContent = '';
+            document.getElementById('configMicrophone').textContent = '';
             
             // 顯示音樂類型和國家資訊
             let audioInfo = content.units.none;
