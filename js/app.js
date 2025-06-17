@@ -6,7 +6,7 @@
             BACKGROUND_VOLUME: 0.7,          // 背景音音量 (0.0-1.0)
             SAMPLE_RATE: 16000,              // 取樣率
             ANALYSIS_DURATION: 10,           // 分析時間長度 (秒)
-            BREATH_DETECTION_SENSITIVITY: 1, // 呼吸檢測敏感度 (0.0-1.0)
+            BREATH_DETECTION_SENSITIVITY: 1, // 呼吸檢測敏感度，值越高越不易觸發
             WAVEFORM_SCALE: 100,             // 呼吸波形對數放大倍率
             
             // 語言設定
@@ -516,7 +516,8 @@
                 const source = audioContext.createMediaStreamSource(mediaStream);
                 analyser = audioContext.createAnalyser();
                 analyser.fftSize = 2048;
-                analyser.smoothingTimeConstant = 0.8;
+                // 降低平滑係數以加快波形反應速度
+                analyser.smoothingTimeConstant = 0.1;
                 
                 source.connect(analyser);
                 
@@ -684,9 +685,10 @@
                 if (breathingSamples.length > 10) {
                     const recent = breathingSamples.slice(-10);
                     const avgEnergy = recent.reduce((a, b) => a + b) / recent.length;
-                    const threshold = Math.max(...breathingSamples) * CONFIG.BREATH_DETECTION_SENSITIVITY;
-                    
-                    if (energy > threshold && energy > avgEnergy * 1.5) {
+                    // 依平均能量計算動態門檻值
+                    const threshold = avgEnergy * (1 + CONFIG.BREATH_DETECTION_SENSITIVITY);
+
+                    if (energy > threshold) {
                         const now = Date.now();
                         if (now - lastBreathTime > 1000) { // 至少1秒間隔
                             breathCount++;
