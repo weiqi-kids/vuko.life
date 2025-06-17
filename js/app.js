@@ -67,6 +67,9 @@
         let binauralOscillators = [];
         let backgroundAudioSource;
         let backgroundGainNode;
+        let bgAnalyser;
+        let bgDataArray;
+        let bgVolumeMonitorId = null;
         let currentBeatFreq = 8;
         let currentLanguage = CONFIG.FALLBACK_LANGUAGE;
         let userCountry = null;
@@ -270,6 +273,7 @@
                         backgroundAudioSource.stop();
                         backgroundAudioSource = null;
                         backgroundGainNode = null;
+                        bgAnalyser = null;
                     }
                 }, 1000);
             }
@@ -561,6 +565,7 @@
 
             // 停止拍頻
             stopBinauralBeats();
+            stopBackgroundVolumeMonitor();
 
             // 停止背景音樂（帶淡出效果）
             if (backgroundAudioSource && backgroundGainNode) {
@@ -574,6 +579,7 @@
                         backgroundAudioSource.stop();
                         backgroundAudioSource = null;
                         backgroundGainNode = null;
+                        bgAnalyser = null;
                     }
                 }, fadeOutDuration * 1000);
             }
@@ -828,6 +834,38 @@
             binauralOscillators = [];
         }
 
+        function startBackgroundVolumeMonitor() {
+            if (!bgAnalyser) return;
+            if (!binauralOscillators.length) return;
+            bgDataArray = new Float32Array(bgAnalyser.fftSize);
+
+            function monitor() {
+                if (!bgAnalyser || !binauralOscillators.length) return;
+                bgAnalyser.getFloatTimeDomainData(bgDataArray);
+                let sum = 0;
+                for (let i = 0; i < bgDataArray.length; i++) {
+                    const v = bgDataArray[i];
+                    sum += v * v;
+                }
+                const rms = Math.sqrt(sum / bgDataArray.length);
+                const leftGain = binauralOscillators[2];
+                const rightGain = binauralOscillators[3];
+                const target = CONFIG.BINAURAL_VOLUME * rms;
+                leftGain.gain.setTargetAtTime(target, audioContext.currentTime, 0.01);
+                rightGain.gain.setTargetAtTime(target, audioContext.currentTime, 0.01);
+                bgVolumeMonitorId = requestAnimationFrame(monitor);
+            }
+
+            if (!bgVolumeMonitorId) {
+                bgVolumeMonitorId = requestAnimationFrame(monitor);
+            }
+        }
+
+        function stopBackgroundVolumeMonitor() {
+            if (bgVolumeMonitorId) cancelAnimationFrame(bgVolumeMonitorId);
+            bgVolumeMonitorId = null;
+        }
+
         // 載入背景音檔
         function loadBackgroundAudio(url) {
             fetch(url).then(response => {
@@ -840,6 +878,8 @@
             }).then(audioBuffer => {
                 backgroundAudioSource = audioContext.createBufferSource();
                 backgroundGainNode = audioContext.createGain();
+                bgAnalyser = audioContext.createAnalyser();
+                bgAnalyser.fftSize = 2048;
                 
                 backgroundAudioSource.buffer = audioBuffer;
                 backgroundAudioSource.loop = CONFIG.MUSIC_CONTENT.LOOP;
@@ -852,8 +892,10 @@
                     audioContext.currentTime + fadeInDuration
                 );
                 
-                backgroundAudioSource.connect(backgroundGainNode).connect(audioContext.destination);
+                backgroundAudioSource.connect(bgAnalyser);
+                bgAnalyser.connect(backgroundGainNode).connect(audioContext.destination);
                 backgroundAudioSource.start();
+                startBackgroundVolumeMonitor();
             }).catch(error => {
                 console.warn('背景音檔載入失敗:', error);
             });
