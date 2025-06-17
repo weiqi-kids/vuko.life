@@ -219,15 +219,23 @@
         }
 
         .binaural-options {
+<<<<<<< gv7qs2-codex/更改系統配置標題及內容
             list-style: none;
+=======
+>>>>>>> main
             padding-left: 25px;
             margin-bottom: 15px;
         }
 
+<<<<<<< gv7qs2-codex/更改系統配置標題及內容
         .binaural-options label {
             display: block;
             color: #666;
             margin-bottom: 5px;
+=======
+        .binaural-options li {
+            color: #666;
+>>>>>>> main
         }
 
         .config-item {
