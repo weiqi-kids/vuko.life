@@ -682,7 +682,13 @@
                 if (breathingSamples.length % 150 === 0) {
                     const now = Date.now();
                     breathTimestamps = breathTimestamps.filter(t => now - t <= 60000);
-                    const breathRate = breathTimestamps.length; // 60 秒內的次數即 BPM
+                    let breathRate = 0;
+                    if (breathTimestamps.length > 0) {
+                        const duration = now - breathTimestamps[0];
+                        if (duration > 0) {
+                            breathRate = breathTimestamps.length * 60000 / duration;
+                        }
+                    }
                     updateBreathingStats(breathRate);
                 }
 
@@ -690,19 +696,13 @@
                 if (Date.now() - lastLogTime >= 10000) {
                     const now = Date.now();
                     breathTimestamps = breathTimestamps.filter(t => now - t <= 60000);
-                    const breathRate = breathTimestamps.length;
-                    console.log('Breath debug', {
-                        time: new Date().toISOString(),
-                        breathRate: breathRate.toFixed(1),
-                        breathCount,
-                        samples: [...breathingSamples]
-                    });
-                    lastLogTime = Date.now();
-                }
-
-                // 每10秒輸出一次除錯資訊
-                if (Date.now() - lastLogTime >= 10000) {
-                    const breathRate = (breathCount / (breathingSamples.length / 30)) * 60;
+                    let breathRate = 0;
+                    if (breathTimestamps.length > 0) {
+                        const duration = now - breathTimestamps[0];
+                        if (duration > 0) {
+                            breathRate = breathTimestamps.length * 60000 / duration;
+                        }
+                    }
                     console.log('Breath debug', {
                         time: new Date().toISOString(),
                         breathRate: breathRate.toFixed(1),
