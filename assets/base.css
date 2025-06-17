@@ -218,6 +218,15 @@
             margin-bottom: 15px;
         }
 
+        .binaural-options {
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        .binaural-options li {
+            color: #666;
+        }
+
         .config-item {
             display: flex;
             justify-content: space-between;
