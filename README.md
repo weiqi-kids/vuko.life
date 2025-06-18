@@ -12,7 +12,7 @@
 > AI 驅動的個人化呼吸節奏、環境音樂自動導引，
 > 結合聲音科技與即時偵測，幫助你隨時進入冥想、專注或療癒狀態。
 
-### [🌐 線上體驗 DEMO](https://yourdomain.com/)
+### [🌐 線上體驗 DEMO https://yourdomain.com/](https://www.vuko.life/)
 
 ---
 
