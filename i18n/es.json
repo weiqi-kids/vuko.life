@@ -1,0 +1,48 @@
+{
+  "title": "Déjate guiar por el sonido hacia tu mejor versión",
+  "subtitle": "🤖 Instrucciones",
+  "description": "El sistema monitorea tu respiración en tiempo real y ajusta automáticamente la frecuencia de pulsos para guiarte a diferentes estados de conciencia:",
+  "instructions": {
+    "headphones": "Por favor, utiliza <strong>auriculares estéreo</strong> para lograr el efecto de latidos binaurales.",
+    "microphone": "Si aceptas usar tu <strong>micrófono</strong>, colócalo cerca de la boca y la nariz; intentaremos llevarte a un estado más profundo."
+  },
+  "volumeRatioDetail": "Pulso {binaural}% / Ambiente {background}%",
+  "labels": {
+    "breathRate": "Frecuencia respiratoria:",
+    "baseFreq": "Frecuencia base:",
+    "audioFile": "Archivo de fondo:",
+    "volumeRatio": "Proporción de volumen:",
+    "breathVisual": "Visualización de la respiración",
+    "realTimeData": "Datos en tiempo real",
+    "systemConfig": "Configuración binaural",
+    "audioSearch": "🎵 Búsqueda de música de fondo",
+    "searchPlaceholder": "Buscar música... (ej.: bosque, olas, meditación)",
+    "noResults": "No se encontraron canciones relacionadas",
+    "currentMusic": "Selección actual",
+    "deviceTest": "Prueba de dispositivo"
+  },
+  "buttons": {
+    "start": "🎶 Iniciar",
+    "stop": "🍂 Detener"
+  },
+  "status": {
+    "monitoring": "🎙️ Monitoreando respiración... Mantén una respiración normal",
+    "stopped": "Monitoreo detenido",
+    "error": "❌ No se pudo iniciar:",
+    "unsupported": "⚠️ Tu navegador no soporta el uso de micrófono, monitoreo de respiración no disponible",
+    "waiting": "En espera"
+  },
+  "units": {
+    "perMin": "veces/min",
+    "hz": "Hz",
+    "none": "ninguno"
+  },
+  "binauralOptions": [
+    "Enfoque",
+    "Meditación",
+    "Resonancia Schumann",
+    "Dormir",
+    "Energizar",
+    "Inspiración"
+  ]
+}

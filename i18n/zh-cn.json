@@ -1,0 +1,48 @@
+{
+  "title": "用声音，遇见更好的自己",
+  "subtitle": "🤖 使用说明",
+  "description": "系统会实时监测你的呼吸状态，并自动调整拍频来引导你进入不同的意识状态：",
+  "instructions": {
+    "headphones": "请使用<strong>双声道耳机</strong>，这样才能达成脑中拍频的效果。",
+    "microphone": "若您同意使用您的<strong>麦克风</strong>，请将麦克风靠近口鼻，我们会尝试引导您进入更深层的状态。"
+  },
+  "volumeRatioDetail": "拍频 {binaural}% / 背景音 {background}%",
+  "labels": {
+    "breathRate": "呼吸速率：",
+    "baseFreq": "基频频率：",
+    "audioFile": "背景音档：",
+    "volumeRatio": "音量比例：",
+    "breathVisual": "呼吸视觉化",
+    "realTimeData": "实时数据",
+    "systemConfig": "双耳拍频设置",
+    "audioSearch": "🎵 背景音乐搜寻",
+    "searchPlaceholder": "搜寻音乐... (例如: 森林、海浪、冥想)",
+    "noResults": "找不到相关音乐",
+    "currentMusic": "目前选择",
+    "deviceTest": "设备测试"
+  },
+  "buttons": {
+    "start": "🎶 开始",
+    "stop": "🍂停止"
+  },
+  "status": {
+    "monitoring": "🎙️ 呼吸监测中... 请保持自然呼吸",
+    "stopped": "监测已停止",
+    "error": "❌ 无法启动：",
+    "unsupported": "⚠️ 您的浏览器不支持麦克风功能，无法使用呼吸监测",
+    "waiting": "待检测"
+  },
+  "units": {
+    "perMin": "次/分",
+    "hz": "Hz",
+    "none": "无"
+  },
+  "binauralOptions": [
+    "专注",
+    "冥想",
+    "舒曼共振",
+    "睡眠",
+    "提神",
+    "激发灵感"
+  ]
+}
