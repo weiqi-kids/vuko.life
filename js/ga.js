@@ -10,7 +10,7 @@ function genRandHex(length) {
 }
 
 // 產生自訂格式的 UID
-function generateCustomUid() {
+function getUserId() {
   const random8 = genRandHex(8);
   const now = new Date();
   const yy = now.getFullYear().toString().slice(-2);
@@ -29,16 +29,23 @@ function initGoogleAnalytics() {
         return;
     }
 
-    const script1 = document.createElement('script');
-    script1.async = true;
-    script1.src = `https://www.googletagmanager.com/gtag/js?id=${CONFIG.GOOGLE_ANALYTICS.GA_ID}`;
-    document.head.appendChild(script1);
+    if (!window.gtag) {
+        const script1 = document.createElement('script');
+        script1.async = true;
+        script1.src = `https://www.googletagmanager.com/gtag/js?id=${CONFIG.GOOGLE_ANALYTICS.GA_ID}`;
+        document.head.appendChild(script1);
 
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    window.gtag = gtag;
-    gtag('js', new Date());
-    gtag('config', CONFIG.GOOGLE_ANALYTICS.GA_ID);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', CONFIG.GOOGLE_ANALYTICS.GA_ID);
+    }
+
+    const lang = (navigator.language || '').toLowerCase().split('-')[0];
+    const uid = getUserId();
+    gtag('set', {'user_id': uid});
+    gtag('set', 'user_properties', { 'lang': lang });
 
     gaInitialized = true;
 }

@@ -22,8 +22,8 @@
             
             // Google Analytics 設定
             GOOGLE_ANALYTICS: {
-                GA_ID: '',                    // GA4 測量ID (例: 'G-XXXXXXXXXX')
-                ENABLE_TRACKING: false,       // 是否啟用追蹤
+                GA_ID: 'G-QCQZZ8X2S7',        // GA4 測量ID (例: 'G-XXXXXXXXXX')
+                ENABLE_TRACKING: true,        // 是否啟用追蹤
                 TRACK_EVENTS: {
                     START_MONITORING: true,   // 追蹤開始監測事件
                     STOP_MONITORING: true,    // 追蹤停止監測事件
@@ -467,6 +467,12 @@
                         music_type: CONFIG.MUSIC_CONTENT.TYPE
                     });
                 }
+
+                const bgmName = selectedMusicItem ? selectedMusicItem.name : CONFIG.MUSIC_CONTENT.TYPE;
+                trackEvent('play', {
+                    bgm: bgmName,
+                    beat: currentBeatFreq
+                });
                 
                 // 取得麥克風權限 - 使用簡化的音訊設定以提高相容性
                 return navigator.mediaDevices.getUserMedia({ audio: true });
@@ -521,6 +527,7 @@
                     language: currentLanguage
                 });
             }
+            trackEvent('stop');
 
             if (mediaStream) {
                 mediaStream.getTracks().forEach(track => track.stop());
@@ -1003,6 +1010,15 @@
             
             // 初始化 Google Analytics
             initGoogleAnalytics();
+            trackEvent('page_enter');
+
+            document.addEventListener('visibilitychange', () => {
+                if (document.visibilityState === 'hidden') {
+                    trackEvent('tab_hidden');
+                } else {
+                    trackEvent('tab_visible');
+                }
+            });
             
             // 自動偵測用戶語言
             detectUserLanguage().then(async () => {
@@ -1022,6 +1038,7 @@
                 if (query.trim()) {
                     const results = searchMusic(query);
                     renderSearchResults(results);
+                    trackEvent('search', { term: query.trim() });
                 } else {
                     document.getElementById('searchResults').style.display = 'none';
                 }
@@ -1032,6 +1049,7 @@
                 if (isRecording) {
                     stopAdaptiveMode();
                 }
+                trackEvent('page_close');
             });
 
             // 檢查瀏覽器支援
