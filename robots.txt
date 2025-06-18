@@ -7,5 +7,6 @@ Disallow: /img/
 Disallow: /js/
 Disallow: /music/
 Disallow: /config.json
+Allow: /sitemap.xml
 
 Sitemap: https://www.vuko.life/sitemap.xml
