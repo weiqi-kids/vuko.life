@@ -67,12 +67,6 @@
 
 ---
 
-## 📈 Website Usage Growth
-
-[![View Dashboard](https://plausible.io/api/v1/badge.svg?site=yourdomain.com)](https://plausible.io/yourdomain.com)
-
----
-
 ## 授權
 
 [MIT License](LICENSE)
