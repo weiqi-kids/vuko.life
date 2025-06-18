@@ -44,19 +44,7 @@
 
         // 國家代碼對應語言映射定義移至 i18n.js
 
-        // 預設音樂庫將由外部檔案載入
-        let MUSIC_LIBRARY = {};
-
-        async function loadMusicLibrary() {
-            try {
-                const res = await fetch('music/base.json');
-                if (!res.ok) throw new Error('Load failed');
-                MUSIC_LIBRARY = await res.json();
-            } catch (e) {
-                console.error('Failed to load music library:', e);
-                MUSIC_LIBRARY = {};
-            }
-        }
+        // 預設音樂庫將由外部檔案載入 (移至 audio_selector.js)
 
         // ===== 配置區域結束 =====
 
@@ -74,218 +62,10 @@
         let currentBeatFreq = 8;
         let currentLanguage = CONFIG.FALLBACK_LANGUAGE;
         let userCountry = null;
-        let selectedMusicItem = null;
-        let allMusicItems = [];
-
-        // 初始化音樂清單
-        function initMusicLibrary() {
-            allMusicItems = [];
-            Object.keys(MUSIC_LIBRARY).forEach(category => {
-                MUSIC_LIBRARY[category].forEach(item => {
-                    allMusicItems.push({
-                        ...item,
-                        category: category
-                    });
-                });
-            });
-        }
+        // 選擇狀態移至 audio_selector.js
 
         // 模糊搜尋算法 (支援拼音和錯字)
-        function fuzzySearch(query, text) {
-            if (!query || !text) return 0;
-            
-            query = query.toLowerCase();
-            text = text.toLowerCase();
-            
-            // 完全匹配得分最高
-            if (text.includes(query)) return 100;
-            
-            // 計算編輯距離 (Levenshtein distance)
-            const editDistance = calculateEditDistance(query, text);
-            const maxLen = Math.max(query.length, text.length);
-            const similarity = ((maxLen - editDistance) / maxLen) * 100;
-            
-            return similarity;
-        }
-
-        // 計算編輯距離
-        function calculateEditDistance(a, b) {
-            const matrix = [];
-            
-            for (let i = 0; i <= b.length; i++) {
-                matrix[i] = [i];
-            }
-            
-            for (let j = 0; j <= a.length; j++) {
-                matrix[0][j] = j;
-            }
-            
-            for (let i = 1; i <= b.length; i++) {
-                for (let j = 1; j <= a.length; j++) {
-                    if (b.charAt(i - 1) === a.charAt(j - 1)) {
-                        matrix[i][j] = matrix[i - 1][j - 1];
-                    } else {
-                        matrix[i][j] = Math.min(
-                            matrix[i - 1][j - 1] + 1,
-                            matrix[i][j - 1] + 1,
-                            matrix[i - 1][j] + 1
-                        );
-                    }
-                }
-            }
-            
-            return matrix[b.length][a.length];
-        }
-
-        // 語意搜尋音樂
-        function searchMusic(query) {
-            if (!query.trim()) return [];
-            
-            const results = [];
-            
-            allMusicItems.forEach(item => {
-                let maxScore = 0;
-                
-                // 搜尋音樂名稱
-                const nameScore = Math.max(
-                    fuzzySearch(query, item.name),
-                    fuzzySearch(query, item.name_en)
-                );
-                maxScore = Math.max(maxScore, nameScore);
-                
-                // 搜尋關鍵字
-                item.keywords.forEach(keyword => {
-                    const keywordScore = fuzzySearch(query, keyword);
-                    maxScore = Math.max(maxScore, keywordScore);
-                });
-                
-                // 搜尋描述
-                const descScore = fuzzySearch(query, item.description);
-                maxScore = Math.max(maxScore, descScore * 0.7); // 描述權重較低
-                
-                // 搜尋分類
-                const categoryScore = fuzzySearch(query, item.category);
-                maxScore = Math.max(maxScore, categoryScore * 0.5); // 分類權重最低
-                
-                if (maxScore > 30) { // 設定最低相似度門檻
-                    results.push({
-                        ...item,
-                        score: maxScore
-                    });
-                }
-            });
-            
-            // 按分數排序
-            return results.sort((a, b) => b.score - a.score);
-        }
-
-        // 渲染搜尋結果
-        function renderSearchResults(results) {
-            const content = getLanguageContent();
-            const container = document.getElementById('searchResults');
-            
-            if (results.length === 0) {
-                container.innerHTML = `<div class="no-results">${content.labels.noResults}</div>`;
-                container.style.display = 'block';
-                return;
-            }
-            
-            let html = '';
-            results.forEach((item, index) => {
-                const isSelected = selectedMusicItem && selectedMusicItem.url === item.url;
-                html += `
-                    <div class="music-item ${isSelected ? 'selected' : ''}" data-index="${index}">
-                        <div class="music-info">
-                            <div class="music-name">${item.name} / ${item.name_en}</div>
-                            <div class="music-description">${item.description}</div>
-                        </div>
-                        <div class="music-badge">${item.category}</div>
-                    </div>
-                `;
-            });
-            
-            container.innerHTML = html;
-            container.style.display = 'block';
-            
-            // 添加點擊事件監聽器
-            container.querySelectorAll('.music-item').forEach((element, index) => {
-                element.addEventListener('click', () => {
-                    const item = results[index];
-                    selectMusic(item.url, item.name, item.category);
-                });
-            });
-        }
-
-        // 選擇音樂
-        function selectMusic(url, name, category) {
-            selectedMusicItem = { url, name, category };
-            
-            // 更新配置
-            CONFIG.MUSIC_CONTENT.TYPE = 'custom';
-            CONFIG.MUSIC_CONTENT.CUSTOM_URL = url;
-            
-            // 顯示當前選擇
-            showCurrentSelection(name);
-            
-            // 重新渲染搜尋結果以更新選中狀態
-            const query = document.getElementById('musicSearchInput').value;
-            if (query.trim()) {
-                const results = searchMusic(query);
-                renderSearchResults(results);
-            }
-            
-            // 如果正在監測中，切換背景音樂
-            if (isRecording) {
-                switchBackgroundMusic(url);
-            }
-            
-            // Google Analytics 追蹤
-            if (CONFIG.GOOGLE_ANALYTICS.TRACK_EVENTS.START_MONITORING) {
-                trackEvent('music_selected', {
-                    music_name: name,
-                    music_category: category,
-                    language: currentLanguage
-                });
-            }
-        }
-
-        // 顯示當前選擇
-        function showCurrentSelection(name) {
-            const content = getLanguageContent();
-            const container = document.getElementById('currentSelection');
-            const label = document.getElementById('currentSelectionLabel');
-            const nameElement = document.getElementById('currentSelectionName');
-            
-            label.textContent = content.labels.currentMusic;
-            nameElement.textContent = name;
-            container.style.display = 'block';
-        }
-
-        // 切換背景音樂
-        function switchBackgroundMusic(url) {
-            // 停止當前背景音樂
-            if (backgroundAudioSource && backgroundGainNode) {
-                backgroundGainNode.gain.exponentialRampToValueAtTime(
-                    0.001, 
-                    audioContext.currentTime + 1
-                );
-                setTimeout(() => {
-                    if (backgroundAudioSource) {
-                        backgroundAudioSource.stop();
-                        backgroundAudioSource = null;
-                        backgroundGainNode = null;
-                        bgAnalyser = null;
-                    }
-                }, 1000);
-            }
-            
-            // 載入新的背景音樂
-            setTimeout(() => {
-                if (url && isRecording) {
-                    loadBackgroundAudio(url);
-                }
-            }, 1000);
-        }
+        // 相關搜尋與選擇邏輯已移至 audio_selector.js
 
         // 自動偵測用戶地理位置和語言
         function detectUserLanguage() {
@@ -392,24 +172,7 @@
             }
         }
 
-        // 獲取背景音檔URL
-       function getBackgroundAudioUrl() {
-            if (CONFIG.MUSIC_CONTENT.TYPE === 'none') {
-                return '';
-            }
-            if (CONFIG.MUSIC_CONTENT.TYPE === 'custom') {
-                return CONFIG.MUSIC_CONTENT.CUSTOM_URL;
-            }
-            
-            const musicList = MUSIC_LIBRARY[CONFIG.MUSIC_CONTENT.TYPE];
-            if (musicList && musicList.length > 0) {
-                // 隨機選擇一首音樂
-                const randomIndex = Math.floor(Math.random() * musicList.length);
-                return musicList[randomIndex].url;
-            }
-            
-            return '';
-        }
+        // 獲取背景音檔URL 移至 audio_selector.js
 
         // 初始化配置顯示
         function initConfigDisplay() {
@@ -858,72 +621,7 @@
             binauralOscillators = [];
         }
 
-        function startBackgroundVolumeMonitor() {
-            if (!bgAnalyser) return;
-            if (!binauralOscillators.length) return;
-            bgDataArray = new Float32Array(bgAnalyser.fftSize);
-
-            function monitor() {
-                if (!bgAnalyser || !binauralOscillators.length) return;
-                bgAnalyser.getFloatTimeDomainData(bgDataArray);
-                let sum = 0;
-                for (let i = 0; i < bgDataArray.length; i++) {
-                    const v = bgDataArray[i];
-                    sum += v * v;
-                }
-                const rms = Math.sqrt(sum / bgDataArray.length);
-                const leftGain = binauralOscillators[2];
-                const rightGain = binauralOscillators[3];
-                const target = CONFIG.BINAURAL_VOLUME * rms;
-                leftGain.gain.setTargetAtTime(target, audioContext.currentTime, 0.01);
-                rightGain.gain.setTargetAtTime(target, audioContext.currentTime, 0.01);
-                bgVolumeMonitorId = requestAnimationFrame(monitor);
-            }
-
-            if (!bgVolumeMonitorId) {
-                bgVolumeMonitorId = requestAnimationFrame(monitor);
-            }
-        }
-
-        function stopBackgroundVolumeMonitor() {
-            if (bgVolumeMonitorId) cancelAnimationFrame(bgVolumeMonitorId);
-            bgVolumeMonitorId = null;
-        }
-
-        // 載入背景音檔
-        function loadBackgroundAudio(url) {
-            fetch(url).then(response => {
-                if (!response.ok) {
-                    throw new Error(`無法載入背景音檔：${response.statusText}`);
-                }
-                return response.arrayBuffer();
-            }).then(arrayBuffer => {
-                return audioContext.decodeAudioData(arrayBuffer);
-            }).then(audioBuffer => {
-                backgroundAudioSource = audioContext.createBufferSource();
-                backgroundGainNode = audioContext.createGain();
-                bgAnalyser = audioContext.createAnalyser();
-                bgAnalyser.fftSize = 2048;
-                
-                backgroundAudioSource.buffer = audioBuffer;
-                backgroundAudioSource.loop = CONFIG.MUSIC_CONTENT.LOOP;
-                
-                // 設置淡入效果
-                const fadeInDuration = CONFIG.MUSIC_CONTENT.FADE_IN_DURATION;
-                backgroundGainNode.gain.setValueAtTime(0, audioContext.currentTime);
-                backgroundGainNode.gain.exponentialRampToValueAtTime(
-                    CONFIG.BACKGROUND_VOLUME, 
-                    audioContext.currentTime + fadeInDuration
-                );
-                
-                backgroundAudioSource.connect(bgAnalyser);
-                bgAnalyser.connect(backgroundGainNode).connect(audioContext.destination);
-                backgroundAudioSource.start();
-                startBackgroundVolumeMonitor();
-            }).catch(error => {
-                console.warn('背景音檔載入失敗:', error);
-            });
-        }
+        // 背景音量與載入邏輯移至 audio_selector.js
 
         // 設備測試功能
         function testDevice() {
@@ -1031,18 +729,7 @@
                 initConfigDisplay();
             });
             
-            // 設置搜尋框事件
-            const searchInput = document.getElementById('musicSearchInput');
-            searchInput.addEventListener('input', (e) => {
-                const query = e.target.value;
-                if (query.trim()) {
-                    const results = searchMusic(query);
-                    renderSearchResults(results);
-                    trackEvent('search', { term: query.trim() });
-                } else {
-                    document.getElementById('searchResults').style.display = 'none';
-                }
-            });
+            // 搜尋框事件已在 audio_selector.js 處理
 
             // 頁面關閉時清理資源
             window.addEventListener('beforeunload', () => {
