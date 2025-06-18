@@ -892,6 +892,7 @@
 
         // 載入背景音檔
         function loadBackgroundAudio(url) {
+            const FALLBACK_URL = 'music/sample/44100.mp3';
             fetch(url).then(response => {
                 if (!response.ok) {
                     throw new Error(`無法載入背景音檔：${response.statusText}`);
@@ -904,24 +905,33 @@
                 backgroundGainNode = audioContext.createGain();
                 bgAnalyser = audioContext.createAnalyser();
                 bgAnalyser.fftSize = 2048;
-                
+
                 backgroundAudioSource.buffer = audioBuffer;
                 backgroundAudioSource.loop = CONFIG.MUSIC_CONTENT.LOOP;
-                
+
                 // 設置淡入效果
                 const fadeInDuration = CONFIG.MUSIC_CONTENT.FADE_IN_DURATION;
                 backgroundGainNode.gain.setValueAtTime(0, audioContext.currentTime);
                 backgroundGainNode.gain.exponentialRampToValueAtTime(
-                    CONFIG.BACKGROUND_VOLUME, 
+                    CONFIG.BACKGROUND_VOLUME,
                     audioContext.currentTime + fadeInDuration
                 );
-                
+
                 backgroundAudioSource.connect(bgAnalyser);
                 bgAnalyser.connect(backgroundGainNode).connect(audioContext.destination);
                 backgroundAudioSource.start();
                 startBackgroundVolumeMonitor();
             }).catch(error => {
-                console.warn('背景音檔載入失敗:', error);
+                let msg = '背景音檔載入失敗';
+                // fetch 在網路異常時會回傳 TypeError
+                if (error instanceof TypeError) {
+                    msg += '，可能是網路連線異常或檔案不存在';
+                }
+                console.warn(msg + ':', error);
+                if (url !== FALLBACK_URL) {
+                    console.info('嘗試載入本地範例音檔...');
+                    loadBackgroundAudio(FALLBACK_URL);
+                }
             });
         }
 
