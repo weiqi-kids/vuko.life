@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /badge/
+Disallow: /docs/
+Disallow: /i18n/
+Disallow: /img/
+Disallow: /js/
+Disallow: /music/
+Disallow: /config.json
+
+Sitemap: https://www.vuko.life/sitemap.xml
