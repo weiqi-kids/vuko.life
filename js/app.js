@@ -629,7 +629,6 @@
             let breathCount = 0;
 
             let breathTimestamps = [];
-            let lastLogTime = Date.now();
             const ANALYSIS_WINDOW = 24; // 約1秒的樣本數
             
             function detectBreath() {
@@ -699,25 +698,7 @@
                     updateBreathingStats(breathRate);
                 }
 
-                // 每10秒輸出一次除錯資訊
-                if (Date.now() - lastLogTime >= 10000) {
-                    const now = Date.now();
-                    breathTimestamps = breathTimestamps.filter(t => now - t <= 60000);
-                    let breathRate = 0;
-                    if (breathTimestamps.length > 0) {
-                        const duration = now - breathTimestamps[0];
-                        if (duration > 0) {
-                            breathRate = breathTimestamps.length * 60000 / duration;
-                        }
-                    }
-                    console.log('Breath debug', {
-                        time: new Date().toISOString(),
-                        breathRate: breathRate.toFixed(1),
-                        breathCount,
-                        samples: [...breathingSamples]
-                    });
-                    lastLogTime = Date.now();
-                }
+
                 
                 requestAnimationFrame(detectBreath);
             }
@@ -747,7 +728,6 @@
             const sliceWidth = canvas.width / samples.length;
             const scale = CONFIG.WAVEFORM_SCALE || 1;
             let x = 0;
-            const EXP = CONFIG.WAVEFORM_EXP || 4; // 可調參數，建議從 1.2 ~ 4 之間試試看
 
             for (let i = 0; i < samples.length; i++) {
                 const sample = samples[i];
@@ -755,7 +735,6 @@
                 if (scale > 1) {
                     scaled = Math.log1p(sample * (scale - 1)) / Math.log(scale);
                 }
-                scaled = Math.sign(scaled) * Math.pow(Math.abs(scaled), EXP);
                 const y = (scaled * canvas.height / 2) + canvas.height / 2;
 
                 if (i === 0) {
