@@ -621,8 +621,6 @@
             binauralOscillators = [];
         }
 
-        // 背景音量與載入邏輯移至 audio_selector.js
-
         // 設備測試功能
         function testDevice() {
             const btn = document.getElementById('deviceTestBtn');
