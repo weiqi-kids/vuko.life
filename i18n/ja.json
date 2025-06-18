@@ -1,7 +1,48 @@
 {
   "title": "音で、あなたらしい毎日へ",
-  "subtitle": "使用方法 (準備中)",
+  "subtitle": "🤖 使用方法",
+  "description": "システムはあなたの呼吸状態をリアルタイムで監視し、ビート周波数を自動調整してさまざまな意識状態へ導きます：",
+  "instructions": {
+    "headphones": "<strong>ステレオヘッドフォン</strong>を使用してください。そうすることでバイノーラルビートの効果が得られます。",
+    "microphone": "<strong>マイク</strong>の使用を許可する場合は、マイクを口と鼻の近くに置いてください。より深い状態へ導くお手伝いをします。"
+  },
+  "volumeRatioDetail": "ビート {binaural}% / 背景音 {background}%",
   "labels": {
-    "audioFile": "音声ファイル"
-  }
+    "breathRate": "呼吸速度：",
+    "baseFreq": "基準周波数：",
+    "audioFile": "背景音声：",
+    "volumeRatio": "音量比率：",
+    "breathVisual": "呼吸のビジュアル",
+    "realTimeData": "リアルタイムデータ",
+    "systemConfig": "バイノーラル設定",
+    "audioSearch": "🎵 背景音楽検索",
+    "searchPlaceholder": "音楽を検索...（例: 森、波、瞑想）",
+    "noResults": "関連する音楽が見つかりません",
+    "currentMusic": "現在の選択",
+    "deviceTest": "デバイステスト"
+  },
+  "buttons": {
+    "start": "🎶 開始",
+    "stop": "🍂停止"
+  },
+  "status": {
+    "monitoring": "🎙️ 呼吸を監視中… 自然な呼吸を続けてください",
+    "stopped": "監視を停止しました",
+    "error": "❌ 起動できません：",
+    "unsupported": "⚠️ お使いのブラウザはマイク機能に対応していないため、呼吸監視は利用できません",
+    "waiting": "待機中"
+  },
+  "units": {
+    "perMin": "回/分",
+    "hz": "Hz",
+    "none": "なし"
+  },
+  "binauralOptions": [
+    "集中",
+    "瞑想",
+    "シューマン共振",
+    "睡眠",
+    "覚醒",
+    "インスピレーション"
+  ]
 }

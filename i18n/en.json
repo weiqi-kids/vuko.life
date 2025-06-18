@@ -1,3 +1,48 @@
 {
-  "title": "Let sound guide you to a better you"
+  "title": "Let sound guide you to a better you",
+  "subtitle": "🤖 Instructions",
+  "description": "The system monitors your breathing in real time and automatically adjusts the beat frequency to guide you into different states of consciousness:",
+  "instructions": {
+    "headphones": "Please use <strong>stereo headphones</strong> to achieve the binaural effect.",
+    "microphone": "If you agree to use your <strong>microphone</strong>, place it near your mouth and nose. We will try to guide you into a deeper state."
+  },
+  "volumeRatioDetail": "Beat {binaural}% / Background {background}%",
+  "labels": {
+    "breathRate": "Breathing rate:",
+    "baseFreq": "Base frequency:",
+    "audioFile": "Background file:",
+    "volumeRatio": "Volume ratio:",
+    "breathVisual": "Breathing visualization",
+    "realTimeData": "Real-time data",
+    "systemConfig": "Binaural settings",
+    "audioSearch": "🎵 Background music search",
+    "searchPlaceholder": "Search music... (e.g., forest, waves, meditation)",
+    "noResults": "No related music found",
+    "currentMusic": "Current selection",
+    "deviceTest": "Device test"
+  },
+  "buttons": {
+    "start": "🎶 Start",
+    "stop": "🍂 Stop"
+  },
+  "status": {
+    "monitoring": "🎙️ Breathing monitoring... Please breathe normally",
+    "stopped": "Monitoring stopped",
+    "error": "❌ Unable to start:",
+    "unsupported": "⚠️ Your browser doesn't support microphone use; breathing monitoring not available",
+    "waiting": "Waiting"
+  },
+  "units": {
+    "perMin": "per min",
+    "hz": "Hz",
+    "none": "none"
+  },
+  "binauralOptions": [
+    "Focus",
+    "Meditation",
+    "Schumann Resonance",
+    "Sleep",
+    "Energize",
+    "Inspiration"
+  ]
 }
