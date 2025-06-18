@@ -219,7 +219,7 @@ function stopBackgroundVolumeMonitor() {
 function loadBackgroundAudio(url) {
     fetch(url).then(response => {
         if (!response.ok) {
-            throw new Error(`無法載入背景音檔：${response.statusText}`);
+            throw new Error(`無法載入背景音檔：${response.statusText} (${url})`);
         }
         return response.arrayBuffer();
     }).then(arrayBuffer => {
@@ -242,7 +242,7 @@ function loadBackgroundAudio(url) {
         backgroundAudioSource.start();
         startBackgroundVolumeMonitor();
     }).catch(error => {
-        console.warn('背景音檔載入失敗:', error);
+        console.warn(`背景音檔載入失敗 (${url}):`, error);
     });
 }
 
