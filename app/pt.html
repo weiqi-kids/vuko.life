@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deixe o som te levar ao seu melhor eu</title>
+    <base href="../">
+    <link rel="stylesheet" href="assets/base.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="mainTitle">Deixe o som te levar ao seu melhor eu</h1>
+
+        <div class="adaptive-mode">
+            <h3></h3>
+            <ul>
+                <li id="instructionHeadphones"></li>
+                <li id="instructionMicrophone"></li>
+            </ul>
+        </div>
+
+        <div class="config-audio-container">
+            <div class="audio-search-section">
+                <h4 id="audioSearchTitle"></h4>
+                <div class="search-container">
+                    <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                </div>
+                <div id="currentSelection" class="current-selection" style="display: none;">
+                    <div class="current-selection-label" id="currentSelectionLabel"></div>
+                    <div class="current-selection-name" id="currentSelectionName"></div>
+                </div>
+                <div id="searchResults" class="search-results" style="display: none;"></div>
+            </div>
+
+            <div class="config-info">
+                <h4 id="systemConfigTitle"></h4>
+                <ul class="binaural-options" id="binauralOptionsList"></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+            </div>
+        </div>
+
+        <div id="status" class="status" style="display: none;"></div>
+        
+        <div class="breathing-monitor">
+            <div class="breath-visual">
+                <h3></h3>
+                <canvas id="waveform" class="waveform"></canvas>
+            </div>
+
+            <div class="breath-stats">
+                <h3></h3>
+                <div class="stat-item">
+                    <span class="stat-label"></span>
+                    <span class="stat-value" id="breathRate">--</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-buttons">
+            <button onclick="toggleAdaptiveMode()" id="monitorToggleBtn"></button>
+        </div>
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/ga.js"></script>
+    <script src="js/app.js"></script>
+    <script>CONFIG.LANGUAGE = 'pt';</script>
+</body>
+</html>
