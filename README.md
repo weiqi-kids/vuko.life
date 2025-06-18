@@ -1,14 +1,9 @@
 # vuko.life 智能呼吸拍頻處理器
 
-![Lang](https://img.shields.io/badge/lang-en--zh--jp--ko-blue)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![Awesome](https://awesome.re/mentioned-badge.svg)
-![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)
-![SemVer](https://img.shields.io/badge/semver-2.0.0-blue)
 ![Release](https://img.shields.io/github/release/yourname/project.svg)
 ![update](https://img.shields.io/badge/updated-weekly-blue)
-![Coverage](https://codecov.io/gh/yourname/project/branch/main/graph/badge.svg)
-![Security](https://img.shields.io/snyk/vulnerabilities/github/yourname/project)
+![Security](https://img.shields.io/snyk/vulnerabilities/github/weiqi-kids/vuko.life)
 
 ---
 
