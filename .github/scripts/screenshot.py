@@ -79,7 +79,7 @@ def compress_image(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Take screenshots for all languages")
-    parser.add_argument("--out", help="output directory", default="screenshots")
+    parser.add_argument("--out", help="output directory", default="output")
     args = parser.parse_args()
 
     repo_root = Path(__file__).resolve().parents[2]
@@ -94,7 +94,7 @@ def main() -> None:
         try:
             raw = capture_screenshot(url)
             compressed = compress_image(raw)
-            (out_dir / f"{lang}.jpg").write_bytes(compressed)
+            (out_dir / f"screenshot-{lang}.jpg").write_bytes(compressed)
             print(f"Captured screenshot for {lang}")
         except Exception as e:
             print(f"Failed to capture screenshot for {lang}: {e}")

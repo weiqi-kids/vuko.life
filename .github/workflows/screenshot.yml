@@ -5,11 +5,12 @@ on:
     types: [opened, synchronize, reopened]
 
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
 
 jobs:
   screenshot:
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,11 +19,34 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         run: |
-          pip install playwright requests Pillow
+          pip install playwright Pillow
           playwright install --with-deps chromium
-      - name: Capture screenshot and comment
+      - name: Capture screenshots
+        run: |
+          python .github/scripts/screenshot.py --out output > screenshot.log 2>&1
+      - name: Copy screenshots into repo
+        run: |
+          mkdir -p screenshots
+          for f in output/screenshot-*.jpg; do
+            lang=$(basename "$f" | sed 's/screenshot-//')
+            cp "$f" "screenshots/$lang"
+          done
+      - name: Commit screenshots
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add screenshots/*.jpg
+          git commit -m "Add screenshots [skip ci]" && git push || echo "No changes"
+      - name: Comment screenshot URLs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: python .github/scripts/screenshot.py
+          BRANCH: ${{ github.head_ref }}
+        run: |
+          body=""
+          for f in screenshots/*.jpg; do
+            lang=$(basename "$f" .jpg)
+            url="https://github.com/${{ github.repository }}/raw/${BRANCH}/screenshots/$lang.jpg"
+            body+="![${lang}](${url})\n"
+          done
+          gh api repos/${{ github.repository }}/issues/${PR_NUMBER}/comments -f body="$body"

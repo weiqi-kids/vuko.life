@@ -185,7 +185,7 @@ jobs:
         id: run
         continue-on-error: true
         run: |
-          python .github/scripts/screenshot.py > screenshot.log 2>&1
+          python .github/scripts/screenshot.py --out output > screenshot.log 2>&1
           status=$?
           if [ $status -ne 0 ]; then
             echo "screenshot failed" >> screenshot.log
@@ -196,7 +196,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: screenshots
-          path: screenshots
+          path: output
       - name: Upload log
         if: always()
         uses: actions/upload-artifact@v3
