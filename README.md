@@ -59,6 +59,8 @@
 └── assets/                     # 其他靜態資源（CSS 樣式、圖標、文件等）
 ```
 
+所有支援語言會根據 `app/` 目錄下的 HTML 檔名自動偵測，翻譯與向量化腳本皆會依此處理對應檔案。
+
 ---
 
 ## 📦 快速開始
@@ -68,7 +70,7 @@
 
 ## 更新音樂向量 (Embeddings)
 
-執行 `.github/scripts/embedding.py` 會根據 `music/base.json`
+執行 `.github/scripts/embedding.py [music/lang.json]` 會根據指定的音樂檔案（預設 `music/base.json`）
 中的 `title`、`desc` 與 `tag` 欄位，透過 `all-MiniLM-L6-v2` 模型生成
 embedding 並寫回檔案。此步驟需要下載 `sentence-transformers` 套件及模型
 權重，必須具備網路連線。若在離線環境，建議預先建置虛擬環境或快取依賴。
