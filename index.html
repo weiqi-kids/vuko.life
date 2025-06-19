@@ -8,22 +8,46 @@
         (function() {
             var lang = (navigator.language || '').toLowerCase();
             var target = '/app/en.html';
-            if (lang.startsWith('zh-tw')) {
-                target = '/app/zh-tw.html';
-            } else if (lang.startsWith('zh-cn')) {
-                target = '/app/zh-cn.html';
-            } else if (lang.startsWith('zh-hk')) {
-                target = '/app/zh-hk.html';
-            } else if (lang.startsWith('ja')) {
-                target = '/app/ja.html';
-            } else if (lang.startsWith('ko')) {
-                target = '/app/ko.html';
-            } else if (lang.startsWith('es')) {
-                target = '/app/es.html';
-            } else if (lang.startsWith('pt')) {
-                target = '/app/pt.html';
-            } else if (lang.startsWith('en')) {
-                target = '/app/en.html';
+            var mappings = [
+                ['zh-tw', 'zh-tw.html'],
+                ['zh-cn', 'zh-cn.html'],
+                ['zh-hk', 'zh-hk.html'],
+                ['de-at', 'de-at.html'],
+                ['de-ch', 'de-ch.html'],
+                ['de-de', 'de-de.html'],
+                ['fr-be', 'fr-be.html'],
+                ['fr-ca', 'fr-ca.html'],
+                ['fr-fr', 'fr-fr.html'],
+                ['ar', 'ar.html'],
+                ['bn', 'bn.html'],
+                ['he', 'he.html'],
+                ['hi', 'hi.html'],
+                ['id', 'id.html'],
+                ['ms', 'ms.html'],
+                ['my', 'my.html'],
+                ['pa', 'pa.html'],
+                ['pl', 'pl.html'],
+                ['pt', 'pt.html'],
+                ['ru', 'ru.html'],
+                ['sw', 'sw.html'],
+                ['ta', 'ta.html'],
+                ['th', 'th.html'],
+                ['tr', 'tr.html'],
+                ['uk', 'uk.html'],
+                ['vi', 'vi.html'],
+                ['ja', 'ja.html'],
+                ['ko', 'ko.html'],
+                ['es', 'es.html'],
+                ['de', 'de-de.html'],
+                ['fr', 'fr-fr.html'],
+                ['en', 'en.html']
+            ];
+            for (var i = 0; i < mappings.length; i++) {
+                var code = mappings[i][0];
+                if (lang === code || lang.startsWith(code + '-')) {
+                    target = '/app/' + mappings[i][1];
+                    break;
+                }
             }
             window.location.replace(target);
         })();
