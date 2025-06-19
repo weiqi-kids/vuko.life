@@ -1,0 +1,224 @@
+name: Site Update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'i18n/base.json'
+      - 'music/base.json'
+      - '.github/scripts/**'
+      - '.github/workflows/site_update.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  translate:
+    if: !contains(github.event.head_commit.message, '[skip ci]')
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.detect.outputs.changed }}
+      langs: ${{ steps.detect.outputs.langs }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Load languages
+        id: langs
+        run: |
+          list=$(ls app/*.html | xargs -n1 basename | sed 's/\.html$//' | grep -v '^index$' | tr '\n' ' ')
+          echo "list=$list" >> "$GITHUB_OUTPUT"
+      - name: Run translations
+        id: run
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          failed=0
+          for lang in ${{ steps.langs.outputs.list }}; do
+            python .github/scripts/translate.py i18n/base.json i18n/$lang.json >> translate.log 2>&1
+            if [ $? -ne 0 ]; then
+              echo "i18n $lang failed" >> translate.log
+              failed=1
+            fi
+            python .github/scripts/translate.py music/base.json music/$lang.json >> translate.log 2>&1
+            if [ $? -ne 0 ]; then
+              echo "music $lang failed" >> translate.log
+              failed=1
+            fi
+          done
+          if [ "$failed" = "1" ]; then
+            exit 1
+          fi
+      - name: Detect changes
+        id: detect
+        run: |
+          files=$(git status --porcelain i18n/*.json music/*.json | awk '{print $2}')
+          if [ -n "$files" ]; then
+            echo 'changed=1' >> "$GITHUB_OUTPUT"
+            langs=$(echo "$files" | grep '^music/' | awk -F'[/.]' '{print $(NF-1)}' | sort -u | tr '\n' ' ')
+            echo "langs=$langs" >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=0' >> "$GITHUB_OUTPUT"
+            echo 'langs=' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Upload log
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: translate-log
+          path: translate.log
+      - name: Commit translation updates
+        if: steps.run.outcome == 'success' && steps.detect.outputs.changed == '1'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          files=$(git status --porcelain i18n/*.json music/*.json | awk '{print $2}' | tr '\n' ' ')
+          git add i18n/*.json music/*.json
+          git commit -m "Update translations [skip ci]" -m "$files"
+          git push
+      - name: Commit translation failure summary
+        if: steps.run.outcome != 'success'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          msg=$(tail -n 20 translate.log | tr '\n' ' ')
+          git commit --allow-empty -m "Translation failed [skip ci]" -m "$msg"
+          git push
+      - name: Fail job if translate failed
+        if: steps.run.outcome != 'success'
+        run: exit 1
+
+  embedding:
+    needs: translate
+    if: needs.translate.outputs.changed == '1' && !contains(github.event.head_commit.message, '[skip ci]')
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.detect.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run embedding
+        id: run
+        continue-on-error: true
+        run: |
+          failed=0
+          for lang in ${{ needs.translate.outputs.langs }}; do
+            python .github/scripts/embedding.py music/$lang.json >> embedding.log 2>&1
+            if [ $? -ne 0 ]; then
+              echo "embedding $lang failed" >> embedding.log
+              failed=1
+            fi
+          done
+          if [ "$failed" = "1" ]; then
+            exit 1
+          fi
+      - name: Detect embedding change
+        if: steps.run.outcome == 'success'
+        id: detect
+        run: |
+          if [ -n "$(git status --porcelain music/*.json)" ]; then
+            echo 'changed=1' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=0' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Upload log
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: embedding-log
+          path: embedding.log
+      - name: Commit embedding updates
+        if: steps.run.outcome == 'success' && steps.detect.outputs.changed == '1'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          files=$(git status --porcelain music/*.json | awk '{print $2}' | tr '\n' ' ')
+          git add $files
+          git commit -m "Update embeddings [skip ci]" -m "$files"
+          git push
+      - name: Commit embedding failure summary
+        if: steps.run.outcome != 'success'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          msg=$(tail -n 20 embedding.log | tr '\n' ' ')
+          git commit --allow-empty -m "Embedding failed [skip ci]" -m "$msg"
+          git push
+      - name: Fail job if embedding failed
+        if: steps.run.outcome != 'success'
+        run: exit 1
+
+  screenshot:
+    needs: [translate, embedding]
+    if: |
+      !contains(github.event.head_commit.message, '[skip ci]') &&
+      needs.translate.result == 'success' &&
+      (needs.embedding.result == 'success' || needs.embedding.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          pip install playwright requests Pillow
+          playwright install --with-deps chromium
+      - name: Run screenshot
+        id: run
+        continue-on-error: true
+        run: |
+          python .github/scripts/screenshot.py > screenshot.log 2>&1
+          status=$?
+          if [ $status -ne 0 ]; then
+            echo "screenshot failed" >> screenshot.log
+            exit $status
+          fi
+      - name: Upload log
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: screenshot-log
+          path: screenshot.log
+      - name: Commit screenshot summary
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          msg=$(tail -n 20 screenshot.log | tr '\n' ' ')
+          git commit --allow-empty -m "Screenshot results [skip ci]" -m "$msg"
+          git push
+      - name: Fail job if screenshot failed
+        if: steps.run.outcome != 'success'
+        run: exit 1
+
+  deploy:
+    needs: screenshot
+    if: !contains(github.event.head_commit.message, '[skip ci]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v2
+        with:
+          path: '.'
+      - uses: actions/deploy-pages@v2
+

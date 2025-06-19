@@ -15,14 +15,26 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Load languages
+        id: langs
+        run: |
+          list=$(ls app/*.html | xargs -n1 basename | sed 's/\.html$//' | grep -v '^index$' | tr '\n' ' ')
+          echo "list=$list" >> "$GITHUB_OUTPUT"
       - name: Update embeddings
-        run: python .github/scripts/embedding.py
+        run: |
+          for lang in ${{ steps.langs.outputs.list }}; do
+            file="music/$lang.json"
+            if [ -f "$file" ]; then
+              python .github/scripts/embedding.py "$file"
+            fi
+          done
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then
-            git add music/base.json
-            git commit -m "Update embeddings"
+            files=$(git status --porcelain music/*.json | awk '{print $2}' | tr '\n' ' ')
+            git add music/*.json
+            git commit -m "Update embeddings [skip ci]" -m "$files"
             git push
           fi
