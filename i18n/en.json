@@ -16,9 +16,9 @@
     "realTimeData": "Real-time data",
     "systemConfig": "Binaural beat settings",
     "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., forest, waves, meditation)",
+    "searchPlaceholder": "Search music... (e.g., guitar, ocean, meditation)",
     "noResults": "No related music found",
-    "currentMusic": "Current selection",
+    "currentMusic": "Currently selected",
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local files",
@@ -32,8 +32,8 @@
     "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
     "stopped": "Monitoring stopped",
     "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, breathing monitoring cannot be used",
-    "waiting": "Pending detection"
+    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
+    "waiting": "To be detected"
   },
   "units": {
     "perMin": "times/min",
@@ -46,6 +46,6 @@
     "Schumann Resonance",
     "Sleep",
     "Refresh",
-    "Inspire"
+    "Inspire creativity"
   ]
 }

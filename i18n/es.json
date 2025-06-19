@@ -1,12 +1,12 @@
 {
   "title": "Con la voz, te encuentras con un mejor tú",
   "subtitle": "🤖 Instrucciones de uso",
-  "description": "El sistema monitoreará en tiempo real tu estado de respiración y ajustará automáticamente la frecuencia binaural para guiarte a diferentes estados de conciencia:",
+  "description": "El sistema monitoreará en tiempo real tu estado de respiración y ajustará automáticamente la frecuencia de pulsación para guiarte a diferentes estados de conciencia:",
   "instructions": {
-    "headphones": "Por favor, usa <strong>auriculares estéreo</strong> para lograr el efecto de frecuencia binaural en el cerebro.",
+    "headphones": "Por favor, usa <strong>auriculares estéreo</strong> para lograr el efecto de frecuencia de pulsación en el cerebro.",
     "microphone": "Si aceptas usar tu <strong>micrófono</strong>, colócalo cerca de tu boca y nariz, intentaremos guiarte a un estado más profundo."
   },
-  "volumeRatioDetail": "Frecuencia binaural {binaural}% / Sonido de fondo {background}%",
+  "volumeRatioDetail": "Frecuencia de pulsación {binaural}% / Sonido de fondo {background}%",
   "labels": {
     "breathRate": "Tasa de respiración:",
     "baseFreq": "Frecuencia de tono base:",
@@ -16,7 +16,7 @@
     "realTimeData": "Datos en tiempo real",
     "systemConfig": "Configuración de frecuencia binaural",
     "audioSearch": "🎵 Búsqueda de música de fondo",
-    "searchPlaceholder": "Buscando música... (por ejemplo: bosque, olas del mar, meditación)",
+    "searchPlaceholder": "Buscando música... (por ejemplo: guitarra, mar, meditación)",
     "noResults": "No se encontró música relacionada",
     "currentMusic": "Selección actual",
     "deviceTest": "Prueba de dispositivo",
@@ -32,7 +32,7 @@
     "monitoring": "🎙️ Monitoreando la respiración... Por favor, respira naturalmente",
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
-    "unsupported": "⚠️ Su navegador no admite la función de micrófono, no se puede usar el monitoreo de respiración",
+    "unsupported": "⚠️ Su navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
     "waiting": "Por detectar"
   },
   "units": {
@@ -46,6 +46,6 @@
     "Resonancia Schumann",
     "Dormir",
     "Refrescar",
-    "Inspirar"
+    "Inspirar creatividad"
   ]
 }

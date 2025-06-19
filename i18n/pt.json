@@ -1,7 +1,7 @@
 {
   "title": "Com a voz, encontre uma versão melhor de si mesmo",
   "subtitle": "🤖 Instruções de uso",
-  "description": "O sistema monitorará seu estado respiratório em tempo real e ajustará automaticamente a frequência binaural para guiá-lo a diferentes estados de consciência:",
+  "description": "O sistema monitorará seu estado de respiração em tempo real e ajustará automaticamente a frequência binaural para guiá-lo a diferentes estados de consciência:",
   "instructions": {
     "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito de frequência binaural no cérebro.",
     "microphone": "Se você concordar em usar seu <strong>microfone</strong>, aproxime-o da boca e do nariz, tentaremos guiá-lo para um estado mais profundo."
@@ -16,13 +16,13 @@
     "realTimeData": "Dados em tempo real",
     "systemConfig": "Configuração de frequência binaural",
     "audioSearch": "🎵 Pesquisa de música de fundo",
-    "searchPlaceholder": "Procurar música... (por exemplo: floresta, ondas do mar, meditação)",
+    "searchPlaceholder": "Procurar música... (por exemplo: guitarra, mar, meditação)",
     "noResults": "Nenhuma música encontrada",
     "currentMusic": "Seleção atual",
     "deviceTest": "Teste de dispositivo",
     "libraryTab": "Biblioteca de som online",
     "localFileTab": "Arquivo local",
-    "filePrivacyMsg": "O arquivo de áudio é processado apenas localmente, não será enviado."
+    "filePrivacyMsg": "O arquivo de áudio é processado apenas localmente e não será enviado."
   },
   "buttons": {
     "start": "🎶 Iniciar",
@@ -33,7 +33,7 @@
     "stopped": "Monitoramento parado",
     "error": "❌ Não foi possível iniciar:",
     "unsupported": "⚠️ Seu navegador não suporta a função de microfone, não é possível usar o monitoramento de respiração",
-    "waiting": "Aguardando detecção"
+    "waiting": "A ser detectado"
   },
   "units": {
     "perMin": "vezes/min",
@@ -46,6 +46,6 @@
     "Ressonância de Schumann",
     "Dormir",
     "Revigorar",
-    "Inspirar"
+    "Inspirar criatividade"
   ]
 }

@@ -16,13 +16,13 @@
     "realTimeData": "即時數據",
     "systemConfig": "雙耳拍頻設置",
     "audioSearch": "🎵 背景音樂搜尋",
-    "searchPlaceholder": "搜尋音樂... (例如: 森林、海浪、冥想)",
+    "searchPlaceholder": "搜尋音樂... (例如: 結他、海、冥想)",
     "noResults": "找不到相關音樂",
     "currentMusic": "目前選擇",
     "deviceTest": "設備測試",
     "libraryTab": "線上音庫",
     "localFileTab": "本機檔案",
-    "filePrivacyMsg": "音檔僅在本機處理，不會上載。"
+    "filePrivacyMsg": "音檔僅在本機處理，不會上傳。"
   },
   "buttons": {
     "start": "🎶 開始",
@@ -32,7 +32,7 @@
     "monitoring": "🎙️ 呼吸監測中... 請保持自然呼吸",
     "stopped": "監測已停止",
     "error": "❌ 無法啟動：",
-    "unsupported": "⚠️ 您的瀏覽器不支援咪高峰功能，無法使用呼吸監測",
+    "unsupported": "⚠️ 您的瀏覽器不支援麥克風功能，無法使用呼吸監測",
     "waiting": "待檢測"
   },
   "units": {
