@@ -407,7 +407,7 @@
       "acústico",
       "Relajación"
     ],
-    "desc": "Guitarra suave como principal, acompañada de un fondo sonoro ligero, adecuado para relajarse y concentrarse.",
+    "desc": "Principalmente guitarra suave, acompañada de un fondo sonoro ligero, adecuado para relajarse y concentrarse.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan y tambor de lengua de acero",
+    "title": "Tambor de mano etéreo",
     "tag": [
-      "Handpan",
-      "Tambor de lengua de acero",
+      "Tambor de mano",
+      "Tambor etéreo",
       "handpan",
-      "steel tongue drum",
-      "Relajación"
+      "tambor de lengüeta de acero",
+      "relajación"
     ],
-    "desc": "Melodía principal de handpan y tambor de lengua de acero, una melodía suave y etérea, adecuada para meditación profunda y relajación.",
+    "desc": "Melodía principal de tambor de mano y tambor etéreo, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2393,8 +2393,8 @@
     "tag": [
       "Madera",
       "madera",
-      "Naturaleza",
-      "Vitalidad",
+      "naturaleza",
+      "vitalidad",
       "bosque"
     ],
     "desc": "Inspirado en el elemento madera, combina el sonido del viento entre los árboles y los sonidos naturales de la madera, mostrando vitalidad.",
@@ -2795,7 +2795,7 @@
       "Naturaleza",
       "Estabilidad"
     ],
-    "desc": "Paisaje sonoro del bosque, canto de pájaros y susurro de hojas, creando una atmósfera natural y estable.",
+    "desc": "Paisaje sonoro del bosque, con canto de pájaros y el susurro de las hojas, creando una atmósfera natural y estable.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3591,7 +3591,7 @@
       "chakra",
       "Fundamento"
     ],
-    "desc": "Tema del chakra raíz, resonancia de baja frecuencia que crea un campo de energía seguro y estable, adecuado para la meditación.",
+    "desc": "Tema del chakra raíz, la resonancia de baja frecuencia crea un campo de energía seguro y estable, adecuado para la meditación.",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodía principal de sonidos ambientales",
     "tag": [
-      "sonidos ambientales",
+      "Sonidos ambientales",
       "sonidos de la naturaleza",
       "sonido ambiental",
-      "naturaleza pura",
+      "pura naturaleza",
       "ambiente"
     ],
-    "desc": "Paisaje sonoro de naturaleza pura, sin instrumentos ni voces, adecuado para meditación, relajación y sanación natural.",
+    "desc": "Paisaje sonoro de pura naturaleza, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -6377,7 +6377,7 @@
       "Claridad",
       "claridad"
     ],
-    "desc": "Tema del elemento metal, el timbre es claro y brillante, creando una atmósfera pura y etérea.",
+    "desc": "Tema del elemento metal, con un tono claro y brillante, creando una atmósfera pura y etérea.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -6775,7 +6775,7 @@
       "Armonía",
       "relajante"
     ],
-    "desc": "Melodía principal de piano suave, acompañada de un acompañamiento calmante, que brinda una sensación de paz y comodidad.",
+    "desc": "Melodía principal de piano suave, acompañada de un acompañamiento relajante, que brinda una sensación de paz y comodidad.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7173,7 +7173,7 @@
       "diapasón",
       "Etéreo"
     ],
-    "desc": "El sonido etéreo de la campana y el diapasón es adecuado para la meditación, la limpieza y la concentración.",
+    "desc": "El sonido etéreo del glockenspiel y el diapasón es adecuado para la meditación, la limpieza y la concentración.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7961,13 +7961,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "trueno",
+    "title": "Trueno",
     "tag": [
+      "Trueno",
       "trueno",
-      "thunder",
-      "naturaleza",
-      "naturaleza",
-      "energía"
+      "Naturaleza",
+      "Naturaleza",
+      "Energía"
     ],
     "desc": "El sonido del trueno y la lluvia natural crea un paisaje sonoro lleno de energía y liberación.",
     "embedding": [
@@ -8359,13 +8359,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "chakra corona",
+    "title": "Chakra corona",
     "tag": [
+      "Chakra corona",
       "chakra corona",
-      "crown chakra",
-      "despertar",
+      "Despertar",
       "chakra",
-      "luz"
+      "Luz"
     ],
     "desc": "Paisaje sonoro temático del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
     "embedding": [

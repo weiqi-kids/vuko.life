@@ -407,7 +407,7 @@
       "acústico",
       "Relaxar"
     ],
-    "desc": "Principalmente guitarra suave, acompanhada por uma base sonora leve, adequada para relaxamento e concentração.",
+    "desc": "Principalmente guitarra suave, acompanhada por um fundo sonoro leve, adequado para relaxamento e concentração.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -1601,7 +1601,7 @@
       "paz",
       "Natureza"
     ],
-    "desc": "Simula a tranquilidade e vastidão das montanhas, destacando a paz interior com sons ambientais naturais.",
+    "desc": "Simula a tranquilidade e vastidão das montanhas, utilizando sons ambientais naturais para promover a paz interior.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -2397,7 +2397,7 @@
       "Vitalidade",
       "floresta"
     ],
-    "desc": "Inspirado no elemento madeira, combina o som do vento entre as árvores e os sons naturais das árvores, mostrando vitalidade.",
+    "desc": "Inspirado no elemento madeira, combina sons naturais de vento entre as árvores, mostrando vitalidade.",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -2795,7 +2795,7 @@
       "Natureza",
       "Estabilidade"
     ],
-    "desc": "Paisagem sonora da floresta, canto dos pássaros e som das folhas, criando uma atmosfera natural e estável.",
+    "desc": "Paisagem sonora da floresta, com canto de pássaros e som de folhas, criando uma atmosfera natural e estável.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3189,7 +3189,7 @@
     "tag": [
       "Água",
       "água",
-      "Fluxo de água",
+      "Água corrente",
       "Fluxo",
       "Fresco"
     ],
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodia principal de sons ambientais",
     "tag": [
-      "sons da natureza",
+      "sons ambientais",
       "sons da natureza",
       "som ambiente",
       "natureza pura",
       "ambiente"
     ],
-    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes, adequada para meditação, relaxamento e cura natural.",
+    "desc": "Paisagem sonora de ambiente natural puro, sem instrumentos ou vozes, ideal para meditação, relaxamento e cura natural.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -5183,7 +5183,7 @@
       "tambor de moldura",
       "Aterramento"
     ],
-    "desc": "Ritmo estável do tambor xamânico de baixa frequência, ajudando a entrar em meditação profunda e percepção corporal.",
+    "desc": "Ritmo estável do tambor xamânico de baixa frequência, auxiliando na entrada em meditação profunda e percepção corporal.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5979,7 +5979,7 @@
       "chakra",
       "fluxo"
     ],
-    "desc": "Paisagem sonora do Chakra Sacral, simboliza o fluxo emocional, criatividade e energia de prazer.",
+    "desc": "Paisagem sonora do chakra sacral, simboliza o fluxo emocional, criatividade e energia de prazer.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -7569,7 +7569,7 @@
       "Xiao",
       "flauta",
       "xiao",
-      "Fluidez"
+      "Fluxo"
     ],
     "desc": "Melodia principal de flauta e xiao, fluindo de forma distante, criando um estado de espírito etéreo e profundo.",
     "embedding": [

@@ -21,7 +21,7 @@
     "noResults": "No se encontró música relacionada",
     "currentMusic": "Selección actual",
     "deviceTest": "Prueba de dispositivo",
-    "libraryTab": "Biblioteca de sonido en línea",
+    "libraryTab": "Biblioteca de música en línea",
     "localFileTab": "Archivo local",
     "filePrivacyMsg": "El archivo de audio se procesa solo localmente y no se subirá."
   },
@@ -33,7 +33,7 @@
     "monitoring": "🎙️ Monitoreando la respiración... Por favor, respira naturalmente",
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
-    "unsupported": "⚠️ Su navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
+    "unsupported": "⚠️ Su navegador no admite la función de micrófono, no se puede usar el monitoreo de respiración",
     "waiting": "Por detectar"
   },
   "units": {
@@ -46,7 +46,7 @@
     "Concentración",
     "Meditación",
     "Resonancia Schumann",
-    "Dormir",
+    "Sueño",
     "Refrescar",
     "Inspirar creatividad"
   ]

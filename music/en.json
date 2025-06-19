@@ -407,7 +407,7 @@
       "acoustic",
       "Relaxation"
     ],
-    "desc": "Gentle guitar as the main, accompanied by soft sound pads, suitable for relaxation and focus.",
+    "desc": "Mainly gentle guitar, accompanied by soft sound pads, suitable for relaxation and focus.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -805,7 +805,7 @@
       "Earth",
       "grounding"
     ],
-    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds to emphasize stability and tranquility.",
+    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds, emphasizing stability and tranquility.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -3193,7 +3193,7 @@
       "Flow",
       "Fresh"
     ],
-    "desc": "Centered around the sound of flowing water and streams, presenting a fresh and flowing mindset.",
+    "desc": "Centered around the sound of flowing water and streams, presenting a fresh and flowing state of mind.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -6369,9 +6369,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Metal",
+    "title": "Gold",
     "tag": [
-      "Metal",
+      "Gold",
       "metal",
       "purity",
       "clarity",
@@ -7571,7 +7571,7 @@
       "xiao",
       "Flowing"
     ],
-    "desc": "The main melodies of the flute and xiao flow distantly, creating an ethereal and profound state of mind.",
+    "desc": "The main melody of the flute and xiao flows distantly, creating an ethereal and profound state of mind.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
