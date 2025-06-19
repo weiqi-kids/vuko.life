@@ -87,6 +87,15 @@ async function updateLanguageContent() {
     const volumeRatioLabel = document.getElementById('volumeRatioLabel');
     if (volumeRatioLabel) volumeRatioLabel.textContent = labels.volumeRatio || '';
 
+    const tabLibrary = document.getElementById('tabLibrary');
+    if (tabLibrary) tabLibrary.textContent = labels.libraryTab || '';
+
+    const tabLocal = document.getElementById('tabLocal');
+    if (tabLocal) tabLocal.textContent = labels.localFileTab || '';
+
+    const privacyMsg = document.getElementById('filePrivacyMsg');
+    if (privacyMsg) privacyMsg.textContent = labels.filePrivacyMsg || '';
+
     document.querySelector('.breath-visual h3').textContent = labels.breathVisual || '';
     document.querySelector('.breath-stats h3').textContent = labels.realTimeData || '';
 

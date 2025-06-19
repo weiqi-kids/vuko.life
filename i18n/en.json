@@ -19,7 +19,10 @@
     "searchPlaceholder": "Search music... (e.g., forest, waves, meditation)",
     "noResults": "No related music found",
     "currentMusic": "Current selection",
-    "deviceTest": "Device test"
+    "deviceTest": "Device test",
+    "libraryTab": "Online library",
+    "localFileTab": "Local file",
+    "filePrivacyMsg": "Selected audio is processed locally and never uploaded."
   },
   "buttons": {
     "start": "🎶 Start",

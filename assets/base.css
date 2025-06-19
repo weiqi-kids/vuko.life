@@ -334,6 +334,32 @@
             box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.1);
         }
 
+        .audio-tabs {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .tab-button {
+            flex: 1;
+            background: rgba(118, 75, 162, 0.2);
+            border: none;
+            padding: 8px 10px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .tab-button.active {
+            background: #764ba2;
+            color: #fff;
+        }
+
+        .privacy-msg {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+
         .search-results {
             max-height: 300px;
             overflow-y: auto;

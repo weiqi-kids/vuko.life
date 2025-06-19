@@ -32,14 +32,24 @@
         <div class="config-audio-container">
             <div class="audio-search-section">
                 <h4 id="audioSearchTitle"></h4>
-                <div class="search-container">
-                    <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                <div class="audio-tabs">
+                    <button id="tabLibrary" class="tab-button active"></button>
+                    <button id="tabLocal" class="tab-button"></button>
+                </div>
+                <div id="libraryTabContent">
+                    <div class="search-container">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                    </div>
+                    <div id="searchResults" class="search-results" style="display: none;"></div>
+                </div>
+                <div id="localTabContent" style="display: none;">
+                    <input type="file" id="localFileInput" accept="audio/*">
+                    <div class="privacy-msg" id="filePrivacyMsg"></div>
                 </div>
                 <div id="currentSelection" class="current-selection" style="display: none;">
                     <div class="current-selection-label" id="currentSelectionLabel"></div>
                     <div class="current-selection-name" id="currentSelectionName"></div>
                 </div>
-                <div id="searchResults" class="search-results" style="display: none;"></div>
             </div>
 
             <div class="config-info">
