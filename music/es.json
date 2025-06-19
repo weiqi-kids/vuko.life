@@ -407,7 +407,7 @@
       "acústico",
       "Relajación"
     ],
-    "desc": "Principalmente guitarra suave, acompañada de un fondo sonoro ligero, adecuado para relajarse y concentrarse.",
+    "desc": "Guitarra suave como principal, acompañada de un fondo sonoro ligero, adecuado para relajarse y concentrarse.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -1601,7 +1601,7 @@
       "paz",
       "Naturaleza"
     ],
-    "desc": "Simula la tranquilidad y amplitud de las montañas, utilizando sonidos ambientales naturales para resaltar la paz interior.",
+    "desc": "Simula la tranquilidad y amplitud de las montañas, utilizando sonidos ambientales naturales para fomentar la paz interior.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Tambor espiritual de mano",
+    "title": "Handpan y tambor de lengua de acero",
     "tag": [
-      "Tambor de mano",
-      "Tambor espiritual",
+      "Handpan",
+      "Tambor de lengua de acero",
       "handpan",
-      "tambor de lengüeta de acero",
-      "relajación"
+      "steel tongue drum",
+      "Relajación"
     ],
-    "desc": "Melodía principal de tambor de mano y tambor espiritual, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
+    "desc": "Melodía principal de handpan y tambor de lengua de acero, una melodía suave y etérea, adecuada para meditación profunda y relajación.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2393,8 +2393,8 @@
     "tag": [
       "Madera",
       "madera",
-      "naturaleza",
-      "vitalidad",
+      "Naturaleza",
+      "Vitalidad",
       "bosque"
     ],
     "desc": "Inspirado en el elemento madera, combina el sonido del viento entre los árboles y los sonidos naturales de la madera, mostrando vitalidad.",
@@ -3191,9 +3191,9 @@
       "agua",
       "Fluir del agua",
       "Fluir",
-      "Fresco"
+      "Frescura"
     ],
-    "desc": "Con el flujo de agua y el sonido del arroyo como tema principal, presenta un estado de ánimo fresco y fluido.",
+    "desc": "Con el flujo del agua y el sonido del arroyo como tema principal, presenta un estado de ánimo fresco y fluido.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodía principal de sonidos ambientales",
     "tag": [
-      "Sonidos ambientales",
+      "sonidos ambientales",
       "sonidos de la naturaleza",
       "sonido ambiental",
-      "pura naturaleza",
+      "naturaleza pura",
       "ambiente"
     ],
-    "desc": "Paisaje sonoro de pura naturaleza, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
+    "desc": "Paisaje sonoro de naturaleza pura, sin instrumentos ni voces, adecuado para meditación, relajación y sanación natural.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuición"
     ],
-    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatizando la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
+    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatiza la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5581,7 +5581,7 @@
       "chakra",
       "Libertad"
     ],
-    "desc": "Paisaje sonoro temático del chakra de la garganta, creando un espacio para el flujo de energía suave y la expresión libre.",
+    "desc": "Paisaje sonoro temático del chakra de la garganta, crea un espacio para el flujo de energía suave y la expresión libre.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -6775,7 +6775,7 @@
       "Armonía",
       "relajante"
     ],
-    "desc": "Melodía principal de piano suave, acompañada de un acompañamiento relajante, que brinda una sensación de paz y comodidad.",
+    "desc": "Melodía principal de piano suave, acompañada de un acompañamiento calmante, que brinda una sensación de paz y comodidad.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,

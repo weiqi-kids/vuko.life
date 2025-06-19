@@ -3,7 +3,7 @@
   "subtitle": "🤖 User Guide",
   "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
+    "headphones": "Please use <strong>binaural headphones</strong> to achieve the effect of binaural beats.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
   "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
