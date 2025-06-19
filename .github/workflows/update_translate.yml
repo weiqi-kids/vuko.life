@@ -3,7 +3,7 @@ name: Update Translations
 on:
   push:
     paths:
-      - 'i18n/zh-tw.json'
+      - 'i18n/base.json'
       - 'music/base.json'
       - '.github/scripts/translate.py'
       - '.github/workflows/update_translate.yml'
@@ -19,17 +19,42 @@ jobs:
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - name: Check base changes
+        id: base
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          prev="${BEFORE:-HEAD^}"
+          if git diff --quiet "$prev" HEAD -- i18n/base.json; then
+            echo "i18n=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "i18n=true" >> "$GITHUB_OUTPUT"
+          fi
+          if git diff --quiet "$prev" HEAD -- music/base.json; then
+            echo "music=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "music=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Translate all languages
+      - name: Translate i18n
+        if: steps.base.outputs.i18n == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           for lang in en es ja ko pt zh-cn zh-hk; do
-            python .github/scripts/translate.py i18n/zh-tw.json i18n/$lang.json
+            python .github/scripts/translate.py i18n/base.json i18n/$lang.json
+          done
+      - name: Translate music
+        if: steps.base.outputs.music == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          for lang in en es ja ko pt zh-cn zh-hk; do
             python .github/scripts/translate.py music/base.json music/$lang.json
           done
       - name: Commit and push

@@ -16,11 +16,11 @@
     "realTimeData": "Dados em tempo real",
     "systemConfig": "Configuração de frequência binaural",
     "audioSearch": "🎵 Pesquisa de música de fundo",
-    "searchPlaceholder": "Pesquisando música... (por exemplo: floresta, ondas do mar, meditação)",
+    "searchPlaceholder": "Procurar música... (por exemplo: floresta, ondas do mar, meditação)",
     "noResults": "Nenhuma música encontrada",
     "currentMusic": "Seleção atual",
     "deviceTest": "Teste de dispositivo",
-    "libraryTab": "Biblioteca de áudio online",
+    "libraryTab": "Biblioteca de som online",
     "localFileTab": "Arquivo local",
     "filePrivacyMsg": "O arquivo de áudio é processado apenas localmente, não será enviado."
   },
@@ -29,11 +29,11 @@
     "stop": "🍂 Parar"
   },
   "status": {
-    "monitoring": "🎙️ Monitorando a respiração... Por favor, respire naturalmente",
+    "monitoring": "🎙️ Monitorando respiração... Por favor, respire naturalmente",
     "stopped": "Monitoramento parado",
     "error": "❌ Não foi possível iniciar:",
     "unsupported": "⚠️ Seu navegador não suporta a função de microfone, não é possível usar o monitoramento de respiração",
-    "waiting": "A ser detectado"
+    "waiting": "Aguardando detecção"
   },
   "units": {
     "perMin": "vezes/min",
@@ -46,6 +46,6 @@
     "Ressonância de Schumann",
     "Dormir",
     "Revigorar",
-    "Inspirar criatividade"
+    "Inspirar"
   ]
 }
