@@ -191,6 +191,10 @@ jobs:
             echo "screenshot failed" >> screenshot.log
             exit $status
           fi
+      - name: Check screenshots
+        run: |
+          ls -lh output
+          file output/*.jpg
       - name: Upload screenshots
         if: always()
         uses: actions/upload-artifact@v3

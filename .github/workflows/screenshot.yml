@@ -38,6 +38,10 @@ jobs:
             lang=$(basename "$f" | sed 's/screenshot-//')
             cp "$f" "screenshots/$lang"
           done
+      - name: Check screenshots
+        run: |
+          ls -lh screenshots
+          file screenshots/*.jpg
       - name: Upload screenshots artifact
         uses: actions/upload-artifact@v3
         with:

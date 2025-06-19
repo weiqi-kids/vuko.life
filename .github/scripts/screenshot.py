@@ -94,7 +94,10 @@ def main() -> None:
         try:
             raw = capture_screenshot(url)
             compressed = compress_image(raw)
-            (out_dir / f"screenshot-{lang}.jpg").write_bytes(compressed)
+            outfile = out_dir / f"screenshot-{lang}.jpg"
+            with outfile.open("wb") as f:
+                f.write(compressed)
+            print(f"Saved {outfile} ({outfile.stat().st_size} bytes)")
             print(f"Captured screenshot for {lang}")
         except Exception as e:
             print(f"Failed to capture screenshot for {lang}: {e}")
