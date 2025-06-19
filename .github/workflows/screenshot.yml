@@ -26,18 +26,11 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         run: |
-          pip install playwright Pillow
+          pip install playwright
           playwright install --with-deps chromium
       - name: Capture screenshots
         run: |
-          python .github/scripts/screenshot.py --out output > screenshot.log 2>&1
-      - name: Copy screenshots into repo
-        run: |
-          mkdir -p screenshots
-          for f in output/screenshot-*.jpg; do
-            lang=$(basename "$f" | sed 's/screenshot-//')
-            cp "$f" "screenshots/$lang"
-          done
+          python .github/scripts/screenshot.py --out screenshots > screenshot.log 2>&1
       - name: Check screenshots
         run: |
           ls -lh screenshots
@@ -48,25 +41,13 @@ jobs:
           name: pr-screenshots
           path: screenshots
       - name: Commit screenshots
-        env:
-          BRANCH: ${{ env.BRANCH }}
-        run: |
-          set -eo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add screenshots/*.jpg
-          if ! git diff --cached --quiet; then
-            git commit -m "Add screenshots [skip ci]" > push.log 2>&1
-            git push origin HEAD:$BRANCH >> push.log 2>&1
-          else
-            echo "No changes" > push.log
-          fi
-      - name: Upload push log
-        if: always()
-        uses: actions/upload-artifact@v3
+        uses: EndBug/add-and-commit@v9
         with:
-          name: push-log
-          path: push.log
+          add: 'screenshots/*.jpg'
+          message: 'Add screenshots [skip ci]'
+          default_author: github_actions
+          push: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Comment screenshot URLs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

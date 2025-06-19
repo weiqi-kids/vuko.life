@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 import argparse
 import json
-import os
-from io import BytesIO
 from pathlib import Path
 from typing import List
 
-from PIL import Image
 from playwright.sync_api import sync_playwright
 
 
@@ -29,57 +26,18 @@ def get_all_languages(repo_root: Path) -> List[str]:
     return langs
 
 
-def capture_screenshot(url: str) -> bytes:
-    """Capture a full page screenshot and return the raw PNG bytes."""
+def capture_screenshot(url: str, path: Path) -> None:
+    """Capture a full page screenshot and save to given path."""
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
         page.goto(url)
-        data = page.screenshot(full_page=True)
+        page.screenshot(path=str(path), full_page=True, type="jpeg", quality=80)
         browser.close()
-    return data
-
-
-def compress_image(
-    data: bytes,
-    width: int = 320,
-    quality: int = 70,
-    max_bytes: int = 60000,
-) -> bytes:
-    """Resize and convert PNG screenshot bytes to compressed JPEG under max size."""
-    with Image.open(BytesIO(data)) as img:
-        ratio = width / img.width
-        height = int(img.height * ratio)
-        img = img.resize((width, height))
-
-        def try_save(im: Image.Image, q: int) -> bytes:
-            buf = BytesIO()
-            im.save(buf, format="JPEG", quality=q)
-            return buf.getvalue()
-
-        # progressively lower quality until size is acceptable
-        for q in range(quality, 10, -10):
-            out = try_save(img, q)
-            if len(out) <= max_bytes:
-                return out
-
-        # if still too big, shrink width and retry
-        for w in range(width - 40, 80, -40):
-            ratio = w / img.width
-            h = int(img.height * ratio)
-            smaller = img.resize((w, h))
-            for q in range(quality, 10, -10):
-                out = try_save(smaller, q)
-                if len(out) <= max_bytes:
-                    return out
-
-        # give up, return smallest attempt
-        return try_save(img, 10)
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Take screenshots for all languages")
-    parser.add_argument("--out", help="output directory", default="output")
+    parser.add_argument("--out", help="output directory", default="screenshots")
     args = parser.parse_args()
 
     repo_root = Path(__file__).resolve().parents[2]
@@ -92,11 +50,8 @@ def main() -> None:
     for lang in langs:
         url = f"https://www.vuko.life/app/{lang}.html"
         try:
-            raw = capture_screenshot(url)
-            compressed = compress_image(raw)
-            outfile = out_dir / f"screenshot-{lang}.jpg"
-            with outfile.open("wb") as f:
-                f.write(compressed)
+            outfile = out_dir / f"{lang}.jpg"
+            capture_screenshot(url, outfile)
             print(f"Saved {outfile} ({outfile.stat().st_size} bytes)")
             print(f"Captured screenshot for {lang}")
         except Exception as e:
