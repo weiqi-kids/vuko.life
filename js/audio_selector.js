@@ -292,6 +292,38 @@ function loadBackgroundAudio(url) {
     });
 }
 
+function initTabSwitching() {
+    const tabLibrary = document.getElementById('tabLibrary');
+    const tabLocal = document.getElementById('tabLocal');
+    const libraryTab = document.getElementById('libraryTabContent');
+    const localTab = document.getElementById('localTabContent');
+    if (!tabLibrary || !tabLocal) return;
+    tabLibrary.addEventListener('click', () => {
+        tabLibrary.classList.add('active');
+        tabLocal.classList.remove('active');
+        libraryTab.style.display = 'block';
+        localTab.style.display = 'none';
+    });
+    tabLocal.addEventListener('click', () => {
+        tabLocal.classList.add('active');
+        tabLibrary.classList.remove('active');
+        libraryTab.style.display = 'none';
+        localTab.style.display = 'block';
+    });
+}
+
+function initLocalFileSelector() {
+    const input = document.getElementById('localFileInput');
+    if (!input) return;
+    input.addEventListener('change', () => {
+        const file = input.files[0];
+        if (file) {
+            const url = URL.createObjectURL(file);
+            selectMusic(url, file.name, 'local');
+        }
+    });
+}
+
 function initAudioSelector() {
     const searchInput = document.getElementById('musicSearchInput');
     if (searchInput) {
@@ -308,6 +340,8 @@ function initAudioSelector() {
             }
         });
     }
+    initTabSwitching();
+    initLocalFileSelector();
 }
 
 document.addEventListener('DOMContentLoaded', async () => {

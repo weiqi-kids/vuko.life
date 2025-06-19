@@ -19,7 +19,10 @@
     "searchPlaceholder": "음악 검색... (예: 숲, 파도, 명상)",
     "noResults": "관련 음악을 찾을 수 없음",
     "currentMusic": "현재 선택",
-    "deviceTest": "장치 테스트"
+    "deviceTest": "장치 테스트",
+    "libraryTab": "라이브러리",
+    "localFileTab": "로컬 파일",
+    "filePrivacyMsg": "선택한 음원은 기기에서만 처리되며 업로드되지 않습니다."
   },
   "buttons": {
     "start": "🎶 시작",

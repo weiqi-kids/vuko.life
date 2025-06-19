@@ -19,7 +19,10 @@
     "searchPlaceholder": "音楽を検索...（例: 森、波、瞑想）",
     "noResults": "関連する音楽が見つかりません",
     "currentMusic": "現在の選択",
-    "deviceTest": "デバイステスト"
+    "deviceTest": "デバイステスト",
+    "libraryTab": "ライブラリ",
+    "localFileTab": "ローカルファイル",
+    "filePrivacyMsg": "選択した音声は端末内で処理され、アップロードされません。"
   },
   "buttons": {
     "start": "🎶 開始",

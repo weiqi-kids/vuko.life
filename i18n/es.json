@@ -19,7 +19,10 @@
     "searchPlaceholder": "Buscar música... (ej.: bosque, olas, meditación)",
     "noResults": "No se encontraron canciones relacionadas",
     "currentMusic": "Selección actual",
-    "deviceTest": "Prueba de dispositivo"
+    "deviceTest": "Prueba de dispositivo",
+    "libraryTab": "Biblioteca en línea",
+    "localFileTab": "Archivo local",
+    "filePrivacyMsg": "El audio seleccionado se procesa localmente y no se sube."
   },
   "buttons": {
     "start": "🎶 Iniciar",
