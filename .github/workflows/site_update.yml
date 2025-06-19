@@ -167,10 +167,7 @@ jobs:
 
   screenshot:
     needs: [translate, embedding]
-    if: |
-      !contains(github.event.head_commit.message, '[skip ci]') &&
-      needs.translate.result == 'success' &&
-      (needs.embedding.result == 'success' || needs.embedding.result == 'skipped')
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && needs.translate.result == 'success' && (needs.embedding.result == 'success' || needs.embedding.result == 'skipped') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
