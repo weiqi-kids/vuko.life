@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any, List, Tuple
 
 import openai
+from openai import error as openai_error
 from babel import Locale
 from tqdm import tqdm
 
@@ -86,8 +87,14 @@ def translate_batch(texts: List[str], src_name: str, tgt_name: str, tgt_code: st
             content = resp.choices[0].message.content
             data = json.loads(content)
             return [data.get(str(i), texts[i]) for i in range(len(texts))]
+        except (openai_error.AuthenticationError, openai_error.RateLimitError) as e:
+            print(f"OpenAI API error ({tgt_code}): {e}; aborting")
+            break
+        except openai_error.OpenAIError as e:
+            print(f"OpenAI API error ({tgt_code}): {e}; retry {attempt + 1}")
+            time.sleep(2 ** attempt)
         except Exception as e:
-            print(f"Error during translation ({tgt_code}): {e}; retry {attempt + 1}")
+            print(f"Unexpected error ({tgt_code}): {e}; retry {attempt + 1}")
             time.sleep(2 ** attempt)
     return texts
 
@@ -99,6 +106,11 @@ def main() -> None:
     args = parser.parse_args()
 
     openai.api_key = os.getenv("OPENAI_API_KEY")
+    if not openai.api_key:
+        print("OPENAI_API_KEY not set; skipping translation")
+        data = load_json(Path(args.src))
+        save_json(Path(args.dst), data)
+        return
 
     src_path = Path(args.src)
     dst_path = Path(args.dst)
