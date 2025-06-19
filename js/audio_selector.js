@@ -3,6 +3,14 @@
 let MUSIC_LIBRARY = {};
 let selectedMusicItem = null;
 let allMusicItems = [];
+let extractor = null;
+
+async function loadEmbeddingModel() {
+    if (!extractor) {
+        const { pipeline } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.14.0/dist/transformers.min.js');
+        extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
+    }
+}
 
 async function loadMusicLibrary() {
     try {
@@ -17,14 +25,29 @@ async function loadMusicLibrary() {
 
 function initMusicLibrary() {
     allMusicItems = [];
-    Object.keys(MUSIC_LIBRARY).forEach(category => {
-        MUSIC_LIBRARY[category].forEach(item => {
+    if (Array.isArray(MUSIC_LIBRARY)) {
+        MUSIC_LIBRARY.forEach(item => {
             allMusicItems.push({
-                ...item,
-                category: category
+                name: item.title,
+                name_en: item.title,
+                url: item.file,
+                keywords: item.tag || [],
+                description: item.desc || '',
+                embedding: item.embedding || [],
+                category: ''
             });
         });
-    });
+    } else {
+        Object.keys(MUSIC_LIBRARY).forEach(category => {
+            MUSIC_LIBRARY[category].forEach(item => {
+                allMusicItems.push({
+                    ...item,
+                    category: category,
+                    embedding: item.embedding || []
+                });
+            });
+        });
+    }
 }
 
 function fuzzySearch(query, text) {
@@ -58,28 +81,48 @@ function calculateEditDistance(a, b) {
     return matrix[b.length][a.length];
 }
 
-function searchMusic(query) {
+function cosineSimilarity(vecA, vecB) {
+    let dot = 0,
+        normA = 0,
+        normB = 0;
+    for (let i = 0; i < vecA.length; i++) {
+        dot += vecA[i] * vecB[i];
+        normA += vecA[i] * vecA[i];
+        normB += vecB[i] * vecB[i];
+    }
+    if (normA === 0 || normB === 0) return 0;
+    return dot / (Math.sqrt(normA) * Math.sqrt(normB));
+}
+
+async function searchMusic(query) {
     if (!query.trim()) return [];
+    await loadEmbeddingModel();
+    const result = await extractor(query);
+    const queryEmbedding = result[0][0];
     const results = [];
     allMusicItems.forEach(item => {
-        let maxScore = 0;
+        let fuzzyScore = 0;
         const nameScore = Math.max(
             fuzzySearch(query, item.name),
             fuzzySearch(query, item.name_en)
         );
-        maxScore = Math.max(maxScore, nameScore);
+        fuzzyScore = Math.max(fuzzyScore, nameScore);
         item.keywords.forEach(keyword => {
             const keywordScore = fuzzySearch(query, keyword);
-            maxScore = Math.max(maxScore, keywordScore);
+            fuzzyScore = Math.max(fuzzyScore, keywordScore);
         });
         const descScore = fuzzySearch(query, item.description);
-        maxScore = Math.max(maxScore, descScore * 0.7);
+        fuzzyScore = Math.max(fuzzyScore, descScore * 0.7);
         const categoryScore = fuzzySearch(query, item.category);
-        maxScore = Math.max(maxScore, categoryScore * 0.5);
-        if (maxScore > 30) {
+        fuzzyScore = Math.max(fuzzyScore, categoryScore * 0.5);
+
+        const semanticScore = cosineSimilarity(queryEmbedding, item.embedding) * 100;
+        const finalScore = fuzzyScore * 0.4 + semanticScore * 0.6;
+
+        if (finalScore > 30) {
             results.push({
                 ...item,
-                score: maxScore
+                score: finalScore
             });
         }
     });
@@ -110,21 +153,21 @@ function renderSearchResults(results) {
     container.innerHTML = html;
     container.style.display = 'block';
     container.querySelectorAll('.music-item').forEach((element, index) => {
-        element.addEventListener('click', () => {
+        element.addEventListener('click', async () => {
             const item = results[index];
-            selectMusic(item.url, item.name, item.category);
+            await selectMusic(item.url, item.name, item.category);
         });
     });
 }
 
-function selectMusic(url, name, category) {
+async function selectMusic(url, name, category) {
     selectedMusicItem = { url, name, category };
     CONFIG.MUSIC_CONTENT.TYPE = 'custom';
     CONFIG.MUSIC_CONTENT.CUSTOM_URL = url;
     showCurrentSelection(name);
     const query = document.getElementById('musicSearchInput').value;
     if (query.trim()) {
-        const results = searchMusic(query);
+        const results = await searchMusic(query);
         renderSearchResults(results);
     }
     if (isRecording) {
@@ -178,7 +221,10 @@ function getBackgroundAudioUrl() {
     if (CONFIG.MUSIC_CONTENT.TYPE === 'custom') {
         return CONFIG.MUSIC_CONTENT.CUSTOM_URL;
     }
-    const musicList = MUSIC_LIBRARY[CONFIG.MUSIC_CONTENT.TYPE];
+    let musicList = MUSIC_LIBRARY[CONFIG.MUSIC_CONTENT.TYPE];
+    if (Array.isArray(MUSIC_LIBRARY)) {
+        musicList = allMusicItems;
+    }
     if (musicList && musicList.length > 0) {
         const randomIndex = Math.floor(Math.random() * musicList.length);
         return musicList[randomIndex].url;
@@ -249,10 +295,10 @@ function loadBackgroundAudio(url) {
 function initAudioSelector() {
     const searchInput = document.getElementById('musicSearchInput');
     if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
+        searchInput.addEventListener('input', async (e) => {
             const query = e.target.value;
             if (query.trim()) {
-                const results = searchMusic(query);
+                const results = await searchMusic(query);
                 renderSearchResults(results);
                 if (typeof trackEvent === 'function') {
                     trackEvent('search', { term: query.trim() });
@@ -267,6 +313,7 @@ function initAudioSelector() {
 document.addEventListener('DOMContentLoaded', async () => {
     await loadMusicLibrary();
     initMusicLibrary();
+    loadEmbeddingModel().catch(console.error);
     initAudioSelector();
 });
 

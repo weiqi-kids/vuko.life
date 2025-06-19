@@ -1,73 +1,156 @@
-{
-  "nature": [
-    {
-      "name": "森林雨聲",
-      "name_en": "Forest Rain",
-      "url": "https://cdn.pixabay.com/audio/2022/03/10/audio_2f2e3908a4.mp3",
-      "keywords": ["森林", "雨聲", "下雨", "樹林", "forest", "rain", "trees", "senlin", "yusheng", "xiaoyu"],
-      "description": "深林中的細雨聲，帶來寧靜放鬆的感受"
-    },
-    {
-      "name": "海浪聲",
-      "name_en": "Ocean Waves",
-      "url": "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3",
-      "keywords": ["海浪", "海洋", "波浪", "海邊", "ocean", "waves", "sea", "beach", "hailang", "haiyang", "bolang"],
-      "description": "溫柔的海浪拍打聲，模擬海邊的寧靜氛圍"
-    },
-    {
-      "name": "鳥鳴聲",
-      "name_en": "Bird Songs",
-      "url": "https://cdn.pixabay.com/audio/2021/08/04/audio_12b0c7a7ce.mp3",
-      "keywords": ["鳥鳴", "鳥叫", "鳥聲", "自然", "birds", "singing", "chirping", "niaomine", "niaojiao", "ziran"],
-      "description": "清晨鳥兒的悅耳歌聲，充滿生機與活力"
-    }
-  ],
-  "ambient": [
-    {
-      "name": "環境音樂",
-      "name_en": "Ambient Music",
-      "url": "https://cdn.pixabay.com/audio/2022/02/11/audio_8be2d3a1c8.mp3",
-      "keywords": ["環境", "氛圍", "背景", "音樂", "ambient", "atmosphere", "background", "huanjing", "fenwei", "beinjing"],
-      "description": "柔和的環境音樂，創造舒適的背景氛圍"
-    },
-    {
-      "name": "太空音樂",
-      "name_en": "Space Music",
-      "url": "https://cdn.pixabay.com/audio/2021/12/06/audio_2b1e9d4c5a.mp3",
-      "keywords": ["太空", "宇宙", "星空", "科幻", "space", "cosmic", "universe", "sci-fi", "taikong", "yuzhou", "xingkong"],
-      "description": "神秘的太空音效，帶來無限想像空間"
-    }
-  ],
-  "meditation": [
-    {
-      "name": "冥想音樂",
-      "name_en": "Meditation Music",
-      "url": "https://cdn.pixabay.com/audio/2022/01/18/audio_7d5c8f9b2e.mp3",
-      "keywords": ["冥想", "靜心", "禪修", "放鬆", "meditation", "mindfulness", "zen", "relax", "mingxiang", "jingxin", "chanxiu"],
-      "description": "專為冥想設計的寧靜音樂，幫助深度放鬆"
-    },
-    {
-      "name": "療癒音樂",
-      "name_en": "Healing Music",
-      "url": "https://cdn.pixabay.com/audio/2021/11/21/audio_4a8c9e7f1b.mp3",
-      "keywords": ["療癒", "治療", "修復", "舒緩", "healing", "therapy", "soothing", "recovery", "liaoyu", "zhiliao", "shufu"],
-      "description": "具有療癒效果的音樂，撫慰心靈創傷"
-    }
-  ],
-  "white_noise": [
-    {
-      "name": "白噪音",
-      "name_en": "White Noise",
-      "url": "https://cdn.pixabay.com/audio/2022/06/15/audio_9c3f2a8d7e.mp3",
-      "keywords": ["白噪音", "噪音", "專注", "遮蔽", "white noise", "focus", "masking", "baizaoyin", "zhuanzhu", "zhebei"],
-      "description": "均勻的白噪音，幫助專注和遮蔽外界干擾"
-    },
-    {
-      "name": "粉紅噪音",
-      "name_en": "Pink Noise",
-      "url": "https://cdn.pixabay.com/audio/2021/09/30/audio_6b5e1f4a9c.mp3",
-      "keywords": ["粉紅噪音", "睡眠", "深層", "休息", "pink noise", "sleep", "deep", "rest", "fenhongzaoyin", "shuimian", "xiuxi"],
-      "description": "溫和的粉紅噪音，促進深層睡眠品質"
-    }
-  ]
-}
+[
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
+    "title": "頌缽",
+    "tag": ["頌缽", "singing bowl", "冥想", "meditation", "療癒"],
+    "desc": "以頌缽聲為主旋律，溫和共鳴，適合冥想與療癒音景。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
+    "title": "吉他",
+    "tag": ["吉他", "guitar", "輕柔", "acoustic", "放鬆"],
+    "desc": "溫柔吉他為主，輔以輕柔音墊，適合放鬆與專注。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
+    "title": "土",
+    "tag": ["土", "earth", "自然", "大地", "grounding"],
+    "desc": "以大地元素為靈感，融合自然低頻與環境音，強調穩定、沈靜感。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%A4%AA%E9%99%BD%E7%A5%9E%E7%B6%93%E5%8F%A2%E8%BC%AA.mp3",
+    "title": "太陽神經叢輪",
+    "tag": ["太陽神經叢輪", "solar plexus chakra", "能量", "chakra", "自信"],
+    "desc": "太陽神經叢輪主題，象徵活力、意志與能量中心，溫暖與光明氛圍。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%B1%B1.mp3",
+    "title": "山",
+    "tag": ["山", "mountain", "寧靜", "peace", "自然"],
+    "desc": "模擬山中的寧靜與廣闊，以自然環境音烘托心靈平靜。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
+    "title": "手碟空靈鼓",
+    "tag": ["手碟", "空靈鼓", "handpan", "steel tongue drum", "放鬆"],
+    "desc": "手碟與空靈鼓主旋律，圓潤空靈的旋律，適合深度冥想與放鬆。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9C%A8.mp3",
+    "title": "木",
+    "tag": ["木", "wood", "自然", "生命力", "forest"],
+    "desc": "以木元素為靈感，結合林間風聲與樹木自然音，展現生命力。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9E%97.mp3",
+    "title": "林",
+    "tag": ["林", "forest", "鳥鳴", "自然", "安定"],
+    "desc": "森林音景，鳥鳴與樹葉沙沙聲，營造自然安定氛圍。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B0%B4.mp3",
+    "title": "水",
+    "tag": ["水", "water", "流水", "流動", "清新"],
+    "desc": "以水流、溪聲為主體，呈現清新流動的心境。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B5%B7%E5%BA%95%E8%BC%AA.mp3",
+    "title": "海底輪",
+    "tag": ["海底輪", "root chakra", "穩定", "chakra", "基礎"],
+    "desc": "海底輪主題，低頻共振營造安全穩定的能量場，適合靜心。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%81%AB.mp3",
+    "title": "火",
+    "tag": ["火", "fire", "能量", "熱情", "element"],
+    "desc": "以火元素為主題，融入火焰、營火等自然音效，象徵能量與轉化。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
+    "title": "環境聲主旋律",
+    "tag": ["環境聲", "nature sounds", "環境音", "純自然", "ambient"],
+    "desc": "純自然環境聲音景，無任何樂器或人聲，適合冥想、放空及自然療癒。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%9C%89%E5%BF%83%E8%BC%AA.mp3",
+    "title": "眉心輪",
+    "tag": ["眉心輪", "third eye chakra", "靈性", "chakra", "直覺"],
+    "desc": "眉心輪冥想音景，強調靈性與直覺的開啟，適合深度覺察。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
+    "title": "薩滿鼓低頻鼓",
+    "tag": ["薩滿鼓", "低頻鼓", "shamanic drum", "frame drum", "grounding"],
+    "desc": "低頻薩滿鼓穩定節奏，協助進入深層冥想與身體感知。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
+    "title": "喉輪",
+    "tag": ["喉輪", "throat chakra", "溝通", "chakra", "自由"],
+    "desc": "喉輪主題音景，營造順暢能量流動與自由表達的空間。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
+    "title": "臍輪",
+    "tag": ["臍輪", "sacral chakra", "情感", "chakra", "流動"],
+    "desc": "臍輪音景，象徵情感流動、創造力與愉悅能量。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
+    "title": "金",
+    "tag": ["金", "metal", "純淨", "澄澈", "clarity"],
+    "desc": "金元素主題，音色清澈明亮，營造純淨空靈氛圍。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
+    "title": "鋼琴",
+    "tag": ["鋼琴", "piano", "溫柔", "和諧", "relaxing"],
+    "desc": "溫柔鋼琴主旋律，搭配舒緩伴奏，帶來平和舒適的感受。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
+    "title": "鐘琴音叉",
+    "tag": ["鐘琴", "音叉", "glockenspiel", "tuning fork", "空靈"],
+    "desc": "鐘琴與音叉的空靈聲響，適合冥想、清理與專注。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
+    "title": "長笛洞簫",
+    "tag": ["長笛", "洞簫", "flute", "xiao", "流動"],
+    "desc": "長笛、洞簫主旋律，悠遠流動，營造空靈深遠的心境。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
+    "title": "雷",
+    "tag": ["雷", "thunder", "自然", "大自然", "能量"],
+    "desc": "雷聲與自然雨聲營造充滿能量與釋放的環境音景。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
+    "title": "頂輪",
+    "tag": ["頂輪", "crown chakra", "覺醒", "chakra", "光明"],
+    "desc": "頂輪主題音景，象徵心靈覺醒、靈性提升與光明。",
+    "embedding": []
+  }
+]
