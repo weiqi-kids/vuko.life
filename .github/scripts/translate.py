@@ -46,6 +46,24 @@ def call_chat_completion(messages: List[dict]) -> Any:
 PLACEHOLDER_RE = re.compile(r"{[^{}]+}")
 
 
+def check_placeholders(original: str, translated: str, lang: str, idx: int) -> str:
+    """Verify the placeholders are preserved in the translated string."""
+    src_ph = set(PLACEHOLDER_RE.findall(original))
+    dst_ph = set(PLACEHOLDER_RE.findall(translated))
+    if src_ph != dst_ph:
+        missing = src_ph - dst_ph
+        extra = dst_ph - src_ph
+        details = []
+        if missing:
+            details.append(f"missing {sorted(missing)}")
+        if extra:
+            details.append(f"extra {sorted(extra)}")
+        raise RuntimeError(
+            f"Placeholder mismatch for {lang} entry {idx}: {'; '.join(details)}"
+        )
+    return translated
+
+
 def lang_from_path(path: Path) -> str:
     name = path.stem.lower()
     if re.fullmatch(r"[a-z]{2}(?:-[a-z]{2})?", name):
@@ -113,7 +131,11 @@ def translate_batch(texts: List[str], src_name: str, tgt_name: str, tgt_code: st
             resp = call_chat_completion(messages)
             content = resp.choices[0].message.content
             data = json.loads(content)
-            return [data.get(str(i), texts[i]) for i in range(len(texts))]
+            results: List[str] = []
+            for i, orig in enumerate(texts):
+                trans = data.get(str(i), orig)
+                results.append(check_placeholders(orig, trans, tgt_code, i))
+            return results
         except (openai_error.AuthenticationError, openai_error.RateLimitError) as e:
             raise RuntimeError(f"OpenAI API error ({tgt_code}): {e}") from e
         except openai_error.OpenAIError as e:
