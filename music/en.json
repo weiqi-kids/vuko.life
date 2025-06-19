@@ -805,7 +805,7 @@
       "Earth",
       "grounding"
     ],
-    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds, emphasizing stability and calmness.",
+    "desc": "Inspired by the earth element, blending natural low frequencies and ambient sounds, emphasizing stability and calmness.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1203,7 +1203,7 @@
       "chakra",
       "Confidence"
     ],
-    "desc": "The theme of the solar plexus chakra symbolizes vitality, will, and energy center, with a warm and bright atmosphere.",
+    "desc": "Theme of the solar plexus chakra, symbolizing vitality, will, and energy center, with a warm and bright atmosphere.",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1601,7 +1601,7 @@
       "peace",
       "Nature"
     ],
-    "desc": "Simulates the tranquility and vastness of the mountains, using natural ambient sounds to foster inner peace.",
+    "desc": "Simulating the tranquility and vastness of the mountains, using natural ambient sounds to enhance inner peace.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -3989,7 +3989,7 @@
       "Passion",
       "element"
     ],
-    "desc": "Centered around the theme of the fire element, incorporating natural sounds like flames and campfires, symbolizing energy and transformation.",
+    "desc": "With the theme of the fire element, incorporating natural sound effects like flames and campfires, symbolizing energy and transformation.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -6369,9 +6369,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Gold",
+    "title": "Metal",
     "tag": [
-      "Gold",
+      "Metal",
       "metal",
       "purity",
       "clarity",

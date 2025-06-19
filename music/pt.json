@@ -399,15 +399,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
-    "title": "Guitarra",
+    "title": "Violão",
     "tag": [
-      "Guitarra",
+      "Violão",
       "guitar",
       "Suave",
       "acústico",
       "Relaxar"
     ],
-    "desc": "Principalmente guitarra suave, acompanhada por um fundo sonoro leve, adequado para relaxamento e concentração.",
+    "desc": "Principalmente violão suave, complementado por almofadas sonoras leves, adequado para relaxamento e concentração.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -805,7 +805,7 @@
       "Terra",
       "aterramento"
     ],
-    "desc": "Inspirado nos elementos da terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
+    "desc": "Inspirado no elemento terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1601,7 +1601,7 @@
       "paz",
       "Natureza"
     ],
-    "desc": "Simula a tranquilidade e vastidão das montanhas, destacando a paz interior com sons ambientais naturais.",
+    "desc": "Simula a tranquilidade e vastidão das montanhas, utilizando sons ambientais naturais para promover a paz interior.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -2795,7 +2795,7 @@
       "Natureza",
       "Estabilidade"
     ],
-    "desc": "Paisagem sonora da floresta, canto dos pássaros e som das folhas, criando uma atmosfera natural e estável.",
+    "desc": "Paisagem sonora da floresta, com canto de pássaros e som de folhas, criando uma atmosfera natural e estável.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3189,11 +3189,11 @@
     "tag": [
       "Água",
       "água",
-      "Fluxo de água",
+      "Água corrente",
       "Fluxo",
       "Fresco"
     ],
-    "desc": "Com o fluxo de água e o som do riacho como tema principal, apresenta um estado de espírito fresco e fluido.",
+    "desc": "Com o fluxo de água e som de riacho como tema principal, apresenta um estado de espírito fresco e fluido.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodia principal de sons ambientais",
     "tag": [
-      "sons da natureza",
-      "sons da natureza",
       "sons ambientais",
-      "natureza pura",
+      "sons da natureza",
+      "som ambiente",
+      "pura natureza",
       "ambiente"
     ],
-    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes, adequada para meditação, relaxamento e cura natural.",
+    "desc": "Paisagem sonora de pura natureza, sem qualquer instrumento ou voz humana, adequada para meditação, relaxamento e cura natural.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -5183,7 +5183,7 @@
       "tambor de moldura",
       "Aterramento"
     ],
-    "desc": "Ritmo estável do tambor xamânico de baixa frequência, ajudando a entrar em meditação profunda e percepção corporal.",
+    "desc": "Ritmo estável do tambor xamânico de baixa frequência, auxiliando na entrada em meditação profunda e percepção corporal.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5979,7 +5979,7 @@
       "chakra",
       "fluxo"
     ],
-    "desc": "Paisagem sonora do chakra sacral, simboliza o fluxo emocional, criatividade e energia de prazer.",
+    "desc": "Paisagem sonora do Chakra Sacral, simboliza o fluxo emocional, criatividade e energia de prazer.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -7569,7 +7569,7 @@
       "Xiao",
       "flauta",
       "xiao",
-      "Fluidez"
+      "Fluxo"
     ],
     "desc": "Melodia principal de flauta e xiao, fluindo de forma distante, criando um estado de espírito etéreo e profundo.",
     "embedding": [

@@ -26,13 +26,13 @@
   },
   "buttons": {
     "start": "🎶 開始",
-    "stop": "🍂 停止"
+    "stop": "🍂停止"
   },
   "status": {
     "monitoring": "🎙️ 呼吸監測中... 請保持自然呼吸",
     "stopped": "監測已停止",
     "error": "❌ 無法啟動：",
-    "unsupported": "⚠️ 您的瀏覽器不支援麥克風功能，無法使用呼吸監測",
+    "unsupported": "⚠️ 您的瀏覽器不支援咪高峰功能，無法使用呼吸監測",
     "waiting": "待檢測"
   },
   "units": {

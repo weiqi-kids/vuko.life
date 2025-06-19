@@ -18,7 +18,7 @@
     "audioSearch": "🎵 Background music search",
     "searchPlaceholder": "Search music... (e.g., forest, waves, meditation)",
     "noResults": "No related music found",
-    "currentMusic": "Currently selected",
+    "currentMusic": "Current selection",
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local files",
@@ -46,6 +46,6 @@
     "Schumann Resonance",
     "Sleep",
     "Refresh",
-    "Inspire creativity"
+    "Inspire"
   ]
 }

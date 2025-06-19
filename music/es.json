@@ -407,7 +407,7 @@
       "acústico",
       "Relajación"
     ],
-    "desc": "Principalmente guitarra suave, complementada con almohadillas sonoras suaves, adecuada para relajación y concentración.",
+    "desc": "Principalmente guitarra suave, acompañada de un fondo sonoro ligero, adecuado para relajarse y concentrarse.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan y tambor de lengua de acero",
+    "title": "Tambor espiritual de mano",
     "tag": [
-      "Handpan",
-      "Tambor de lengua de acero",
+      "Tambor de mano",
+      "Tambor espiritual",
       "handpan",
-      "steel tongue drum",
-      "Relajación"
+      "tambor de lengüeta de acero",
+      "relajación"
     ],
-    "desc": "Melodía principal de handpan y tambor de lengua de acero, una melodía suave y etérea, adecuada para meditación profunda y relajación.",
+    "desc": "Melodía principal de tambor de mano y tambor espiritual, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2392,10 +2392,10 @@
     "title": "Madera",
     "tag": [
       "Madera",
-      "wood",
-      "Naturaleza",
-      "Vitalidad",
-      "forest"
+      "madera",
+      "naturaleza",
+      "vitalidad",
+      "bosque"
     ],
     "desc": "Inspirado en el elemento madera, combina el sonido del viento entre los árboles y los sonidos naturales de la madera, mostrando vitalidad.",
     "embedding": [
@@ -2790,7 +2790,7 @@
     "title": "Bosque",
     "tag": [
       "Bosque",
-      "forest",
+      "bosque",
       "Canto de pájaros",
       "Naturaleza",
       "Estabilidad"
@@ -3191,9 +3191,9 @@
       "agua",
       "Fluir del agua",
       "Fluir",
-      "Frescura"
+      "Fresco"
     ],
-    "desc": "Con el flujo del agua y el sonido del arroyo como tema principal, presenta un estado de ánimo fresco y fluido.",
+    "desc": "Con el flujo de agua y el sonido del arroyo como tema principal, presenta un estado de ánimo fresco y fluido.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuición"
     ],
-    "desc": "Paisaje sonoro de meditación del tercer ojo, enfatiza la apertura espiritual e intuición, adecuado para una profunda conciencia.",
+    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatizando la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5181,7 +5181,7 @@
       "Tambor de baja frecuencia",
       "tambor chamánico",
       "tambor de marco",
-      "conexión a tierra"
+      "Conexión a tierra"
     ],
     "desc": "Ritmo estable del tambor chamánico de baja frecuencia, ayuda a entrar en una meditación profunda y percepción corporal.",
     "embedding": [
@@ -5581,7 +5581,7 @@
       "chakra",
       "Libertad"
     ],
-    "desc": "Paisaje sonoro temático del chakra de la garganta, crea un espacio para el flujo de energía suave y la expresión libre.",
+    "desc": "Paisaje sonoro temático del chakra de la garganta, creando un espacio para el flujo de energía suave y la expresión libre.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -6377,7 +6377,7 @@
       "Claridad",
       "claridad"
     ],
-    "desc": "Tema del elemento metal, con un tono claro y brillante que crea una atmósfera pura y etérea.",
+    "desc": "Tema del elemento metal, el timbre es claro y brillante, creando una atmósfera pura y etérea.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -7961,13 +7961,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Trueno",
+    "title": "trueno",
     "tag": [
-      "Trueno",
+      "trueno",
       "thunder",
-      "Naturaleza",
-      "Naturaleza",
-      "Energía"
+      "naturaleza",
+      "naturaleza",
+      "energía"
     ],
     "desc": "El sonido del trueno y la lluvia natural crea un paisaje sonoro lleno de energía y liberación.",
     "embedding": [
@@ -8359,13 +8359,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Chakra corona",
+    "title": "chakra corona",
     "tag": [
-      "Chakra corona",
+      "chakra corona",
       "crown chakra",
-      "Despertar",
+      "despertar",
       "chakra",
-      "Luz"
+      "luz"
     ],
     "desc": "Paisaje sonoro temático del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
     "embedding": [
