@@ -8,6 +8,7 @@
             ANALYSIS_DURATION: 10,           // 分析時間長度 (秒)
             BREATH_DETECTION_SENSITIVITY: 0.8, // 呼吸檢測敏感度，建議 0.5~1.5，值越高越不易觸發
             WAVEFORM_SCALE: 100,             // 呼吸波形對數放大倍率
+            NOISE_THRESHOLD_DB: 50,         // 背景噪音警告門檻 (dB)
             
             // 語言設定
             LANGUAGE: 'auto',                // 'auto' 為自動偵測，或指定 'zh-TW', 'zh-CN', 'en', 'ja', 'ko'
@@ -59,6 +60,7 @@
         let bgAnalyser;
         let bgDataArray;
         let bgVolumeMonitorId = null;
+        let lastNoiseUpdate = 0;
         let currentBeatFreq = 8;
         let currentLanguage = CONFIG.FALLBACK_LANGUAGE;
         let userCountry = null;
@@ -392,6 +394,7 @@
             let breathCount = 0;
 
             let breathTimestamps = [];
+            let lastBreathRateUpdate = 0;
             const ANALYSIS_WINDOW = 24; // 約1秒的樣本數
             
             function detectBreath() {
@@ -399,13 +402,20 @@
 
                 analyser.getByteTimeDomainData(dataArray);
 
-                // 計算能量
+                // 計算能量並估算背景噪音(dB)
                 let energy = 0;
                 for (let i = 0; i < dataArray.length; i++) {
                     const sample = (dataArray[i] - 128) / 128;
                     energy += sample * sample;
                 }
                 energy = Math.sqrt(energy / dataArray.length);
+
+                const noiseDb = 20 * Math.log10(energy + 1e-8);
+                updateNoiseLevel(noiseDb);
+                const { warning } = processBinaural({ noiseDb, noiseThresholdDb: CONFIG.NOISE_THRESHOLD_DB });
+                if (warning) {
+                    showStatus(warning, 'warning');
+                }
 
 
                 // 最近樣本僅用於比較，計算門檻時排除
@@ -447,9 +457,9 @@
                 // 繪製波形
                 drawWaveform(ctx, canvas, breathingSamples);
                 
-                // 每5秒計算一次呼吸速率
-                if (breathingSamples.length % 150 === 0) {
-                    const now = Date.now();
+                // 每秒更新一次呼吸速率
+                const now = Date.now();
+                if (now - lastBreathRateUpdate >= 1000) {
                     breathTimestamps = breathTimestamps.filter(t => now - t <= 60000);
                     let breathRate = 0;
                     if (breathTimestamps.length > 0) {
@@ -459,6 +469,7 @@
                         }
                     }
                     updateBreathingStats(breathRate);
+                    lastBreathRateUpdate = now;
                 }
 
 
@@ -550,6 +561,20 @@
                 currentBeatFreq = beatFreq;
                 updateBinauralBeats(beatFreq);
             }
+        }
+
+        function updateNoiseLevel(db) {
+            const now = Date.now();
+            if (typeof db === 'number' && now - lastNoiseUpdate < 1000) {
+                return;
+            }
+            if (typeof db === 'number') {
+                lastNoiseUpdate = now;
+            }
+            const content = getLanguageContent();
+            const units = content.units || {};
+            const text = (typeof db === 'number') ? `${db.toFixed(1)} ${units.db || ''}` : `${db}`;
+            document.getElementById('noiseLevel').textContent = text;
         }
 
         // 生成拍頻音訊

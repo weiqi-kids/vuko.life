@@ -103,6 +103,9 @@ async function updateLanguageContent() {
     if (statLabels.length >= 1) {
         statLabels[0].textContent = labels.breathRate || '';
     }
+    if (statLabels.length >= 2) {
+        statLabels[1].textContent = labels.noiseLevel || '';
+    }
 
     const toggleBtn = document.getElementById('monitorToggleBtn');
     const buttons = content.buttons || {};
@@ -115,4 +118,6 @@ function resetStatsDisplay() {
     const content = getLanguageContent();
     const units = content.units || {};
     document.getElementById('breathRate').textContent = `-- ${units.perMin || ''}`;
+    const noiseEl = document.getElementById('noiseLevel');
+    if (noiseEl) noiseEl.textContent = `-- ${units.db || ''}`;
 }

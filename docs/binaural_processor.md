@@ -36,6 +36,8 @@
 | `beat.target` | float | 拍頻目標值 (Hz) | `8` |
 | `beat.curve` | array<float> | 拍頻引導曲線 | `[12,10,8]` |
 | `meta.version` | string | 設定檔版本號 | `"1.0"` |
+| `noiseDb` | float | 測得的背景噪音值 (dB) | `42` |
+| `noiseThresholdDb` | float | 噪音警告門檻 (dB) | `50` |
 
 ## 輸出參數（Output）
 
@@ -61,7 +63,7 @@
    - `V` 固定為 `1`，代表導引音的基礎音量。
    - `R_bg` 依 `bgm.volume` 限制在 `0`～`1` 之間。
    - `F_base` 取自 `bgm.main_freq`。
-   - `warning` 初始為 `null`，後續可依環境判斷填入訊息。
+   - `warning` 依 `noiseDb` 與 `noiseThresholdDb` 判斷，過高則回傳警告字串。
 5. **記錄與回傳**：將計算過程中的參數整理於 `log`，最終回傳 `{ F_beat, V, R_bg, F_base, warning, log }`。
 
 ---

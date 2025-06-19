@@ -9,6 +9,7 @@
   "volumeRatioDetail": "박동수 {binaural}% / 배경음 {background}%",
   "labels": {
     "breathRate": "호흡 속도:",
+    "noiseLevel": "소음 수준:",
     "baseFreq": "기본 주파수:",
     "audioFile": "배경음 파일:",
     "volumeRatio": "볼륨 비율:",
@@ -38,6 +39,7 @@
   "units": {
     "perMin": "회/분",
     "hz": "Hz",
+    "db": "dB",
     "none": "없음"
   },
   "binauralOptions": [
