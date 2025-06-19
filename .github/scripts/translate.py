@@ -8,11 +8,60 @@ from pathlib import Path
 from typing import Any, List, Tuple
 
 import openai
-from openai import error as openai_error
+try:
+    # openai>=1.0 exposes errors at the top level
+    from openai import OpenAIError, AuthenticationError, RateLimitError
+
+    class openai_error:  # type: ignore
+        OpenAIError = OpenAIError
+        AuthenticationError = AuthenticationError
+        RateLimitError = RateLimitError
+
+    client: Any = openai
+except ImportError:  # pragma: no cover - fallback for openai<1.0
+    from openai import error as openai_error
+    client: Any = openai
 from babel import Locale
 from tqdm import tqdm
 
+
+def call_chat_completion(messages: List[dict]) -> Any:
+    params = {
+        "model": "gpt-4o",
+        "messages": messages,
+        "temperature": 0,
+    }
+    # request JSON output if supported
+    try:
+        params["response_format"] = {"type": "json_object"}
+        if hasattr(client, "chat"):
+            return client.chat.completions.create(**params)
+        return client.ChatCompletion.create(**params)
+    except TypeError:
+        params.pop("response_format", None)
+        if hasattr(client, "chat"):
+            return client.chat.completions.create(**params)
+        return client.ChatCompletion.create(**params)
+
 PLACEHOLDER_RE = re.compile(r"{[^{}]+}")
+
+
+def check_placeholders(original: str, translated: str, lang: str, idx: int) -> str:
+    """Verify the placeholders are preserved in the translated string."""
+    src_ph = set(PLACEHOLDER_RE.findall(original))
+    dst_ph = set(PLACEHOLDER_RE.findall(translated))
+    if src_ph != dst_ph:
+        missing = src_ph - dst_ph
+        extra = dst_ph - src_ph
+        details = []
+        if missing:
+            details.append(f"missing {sorted(missing)}")
+        if extra:
+            details.append(f"extra {sorted(extra)}")
+        raise RuntimeError(
+            f"Placeholder mismatch for {lang} entry {idx}: {'; '.join(details)}"
+        )
+    return translated
 
 
 def lang_from_path(path: Path) -> str:
@@ -79,24 +128,28 @@ def translate_batch(texts: List[str], src_name: str, tgt_name: str, tgt_code: st
 
     for attempt in range(3):
         try:
-            resp = openai.ChatCompletion.create(
-                model="gpt-4o",
-                messages=messages,
-                temperature=0
-            )
+            resp = call_chat_completion(messages)
             content = resp.choices[0].message.content
             data = json.loads(content)
-            return [data.get(str(i), texts[i]) for i in range(len(texts))]
+            results: List[str] = []
+            for i, orig in enumerate(texts):
+                trans = data.get(str(i), orig)
+                results.append(check_placeholders(orig, trans, tgt_code, i))
+            return results
         except (openai_error.AuthenticationError, openai_error.RateLimitError) as e:
-            print(f"OpenAI API error ({tgt_code}): {e}; aborting")
-            break
+            raise RuntimeError(f"OpenAI API error ({tgt_code}): {e}") from e
         except openai_error.OpenAIError as e:
+            if attempt == 2:
+                raise RuntimeError(f"OpenAI API error ({tgt_code}): {e}") from e
             print(f"OpenAI API error ({tgt_code}): {e}; retry {attempt + 1}")
             time.sleep(2 ** attempt)
         except Exception as e:
+            if attempt == 2:
+                raise RuntimeError(f"Unexpected error ({tgt_code}): {e}") from e
             print(f"Unexpected error ({tgt_code}): {e}; retry {attempt + 1}")
             time.sleep(2 ** attempt)
-    return texts
+
+    raise RuntimeError(f"Failed to translate batch for {tgt_code}")
 
 
 def main() -> None:
@@ -105,12 +158,18 @@ def main() -> None:
     parser.add_argument("dst", help="target json path")
     args = parser.parse_args()
 
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-    if not openai.api_key:
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
         print("OPENAI_API_KEY not set; skipping translation")
         data = load_json(Path(args.src))
         save_json(Path(args.dst), data)
         return
+
+    if hasattr(openai, "OpenAI"):
+        global client
+        client = openai.OpenAI(api_key=api_key)
+    else:
+        client.api_key = api_key
 
     src_path = Path(args.src)
     dst_path = Path(args.dst)
@@ -134,7 +193,11 @@ def main() -> None:
     for i in tqdm(range(0, len(entries), batch_size), desc=f"{dst_lang}"):
         batch = entries[i:i + batch_size]
         texts = [t for _, t in batch]
-        translated = translate_batch(texts, src_name, tgt_name, dst_lang)
+        try:
+            translated = translate_batch(texts, src_name, tgt_name, dst_lang)
+        except RuntimeError as e:
+            print(e)
+            raise SystemExit(1)
         for (path, _), trans in zip(batch, translated):
             set_value(data, path, trans)
 

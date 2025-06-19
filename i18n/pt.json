@@ -1,51 +1,51 @@
 {
-  "title": "Deixe o som te levar ao seu melhor eu",
-  "subtitle": "🤖 Instruções",
-  "description": "O sistema monitora sua respiração em tempo real e ajusta automaticamente a frequência dos batimentos para guiá-lo a diferentes estados de consciência:",
+  "title": "Com a voz, encontre uma versão melhor de si mesmo",
+  "subtitle": "🤖 Instruções de uso",
+  "description": "O sistema monitorará seu estado de respiração em tempo real e ajustará automaticamente a frequência binaural para guiá-lo a diferentes estados de consciência:",
   "instructions": {
-    "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para obter o efeito de batimentos binaurais.",
-    "microphone": "Se você permitir o uso do seu <strong>microfone</strong>, coloque-o perto da boca e do nariz. Vamos tentar levá-lo a um estado mais profundo."
+    "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito da frequência binaural no cérebro.",
+    "microphone": "Se você concordar em usar seu <strong>microfone</strong>, aproxime-o da boca e do nariz, tentaremos guiá-lo para um estado mais profundo."
   },
-  "volumeRatioDetail": "Batimento {binaural}% / Som de fundo {background}%",
+  "volumeRatioDetail": "Frequência binaural {binaural}% / Som de fundo {background}%",
   "labels": {
     "breathRate": "Taxa de respiração:",
-    "baseFreq": "Frequência base:",
-    "audioFile": "Áudio de fundo:",
+    "baseFreq": "Frequência da frequência base:",
+    "audioFile": "Arquivo de som de fundo:",
     "volumeRatio": "Proporção de volume:",
     "breathVisual": "Visualização da respiração",
     "realTimeData": "Dados em tempo real",
-    "systemConfig": "Configuração binaural",
-    "audioSearch": "🎵 Busca de música ambiente",
-    "searchPlaceholder": "Buscar música... (ex.: floresta, ondas, meditação)",
+    "systemConfig": "Configuração de frequência binaural",
+    "audioSearch": "🎵 Pesquisa de música de fundo",
+    "searchPlaceholder": "Pesquisando música... (por exemplo: floresta, ondas do mar, meditação)",
     "noResults": "Nenhuma música encontrada",
     "currentMusic": "Seleção atual",
     "deviceTest": "Teste de dispositivo",
-    "libraryTab": "Biblioteca online",
+    "libraryTab": "Biblioteca de áudio online",
     "localFileTab": "Arquivo local",
-    "filePrivacyMsg": "O áudio escolhido é processado localmente e não é enviado."
+    "filePrivacyMsg": "O arquivo de áudio é processado apenas localmente, não será enviado."
   },
   "buttons": {
     "start": "🎶 Iniciar",
-    "stop": "🍂Parar"
+    "stop": "🍂 Parar"
   },
   "status": {
-    "monitoring": "🎙️ Monitorando a respiração... Respire normalmente",
+    "monitoring": "🎙️ Monitorando respiração... Por favor, respire naturalmente",
     "stopped": "Monitoramento parado",
     "error": "❌ Não foi possível iniciar:",
-    "unsupported": "⚠️ Seu navegador não suporta microfone, monitoramento indisponível",
-    "waiting": "Aguardando"
+    "unsupported": "⚠️ Seu navegador não suporta a função de microfone, não é possível usar o monitoramento de respiração",
+    "waiting": "A ser detectado"
   },
   "units": {
     "perMin": "vezes/min",
     "hz": "Hz",
-    "none": "nenhum"
+    "none": "Nenhum"
   },
   "binauralOptions": [
     "Foco",
     "Meditação",
-    "Ressonância Schumann",
-    "Sono",
-    "Energizar",
-    "Inspiração"
+    "Ressonância de Schumann",
+    "Dormir",
+    "Revigorar",
+    "Inspirar criatividade"
   ]
 }

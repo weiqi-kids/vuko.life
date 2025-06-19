@@ -1,15 +1,15 @@
 [
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
-    "title": "Singing Bowl",
+    "title": "シンギングボウル",
     "tag": [
-      "Singing Bowl",
+      "シンギングボウル",
       "singing bowl",
-      "Meditation",
+      "瞑想",
       "meditation",
-      "Healing"
+      "癒し"
     ],
-    "desc": "The sound of the singing bowl is the main melody, with gentle resonance, suitable for meditation and healing soundscapes.",
+    "desc": "シンギングボウルの音をメインメロディーとし、穏やかな共鳴で、瞑想と癒しの音景に適しています。",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -399,15 +399,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
-    "title": "Guitar",
+    "title": "ギター",
     "tag": [
-      "Guitar",
+      "ギター",
       "guitar",
-      "Soft",
-      "acoustic",
-      "Relaxation"
+      "軽やか",
+      "アコースティック",
+      "リラックス"
     ],
-    "desc": "Mainly gentle guitar, accompanied by soft sound pads, suitable for relaxation and focus.",
+    "desc": "優しいギターをメインに、軽やかな音のクッションを添えて、リラックスと集中に適しています。",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -797,15 +797,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "Earth",
+    "title": "土",
     "tag": [
-      "Earth",
+      "土",
       "earth",
-      "Nature",
-      "Earth",
-      "grounding"
+      "自然",
+      "大地",
+      "グラウンディング"
     ],
-    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds, emphasizing stability and calmness.",
+    "desc": "大地の要素にインスパイアされ、自然の低周波と環境音を融合し、安定感と静けさを強調します。",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1195,15 +1195,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%A4%AA%E9%99%BD%E7%A5%9E%E7%B6%93%E5%8F%A2%E8%BC%AA.mp3",
-    "title": "Solar Plexus Chakra",
+    "title": "太陽神経叢チャクラ",
     "tag": [
-      "Solar Plexus Chakra",
-      "solar plexus chakra",
-      "Energy",
-      "chakra",
-      "Confidence"
+      "太陽神経叢チャクラ",
+      "ソーラープレクサスチャクラ",
+      "エネルギー",
+      "チャクラ",
+      "自信"
     ],
-    "desc": "The theme of the solar plexus chakra symbolizes vitality, will, and energy center, with a warm and bright atmosphere.",
+    "desc": "太陽神経叢チャクラのテーマは、活力、意志、エネルギーの中心を象徴し、温かさと明るさの雰囲気を持ちます。",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1593,15 +1593,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%B1%B1.mp3",
-    "title": "Mountain",
+    "title": "山",
     "tag": [
-      "Mountain",
-      "mountain",
-      "Tranquility",
-      "peace",
-      "Nature"
+      "山",
+      "マウンテン",
+      "静けさ",
+      "平和",
+      "自然"
     ],
-    "desc": "Simulates the tranquility and vastness of the mountains, using natural ambient sounds to foster inner peace.",
+    "desc": "山の中の静けさと広がりを模倣し、自然環境音で心の平和を引き立てます。",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan Steel Tongue Drum",
+    "title": "ハンドパンとスティールタングドラム",
     "tag": [
-      "Handpan",
-      "Steel Tongue Drum",
+      "ハンドパン",
+      "スティールタングドラム",
       "handpan",
       "steel tongue drum",
-      "Relaxation"
+      "リラックス"
     ],
-    "desc": "The main melody of handpan and steel tongue drum, with a rounded and ethereal melody, suitable for deep meditation and relaxation.",
+    "desc": "ハンドパンとスティールタングドラムのメインメロディー、まろやかで空気のようなメロディーは、深い瞑想とリラックスに適しています。",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2389,15 +2389,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9C%A8.mp3",
-    "title": "Wood",
+    "title": "木",
     "tag": [
-      "Wood",
-      "wood",
-      "Nature",
-      "Vitality",
-      "forest"
+      "木",
+      "木",
+      "自然",
+      "生命力",
+      "森"
     ],
-    "desc": "Inspired by the element of wood, combined with the sound of wind through the forest and natural tree sounds, showcasing vitality.",
+    "desc": "木の要素にインスパイアされ、森の風の音と木の自然音を組み合わせ、生命力を表現します。",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -2787,15 +2787,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9E%97.mp3",
-    "title": "Forest",
+    "title": "林",
     "tag": [
-      "Forest",
-      "forest",
-      "Birdsong",
-      "Nature",
-      "Stability"
+      "林",
+      "森",
+      "鳥の鳴き声",
+      "自然",
+      "安定"
     ],
-    "desc": "Forest soundscape, birdsong and rustling leaves create a natural and stable atmosphere.",
+    "desc": "森林の音景、鳥の鳴き声と葉のざわめきが自然で安定した雰囲気を作り出します。",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3185,15 +3185,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B0%B4.mp3",
-    "title": "Water",
+    "title": "水",
     "tag": [
-      "Water",
+      "水",
       "water",
-      "Flowing water",
-      "Flow",
-      "Fresh"
+      "流水",
+      "流動",
+      "清新"
     ],
-    "desc": "Centered around the sound of flowing water and streams, presenting a fresh and flowing state of mind.",
+    "desc": "水の流れ、渓流の音を主体に、清新で流動的な心境を表現します。",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3583,15 +3583,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B5%B7%E5%BA%95%E8%BC%AA.mp3",
-    "title": "Root Chakra",
+    "title": "海底の輪",
     "tag": [
-      "Root Chakra",
-      "root chakra",
-      "Stability",
-      "chakra",
-      "Foundation"
+      "海底の輪",
+      "ルートチャクラ",
+      "安定",
+      "チャクラ",
+      "基礎"
     ],
-    "desc": "Root chakra theme, low-frequency resonance creates a safe and stable energy field, suitable for meditation.",
+    "desc": "海底の輪をテーマに、低周波の共振が安全で安定したエネルギーフィールドを作り出し、瞑想に適しています。",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -3981,15 +3981,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%81%AB.mp3",
-    "title": "Fire",
+    "title": "火",
     "tag": [
-      "Fire",
+      "火",
       "fire",
-      "Energy",
-      "Passion",
-      "element"
+      "エネルギー",
+      "情熱",
+      "エレメント"
     ],
-    "desc": "Centered around the theme of the fire element, incorporating natural sounds like flames and campfires, symbolizing energy and transformation.",
+    "desc": "火のエレメントをテーマに、炎やキャンプファイヤーなどの自然音を取り入れ、エネルギーと変化を象徴します。",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Main Melody of Nature Sounds",
+    "title": "環境音メインメロディー",
     "tag": [
-      "Nature Sounds",
-      "nature sounds",
-      "Ambient Sound",
-      "Pure Nature",
-      "ambient"
+      "環境音",
+      "自然音",
+      "環境音",
+      "純粋な自然",
+      "アンビエント"
     ],
-    "desc": "A pure natural soundscape with no instruments or vocals, suitable for meditation, relaxation, and natural healing.",
+    "desc": "純粋な自然環境音のサウンドスケープで、楽器や人の声は一切含まれておらず、瞑想、リラックス、自然療法に適しています。",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4777,15 +4777,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%9C%89%E5%BF%83%E8%BC%AA.mp3",
-    "title": "Third Eye Chakra",
+    "title": "第三の目のチャクラ",
     "tag": [
-      "Third Eye Chakra",
-      "third eye chakra",
-      "Spirituality",
-      "chakra",
-      "Intuition"
+      "第三の目のチャクラ",
+      "サードアイチャクラ",
+      "スピリチュアル",
+      "チャクラ",
+      "直感"
     ],
-    "desc": "Brow chakra meditation soundscape, emphasizing the opening of spirituality and intuition, suitable for deep awareness.",
+    "desc": "眉間チャクラの瞑想音景、スピリチュアルと直感の開放を強調し、深い気づきに適しています。",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Low-frequency shamanic drum",
+    "title": "シャーマンドラム低周波ドラム",
     "tag": [
-      "Shamanic drum",
-      "Low-frequency drum",
-      "shamanic drum",
-      "frame drum",
-      "grounding"
+      "シャーマンドラム",
+      "低周波ドラム",
+      "シャーマンドラム",
+      "フレームドラム",
+      "グラウンディング"
     ],
-    "desc": "Stable rhythm of low-frequency shamanic drum, assisting in deep meditation and body awareness.",
+    "desc": "低周波シャーマンドラムの安定したリズムは、深い瞑想と身体感覚への導入を助けます。",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5573,15 +5573,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "Throat chakra",
+    "title": "喉のチャクラ",
     "tag": [
-      "Throat chakra",
-      "throat chakra",
-      "Communication",
-      "chakra",
-      "Freedom"
+      "喉のチャクラ",
+      "喉のチャクラ",
+      "コミュニケーション",
+      "チャクラ",
+      "自由"
     ],
-    "desc": "Throat chakra themed soundscape, creating a space for smooth energy flow and free expression.",
+    "desc": "喉のチャクラをテーマにした音景は、スムーズなエネルギーの流れと自由な表現の空間を作り出します。",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Sacral Chakra",
+    "title": "臍のチャクラ",
     "tag": [
-      "Sacral Chakra",
-      "sacral chakra",
-      "emotion",
-      "chakra",
-      "flow"
+      "臍のチャクラ",
+      "仙骨のチャクラ",
+      "感情",
+      "チャクラ",
+      "流れ"
     ],
-    "desc": "The soundscape of the sacral chakra symbolizes the flow of emotions, creativity, and pleasurable energy.",
+    "desc": "臍のチャクラの音景は、感情の流れ、創造力、喜びのエネルギーを象徴します。",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Gold",
+    "title": "金",
     "tag": [
-      "Gold",
-      "metal",
-      "purity",
-      "clarity",
-      "clarity"
+      "金",
+      "金属",
+      "純粋",
+      "澄んだ",
+      "明晰"
     ],
-    "desc": "The theme of the metal element, with a clear and bright tone, creates a pure and ethereal atmosphere.",
+    "desc": "金の要素のテーマで、音色は澄んで明るく、純粋で空間的な雰囲気を作り出します。",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -6767,15 +6767,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
-    "title": "Piano",
+    "title": "ピアノ",
     "tag": [
-      "Piano",
-      "piano",
-      "Gentle",
-      "Harmony",
-      "relaxing"
+      "ピアノ",
+      "ピアノ",
+      "優しい",
+      "調和",
+      "リラックス"
     ],
-    "desc": "Gentle piano melody, accompanied by soothing accompaniment, brings a peaceful and comfortable feeling.",
+    "desc": "優しいピアノのメロディーに、穏やかな伴奏が加わり、平和で快適な感覚をもたらします。",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Glockenspiel and Tuning Fork",
+    "title": "グロッケンシュピールと音叉",
     "tag": [
-      "Glockenspiel",
-      "Tuning Fork",
-      "glockenspiel",
-      "tuning fork",
-      "Ethereal"
+      "グロッケンシュピール",
+      "音叉",
+      "グロッケンシュピール",
+      "音叉",
+      "空気のような"
     ],
-    "desc": "The ethereal sounds of the glockenspiel and tuning fork are suitable for meditation, cleansing, and focus.",
+    "desc": "グロッケンシュピールと音叉の空気のような音色は、瞑想、浄化、集中に適しています。",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flute and Xiao",
+    "title": "フルートと洞簫",
     "tag": [
-      "Flute",
-      "Xiao",
-      "flute",
-      "xiao",
-      "Flowing"
+      "フルート",
+      "洞簫",
+      "フルート",
+      "洞簫",
+      "流れる"
     ],
-    "desc": "The main melodies of the flute and xiao are distant and flowing, creating an ethereal and profound state of mind.",
+    "desc": "フルートと洞簫のメロディーが悠然と流れ、空気のような深遠な心境を作り出します。",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
@@ -7961,15 +7961,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Thunder",
+    "title": "雷",
     "tag": [
-      "Thunder",
-      "thunder",
-      "Nature",
-      "Nature",
-      "Energy"
+      "雷",
+      "雷",
+      "自然",
+      "自然",
+      "エネルギー"
     ],
-    "desc": "The soundscape of thunder and natural rain creates an environment full of energy and release.",
+    "desc": "雷鳴と自然の雨音がエネルギーと解放感に満ちた環境音景を作り出します。",
     "embedding": [
       0.03458813577890396,
       0.027948737144470215,
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Crown Chakra",
+    "title": "頂輪",
     "tag": [
-      "Crown Chakra",
-      "crown chakra",
-      "Awakening",
-      "chakra",
-      "Light"
+      "頂輪",
+      "クラウンチャクラ",
+      "覚醒",
+      "チャクラ",
+      "光明"
     ],
-    "desc": "The crown chakra themed soundscape symbolizes spiritual awakening, spiritual elevation, and light.",
+    "desc": "頂輪のテーマ音景は、心の覚醒、霊性の向上、そして光明を象徴します。",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

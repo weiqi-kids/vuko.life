@@ -1,5 +1,5 @@
 {
-  "title": "用声音，遇见更好的自己",
+  "title": "用声音，带你遇见更好的自己",
   "subtitle": "🤖 使用说明",
   "description": "系统会实时监测你的呼吸状态，并自动调整拍频来引导你进入不同的意识状态：",
   "instructions": {
@@ -15,14 +15,14 @@
     "breathVisual": "呼吸视觉化",
     "realTimeData": "实时数据",
     "systemConfig": "双耳拍频设置",
-    "audioSearch": "🎵 背景音乐搜寻",
-    "searchPlaceholder": "搜寻音乐... (例如: 森林、海浪、冥想)",
+    "audioSearch": "🎵 背景音乐搜索",
+    "searchPlaceholder": "搜索音乐... (例如: 森林、海浪、冥想)",
     "noResults": "找不到相关音乐",
     "currentMusic": "目前选择",
     "deviceTest": "设备测试",
     "libraryTab": "线上音库",
-    "localFileTab": "本地文件",
-    "filePrivacyMsg": "音频仅在本地处理，不会上传。"
+    "localFileTab": "本机文件",
+    "filePrivacyMsg": "音频仅在本机处理，不会上传。"
   },
   "buttons": {
     "start": "🎶 开始",
