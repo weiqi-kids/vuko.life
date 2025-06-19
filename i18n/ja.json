@@ -1,39 +1,39 @@
 {
-  "title": "音で、あなたらしい毎日へ",
-  "subtitle": "🤖 使用方法",
-  "description": "システムはあなたの呼吸状態をリアルタイムで監視し、ビート周波数を自動調整してさまざまな意識状態へ導きます：",
+  "title": "音声で、より良い自分に出会う",
+  "subtitle": "🤖 使用説明",
+  "description": "システムはあなたの呼吸状態をリアルタイムで監視し、異なる意識状態に導くために拍動周波数を自動調整します：",
   "instructions": {
-    "headphones": "<strong>ステレオヘッドフォン</strong>を使用してください。そうすることでバイノーラルビートの効果が得られます。",
-    "microphone": "<strong>マイク</strong>の使用を許可する場合は、マイクを口と鼻の近くに置いてください。より深い状態へ導くお手伝いをします。"
+    "headphones": "<strong>ステレオヘッドフォン</strong>を使用してください。これにより、脳内の拍動周波数の効果を達成できます。",
+    "microphone": "<strong>マイク</strong>の使用に同意する場合は、マイクを口や鼻の近くに置いてください。より深い状態に導くことを試みます。"
   },
-  "volumeRatioDetail": "ビート {binaural}% / 背景音 {background}%",
+  "volumeRatioDetail": "拍動周波数 {binaural}% / 背景音 {background}%",
   "labels": {
     "breathRate": "呼吸速度：",
-    "baseFreq": "基準周波数：",
-    "audioFile": "背景音声：",
+    "baseFreq": "基音周波数：",
+    "audioFile": "背景音ファイル：",
     "volumeRatio": "音量比率：",
-    "breathVisual": "呼吸のビジュアル",
+    "breathVisual": "呼吸の視覚化",
     "realTimeData": "リアルタイムデータ",
-    "systemConfig": "バイノーラル設定",
+    "systemConfig": "バイノーラルビート設定",
     "audioSearch": "🎵 背景音楽検索",
-    "searchPlaceholder": "音楽を検索...（例: 森、波、瞑想）",
+    "searchPlaceholder": "音楽を検索...（例：森、波、瞑想）",
     "noResults": "関連する音楽が見つかりません",
     "currentMusic": "現在の選択",
     "deviceTest": "デバイステスト",
-    "libraryTab": "ライブラリ",
+    "libraryTab": "オンライン音楽ライブラリ",
     "localFileTab": "ローカルファイル",
-    "filePrivacyMsg": "選択した音声は端末内で処理され、アップロードされません。"
+    "filePrivacyMsg": "音声ファイルはローカルで処理され、アップロードされません。"
   },
   "buttons": {
     "start": "🎶 開始",
     "stop": "🍂停止"
   },
   "status": {
-    "monitoring": "🎙️ 呼吸を監視中… 自然な呼吸を続けてください",
-    "stopped": "監視を停止しました",
+    "monitoring": "🎙️ 呼吸を監視中... 自然な呼吸を保ってください",
+    "stopped": "監視が停止しました",
     "error": "❌ 起動できません：",
-    "unsupported": "⚠️ お使いのブラウザはマイク機能に対応していないため、呼吸監視は利用できません",
-    "waiting": "待機中"
+    "unsupported": "⚠️ お使いのブラウザはマイク機能をサポートしていないため、呼吸監視を使用できません",
+    "waiting": "検出待ち"
   },
   "units": {
     "perMin": "回/分",
@@ -45,7 +45,7 @@
     "瞑想",
     "シューマン共振",
     "睡眠",
-    "覚醒",
-    "インスピレーション"
+    "リフレッシュ",
+    "インスピレーションを刺激"
   ]
 }

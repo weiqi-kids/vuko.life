@@ -1,15 +1,15 @@
 [
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
-    "title": "Singing Bowl",
+    "title": "Cuenco tibetano",
     "tag": [
-      "Singing Bowl",
-      "singing bowl",
-      "Meditation",
-      "meditation",
-      "Healing"
+      "Cuenco tibetano",
+      "cuenco tibetano",
+      "Meditación",
+      "meditación",
+      "Sanación"
     ],
-    "desc": "The sound of the singing bowl is the main melody, with gentle resonance, suitable for meditation and healing soundscapes.",
+    "desc": "Con el sonido del cuenco tibetano como melodía principal, resonancia suave, adecuado para paisajes sonoros de meditación y sanación.",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -399,15 +399,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
-    "title": "Guitar",
+    "title": "Guitarra",
     "tag": [
-      "Guitar",
-      "guitar",
-      "Soft",
-      "acoustic",
-      "Relaxation"
+      "Guitarra",
+      "guitarra",
+      "Suave",
+      "acústico",
+      "Relajación"
     ],
-    "desc": "Mainly gentle guitar, accompanied by soft sound pads, suitable for relaxation and focus.",
+    "desc": "Principalmente guitarra suave, complementada con almohadillas sonoras suaves, adecuada para relajación y concentración.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -797,15 +797,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "Earth",
+    "title": "Tierra",
     "tag": [
-      "Earth",
-      "earth",
-      "Nature",
-      "Earth",
-      "grounding"
+      "Tierra",
+      "tierra",
+      "Naturaleza",
+      "Tierra",
+      "conexión a tierra"
     ],
-    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds, emphasizing stability and calmness.",
+    "desc": "Inspirado en el elemento tierra, fusiona frecuencias bajas naturales y sonidos ambientales, enfatizando una sensación de estabilidad y calma.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1195,15 +1195,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%A4%AA%E9%99%BD%E7%A5%9E%E7%B6%93%E5%8F%A2%E8%BC%AA.mp3",
-    "title": "Solar Plexus Chakra",
+    "title": "Chakra del plexo solar",
     "tag": [
-      "Solar Plexus Chakra",
-      "solar plexus chakra",
-      "Energy",
+      "Chakra del plexo solar",
+      "chakra del plexo solar",
+      "Energía",
       "chakra",
-      "Confidence"
+      "Confianza"
     ],
-    "desc": "The theme of the solar plexus chakra symbolizes vitality, will, and energy center, with a warm and bright atmosphere.",
+    "desc": "Tema del chakra del plexo solar, simboliza vitalidad, voluntad y centro de energía, con una atmósfera cálida y luminosa.",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1593,15 +1593,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%B1%B1.mp3",
-    "title": "Mountain",
+    "title": "Montaña",
     "tag": [
-      "Mountain",
-      "mountain",
-      "Tranquility",
-      "peace",
-      "Nature"
+      "Montaña",
+      "montaña",
+      "Tranquilidad",
+      "paz",
+      "Naturaleza"
     ],
-    "desc": "Simulates the tranquility and vastness of the mountains, using natural ambient sounds to foster inner peace.",
+    "desc": "Simula la tranquilidad y amplitud de las montañas, utilizando sonidos ambientales naturales para resaltar la paz interior.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan Steel Tongue Drum",
+    "title": "Handpan y tambor de lengua de acero",
     "tag": [
       "Handpan",
-      "Steel Tongue Drum",
+      "Tambor de lengua de acero",
       "handpan",
       "steel tongue drum",
-      "Relaxation"
+      "Relajación"
     ],
-    "desc": "The main melody of handpan and steel tongue drum, with a rounded and ethereal melody, suitable for deep meditation and relaxation.",
+    "desc": "Melodía principal de handpan y tambor de lengua de acero, una melodía suave y etérea, adecuada para meditación profunda y relajación.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2389,15 +2389,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9C%A8.mp3",
-    "title": "Wood",
+    "title": "Madera",
     "tag": [
-      "Wood",
+      "Madera",
       "wood",
-      "Nature",
-      "Vitality",
+      "Naturaleza",
+      "Vitalidad",
       "forest"
     ],
-    "desc": "Inspired by the element of wood, combined with the sound of wind through the forest and natural tree sounds, showcasing vitality.",
+    "desc": "Inspirado en el elemento madera, combina el sonido del viento entre los árboles y los sonidos naturales de la madera, mostrando vitalidad.",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -2787,15 +2787,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9E%97.mp3",
-    "title": "Forest",
+    "title": "Bosque",
     "tag": [
-      "Forest",
+      "Bosque",
       "forest",
-      "Birdsong",
-      "Nature",
-      "Stability"
+      "Canto de pájaros",
+      "Naturaleza",
+      "Estabilidad"
     ],
-    "desc": "Forest soundscape, birdsong and rustling leaves create a natural and stable atmosphere.",
+    "desc": "Paisaje sonoro del bosque, canto de pájaros y susurro de hojas, creando una atmósfera natural y estable.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3185,15 +3185,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B0%B4.mp3",
-    "title": "Water",
+    "title": "Agua",
     "tag": [
-      "Water",
-      "water",
-      "Flowing water",
-      "Flow",
-      "Fresh"
+      "Agua",
+      "agua",
+      "Fluir del agua",
+      "Fluir",
+      "Frescura"
     ],
-    "desc": "Centered around the sound of flowing water and streams, presenting a fresh and flowing state of mind.",
+    "desc": "Con el flujo del agua y el sonido del arroyo como tema principal, presenta un estado de ánimo fresco y fluido.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3583,15 +3583,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B5%B7%E5%BA%95%E8%BC%AA.mp3",
-    "title": "Root Chakra",
+    "title": "Chakra raíz",
     "tag": [
-      "Root Chakra",
-      "root chakra",
-      "Stability",
+      "Chakra raíz",
+      "chakra raíz",
+      "Estabilidad",
       "chakra",
-      "Foundation"
+      "Fundamento"
     ],
-    "desc": "Root chakra theme, low-frequency resonance creates a safe and stable energy field, suitable for meditation.",
+    "desc": "Tema del chakra raíz, resonancia de baja frecuencia que crea un campo de energía seguro y estable, adecuado para la meditación.",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -3981,15 +3981,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%81%AB.mp3",
-    "title": "Fire",
+    "title": "Fuego",
     "tag": [
-      "Fire",
-      "fire",
-      "Energy",
-      "Passion",
-      "element"
+      "Fuego",
+      "fuego",
+      "energía",
+      "pasión",
+      "elemento"
     ],
-    "desc": "Centered around the theme of the fire element, incorporating natural sounds like flames and campfires, symbolizing energy and transformation.",
+    "desc": "Con el tema del elemento fuego, incorpora efectos de sonido naturales como llamas y fogatas, simbolizando energía y transformación.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Main Melody of Nature Sounds",
+    "title": "Melodía principal de sonidos ambientales",
     "tag": [
-      "Nature Sounds",
-      "nature sounds",
-      "Ambient Sound",
-      "Pure Nature",
-      "ambient"
+      "Sonidos ambientales",
+      "sonidos de la naturaleza",
+      "sonido ambiental",
+      "pura naturaleza",
+      "ambiente"
     ],
-    "desc": "A pure natural soundscape with no instruments or vocals, suitable for meditation, relaxation, and natural healing.",
+    "desc": "Paisaje sonoro de pura naturaleza, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4777,15 +4777,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%9C%89%E5%BF%83%E8%BC%AA.mp3",
-    "title": "Third Eye Chakra",
+    "title": "Chakra del tercer ojo",
     "tag": [
-      "Third Eye Chakra",
-      "third eye chakra",
-      "Spirituality",
+      "Chakra del tercer ojo",
+      "chakra del tercer ojo",
+      "Espiritualidad",
       "chakra",
-      "Intuition"
+      "Intuición"
     ],
-    "desc": "Brow chakra meditation soundscape, emphasizing the opening of spirituality and intuition, suitable for deep awareness.",
+    "desc": "Paisaje sonoro de meditación del tercer ojo, enfatiza la apertura espiritual e intuición, adecuado para una profunda conciencia.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Low-frequency shamanic drum",
+    "title": "Tambor chamánico de baja frecuencia",
     "tag": [
-      "Shamanic drum",
-      "Low-frequency drum",
-      "shamanic drum",
-      "frame drum",
-      "grounding"
+      "Tambor chamánico",
+      "Tambor de baja frecuencia",
+      "tambor chamánico",
+      "tambor de marco",
+      "conexión a tierra"
     ],
-    "desc": "Stable rhythm of low-frequency shamanic drum, assisting in deep meditation and body awareness.",
+    "desc": "Ritmo estable del tambor chamánico de baja frecuencia, ayuda a entrar en una meditación profunda y percepción corporal.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5573,15 +5573,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "Throat chakra",
+    "title": "Chakra de la garganta",
     "tag": [
-      "Throat chakra",
-      "throat chakra",
-      "Communication",
+      "Chakra de la garganta",
+      "chakra de la garganta",
+      "Comunicación",
       "chakra",
-      "Freedom"
+      "Libertad"
     ],
-    "desc": "Throat chakra themed soundscape, creating a space for smooth energy flow and free expression.",
+    "desc": "Paisaje sonoro temático del chakra de la garganta, crea un espacio para el flujo de energía suave y la expresión libre.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Sacral Chakra",
+    "title": "Chakra sacro",
     "tag": [
-      "Sacral Chakra",
-      "sacral chakra",
-      "emotion",
+      "Chakra sacro",
+      "chakra sacro",
+      "Emoción",
       "chakra",
-      "flow"
+      "Fluir"
     ],
-    "desc": "The soundscape of the sacral chakra symbolizes the flow of emotions, creativity, and pleasurable energy.",
+    "desc": "Paisaje sonoro del chakra sacro, simboliza el flujo emocional, la creatividad y la energía de placer.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Gold",
+    "title": "Metal",
     "tag": [
-      "Gold",
+      "Metal",
       "metal",
-      "purity",
-      "clarity",
-      "clarity"
+      "Pureza",
+      "Claridad",
+      "claridad"
     ],
-    "desc": "The theme of the metal element, with a clear and bright tone, creates a pure and ethereal atmosphere.",
+    "desc": "Tema del elemento metal, con un tono claro y brillante que crea una atmósfera pura y etérea.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -6771,11 +6771,11 @@
     "tag": [
       "Piano",
       "piano",
-      "Gentle",
-      "Harmony",
-      "relaxing"
+      "Suave",
+      "Armonía",
+      "relajante"
     ],
-    "desc": "Gentle piano melody, accompanied by soothing accompaniment, brings a peaceful and comfortable feeling.",
+    "desc": "Melodía principal de piano suave, acompañada de un acompañamiento relajante, que brinda una sensación de paz y comodidad.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Glockenspiel and Tuning Fork",
+    "title": "Diapasón de campana",
     "tag": [
-      "Glockenspiel",
-      "Tuning Fork",
+      "Campana",
+      "Diapasón",
       "glockenspiel",
-      "tuning fork",
-      "Ethereal"
+      "diapasón",
+      "Etéreo"
     ],
-    "desc": "The ethereal sounds of the glockenspiel and tuning fork are suitable for meditation, cleansing, and focus.",
+    "desc": "El sonido etéreo de la campana y el diapasón es adecuado para la meditación, la limpieza y la concentración.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flute and Xiao",
+    "title": "Flauta y xiao",
     "tag": [
-      "Flute",
+      "Flauta",
       "Xiao",
-      "flute",
+      "flauta",
       "xiao",
-      "Flowing"
+      "Fluir"
     ],
-    "desc": "The main melodies of the flute and xiao are distant and flowing, creating an ethereal and profound state of mind.",
+    "desc": "Melodía principal de flauta y xiao, fluye de manera lejana, creando un estado mental etéreo y profundo.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
@@ -7961,15 +7961,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Thunder",
+    "title": "Trueno",
     "tag": [
-      "Thunder",
+      "Trueno",
       "thunder",
-      "Nature",
-      "Nature",
-      "Energy"
+      "Naturaleza",
+      "Naturaleza",
+      "Energía"
     ],
-    "desc": "The soundscape of thunder and natural rain creates an environment full of energy and release.",
+    "desc": "El sonido del trueno y la lluvia natural crea un paisaje sonoro lleno de energía y liberación.",
     "embedding": [
       0.03458813577890396,
       0.027948737144470215,
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Crown Chakra",
+    "title": "Chakra corona",
     "tag": [
-      "Crown Chakra",
+      "Chakra corona",
       "crown chakra",
-      "Awakening",
+      "Despertar",
       "chakra",
-      "Light"
+      "Luz"
     ],
-    "desc": "The crown chakra themed soundscape symbolizes spiritual awakening, spiritual elevation, and light.",
+    "desc": "Paisaje sonoro temático del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,
