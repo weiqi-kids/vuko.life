@@ -4,6 +4,9 @@ import json
 import os
 from pathlib import Path
 from typing import List
+from io import BytesIO
+
+from PIL import Image
 
 import requests
 from playwright.sync_api import sync_playwright
@@ -28,13 +31,26 @@ def get_all_languages(repo_root: Path) -> List[str]:
     return langs
 
 
-def capture_screenshot(url: str, output: Path) -> None:
+def capture_screenshot(url: str) -> bytes:
+    """Capture a full page screenshot and return the raw PNG bytes."""
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
         page.goto(url)
-        page.screenshot(path=str(output), full_page=True)
+        data = page.screenshot(full_page=True)
         browser.close()
+    return data
+
+
+def compress_image(data: bytes, width: int = 320, quality: int = 70) -> bytes:
+    """Resize and convert PNG screenshot bytes to compressed JPEG bytes."""
+    with Image.open(BytesIO(data)) as img:
+        ratio = width / img.width
+        height = int(img.height * ratio)
+        img = img.resize((width, height))
+        buf = BytesIO()
+        img.save(buf, format="JPEG", quality=quality)
+        return buf.getvalue()
 
 
 def post_comment(token: str, repo: str, pr_number: str, body: str) -> bool:
@@ -62,20 +78,15 @@ def main() -> None:
 
     for lang in langs:
         url = f"https://www.vuko.life/app/{lang}.html"
-        out_file = repo_root / f"screenshot_{lang}.png"
-        img_b64 = ""
         try:
-            capture_screenshot(url, out_file)
-            with out_file.open("rb") as f:
-                img_b64 = base64.b64encode(f.read()).decode()
+            raw = capture_screenshot(url)
+            compressed = compress_image(raw)
+            img_b64 = base64.b64encode(compressed).decode()
         except Exception as e:
             print(f"Failed to capture screenshot for {lang}: {e}")
             continue
-        finally:
-            if out_file.exists():
-                out_file.unlink()
 
-        body = f"### {lang}\n![screenshot](data:image/png;base64,{img_b64})"
+        body = f"### {lang}\n![screenshot](data:image/jpeg;base64,{img_b64})"
         success = post_comment(args.token, args.repo, args.pr, body)
         if not success:
             print(f"Failed to comment for {lang}")
