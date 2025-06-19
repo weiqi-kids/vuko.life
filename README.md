@@ -65,6 +65,13 @@
 1. `index.html` 直接用瀏覽器打開即可（支援 Github Pages 靜態部署）
 2. 所有 JS/音樂資料皆為靜態載入（無需後端）
 
+## 更新音樂向量 (Embeddings)
+
+執行 `.github/scripts/update_embedding.py` 會根據 `music/base.json`
+中的 `title`、`desc` 與 `tag` 欄位，透過 `all-MiniLM-L6-v2` 模型生成
+embedding 並寫回檔案。此步驟需要下載 `sentence-transformers` 套件及模型
+權重，必須具備網路連線。若在離線環境，建議預先建置虛擬環境或快取依賴。
+
 ---
 
 ## 授權
