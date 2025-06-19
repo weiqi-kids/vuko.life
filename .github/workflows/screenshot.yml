@@ -1,28 +1,68 @@
 name: PR Screenshot
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize, reopened]
 
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
 
 jobs:
   screenshot:
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
+    env:
+      BRANCH: ${{ github.event.pull_request.head.ref }}
+      REPO: ${{ github.event.pull_request.head.repo.full_name }}
     steps:
       - uses: actions/checkout@v3
+        with:
+          repository: ${{ env.REPO }}
+          ref: ${{ env.BRANCH }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
       - name: Install dependencies
         run: |
-          pip install playwright requests Pillow
+          pip install playwright
           playwright install --with-deps chromium
-      - name: Capture screenshot and comment
+      - name: Capture screenshots
+        run: |
+          python .github/scripts/screenshot.py --out screenshots > screenshot.log 2>&1
+      - name: Check screenshots
+        run: |
+          ls -lh screenshots
+          file screenshots/*.jpg
+      - name: Upload screenshots artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: pr-screenshots
+          path: screenshots
+      - name: Commit screenshots
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'screenshots/*.jpg'
+          message: 'Add screenshots [skip ci]'
+          default_author: github_actions
+          push: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Comment screenshot URLs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: python .github/scripts/screenshot.py
+          BRANCH: ${{ env.BRANCH }}
+          REPO: ${{ env.REPO }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          body="Download screenshots from [workflow run artifacts]($RUN_URL)"
+          for f in screenshots/*.jpg; do
+            lang=$(basename "$f" .jpg)
+            url="https://github.com/${REPO}/raw/${BRANCH}/screenshots/$lang.jpg"
+            body+="\n![${lang}](${url})"
+          done
+          curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+               -H "Accept: application/vnd.github+json" \
+               -d "{\"body\":\"$body\"}" \
+               "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues/${PR_NUMBER}/comments"

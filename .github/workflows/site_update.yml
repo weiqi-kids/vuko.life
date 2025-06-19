@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   translate:
-    if: !contains(github.event.head_commit.message, '[skip ci]')
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.detect.outputs.changed }}
@@ -100,7 +100,7 @@ jobs:
 
   embedding:
     needs: translate
-    if: needs.translate.outputs.changed == '1' && !contains(github.event.head_commit.message, '[skip ci]')
+    if: ${{ needs.translate.outputs.changed == '1' && !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.detect.outputs.changed }}
@@ -167,10 +167,7 @@ jobs:
 
   screenshot:
     needs: [translate, embedding]
-    if: |
-      !contains(github.event.head_commit.message, '[skip ci]') &&
-      needs.translate.result == 'success' &&
-      (needs.embedding.result == 'success' || needs.embedding.result == 'skipped')
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && needs.translate.result == 'success' && (needs.embedding.result == 'success' || needs.embedding.result == 'skipped') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -182,24 +179,46 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         run: |
-          pip install playwright requests Pillow
+          pip install playwright Pillow
           playwright install --with-deps chromium
       - name: Run screenshot
         id: run
         continue-on-error: true
         run: |
-          python .github/scripts/screenshot.py > screenshot.log 2>&1
+          python .github/scripts/screenshot.py --out output > screenshot.log 2>&1
           status=$?
           if [ $status -ne 0 ]; then
             echo "screenshot failed" >> screenshot.log
             exit $status
           fi
+      - name: Check screenshots
+        run: |
+          ls -lh output
+          file output/*.jpg
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: screenshots
+          path: output
       - name: Upload log
         if: always()
         uses: actions/upload-artifact@v3
         with:
           name: screenshot-log
           path: screenshot.log
+      - name: Comment screenshot artifact
+        if: ${{ github.event_name == 'pull_request' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          body="Download screenshots from [workflow run artifacts]($RUN_URL)"
+          curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+               -H "Accept: application/vnd.github+json" \
+               -d "{\"body\":\"$body\"}" \
+               "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues/${PR_NUMBER}/comments"
       - name: Commit screenshot summary
         run: |
           git config user.name 'github-actions[bot]'
@@ -213,7 +232,7 @@ jobs:
 
   deploy:
     needs: screenshot
-    if: !contains(github.event.head_commit.message, '[skip ci]')
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/configure-pages@v5
