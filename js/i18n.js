@@ -2,12 +2,29 @@
 const COUNTRY_LANGUAGE_MAP = {
     'TW': 'zh-TW', 'HK': 'zh-TW', 'MO': 'zh-TW',
     'CN': 'zh-CN', 'SG': 'zh-CN',
-    'US': 'en', 'GB': 'en', 'CA': 'en', 'AU': 'en',
-    'NZ': 'en', 'IN': 'en',
+    'US': 'en', 'GB': 'en', 'AU': 'en', 'NZ': 'en',
+    'CA': 'fr-CA',
+    'IN': 'hi',
     'JP': 'ja',
     'KR': 'ko',
     'ES': 'es', 'MX': 'es', 'AR': 'es', 'CO': 'es', 'CL': 'es',
-    'PT': 'pt', 'BR': 'pt'
+    'PT': 'pt', 'BR': 'pt',
+    'FR': 'fr-FR', 'BE': 'fr-BE',
+    'RU': 'ru',
+    'DE': 'de-DE', 'AT': 'de-AT', 'CH': 'de-CH',
+    'ID': 'id',
+    'TR': 'tr',
+    'VN': 'vi',
+    'TH': 'th',
+    'PL': 'pl',
+    'UA': 'uk',
+    'IL': 'he',
+    'MY': 'ms',
+    'KE': 'sw',
+    'PK': 'pa',
+    'MM': 'my',
+    'SA': 'ar', 'AE': 'ar', 'EG': 'ar',
+    'BD': 'bn'
 };
 
 const FALLBACK_LANGUAGE = 'zh-TW';

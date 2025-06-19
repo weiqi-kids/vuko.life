@@ -11,7 +11,7 @@
             NOISE_THRESHOLD_DB: 50,         // 背景噪音警告門檻 (dB)
             
             // 語言設定
-            LANGUAGE: 'auto',                // 'auto' 為自動偵測，或指定 'zh-TW', 'zh-CN', 'en', 'ja', 'ko'
+            LANGUAGE: 'auto',                // 'auto' 為自動偵測，或指定 'zh-TW', 'zh-CN', 'en', 'ja', 'ko', 'ar', 'hi', 'fr-FR', 'fr-CA', 'fr-BE', 'ru', 'de-DE', 'de-AT', 'de-CH', 'id', 'tr', 'vi', 'th', 'pl', 'uk', 'he', 'ms', 'sw', 'pa', 'my', 'ta', 'bn'
             FALLBACK_LANGUAGE: 'zh-TW',      // 自動偵測失敗時的預設語言
             
             // IPinfo 地理位置偵測設定
@@ -168,6 +168,46 @@
                 return 'ko';
             } else if (browserLang.startsWith('en')) {
                 return 'en';
+            } else if (browserLang.startsWith('fr')) {
+                if (browserLang.includes('CA')) return 'fr-CA';
+                if (browserLang.includes('BE')) return 'fr-BE';
+                return 'fr-FR';
+            } else if (browserLang.startsWith('de')) {
+                if (browserLang.includes('AT')) return 'de-AT';
+                if (browserLang.includes('CH')) return 'de-CH';
+                return 'de-DE';
+            } else if (browserLang.startsWith('ru')) {
+                return 'ru';
+            } else if (browserLang.startsWith('ar')) {
+                return 'ar';
+            } else if (browserLang.startsWith('hi')) {
+                return 'hi';
+            } else if (browserLang.startsWith('id')) {
+                return 'id';
+            } else if (browserLang.startsWith('tr')) {
+                return 'tr';
+            } else if (browserLang.startsWith('vi')) {
+                return 'vi';
+            } else if (browserLang.startsWith('th')) {
+                return 'th';
+            } else if (browserLang.startsWith('pl')) {
+                return 'pl';
+            } else if (browserLang.startsWith('uk')) {
+                return 'uk';
+            } else if (browserLang.startsWith('he')) {
+                return 'he';
+            } else if (browserLang.startsWith('ms')) {
+                return 'ms';
+            } else if (browserLang.startsWith('sw')) {
+                return 'sw';
+            } else if (browserLang.startsWith('pa')) {
+                return 'pa';
+            } else if (browserLang.startsWith('my')) {
+                return 'my';
+            } else if (browserLang.startsWith('ta')) {
+                return 'ta';
+            } else if (browserLang.startsWith('bn')) {
+                return 'bn';
             } else {
                 return CONFIG.FALLBACK_LANGUAGE;
             }

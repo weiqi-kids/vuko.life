@@ -1,0 +1,53 @@
+{
+  "title": "With sound, meet a better version of yourself",
+  "subtitle": "🤖 User Guide",
+  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "instructions": {
+    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
+    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+  },
+  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "labels": {
+    "breathRate": "Breathing rate:",
+    "noiseLevel": "Background noise:",
+    "baseFreq": "Base frequency:",
+    "audioFile": "Background audio file:",
+    "volumeRatio": "Volume ratio:",
+    "breathVisual": "Breathing visualization",
+    "realTimeData": "Real-time data",
+    "systemConfig": "Binaural beat settings",
+    "audioSearch": "🎵 Background music search",
+    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
+    "noResults": "No related music found",
+    "currentMusic": "Current selection",
+    "deviceTest": "Device test",
+    "libraryTab": "Online sound library",
+    "localFileTab": "Local File",
+    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
+  },
+  "buttons": {
+    "start": "🎶 Start",
+    "stop": "🍂 Stop"
+  },
+  "status": {
+    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
+    "stopped": "Monitoring stopped",
+    "error": "❌ Unable to start:",
+    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
+    "waiting": "To be detected"
+  },
+  "units": {
+    "perMin": "times/min",
+    "hz": "Hz",
+    "db": "dB",
+    "none": "None"
+  },
+  "binauralOptions": [
+    "Focus",
+    "Meditation",
+    "Schumann Resonance",
+    "Sleep",
+    "Refresh",
+    "Inspire Creativity"
+  ]
+}

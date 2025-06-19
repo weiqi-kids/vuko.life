@@ -46,7 +46,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          for lang in en es ja ko pt zh-cn zh-hk zh-tw; do
+          for lang in en es ja ko pt zh-cn zh-hk zh-tw ar hi fr-fr fr-ca fr-be ru de-de de-at de-ch id tr vi th pl uk he ms sw pa my ta bn; do
             python .github/scripts/translate.py i18n/base.json i18n/$lang.json
           done
       - name: Translate music
@@ -54,7 +54,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          for lang in en es ja ko pt zh-cn zh-hk zh-tw; do
+          for lang in en es ja ko pt zh-cn zh-hk zh-tw ar hi fr-fr fr-ca fr-be ru de-de de-at de-ch id tr vi th pl uk he ms sw pa my ta bn; do
             python .github/scripts/translate.py music/base.json music/$lang.json
           done
       - name: Commit and push
