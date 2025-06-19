@@ -15,11 +15,6 @@ permissions:
 jobs:
   translate:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      max-parallel: 1
-      matrix:
-        lang: [en, es, ja, ko, pt, zh-cn, zh-hk]
     steps:
       - uses: actions/checkout@v3
         with:
@@ -29,22 +24,20 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Translate i18n to ${{ matrix.lang }}
+      - name: Translate all languages
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python .github/scripts/translate.py i18n/zh-tw.json i18n/${{ matrix.lang }}.json
-      - name: Translate music to ${{ matrix.lang }}
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          python .github/scripts/translate.py music/base.json music/${{ matrix.lang }}.json
+          for lang in en es ja ko pt zh-cn zh-hk; do
+            python .github/scripts/translate.py i18n/zh-tw.json i18n/$lang.json
+            python .github/scripts/translate.py music/base.json music/$lang.json
+          done
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then
             git add i18n/*.json music/*.json
-            git commit -m "Update translation for ${{ matrix.lang }}"
+            git commit -m "Update translations"
             git push
           fi
