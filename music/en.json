@@ -407,7 +407,7 @@
       "acoustic",
       "Relaxation"
     ],
-    "desc": "Mainly gentle guitar, accompanied by soft sound pads, suitable for relaxation and focus.",
+    "desc": "Gentle guitar as the main, accompanied by soft sound pads, suitable for relaxation and focus.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -805,7 +805,7 @@
       "Earth",
       "grounding"
     ],
-    "desc": "Inspired by the element of earth, it combines natural low frequencies and ambient sounds to emphasize stability and tranquility.",
+    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds, emphasizing stability and calmness.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1203,7 +1203,7 @@
       "chakra",
       "Confidence"
     ],
-    "desc": "The theme of the solar plexus chakra symbolizes vitality, will, and the energy center, with a warm and bright atmosphere.",
+    "desc": "The solar plexus chakra theme symbolizes vitality, will, and energy center, with a warm and bright atmosphere.",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1601,7 +1601,7 @@
       "peace",
       "Nature"
     ],
-    "desc": "Simulates the tranquility and vastness of the mountains, using natural ambient sounds to enhance inner peace.",
+    "desc": "Simulates the tranquility and vastness of the mountains, using natural ambient sounds to foster inner peace.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -3989,7 +3989,7 @@
       "Passion",
       "element"
     ],
-    "desc": "Centered around the theme of the fire element, incorporating natural sound effects like flames and campfires, symbolizing energy and transformation.",
+    "desc": "Centered around the theme of the fire element, incorporating natural sounds like flames and campfires, symbolizing energy and transformation.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -5183,7 +5183,7 @@
       "frame drum",
       "grounding"
     ],
-    "desc": "Low-frequency shamanic drum with a steady rhythm, aiding in deep meditation and body awareness.",
+    "desc": "Stable rhythm of low-frequency shamanic drum, assisting in deep meditation and body awareness.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -6369,9 +6369,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Gold",
+    "title": "Metal",
     "tag": [
-      "Gold",
+      "Metal",
       "metal",
       "purity",
       "clarity",
@@ -6773,7 +6773,7 @@
       "piano",
       "Gentle",
       "Harmony",
-      "Relaxing"
+      "relaxing"
     ],
     "desc": "Gentle piano melody, accompanied by soothing accompaniment, brings a peaceful and comfortable feeling.",
     "embedding": [
@@ -7169,8 +7169,8 @@
     "tag": [
       "Glockenspiel",
       "Tuning Fork",
-      "Glockenspiel",
-      "Tuning Fork",
+      "glockenspiel",
+      "tuning fork",
       "Ethereal"
     ],
     "desc": "The ethereal sounds of the glockenspiel and tuning fork are suitable for meditation, cleansing, and focus.",
@@ -7567,11 +7567,11 @@
     "tag": [
       "Flute",
       "Xiao",
-      "Flute",
-      "Xiao",
+      "flute",
+      "xiao",
       "Flowing"
     ],
-    "desc": "The main melody of the flute and xiao flows distantly, creating an ethereal and profound state of mind.",
+    "desc": "The main melodies of the flute and xiao flow distantly, creating an ethereal and profound state of mind.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,

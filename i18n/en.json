@@ -1,12 +1,12 @@
 {
   "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the beat frequency to guide you into different states of consciousness:",
+  "subtitle": "🤖 Instructions",
+  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the binaural beat effect.",
+    "headphones": "Please use <strong>binaural headphones</strong> to achieve the effect of binaural beats.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
-  "volumeRatioDetail": "Beat frequency {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
   "labels": {
     "breathRate": "Breathing rate:",
     "baseFreq": "Base frequency:",
@@ -18,7 +18,7 @@
     "audioSearch": "🎵 Background music search",
     "searchPlaceholder": "Search music... (e.g., forest, waves, meditation)",
     "noResults": "No related music found",
-    "currentMusic": "Currently selected",
+    "currentMusic": "Current selection",
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local files",
