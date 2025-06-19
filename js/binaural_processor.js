@@ -47,7 +47,9 @@ function processBinaural(input) {
         breath = {},
         bgm = {},
         beat = {},
-        meta = {}
+        meta = {},
+        noiseDb = 0,
+        noiseThresholdDb = 50
     } = input;
 
     const {
@@ -79,14 +81,23 @@ function processBinaural(input) {
     const V = 1;
     const R_bg = Math.max(0, Math.min(1, bg_volume));
     const F_base = main_freq;
-    const warning = null;
+    let warning = null;
+    if (noiseDb > noiseThresholdDb) {
+        warning = 'HIGH_NOISE';
+    }
 
     const log = {
         breath: { target, curve, range, threshold, max_diff },
         bgm: bgItem,
         beat: { init, target: beat_target, curve: beat_curve },
-        meta
+        meta,
+        noiseDb
     };
 
     return { F_beat, V, R_bg, F_base, warning, log };
+}
+
+// export to global scope for browser usage
+if (typeof window !== 'undefined') {
+    window.processBinaural = processBinaural;
 }

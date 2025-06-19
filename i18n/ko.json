@@ -9,18 +9,19 @@
   "volumeRatioDetail": "박동수 {binaural}% / 배경음 {background}%",
   "labels": {
     "breathRate": "호흡 속도:",
+    "noiseLevel": "배경 소음:",
     "baseFreq": "기본 주파수:",
-    "audioFile": "배경음 파일:",
+    "audioFile": "배경 음원:",
     "volumeRatio": "볼륨 비율:",
     "breathVisual": "호흡 시각화",
     "realTimeData": "실시간 데이터",
-    "systemConfig": "양이 박동 설정",
+    "systemConfig": "양쪽 귀 박동수 설정",
     "audioSearch": "🎵 배경 음악 검색",
     "searchPlaceholder": "음악 검색... (예: 피아노, 바다, 명상)",
     "noResults": "관련 음악을 찾을 수 없습니다",
     "currentMusic": "현재 선택",
     "deviceTest": "장비 테스트",
-    "libraryTab": "온라인 음원",
+    "libraryTab": "온라인 음원 라이브러리",
     "localFileTab": "로컬 파일",
     "filePrivacyMsg": "오디오 파일은 로컬에서만 처리되며 업로드되지 않습니다."
   },
@@ -38,6 +39,7 @@
   "units": {
     "perMin": "회/분",
     "hz": "Hz",
+    "db": "dB",
     "none": "없음"
   },
   "binauralOptions": [
@@ -45,7 +47,7 @@
     "명상",
     "슈만 공명",
     "수면",
-    "기운 차리기",
+    "기운 돋우기",
     "영감 자극"
   ]
 }

@@ -9,6 +9,7 @@
   "volumeRatioDetail": "拍频 {binaural}% / 背景音 {background}%",
   "labels": {
     "breathRate": "呼吸速率：",
+    "noiseLevel": "背景噪音：",
     "baseFreq": "基频频率：",
     "audioFile": "背景音档：",
     "volumeRatio": "音量比例：",
@@ -21,8 +22,8 @@
     "currentMusic": "目前选择",
     "deviceTest": "设备测试",
     "libraryTab": "线上音库",
-    "localFileTab": "本机文件",
-    "filePrivacyMsg": "音频仅在本机处理，不会上传。"
+    "localFileTab": "本地文件",
+    "filePrivacyMsg": "音频文件仅在本地处理，不会上传。"
   },
   "buttons": {
     "start": "🎶 开始",
@@ -38,6 +39,7 @@
   "units": {
     "perMin": "次/分",
     "hz": "Hz",
+    "db": "dB",
     "none": "无"
   },
   "binauralOptions": [
