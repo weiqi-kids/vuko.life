@@ -3,8 +3,9 @@ name: Update Translations
 on:
   push:
     paths:
-      - 'i18n/zh-tw.json'
+      - 'i18n/base.json'
       - 'music/base.json'
+      - 'i18n/zh-tw.json'
       - '.github/scripts/translate.py'
       - '.github/workflows/update_translate.yml'
   workflow_dispatch:
@@ -20,10 +21,13 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-      - name: Check music base changes
+      - name: Check base changes
         id: base
+        env:
+          BEFORE: ${{ github.event.before }}
         run: |
-          if git diff --quiet HEAD^ HEAD -- music/base.json; then
+          prev="${BEFORE:-HEAD^}"
+          if git diff --quiet "$prev" HEAD -- i18n/base.json music/base.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -38,8 +42,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           for lang in en es ja ko pt zh-cn zh-hk; do
-            python .github/scripts/translate.py i18n/zh-tw.json i18n/$lang.json
             if [ "${{ steps.base.outputs.changed }}" = "true" ]; then
+              python .github/scripts/translate.py i18n/base.json i18n/$lang.json
               python .github/scripts/translate.py music/base.json music/$lang.json
             fi
           done
