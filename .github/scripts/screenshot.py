@@ -42,15 +42,41 @@ def capture_screenshot(url: str) -> bytes:
     return data
 
 
-def compress_image(data: bytes, width: int = 320, quality: int = 70) -> bytes:
-    """Resize and convert PNG screenshot bytes to compressed JPEG bytes."""
+def compress_image(
+    data: bytes,
+    width: int = 320,
+    quality: int = 70,
+    max_bytes: int = 60000,
+) -> bytes:
+    """Resize and convert PNG screenshot bytes to compressed JPEG under max size."""
     with Image.open(BytesIO(data)) as img:
         ratio = width / img.width
         height = int(img.height * ratio)
         img = img.resize((width, height))
-        buf = BytesIO()
-        img.save(buf, format="JPEG", quality=quality)
-        return buf.getvalue()
+
+        def try_save(im: Image.Image, q: int) -> bytes:
+            buf = BytesIO()
+            im.save(buf, format="JPEG", quality=q)
+            return buf.getvalue()
+
+        # progressively lower quality until size is acceptable
+        for q in range(quality, 10, -10):
+            out = try_save(img, q)
+            if len(out) <= max_bytes:
+                return out
+
+        # if still too big, shrink width and retry
+        for w in range(width - 40, 80, -40):
+            ratio = w / img.width
+            h = int(img.height * ratio)
+            smaller = img.resize((w, h))
+            for q in range(quality, 10, -10):
+                out = try_save(smaller, q)
+                if len(out) <= max_bytes:
+                    return out
+
+        # give up, return smallest attempt
+        return try_save(img, 10)
 
 
 def post_comment(token: str, repo: str, pr_number: str, body: str) -> bool:
