@@ -9,6 +9,7 @@
   "volumeRatioDetail": "Frecuencia binaural {binaural}% / Sonido de fondo {background}%",
   "labels": {
     "breathRate": "Tasa de respiración:",
+    "noiseLevel": "Nivel de ruido:",
     "baseFreq": "Frecuencia de tono base:",
     "audioFile": "Archivo de sonido de fondo:",
     "volumeRatio": "Proporción de volumen:",
@@ -38,6 +39,7 @@
   "units": {
     "perMin": "veces/min",
     "hz": "Hz",
+    "db": "dB",
     "none": "Ninguno"
   },
   "binauralOptions": [

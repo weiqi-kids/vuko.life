@@ -9,6 +9,7 @@
   "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
   "labels": {
     "breathRate": "Breathing rate:",
+    "noiseLevel": "Noise level:",
     "baseFreq": "Base frequency:",
     "audioFile": "Background audio file:",
     "volumeRatio": "Volume ratio:",
@@ -38,6 +39,7 @@
   "units": {
     "perMin": "times/min",
     "hz": "Hz",
+    "db": "dB",
     "none": "None"
   },
   "binauralOptions": [

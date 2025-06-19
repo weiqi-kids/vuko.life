@@ -9,6 +9,7 @@
   "volumeRatioDetail": "拍频 {binaural}% / 背景音 {background}%",
   "labels": {
     "breathRate": "呼吸速率：",
+    "noiseLevel": "背景噪音：",
     "baseFreq": "基频频率：",
     "audioFile": "背景音档：",
     "volumeRatio": "音量比例：",
@@ -38,6 +39,7 @@
   "units": {
     "perMin": "次/分",
     "hz": "Hz",
+    "db": "dB",
     "none": "无"
   },
   "binauralOptions": [

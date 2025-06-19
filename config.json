@@ -22,5 +22,8 @@
     "ratio_relaxed": {"nature": 0.8, "white_noise": 0.2},
     "ratio_focus":   {"nature": 0.5, "white_noise": 0.5},
     "ratio_tense":   {"nature": 0.2, "white_noise": 0.8}
+  },
+  "noise": {
+    "noiseThresholdDb": 50
   }
 }
