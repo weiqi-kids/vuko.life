@@ -76,20 +76,25 @@ def main() -> None:
 
     langs = get_all_languages(repo_root)
 
+    body_parts = []
     for lang in langs:
         url = f"https://www.vuko.life/app/{lang}.html"
         try:
             raw = capture_screenshot(url)
             compressed = compress_image(raw)
             img_b64 = base64.b64encode(compressed).decode()
+            body_parts.append(f"### {lang}\n![screenshot](data:image/jpeg;base64,{img_b64})")
         except Exception as e:
-            print(f"Failed to capture screenshot for {lang}: {e}")
-            continue
+            err = f"Failed to capture screenshot for {lang}: {e}"
+            print(err)
+            body_parts.append(f"### {lang}\n{err}")
 
-        body = f"### {lang}\n![screenshot](data:image/jpeg;base64,{img_b64})"
-        success = post_comment(args.token, args.repo, args.pr, body)
-        if not success:
-            print(f"Failed to comment for {lang}")
+    body = "\n\n".join(body_parts)
+    if len(body.encode()) > 60000:
+        print("Warning: comment body may be too large")
+    success = post_comment(args.token, args.repo, args.pr, body)
+    if not success:
+        print("Failed to create PR comment")
 
 
 if __name__ == "__main__":
