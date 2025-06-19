@@ -1,51 +1,51 @@
 {
-  "title": "用聲音，帶你遇見更好的自己",
-  "subtitle": "🤖 使用說明",
-  "description": "系統會即時監測你的呼吸狀態，並自動調整拍頻來引導你進入不同的意識狀態：",
+  "title": "With sound, meet a better version of yourself",
+  "subtitle": "🤖 User Guide",
+  "description": "The system will monitor your breathing status in real-time and automatically adjust the beat frequency to guide you into different states of consciousness:",
   "instructions": {
-    "headphones": "請使用<strong>雙聲道耳機</strong>，這樣才能達成腦中拍頻的效果。",
-    "microphone": "若您同意使用您的<strong>麥克風</strong>，請將麥克風靠近口鼻，我們會嘗試引導您進入更深層的狀態。"
+    "headphones": "Please use <strong>stereo headphones</strong> to achieve the binaural beat effect.",
+    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
-  "volumeRatioDetail": "拍頻 {binaural}% / 背景音 {background}%",
+  "volumeRatioDetail": "Beat frequency {binaural}% / Background sound {background}%",
   "labels": {
-    "breathRate": "呼吸速率：",
-    "baseFreq": "基頻頻率：",
-    "audioFile": "背景音檔：",
-    "volumeRatio": "音量比例：",
-    "breathVisual": "呼吸視覺化",
-    "realTimeData": "即時數據",
-    "systemConfig": "雙耳拍頻設置",
-    "audioSearch": "🎵 背景音樂搜尋",
-    "searchPlaceholder": "搜尋音樂... (例如: 森林、海浪、冥想)",
-    "noResults": "找不到相關音樂",
-    "currentMusic": "目前選擇",
-    "deviceTest": "設備測試",
-    "libraryTab": "線上音庫",
-    "localFileTab": "本機檔案",
-    "filePrivacyMsg": "音檔僅在本機處理，不會上傳。"
+    "breathRate": "Breathing rate:",
+    "baseFreq": "Base frequency:",
+    "audioFile": "Background audio file:",
+    "volumeRatio": "Volume ratio:",
+    "breathVisual": "Breathing visualization",
+    "realTimeData": "Real-time data",
+    "systemConfig": "Binaural beat settings",
+    "audioSearch": "🎵 Background music search",
+    "searchPlaceholder": "Search music... (e.g., forest, waves, meditation)",
+    "noResults": "No related music found",
+    "currentMusic": "Currently selected",
+    "deviceTest": "Device test",
+    "libraryTab": "Online sound library",
+    "localFileTab": "Local files",
+    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
   },
   "buttons": {
-    "start": "🎶 開始",
-    "stop": "🍂停止"
+    "start": "🎶 Start",
+    "stop": "🍂 Stop"
   },
   "status": {
-    "monitoring": "🎙️ 呼吸監測中... 請保持自然呼吸",
-    "stopped": "監測已停止",
-    "error": "❌ 無法啟動：",
-    "unsupported": "⚠️ 您的瀏覽器不支援麥克風功能，無法使用呼吸監測",
-    "waiting": "待檢測"
+    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
+    "stopped": "Monitoring stopped",
+    "error": "❌ Unable to start:",
+    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
+    "waiting": "Pending detection"
   },
   "units": {
-    "perMin": "次/分",
+    "perMin": "times/min",
     "hz": "Hz",
-    "none": "無"
+    "none": "None"
   },
   "binauralOptions": [
-    "專注",
-    "冥想",
-    "舒曼共振",
-    "睡眠",
-    "提神",
-    "激發靈感"
+    "Focus",
+    "Meditation",
+    "Schumann Resonance",
+    "Sleep",
+    "Refresh",
+    "Inspire creativity"
   ]
 }
