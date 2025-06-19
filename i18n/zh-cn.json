@@ -23,7 +23,7 @@
     "deviceTest": "设备测试",
     "libraryTab": "线上音库",
     "localFileTab": "本地文件",
-    "filePrivacyMsg": "音频仅在本地处理，不会上传。"
+    "filePrivacyMsg": "音频文件仅在本地处理，不会上传。"
   },
   "buttons": {
     "start": "🎶 开始",

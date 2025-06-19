@@ -60,6 +60,7 @@
         let bgAnalyser;
         let bgDataArray;
         let bgVolumeMonitorId = null;
+        let lastNoiseUpdate = 0;
         let currentBeatFreq = 8;
         let currentLanguage = CONFIG.FALLBACK_LANGUAGE;
         let userCountry = null;
@@ -433,6 +434,7 @@
             let breathCount = 0;
 
             let breathTimestamps = [];
+            let lastBreathRateUpdate = 0;
             const ANALYSIS_WINDOW = 24; // 約1秒的樣本數
             
             function detectBreath() {
@@ -495,9 +497,9 @@
                 // 繪製波形
                 drawWaveform(ctx, canvas, breathingSamples);
                 
-                // 每5秒計算一次呼吸速率
-                if (breathingSamples.length % 150 === 0) {
-                    const now = Date.now();
+                // 每秒更新一次呼吸速率
+                const now = Date.now();
+                if (now - lastBreathRateUpdate >= 1000) {
                     breathTimestamps = breathTimestamps.filter(t => now - t <= 60000);
                     let breathRate = 0;
                     if (breathTimestamps.length > 0) {
@@ -507,6 +509,7 @@
                         }
                     }
                     updateBreathingStats(breathRate);
+                    lastBreathRateUpdate = now;
                 }
 
 
@@ -601,6 +604,13 @@
         }
 
         function updateNoiseLevel(db) {
+            const now = Date.now();
+            if (typeof db === 'number' && now - lastNoiseUpdate < 1000) {
+                return;
+            }
+            if (typeof db === 'number') {
+                lastNoiseUpdate = now;
+            }
             const content = getLanguageContent();
             const units = content.units || {};
             const text = (typeof db === 'number') ? `${db.toFixed(1)} ${units.db || ''}` : `${db}`;
