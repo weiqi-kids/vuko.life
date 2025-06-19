@@ -6,7 +6,7 @@
     "headphones": "<strong>ステレオヘッドフォン</strong>を使用してください。これにより、脳内拍動の効果を達成できます。",
     "microphone": "<strong>マイク</strong>の使用に同意する場合は、マイクを口や鼻の近くに置いてください。より深い状態に導くことを試みます。"
   },
-  "volumeRatioDetail": "拍動周波数 {binaural}% / 背景音 {background}%",
+  "volumeRatioDetail": "拍動 {binaural}% / 背景音 {background}%",
   "labels": {
     "breathRate": "呼吸速度：",
     "noiseLevel": "背景ノイズ：",
