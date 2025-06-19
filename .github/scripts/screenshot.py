@@ -37,11 +37,14 @@ def capture_screenshot(url: str, output: Path) -> None:
         browser.close()
 
 
-def post_comment(token: str, repo: str, pr_number: str, body: str) -> None:
+def post_comment(token: str, repo: str, pr_number: str, body: str) -> bool:
     api_url = f"https://api.github.com/repos/{repo}/issues/{pr_number}/comments"
     headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
     resp = requests.post(api_url, headers=headers, json={"body": body})
-    resp.raise_for_status()
+    if resp.status_code >= 300:
+        print(f"Failed to post comment: {resp.status_code} {resp.text}")
+        return False
+    return True
 
 
 def main() -> None:
@@ -57,7 +60,6 @@ def main() -> None:
 
     langs = get_all_languages(repo_root)
 
-    body_parts: List[str] = []
     for lang in langs:
         url = f"https://www.vuko.life/app/{lang}.html"
         out_file = repo_root / f"screenshot_{lang}.png"
@@ -67,15 +69,16 @@ def main() -> None:
             with out_file.open("rb") as f:
                 img_b64 = base64.b64encode(f.read()).decode()
         except Exception as e:
-            body_parts.append(f"### {lang}\nFailed to capture screenshot: {e}")
+            print(f"Failed to capture screenshot for {lang}: {e}")
             continue
         finally:
             if out_file.exists():
                 out_file.unlink()
-        body_parts.append(f"### {lang}\n![screenshot](data:image/png;base64,{img_b64})")
 
-    body = "\n\n".join(body_parts)
-    post_comment(args.token, args.repo, args.pr, body)
+        body = f"### {lang}\n![screenshot](data:image/png;base64,{img_b64})"
+        success = post_comment(args.token, args.repo, args.pr, body)
+        if not success:
+            print(f"Failed to comment for {lang}")
 
 
 if __name__ == "__main__":
