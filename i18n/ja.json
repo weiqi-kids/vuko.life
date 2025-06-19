@@ -1,12 +1,12 @@
 {
   "title": "音声で、より良い自分に出会う",
   "subtitle": "🤖 使用説明",
-  "description": "システムはあなたの呼吸状態をリアルタイムで監視し、異なる意識状態に導くために自動で拍周波数を調整します：",
+  "description": "システムはあなたの呼吸状態をリアルタイムで監視し、異なる意識状態に導くために拍動を自動調整します：",
   "instructions": {
-    "headphones": "<strong>ステレオヘッドフォン</strong>を使用してください。これにより、脳内拍周波数の効果を達成できます。",
+    "headphones": "<strong>ステレオヘッドフォン</strong>を使用してください。これにより、脳内拍動の効果を達成できます。",
     "microphone": "<strong>マイク</strong>の使用に同意する場合は、マイクを口や鼻の近くに置いてください。より深い状態に導くことを試みます。"
   },
-  "volumeRatioDetail": "拍周波数 {binaural}% / 背景音 {background}%",
+  "volumeRatioDetail": "拍動 {binaural}% / 背景音 {background}%",
   "labels": {
     "breathRate": "呼吸速度：",
     "baseFreq": "基音周波数：",
@@ -15,7 +15,7 @@
     "breathVisual": "呼吸の視覚化",
     "realTimeData": "リアルタイムデータ",
     "systemConfig": "バイノーラルビート設定",
-    "audioSearch": "🎵 背景音楽検索",
+    "audioSearch": "🎵 バックグラウンドミュージック検索",
     "searchPlaceholder": "音楽を検索...（例：森、波、瞑想）",
     "noResults": "関連する音楽が見つかりません",
     "currentMusic": "現在の選択",
