@@ -1,15 +1,15 @@
 {
   "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 Instructions",
+  "subtitle": "🤖 User Guide",
   "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
   "instructions": {
-    "headphones": "Please use <strong>binaural headphones</strong> to achieve the effect of binaural beats.",
+    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
   "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
   "labels": {
     "breathRate": "Breathing rate:",
-    "noiseLevel": "Noise level:",
+    "noiseLevel": "Background noise:",
     "baseFreq": "Base frequency:",
     "audioFile": "Background audio file:",
     "volumeRatio": "Volume ratio:",
@@ -22,7 +22,7 @@
     "currentMusic": "Current selection",
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
-    "localFileTab": "Local files",
+    "localFileTab": "Local File",
     "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
   },
   "buttons": {
@@ -33,7 +33,7 @@
     "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
     "stopped": "Monitoring stopped",
     "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, breathing monitoring cannot be used",
+    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
     "waiting": "To be detected"
   },
   "units": {
@@ -48,6 +48,6 @@
     "Schumann Resonance",
     "Sleep",
     "Refresh",
-    "Inspire"
+    "Inspire Creativity"
   ]
 }

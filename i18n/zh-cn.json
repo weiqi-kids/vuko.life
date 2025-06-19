@@ -22,8 +22,8 @@
     "currentMusic": "目前选择",
     "deviceTest": "设备测试",
     "libraryTab": "线上音库",
-    "localFileTab": "本机文件",
-    "filePrivacyMsg": "音频仅在本机处理，不会上传。"
+    "localFileTab": "本地文件",
+    "filePrivacyMsg": "音频文件仅在本地处理，不会上传。"
   },
   "buttons": {
     "start": "🎶 开始",

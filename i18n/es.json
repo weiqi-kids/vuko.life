@@ -9,7 +9,7 @@
   "volumeRatioDetail": "Frecuencia binaural {binaural}% / Sonido de fondo {background}%",
   "labels": {
     "breathRate": "Tasa de respiración:",
-    "noiseLevel": "Nivel de ruido:",
+    "noiseLevel": "Ruido de fondo:",
     "baseFreq": "Frecuencia de tono base:",
     "audioFile": "Archivo de sonido de fondo:",
     "volumeRatio": "Proporción de volumen:",
@@ -33,7 +33,7 @@
     "monitoring": "🎙️ Monitoreando la respiración... Por favor, respira naturalmente",
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
-    "unsupported": "⚠️ Su navegador no admite la función de micrófono, no se puede usar el monitoreo de respiración",
+    "unsupported": "⚠️ Su navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
     "waiting": "Por detectar"
   },
   "units": {
