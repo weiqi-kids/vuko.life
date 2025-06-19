@@ -1,16 +1,16 @@
 {
   "title": "Com a voz, encontre uma versão melhor de si mesmo",
   "subtitle": "🤖 Instruções de uso",
-  "description": "O sistema monitorará seu estado de respiração em tempo real e ajustará automaticamente a frequência binaural para guiá-lo a diferentes estados de consciência:",
+  "description": "O sistema monitorará seu estado respiratório em tempo real e ajustará automaticamente a frequência binaural para guiá-lo a diferentes estados de consciência:",
   "instructions": {
-    "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito da frequência binaural no cérebro.",
+    "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito de frequência binaural no cérebro.",
     "microphone": "Se você concordar em usar seu <strong>microfone</strong>, aproxime-o da boca e do nariz, tentaremos guiá-lo para um estado mais profundo."
   },
   "volumeRatioDetail": "Frequência binaural {binaural}% / Som de fundo {background}%",
   "labels": {
     "breathRate": "Taxa de respiração:",
     "noiseLevel": "Ruído de fundo:",
-    "baseFreq": "Frequência da frequência base:",
+    "baseFreq": "Frequência da base:",
     "audioFile": "Arquivo de som de fundo:",
     "volumeRatio": "Proporção de volume:",
     "breathVisual": "Visualização da respiração",
@@ -45,8 +45,8 @@
   "binauralOptions": [
     "Foco",
     "Meditação",
-    "Ressonância Schumann",
-    "Dormir",
+    "Ressonância de Schumann",
+    "Sono",
     "Revigorar",
     "Inspirar criatividade"
   ]

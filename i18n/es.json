@@ -15,7 +15,7 @@
     "volumeRatio": "Proporción de volumen:",
     "breathVisual": "Visualización de la respiración",
     "realTimeData": "Datos en tiempo real",
-    "systemConfig": "Configuración de frecuencia binaural",
+    "systemConfig": "Configuración de frecuencia de pulsación binaural",
     "audioSearch": "🎵 Búsqueda de música de fondo",
     "searchPlaceholder": "Buscando música... (por ejemplo: piano, mar, meditación)",
     "noResults": "No se encontró música relacionada",
@@ -30,7 +30,7 @@
     "stop": "🍂 Detener"
   },
   "status": {
-    "monitoring": "🎙️ Monitoreando la respiración... Por favor, respira naturalmente",
+    "monitoring": "🎙️ Monitoreando respiración... Por favor, respira naturalmente",
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
     "unsupported": "⚠️ Su navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
