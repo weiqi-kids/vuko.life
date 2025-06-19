@@ -78,4 +78,6 @@ embedding 並寫回檔案。此步驟需要下載 `sentence-transformers` 套件
 
 [MIT License](LICENSE)
 
+本專案採用 MIT 授權，著作權所有 © 2025 Light。
+
 ---
