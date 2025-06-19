@@ -9,7 +9,7 @@ from typing import Any, List, Tuple
 
 import openai
 try:
-    # openai>=1.0 provides exceptions at the top level
+    # openai>=1.0 exposes errors at the top level
     from openai import OpenAIError, AuthenticationError, RateLimitError
 
     class openai_error:  # type: ignore
@@ -17,12 +17,31 @@ try:
         AuthenticationError = AuthenticationError
         RateLimitError = RateLimitError
 
-    client = openai
+    client: Any = openai
 except ImportError:  # pragma: no cover - fallback for openai<1.0
     from openai import error as openai_error
-    client = openai
+    client: Any = openai
 from babel import Locale
 from tqdm import tqdm
+
+
+def call_chat_completion(messages: List[dict]) -> Any:
+    params = {
+        "model": "gpt-4o",
+        "messages": messages,
+        "temperature": 0,
+    }
+    # request JSON output if supported
+    try:
+        params["response_format"] = {"type": "json_object"}
+        if hasattr(client, "chat"):
+            return client.chat.completions.create(**params)
+        return client.ChatCompletion.create(**params)
+    except TypeError:
+        params.pop("response_format", None)
+        if hasattr(client, "chat"):
+            return client.chat.completions.create(**params)
+        return client.ChatCompletion.create(**params)
 
 PLACEHOLDER_RE = re.compile(r"{[^{}]+}")
 
@@ -91,18 +110,7 @@ def translate_batch(texts: List[str], src_name: str, tgt_name: str, tgt_code: st
 
     for attempt in range(3):
         try:
-            if hasattr(client, "chat"):
-                resp = client.chat.completions.create(
-                    model="gpt-4o",
-                    messages=messages,
-                    temperature=0,
-                )
-            else:  # openai<1.0 compatibility
-                resp = client.ChatCompletion.create(
-                    model="gpt-4o",
-                    messages=messages,
-                    temperature=0,
-                )
+            resp = call_chat_completion(messages)
             content = resp.choices[0].message.content
             data = json.loads(content)
             return [data.get(str(i), texts[i]) for i in range(len(texts))]
