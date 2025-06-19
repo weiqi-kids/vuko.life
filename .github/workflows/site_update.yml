@@ -73,7 +73,7 @@ jobs:
           fi
       - name: Upload log
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: translate-log
           path: translate.log
@@ -140,7 +140,7 @@ jobs:
           fi
       - name: Upload log
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: embedding-log
           path: embedding.log
@@ -197,13 +197,13 @@ jobs:
           file output/*.jpg
       - name: Upload screenshots
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: screenshots
           path: output
       - name: Upload log
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: screenshot-log
           path: screenshot.log
