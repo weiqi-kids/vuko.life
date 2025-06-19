@@ -67,7 +67,7 @@
 
 ## 更新音樂向量 (Embeddings)
 
-執行 `.github/scripts/update_embedding.py` 會根據 `music/base.json`
+執行 `.github/scripts/embedding.py` 會根據 `music/base.json`
 中的 `title`、`desc` 與 `tag` 欄位，透過 `all-MiniLM-L6-v2` 模型生成
 embedding 並寫回檔案。此步驟需要下載 `sentence-transformers` 套件及模型
 權重，必須具備網路連線。若在離線環境，建議預先建置虛擬環境或快取依賴。
