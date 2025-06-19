@@ -179,7 +179,7 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         run: |
-          pip install playwright requests Pillow
+          pip install playwright Pillow
           playwright install --with-deps chromium
       - name: Run screenshot
         id: run
@@ -191,12 +191,30 @@ jobs:
             echo "screenshot failed" >> screenshot.log
             exit $status
           fi
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: screenshots
+          path: screenshots
       - name: Upload log
         if: always()
         uses: actions/upload-artifact@v3
         with:
           name: screenshot-log
           path: screenshot.log
+      - name: Comment screenshot artifact
+        if: ${{ github.event_name == 'pull_request' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          body="Download screenshots from [workflow run artifacts]($RUN_URL)"
+          curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+               -H "Accept: application/vnd.github+json" \
+               -d "{\"body\":\"$body\"}" \
+               "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues/${PR_NUMBER}/comments"
       - name: Commit screenshot summary
         run: |
           git config user.name 'github-actions[bot]'
