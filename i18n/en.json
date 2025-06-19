@@ -33,7 +33,7 @@
     "stopped": "Monitoring stopped",
     "error": "❌ Unable to start:",
     "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "Pending detection"
+    "waiting": "To be detected"
   },
   "units": {
     "perMin": "times/min",
@@ -46,6 +46,6 @@
     "Schumann Resonance",
     "Sleep",
     "Refresh",
-    "Inspire"
+    "Inspire creativity"
   ]
 }
