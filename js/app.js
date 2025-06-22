@@ -39,7 +39,8 @@
                 CUSTOM_URL: '',              // 當 TYPE 為 'custom' 時使用的自訂URL
                 LOOP: true,                  // 是否循環播放
                 FADE_IN_DURATION: 3,         // 淡入時間 (秒)
-                FADE_OUT_DURATION: 3         // 淡出時間 (秒)
+                FADE_OUT_DURATION: 3,        // 淡出時間 (秒)
+                OVERLAP_DURATION: 5          // 迴圈重疊時間 (秒)
             }
         };
 
@@ -57,6 +58,8 @@
         let binauralOscillators = [];
         let backgroundAudioSource;
         let backgroundGainNode;
+        let backgroundAudioBuffer;
+        let crossfadeTimeout = null;
         let bgAnalyser;
         let bgDataArray;
         let bgVolumeMonitorId = null;
@@ -341,6 +344,10 @@
             // 停止拍頻
             stopBinauralBeats();
             stopBackgroundVolumeMonitor();
+            if (crossfadeTimeout) {
+                clearTimeout(crossfadeTimeout);
+                crossfadeTimeout = null;
+            }
 
             // 停止背景音樂（帶淡出效果）
             if (backgroundAudioSource && backgroundGainNode) {
