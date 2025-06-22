@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>With sound, meet a better version of yourself</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="With sound, meet a better version of yourself" />
+    <meta property="og:description" content="The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:" />
+    <meta property="og:image" content="https://www.vuko.life/assets/de-ch/home-og.jpg" />
+    <meta property="og:url" content="https://www.vuko.life/app/de-ch.html" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="With sound, meet a better version of yourself">
+    <meta name="twitter:description" content="The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:">
+    <meta name="twitter:image" content="https://www.vuko.life/assets/de-ch/home-og.jpg">
+    <base href="../">
+    <link rel="stylesheet" href="assets/base.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="mainTitle">With sound, meet a better version of yourself</h1>
+
+        <div class="adaptive-mode">
+            <h3></h3>
+            <ul>
+                <li id="instructionHeadphones"></li>
+                <li id="instructionMicrophone"></li>
+            </ul>
+        </div>
+
+        <div class="config-audio-container">
+            <div class="audio-search-section">
+                <h4 id="audioSearchTitle"></h4>
+                <div class="audio-tabs">
+                    <button id="tabLibrary" class="tab-button active"></button>
+                    <button id="tabLocal" class="tab-button"></button>
+                </div>
+                <div id="libraryTabContent">
+                    <div class="search-container">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                    </div>
+                    <div id="searchResults" class="search-results" style="display: none;"></div>
+                </div>
+                <div id="localTabContent" style="display: none;">
+                    <input type="file" id="localFileInput" accept="audio/*">
+                    <div class="privacy-msg" id="filePrivacyMsg"></div>
+                </div>
+                <div id="currentSelection" class="current-selection" style="display: none;">
+                    <div class="current-selection-label" id="currentSelectionLabel"></div>
+                    <div class="current-selection-name" id="currentSelectionName"></div>
+                </div>
+            </div>
+
+            <div class="config-info">
+                <h4 id="systemConfigTitle"></h4>
+                <ul class="binaural-options" id="binauralOptionsList"></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+            </div>
+        </div>
+
+        <div id="status" class="status" style="display: none;"></div>
+        
+        <div class="breathing-monitor">
+            <div class="breath-visual">
+                <h3></h3>
+                <canvas id="waveform" class="waveform"></canvas>
+            </div>
+
+            <div class="breath-stats">
+                <h3></h3>
+                <div class="stat-item">
+                    <span class="stat-label"></span>
+                    <span class="stat-value" id="breathRate">--</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label" id="noiseLevelLabel"></span>
+                    <span class="stat-value" id="noiseLevel">--</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-buttons">
+            <button onclick="toggleAdaptiveMode()" id="monitorToggleBtn"></button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://github.com/weiqi-kids/vuko.life" target="_blank">GitHub</a>
+    </div>
+    <script src="js/i18n.js"></script>
+    <script src="js/ga.js"></script>
+    <script src="js/audio_selector.js"></script>
+    <script src="js/binaural_processor.js"></script>
+    <script src="js/app.js"></script>
+    <script>CONFIG.LANGUAGE = 'de-ch';</script>
+</body>
+</html>
