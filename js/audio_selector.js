@@ -193,6 +193,10 @@ function showCurrentSelection(name) {
 }
 
 function switchBackgroundMusic(url) {
+    if (crossfadeTimeout) {
+        clearTimeout(crossfadeTimeout);
+        crossfadeTimeout = null;
+    }
     if (backgroundAudioSource && backgroundGainNode) {
         backgroundGainNode.gain.exponentialRampToValueAtTime(
             0.001,
@@ -262,6 +266,56 @@ function stopBackgroundVolumeMonitor() {
     bgVolumeMonitorId = null;
 }
 
+function startBackgroundLoop() {
+    if (!backgroundAudioBuffer) return;
+    const overlap = CONFIG.MUSIC_CONTENT.OVERLAP_DURATION;
+    const fadeInDuration = CONFIG.MUSIC_CONTENT.FADE_IN_DURATION;
+
+    const newSource = audioContext.createBufferSource();
+    const newGain = audioContext.createGain();
+    if (!bgAnalyser) {
+        bgAnalyser = audioContext.createAnalyser();
+        bgAnalyser.fftSize = 2048;
+    }
+
+    newSource.buffer = backgroundAudioBuffer;
+    newSource.loop = false;
+    newGain.gain.setValueAtTime(0, audioContext.currentTime);
+    newGain.gain.exponentialRampToValueAtTime(
+        CONFIG.BACKGROUND_VOLUME,
+        audioContext.currentTime + fadeInDuration
+    );
+    newSource.connect(bgAnalyser);
+    bgAnalyser.connect(newGain).connect(audioContext.destination);
+    newSource.start();
+
+    if (backgroundAudioSource && backgroundGainNode) {
+        backgroundGainNode.gain.exponentialRampToValueAtTime(
+            0.001,
+            audioContext.currentTime + overlap
+        );
+        const oldSource = backgroundAudioSource;
+        setTimeout(() => {
+            try { oldSource.stop(); } catch (e) {}
+        }, overlap * 1000);
+    }
+
+    backgroundAudioSource = newSource;
+    backgroundGainNode = newGain;
+
+    startBackgroundVolumeMonitor();
+
+    if (crossfadeTimeout) {
+        clearTimeout(crossfadeTimeout);
+    }
+    const nextStart = backgroundAudioBuffer.duration - overlap;
+    if (nextStart > 0) {
+        crossfadeTimeout = setTimeout(() => {
+            if (isRecording) startBackgroundLoop();
+        }, nextStart * 1000);
+    }
+}
+
 function loadBackgroundAudio(url) {
     fetch(url).then(response => {
         if (!response.ok) {
@@ -271,22 +325,8 @@ function loadBackgroundAudio(url) {
     }).then(arrayBuffer => {
         return audioContext.decodeAudioData(arrayBuffer);
     }).then(audioBuffer => {
-        backgroundAudioSource = audioContext.createBufferSource();
-        backgroundGainNode = audioContext.createGain();
-        bgAnalyser = audioContext.createAnalyser();
-        bgAnalyser.fftSize = 2048;
-        backgroundAudioSource.buffer = audioBuffer;
-        backgroundAudioSource.loop = CONFIG.MUSIC_CONTENT.LOOP;
-        const fadeInDuration = CONFIG.MUSIC_CONTENT.FADE_IN_DURATION;
-        backgroundGainNode.gain.setValueAtTime(0, audioContext.currentTime);
-        backgroundGainNode.gain.exponentialRampToValueAtTime(
-            CONFIG.BACKGROUND_VOLUME,
-            audioContext.currentTime + fadeInDuration
-        );
-        backgroundAudioSource.connect(bgAnalyser);
-        bgAnalyser.connect(backgroundGainNode).connect(audioContext.destination);
-        backgroundAudioSource.start();
-        startBackgroundVolumeMonitor();
+        backgroundAudioBuffer = audioBuffer;
+        startBackgroundLoop();
     }).catch(error => {
         console.warn(`背景音檔載入失敗 (${url}):`, error);
     });

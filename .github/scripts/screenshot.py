@@ -31,7 +31,7 @@ def capture_screenshot(url: str, path: Path) -> None:
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
-        page.goto(url)
+        page.goto(url, wait_until="networkidle")
         page.screenshot(path=str(path), full_page=True, type="jpeg", quality=80)
         browser.close()
 
