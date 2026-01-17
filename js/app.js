@@ -46,6 +46,30 @@
 
         // 國家代碼對應語言映射定義移至 i18n.js
 
+        // 瀏覽器語言前綴對應支援語言的映射表
+        const BROWSER_LANGUAGE_MAP = {
+            ja: 'ja', ko: 'ko', en: 'en', ru: 'ru', ar: 'ar',
+            hi: 'hi', id: 'id', tr: 'tr', vi: 'vi', th: 'th',
+            pl: 'pl', uk: 'uk', he: 'he', ms: 'ms', sw: 'sw',
+            pa: 'pa', my: 'my', ta: 'ta', bn: 'bn'
+        };
+
+        // 需要區域變體處理的語言設定
+        const REGIONAL_LANGUAGE_VARIANTS = {
+            zh: {
+                variants: { TW: 'zh-TW', HK: 'zh-TW', MO: 'zh-TW' },
+                defaultLang: 'zh-CN'
+            },
+            fr: {
+                variants: { CA: 'fr-CA', BE: 'fr-BE' },
+                defaultLang: 'fr-FR'
+            },
+            de: {
+                variants: { AT: 'de-AT', CH: 'de-CH' },
+                defaultLang: 'de-DE'
+            }
+        };
+
         // 預設音樂庫將由外部檔案載入 (移至 audio_selector.js)
 
         // ===== 配置區域結束 =====
@@ -158,63 +182,21 @@
         // 從瀏覽器語言設定推斷語言
         function getBrowserLanguage() {
             const browserLang = navigator.language || navigator.languages[0] || CONFIG.FALLBACK_LANGUAGE;
-            
-            // 轉換瀏覽器語言代碼為應用支援的語言
-            if (browserLang.startsWith('zh')) {
-                if (browserLang.includes('TW') || browserLang.includes('HK') || browserLang.includes('MO')) {
-                    return 'zh-TW';
-                } else {
-                    return 'zh-CN';
+            const langPrefix = browserLang.slice(0, 2).toLowerCase();
+
+            // 處理需要區域變體的語言 (zh, fr, de)
+            const regionalConfig = REGIONAL_LANGUAGE_VARIANTS[langPrefix];
+            if (regionalConfig) {
+                for (const [region, langCode] of Object.entries(regionalConfig.variants)) {
+                    if (browserLang.includes(region)) {
+                        return langCode;
+                    }
                 }
-            } else if (browserLang.startsWith('ja')) {
-                return 'ja';
-            } else if (browserLang.startsWith('ko')) {
-                return 'ko';
-            } else if (browserLang.startsWith('en')) {
-                return 'en';
-            } else if (browserLang.startsWith('fr')) {
-                if (browserLang.includes('CA')) return 'fr-CA';
-                if (browserLang.includes('BE')) return 'fr-BE';
-                return 'fr-FR';
-            } else if (browserLang.startsWith('de')) {
-                if (browserLang.includes('AT')) return 'de-AT';
-                if (browserLang.includes('CH')) return 'de-CH';
-                return 'de-DE';
-            } else if (browserLang.startsWith('ru')) {
-                return 'ru';
-            } else if (browserLang.startsWith('ar')) {
-                return 'ar';
-            } else if (browserLang.startsWith('hi')) {
-                return 'hi';
-            } else if (browserLang.startsWith('id')) {
-                return 'id';
-            } else if (browserLang.startsWith('tr')) {
-                return 'tr';
-            } else if (browserLang.startsWith('vi')) {
-                return 'vi';
-            } else if (browserLang.startsWith('th')) {
-                return 'th';
-            } else if (browserLang.startsWith('pl')) {
-                return 'pl';
-            } else if (browserLang.startsWith('uk')) {
-                return 'uk';
-            } else if (browserLang.startsWith('he')) {
-                return 'he';
-            } else if (browserLang.startsWith('ms')) {
-                return 'ms';
-            } else if (browserLang.startsWith('sw')) {
-                return 'sw';
-            } else if (browserLang.startsWith('pa')) {
-                return 'pa';
-            } else if (browserLang.startsWith('my')) {
-                return 'my';
-            } else if (browserLang.startsWith('ta')) {
-                return 'ta';
-            } else if (browserLang.startsWith('bn')) {
-                return 'bn';
-            } else {
-                return CONFIG.FALLBACK_LANGUAGE;
+                return regionalConfig.defaultLang;
             }
+
+            // 處理直接映射的語言
+            return BROWSER_LANGUAGE_MAP[langPrefix] || CONFIG.FALLBACK_LANGUAGE;
         }
 
         // 獲取背景音檔URL 移至 audio_selector.js
