@@ -23,11 +23,13 @@
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local File",
-    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
+    "filePrivacyMsg": "ऑडियो फ़ाइलें स्थानीय रूप से संसाधित की जाती हैं और अपलोड नहीं की जाएंगी।",
+    "loadingMusic": "संगीत लोड हो रहा है..."
   },
   "buttons": {
-    "start": "🎶 Start",
-    "stop": "🍂 Stop"
+    "start": "🎶 शुरू करें",
+    "stop": "🍂 रोकें",
+    "loading": "लोड हो रहा है..."
   },
   "status": {
     "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",

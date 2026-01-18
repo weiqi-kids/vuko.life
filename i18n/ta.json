@@ -23,11 +23,13 @@
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local File",
-    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
+    "filePrivacyMsg": "ஆடியோ கோப்புகள் உள்ளூரில் செயலாக்கப்படுகின்றன, பதிவேற்றப்படாது.",
+    "loadingMusic": "இசை ஏற்றப்படுகிறது..."
   },
   "buttons": {
-    "start": "🎶 Start",
-    "stop": "🍂 Stop"
+    "start": "🎶 தொடங்கு",
+    "stop": "🍂 நிறுத்து",
+    "loading": "ஏற்றுகிறது..."
   },
   "status": {
     "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",

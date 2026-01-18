@@ -23,11 +23,13 @@
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local File",
-    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
+    "filePrivacyMsg": "Fail audio diproses secara tempatan dan tidak akan dimuat naik.",
+    "loadingMusic": "Memuatkan muzik..."
   },
   "buttons": {
-    "start": "🎶 Start",
-    "stop": "🍂 Stop"
+    "start": "🎶 Mula",
+    "stop": "🍂 Berhenti",
+    "loading": "Memuatkan..."
   },
   "status": {
     "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",

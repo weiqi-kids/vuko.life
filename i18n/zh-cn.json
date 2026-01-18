@@ -23,11 +23,13 @@
     "deviceTest": "设备测试",
     "libraryTab": "线上音库",
     "localFileTab": "本地文件",
-    "filePrivacyMsg": "音频文件仅在本地处理，不会上传。"
+    "filePrivacyMsg": "音频文件仅在本地处理，不会上传。",
+    "loadingMusic": "载入音乐中..."
   },
   "buttons": {
     "start": "🎶 开始",
-    "stop": "🍂停止"
+    "stop": "🍂停止",
+    "loading": "载入中..."
   },
   "status": {
     "monitoring": "🎙️ 呼吸监测中... 请保持自然呼吸",

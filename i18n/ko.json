@@ -23,11 +23,13 @@
     "deviceTest": "장비 테스트",
     "libraryTab": "온라인 음원 라이브러리",
     "localFileTab": "로컬 파일",
-    "filePrivacyMsg": "오디오 파일은 로컬에서만 처리되며 업로드되지 않습니다."
+    "filePrivacyMsg": "오디오 파일은 로컬에서만 처리되며 업로드되지 않습니다.",
+    "loadingMusic": "음악 로딩 중..."
   },
   "buttons": {
     "start": "🎶 시작",
-    "stop": "🍂 중지"
+    "stop": "🍂 중지",
+    "loading": "로딩 중..."
   },
   "status": {
     "monitoring": "🎙️ 호흡 모니터링 중... 자연스럽게 호흡하세요",

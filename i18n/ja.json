@@ -23,11 +23,13 @@
     "deviceTest": "デバイステスト",
     "libraryTab": "オンライン音楽ライブラリ",
     "localFileTab": "ローカルファイル",
-    "filePrivacyMsg": "音声ファイルはローカルで処理され、アップロードされません。"
+    "filePrivacyMsg": "音声ファイルはローカルで処理され、アップロードされません。",
+    "loadingMusic": "音楽を読み込み中..."
   },
   "buttons": {
     "start": "🎶 開始",
-    "stop": "🍂停止"
+    "stop": "🍂停止",
+    "loading": "読み込み中..."
   },
   "status": {
     "monitoring": "🎙️ 呼吸を監視中... 自然な呼吸を保ってください",
