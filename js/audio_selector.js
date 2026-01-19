@@ -4,6 +4,9 @@ let MUSIC_LIBRARY = {};
 let selectedMusicItem = null;
 let allMusicItems = [];
 let extractor = null;
+let isMusicLoading = false;
+let preloadedAudioBuffer = null;
+let currentLoadingAbortController = null;
 
 async function loadEmbeddingModel() {
     if (!extractor) {
@@ -165,6 +168,13 @@ async function selectMusic(url, name, category) {
     CONFIG.MUSIC_CONTENT.TYPE = 'custom';
     CONFIG.MUSIC_CONTENT.CUSTOM_URL = url;
     showCurrentSelection(name);
+
+    // Reset preloaded buffer
+    preloadedAudioBuffer = null;
+
+    // Start preloading the music with progress tracking
+    await preloadMusicWithProgress(url);
+
     const query = document.getElementById('musicSearchInput').value;
     if (query.trim()) {
         const results = await searchMusic(query);
@@ -182,6 +192,113 @@ async function selectMusic(url, name, category) {
     }
 }
 
+async function preloadMusicWithProgress(url) {
+    // Skip preloading for local files (blob URLs)
+    if (url.startsWith('blob:')) {
+        return;
+    }
+
+    // Cancel any existing loading operation
+    if (currentLoadingAbortController) {
+        currentLoadingAbortController.abort();
+    }
+    currentLoadingAbortController = new AbortController();
+    const signal = currentLoadingAbortController.signal;
+
+    // Show loading state
+    setButtonLoadingState(true);
+    showLoadingProgress(true);
+    updateLoadingProgress(0);
+
+    try {
+        const response = await fetch(url, { signal });
+        if (!response.ok) {
+            throw new Error(`Failed to fetch: ${response.statusText}`);
+        }
+
+        const contentLength = response.headers.get('content-length');
+        const total = contentLength ? parseInt(contentLength, 10) : 0;
+
+        if (!response.body) {
+            // Fallback for browsers without ReadableStream support
+            const arrayBuffer = await response.arrayBuffer();
+            updateLoadingProgress(100);
+
+            // Initialize audio context if needed
+            if (typeof audioContext === 'undefined' || !audioContext) {
+                window.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
+
+            // Decode the audio
+            preloadedAudioBuffer = await audioContext.decodeAudioData(arrayBuffer);
+        } else {
+            // Use ReadableStream for progress tracking
+            const reader = response.body.getReader();
+            const chunks = [];
+            let received = 0;
+
+            while (true) {
+                // Check for abort
+                if (signal.aborted) {
+                    reader.cancel();
+                    throw new Error('Loading aborted');
+                }
+
+                const { done, value } = await reader.read();
+                if (done) break;
+
+                chunks.push(value);
+                received += value.length;
+
+                if (total > 0) {
+                    const percent = (received / total) * 100;
+                    updateLoadingProgress(percent);
+                } else {
+                    // Unknown total size, show indeterminate progress
+                    updateLoadingProgress(Math.min(received / 1000000 * 100, 95));
+                }
+            }
+
+            // Combine chunks into ArrayBuffer
+            const arrayBuffer = new Uint8Array(received);
+            let position = 0;
+            for (const chunk of chunks) {
+                arrayBuffer.set(chunk, position);
+                position += chunk.length;
+            }
+
+            updateLoadingProgress(100);
+
+            // Initialize audio context if needed
+            if (typeof audioContext === 'undefined' || !audioContext) {
+                window.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
+
+            // Decode the audio
+            preloadedAudioBuffer = await audioContext.decodeAudioData(arrayBuffer.buffer);
+        }
+
+        currentLoadingAbortController = null;
+    } catch (error) {
+        if (error.name === 'AbortError' || error.message === 'Loading aborted') {
+            // Loading was cancelled, don't update UI
+            return;
+        }
+        console.warn('Music preload failed:', error);
+        preloadedAudioBuffer = null;
+        currentLoadingAbortController = null;
+    } finally {
+        // Hide loading state after a short delay for visual feedback
+        // But only if this is still the current loading operation
+        if (!currentLoadingAbortController) {
+            setTimeout(() => {
+                showLoadingProgress(false);
+                setButtonLoadingState(false);
+            }, 300);
+        }
+    }
+}
+
 function showCurrentSelection(name) {
     const content = getLanguageContent();
     const container = document.getElementById('currentSelection');
@@ -190,6 +307,79 @@ function showCurrentSelection(name) {
     label.textContent = content.labels.currentMusic;
     nameElement.textContent = name;
     container.style.display = 'block';
+
+    // Ensure progress bar container exists
+    ensureProgressBarExists();
+}
+
+function ensureProgressBarExists() {
+    const container = document.getElementById('currentSelection');
+    if (!container) return;
+
+    let progressContainer = document.getElementById('musicLoadingContainer');
+    if (!progressContainer) {
+        progressContainer = document.createElement('div');
+        progressContainer.id = 'musicLoadingContainer';
+        progressContainer.className = 'music-loading-container';
+        progressContainer.innerHTML = `
+            <div class="music-loading-label" id="musicLoadingLabel"></div>
+            <div class="music-progress-bar">
+                <div class="music-progress-fill" id="musicProgressFill"></div>
+            </div>
+            <div class="music-progress-text" id="musicProgressText">0%</div>
+        `;
+        container.appendChild(progressContainer);
+    }
+}
+
+function showLoadingProgress(show) {
+    const progressContainer = document.getElementById('musicLoadingContainer');
+    if (progressContainer) {
+        if (show) {
+            progressContainer.classList.add('visible');
+            const content = getLanguageContent();
+            const label = document.getElementById('musicLoadingLabel');
+            if (label) {
+                label.textContent = content.labels.loadingMusic || 'Loading music...';
+            }
+        } else {
+            progressContainer.classList.remove('visible');
+        }
+    }
+}
+
+function updateLoadingProgress(percent) {
+    const fill = document.getElementById('musicProgressFill');
+    const text = document.getElementById('musicProgressText');
+    if (fill) {
+        fill.style.width = `${percent}%`;
+    }
+    if (text) {
+        text.textContent = `${Math.round(percent)}%`;
+    }
+}
+
+function setButtonLoadingState(loading) {
+    const toggleBtn = document.getElementById('monitorToggleBtn');
+    if (!toggleBtn) return;
+
+    const content = getLanguageContent();
+    isMusicLoading = loading;
+
+    if (loading) {
+        toggleBtn.classList.add('loading');
+        toggleBtn.textContent = content.buttons.loading || 'Loading...';
+        toggleBtn.disabled = true;
+    } else {
+        toggleBtn.classList.remove('loading');
+        toggleBtn.disabled = false;
+        // Restore button text based on recording state
+        if (typeof isRecording !== 'undefined' && isRecording) {
+            toggleBtn.textContent = content.buttons.stop;
+        } else {
+            toggleBtn.textContent = content.buttons.start;
+        }
+    }
 }
 
 function switchBackgroundMusic(url) {
@@ -317,6 +507,14 @@ function startBackgroundLoop() {
 }
 
 function loadBackgroundAudio(url) {
+    // Use preloaded buffer if available and matches the URL
+    if (preloadedAudioBuffer && CONFIG.MUSIC_CONTENT.CUSTOM_URL === url) {
+        backgroundAudioBuffer = preloadedAudioBuffer;
+        startBackgroundLoop();
+        return;
+    }
+
+    // Fallback to fetch if no preloaded buffer
     fetch(url).then(response => {
         if (!response.ok) {
             throw new Error(`無法載入背景音檔：${response.statusText} (${url})`);

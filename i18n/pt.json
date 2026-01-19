@@ -23,11 +23,13 @@
     "deviceTest": "Teste de equipamento",
     "libraryTab": "Biblioteca de som online",
     "localFileTab": "Arquivo local",
-    "filePrivacyMsg": "O arquivo de áudio é processado apenas localmente e não será enviado."
+    "filePrivacyMsg": "O arquivo de áudio é processado apenas localmente e não será enviado.",
+    "loadingMusic": "Carregando música..."
   },
   "buttons": {
     "start": "🎶 Iniciar",
-    "stop": "🍂 Parar"
+    "stop": "🍂 Parar",
+    "loading": "Carregando..."
   },
   "status": {
     "monitoring": "🎙️ Monitorando respiração... Por favor, respire naturalmente",

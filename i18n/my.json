@@ -23,11 +23,13 @@
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local File",
-    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
+    "filePrivacyMsg": "အသံဖိုင်များကို ဒေသတွင်းတွင်သာ လုပ်ဆောင်ပြီး အပ်လုဒ်မတင်ပါ။",
+    "loadingMusic": "သီချင်းဖွင့်နေသည်..."
   },
   "buttons": {
-    "start": "🎶 Start",
-    "stop": "🍂 Stop"
+    "start": "🎶 စတင်ရန်",
+    "stop": "🍂 ရပ်ရန်",
+    "loading": "ဖွင့်နေသည်..."
   },
   "status": {
     "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",

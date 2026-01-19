@@ -442,6 +442,51 @@
             font-size: 16px;
         }
 
+        /* Music loading progress bar */
+        .music-loading-container {
+            margin-top: 12px;
+            display: none;
+        }
+
+        .music-loading-container.visible {
+            display: block;
+        }
+
+        .music-loading-label {
+            font-size: 14px;
+            color: #667eea;
+            margin-bottom: 6px;
+        }
+
+        .music-progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .music-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 4px;
+            width: 0%;
+            transition: width 0.2s ease;
+        }
+
+        .music-progress-text {
+            font-size: 12px;
+            color: #666;
+            margin-top: 4px;
+            text-align: right;
+        }
+
+        /* Loading button state */
+        button.loading {
+            opacity: 0.7;
+            cursor: wait;
+        }
+
         /* Flash animation for device test warnings */
         @keyframes flash-bg {
             0%, 100% { background-color: transparent; }

@@ -23,11 +23,13 @@
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local File",
-    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
+    "filePrivacyMsg": "Audiodateien werden lokal verarbeitet und nicht hochgeladen.",
+    "loadingMusic": "Musik wird geladen..."
   },
   "buttons": {
-    "start": "🎶 Start",
-    "stop": "🍂 Stop"
+    "start": "🎶 Starten",
+    "stop": "🍂 Stoppen",
+    "loading": "Laden..."
   },
   "status": {
     "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",

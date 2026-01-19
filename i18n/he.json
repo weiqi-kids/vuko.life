@@ -23,11 +23,13 @@
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local File",
-    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
+    "filePrivacyMsg": "קבצי אודיו מעובדים מקומית ולא יועלו.",
+    "loadingMusic": "טוען מוזיקה..."
   },
   "buttons": {
-    "start": "🎶 Start",
-    "stop": "🍂 Stop"
+    "start": "🎶 התחל",
+    "stop": "🍂 עצור",
+    "loading": "טוען..."
   },
   "status": {
     "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",

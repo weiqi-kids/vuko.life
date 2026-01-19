@@ -23,11 +23,13 @@
     "deviceTest": "設備測試",
     "libraryTab": "線上音庫",
     "localFileTab": "本機檔案",
-    "filePrivacyMsg": "音檔僅在本機處理，不會上載。"
+    "filePrivacyMsg": "音檔僅在本機處理，不會上載。",
+    "loadingMusic": "載入音樂中..."
   },
   "buttons": {
     "start": "🎶 開始",
-    "stop": "🍂停止"
+    "stop": "🍂停止",
+    "loading": "載入中..."
   },
   "status": {
     "monitoring": "🎙️ 呼吸監測中... 請保持自然呼吸",
