@@ -34,7 +34,8 @@
     "stopped": "Monitoring stopped",
     "error": "❌ Unable to start:",
     "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected"
+    "waiting": "To be detected",
+    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
   },
   "units": {
     "perMin": "times/min",
@@ -49,5 +50,35 @@
     "Sleep",
     "Refresh",
     "Inspire Creativity"
-  ]
+  ],
+  "onboarding": {
+    "welcome": {
+      "title": "Welcome to Vuko",
+      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
+    },
+    "step1": {
+      "title": "Step 1: Wear Headphones",
+      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
+    },
+    "step2": {
+      "title": "Step 2: Choose Your Music",
+      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
+    },
+    "step3": {
+      "title": "Step 3: Start Your Session",
+      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
+    },
+    "buttons": {
+      "next": "Next",
+      "prev": "Back",
+      "skip": "Skip",
+      "start": "Get Started",
+      "tryDemo": "Try Demo First",
+      "gotIt": "Got It"
+    },
+    "demo": {
+      "indicator": "Demo Mode",
+      "upgrade": "Enable Full Features"
+    }
+  }
 }

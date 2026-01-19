@@ -754,10 +754,18 @@
                 await updateLanguageContent();
                 initConfigDisplay();
                 getLanguageContent();
+                // Initialize onboarding for first-time users
+                if (typeof initOnboarding === 'function') {
+                    initOnboarding();
+                }
             }).catch(async error => {
                 console.error('語言偵測失敗:', error);
                 await updateLanguageContent();
                 initConfigDisplay();
+                // Initialize onboarding even if language detection fails
+                if (typeof initOnboarding === 'function') {
+                    initOnboarding();
+                }
             });
             
             // 搜尋框事件已在 audio_selector.js 處理

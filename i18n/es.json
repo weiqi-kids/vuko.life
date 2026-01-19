@@ -34,7 +34,8 @@
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
     "unsupported": "⚠️ Su navegador no admite la función de micrófono, no se puede usar el monitoreo de respiración",
-    "waiting": "Por detectar"
+    "waiting": "Por detectar",
+    "demoMode": "🎧 Modo demo - disfruta de los ritmos binaurales sin detección de respiración"
   },
   "units": {
     "perMin": "veces/min",
@@ -49,5 +50,35 @@
     "Sueño",
     "Refrescar",
     "Inspirar creatividad"
-  ]
+  ],
+  "onboarding": {
+    "welcome": {
+      "title": "Bienvenido a Vuko",
+      "text": "Usa los ritmos binaurales para guiarte a diferentes estados de conciencia: meditación, concentración, relajación o sueño."
+    },
+    "step1": {
+      "title": "Paso 1: Usa auriculares",
+      "text": "Los ritmos binaurales requieren auriculares estéreo para funcionar. Cada oído recibe frecuencias ligeramente diferentes, creando un ritmo percibido en tu cerebro."
+    },
+    "step2": {
+      "title": "Paso 2: Elige tu música",
+      "text": "Selecciona música de fondo que te ayude a relajarte. Puedes buscar por estado de ánimo (calma, concentración) o instrumento (piano, sonidos naturales)."
+    },
+    "step3": {
+      "title": "Paso 3: Inicia tu sesión",
+      "text": "Haz clic en 'Comenzar' para empezar. Para la experiencia completa, permite el acceso al micrófono para adaptar los ritmos a tu respiración."
+    },
+    "buttons": {
+      "next": "Siguiente",
+      "prev": "Anterior",
+      "skip": "Saltar",
+      "start": "Comenzar",
+      "tryDemo": "Probar demo primero",
+      "gotIt": "Entendido"
+    },
+    "demo": {
+      "indicator": "Modo demo",
+      "upgrade": "Activar funciones completas"
+    }
+  }
 }
