@@ -34,7 +34,8 @@
     "stopped": "Monitoring stopped",
     "error": "❌ Unable to start:",
     "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected"
+    "waiting": "To be detected",
+    "demoMode": "🎧 Mode demo - profitez des battements binauraux sans detection respiratoire"
   },
   "units": {
     "perMin": "times/min",
@@ -49,5 +50,43 @@
     "Sleep",
     "Refresh",
     "Inspire Creativity"
-  ]
+  ],
+  "onboarding": {
+    "welcome": {
+      "title": "Bienvenue sur Vuko",
+      "text": "Utilisez les battements binauraux pour vous guider vers différents états de conscience - méditation, concentration, relaxation ou sommeil."
+    },
+    "step1": {
+      "title": "Étape 1 : Portez des écouteurs",
+      "text": "Les battements binauraux nécessitent des écouteurs stéréo pour fonctionner. L'oreille gauche et droite reçoivent des fréquences légèrement différentes, créant un battement perçu dans votre cerveau."
+    },
+    "step2": {
+      "title": "Étape 2 : Choisissez votre musique",
+      "text": "Sélectionnez une musique de fond qui vous aide à vous détendre. Vous pouvez rechercher par humeur (calme, concentré) ou instrument (piano, sons de la nature)."
+    },
+    "step3": {
+      "title": "Étape 3 : Démarrez votre session",
+      "text": "Cliquez sur 'Démarrer' pour commencer. Pour l'expérience complète, autorisez l'accès au microphone afin d'adapter les battements à votre rythme respiratoire."
+    },
+    "buttons": {
+      "next": "Suivant",
+      "prev": "Précédent",
+      "skip": "Passer",
+      "start": "Commencer",
+      "tryDemo": "Essayer la démo d'abord",
+      "gotIt": "Compris"
+    },
+    "demo": {
+      "indicator": "Mode démo",
+      "upgrade": "Activer toutes les fonctionnalités"
+    }
+  },
+  "tracker": {
+    "title": "Your Progress",
+    "currentSession": "This Session",
+    "todayTime": "Today",
+    "streak": "Streak",
+    "totalTime": "Total Time",
+    "days": "days"
+  }
 }

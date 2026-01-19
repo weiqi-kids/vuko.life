@@ -282,7 +282,12 @@
                 dataArray = new Uint8Array(bufferLength);
                 
                 isRecording = true;
-                
+
+                // 啟動 session 追蹤
+                if (typeof startSessionTracking === 'function') {
+                    startSessionTracking();
+                }
+
                 // 啟動呼吸檢測
                 startBreathDetection();
                 
@@ -310,6 +315,11 @@
         // 停止智能模式
         function stopAdaptiveMode() {
             isRecording = false;
+
+            // 停止 session 追蹤
+            if (typeof stopSessionTracking === 'function') {
+                stopSessionTracking();
+            }
 
             // Google Analytics 追蹤
             if (CONFIG.GOOGLE_ANALYTICS.TRACK_EVENTS.STOP_MONITORING) {
@@ -754,10 +764,26 @@
                 await updateLanguageContent();
                 initConfigDisplay();
                 getLanguageContent();
+                // Initialize onboarding for first-time users
+                if (typeof initOnboarding === 'function') {
+                    initOnboarding();
+                }
+                // Initialize session tracker
+                if (typeof initSessionTracker === 'function') {
+                    initSessionTracker();
+                }
             }).catch(async error => {
                 console.error('語言偵測失敗:', error);
                 await updateLanguageContent();
                 initConfigDisplay();
+                // Initialize onboarding even if language detection fails
+                if (typeof initOnboarding === 'function') {
+                    initOnboarding();
+                }
+                // Initialize session tracker
+                if (typeof initSessionTracker === 'function') {
+                    initSessionTracker();
+                }
             });
             
             // 搜尋框事件已在 audio_selector.js 處理

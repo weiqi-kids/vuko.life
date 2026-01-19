@@ -34,7 +34,8 @@
     "stopped": "Monitoramento parado",
     "error": "❌ Não foi possível iniciar:",
     "unsupported": "⚠️ Seu navegador não suporta a função de microfone, não é possível usar o monitoramento de respiração",
-    "waiting": "A ser detectado"
+    "waiting": "A ser detectado",
+    "demoMode": "🎧 Modo demo - aproveite os ritmos binaurais sem detecção de respiração"
   },
   "units": {
     "perMin": "vezes/min",
@@ -49,5 +50,43 @@
     "Dormir",
     "Revigorar",
     "Inspirar criatividade"
-  ]
+  ],
+  "onboarding": {
+    "welcome": {
+      "title": "Bem-vindo ao Vuko",
+      "text": "Use ritmos binaurais para guiá-lo a diferentes estados de consciência: meditação, foco, relaxamento ou sono."
+    },
+    "step1": {
+      "title": "Passo 1: Use fones de ouvido",
+      "text": "Os ritmos binaurais requerem fones de ouvido estéreo para funcionar. Cada ouvido recebe frequências ligeiramente diferentes, criando um ritmo percebido no cérebro."
+    },
+    "step2": {
+      "title": "Passo 2: Escolha sua música",
+      "text": "Selecione música de fundo que ajude você a relaxar. Você pode pesquisar por humor (calmo, focado) ou instrumento (piano, sons da natureza)."
+    },
+    "step3": {
+      "title": "Passo 3: Inicie sua sessão",
+      "text": "Clique em 'Iniciar' para começar. Para a experiência completa, permita acesso ao microfone para adaptar os ritmos à sua respiração."
+    },
+    "buttons": {
+      "next": "Próximo",
+      "prev": "Anterior",
+      "skip": "Pular",
+      "start": "Começar",
+      "tryDemo": "Experimentar demo primeiro",
+      "gotIt": "Entendi"
+    },
+    "demo": {
+      "indicator": "Modo demo",
+      "upgrade": "Ativar recursos completos"
+    }
+  },
+  "tracker": {
+    "title": "Your Progress",
+    "currentSession": "This Session",
+    "todayTime": "Today",
+    "streak": "Streak",
+    "totalTime": "Total Time",
+    "days": "days"
+  }
 }

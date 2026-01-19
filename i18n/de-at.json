@@ -34,7 +34,8 @@
     "stopped": "Monitoring stopped",
     "error": "❌ Unable to start:",
     "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected"
+    "waiting": "To be detected",
+    "demoMode": "🎧 Demo-Modus - Geniessen Sie binaurale Beats ohne Atemüberwachung"
   },
   "units": {
     "perMin": "times/min",
@@ -49,5 +50,43 @@
     "Sleep",
     "Refresh",
     "Inspire Creativity"
-  ]
+  ],
+  "onboarding": {
+    "welcome": {
+      "title": "Willkommen bei Vuko",
+      "text": "Nutze binaurale Beats, um dich in verschiedene Bewusstseinszustände zu führen - Meditation, Fokus, Entspannung oder Schlaf."
+    },
+    "step1": {
+      "title": "Schritt 1: Kopfhörer aufsetzen",
+      "text": "Binaurale Beats erfordern Stereo-Kopfhörer. Das linke und rechte Ohr empfangen leicht unterschiedliche Frequenzen, die einen wahrgenommenen Beat in deinem Gehirn erzeugen."
+    },
+    "step2": {
+      "title": "Schritt 2: Wähle deine Musik",
+      "text": "Wähle Hintergrundmusik, die dir beim Entspannen hilft. Du kannst nach Stimmung (ruhig, fokussiert) oder Instrument (Klavier, Naturgeräusche) suchen."
+    },
+    "step3": {
+      "title": "Schritt 3: Starte deine Sitzung",
+      "text": "Klicke auf 'Start', um zu beginnen. Für das volle Erlebnis erlaube Mikrofonzugriff, damit wir die Beats an deinen Atemrhythmus anpassen können."
+    },
+    "buttons": {
+      "next": "Weiter",
+      "prev": "Zurück",
+      "skip": "Überspringen",
+      "start": "Loslegen",
+      "tryDemo": "Erst Demo testen",
+      "gotIt": "Verstanden"
+    },
+    "demo": {
+      "indicator": "Demo-Modus",
+      "upgrade": "Alle Funktionen aktivieren"
+    }
+  },
+  "tracker": {
+    "title": "Your Progress",
+    "currentSession": "This Session",
+    "todayTime": "Today",
+    "streak": "Streak",
+    "totalTime": "Total Time",
+    "days": "days"
+  }
 }
