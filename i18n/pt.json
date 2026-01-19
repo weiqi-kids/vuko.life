@@ -80,5 +80,13 @@
       "indicator": "Modo demo",
       "upgrade": "Ativar recursos completos"
     }
+  },
+  "tracker": {
+    "title": "Your Progress",
+    "currentSession": "This Session",
+    "todayTime": "Today",
+    "streak": "Streak",
+    "totalTime": "Total Time",
+    "days": "days"
   }
 }

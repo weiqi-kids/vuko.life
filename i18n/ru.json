@@ -80,5 +80,13 @@
       "indicator": "Демо-режим",
       "upgrade": "Активировать все функции"
     }
+  },
+  "tracker": {
+    "title": "Your Progress",
+    "currentSession": "This Session",
+    "todayTime": "Today",
+    "streak": "Streak",
+    "totalTime": "Total Time",
+    "days": "days"
   }
 }

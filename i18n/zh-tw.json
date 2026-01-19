@@ -80,5 +80,13 @@
       "indicator": "試聽模式",
       "upgrade": "啟用完整功能"
     }
+  },
+  "tracker": {
+    "title": "你的進度",
+    "currentSession": "本次",
+    "todayTime": "今日",
+    "streak": "連續",
+    "totalTime": "總計",
+    "days": "天"
   }
 }

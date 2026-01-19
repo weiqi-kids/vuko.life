@@ -80,5 +80,13 @@
       "indicator": "デモモード",
       "upgrade": "フル機能を有効化"
     }
+  },
+  "tracker": {
+    "title": "あなたの進捗",
+    "currentSession": "今回",
+    "todayTime": "今日",
+    "streak": "連続",
+    "totalTime": "合計",
+    "days": "日"
   }
 }

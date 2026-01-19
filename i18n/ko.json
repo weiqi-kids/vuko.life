@@ -80,5 +80,13 @@
       "indicator": "데모 모드",
       "upgrade": "전체 기능 활성화"
     }
+  },
+  "tracker": {
+    "title": "당신의 진행 상황",
+    "currentSession": "이번",
+    "todayTime": "오늘",
+    "streak": "연속",
+    "totalTime": "총 시간",
+    "days": "일"
   }
 }
