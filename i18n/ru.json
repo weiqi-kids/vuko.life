@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "С помощью звука, встретьте лучшую версию себя",
+  "subtitle": "🤖 Инструкция по использованию",
+  "description": "Система будет в реальном времени отслеживать ваше дыхание и автоматически регулировать частоту биений, чтобы направить вас в различные состояния сознания:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "Пожалуйста, используйте <strong>двухканальные наушники</strong>, чтобы достичь эффекта биений в мозгу.",
+    "microphone": "Если вы согласны использовать ваш <strong>микрофон</strong>, пожалуйста, держите его рядом с ртом и носом, мы постараемся направить вас в более глубокое состояние."
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "Частота биений {binaural}% / Фоновый звук {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "Аудиофайлы обрабатываются локально и не будут загружены.",
-    "loadingMusic": "Загрузка музыки..."
+    "breathRate": "Частота дыхания:",
+    "noiseLevel": "Фоновый шум:",
+    "baseFreq": "Частота основного тона:",
+    "audioFile": "Фоновый аудиофайл:",
+    "volumeRatio": "Соотношение громкости:",
+    "breathVisual": "Визуализация дыхания",
+    "realTimeData": "Данные в реальном времени",
+    "systemConfig": "Настройка биений для двух ушей",
+    "audioSearch": "🎵 Поиск фоновой музыки",
+    "searchPlaceholder": "Поиск музыки... (например: пианино, море, медитация)",
+    "noResults": "Музыка не найдена",
+    "currentMusic": "Текущий выбор",
+    "deviceTest": "Тестирование устройства",
+    "libraryTab": "Онлайн аудиотека",
+    "localFileTab": "Локальный файл",
+    "filePrivacyMsg": "Аудиофайл обрабатывается только локально и не будет загружен."
   },
   "buttons": {
     "start": "🎶 Начать",
-    "stop": "🍂 Остановить",
-    "loading": "Загрузка..."
+    "stop": "🍂 Остановить"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Демо-режим - наслаждайтесь бинауральными ритмами без отслеживания дыхания"
+    "monitoring": "🎙️ Мониторинг дыхания... Пожалуйста, дышите естественно",
+    "stopped": "Мониторинг остановлен",
+    "error": "❌ Не удалось запустить:",
+    "unsupported": "⚠️ Ваш браузер не поддерживает функцию микрофона, невозможно использовать мониторинг дыхания",
+    "waiting": "Ожидание проверки"
   },
   "units": {
-    "perMin": "times/min",
-    "hz": "Hz",
-    "db": "dB",
-    "none": "None"
+    "perMin": "раз/мин",
+    "hz": "Гц",
+    "db": "дБ",
+    "none": "Нет"
   },
   "binauralOptions": [
-    "Focus",
-    "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "Концентрация",
+    "Медитация",
+    "Резонанс Шумана",
+    "Сон",
+    "Бодрствование",
+    "Вдохновение"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Добро пожаловать в Vuko",
-      "text": "Используйте бинауральные ритмы, чтобы погрузиться в различные состояния сознания - медитацию, концентрацию, расслабление или сон."
-    },
-    "step1": {
-      "title": "Шаг 1: Наденьте наушники",
-      "text": "Бинауральные ритмы требуют стереонаушников. Левое и правое ухо получают немного разные частоты, создавая воспринимаемый ритм в вашем мозге."
-    },
-    "step2": {
-      "title": "Шаг 2: Выберите музыку",
-      "text": "Выберите фоновую музыку, которая поможет вам расслабиться. Можно искать по настроению (спокойное, сосредоточенное) или инструменту (фортепиано, звуки природы)."
-    },
-    "step3": {
-      "title": "Шаг 3: Начните сеанс",
-      "text": "Нажмите 'Старт', чтобы начать. Для полного погружения разрешите доступ к микрофону, чтобы мы могли адаптировать ритмы к вашему дыханию."
-    },
-    "buttons": {
-      "next": "Далее",
-      "prev": "Назад",
-      "skip": "Пропустить",
-      "start": "Начать",
-      "tryDemo": "Сначала попробовать демо",
-      "gotIt": "Понятно"
-    },
-    "demo": {
-      "indicator": "Демо-режим",
-      "upgrade": "Активировать все функции"
-    }
+  "sections": {
+    "instructions": "Инструкция по использованию",
+    "settings": "Настройки функций",
+    "monitor": "Мониторинг дыхания"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "Альфа-волны 10 Гц, помогают войти в состояние концентрации, подходят для работы и учебы",
+    "冥想": "Тета-волны 7 Гц, способствуют глубокому расслаблению, подходят для медитации",
+    "舒曼共振": "Частота Земли 7.83 Гц, балансирует энергию тела и разума",
+    "睡眠": "Дельта-волны 3 Гц, помогают быстро заснуть",
+    "提神": "Бета-волны 15 Гц, повышают умственную активность",
+    "激發靈感": "Гамма-волны 40 Гц, улучшают креативное мышление"
+  },
+  "trust": {
+    "free": "Полностью бесплатно, регистрация не требуется",
+    "openSource": "Открытый проект",
+    "privacy": "Аудио обрабатывается только локально, не загружается на сервер"
+  },
+  "share": {
+    "title": "Поделиться",
+    "twitter": "Поделиться в Twitter",
+    "facebook": "Поделиться в Facebook",
+    "line": "Поделиться в LINE"
   }
 }

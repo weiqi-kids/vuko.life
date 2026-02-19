@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "Kwa sauti, kukutana na wewe bora zaidi",
+  "subtitle": "🤖 Maelekezo ya Matumizi",
+  "description": "Mfumo utafuatilia hali yako ya kupumua kwa wakati halisi na kurekebisha mdundo kiotomatiki ili kukuongoza kuingia katika hali tofauti za ufahamu:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "Tafadhali tumia <strong>vifaa vya sauti vya stereo</strong> ili kufanikisha athari ya mdundo wa ubongo.",
+    "microphone": "Ikiwa unakubali kutumia <strong>kipaza sauti</strong> chako, tafadhali kikaribishe kwenye mdomo na pua, tutajaribu kukuongoza kuingia katika hali ya kina zaidi."
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "Mdundo wa binaural {binaural}% / Sauti ya nyuma {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "Faili za sauti zinachakatwa ndani ya kifaa na hazitapakiwa.",
-    "loadingMusic": "Inapakia muziki..."
+    "breathRate": "Kiwango cha kupumua:",
+    "noiseLevel": "Kelele za nyuma:",
+    "baseFreq": "Mzunguko wa mdundo wa msingi:",
+    "audioFile": "Faili ya sauti ya nyuma:",
+    "volumeRatio": "Uwiano wa sauti:",
+    "breathVisual": "Uonyeshaji wa kupumua",
+    "realTimeData": "Data ya wakati halisi",
+    "systemConfig": "Mipangilio ya mdundo wa masikio mawili",
+    "audioSearch": "🎵 Utafutaji wa Muziki wa Nyuma",
+    "searchPlaceholder": "Tafuta muziki... (mfano: piano, bahari, kutafakari)",
+    "noResults": "Hakuna muziki unaohusiana uliopatikana",
+    "currentMusic": "Chaguo la sasa",
+    "deviceTest": "Jaribio la kifaa",
+    "libraryTab": "Maktaba ya sauti mtandaoni",
+    "localFileTab": "Faili za Kwenye Kompyuta",
+    "filePrivacyMsg": "Faili za sauti zinashughulikiwa tu kwenye kompyuta hii, hazitapakiwa."
   },
   "buttons": {
     "start": "🎶 Anza",
-    "stop": "🍂 Simama",
-    "loading": "Inapakia..."
+    "stop": "🍂 Simamisha"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
+    "monitoring": "🎙️ Ufuatiliaji wa kupumua unaendelea... Tafadhali endelea kupumua kawaida",
+    "stopped": "Ufuatiliaji umesimamishwa",
+    "error": "❌ Haiwezi kuanzisha:",
+    "unsupported": "⚠️ Kivinjari chako hakina msaada wa kipaza sauti, huwezi kutumia ufuatiliaji wa kupumua",
+    "waiting": "Inasubiri kugunduliwa"
   },
   "units": {
-    "perMin": "times/min",
+    "perMin": "mara/dakika",
     "hz": "Hz",
     "db": "dB",
-    "none": "None"
+    "none": "Hakuna"
   },
   "binauralOptions": [
-    "Focus",
-    "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "Kuzingatia",
+    "Kutafakari",
+    "Rezonansi ya Schumann",
+    "Kulala",
+    "Kuamsha",
+    "Kuchochea Ubunifu"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Welcome to Vuko",
-      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
-    },
-    "step1": {
-      "title": "Step 1: Wear Headphones",
-      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
-    },
-    "step2": {
-      "title": "Step 2: Choose Your Music",
-      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
-    },
-    "step3": {
-      "title": "Step 3: Start Your Session",
-      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
-    },
-    "buttons": {
-      "next": "Next",
-      "prev": "Back",
-      "skip": "Skip",
-      "start": "Get Started",
-      "tryDemo": "Try Demo First",
-      "gotIt": "Got It"
-    },
-    "demo": {
-      "indicator": "Demo Mode",
-      "upgrade": "Enable Full Features"
-    }
+  "sections": {
+    "instructions": "Maelekezo ya Matumizi",
+    "settings": "Mipangilio ya Kazi",
+    "monitor": "Ufuatiliaji wa Kupumua"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "Mawimbi ya Alpha ya 10Hz, kusaidia kuingia katika hali ya umakini, yanafaa kwa kazi na masomo",
+    "冥想": "Mawimbi ya Theta ya 7Hz, kuongoza kupumzika kwa kina, yanafaa kwa kutafakari kimya",
+    "舒曼共振": "Mawimbi ya Asili ya Dunia ya 7.83Hz, kusawazisha nishati ya mwili na akili",
+    "睡眠": "Mawimbi ya Delta ya 3Hz, kusaidia kulala haraka",
+    "提神": "Mawimbi ya Beta ya 15Hz, kuongeza nguvu ya akili",
+    "激發靈感": "Mawimbi ya Gamma ya 40Hz, kuongeza mawazo ya ubunifu"
+  },
+  "trust": {
+    "free": "Bure kabisa, hakuna usajili unaohitajika",
+    "openSource": "Mradi wa Chanzo Huria",
+    "privacy": "Sauti inashughulikiwa tu kwenye kifaa, haitumwi kwa seva"
+  },
+  "share": {
+    "title": "Shiriki",
+    "twitter": "Shiriki kwenye Twitter",
+    "facebook": "Shiriki kwenye Facebook",
+    "line": "Shiriki kwenye LINE"
   }
 }

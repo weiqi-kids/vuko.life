@@ -3,7 +3,7 @@
   "subtitle": "🤖 Instruções de uso",
   "description": "O sistema monitorará seu estado de respiração em tempo real e ajustará automaticamente a frequência binaural para guiá-lo a diferentes estados de consciência:",
   "instructions": {
-    "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito da frequência binaural no cérebro.",
+    "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito de frequência binaural no cérebro.",
     "microphone": "Se você concordar em usar seu <strong>microfone</strong>, aproxime-o da boca e do nariz, tentaremos guiá-lo para um estado mais profundo."
   },
   "volumeRatioDetail": "Frequência binaural {binaural}% / Som de fundo {background}%",
@@ -23,21 +23,18 @@
     "deviceTest": "Teste de equipamento",
     "libraryTab": "Biblioteca de som online",
     "localFileTab": "Arquivo local",
-    "filePrivacyMsg": "O arquivo de áudio é processado apenas localmente e não será enviado.",
-    "loadingMusic": "Carregando música..."
+    "filePrivacyMsg": "O arquivo de áudio é processado apenas localmente, não será enviado."
   },
   "buttons": {
     "start": "🎶 Iniciar",
-    "stop": "🍂 Parar",
-    "loading": "Carregando..."
+    "stop": "🍂 Parar"
   },
   "status": {
     "monitoring": "🎙️ Monitorando respiração... Por favor, respire naturalmente",
     "stopped": "Monitoramento parado",
     "error": "❌ Não foi possível iniciar:",
     "unsupported": "⚠️ Seu navegador não suporta a função de microfone, não é possível usar o monitoramento de respiração",
-    "waiting": "A ser detectado",
-    "demoMode": "🎧 Modo demo - aproveite os ritmos binaurais sem detecção de respiração"
+    "waiting": "A ser detectado"
   },
   "units": {
     "perMin": "vezes/min",
@@ -53,42 +50,28 @@
     "Revigorar",
     "Inspirar criatividade"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Bem-vindo ao Vuko",
-      "text": "Use ritmos binaurais para guiá-lo a diferentes estados de consciência: meditação, foco, relaxamento ou sono."
-    },
-    "step1": {
-      "title": "Passo 1: Use fones de ouvido",
-      "text": "Os ritmos binaurais requerem fones de ouvido estéreo para funcionar. Cada ouvido recebe frequências ligeiramente diferentes, criando um ritmo percebido no cérebro."
-    },
-    "step2": {
-      "title": "Passo 2: Escolha sua música",
-      "text": "Selecione música de fundo que ajude você a relaxar. Você pode pesquisar por humor (calmo, focado) ou instrumento (piano, sons da natureza)."
-    },
-    "step3": {
-      "title": "Passo 3: Inicie sua sessão",
-      "text": "Clique em 'Iniciar' para começar. Para a experiência completa, permita acesso ao microfone para adaptar os ritmos à sua respiração."
-    },
-    "buttons": {
-      "next": "Próximo",
-      "prev": "Anterior",
-      "skip": "Pular",
-      "start": "Começar",
-      "tryDemo": "Experimentar demo primeiro",
-      "gotIt": "Entendi"
-    },
-    "demo": {
-      "indicator": "Modo demo",
-      "upgrade": "Ativar recursos completos"
-    }
+  "sections": {
+    "instructions": "Instruções de uso",
+    "settings": "Configuração de função",
+    "monitor": "Monitoramento da respiração"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "Onda Alpha de 10Hz, ajuda a entrar em estado de foco, adequado para trabalho e estudo",
+    "冥想": "Onda Theta de 7Hz, guia para relaxamento profundo, adequado para meditação",
+    "舒曼共振": "Frequência natural da Terra de 7.83Hz, equilibra a energia do corpo e da mente",
+    "睡眠": "Onda Delta de 3Hz, ajuda a adormecer rapidamente",
+    "提神": "Onda Beta de 15Hz, aumenta a vitalidade mental",
+    "激發靈感": "Onda Gamma de 40Hz, melhora o pensamento criativo"
+  },
+  "trust": {
+    "free": "Totalmente gratuito, sem necessidade de registro",
+    "openSource": "Projeto de código aberto",
+    "privacy": "Áudio processado apenas localmente, não enviado para o servidor"
+  },
+  "share": {
+    "title": "Compartilhar",
+    "twitter": "Compartilhar no Twitter",
+    "facebook": "Compartilhar no Facebook",
+    "line": "Compartilhar no LINE"
   }
 }

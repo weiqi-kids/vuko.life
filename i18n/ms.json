@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "Dengan suara, temui diri anda yang lebih baik",
+  "subtitle": "🤖 Arahan Penggunaan",
+  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan menyesuaikan frekuensi binaural secara automatik untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "Sila gunakan <strong>fon telinga stereo</strong> untuk mencapai kesan frekuensi binaural dalam otak.",
+    "microphone": "Jika anda bersetuju untuk menggunakan <strong>mikrofon</strong> anda, sila letakkan mikrofon berhampiran mulut dan hidung, kami akan cuba membimbing anda ke dalam keadaan yang lebih mendalam."
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "Frekuensi binaural {binaural}% / Bunyi latar {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "Fail audio diproses secara tempatan dan tidak akan dimuat naik.",
-    "loadingMusic": "Memuatkan muzik..."
+    "breathRate": "Kadar pernafasan:",
+    "noiseLevel": "Bunyi latar belakang:",
+    "baseFreq": "Frekuensi asas:",
+    "audioFile": "Fail bunyi latar:",
+    "volumeRatio": "Nisbah kelantangan:",
+    "breathVisual": "Visualisasi pernafasan",
+    "realTimeData": "Data masa nyata",
+    "systemConfig": "Tetapan frekuensi binaural",
+    "audioSearch": "🎵 Carian Muzik Latar",
+    "searchPlaceholder": "Cari muzik... (contoh: piano, laut, meditasi)",
+    "noResults": "Tiada muzik berkaitan ditemui",
+    "currentMusic": "Pilihan semasa",
+    "deviceTest": "Ujian peranti",
+    "libraryTab": "Perpustakaan muzik dalam talian",
+    "localFileTab": "Fail Tempatan",
+    "filePrivacyMsg": "Fail audio hanya diproses secara tempatan, tidak akan dimuat naik."
   },
   "buttons": {
     "start": "🎶 Mula",
-    "stop": "🍂 Berhenti",
-    "loading": "Memuatkan..."
+    "stop": "🍂 Berhenti"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
+    "monitoring": "🎙️ Memantau pernafasan... Sila bernafas secara semula jadi",
+    "stopped": "Pemantauan telah dihentikan",
+    "error": "❌ Tidak dapat dimulakan:",
+    "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, pemantauan pernafasan tidak dapat digunakan",
+    "waiting": "Menunggu pengesanan"
   },
   "units": {
-    "perMin": "times/min",
+    "perMin": "kali/min",
     "hz": "Hz",
     "db": "dB",
-    "none": "None"
+    "none": "Tiada"
   },
   "binauralOptions": [
-    "Focus",
-    "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "Fokus",
+    "Meditasi",
+    "Resonans Schumann",
+    "Tidur",
+    "Menyegarkan",
+    "Mencetuskan Inspirasi"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Welcome to Vuko",
-      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
-    },
-    "step1": {
-      "title": "Step 1: Wear Headphones",
-      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
-    },
-    "step2": {
-      "title": "Step 2: Choose Your Music",
-      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
-    },
-    "step3": {
-      "title": "Step 3: Start Your Session",
-      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
-    },
-    "buttons": {
-      "next": "Next",
-      "prev": "Back",
-      "skip": "Skip",
-      "start": "Get Started",
-      "tryDemo": "Try Demo First",
-      "gotIt": "Got It"
-    },
-    "demo": {
-      "indicator": "Demo Mode",
-      "upgrade": "Enable Full Features"
-    }
+  "sections": {
+    "instructions": "Arahan Penggunaan",
+    "settings": "Tetapan Fungsi",
+    "monitor": "Pemantauan Pernafasan"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "Gelombang Alpha 10Hz, membantu memasuki keadaan fokus, sesuai untuk kerja dan pembelajaran",
+    "冥想": "Gelombang Theta 7Hz, membimbing relaksasi mendalam, sesuai untuk meditasi duduk",
+    "舒曼共振": "Frekuensi semula jadi bumi 7.83Hz, mengimbangi tenaga badan dan minda",
+    "睡眠": "Gelombang Delta 3Hz, membantu tidur dengan cepat",
+    "提神": "Gelombang Beta 15Hz, meningkatkan kecergasan mental",
+    "激發靈感": "Gelombang Gamma 40Hz, meningkatkan pemikiran kreatif"
+  },
+  "trust": {
+    "free": "Sepenuhnya percuma, tidak perlu pendaftaran",
+    "openSource": "Projek sumber terbuka",
+    "privacy": "Audio diproses hanya di peranti, tidak dimuat naik ke pelayan"
+  },
+  "share": {
+    "title": "Kongsi",
+    "twitter": "Kongsi ke Twitter",
+    "facebook": "Kongsi ke Facebook",
+    "line": "Kongsi ke LINE"
   }
 }

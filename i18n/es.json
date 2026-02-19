@@ -23,21 +23,18 @@
     "deviceTest": "Prueba de dispositivo",
     "libraryTab": "Biblioteca de música en línea",
     "localFileTab": "Archivo local",
-    "filePrivacyMsg": "El archivo de audio se procesa solo localmente y no se subirá.",
-    "loadingMusic": "Cargando música..."
+    "filePrivacyMsg": "El archivo de audio se procesa solo localmente y no se subirá."
   },
   "buttons": {
     "start": "🎶 Comenzar",
-    "stop": "🍂 Detener",
-    "loading": "Cargando..."
+    "stop": "🍂 Detener"
   },
   "status": {
     "monitoring": "🎙️ Monitoreando la respiración... Por favor, respira naturalmente",
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
-    "unsupported": "⚠️ Su navegador no admite la función de micrófono, no se puede usar el monitoreo de respiración",
-    "waiting": "Por detectar",
-    "demoMode": "🎧 Modo demo - disfruta de los ritmos binaurales sin detección de respiración"
+    "unsupported": "⚠️ Su navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
+    "waiting": "Por detectar"
   },
   "units": {
     "perMin": "veces/min",
@@ -53,42 +50,28 @@
     "Refrescar",
     "Inspirar creatividad"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Bienvenido a Vuko",
-      "text": "Usa los ritmos binaurales para guiarte a diferentes estados de conciencia: meditación, concentración, relajación o sueño."
-    },
-    "step1": {
-      "title": "Paso 1: Usa auriculares",
-      "text": "Los ritmos binaurales requieren auriculares estéreo para funcionar. Cada oído recibe frecuencias ligeramente diferentes, creando un ritmo percibido en tu cerebro."
-    },
-    "step2": {
-      "title": "Paso 2: Elige tu música",
-      "text": "Selecciona música de fondo que te ayude a relajarte. Puedes buscar por estado de ánimo (calma, concentración) o instrumento (piano, sonidos naturales)."
-    },
-    "step3": {
-      "title": "Paso 3: Inicia tu sesión",
-      "text": "Haz clic en 'Comenzar' para empezar. Para la experiencia completa, permite el acceso al micrófono para adaptar los ritmos a tu respiración."
-    },
-    "buttons": {
-      "next": "Siguiente",
-      "prev": "Anterior",
-      "skip": "Saltar",
-      "start": "Comenzar",
-      "tryDemo": "Probar demo primero",
-      "gotIt": "Entendido"
-    },
-    "demo": {
-      "indicator": "Modo demo",
-      "upgrade": "Activar funciones completas"
-    }
+  "sections": {
+    "instructions": "Instrucciones de uso",
+    "settings": "Configuración de funciones",
+    "monitor": "Monitoreo de respiración"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "Onda Alpha de 10Hz, ayuda a entrar en un estado de concentración, adecuada para trabajar y estudiar",
+    "冥想": "Onda Theta de 7Hz, guía hacia una relajación profunda, adecuada para meditación en silencio",
+    "舒曼共振": "Frecuencia natural de la Tierra de 7.83Hz, equilibra la energía del cuerpo y la mente",
+    "睡眠": "Onda Delta de 3Hz, ayuda a conciliar el sueño rápidamente",
+    "提神": "Onda Beta de 15Hz, mejora la vitalidad mental",
+    "激發靈感": "Onda Gamma de 40Hz, mejora el pensamiento creativo"
+  },
+  "trust": {
+    "free": "Completamente gratis, no se requiere registro",
+    "openSource": "Proyecto de código abierto",
+    "privacy": "El audio se procesa solo localmente, no se sube al servidor"
+  },
+  "share": {
+    "title": "Compartir",
+    "twitter": "Compartir en Twitter",
+    "facebook": "Compartir en Facebook",
+    "line": "Compartir en LINE"
   }
 }

@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "শব্দের মাধ্যমে, নিজেকে আরও ভালোভাবে আবিষ্কার করুন",
+  "subtitle": "🤖 ব্যবহার নির্দেশিকা",
+  "description": "সিস্টেমটি আপনার শ্বাসের অবস্থা রিয়েল-টাইমে পর্যবেক্ষণ করবে এবং আপনাকে বিভিন্ন চেতনা অবস্থায় নিয়ে যাওয়ার জন্য স্বয়ংক্রিয়ভাবে বিট ফ্রিকোয়েন্সি সামঞ্জস্য করবে:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "অনুগ্রহ করে <strong>স্টেরিও হেডফোন</strong> ব্যবহার করুন, যাতে মস্তিষ্কের বিট ফ্রিকোয়েন্সির প্রভাব অর্জন করা যায়।",
+    "microphone": "যদি আপনি আপনার <strong>মাইক্রোফোন</strong> ব্যবহার করতে সম্মত হন, অনুগ্রহ করে মাইক্রোফোনটি মুখের কাছে রাখুন, আমরা আপনাকে আরও গভীর স্তরে নিয়ে যাওয়ার চেষ্টা করব।"
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "বিট ফ্রিকোয়েন্সি {binaural}% / পটভূমি শব্দ {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "অডিও ফাইলগুলি স্থানীয়ভাবে প্রক্রিয়া করা হয় এবং আপলোড করা হবে না।",
-    "loadingMusic": "সঙ্গীত লোড হচ্ছে..."
+    "breathRate": "শ্বাসের হার:",
+    "noiseLevel": "পটভূমি শব্দ:",
+    "baseFreq": "বেস ফ্রিকোয়েন্সি:",
+    "audioFile": "পটভূমি সাউন্ড ফাইল:",
+    "volumeRatio": "ভলিউম অনুপাত:",
+    "breathVisual": "শ্বাসের ভিজ্যুয়ালাইজেশন",
+    "realTimeData": "রিয়েল-টাইম ডেটা",
+    "systemConfig": "বাইনারাল বিট সেটিংস",
+    "audioSearch": "🎵 পটভূমি সঙ্গীত অনুসন্ধান",
+    "searchPlaceholder": "সঙ্গীত অনুসন্ধান করুন... (যেমন: পিয়ানো, সমুদ্র, ধ্যান)",
+    "noResults": "সম্পর্কিত সঙ্গীত পাওয়া যায়নি",
+    "currentMusic": "বর্তমান নির্বাচন",
+    "deviceTest": "ডিভাইস পরীক্ষা",
+    "libraryTab": "অনলাইন সাউন্ড লাইব্রেরি",
+    "localFileTab": "স্থানীয় ফাইল",
+    "filePrivacyMsg": "অডিও ফাইল শুধুমাত্র স্থানীয়ভাবে প্রক্রিয়া করা হয়, আপলোড করা হবে না।"
   },
   "buttons": {
-    "start": "🎶 শুরু করুন",
-    "stop": "🍂 থামুন",
-    "loading": "লোড হচ্ছে..."
+    "start": "🎶 শুরু",
+    "stop": "🍂 থামান"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
+    "monitoring": "🎙️ শ্বাস পর্যবেক্ষণ চলছে... স্বাভাবিকভাবে শ্বাস নিন",
+    "stopped": "পর্যবেক্ষণ বন্ধ করা হয়েছে",
+    "error": "❌ শুরু করতে ব্যর্থ:",
+    "unsupported": "⚠️ আপনার ব্রাউজার মাইক্রোফোন ফাংশন সমর্থন করে না, শ্বাস পর্যবেক্ষণ ব্যবহার করা যাবে না",
+    "waiting": "পরীক্ষার জন্য অপেক্ষা করছে"
   },
   "units": {
-    "perMin": "times/min",
+    "perMin": "বার/মিনিট",
     "hz": "Hz",
     "db": "dB",
-    "none": "None"
+    "none": "না"
   },
   "binauralOptions": [
-    "Focus",
-    "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "কেন্দ্রীভূত",
+    "ধ্যান",
+    "শুমান রেজোন্যান্স",
+    "ঘুম",
+    "উদ্দীপনা",
+    "অনুপ্রেরণা জাগান"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Welcome to Vuko",
-      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
-    },
-    "step1": {
-      "title": "Step 1: Wear Headphones",
-      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
-    },
-    "step2": {
-      "title": "Step 2: Choose Your Music",
-      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
-    },
-    "step3": {
-      "title": "Step 3: Start Your Session",
-      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
-    },
-    "buttons": {
-      "next": "Next",
-      "prev": "Back",
-      "skip": "Skip",
-      "start": "Get Started",
-      "tryDemo": "Try Demo First",
-      "gotIt": "Got It"
-    },
-    "demo": {
-      "indicator": "Demo Mode",
-      "upgrade": "Enable Full Features"
-    }
+  "sections": {
+    "instructions": "ব্যবহারের নির্দেশিকা",
+    "settings": "ফাংশন সেটিং",
+    "monitor": "শ্বাস পর্যবেক্ষণ"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "10Hz আলফা তরঙ্গ, মনোযোগের অবস্থায় প্রবেশ করতে সাহায্য করে, কাজ ও পড়াশোনার জন্য উপযুক্ত",
+    "冥想": "7Hz থিটা তরঙ্গ, গভীর শিথিলতার জন্য নির্দেশনা দেয়, ধ্যানের জন্য উপযুক্ত",
+    "舒曼共振": "7.83Hz পৃথিবীর প্রাকৃতিক ফ্রিকোয়েন্সি, শরীর ও মনের শক্তি ভারসাম্য বজায় রাখে",
+    "睡眠": "3Hz ডেল্টা তরঙ্গ, দ্রুত ঘুমিয়ে পড়তে সাহায্য করে",
+    "提神": "15Hz বিটা তরঙ্গ, মানসিক উদ্দীপনা বাড়ায়",
+    "激發靈感": "40Hz গামা তরঙ্গ, সৃজনশীল চিন্তাভাবনা বাড়ায়"
+  },
+  "trust": {
+    "free": "সম্পূর্ণ বিনামূল্যে, নিবন্ধনের প্রয়োজন নেই",
+    "openSource": "ওপেন সোর্স প্রকল্প",
+    "privacy": "অডিও শুধুমাত্র স্থানীয়ভাবে প্রক্রিয়া করা হয়, সার্ভারে আপলোড করা হয় না"
+  },
+  "share": {
+    "title": "শেয়ার করুন",
+    "twitter": "টুইটারে শেয়ার করুন",
+    "facebook": "ফেসবুকে শেয়ার করুন",
+    "line": "লাইনে শেয়ার করুন"
   }
 }

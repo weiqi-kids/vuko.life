@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "உங்கள் குரலால், உங்களைச் சந்திக்கச் சிறந்தவராக மாற்றுங்கள்",
+  "subtitle": "🤖 பயன்பாட்டு வழிமுறைகள்",
+  "description": "உங்கள் சுவாச நிலையை முறைப்படி கண்காணித்து, உங்களை மாறுபட்ட உணர்வு நிலைகளுக்கு வழிநடத்த, தானாகவே பைனோரல் பீட் அதிர்வெண் சரிசெய்யப்படும்:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "தயவுசெய்து <strong>இரட்டை செவிமடுக்கி</strong> பயன்படுத்தவும், இதனால் மூளையில் பைனோரல் பீட் விளைவு ஏற்படும்.",
+    "microphone": "உங்கள் <strong>மைக்ரோஃபோன்</strong> பயன்படுத்த ஒப்புக்கொண்டால், மைக்ரோஃபோனை உங்கள் வாய் மற்றும் மூக்கிற்கு அருகில் வைத்துக்கொள்ளவும், நாங்கள் உங்களை ஆழமான நிலைக்கு வழிநடத்த முயற்சிப்போம்."
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "பைனோரல் பீட் {binaural}% / பின்னணி ஒலி {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "ஆடியோ கோப்புகள் உள்ளூரில் செயலாக்கப்படுகின்றன, பதிவேற்றப்படாது.",
-    "loadingMusic": "இசை ஏற்றப்படுகிறது..."
+    "breathRate": "சுவாச விகிதம்:",
+    "noiseLevel": "பின்னணி சத்தம்:",
+    "baseFreq": "அடிப்படை அதிர்வெண்:",
+    "audioFile": "பின்னணி ஒலி கோப்பு:",
+    "volumeRatio": "ஒலி அளவு விகிதம்:",
+    "breathVisual": "சுவாச காட்சி",
+    "realTimeData": "உடனடி தரவுகள்",
+    "systemConfig": "இரட்டை செவிமடுக்கி பீட் அமைப்புகள்",
+    "audioSearch": "🎵 பின்னணி இசை தேடல்",
+    "searchPlaceholder": "இசை தேடல்... (உதாரணம்: பியானோ, கடல், தியானம்)",
+    "noResults": "தொடர்புடைய இசை கிடைக்கவில்லை",
+    "currentMusic": "தற்போதைய தேர்வு",
+    "deviceTest": "சாதன பரிசோதனை",
+    "libraryTab": "ஆன்லைன் ஒலி நூலகம்",
+    "localFileTab": "உள்ளூர் கோப்பு",
+    "filePrivacyMsg": "ஆடியோ கோப்பு உள்ளூரில் மட்டுமே செயலாக்கப்படும், பதிவேற்றப்படாது."
   },
   "buttons": {
     "start": "🎶 தொடங்கு",
-    "stop": "🍂 நிறுத்து",
-    "loading": "ஏற்றுகிறது..."
+    "stop": "🍂நிறுத்து"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
+    "monitoring": "🎙️ சுவாச கண்காணிப்பு நடைபெறுகிறது... இயல்பான சுவாசத்தை பராமரிக்கவும்",
+    "stopped": "கண்காணிப்பு நிறுத்தப்பட்டது",
+    "error": "❌ தொடங்க முடியவில்லை:",
+    "unsupported": "⚠️ உங்களின் உலாவி மைக்ரோஃபோன் செயல்பாட்டை ஆதரிக்கவில்லை, சுவாச கண்காணிப்பை பயன்படுத்த முடியாது",
+    "waiting": "கண்காணிக்கப்பட வேண்டியது"
   },
   "units": {
-    "perMin": "times/min",
+    "perMin": "முறை/நிமிடம்",
     "hz": "Hz",
     "db": "dB",
-    "none": "None"
+    "none": "இல்லை"
   },
   "binauralOptions": [
-    "Focus",
-    "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "கவனம்",
+    "தியானம்",
+    "ஷூமான் அதிர்வு",
+    "தூக்கம்",
+    "உற்சாகம்",
+    "உள்ளுணர்வை தூண்டுதல்"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Welcome to Vuko",
-      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
-    },
-    "step1": {
-      "title": "Step 1: Wear Headphones",
-      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
-    },
-    "step2": {
-      "title": "Step 2: Choose Your Music",
-      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
-    },
-    "step3": {
-      "title": "Step 3: Start Your Session",
-      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
-    },
-    "buttons": {
-      "next": "Next",
-      "prev": "Back",
-      "skip": "Skip",
-      "start": "Get Started",
-      "tryDemo": "Try Demo First",
-      "gotIt": "Got It"
-    },
-    "demo": {
-      "indicator": "Demo Mode",
-      "upgrade": "Enable Full Features"
-    }
+  "sections": {
+    "instructions": "பயன்பாட்டு வழிமுறைகள்",
+    "settings": "செயல்பாட்டு அமைப்புகள்",
+    "monitor": "மூச்சு கண்காணிப்பு"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "10Hz ஆல்பா அலை, கவனத்தை அதிகரிக்க உதவுகிறது, வேலை மற்றும் கற்றலுக்கு ஏற்றது",
+    "冥想": "7Hz தீட்டா அலை, ஆழமான ஓய்வை வழிநடத்துகிறது, தியானத்திற்கு ஏற்றது",
+    "舒曼共振": "7.83Hz பூமியின் இயற்கை அதிர்வு, உடல் மற்றும் மன ஆற்றலை சமநிலைப்படுத்துகிறது",
+    "睡眠": "3Hz டெல்டா அலை, விரைவில் உறங்க உதவுகிறது",
+    "提神": "15Hz பீட்டா அலை, மன உற்சாகத்தை அதிகரிக்கிறது",
+    "激發靈感": "40Hz காமா அலை, படைப்பாற்றல் சிந்தனையை மேம்படுத்துகிறது"
+  },
+  "trust": {
+    "free": "முழுமையாக இலவசம், பதிவு தேவையில்லை",
+    "openSource": "திறந்த மூல திட்டம்",
+    "privacy": "ஆடியோ உள்ளூரில் மட்டுமே செயலாக்கப்படுகிறது, சர்வருக்கு பதிவேற்றப்படாது"
+  },
+  "share": {
+    "title": "பகிர்",
+    "twitter": "Twitter இல் பகிர்",
+    "facebook": "Facebook இல் பகிர்",
+    "line": "LINE இல் பகிர்"
   }
 }

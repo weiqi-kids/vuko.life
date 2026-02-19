@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "ใช้เสียง พาคุณพบกับตัวเองที่ดีกว่า",
+  "subtitle": "🤖 คำแนะนำการใช้งาน",
+  "description": "ระบบจะตรวจสอบสถานะการหายใจของคุณแบบเรียลไทม์ และปรับความถี่ของการตบอัตโนมัติเพื่อแนะนำคุณเข้าสู่สภาวะจิตที่แตกต่างกัน:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "กรุณาใช้<strong>หูฟังสเตอริโอ</strong> เพื่อให้ได้ผลของความถี่การตบในสมอง",
+    "microphone": "หากคุณยินยอมให้ใช้<strong>ไมโครโฟน</strong> กรุณานำไมโครโฟนใกล้กับปากและจมูก เราจะพยายามแนะนำคุณเข้าสู่สภาวะที่ลึกขึ้น"
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "ความถี่การตบ {binaural}% / เสียงพื้นหลัง {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "ไฟล์เสียงถูกประมวลผลในเครื่องและจะไม่ถูกอัปโหลด",
-    "loadingMusic": "กำลังโหลดเพลง..."
+    "breathRate": "อัตราการหายใจ:",
+    "noiseLevel": "เสียงรบกวนพื้นหลัง:",
+    "baseFreq": "ความถี่พื้นฐาน:",
+    "audioFile": "ไฟล์เสียงพื้นหลัง:",
+    "volumeRatio": "อัตราส่วนระดับเสียง:",
+    "breathVisual": "การมองเห็นการหายใจ",
+    "realTimeData": "ข้อมูลเรียลไทม์",
+    "systemConfig": "การตั้งค่าความถี่การตบสองหู",
+    "audioSearch": "🎵 ค้นหาเพลงพื้นหลัง",
+    "searchPlaceholder": "ค้นหาเพลง... (เช่น: เปียโน, ทะเล, การทำสมาธิ)",
+    "noResults": "ไม่พบเพลงที่เกี่ยวข้อง",
+    "currentMusic": "การเลือกปัจจุบัน",
+    "deviceTest": "ทดสอบอุปกรณ์",
+    "libraryTab": "คลังเสียงออนไลน์",
+    "localFileTab": "ไฟล์ในเครื่อง",
+    "filePrivacyMsg": "ไฟล์เสียงจะถูกประมวลผลในเครื่องเท่านั้น จะไม่ถูกอัปโหลด"
   },
   "buttons": {
     "start": "🎶 เริ่ม",
-    "stop": "🍂 หยุด",
-    "loading": "กำลังโหลด..."
+    "stop": "🍂 หยุด"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
+    "monitoring": "🎙️ กำลังตรวจสอบการหายใจ... กรุณาหายใจตามปกติ",
+    "stopped": "การตรวจสอบหยุดแล้ว",
+    "error": "❌ ไม่สามารถเริ่มได้:",
+    "unsupported": "⚠️ เบราว์เซอร์ของคุณไม่รองรับฟังก์ชันไมโครโฟน ไม่สามารถใช้การตรวจสอบการหายใจได้",
+    "waiting": "รอตรวจสอบ"
   },
   "units": {
-    "perMin": "times/min",
+    "perMin": "ครั้ง/นาที",
     "hz": "Hz",
     "db": "dB",
-    "none": "None"
+    "none": "ไม่มี"
   },
   "binauralOptions": [
-    "Focus",
-    "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "สมาธิ",
+    "การทำสมาธิ",
+    "การสั่นสะเทือนชูมัน",
+    "การนอนหลับ",
+    "การกระตุ้น",
+    "การสร้างแรงบันดาลใจ"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Welcome to Vuko",
-      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
-    },
-    "step1": {
-      "title": "Step 1: Wear Headphones",
-      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
-    },
-    "step2": {
-      "title": "Step 2: Choose Your Music",
-      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
-    },
-    "step3": {
-      "title": "Step 3: Start Your Session",
-      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
-    },
-    "buttons": {
-      "next": "Next",
-      "prev": "Back",
-      "skip": "Skip",
-      "start": "Get Started",
-      "tryDemo": "Try Demo First",
-      "gotIt": "Got It"
-    },
-    "demo": {
-      "indicator": "Demo Mode",
-      "upgrade": "Enable Full Features"
-    }
+  "sections": {
+    "instructions": "คำแนะนำการใช้งาน",
+    "settings": "การตั้งค่าฟังก์ชัน",
+    "monitor": "การตรวจสอบการหายใจ"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "คลื่น Alpha 10Hz ช่วยให้เข้าสู่สภาวะมีสมาธิ เหมาะสำหรับการทำงานและการเรียน",
+    "冥想": "คลื่น Theta 7Hz นำไปสู่การผ่อนคลายลึก เหมาะสำหรับการนั่งสมาธิ",
+    "舒曼共振": "ความถี่ธรรมชาติของโลก 7.83Hz ช่วยปรับสมดุลพลังงานร่างกายและจิตใจ",
+    "睡眠": "คลื่น Delta 3Hz ช่วยให้หลับได้อย่างรวดเร็ว",
+    "提神": "คลื่น Beta 15Hz ช่วยเพิ่มพลังจิต",
+    "激發靈感": "คลื่น Gamma 40Hz ช่วยเพิ่มความคิดสร้างสรรค์"
+  },
+  "trust": {
+    "free": "ฟรีทั้งหมด ไม่ต้องลงทะเบียน",
+    "openSource": "โครงการโอเพนซอร์ส",
+    "privacy": "เสียงประมวลผลเฉพาะในเครื่อง ไม่อัปโหลดไปยังเซิร์ฟเวอร์"
+  },
+  "share": {
+    "title": "แชร์",
+    "twitter": "แชร์ไปที่ Twitter",
+    "facebook": "แชร์ไปที่ Facebook",
+    "line": "แชร์ไปที่ LINE"
   }
 }
