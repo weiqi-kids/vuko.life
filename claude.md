@@ -63,10 +63,6 @@ python .github/scripts/translate.py
 python .github/scripts/embedding.py
 ```
 
-## 專案現況
-
-- **當前分支**：`codex/檢查-sitemap.xml-排除重複網頁錯誤`（已完成，待合併到 main）
-
 ## 品質提升工作流程
 
 維運期目標：
