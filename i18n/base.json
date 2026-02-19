@@ -49,5 +49,29 @@
     "睡眠",
     "提神",
     "激發靈感"
-  ]
+  ],
+  "sections": {
+    "instructions": "使用說明",
+    "settings": "功能設定",
+    "monitor": "呼吸監測"
+  },
+  "binauralDescriptions": {
+    "專注": "10Hz Alpha 波，幫助進入專注狀態，適合工作學習",
+    "冥想": "7Hz Theta 波，引導深層放鬆，適合靜坐冥想",
+    "舒曼共振": "7.83Hz 地球自然頻率，平衡身心能量",
+    "睡眠": "3Hz Delta 波，幫助快速入睡",
+    "提神": "15Hz Beta 波，提升精神活力",
+    "激發靈感": "40Hz Gamma 波，提升創意思維"
+  },
+  "trust": {
+    "free": "完全免費，無需註冊",
+    "openSource": "開源專案",
+    "privacy": "音訊僅在本機處理，不上傳伺服器"
+  },
+  "share": {
+    "title": "分享",
+    "twitter": "分享到 Twitter",
+    "facebook": "分享到 Facebook",
+    "line": "分享到 LINE"
+  }
 }

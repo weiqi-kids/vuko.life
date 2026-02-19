@@ -15,7 +15,6 @@
     <meta name="twitter:title" content="Deixe o som te levar ao seu melhor eu">
     <meta name="twitter:description" content="O sistema monitora sua respiração em tempo real e ajusta automaticamente a frequência dos batimentos para guiá-lo a diferentes estados de consciência:">
     <meta name="twitter:image" content="https://www.vuko.life/assets/pt/home-og.jpg">
-    <link rel="canonical" href="https://www.vuko.life/app/pt.html" />
     <base href="../">
     <link rel="canonical" href="https://www.vuko.life/app/pt.html" />
     <link rel="stylesheet" href="assets/base.css">
@@ -41,6 +40,7 @@
     <div class="container">
         <h1 id="mainTitle">Deixe o som te levar ao seu melhor eu</h1>
 
+        <h2 id="sectionInstructions" class="section-title"></h2>
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
@@ -49,6 +49,8 @@
             </ul>
         </div>
 
+        
+        <h2 id="sectionSettings" class="section-title"></h2>
         <div class="config-audio-container">
             <div class="audio-search-section">
                 <h4 id="audioSearchTitle"></h4>
@@ -80,7 +82,8 @@
         </div>
 
         <div id="status" class="status" style="display: none;"></div>
-        
+
+        <h2 id="sectionMonitor" class="section-title"></h2>
         <div class="breathing-monitor">
             <div class="breath-visual">
                 <h3></h3>
@@ -102,6 +105,22 @@
 
         <div class="control-buttons">
             <button onclick="toggleAdaptiveMode()" id="monitorToggleBtn"></button>
+        </div>
+    </div>
+
+    <div class="trust-badges">
+        <span id="trustFree" class="trust-badge"></span>
+        <span id="trustOpenSource" class="trust-badge"></span>
+        <span id="trustPrivacy" class="trust-badge"></span>
+    </div>
+
+    
+    <div class="share-section">
+        <span id="shareTitle" class="share-title"></span>
+        <div class="share-buttons">
+            <a id="shareTwitter" class="share-btn share-twitter" target="_blank" rel="noopener">Twitter</a>
+            <a id="shareFacebook" class="share-btn share-facebook" target="_blank" rel="noopener">Facebook</a>
+            <a id="shareLine" class="share-btn share-line" target="_blank" rel="noopener">LINE</a>
         </div>
     </div>
 

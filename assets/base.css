@@ -773,3 +773,83 @@
             color: #6c757d;
             margin-top: 3px;
         }
+
+        /* Phase 1 & 2: 新增樣式 */
+        .section-title {
+            color: #667eea;
+            font-size: 1.3rem;
+            margin: 25px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid rgba(102, 126, 234, 0.3);
+        }
+
+        .binaural-desc {
+            display: block;
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 4px;
+            padding-left: 20px;
+        }
+
+        .trust-badges {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .trust-badge {
+            background: rgba(40, 167, 69, 0.1);
+            color: #28a745;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(40, 167, 69, 0.3);
+        }
+
+        /* Phase 3: 分享按鈕 */
+        .share-section {
+            text-align: center;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .share-title {
+            color: #666;
+            font-size: 0.9rem;
+            margin-right: 10px;
+        }
+
+        .share-buttons {
+            display: inline-flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .share-btn {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .share-btn:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+
+        .share-twitter {
+            background: #1DA1F2;
+        }
+
+        .share-facebook {
+            background: #4267B2;
+        }
+
+        .share-line {
+            background: #00B900;
+        }

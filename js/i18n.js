@@ -61,6 +61,15 @@ async function updateLanguageContent() {
 
     document.title = content.title || '';
     document.querySelector('h1').textContent = content.title || '';
+
+    // 更新 h2 區段標題
+    const sections = content.sections || {};
+    const sectionInstructions = document.getElementById('sectionInstructions');
+    if (sectionInstructions) sectionInstructions.textContent = sections.instructions || '';
+    const sectionSettings = document.getElementById('sectionSettings');
+    if (sectionSettings) sectionSettings.textContent = sections.settings || '';
+    const sectionMonitor = document.getElementById('sectionMonitor');
+    if (sectionMonitor) sectionMonitor.textContent = sections.monitor || '';
     document.querySelector('.adaptive-mode h3').textContent = content.subtitle || '';
 
     const headphoneItem = document.getElementById('instructionHeadphones');
@@ -83,6 +92,7 @@ async function updateLanguageContent() {
     if (binauralList) {
         binauralList.innerHTML = '';
         const options = content.binauralOptions || [];
+        const descriptions = content.binauralDescriptions || {};
         options.forEach((text, idx) => {
             const li = document.createElement('li');
             const label = document.createElement('label');
@@ -93,6 +103,13 @@ async function updateLanguageContent() {
             if (idx === 0) input.checked = true;
             label.appendChild(input);
             label.appendChild(document.createTextNode(' ' + text));
+            // 加入模式說明
+            if (descriptions[text]) {
+                const desc = document.createElement('span');
+                desc.className = 'binaural-desc';
+                desc.textContent = descriptions[text];
+                label.appendChild(desc);
+            }
             li.appendChild(label);
             binauralList.appendChild(li);
         });
@@ -127,6 +144,36 @@ async function updateLanguageContent() {
     const toggleBtn = document.getElementById('monitorToggleBtn');
     const buttons = content.buttons || {};
     toggleBtn.textContent = isRecording ? buttons.stop || '' : buttons.start || '';
+
+    // 更新信任元素
+    const trust = content.trust || {};
+    const trustFree = document.getElementById('trustFree');
+    if (trustFree) trustFree.textContent = '✓ ' + (trust.free || '');
+    const trustOpenSource = document.getElementById('trustOpenSource');
+    if (trustOpenSource) trustOpenSource.textContent = '✓ ' + (trust.openSource || '');
+    const trustPrivacy = document.getElementById('trustPrivacy');
+    if (trustPrivacy) trustPrivacy.textContent = '✓ ' + (trust.privacy || '');
+
+    // 更新分享按鈕
+    const share = content.share || {};
+    const shareTitle = document.getElementById('shareTitle');
+    if (shareTitle) shareTitle.textContent = share.title || '';
+
+    const pageUrl = encodeURIComponent(window.location.href);
+    const pageTitle = encodeURIComponent(content.title || 'Vuko');
+
+    const shareTwitter = document.getElementById('shareTwitter');
+    if (shareTwitter) {
+        shareTwitter.href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
+    }
+    const shareFacebook = document.getElementById('shareFacebook');
+    if (shareFacebook) {
+        shareFacebook.href = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+    }
+    const shareLine = document.getElementById('shareLine');
+    if (shareLine) {
+        shareLine.href = `https://line.me/R/msg/text/?${pageTitle}%0A${pageUrl}`;
+    }
 
     resetStatsDisplay();
 }
