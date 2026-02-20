@@ -34,8 +34,12 @@ def generate_traffic_section(traffic_data):
     lines = ["## 流量概況\n"]
 
     # Views
-    views = traffic_data.get('views', {})
-    clones = traffic_data.get('clones', {})
+    views = traffic_data.get('views') or {}
+    clones = traffic_data.get('clones') or {}
+
+    if not views and not clones:
+        lines.append("⚠️ 無法取得流量數據（可能需要 repo admin 權限）\n")
+        return '\n'.join(lines)
 
     lines.append("| 指標 | 總數 | 獨立訪客/使用者 |")
     lines.append("|------|------|-----------------|")
@@ -47,10 +51,10 @@ def generate_traffic_section(traffic_data):
 
 def generate_popular_paths_section(traffic_data):
     """Generate popular paths section."""
-    if not traffic_data or not traffic_data.get('popular_paths'):
+    if not traffic_data:
         return ""
 
-    paths = traffic_data['popular_paths']
+    paths = traffic_data.get('popular_paths') or []
     if not paths:
         return ""
 
@@ -66,10 +70,10 @@ def generate_popular_paths_section(traffic_data):
 
 def generate_referrers_section(traffic_data):
     """Generate referrers section."""
-    if not traffic_data or not traffic_data.get('popular_referrers'):
+    if not traffic_data:
         return ""
 
-    referrers = traffic_data['popular_referrers']
+    referrers = traffic_data.get('popular_referrers') or []
     if not referrers:
         return ""
 
@@ -135,7 +139,7 @@ def generate_suggestions(traffic_data, audit_data):
 
     # Traffic-based suggestions
     if traffic_data:
-        paths = traffic_data.get('popular_paths', [])
+        paths = traffic_data.get('popular_paths') or []
         if paths:
             top_langs = []
             for path in paths[:5]:
