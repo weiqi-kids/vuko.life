@@ -31,7 +31,10 @@ AI 智能呼吸拍頻引導 Web App，透過雙耳拍頻（Binaural Beats）與�
 │   ├── app.js              # 主應用邏輯
 │   ├── audio_selector.js   # 音樂搜尋與播放
 │   ├── binaural_processor.js # 拍頻與呼吸演算法
-│   └── i18n.js             # 多語系切換
+│   ├── i18n.js             # 多語系切換
+│   ├── theme.js            # 深色模式切換
+│   ├── keyboard.js         # 鍵盤快捷鍵
+│   └── lang-switcher.js    # 語言切換器
 ├── i18n/               # UI 文案翻譯（JSON）
 │   └── base.json           # 繁中母版（其他語言由此翻譯）
 ├── music/              # 音樂資料庫（含 Embedding 向量）
@@ -41,7 +44,7 @@ AI 智能呼吸拍頻引導 Web App，透過雙耳拍頻（Binaural Beats）與�
 │   ├── workflows/      # CI/CD 工作流程
 │   └── scripts/        # Python 自動化腳本
 ├── seo/                # SEO + AEO 優化規則庫
-└── revamp/             # 網站改版工作流程
+└── revamp/             # 網站改版工作流程（已完成）
 ```
 
 ## 開發注意事項
@@ -91,18 +94,67 @@ python .github/scripts/embedding.py
 
 ### revamp/ - 網站改版工作流程
 
-6 階段改版流程（尚未開始執行）：
+6 階段改版流程（✅ 已完成）：
 
-| 階段 | 目的 | 輸出 |
-|------|------|------|
-| 0-positioning | 釐清品牌定位 | 定位文件 |
-| 1-discovery | 現況盤點 + 技術健檢 | 健檢報告 |
-| 2-competitive | 競品分析 | 競品報告 |
-| 3-analysis | 受眾分析 + 內容差距 | 差距分析 |
-| 4-strategy | 改版計劃 + 優先級 | 計劃書 |
-| 5-content-spec | 每頁內容規格 | 規格書 |
+| 階段 | 目的 | 輸出 | 狀態 |
+|------|------|------|------|
+| 0-positioning | 釐清品牌定位 | 定位文件 | ✅ |
+| 1-discovery | 現況盤點 + 技術健檢 | 健檢報告 | ✅ |
+| 2-competitive | 競品分析 | 競品報告 | ✅ |
+| 3-analysis | 受眾分析 + 內容差距 | 差距分析 | ✅ |
+| 4-strategy | 改版計劃 + 優先級 | 計劃書 | ✅ |
+| 5-content-spec | 每頁內容規格 | 規格書 | ✅ |
 
-每個階段有對應的 `CLAUDE.md` 和 `review/CLAUDE.md`。
+每個階段有對應的 `CLAUDE.md` 和 `review/CLAUDE.md`，輸出在各階段的 `output.md`。
+
+---
+
+## 2025-02 改版記錄
+
+### 已完成項目
+
+#### P0 - 必須執行
+| ID | 項目 | 說明 |
+|----|------|------|
+| P0-1 | 修復 HTML 錯誤 | `<base>` 位置、h4→h3 標題層級、分享按鈕 href |
+| P0-2 | 移除重複 canonical | 移除多餘的 canonical 標籤 |
+| P0-3 | 加入模式說明 | 每個拍頻模式顯示用途說明（binauralDescriptions） |
+
+#### P1 - 重要
+| ID | 項目 | 說明 |
+|----|------|------|
+| P1-1 | 加入 h2 結構 | sectionInstructions, sectionSettings, sectionMonitor |
+| P1-2 | 突顯免費宣告 | trust-badges 區塊「完全免費，無需註冊」 |
+| P1-3 | 突顯開源標誌 | trust-badges 區塊「開源專案」 |
+| P1-4 | 強化隱私說明 | trust-badges 區塊「音訊僅在本機處理」 |
+| P1-5 | 加入社群分享 | Twitter, Facebook, LINE 分享按鈕 |
+| P1-6 | 優化 meta description | 30 種語言的 SEO description 優化 |
+
+#### P2 - Nice-to-have
+| ID | 項目 | 說明 |
+|----|------|------|
+| P2-1 | 加入 FAQ | 5 個常見問題，可展開的 accordion 樣式 |
+| P2-2 | 深色模式 | js/theme.js，自動偵測系統偏好 + 手動切換 |
+| P2-3 | 鍵盤快捷鍵 | js/keyboard.js，Space/P/S/D/? |
+| P2-4 | 語言切換器 | js/lang-switcher.js，30 語言下拉選單 |
+
+### 新增檔案
+- `js/theme.js` - 深色模式切換（localStorage 持久化）
+- `js/keyboard.js` - 鍵盤快捷鍵（Space=播放、S=停止、D=主題、?=說明）
+- `js/lang-switcher.js` - 語言切換下拉選單
+
+### UI 改進
+- 雙耳拍頻設置區塊：卡片式佈局 + 2 欄網格 + 圖示
+- 信任徽章區塊：免費、開源、隱私保護
+- FAQ 區塊：可展開的常見問題
+- 響應式佈局優化
+
+### 技術改進
+- CSS 變數支援深色模式
+- W3C 驗證錯誤修復（4 → 0）
+- 標題層級修正（h4 → h3）
+
+---
 
 自動化工具（在 `revamp/tools/`）：
 ```bash
