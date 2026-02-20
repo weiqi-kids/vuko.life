@@ -44,22 +44,22 @@
     <div class="container">
         <h1 id="mainTitle">用聲音，帶你遇見更好的自己</h1>
 
-        <h2 id="sectionInstructions" class="section-title"></h2>
+        <h2 id="sectionInstructions" class="section-title">使用說明</h2>
         <div class="adaptive-mode">
-            <h3></h3>
+            <h3>🤖 使用說明</h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones">請使用<strong>雙聲道耳機</strong>，這樣才能達成腦中拍頻的效果。</li>
+                <li id="instructionMicrophone">若您同意使用您的<strong>麥克風</strong>，請將麥克風靠近口鼻，我們會嘗試引導您進入更深層的狀態。</li>
             </ul>
         </div>
 
-        <h2 id="sectionSettings" class="section-title"></h2>
+        <h2 id="sectionSettings" class="section-title">功能設定</h2>
         <div class="config-audio-container">
             <div class="audio-search-section">
-                <h3 id="audioSearchTitle"></h3>
+                <h3 id="audioSearchTitle">🎵 背景音樂搜尋</h3>
                 <div class="audio-tabs">
-                    <button id="tabLibrary" class="tab-button active"></button>
-                    <button id="tabLocal" class="tab-button"></button>
+                    <button id="tabLibrary" class="tab-button active">線上音庫</button>
+                    <button id="tabLocal" class="tab-button">本機檔案</button>
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
@@ -78,25 +78,25 @@
             </div>
 
             <div class="config-info">
-                <h3 id="systemConfigTitle"></h3>
+                <h3 id="systemConfigTitle">雙耳拍頻設置</h3>
                 <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 設備測試</button>
             </div>
         </div>
 
         <div id="status" class="status" style="display: none;"></div>
 
-        <h2 id="sectionMonitor" class="section-title"></h2>
+        <h2 id="sectionMonitor" class="section-title">呼吸監測</h2>
         <div class="breathing-monitor">
             <div class="breath-visual">
-                <h3></h3>
+                <h3>呼吸視覺化</h3>
                 <canvas id="waveform" class="waveform"></canvas>
             </div>
 
             <div class="breath-stats">
-                <h3></h3>
+                <h3>即時數據</h3>
                 <div class="stat-item">
-                    <span class="stat-label"></span>
+                    <span class="stat-label">呼吸速率：</span>
                     <span class="stat-value" id="breathRate">--</span>
                 </div>
                 <div class="stat-item">
@@ -107,18 +107,18 @@
         </div>
 
         <div class="control-buttons">
-            <button onclick="toggleAdaptiveMode()" id="monitorToggleBtn"></button>
+            <button onclick="toggleAdaptiveMode()" id="monitorToggleBtn">🎶 開始</button>
         </div>
     </div>
 
     <div class="trust-badges">
-        <span id="trustFree" class="trust-badge"></span>
-        <span id="trustOpenSource" class="trust-badge"></span>
-        <span id="trustPrivacy" class="trust-badge"></span>
+        <span id="trustFree" class="trust-badge">✓ 完全免費，無需註冊</span>
+        <span id="trustOpenSource" class="trust-badge">✓ 開源專案</span>
+        <span id="trustPrivacy" class="trust-badge">✓ 音訊僅在本機處理，不上傳伺服器</span>
     </div>
 
     <div class="share-section">
-        <span id="shareTitle" class="share-title"></span>
+        <span id="shareTitle" class="share-title">分享</span>
         <div class="share-buttons">
             <a id="shareTwitter" class="share-btn share-twitter" href="#" target="_blank" rel="noopener">Twitter</a>
             <a id="shareFacebook" class="share-btn share-facebook" href="#" target="_blank" rel="noopener">Facebook</a>

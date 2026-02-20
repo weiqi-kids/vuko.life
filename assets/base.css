@@ -74,6 +74,7 @@
             color: var(--accent-color);
             margin-bottom: 15px;
             font-size: 1.5rem;
+            min-height: 1.8em; /* Reserve space to prevent CLS */
         }
 
         .adaptive-mode p {
@@ -851,6 +852,7 @@
             margin: 25px 0 15px 0;
             padding-bottom: 8px;
             border-bottom: 2px solid rgba(102, 126, 234, 0.3);
+            min-height: 1.6em; /* Reserve space to prevent CLS when text loads */
         }
 
         .trust-badges {
