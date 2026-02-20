@@ -200,7 +200,8 @@
 
         .waveform {
             width: 100%;
-            height: 80%;
+            height: 150px; /* Fixed height to prevent CLS */
+            min-height: 150px;
             border: 2px solid #ddd;
             border-radius: 10px;
             background: white;
@@ -257,6 +258,7 @@
             gap: 10px;
             padding: 0;
             list-style: none;
+            min-height: 280px; /* Reserve space for 6 options to prevent CLS */
         }
 
         .binaural-options li {
@@ -433,6 +435,7 @@
             border-radius: 10px;
             background: white;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            contain: layout; /* Prevent layout shifts from affecting other elements */
         }
 
         .music-item {
@@ -857,6 +860,7 @@
             gap: 15px;
             padding: 20px;
             margin: 20px 0;
+            min-height: 60px; /* Reserve space to prevent CLS */
         }
 
         .trust-badge {
@@ -930,6 +934,7 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
+            min-height: 300px; /* Reserve space for FAQ items to prevent CLS */
         }
 
         .faq-item {

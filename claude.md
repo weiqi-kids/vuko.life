@@ -190,3 +190,20 @@ gh workflow run weekly_report.yml
 
 **需要的 Secret**：
 - `TRAFFIC_TOKEN` - 有 `repo` 權限的 GitHub PAT（用於存取 Traffic API）
+
+### 週報分析（Claude CLI）
+**Prompt**：`prompt/週報分析.md`
+
+**使用方式**：
+```bash
+# 在專案目錄執行 Claude CLI
+claude "請參照 prompt/週報分析.md 分析最新週報"
+```
+
+**功能**：
+1. 讀取最新週報（`reports/weekly-*.md`）
+2. 分析流量趨勢、熱門頁面、流量來源
+3. 檢視技術健檢結果
+4. 產出分優先級（P0/P1/P2）的優化建議
+
+**輸出**：結構化的分析報告，包含摘要、數據分析、優化建議

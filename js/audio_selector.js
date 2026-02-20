@@ -585,7 +585,8 @@ function initAudioSelector() {
 document.addEventListener('DOMContentLoaded', async () => {
     await loadMusicLibrary();
     initMusicLibrary();
-    loadEmbeddingModel().catch(console.error);
+    // Defer embedding model loading until user actually searches
+    // loadEmbeddingModel() will be called lazily in searchMusic()
     initAudioSelector();
 });
 
