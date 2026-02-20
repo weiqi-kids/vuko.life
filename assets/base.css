@@ -245,7 +245,7 @@
             box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
         }
 
-        .config-info h4 {
+        .config-info h3 {
             color: var(--accent-color);
             margin-bottom: 20px;
             font-size: 1.1rem;
@@ -344,7 +344,7 @@
             border: 2px solid #764ba2;
         }
 
-        .audio-search-section h4 {
+        .audio-search-section h3 {
             color: #764ba2;
             margin-bottom: 15px;
             font-size: 1.2rem;
