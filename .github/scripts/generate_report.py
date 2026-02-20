@@ -9,10 +9,15 @@ from datetime import datetime
 from pathlib import Path
 
 def load_json_file(path):
-    """Load JSON file if exists."""
+    """Load JSON file if exists and is valid."""
     if os.path.exists(path):
-        with open(path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                content = f.read().strip()
+                if content:
+                    return json.loads(content)
+        except (json.JSONDecodeError, Exception) as e:
+            print(f"Warning: Could not parse {path}: {e}")
     return None
 
 def format_number(n):

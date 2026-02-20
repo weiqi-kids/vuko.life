@@ -39,8 +39,10 @@ jobs:
 
       - name: Run Site Audit
         run: |
+          # Initialize empty audit.json in case audit fails
+          echo '{}' > /tmp/audit.json
           chmod +x ./revamp/tools/site-audit.sh
-          ./revamp/tools/site-audit.sh https://www.vuko.life --output /tmp/audit.json || true
+          ./revamp/tools/site-audit.sh https://www.vuko.life --output /tmp/audit.json || echo "Site audit skipped or failed"
 
       - name: Generate Weekly Report
         run: python .github/scripts/generate_report.py
