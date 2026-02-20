@@ -164,3 +164,29 @@ python .github/scripts/embedding.py
 # 競品分析
 ./revamp/tools/competitive-audit.sh https://www.vuko.life https://competitor.com
 ```
+
+---
+
+## 週報自動化
+
+### Weekly Analytics Report
+**Workflow**：`.github/workflows/weekly_report.yml`
+
+**執行時間**：每週一 09:00 UTC（台灣 17:00）
+
+**功能**：
+1. 收集 GitHub Traffic 數據（views, clones, popular paths, referrers）
+2. 產生 Markdown 週報存入 `reports/weekly-YYYY-MM-DD.md`
+
+**手動觸發**：
+```bash
+gh workflow run weekly_report.yml
+```
+
+**相關檔案**：
+- `.github/scripts/fetch_traffic.py` - 收集 GitHub Traffic 數據
+- `.github/scripts/generate_report.py` - 產生 Markdown 報告
+- `reports/` - 週報存放目錄
+
+**需要的 Secret**：
+- `TRAFFIC_TOKEN` - 有 `repo` 權限的 GitHub PAT（用於存取 Traffic API）
