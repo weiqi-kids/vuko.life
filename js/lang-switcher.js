@@ -95,5 +95,10 @@
         });
     }
 
-    document.addEventListener('DOMContentLoaded', createSwitcher);
+    // Defer switcher creation to avoid blocking main thread
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(createSwitcher, { timeout: 2000 });
+    } else {
+        setTimeout(createSwitcher, 100);
+    }
 })();

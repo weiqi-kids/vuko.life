@@ -877,6 +877,8 @@
             text-align: center;
             padding: 15px;
             margin: 10px 0;
+            content-visibility: auto;
+            contain-intrinsic-size: 0 80px;
         }
 
         .share-title {
@@ -922,6 +924,8 @@
             max-width: 800px;
             margin: 30px auto;
             padding: 0 20px;
+            content-visibility: auto; /* Skip rendering if below viewport */
+            contain-intrinsic-size: 0 400px; /* Estimated height for layout */
         }
 
         .faq-section .section-title {
