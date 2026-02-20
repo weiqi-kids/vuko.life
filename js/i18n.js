@@ -175,6 +175,28 @@ async function updateLanguageContent() {
         shareLine.href = `https://line.me/R/msg/text/?${pageTitle}%0A${pageUrl}`;
     }
 
+    // 更新 FAQ
+    const faq = content.faq || {};
+    const faqTitle = document.getElementById('faqTitle');
+    if (faqTitle) faqTitle.textContent = faq.title || '';
+    const faqList = document.getElementById('faqList');
+    if (faqList && faq.items) {
+        faqList.innerHTML = '';
+        faq.items.forEach((item, idx) => {
+            const faqItem = document.createElement('details');
+            faqItem.className = 'faq-item';
+            const summary = document.createElement('summary');
+            summary.className = 'faq-question';
+            summary.textContent = item.q;
+            const answer = document.createElement('div');
+            answer.className = 'faq-answer';
+            answer.textContent = item.a;
+            faqItem.appendChild(summary);
+            faqItem.appendChild(answer);
+            faqList.appendChild(faqItem);
+        });
+    }
+
     resetStatsDisplay();
 }
 

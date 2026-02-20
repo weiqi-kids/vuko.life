@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vuko - AI搭載の呼吸リズムプロセッサー。バイノーラルビートで瞑想、集中、リラックス、睡眠状態へ導きます。リアルタイム呼吸モニタリング。">
+    <meta name="description" content="無料オープンソースのAI呼吸ガイド - バイノーラルビートで瞑想、集中、深い眠りへ。リアルタイム呼吸モニタリング、スマート周波数調整。完全無料、データアップロードなし。">
     <title>音で、あなたらしい毎日へ</title>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="音で、あなたらしい毎日へ" />
-    <meta property="og:description" content="システムはあなたの呼吸状態をリアルタイムで監視し、ビート周波数を自動調整してさまざまな意識状態へ導きます：" />
+    <meta property="og:description" content="無料オープンソースのAI呼吸ガイド。バイノーラルビートで瞑想、集中、深い眠りへ。リアルタイム呼吸モニタリング。" />
     <meta property="og:image" content="https://www.vuko.life/assets/ja/home-og.jpg" />
     <meta property="og:url" content="https://www.vuko.life/app/ja.html" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="音で、あなたらしい毎日へ">
-    <meta name="twitter:description" content="システムはあなたの呼吸状態をリアルタイムで監視し、ビート周波数を自動調整してさまざまな意識状態へ導きます：">
+    <meta name="twitter:description" content="無料オープンソースのAI呼吸ガイド。バイノーラルビートで瞑想、集中、深い眠りへ。リアルタイム呼吸モニタリング。">
     <meta name="twitter:image" content="https://www.vuko.life/assets/ja/home-og.jpg">
     <base href="../">
     <link rel="canonical" href="https://www.vuko.life/app/ja.html" />
@@ -37,6 +37,10 @@
     </script>
 </head>
 <body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+    </button>
     <div class="container">
         <h1 id="mainTitle">音で、あなたらしい毎日へ</h1>
 
@@ -124,6 +128,12 @@
         </div>
     </div>
 
+    
+    <div class="faq-section">
+        <h2 id="faqTitle" class="section-title"></h2>
+        <div id="faqList" class="faq-list"></div>
+    </div>
+
     <div class="footer">
         <a href="https://github.com/weiqi-kids/vuko.life" target="_blank">GitHub</a>
     </div>
@@ -134,6 +144,9 @@
     <script src="js/onboarding.js"></script>
     <script src="js/session_tracker.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script src="js/lang-switcher.js"></script>
     <script>CONFIG.LANGUAGE = 'ja';</script>
 </body>
 </html>

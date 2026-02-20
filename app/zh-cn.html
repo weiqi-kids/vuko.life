@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vuko 智能呼吸节奏处理器 - 通过双耳节拍引导你进入冥想、专注、放松或睡眠状态。实时监测呼吸，自动调整频率。">
+    <meta name="description" content="免费开源的 AI 呼吸引导工具 - 通过双耳拍频进入冥想、专注或深层睡眠。实时监测呼吸，智能调整频率。完全免费，音频不上传。">
     <title>用声音，遇见更好的自己</title>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="用声音，遇见更好的自己" />
-    <meta property="og:description" content="系统会实时监测你的呼吸状态，并自动调整拍频来引导你进入不同的意识状态：" />
+    <meta property="og:description" content="免费开源的 AI 呼吸引导工具。通过双耳拍频进入冥想、专注或深层睡眠，实时监测呼吸，智能调整频率。" />
     <meta property="og:image" content="https://www.vuko.life/assets/zh-cn/home-og.jpg" />
     <meta property="og:url" content="https://www.vuko.life/app/zh-cn.html" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="用声音，遇见更好的自己">
-    <meta name="twitter:description" content="系统会实时监测你的呼吸状态，并自动调整拍频来引导你进入不同的意识状态：">
+    <meta name="twitter:description" content="免费开源的 AI 呼吸引导工具。通过双耳拍频进入冥想、专注或深层睡眠，实时监测呼吸，智能调整频率。">
     <meta name="twitter:image" content="https://www.vuko.life/assets/zh-cn/home-og.jpg">
     <base href="../">
     <link rel="canonical" href="https://www.vuko.life/app/zh-cn.html" />
@@ -37,6 +37,10 @@
     </script>
 </head>
 <body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+    </button>
     <div class="container">
         <h1 id="mainTitle">用声音，遇见更好的自己</h1>
 
@@ -124,6 +128,12 @@
         </div>
     </div>
 
+    
+    <div class="faq-section">
+        <h2 id="faqTitle" class="section-title"></h2>
+        <div id="faqList" class="faq-list"></div>
+    </div>
+
     <div class="footer">
         <a href="https://github.com/weiqi-kids/vuko.life" target="_blank">GitHub</a>
     </div>
@@ -134,6 +144,9 @@
     <script src="js/onboarding.js"></script>
     <script src="js/session_tracker.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script src="js/lang-switcher.js"></script>
     <script>CONFIG.LANGUAGE = 'zh-cn';</script>
 </body>
 </html>

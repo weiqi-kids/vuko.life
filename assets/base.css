@@ -4,28 +4,59 @@
             box-sizing: border-box;
         }
 
+        /* P2-2: 深色模式 CSS 變數 */
+        :root {
+            --bg-gradient-start: #667eea;
+            --bg-gradient-end: #764ba2;
+            --container-bg: rgba(255, 255, 255, 0.95);
+            --text-primary: #333;
+            --text-secondary: #555;
+            --text-muted: #666;
+            --border-color: #eee;
+            --input-bg: #fff;
+            --card-bg: rgba(255, 255, 255, 0.95);
+            --accent-color: #667eea;
+            --accent-secondary: #764ba2;
+        }
+
+        [data-theme="dark"] {
+            --bg-gradient-start: #1a1a2e;
+            --bg-gradient-end: #16213e;
+            --container-bg: rgba(30, 30, 50, 0.95);
+            --text-primary: #e0e0e0;
+            --text-secondary: #b0b0b0;
+            --text-muted: #888;
+            --border-color: #404060;
+            --input-bg: #2a2a4a;
+            --card-bg: rgba(40, 40, 65, 0.95);
+            --accent-color: #8b9ff0;
+            --accent-secondary: #a78bda;
+        }
+
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
             min-height: 100vh;
             padding: 20px;
+            transition: background 0.3s ease;
         }
 
         .container {
-            background: rgba(255, 255, 255, 0.95);
+            background: var(--container-bg);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 40px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             max-width: 800px;
             margin: 0 auto;
+            transition: background 0.3s ease;
         }
 
         h1 {
-            color: #333;
+            color: var(--text-primary);
             margin-bottom: 30px;
             font-size: 2.5rem;
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, var(--accent-color), var(--accent-secondary));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -34,19 +65,19 @@
 
         .adaptive-mode {
             background: rgba(102, 126, 234, 0.1);
-            border: 2px solid #667eea;
+            border: 2px solid var(--accent-color);
             border-radius: 25px;
             padding: 25px;
         }
 
         .adaptive-mode h3 {
-            color: #667eea;
+            color: var(--accent-color);
             margin-bottom: 15px;
             font-size: 1.5rem;
         }
 
         .adaptive-mode p {
-            color: #555;
+            color: var(--text-secondary);
             line-height: 1.6;
             margin-bottom: 15px;
         }
@@ -852,4 +883,308 @@
 
         .share-line {
             background: #00B900;
+        }
+
+        /* P2-1: FAQ 區塊 */
+        .faq-section {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .faq-section .section-title {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .faq-item {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-question {
+            padding: 18px 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            transition: transform 0.3s;
+        }
+
+        .faq-item[open] .faq-question::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            padding: 0 20px 18px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        .faq-item[open] {
+            border-left: 3px solid var(--accent-color);
+        }
+
+        /* P2-2: 主題切換按鈕 */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: none;
+            background: var(--container-bg);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s, background 0.3s;
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        .theme-toggle .icon-sun,
+        .theme-toggle .icon-moon {
+            position: absolute;
+            transition: opacity 0.3s, transform 0.3s;
+        }
+
+        .theme-toggle .icon-sun {
+            opacity: 1;
+        }
+
+        .theme-toggle .icon-moon {
+            opacity: 0;
+        }
+
+        [data-theme="dark"] .theme-toggle .icon-sun {
+            opacity: 0;
+            transform: rotate(-90deg);
+        }
+
+        [data-theme="dark"] .theme-toggle .icon-moon {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+
+        /* P2-3: 鍵盤快捷鍵說明 */
+        .keyboard-help-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+
+        .keyboard-help-modal.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .keyboard-help-content {
+            background: var(--container-bg);
+            border-radius: 16px;
+            padding: 30px;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .keyboard-help-content h3 {
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+
+        .keyboard-help-content ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .keyboard-help-content li {
+            color: var(--text-secondary);
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .keyboard-help-content kbd {
+            background: var(--input-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            box-shadow: 0 2px 0 var(--border-color);
+        }
+
+        .keyboard-help-close {
+            width: 100%;
+            padding: 12px;
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .keyboard-help-close:hover {
+            opacity: 0.9;
+        }
+
+        /* P2-4: 語言切換器 */
+        .lang-switcher {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+
+        .lang-switcher-btn {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 14px;
+            background: var(--container-bg);
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .lang-switcher-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+        }
+
+        .lang-flag {
+            font-size: 1.2rem;
+        }
+
+        .lang-code {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .lang-arrow {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            transition: transform 0.2s;
+        }
+
+        .lang-dropdown {
+            position: absolute;
+            top: calc(100% + 8px);
+            left: 0;
+            background: var(--container-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            max-height: 300px;
+            overflow-y: auto;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+            min-width: 180px;
+        }
+
+        .lang-dropdown.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .lang-option {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            padding: 12px 16px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            text-align: left;
+            transition: background 0.2s;
+        }
+
+        .lang-option:first-child {
+            border-radius: 12px 12px 0 0;
+        }
+
+        .lang-option:last-child {
+            border-radius: 0 0 12px 12px;
+        }
+
+        .lang-option:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .lang-option.active {
+            background: rgba(102, 126, 234, 0.15);
+        }
+
+        .lang-option .lang-name {
+            color: var(--text-primary);
+            font-size: 0.9rem;
+        }
+
+        .lang-option.active .lang-name {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* 滾動條樣式 */
+        .lang-dropdown::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .lang-dropdown::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .lang-dropdown::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 3px;
         }

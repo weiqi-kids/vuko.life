@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vuko - Processeur de rythme respiratoire IA. Utilisez les battements binauraux pour la méditation, la concentration, la relaxation ou le sommeil.">
+    <meta name="description" content="Guide de respiration IA gratuit et open-source - Utilisez les battements binauraux pour la méditation, la concentration ou le sommeil profond. Surveillance respiratoire en temps réel. 100% gratuit.">
     <title>With sound, meet a better version of yourself</title>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="With sound, meet a better version of yourself" />
-    <meta property="og:description" content="The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:" />
+    <meta property="og:description" content="Guide de respiration IA gratuit et open-source. Utilisez les battements binauraux pour la méditation, la concentration ou le sommeil profond." />
     <meta property="og:image" content="https://www.vuko.life/assets/fr-be/home-og.jpg" />
     <meta property="og:url" content="https://www.vuko.life/app/fr-be.html" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="With sound, meet a better version of yourself">
-    <meta name="twitter:description" content="The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:">
+    <meta name="twitter:description" content="Guide de respiration IA gratuit et open-source. Utilisez les battements binauraux pour la méditation, la concentration ou le sommeil profond.">
     <meta name="twitter:image" content="https://www.vuko.life/assets/fr-be/home-og.jpg">
     <base href="../">
     <link rel="canonical" href="https://www.vuko.life/app/fr-be.html" />
@@ -37,6 +37,10 @@
     </script>
 </head>
 <body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+    </button>
     <div class="container">
         <h1 id="mainTitle">With sound, meet a better version of yourself</h1>
 
@@ -124,6 +128,12 @@
         </div>
     </div>
 
+    
+    <div class="faq-section">
+        <h2 id="faqTitle" class="section-title"></h2>
+        <div id="faqList" class="faq-list"></div>
+    </div>
+
     <div class="footer">
         <a href="https://github.com/weiqi-kids/vuko.life" target="_blank">GitHub</a>
     </div>
@@ -134,6 +144,9 @@
     <script src="js/onboarding.js"></script>
     <script src="js/session_tracker.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script src="js/lang-switcher.js"></script>
     <script>CONFIG.LANGUAGE = 'fr-be';</script>
 </body>
 </html>
