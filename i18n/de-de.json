@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "Mit Klang, begegne deinem besseren Ich",
+  "subtitle": "🤖 Gebrauchsanweisung",
+  "description": "Das System überwacht in Echtzeit deinen Atemzustand und passt die Binauralfrequenz automatisch an, um dich in verschiedene Bewusstseinszustände zu führen:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "Bitte benutze <strong>Stereo-Kopfhörer</strong>, um den Effekt der Binauralfrequenz zu erzielen.",
+    "microphone": "Wenn du der Nutzung deines <strong>Mikrofons</strong> zustimmst, halte das Mikrofon in die Nähe von Mund und Nase. Wir werden versuchen, dich in einen tieferen Zustand zu führen."
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "Binauralfrequenz {binaural}% / Hintergrundgeräusch {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "Audiodateien werden lokal verarbeitet und nicht hochgeladen.",
-    "loadingMusic": "Musik wird geladen..."
+    "breathRate": "Atemfrequenz:",
+    "noiseLevel": "Hintergrundgeräusch:",
+    "baseFreq": "Grundfrequenz:",
+    "audioFile": "Hintergrund-Audiodatei:",
+    "volumeRatio": "Lautstärkeverhältnis:",
+    "breathVisual": "Atemvisualisierung",
+    "realTimeData": "Echtzeitdaten",
+    "systemConfig": "Binauralfrequenz-Einstellungen",
+    "audioSearch": "🎵 Hintergrundmusik-Suche",
+    "searchPlaceholder": "Musik suchen... (z.B.: Klavier, Meer, Meditation)",
+    "noResults": "Keine passende Musik gefunden",
+    "currentMusic": "Aktuelle Auswahl",
+    "deviceTest": "Gerätetest",
+    "libraryTab": "Online-Audiothek",
+    "localFileTab": "Lokale Datei",
+    "filePrivacyMsg": "Audiodateien werden nur lokal verarbeitet und nicht hochgeladen."
   },
   "buttons": {
-    "start": "🎶 Starten",
-    "stop": "🍂 Stoppen",
-    "loading": "Laden..."
+    "start": "🎶 Start",
+    "stop": "🍂 Stopp"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo-Modus - Geniessen Sie binaurale Beats ohne Atemüberwachung"
+    "monitoring": "🎙️ Atemüberwachung läuft... Bitte atmen Sie natürlich weiter",
+    "stopped": "Überwachung gestoppt",
+    "error": "❌ Konnte nicht gestartet werden:",
+    "unsupported": "⚠️ Ihr Browser unterstützt die Mikrofonfunktion nicht, Atemüberwachung nicht möglich",
+    "waiting": "Zu überprüfen"
   },
   "units": {
-    "perMin": "times/min",
+    "perMin": "Mal/Min",
     "hz": "Hz",
     "db": "dB",
-    "none": "None"
+    "none": "Keine"
   },
   "binauralOptions": [
-    "Focus",
+    "Fokus",
     "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "Schumann-Resonanz",
+    "Schlaf",
+    "Erfrischung",
+    "Inspiration"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Willkommen bei Vuko",
-      "text": "Nutze binaurale Beats, um dich in verschiedene Bewusstseinszustände zu führen - Meditation, Fokus, Entspannung oder Schlaf."
-    },
-    "step1": {
-      "title": "Schritt 1: Kopfhörer aufsetzen",
-      "text": "Binaurale Beats erfordern Stereo-Kopfhörer. Das linke und rechte Ohr empfangen leicht unterschiedliche Frequenzen, die einen wahrgenommenen Beat in deinem Gehirn erzeugen."
-    },
-    "step2": {
-      "title": "Schritt 2: Wähle deine Musik",
-      "text": "Wähle Hintergrundmusik, die dir beim Entspannen hilft. Du kannst nach Stimmung (ruhig, fokussiert) oder Instrument (Klavier, Naturgeräusche) suchen."
-    },
-    "step3": {
-      "title": "Schritt 3: Starte deine Sitzung",
-      "text": "Klicke auf 'Start', um zu beginnen. Für das volle Erlebnis erlaube Mikrofonzugriff, damit wir die Beats an deinen Atemrhythmus anpassen können."
-    },
-    "buttons": {
-      "next": "Weiter",
-      "prev": "Zurück",
-      "skip": "Überspringen",
-      "start": "Loslegen",
-      "tryDemo": "Erst Demo testen",
-      "gotIt": "Verstanden"
-    },
-    "demo": {
-      "indicator": "Demo-Modus",
-      "upgrade": "Alle Funktionen aktivieren"
-    }
+  "sections": {
+    "instructions": "Benutzeranleitung",
+    "settings": "Funktionseinstellungen",
+    "monitor": "Atemüberwachung"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "10Hz Alpha-Wellen, helfen beim Erreichen eines fokussierten Zustands, geeignet für Arbeit und Lernen",
+    "冥想": "7Hz Theta-Wellen, führen zu tiefer Entspannung, geeignet für Meditation",
+    "舒曼共振": "7,83Hz natürliche Erd-Frequenz, balanciert Körper und Geist",
+    "睡眠": "3Hz Delta-Wellen, helfen beim schnellen Einschlafen",
+    "提神": "15Hz Beta-Wellen, steigern die geistige Vitalität",
+    "激發靈感": "40Hz Gamma-Wellen, fördern kreatives Denken"
+  },
+  "trust": {
+    "free": "Völlig kostenlos, keine Registrierung erforderlich",
+    "openSource": "Open-Source-Projekt",
+    "privacy": "Audio wird nur lokal verarbeitet, nicht auf den Server hochgeladen"
+  },
+  "share": {
+    "title": "Teilen",
+    "twitter": "Auf Twitter teilen",
+    "facebook": "Auf Facebook teilen",
+    "line": "Auf LINE teilen"
   }
 }

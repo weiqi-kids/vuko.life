@@ -3,7 +3,7 @@
   "subtitle": "🤖 사용 설명서",
   "description": "시스템은 실시간으로 당신의 호흡 상태를 모니터링하고, 자동으로 박동수를 조절하여 다양한 의식 상태로 안내합니다:",
   "instructions": {
-    "headphones": "<strong>스테레오 이어폰</strong>을 사용하세요. 그래야 뇌의 박동 효과를 얻을 수 있습니다.",
+    "headphones": "<strong>스테레오 헤드폰</strong>을 사용하세요. 그래야 뇌의 박동 효과를 얻을 수 있습니다.",
     "microphone": "<strong>마이크</strong> 사용에 동의하시면, 마이크를 입과 코 가까이에 두세요. 더 깊은 상태로 안내해 드리겠습니다."
   },
   "volumeRatioDetail": "박동수 {binaural}% / 배경음 {background}%",
@@ -23,21 +23,18 @@
     "deviceTest": "장비 테스트",
     "libraryTab": "온라인 음원 라이브러리",
     "localFileTab": "로컬 파일",
-    "filePrivacyMsg": "오디오 파일은 로컬에서만 처리되며 업로드되지 않습니다.",
-    "loadingMusic": "음악 로딩 중..."
+    "filePrivacyMsg": "오디오 파일은 로컬에서만 처리되며 업로드되지 않습니다."
   },
   "buttons": {
     "start": "🎶 시작",
-    "stop": "🍂 중지",
-    "loading": "로딩 중..."
+    "stop": "🍂 중지"
   },
   "status": {
     "monitoring": "🎙️ 호흡 모니터링 중... 자연스럽게 호흡하세요",
     "stopped": "모니터링이 중지되었습니다",
     "error": "❌ 시작할 수 없음:",
     "unsupported": "⚠️ 브라우저가 마이크 기능을 지원하지 않아 호흡 모니터링을 사용할 수 없습니다",
-    "waiting": "검출 대기 중",
-    "demoMode": "🎧 데모 모드 - 호흡 감지 없이 양이 박동 즐기기"
+    "waiting": "검사 대기 중"
   },
   "units": {
     "perMin": "회/분",
@@ -53,42 +50,28 @@
     "기운 돋우기",
     "영감 자극"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Vuko에 오신 것을 환영합니다",
-      "text": "양이 박동을 사용하여 명상, 집중, 휴식 또는 수면 등 다양한 의식 상태로 안내합니다."
-    },
-    "step1": {
-      "title": "1단계: 헤드폰 착용",
-      "text": "양이 박동은 스테레오 헤드폰이 필요합니다. 왼쪽과 오른쪽 귀에 약간 다른 주파수가 전달되어 뇌에서 박동 효과가 생성됩니다."
-    },
-    "step2": {
-      "title": "2단계: 음악 선택",
-      "text": "휴식에 도움이 되는 배경 음악을 선택하세요. 기분(차분함, 집중) 또는 악기(피아노, 자연 소리)로 검색할 수 있습니다."
-    },
-    "step3": {
-      "title": "3단계: 세션 시작",
-      "text": "'시작'을 클릭하여 시작하세요. 완전한 경험을 위해 마이크 접근을 허용하면 호흡 리듬에 맞춰 박동이 조절됩니다."
-    },
-    "buttons": {
-      "next": "다음",
-      "prev": "이전",
-      "skip": "건너뛰기",
-      "start": "시작하기",
-      "tryDemo": "먼저 데모 체험",
-      "gotIt": "알겠습니다"
-    },
-    "demo": {
-      "indicator": "데모 모드",
-      "upgrade": "전체 기능 활성화"
-    }
+  "sections": {
+    "instructions": "사용 설명서",
+    "settings": "기능 설정",
+    "monitor": "호흡 모니터링"
   },
-  "tracker": {
-    "title": "당신의 진행 상황",
-    "currentSession": "이번",
-    "todayTime": "오늘",
-    "streak": "연속",
-    "totalTime": "총 시간",
-    "days": "일"
+  "binauralDescriptions": {
+    "專注": "10Hz 알파파, 집중 상태로 진입을 도와주며, 업무 및 학습에 적합",
+    "冥想": "7Hz 세타파, 깊은 이완을 유도하며, 명상에 적합",
+    "舒曼共振": "7.83Hz 지구 자연 주파수, 심신 에너지 균형",
+    "睡眠": "3Hz 델타파, 빠른 수면 유도",
+    "提神": "15Hz 베타파, 정신 활력 증진",
+    "激發靈感": "40Hz 감마파, 창의적 사고 증진"
+  },
+  "trust": {
+    "free": "완전 무료, 등록 불필요",
+    "openSource": "오픈 소스 프로젝트",
+    "privacy": "오디오가 로컬에서만 처리되며 서버에 업로드되지 않음"
+  },
+  "share": {
+    "title": "공유",
+    "twitter": "Twitter에 공유",
+    "facebook": "Facebook에 공유",
+    "line": "LINE에 공유"
   }
 }

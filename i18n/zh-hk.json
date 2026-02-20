@@ -23,21 +23,18 @@
     "deviceTest": "設備測試",
     "libraryTab": "線上音庫",
     "localFileTab": "本機檔案",
-    "filePrivacyMsg": "音檔僅在本機處理，不會上載。",
-    "loadingMusic": "載入音樂中..."
+    "filePrivacyMsg": "音檔僅在本機處理，不會上載。"
   },
   "buttons": {
     "start": "🎶 開始",
-    "stop": "🍂停止",
-    "loading": "載入中..."
+    "stop": "🍂停止"
   },
   "status": {
     "monitoring": "🎙️ 呼吸監測中... 請保持自然呼吸",
     "stopped": "監測已停止",
     "error": "❌ 無法啟動：",
-    "unsupported": "⚠️ 您的瀏覽器不支援咪高峰功能，無法使用呼吸監測",
-    "waiting": "待檢測",
-    "demoMode": "🎧 試聽模式 - 享受雙耳拍頻，無需呼吸偵測"
+    "unsupported": "⚠️ 您的瀏覽器不支援麥克風功能，無法使用呼吸監測",
+    "waiting": "待檢測"
   },
   "units": {
     "perMin": "次/分",
@@ -53,42 +50,28 @@
     "提神",
     "激發靈感"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "歡迎嚟到 Vuko",
-      "text": "透過雙耳拍頻，引導你進入唔同嘅意識狀態——冥想、專注、放鬆或瞓覺。"
-    },
-    "step1": {
-      "title": "第一步：戴上耳機",
-      "text": "雙耳拍頻需要立體聲耳機先可以運作。左右耳會接收略有唔同嘅頻率，喺腦入面產生拍頻效果。"
-    },
-    "step2": {
-      "title": "第二步：揀音樂",
-      "text": "揀啲能幫你放鬆嘅背景音樂。你可以按心情（平靜、專注）或樂器（鋼琴、自然音）搜尋。"
-    },
-    "step3": {
-      "title": "第三步：開始體驗",
-      "text": "撳「開始」就可以開始。若要獲得完整體驗，請允許咪高峰存取，系統將根據你嘅呼吸節奏自動調整拍頻。"
-    },
-    "buttons": {
-      "next": "下一步",
-      "prev": "上一步",
-      "skip": "跳過",
-      "start": "開始體驗",
-      "tryDemo": "先試聽吓",
-      "gotIt": "明白"
-    },
-    "demo": {
-      "indicator": "試聽模式",
-      "upgrade": "啟用完整功能"
-    }
+  "sections": {
+    "instructions": "使用說明",
+    "settings": "功能設定",
+    "monitor": "呼吸監測"
   },
-  "tracker": {
-    "title": "你的進度",
-    "currentSession": "本次",
-    "todayTime": "今日",
-    "streak": "連續",
-    "totalTime": "總計",
-    "days": "天"
+  "binauralDescriptions": {
+    "專注": "10Hz Alpha 波，幫助進入專注狀態，適合工作學習",
+    "冥想": "7Hz Theta 波，引導深層放鬆，適合靜坐冥想",
+    "舒曼共振": "7.83Hz 地球自然頻率，平衡身心能量",
+    "睡眠": "3Hz Delta 波，幫助快速入睡",
+    "提神": "15Hz Beta 波，提升精神活力",
+    "激發靈感": "40Hz Gamma 波，提升創意思維"
+  },
+  "trust": {
+    "free": "完全免費，無需註冊",
+    "openSource": "開源項目",
+    "privacy": "音訊僅在本機處理，不上傳伺服器"
+  },
+  "share": {
+    "title": "分享",
+    "twitter": "分享到 Twitter",
+    "facebook": "分享到 Facebook",
+    "line": "分享到 LINE"
   }
 }

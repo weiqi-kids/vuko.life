@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "आवाज़ के माध्यम से, अपने बेहतर स्वरूप से मिलें",
+  "subtitle": "🤖 उपयोग निर्देश",
+  "description": "सिस्टम आपकी श्वास स्थिति की वास्तविक समय में निगरानी करेगा और आपको विभिन्न चेतना अवस्थाओं में ले जाने के लिए स्वतः ही बाइनॉरल बीट्स को समायोजित करेगा:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "कृपया <strong>स्टीरियो हेडफ़ोन</strong> का उपयोग करें, ताकि मस्तिष्क में बाइनॉरल बीट्स का प्रभाव प्राप्त हो सके।",
+    "microphone": "यदि आप अपने <strong>माइक्रोफोन</strong> का उपयोग करने के लिए सहमत हैं, तो कृपया माइक्रोफोन को अपने मुंह और नाक के पास रखें, हम आपको गहरे स्तर की स्थिति में ले जाने का प्रयास करेंगे।"
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "बाइनॉरल बीट्स {binaural}% / पृष्ठभूमि ध्वनि {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "ऑडियो फ़ाइलें स्थानीय रूप से संसाधित की जाती हैं और अपलोड नहीं की जाएंगी।",
-    "loadingMusic": "संगीत लोड हो रहा है..."
+    "breathRate": "श्वास दर:",
+    "noiseLevel": "पृष्ठभूमि शोर:",
+    "baseFreq": "मूल आवृत्ति:",
+    "audioFile": "पृष्ठभूमि ध्वनि फ़ाइल:",
+    "volumeRatio": "ध्वनि अनुपात:",
+    "breathVisual": "श्वास दृश्यांकन",
+    "realTimeData": "वास्तविक समय डेटा",
+    "systemConfig": "बाइनॉरल बीट्स सेटिंग",
+    "audioSearch": "🎵 पृष्ठभूमि संगीत खोज",
+    "searchPlaceholder": "संगीत खोजें... (उदाहरण: पियानो, समुद्र, ध्यान)",
+    "noResults": "संबंधित संगीत नहीं मिला",
+    "currentMusic": "वर्तमान चयन",
+    "deviceTest": "उपकरण परीक्षण",
+    "libraryTab": "ऑनलाइन संगीत पुस्तकालय",
+    "localFileTab": "स्थानीय फ़ाइल",
+    "filePrivacyMsg": "ऑडियो फ़ाइल केवल स्थानीय रूप से संसाधित की जाती है, अपलोड नहीं की जाएगी।"
   },
   "buttons": {
     "start": "🎶 शुरू करें",
-    "stop": "🍂 रोकें",
-    "loading": "लोड हो रहा है..."
+    "stop": "🍂 रोकें"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
+    "monitoring": "🎙️ श्वास निगरानी में... कृपया स्वाभाविक रूप से सांस लें",
+    "stopped": "निगरानी बंद हो गई है",
+    "error": "❌ प्रारंभ करने में असमर्थ:",
+    "unsupported": "⚠️ आपका ब्राउज़र माइक्रोफ़ोन फ़ंक्शन का समर्थन नहीं करता है, श्वास निगरानी का उपयोग नहीं किया जा सकता",
+    "waiting": "जांच के लिए तैयार"
   },
   "units": {
-    "perMin": "times/min",
+    "perMin": "बार/मिनट",
     "hz": "Hz",
     "db": "dB",
-    "none": "None"
+    "none": "कोई नहीं"
   },
   "binauralOptions": [
-    "Focus",
-    "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "ध्यान",
+    "ध्यान",
+    "शुमान अनुनाद",
+    "नींद",
+    "ताजगी",
+    "प्रेरणा उत्पन्न करें"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Welcome to Vuko",
-      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
-    },
-    "step1": {
-      "title": "Step 1: Wear Headphones",
-      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
-    },
-    "step2": {
-      "title": "Step 2: Choose Your Music",
-      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
-    },
-    "step3": {
-      "title": "Step 3: Start Your Session",
-      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
-    },
-    "buttons": {
-      "next": "Next",
-      "prev": "Back",
-      "skip": "Skip",
-      "start": "Get Started",
-      "tryDemo": "Try Demo First",
-      "gotIt": "Got It"
-    },
-    "demo": {
-      "indicator": "Demo Mode",
-      "upgrade": "Enable Full Features"
-    }
+  "sections": {
+    "instructions": "उपयोग निर्देश",
+    "settings": "कार्यात्मक सेटिंग",
+    "monitor": "श्वास निगरानी"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "10Hz अल्फा तरंग, ध्यान की स्थिति में प्रवेश करने में मदद करती है, काम और अध्ययन के लिए उपयुक्त",
+    "冥想": "7Hz थीटा तरंग, गहरी विश्राम का मार्गदर्शन करती है, ध्यान के लिए उपयुक्त",
+    "舒曼共振": "7.83Hz पृथ्वी की प्राकृतिक आवृत्ति, शरीर और मन की ऊर्जा को संतुलित करती है",
+    "睡眠": "3Hz डेल्टा तरंग, तेजी से सोने में मदद करती है",
+    "提神": "15Hz बीटा तरंग, मानसिक ऊर्जा को बढ़ाती है",
+    "激發靈感": "40Hz गामा तरंग, रचनात्मक सोच को बढ़ाती है"
+  },
+  "trust": {
+    "free": "पूरी तरह से मुफ्त, पंजीकरण की आवश्यकता नहीं",
+    "openSource": "ओपन सोर्स प्रोजेक्ट",
+    "privacy": "ऑडियो केवल स्थानीय रूप से संसाधित होता है, सर्वर पर अपलोड नहीं होता"
+  },
+  "share": {
+    "title": "साझा करें",
+    "twitter": "Twitter पर साझा करें",
+    "facebook": "Facebook पर साझा करें",
+    "line": "LINE पर साझा करें"
   }
 }

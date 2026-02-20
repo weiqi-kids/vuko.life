@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "Sesle, daha iyi bir senle tanış",
+  "subtitle": "🤖 Kullanım Kılavuzu",
+  "description": "Sistem, nefes alma durumunuzu gerçek zamanlı olarak izler ve sizi farklı bilinç durumlarına yönlendirmek için frekansı otomatik olarak ayarlar:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "<strong>Çift kanallı kulaklık</strong> kullanın, böylece beyninizdeki frekans etkisini elde edebilirsiniz.",
+    "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağzınıza ve burnunuza yakın tutun, sizi daha derin bir duruma yönlendirmeye çalışacağız."
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "Frekans {binaural}% / Arka plan sesi {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "Ses dosyaları yerel olarak işlenir ve yüklenmez.",
-    "loadingMusic": "Müzik yükleniyor..."
+    "breathRate": "Nefes alma hızı:",
+    "noiseLevel": "Arka plan gürültüsü:",
+    "baseFreq": "Temel frekans:",
+    "audioFile": "Arka plan ses dosyası:",
+    "volumeRatio": "Ses seviyesi oranı:",
+    "breathVisual": "Nefes görselleştirme",
+    "realTimeData": "Gerçek zamanlı veri",
+    "systemConfig": "Çift kulak frekans ayarı",
+    "audioSearch": "🎵 Arka plan müziği arama",
+    "searchPlaceholder": "Müzik ara... (örneğin: piyano, deniz, meditasyon)",
+    "noResults": "İlgili müzik bulunamadı",
+    "currentMusic": "Mevcut seçim",
+    "deviceTest": "Cihaz testi",
+    "libraryTab": "Çevrimiçi ses kütüphanesi",
+    "localFileTab": "Yerel Dosya",
+    "filePrivacyMsg": "Ses dosyası yalnızca yerel olarak işlenir, yüklenmez."
   },
   "buttons": {
     "start": "🎶 Başla",
-    "stop": "🍂 Dur",
-    "loading": "Yükleniyor..."
+    "stop": "🍂 Durdur"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
+    "monitoring": "🎙️ Nefes izleniyor... Lütfen doğal nefes alın",
+    "stopped": "İzleme durduruldu",
+    "error": "❌ Başlatılamıyor:",
+    "unsupported": "⚠️ Tarayıcınız mikrofon özelliğini desteklemiyor, nefes izleme kullanılamaz",
+    "waiting": "Tespit edilecek"
   },
   "units": {
-    "perMin": "times/min",
+    "perMin": "kez/dakika",
     "hz": "Hz",
     "db": "dB",
-    "none": "None"
+    "none": "Yok"
   },
   "binauralOptions": [
-    "Focus",
-    "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "Odaklanma",
+    "Meditasyon",
+    "Schumann Rezonansı",
+    "Uyku",
+    "Canlandırıcı",
+    "İlham Verici"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Welcome to Vuko",
-      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
-    },
-    "step1": {
-      "title": "Step 1: Wear Headphones",
-      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
-    },
-    "step2": {
-      "title": "Step 2: Choose Your Music",
-      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
-    },
-    "step3": {
-      "title": "Step 3: Start Your Session",
-      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
-    },
-    "buttons": {
-      "next": "Next",
-      "prev": "Back",
-      "skip": "Skip",
-      "start": "Get Started",
-      "tryDemo": "Try Demo First",
-      "gotIt": "Got It"
-    },
-    "demo": {
-      "indicator": "Demo Mode",
-      "upgrade": "Enable Full Features"
-    }
+  "sections": {
+    "instructions": "Kullanım Kılavuzu",
+    "settings": "Fonksiyon Ayarları",
+    "monitor": "Nefes İzleme"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "10Hz Alfa dalgası, odaklanma durumuna geçişe yardımcı olur, çalışma ve öğrenme için uygundur",
+    "冥想": "7Hz Teta dalgası, derin gevşemeye rehberlik eder, meditasyon için uygundur",
+    "舒曼共振": "7.83Hz Dünya'nın doğal frekansı, beden ve zihin enerjisini dengeler",
+    "睡眠": "3Hz Delta dalgası, hızlı uykuya dalmaya yardımcı olur",
+    "提神": "15Hz Beta dalgası, zihinsel canlılığı artırır",
+    "激發靈感": "40Hz Gama dalgası, yaratıcı düşünceyi geliştirir"
+  },
+  "trust": {
+    "free": "Tamamen ücretsiz, kayıt gerektirmez",
+    "openSource": "Açık kaynak projesi",
+    "privacy": "Ses yalnızca yerel olarak işlenir, sunucuya yüklenmez"
+  },
+  "share": {
+    "title": "Paylaş",
+    "twitter": "Twitter'da Paylaş",
+    "facebook": "Facebook'ta Paylaş",
+    "line": "LINE'da Paylaş"
   }
 }

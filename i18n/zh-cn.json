@@ -23,21 +23,18 @@
     "deviceTest": "设备测试",
     "libraryTab": "线上音库",
     "localFileTab": "本地文件",
-    "filePrivacyMsg": "音频文件仅在本地处理，不会上传。",
-    "loadingMusic": "载入音乐中..."
+    "filePrivacyMsg": "音频文件仅在本地处理，不会上传。"
   },
   "buttons": {
     "start": "🎶 开始",
-    "stop": "🍂停止",
-    "loading": "载入中..."
+    "stop": "🍂停止"
   },
   "status": {
     "monitoring": "🎙️ 呼吸监测中... 请保持自然呼吸",
     "stopped": "监测已停止",
     "error": "❌ 无法启动：",
     "unsupported": "⚠️ 您的浏览器不支持麦克风功能，无法使用呼吸监测",
-    "waiting": "待检测",
-    "demoMode": "🎧 试听模式 - 享受双耳拍频，无需呼吸检测"
+    "waiting": "待检测"
   },
   "units": {
     "perMin": "次/分",
@@ -53,42 +50,28 @@
     "提神",
     "激发灵感"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "欢迎来到 Vuko",
-      "text": "通过双耳拍频，引导你进入不同的意识状态——冥想、专注、放松或睡眠。"
-    },
-    "step1": {
-      "title": "第一步：戴上耳机",
-      "text": "双耳拍频需要立体声耳机才能运作。左右耳会接收略有不同的频率，在脑中产生拍频效果。"
-    },
-    "step2": {
-      "title": "第二步：选择音乐",
-      "text": "选择能帮助你放松的背景音乐。你可以按心情（平静、专注）或乐器（钢琴、自然音）搜索。"
-    },
-    "step3": {
-      "title": "第三步：开始体验",
-      "text": "点击「开始」即可开始。若要获得完整体验，请允许麦克风访问，系统将根据你的呼吸节奏自动调整拍频。"
-    },
-    "buttons": {
-      "next": "下一步",
-      "prev": "上一步",
-      "skip": "跳过",
-      "start": "开始体验",
-      "tryDemo": "先试听看看",
-      "gotIt": "了解"
-    },
-    "demo": {
-      "indicator": "试听模式",
-      "upgrade": "启用完整功能"
-    }
+  "sections": {
+    "instructions": "使用说明",
+    "settings": "功能设置",
+    "monitor": "呼吸监测"
   },
-  "tracker": {
-    "title": "你的进度",
-    "currentSession": "本次",
-    "todayTime": "今日",
-    "streak": "连续",
-    "totalTime": "总计",
-    "days": "天"
+  "binauralDescriptions": {
+    "專注": "10Hz Alpha 波，帮助进入专注状态，适合工作学习",
+    "冥想": "7Hz Theta 波，引导深层放松，适合静坐冥想",
+    "舒曼共振": "7.83Hz 地球自然频率，平衡身心能量",
+    "睡眠": "3Hz Delta 波，帮助快速入睡",
+    "提神": "15Hz Beta 波，提升精神活力",
+    "激發靈感": "40Hz Gamma 波，提升创意思维"
+  },
+  "trust": {
+    "free": "完全免费，无需注册",
+    "openSource": "开源项目",
+    "privacy": "音频仅在本机处理，不上传服务器"
+  },
+  "share": {
+    "title": "分享",
+    "twitter": "分享到 Twitter",
+    "facebook": "分享到 Facebook",
+    "line": "分享到 LINE"
   }
 }

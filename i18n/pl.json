@@ -1,94 +1,77 @@
 {
-  "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "title": "Za pomocą dźwięku, spotkaj lepszą wersję siebie",
+  "subtitle": "🤖 Instrukcja obsługi",
+  "description": "System będzie na bieżąco monitorować twój stan oddechu i automatycznie dostosowywać częstotliwość bicia, aby wprowadzić cię w różne stany świadomości:",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
-    "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
+    "headphones": "Proszę używać <strong>słuchawek stereo</strong>, aby osiągnąć efekt częstotliwości bicia w mózgu.",
+    "microphone": "Jeśli zgadzasz się na użycie swojego <strong>mikrofonu</strong>, umieść go blisko ust i nosa, spróbujemy wprowadzić cię w głębszy stan."
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "Częstotliwość bicia {binaural}% / Dźwięk tła {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
-    "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
-    "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
-    "filePrivacyMsg": "Pliki audio są przetwarzane lokalnie i nie będą przesyłane.",
-    "loadingMusic": "Ładowanie muzyki..."
+    "breathRate": "Szybkość oddechu:",
+    "noiseLevel": "Szum tła:",
+    "baseFreq": "Częstotliwość podstawowa:",
+    "audioFile": "Plik dźwiękowy tła:",
+    "volumeRatio": "Proporcja głośności:",
+    "breathVisual": "Wizualizacja oddechu",
+    "realTimeData": "Dane w czasie rzeczywistym",
+    "systemConfig": "Ustawienia częstotliwości bicia binauralnego",
+    "audioSearch": "🎵 Wyszukiwanie muzyki w tle",
+    "searchPlaceholder": "Szukaj muzyki... (np.: fortepian, morze, medytacja)",
+    "noResults": "Nie znaleziono odpowiedniej muzyki",
+    "currentMusic": "Aktualny wybór",
+    "deviceTest": "Test urządzenia",
+    "libraryTab": "Biblioteka dźwięków online",
+    "localFileTab": "Plik lokalny",
+    "filePrivacyMsg": "Plik audio jest przetwarzany tylko lokalnie, nie będzie przesyłany."
   },
   "buttons": {
-    "start": "🎶 Start",
-    "stop": "🍂 Stop",
-    "loading": "Ładowanie..."
+    "start": "🎶 Rozpocznij",
+    "stop": "🍂 Zatrzymaj"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
+    "monitoring": "🎙️ Monitorowanie oddechu... Proszę oddychać naturalnie",
+    "stopped": "Monitorowanie zatrzymane",
+    "error": "❌ Nie można uruchomić:",
+    "unsupported": "⚠️ Twoja przeglądarka nie obsługuje funkcji mikrofonu, nie można użyć monitorowania oddechu",
+    "waiting": "Do wykrycia"
   },
   "units": {
-    "perMin": "times/min",
+    "perMin": "razy/min",
     "hz": "Hz",
     "db": "dB",
-    "none": "None"
+    "none": "Brak"
   },
   "binauralOptions": [
-    "Focus",
-    "Meditation",
-    "Schumann Resonance",
-    "Sleep",
-    "Refresh",
-    "Inspire Creativity"
+    "Skupienie",
+    "Medytacja",
+    "Rezonans Schumanna",
+    "Sen",
+    "Pobudzenie",
+    "Inspiracja"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Welcome to Vuko",
-      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
-    },
-    "step1": {
-      "title": "Step 1: Wear Headphones",
-      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
-    },
-    "step2": {
-      "title": "Step 2: Choose Your Music",
-      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
-    },
-    "step3": {
-      "title": "Step 3: Start Your Session",
-      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
-    },
-    "buttons": {
-      "next": "Next",
-      "prev": "Back",
-      "skip": "Skip",
-      "start": "Get Started",
-      "tryDemo": "Try Demo First",
-      "gotIt": "Got It"
-    },
-    "demo": {
-      "indicator": "Demo Mode",
-      "upgrade": "Enable Full Features"
-    }
+  "sections": {
+    "instructions": "Instrukcja obsługi",
+    "settings": "Ustawienia funkcji",
+    "monitor": "Monitorowanie oddechu"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "Fale Alfa 10Hz, pomagają wejść w stan skupienia, odpowiednie do pracy i nauki",
+    "冥想": "Fale Theta 7Hz, prowadzą do głębokiego relaksu, odpowiednie do medytacji",
+    "舒曼共振": "Naturalna częstotliwość Ziemi 7.83Hz, równoważy energię ciała i umysłu",
+    "睡眠": "Fale Delta 3Hz, pomagają szybko zasnąć",
+    "提神": "Fale Beta 15Hz, zwiększają energię umysłową",
+    "激發靈感": "Fale Gamma 40Hz, zwiększają kreatywne myślenie"
+  },
+  "trust": {
+    "free": "Całkowicie darmowe, bez rejestracji",
+    "openSource": "Projekt open source",
+    "privacy": "Dźwięk przetwarzany tylko lokalnie, nie przesyłany na serwer"
+  },
+  "share": {
+    "title": "Udostępnij",
+    "twitter": "Udostępnij na Twitterze",
+    "facebook": "Udostępnij na Facebooku",
+    "line": "Udostępnij na LINE"
   }
 }

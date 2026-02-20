@@ -1,9 +1,9 @@
 {
   "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 User Guide",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "subtitle": "🤖 Instructions",
+  "description": "The system will monitor your breathing in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
   "instructions": {
-    "headphones": "Please use <strong>binaural headphones</strong> to achieve the effect of binaural beats.",
+    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
   "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
@@ -23,21 +23,18 @@
     "deviceTest": "Device test",
     "libraryTab": "Online sound library",
     "localFileTab": "Local File",
-    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded.",
-    "loadingMusic": "Loading music..."
+    "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
   },
   "buttons": {
     "start": "🎶 Start",
-    "stop": "🍂 Stop",
-    "loading": "Loading..."
+    "stop": "🍂 Stop"
   },
   "status": {
     "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
     "stopped": "Monitoring stopped",
     "error": "❌ Unable to start:",
     "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
-    "waiting": "To be detected",
-    "demoMode": "🎧 Demo Mode - enjoying binaural beats without breathing detection"
+    "waiting": "To be detected"
   },
   "units": {
     "perMin": "times/min",
@@ -53,42 +50,28 @@
     "Refresh",
     "Inspire Creativity"
   ],
-  "onboarding": {
-    "welcome": {
-      "title": "Welcome to Vuko",
-      "text": "Use binaural beats to guide yourself into different states of consciousness - meditation, focus, relaxation, or sleep."
-    },
-    "step1": {
-      "title": "Step 1: Wear Headphones",
-      "text": "Binaural beats require stereo headphones to work. The left and right ears receive slightly different frequencies, creating a perceived beat in your brain."
-    },
-    "step2": {
-      "title": "Step 2: Choose Your Music",
-      "text": "Select background music that helps you relax. You can search by mood (calm, focus) or instrument (piano, nature sounds)."
-    },
-    "step3": {
-      "title": "Step 3: Start Your Session",
-      "text": "Click 'Start' to begin. For the full experience, allow microphone access so we can adapt the beats to your breathing rhythm."
-    },
-    "buttons": {
-      "next": "Next",
-      "prev": "Back",
-      "skip": "Skip",
-      "start": "Get Started",
-      "tryDemo": "Try Demo First",
-      "gotIt": "Got It"
-    },
-    "demo": {
-      "indicator": "Demo Mode",
-      "upgrade": "Enable Full Features"
-    }
+  "sections": {
+    "instructions": "Instructions",
+    "settings": "Function Settings",
+    "monitor": "Breathing Monitoring"
   },
-  "tracker": {
-    "title": "Your Progress",
-    "currentSession": "This Session",
-    "todayTime": "Today",
-    "streak": "Streak",
-    "totalTime": "Total Time",
-    "days": "days"
+  "binauralDescriptions": {
+    "專注": "10Hz Alpha waves, help enter a focused state, suitable for work and study",
+    "冥想": "7Hz Theta waves, guide deep relaxation, suitable for meditation",
+    "舒曼共振": "7.83Hz Earth's natural frequency, balance body and mind energy",
+    "睡眠": "3Hz Delta waves, help fall asleep quickly",
+    "提神": "15Hz Beta waves, enhance mental vitality",
+    "激發靈感": "40Hz Gamma waves, enhance creative thinking"
+  },
+  "trust": {
+    "free": "Completely free, no registration required",
+    "openSource": "Open Source Project",
+    "privacy": "Audio is processed locally, not uploaded to the server"
+  },
+  "share": {
+    "title": "Share",
+    "twitter": "Share to Twitter",
+    "facebook": "Share to Facebook",
+    "line": "Share to LINE"
   }
 }
