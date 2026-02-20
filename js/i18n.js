@@ -93,6 +93,8 @@ async function updateLanguageContent() {
         binauralList.innerHTML = '';
         const options = content.binauralOptions || [];
         const descriptions = content.binauralDescriptions || {};
+        // 每個模式對應的圖示
+        const icons = ['🎯', '🧘', '🌍', '😴', '⚡', '💡'];
         options.forEach((text, idx) => {
             const li = document.createElement('li');
             const label = document.createElement('label');
@@ -102,8 +104,16 @@ async function updateLanguageContent() {
             input.value = text;
             if (idx === 0) input.checked = true;
             label.appendChild(input);
-            label.appendChild(document.createTextNode(' ' + text));
-            // 加入模式說明
+            // 模式名稱區塊
+            const nameSpan = document.createElement('span');
+            nameSpan.className = 'binaural-mode-name';
+            const iconSpan = document.createElement('span');
+            iconSpan.className = 'binaural-mode-icon';
+            iconSpan.textContent = icons[idx] || '🎵';
+            nameSpan.appendChild(iconSpan);
+            nameSpan.appendChild(document.createTextNode(text));
+            label.appendChild(nameSpan);
+            // 模式說明
             if (descriptions[text]) {
                 const desc = document.createElement('span');
                 desc.className = 'binaural-desc';
