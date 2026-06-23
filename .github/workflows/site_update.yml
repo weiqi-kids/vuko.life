@@ -23,11 +23,11 @@ jobs:
       changed: ${{ steps.detect.outputs.changed }}
       langs: ${{ steps.detect.outputs.langs }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.10'
       - name: Install dependencies
@@ -81,7 +81,7 @@ jobs:
         run: python .github/scripts/prerender_content.py
       - name: Upload log
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: translate-log
           path: translate.log
@@ -113,7 +113,7 @@ jobs:
     outputs:
       changed: ${{ steps.detect.outputs.changed }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
@@ -121,7 +121,7 @@ jobs:
           # job just pushed — otherwise this job's own commit/push lands on a
           # stale base and is rejected non-fast-forward.
           ref: main
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.10'
       - name: Install dependencies
@@ -148,7 +148,7 @@ jobs:
           fi
       - name: Upload log
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: embedding-log
           path: embedding.log
@@ -178,14 +178,14 @@ jobs:
     if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && needs.translate.result == 'success' && (needs.embedding.result == 'success' || needs.embedding.result == 'skipped') }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
           # Tip of main (incl. translate's + embedding's pushed commits) so this
           # job's screenshot-summary commit pushes fast-forward.
           ref: main
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.10'
       - name: Install dependencies
@@ -208,13 +208,13 @@ jobs:
           file output/*.jpg
       - name: Upload screenshots
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: screenshots
           path: output
       - name: Upload log
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: screenshot-log
           path: screenshot.log
