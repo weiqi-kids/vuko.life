@@ -118,17 +118,13 @@ jobs:
         id: run
         continue-on-error: true
         run: |
-          failed=0
-          for lang in ${{ needs.translate.outputs.langs }}; do
-            python .github/scripts/embedding.py music/$lang.json >> embedding.log 2>&1
-            if [ $? -ne 0 ]; then
-              echo "embedding $lang failed" >> embedding.log
-              failed=1
-            fi
-          done
-          if [ "$failed" = "1" ]; then
-            exit 1
-          fi
+          # The frontend (js/audio_selector.js) only ever loads music/base.json,
+          # so only base.json's embedding is actually used. We compute just that
+          # one file instead of all 30 languages — this removes pure dead work
+          # and the checkout race condition where translate-created language
+          # files (e.g. music/ar.json) were absent at this job's checked-out ref,
+          # causing FileNotFoundError.
+          python .github/scripts/embedding.py music/base.json >> embedding.log 2>&1
       - name: Detect embedding change
         if: steps.run.outcome == 'success'
         id: detect

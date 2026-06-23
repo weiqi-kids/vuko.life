@@ -18,6 +18,11 @@ def main() -> None:
     with json_path.open("r", encoding="utf-8") as f:
         items = json.load(f)
 
+    # MUST stay all-MiniLM-L6-v2: the frontend (js/audio_selector.js) computes
+    # the query embedding with Xenova/all-MiniLM-L6-v2 and cosine-compares it
+    # against these vectors. Changing the model here breaks that shared vector
+    # space and the music search. The frontend only ever loads music/base.json,
+    # so only base.json's embedding is actually used.
     model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
     texts = []
