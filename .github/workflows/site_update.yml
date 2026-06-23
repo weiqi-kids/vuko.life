@@ -5,7 +5,9 @@ on:
     branches: [main]
     paths:
       - 'i18n/base.json'
+      - 'i18n/overrides/**'
       - 'music/base.json'
+      - 'content/**'
       - '.github/scripts/**'
       - '.github/workflows/site_update.yml'
   workflow_dispatch:
@@ -27,6 +29,9 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
+          # Check out the tip of main (not the trigger SHA) so the commit this
+          # job pushes lands fast-forward even if main advanced after the push.
+          ref: main
       - uses: actions/setup-python@v6
         with:
           python-version: '3.10'
@@ -93,7 +98,9 @@ jobs:
           files=$(git status --porcelain i18n/*.json music/*.json | awk '{print $2}' | tr '\n' ' ')
           git add i18n/*.json music/*.json app/*.html index.html
           git commit -m "Update translations [skip ci]" -m "$files"
-          git push
+          # Rebase onto any commits that landed during the long translate step
+          # (e.g. a concurrent [skip ci] push) so the push is never rejected.
+          git pull --rebase origin main && git push
       - name: Commit translation failure summary
         if: steps.run.outcome != 'success'
         run: |
@@ -101,7 +108,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           msg=$(tail -n 20 translate.log | tr '\n' ' ')
           git commit --allow-empty -m "Translation failed [skip ci]" -m "$msg"
-          git push
+          git pull --rebase origin main && git push
       - name: Fail job if translate failed
         if: steps.run.outcome != 'success'
         run: exit 1
