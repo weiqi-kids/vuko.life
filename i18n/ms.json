@@ -1,13 +1,13 @@
 {
   "title": "Dengan suara, temui diri anda yang lebih baik",
   "subtitle": "🤖 Arahan Penggunaan",
-  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan menyesuaikan frekuensi binaural secara automatik untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
-  "seoKeywords": "Meditasi Binaural・Fokus・Tidur Mendalam・Panduan Pernafasan Masa Nyata",
+  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan secara automatik menyesuaikan frekuensi ketukan untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
+  "seoKeywords": "Meditasi Binaural Beat・Fokus・Tidur Mendalam・Panduan Pernafasan Masa Nyata",
   "instructions": {
-    "headphones": "Sila gunakan <strong>fon kepala stereo</strong> untuk mencapai kesan frekuensi binaural dalam otak.",
+    "headphones": "Sila gunakan <strong>fon kepala stereo</strong> untuk mencapai kesan frekuensi ketukan dalam otak.",
     "microphone": "Jika anda bersetuju untuk menggunakan <strong>mikrofon</strong> anda, sila letakkan mikrofon berhampiran mulut dan hidung, kami akan cuba membimbing anda ke dalam keadaan yang lebih mendalam."
   },
-  "volumeRatioDetail": "Frekuensi Binaural {binaural}% / Bunyi Latar {background}%",
+  "volumeRatioDetail": "Frekuensi Ketukan {binaural}% / Bunyi Latar {background}%",
   "labels": {
     "breathRate": "Kadar Pernafasan:",
     "noiseLevel": "Bunyi Latar Belakang:",
@@ -16,8 +16,8 @@
     "volumeRatio": "Nisbah Kelantangan:",
     "breathVisual": "Visualisasi Pernafasan",
     "realTimeData": "Data Masa Nyata",
-    "systemConfig": "Tetapan Frekuensi Binaural",
-    "audioSearch": "🎵 Carian Muzik Latar",
+    "systemConfig": "Tetapan Frekuensi Ketukan Binaural",
+    "audioSearch": "🎵 Carian Muzik Latar Belakang",
     "searchPlaceholder": "Cari muzik... (contoh: piano, laut, meditasi)",
     "noResults": "Tiada muzik berkaitan ditemui",
     "currentMusic": "Pilihan Semasa",
@@ -67,7 +67,7 @@
   "trust": {
     "free": "Sepenuhnya percuma, tiada pendaftaran diperlukan",
     "openSource": "Projek sumber terbuka",
-    "privacy": "Audio hanya diproses secara tempatan, tidak dimuat naik ke pelayan"
+    "privacy": "Audio diproses hanya secara lokal, tidak dimuat naik ke pelayan"
   },
   "share": {
     "title": "Kongsi",
@@ -80,7 +80,7 @@
     "items": [
       {
         "q": "Apakah itu frekuensi binaural?",
-        "a": "Frekuensi binaural adalah apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang boleh membantu membimbing gelombang otak memasuki keadaan tertentu."
+        "a": "Frekuensi binaural adalah apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, ini boleh membantu membimbing gelombang otak memasuki keadaan tertentu."
       },
       {
         "q": "Mengapa perlu menggunakan fon kepala?",

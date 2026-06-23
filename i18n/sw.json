@@ -1,40 +1,40 @@
 {
   "title": "Kwa sauti, kukutana na wewe bora zaidi",
   "subtitle": "🤖 Maelekezo ya Matumizi",
-  "description": "Mfumo utafuatilia hali yako ya kupumua kwa wakati halisi na kurekebisha mdundo wa mapigo ili kukuongoza kuingia katika hali tofauti za ufahamu:",
-  "seoKeywords": "Kutafakari kwa mapigo ya masikio mawili・Kuzingatia・Usingizi wa kina・Mwongozo wa kupumua wa wakati halisi",
+  "description": "Mfumo utafuatilia hali yako ya kupumua kwa wakati halisi na kurekebisha mdundo wa sauti ili kukuongoza kuingia katika hali tofauti za ufahamu:",
+  "seoKeywords": "Kutafakari kwa Mdundo wa Masikio Mawili・Kuzingatia・Kulala kwa Kina・Mwongozo wa Kupumua kwa Wakati Halisi",
   "instructions": {
-    "headphones": "Tafadhali tumia <strong>vifaa vya masikio vya sauti mbili</strong> ili kufikia athari ya mapigo ya ubongo.",
+    "headphones": "Tafadhali tumia <strong>vifaa vya masikio vya sauti mbili</strong> ili kufanikisha athari ya mdundo wa sauti kwenye ubongo.",
     "microphone": "Ikiwa unakubali kutumia <strong>kipaza sauti</strong> chako, tafadhali kikaribishe kwenye mdomo na pua, tutajaribu kukuongoza kuingia katika hali ya kina zaidi."
   },
-  "volumeRatioDetail": "Mapigo {binaural}% / Sauti ya nyuma {background}%",
+  "volumeRatioDetail": "Mdundo wa Masikio Mawili {binaural}% / Sauti ya Mandharinyuma {background}%",
   "labels": {
-    "breathRate": "Kiwango cha kupumua:",
-    "noiseLevel": "Kelele za nyuma:",
-    "baseFreq": "Mzunguko wa mzunguko wa msingi:",
-    "audioFile": "Faili ya sauti ya nyuma:",
-    "volumeRatio": "Uwiano wa sauti:",
-    "breathVisual": "Uonyeshaji wa kupumua",
-    "realTimeData": "Data ya wakati halisi",
-    "systemConfig": "Mipangilio ya mapigo ya masikio mawili",
-    "audioSearch": "🎵 Utafutaji wa Muziki wa Nyuma",
+    "breathRate": "Kiwango cha Kupumua:",
+    "noiseLevel": "Kelele za Mandharinyuma:",
+    "baseFreq": "Mzunguko wa Msingi:",
+    "audioFile": "Faili ya Sauti ya Mandharinyuma:",
+    "volumeRatio": "Uwiano wa Sauti:",
+    "breathVisual": "Uonyeshaji wa Kupumua",
+    "realTimeData": "Takwimu za Wakati Halisi",
+    "systemConfig": "Mipangilio ya Mdundo wa Masikio Mawili",
+    "audioSearch": "🎵 Utafutaji wa Muziki wa Mandharinyuma",
     "searchPlaceholder": "Tafuta muziki... (mfano: piano, bahari, kutafakari)",
     "noResults": "Hakuna muziki unaohusiana uliopatikana",
-    "currentMusic": "Chaguo la sasa",
-    "deviceTest": "Jaribio la kifaa",
+    "currentMusic": "Chaguo la Sasa",
+    "deviceTest": "Jaribio la Vifaa",
     "libraryTab": "Maktaba ya Sauti Mtandaoni",
-    "localFileTab": "Faili za Kifaa",
-    "filePrivacyMsg": "Faili za sauti zinashughulikiwa tu kwenye kifaa, hazitapakiwa."
+    "localFileTab": "Faili za Kwenye Kompyuta",
+    "filePrivacyMsg": "Faili za sauti zinashughulikiwa tu kwenye kompyuta hii, hazitapakiwa."
   },
   "buttons": {
     "start": "🎶 Anza",
     "stop": "🍂 Simamisha"
   },
   "status": {
-    "monitoring": "🎙️ Ufuatiliaji wa Kupumua unaendelea... Tafadhali endelea kupumua kawaida",
+    "monitoring": "🎙️ Ufuatiliaji wa kupumua unaendelea... Tafadhali endelea kupumua kawaida",
     "stopped": "Ufuatiliaji umesimamishwa",
     "error": "❌ Haiwezi kuanzisha:",
-    "unsupported": "⚠️ Kivinjari chako hakina msaada wa kipengele cha maikrofoni, huwezi kutumia ufuatiliaji wa kupumua",
+    "unsupported": "⚠️ Kivinjari chako hakina msaada wa kipaza sauti, huwezi kutumia ufuatiliaji wa kupumua",
     "waiting": "Inasubiri kugunduliwa"
   },
   "units": {
@@ -59,10 +59,10 @@
   "binauralDescriptions": {
     "專注": "Mawimbi ya Alpha ya 10Hz, husaidia kuingia katika hali ya umakini, yanafaa kwa kazi na masomo",
     "冥想": "Mawimbi ya Theta ya 7Hz, yanaongoza katika utulivu wa kina, yanafaa kwa kutafakari kimya",
-    "舒曼共振": "Mawimbi ya asili ya Dunia ya 7.83Hz, yanaboresha usawa wa nishati ya mwili na akili",
+    "舒曼共振": "Mawimbi ya Asili ya Dunia ya 7.83Hz, yanabalance nishati ya mwili na akili",
     "睡眠": "Mawimbi ya Delta ya 3Hz, husaidia kulala haraka",
-    "提神": "Mawimbi ya Beta ya 15Hz, yanaboresha nguvu ya akili",
-    "激發靈感": "Mawimbi ya Gamma ya 40Hz, yanaboresha mawazo ya ubunifu"
+    "提神": "Mawimbi ya Beta ya 15Hz, yanainua nguvu ya akili",
+    "激發靈感": "Mawimbi ya Gamma ya 40Hz, yanainua mawazo ya ubunifu"
   },
   "trust": {
     "free": "Bure kabisa, hakuna usajili unaohitajika",
@@ -80,15 +80,15 @@
     "items": [
       {
         "q": "Binaural beats ni nini?",
-        "a": "Binaural beats ni wakati masikio ya kushoto na kulia yanasikia sauti za masafa tofauti kidogo, ubongo huzalisha 'kibao' cha tatu. Kwa mfano, sikio la kushoto 200Hz, sikio la kulia 210Hz, ubongo utahisi kibao cha 10Hz, ambacho kinaweza kusaidia kuongoza mawimbi ya ubongo kuingia katika hali maalum."
+        "a": "Binaural beats ni wakati masikio ya kushoto na kulia yanasikia sauti za masafa tofauti kidogo, ubongo huzalisha 'beat' ya tatu. Kwa mfano, sikio la kushoto 200Hz, sikio la kulia 210Hz, ubongo utahisi beat ya 10Hz, ambayo inaweza kusaidia kuongoza mawimbi ya ubongo kuingia katika hali maalum."
       },
       {
-        "q": "Kwa nini ni lazima kutumia vichwa vya sauti?",
-        "a": "Kanuni ya kupiga masikio mara mbili ni kwamba masikio ya kushoto na kulia yasikie masafa tofauti. Ni kwa kutumia vichwa vya sauti pekee ambapo unaweza kuhakikisha njia za sauti za kushoto na kulia zinatenganishwa, na hivyo ubongo unaweza kuzalisha athari ya kupiga mara mbili kwa usahihi."
+        "q": "Kwa nini ni lazima kutumia headphones?",
+        "a": "Kanuni ya kupiga masikio mara mbili ni kwamba masikio ya kushoto na kulia yasikie masafa tofauti, na ni kwa kutumia vichwa vya sauti pekee ambapo unaweza kuhakikisha njia za sauti za kushoto na kulia zinatenganishwa, ili ubongo utengeneze athari ya kupiga mara mbili kwa usahihi."
       },
       {
         "q": "Ufuatiliaji wa kupumua unafanyaje kazi?",
-        "a": "Mfumo hutambua sauti ya kupumua yako kupitia kipaza sauti, kuchambua mdundo wa kupumua, na kurekebisha mara mbili kiotomatiki kulingana na hali yako ili kukusaidia kuingia katika hali lengwa haraka zaidi. Sauti zote zinashughulikiwa kwenye kifaa chako pekee, hazitapakiwa mtandaoni."
+        "a": "Mfumo hutambua sauti ya kupumua yako kupitia kipaza sauti, huchambua mdundo wa kupumua, na kurekebisha mara mbili kiotomatiki kulingana na hali yako ili kukusaidia kuingia katika hali lengwa haraka zaidi. Sauti zote zinashughulikiwa kwenye kifaa chako pekee, hazitapakiwa mtandaoni."
       },
       {
         "q": "Je, chombo hiki ni bure kweli?",
@@ -96,7 +96,7 @@
       },
       {
         "q": "Je, data yangu iko salama?",
-        "a": "Ni salama kabisa. Usindikaji wote wa sauti unafanyika kwenye kivinjari chako, hatukusanyi, kuhifadhi, au kusambaza data yoyote ya sauti. Hii ni programu ya mbele tu, haina seva ya nyuma."
+        "a": "Ni salama kabisa. Usindikaji wote wa sauti unafanywa kwenye kivinjari chako, hatukusanyi, kuhifadhi, au kusambaza data yoyote ya sauti. Hii ni programu ya mbele tu, haina seva ya nyuma."
       }
     ]
   }

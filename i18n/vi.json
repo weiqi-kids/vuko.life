@@ -1,5 +1,5 @@
 {
-  "title": "Dùng âm thanh, dẫn bạn gặp gỡ bản thân tốt hơn",
+  "title": "Dùng âm thanh, giúp bạn gặp gỡ phiên bản tốt hơn của chính mình",
   "subtitle": "🤖 Hướng dẫn sử dụng",
   "description": "Hệ thống sẽ giám sát trạng thái hô hấp của bạn theo thời gian thực và tự động điều chỉnh tần số nhịp để dẫn dắt bạn vào các trạng thái ý thức khác nhau:",
   "seoKeywords": "Thiền nhịp hai tai・Tập trung・Ngủ sâu・Hướng dẫn hô hấp theo thời gian thực",
@@ -41,7 +41,7 @@
     "perMin": "lần/phút",
     "hz": "Hz",
     "db": "dB",
-    "none": "Không"
+    "none": "Không có"
   },
   "binauralOptions": [
     "Tập trung",
@@ -92,7 +92,7 @@
       },
       {
         "q": "Công cụ này thực sự miễn phí không?",
-        "a": "Đúng vậy, Vuko hoàn toàn miễn phí và mã nguồn mở. Không có chi phí ẩn, không có đăng ký, không có quảng cáo. Bạn có thể xem mã nguồn đầy đủ trên GitHub."
+        "a": "Vâng, Vuko hoàn toàn miễn phí và mã nguồn mở. Không có chi phí ẩn, không có đăng ký, không có quảng cáo. Bạn có thể xem mã nguồn đầy đủ trên GitHub."
       },
       {
         "q": "Dữ liệu của tôi có an toàn không?",

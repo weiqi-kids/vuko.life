@@ -2,7 +2,7 @@
   "title": "Con la voz, te encuentras con una mejor versión de ti mismo",
   "subtitle": "🤖 Instrucciones de uso",
   "description": "El sistema monitoreará en tiempo real tu estado de respiración y ajustará automáticamente la frecuencia binaural para guiarte a diferentes estados de conciencia:",
-  "seoKeywords": "Meditación con frecuencia binaural・Concentración・Sueño profundo・Guía de respiración en tiempo real",
+  "seoKeywords": "Meditación binaural・Concentración・Sueño profundo・Guía de respiración en tiempo real",
   "instructions": {
     "headphones": "Por favor, utiliza <strong>auriculares estéreo</strong> para lograr el efecto de frecuencia binaural en el cerebro.",
     "microphone": "Si aceptas usar tu <strong>micrófono</strong>, colócalo cerca de tu boca y nariz, intentaremos guiarte a un estado más profundo."
@@ -31,11 +31,11 @@
     "stop": "🍂 Detener"
   },
   "status": {
-    "monitoring": "🎙️ Monitoreando la respiración... Por favor, respira naturalmente",
+    "monitoring": "🎙️ Monitoreando respiración... Por favor, respire naturalmente",
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
-    "unsupported": "⚠️ Tu navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
-    "waiting": "Pendiente de detección"
+    "unsupported": "⚠️ Su navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
+    "waiting": "Por detectar"
   },
   "units": {
     "perMin": "veces/min",
@@ -54,18 +54,18 @@
   "sections": {
     "instructions": "Instrucciones de uso",
     "settings": "Configuración de funciones",
-    "monitor": "Monitoreo de respiración"
+    "monitor": "Monitoreo de la respiración"
   },
   "binauralDescriptions": {
     "專注": "Onda Alpha de 10Hz, ayuda a entrar en un estado de concentración, adecuada para trabajar y estudiar",
     "冥想": "Onda Theta de 7Hz, guía hacia una relajación profunda, adecuada para meditación en silencio",
     "舒曼共振": "Frecuencia natural de la Tierra de 7.83Hz, equilibra la energía del cuerpo y la mente",
-    "睡眠": "Onda Delta de 3Hz, ayuda a dormir rápidamente",
+    "睡眠": "Onda Delta de 3Hz, ayuda a conciliar el sueño rápidamente",
     "提神": "Onda Beta de 15Hz, mejora la vitalidad mental",
     "激發靈感": "Onda Gamma de 40Hz, mejora el pensamiento creativo"
   },
   "trust": {
-    "free": "Completamente gratis, no se requiere registro",
+    "free": "Completamente gratis, no requiere registro",
     "openSource": "Proyecto de código abierto",
     "privacy": "El audio se procesa solo localmente, no se sube al servidor"
   },
@@ -84,11 +84,11 @@
       },
       {
         "q": "¿Por qué es necesario usar auriculares?",
-        "a": "El principio de los latidos binaurales es que cada oído escuche una frecuencia diferente. Solo usando auriculares se puede asegurar la separación de los canales izquierdo y derecho, permitiendo que el cerebro genere correctamente el efecto de latido."
+        "a": "El principio de los latidos binaurales es que los oídos izquierdo y derecho escuchen frecuencias diferentes. Solo usando auriculares se puede asegurar la separación de los canales izquierdo y derecho, permitiendo que el cerebro genere correctamente el efecto de latido."
       },
       {
         "q": "¿Cómo funciona la monitorización de la respiración?",
-        "a": "El sistema detecta el sonido de su respiración a través del micrófono, analiza el ritmo respiratorio y ajusta automáticamente los latidos según su estado para ayudarle a alcanzar más rápidamente el estado deseado. Todo el procesamiento de audio se realiza localmente y no se sube nada."
+        "a": "El sistema detecta el sonido de su respiración a través del micrófono, analiza el ritmo respiratorio y ajusta automáticamente los latidos según su estado para ayudarle a alcanzar su estado objetivo más rápidamente. Todo el procesamiento de audio se realiza localmente y no se sube."
       },
       {
         "q": "¿Esta herramienta es realmente gratuita?",
@@ -96,7 +96,7 @@
       },
       {
         "q": "¿Mis datos están seguros?",
-        "a": "Absolutamente seguros. Todo el procesamiento de audio se realiza en su navegador, no recopilamos, almacenamos ni transmitimos ningún dato de audio. Es una aplicación completamente del lado del cliente, sin servidores de backend."
+        "a": "Absolutamente seguros. Todo el procesamiento de audio se realiza en su navegador, no recopilamos, almacenamos ni transmitimos ningún dato de audio. Es una aplicación completamente del lado del cliente, sin servidor backend."
       }
     ]
   }

@@ -7,7 +7,7 @@
     "headphones": "Veuillez utiliser des <strong>écouteurs stéréo</strong> pour obtenir l'effet de fréquence binaurale dans le cerveau.",
     "microphone": "Si vous acceptez d'utiliser votre <strong>microphone</strong>, veuillez le placer près de votre bouche et de votre nez, nous essaierons de vous guider vers un état plus profond."
   },
-  "volumeRatioDetail": "Fréquence binaurale {binaural}% / Son de fond {background}%",
+  "volumeRatioDetail": "Fréquence binaurale {binaural}% / Bruit de fond {background}%",
   "labels": {
     "breathRate": "Taux de respiration :",
     "noiseLevel": "Bruit de fond :",
@@ -19,12 +19,12 @@
     "systemConfig": "Paramètres de fréquence binaurale",
     "audioSearch": "🎵 Recherche de musique de fond",
     "searchPlaceholder": "Recherche de musique... (par exemple : piano, mer, méditation)",
-    "noResults": "Aucune musique correspondante trouvée",
+    "noResults": "Aucune musique trouvée",
     "currentMusic": "Sélection actuelle",
     "deviceTest": "Test de l'équipement",
     "libraryTab": "Bibliothèque en ligne",
     "localFileTab": "Fichier local",
-    "filePrivacyMsg": "Les fichiers audio sont traités uniquement sur cet appareil et ne seront pas téléchargés."
+    "filePrivacyMsg": "Les fichiers audio sont traités uniquement en local et ne seront pas téléchargés."
   },
   "buttons": {
     "start": "🎶 Commencer",
@@ -48,7 +48,7 @@
     "Méditation",
     "Résonance de Schumann",
     "Sommeil",
-    "Revitalisant",
+    "Revitaliser",
     "Inspiration"
   ],
   "sections": {
@@ -57,7 +57,7 @@
     "monitor": "Surveillance de la respiration"
   },
   "binauralDescriptions": {
-    "專注": "Onde Alpha à 10Hz, aide à entrer dans un état de concentration, adapté pour le travail et l'étude",
+    "專注": "Onde Alpha à 10Hz, aide à entrer en état de concentration, adapté pour le travail et l'étude",
     "冥想": "Onde Thêta à 7Hz, guide vers une relaxation profonde, adapté pour la méditation assise",
     "舒曼共振": "Fréquence naturelle de la Terre à 7,83Hz, équilibre l'énergie du corps et de l'esprit",
     "睡眠": "Onde Delta à 3Hz, aide à s'endormir rapidement",
@@ -84,7 +84,7 @@
       },
       {
         "q": "Pourquoi est-il nécessaire d'utiliser des écouteurs ?",
-        "a": "Le principe des battements binauraux est de faire entendre des fréquences différentes à chaque oreille. L'utilisation d'un casque est nécessaire pour assurer la séparation des canaux gauche et droit, permettant ainsi au cerveau de générer correctement l'effet de battement."
+        "a": "Le principe des battements binauraux est de faire entendre à chaque oreille une fréquence différente. L'utilisation d'un casque est nécessaire pour assurer la séparation des canaux gauche et droit, permettant ainsi au cerveau de produire correctement l'effet de battement."
       },
       {
         "q": "Comment fonctionne la surveillance de la respiration ?",

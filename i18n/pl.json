@@ -61,7 +61,7 @@
     "冥想": "Fale Theta 7Hz, prowadzą do głębokiego relaksu, odpowiednie do medytacji",
     "舒曼共振": "Naturalna częstotliwość Ziemi 7.83Hz, równoważy energię ciała i umysłu",
     "睡眠": "Fale Delta 3Hz, pomagają szybko zasnąć",
-    "提神": "Fale Beta 15Hz, zwiększają energię umysłową",
+    "提神": "Fale Beta 15Hz, zwiększają witalność umysłową",
     "激發靈感": "Fale Gamma 40Hz, zwiększają kreatywne myślenie"
   },
   "trust": {
@@ -80,23 +80,23 @@
     "items": [
       {
         "q": "Czym jest binauralne bicie?",
-        "a": "Binauralne bicie występuje, gdy lewe i prawe ucho słyszą dźwięki o nieco różnych częstotliwościach, a mózg generuje trzecią częstotliwość, tzw. „bicie”. Na przykład, jeśli lewe ucho słyszy 200Hz, a prawe 210Hz, mózg odbiera bicie o częstotliwości 10Hz, co może pomóc wprowadzić fale mózgowe w określony stan."
+        "a": "Binauralne bicie powstaje, gdy lewe i prawe ucho słyszą dźwięki o nieco różnych częstotliwościach, a mózg generuje trzecią „częstotliwość bicia”. Na przykład, jeśli lewe ucho słyszy 200Hz, a prawe 210Hz, mózg odbiera bicie o częstotliwości 10Hz, co może pomóc wprowadzić fale mózgowe w określony stan."
       },
       {
         "q": "Dlaczego konieczne jest używanie słuchawek?",
-        "a": "Zasada działania dudnień binauralnych polega na tym, że każde ucho słyszy inny częstotliwość. Tylko użycie słuchawek zapewnia rozdzielenie kanałów lewego i prawego, co pozwala mózgowi prawidłowo generować efekt dudnień."
+        "a": "Zasada działania dudnień różnicowych polega na tym, że lewe i prawe ucho słyszą różne częstotliwości. Tylko użycie słuchawek zapewnia rozdzielenie kanałów, co pozwala mózgowi prawidłowo generować efekt dudnień."
       },
       {
         "q": "Jak działa monitorowanie oddechu?",
-        "a": "System wykrywa dźwięk twojego oddechu za pomocą mikrofonu, analizuje rytm oddechu i automatycznie dostosowuje dudnienia w zależności od twojego stanu, aby pomóc ci szybciej osiągnąć docelowy stan. Wszystkie dane audio są przetwarzane lokalnie i nie są przesyłane."
+        "a": "System wykrywa dźwięk Twojego oddechu za pomocą mikrofonu, analizuje rytm oddechu i automatycznie dostosowuje dudnienia w zależności od Twojego stanu, aby pomóc Ci szybciej osiągnąć pożądany stan. Wszystkie dane audio są przetwarzane lokalnie i nie są przesyłane."
       },
       {
         "q": "Czy to narzędzie jest naprawdę darmowe?",
-        "a": "Tak, Vuko jest całkowicie darmowe i open-source. Nie ma ukrytych opłat, subskrypcji ani reklam. Możesz zobaczyć pełny kod źródłowy na GitHubie."
+        "a": "Tak, Vuko jest całkowicie darmowe i otwartoźródłowe. Nie ma ukrytych opłat, subskrypcji ani reklam. Możesz zobaczyć pełny kod źródłowy na GitHubie."
       },
       {
         "q": "Czy moje dane są bezpieczne?",
-        "a": "Absolutnie bezpieczne. Wszystkie przetwarzania audio odbywają się w twojej przeglądarce, nie zbieramy, nie przechowujemy ani nie przesyłamy żadnych danych audio. To jest czysto front-endowa aplikacja, bez serwera backendowego."
+        "a": "Absolutnie bezpieczne. Wszystkie operacje na dźwięku odbywają się w Twojej przeglądarce, nie zbieramy, nie przechowujemy ani nie przesyłamy żadnych danych audio. To czysto frontendowa aplikacja, bez serwera backendowego."
       }
     ]
   }

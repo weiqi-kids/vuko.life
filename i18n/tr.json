@@ -4,7 +4,7 @@
   "description": "Sistem, nefes durumunuzu gerçek zamanlı olarak izler ve sizi farklı bilinç durumlarına yönlendirmek için frekansı otomatik olarak ayarlar:",
   "seoKeywords": "Binaural vuruş meditasyonu・Odaklanma・Derin uyku・Gerçek zamanlı nefes rehberliği",
   "instructions": {
-    "headphones": "<strong>Çift kanallı kulaklık</strong> kullanın, böylece beyninizdeki vuruş frekansını elde edebilirsiniz.",
+    "headphones": "<strong>Çift kanallı kulaklık</strong> kullanın, böylece beyindeki vuruş frekansı etkisini elde edebilirsiniz.",
     "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağız ve burun yakınında tutun, sizi daha derin bir duruma yönlendirmeye çalışacağız."
   },
   "volumeRatioDetail": "Vuruş frekansı {binaural}% / Arka plan sesi {background}%",
@@ -20,11 +20,11 @@
     "audioSearch": "🎵 Arka plan müziği arama",
     "searchPlaceholder": "Müzik ara... (örneğin: piyano, deniz, meditasyon)",
     "noResults": "İlgili müzik bulunamadı",
-    "currentMusic": "Şu anki seçim",
+    "currentMusic": "Mevcut seçim",
     "deviceTest": "Cihaz testi",
     "libraryTab": "Çevrimiçi Ses Kütüphanesi",
     "localFileTab": "Yerel Dosya",
-    "filePrivacyMsg": "Ses dosyası yalnızca yerel olarak işlenir, yüklenmez."
+    "filePrivacyMsg": "Ses dosyaları yalnızca yerel olarak işlenir, yüklenmez."
   },
   "buttons": {
     "start": "🎶 Başla",
@@ -84,7 +84,7 @@
       },
       {
         "q": "Neden kulaklık kullanmak zorunludur?",
-        "a": "Çift kulak vuruş frekansı prensibi, sol ve sağ kulağa farklı frekanslar dinleterek çalışır. Bu etkinin doğru bir şekilde oluşabilmesi için kulaklık kullanarak sol ve sağ ses kanallarının ayrılması sağlanmalıdır."
+        "a": "Çift kulak vuruş frekansı prensibi, sol ve sağ kulakların farklı frekanslar duymasını sağlar. Bu etkiyi doğru bir şekilde elde etmek için kulaklık kullanarak sol ve sağ ses kanallarının ayrılması gereklidir."
       },
       {
         "q": "Nefes izleme nasıl çalışır?",
@@ -96,7 +96,7 @@
       },
       {
         "q": "Verilerim güvende mi?",
-        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, herhangi bir ses verisi toplamaz, saklamaz veya iletmeyiz. Bu, yalnızca ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
+        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, herhangi bir ses verisi toplamayız, saklamayız veya iletmeyiz. Bu, tamamen ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
       }
     ]
   }

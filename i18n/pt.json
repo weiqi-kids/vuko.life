@@ -1,10 +1,10 @@
 {
-  "title": "Com som, encontre uma versão melhor de si mesmo",
+  "title": "Com a voz, encontre uma versão melhor de si mesmo",
   "subtitle": "🤖 Instruções de uso",
   "description": "O sistema monitorará seu estado de respiração em tempo real e ajustará automaticamente a frequência binaural para guiá-lo a diferentes estados de consciência:",
-  "seoKeywords": "Meditação binaural・Foco・Sono profundo・Guia de respiração em tempo real",
+  "seoKeywords": "Meditação com batidas binaurais・Foco・Sono profundo・Guia de respiração em tempo real",
   "instructions": {
-    "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito da frequência binaural no cérebro.",
+    "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito das batidas binaurais no cérebro.",
     "microphone": "Se você concordar em usar seu <strong>microfone</strong>, aproxime-o da boca e do nariz, tentaremos guiá-lo para um estado mais profundo."
   },
   "volumeRatioDetail": "Frequência binaural {binaural}% / Som de fundo {background}%",
@@ -16,8 +16,8 @@
     "volumeRatio": "Proporção de volume:",
     "breathVisual": "Visualização da respiração",
     "realTimeData": "Dados em tempo real",
-    "systemConfig": "Configuração de frequência binaural",
-    "audioSearch": "🎵 Pesquisa de música de fundo",
+    "systemConfig": "Configuração de batidas binaurais",
+    "audioSearch": "🎵 Busca de música de fundo",
     "searchPlaceholder": "Procurar música... (por exemplo: piano, mar, meditação)",
     "noResults": "Nenhuma música encontrada",
     "currentMusic": "Seleção atual",
@@ -35,7 +35,7 @@
     "stopped": "Monitoramento parado",
     "error": "❌ Não foi possível iniciar:",
     "unsupported": "⚠️ Seu navegador não suporta a função de microfone, não é possível usar o monitoramento de respiração",
-    "waiting": "Aguardando detecção"
+    "waiting": "A ser detectado"
   },
   "units": {
     "perMin": "vezes/min",
@@ -80,15 +80,15 @@
     "items": [
       {
         "q": "O que é batimento binaural?",
-        "a": "Batimento binaural ocorre quando os ouvidos esquerdo e direito ouvem sons de frequências ligeiramente diferentes, o cérebro gera uma terceira 'batida'. Por exemplo, ouvido esquerdo 200Hz, ouvido direito 210Hz, o cérebro percebe uma batida de 10Hz, o que pode ajudar a guiar as ondas cerebrais para um estado específico."
+        "a": "Batimento binaural ocorre quando os ouvidos esquerdo e direito ouvem sons de frequências ligeiramente diferentes, o cérebro gera uma terceira frequência de \"batimento\". Por exemplo, ouvido esquerdo 200Hz, ouvido direito 210Hz, o cérebro percebe um batimento de 10Hz, o que pode ajudar a guiar as ondas cerebrais para um estado específico."
       },
       {
         "q": "Por que é necessário usar fones de ouvido?",
-        "a": "O princípio da batida binaural é permitir que os ouvidos esquerdo e direito ouçam frequências diferentes. Apenas usando fones de ouvido é possível garantir a separação dos canais esquerdo e direito, permitindo que o cérebro produza corretamente o efeito de batida."
+        "a": "O princípio da batida binaural é que os ouvidos esquerdo e direito ouçam frequências diferentes. Apenas com fones de ouvido é possível garantir a separação dos canais esquerdo e direito, permitindo que o cérebro produza corretamente o efeito de batida."
       },
       {
         "q": "Como funciona o monitoramento da respiração?",
-        "a": "O sistema detecta o som da sua respiração através do microfone, analisa o ritmo respiratório e ajusta automaticamente a batida de acordo com o seu estado, ajudando você a atingir o estado desejado mais rapidamente. Todo o processamento de áudio é feito localmente e não é enviado para nenhum servidor."
+        "a": "O sistema detecta o som da sua respiração através do microfone, analisa o ritmo respiratório e ajusta automaticamente a batida de acordo com seu estado, ajudando você a atingir o estado desejado mais rapidamente. Todo o áudio é processado localmente e não é enviado para nenhum servidor."
       },
       {
         "q": "Esta ferramenta é realmente gratuita?",
@@ -96,7 +96,7 @@
       },
       {
         "q": "Meus dados estão seguros?",
-        "a": "Absolutamente seguros. Todo o processamento de áudio é feito no seu navegador, e não coletamos, armazenamos ou transmitimos nenhum dado de áudio. É uma aplicação totalmente frontend, sem servidor backend."
+        "a": "Absolutamente seguros. Todo o processamento de áudio é feito no seu navegador, e não coletamos, armazenamos ou transmitimos nenhum dado de áudio. É uma aplicação totalmente front-end, sem servidor de back-end."
       }
     ]
   }

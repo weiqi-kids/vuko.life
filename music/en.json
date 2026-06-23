@@ -407,7 +407,7 @@
       "acoustic",
       "Relaxation"
     ],
-    "desc": "Mainly gentle guitar, accompanied by soft sound pads, suitable for relaxation and focus.",
+    "desc": "Gentle guitar as the main focus, accompanied by soft sound pads, suitable for relaxation and concentration.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -805,7 +805,7 @@
       "Earth",
       "grounding"
     ],
-    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds, emphasizing stability and tranquility.",
+    "desc": "Inspired by earth elements, it combines natural low frequencies and ambient sounds, emphasizing stability and tranquility.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1601,7 +1601,7 @@
       "peace",
       "Nature"
     ],
-    "desc": "Simulates the tranquility and vastness of the mountains, using natural ambient sounds to foster inner peace.",
+    "desc": "Simulates the tranquility and vastness of the mountains, using natural ambient sounds to enhance inner peace.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1999,7 +1999,7 @@
       "steel tongue drum",
       "Relaxation"
     ],
-    "desc": "The main melody of handpan and steel tongue drum, with a rounded and ethereal melody, suitable for deep meditation and relaxation.",
+    "desc": "The main melody of handpan and steel tongue drum, with a round and ethereal melody, suitable for deep meditation and relaxation.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -3193,7 +3193,7 @@
       "Flow",
       "Fresh"
     ],
-    "desc": "Centered around the sound of flowing water and streams, presenting a fresh and flowing state of mind.",
+    "desc": "Centered around the sound of flowing water and streams, presenting a fresh and flowing mindset.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3989,7 +3989,7 @@
       "Passion",
       "element"
     ],
-    "desc": "Centered around the theme of the fire element, incorporating natural sounds like flames and campfires, symbolizing energy and transformation.",
+    "desc": "Centered around the theme of the fire element, incorporating natural sound effects like flames and campfires, symbolizing energy and transformation.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4783,7 +4783,7 @@
       "third eye chakra",
       "Spirituality",
       "chakra",
-      "Intuition"
+      "intuition"
     ],
     "desc": "Brow chakra meditation soundscape, emphasizing the opening of spirituality and intuition, suitable for deep awareness.",
     "embedding": [
@@ -5577,9 +5577,9 @@
     "tag": [
       "Throat chakra",
       "throat chakra",
-      "Communication",
+      "communication",
       "chakra",
-      "Freedom"
+      "freedom"
     ],
     "desc": "Throat chakra themed soundscape, creating a space for smooth energy flow and free expression.",
     "embedding": [
@@ -5979,7 +5979,7 @@
       "chakra",
       "flow"
     ],
-    "desc": "The soundscape of the sacral chakra symbolizes the flow of emotions, creativity, and pleasurable energy.",
+    "desc": "The soundscape of the sacral chakra symbolizes emotional flow, creativity, and pleasurable energy.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Gold",
+    "title": "metal",
     "tag": [
-      "Gold",
+      "metal",
       "metal",
       "purity",
       "clarity",
       "clarity"
     ],
-    "desc": "The theme of the metal element, with a clear and bright tone, creates a pure and ethereal atmosphere.",
+    "desc": "The theme of the metal element, with clear and bright tones, creates a pure and ethereal atmosphere.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -6767,15 +6767,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
-    "title": "Piano",
+    "title": "piano",
     "tag": [
-      "Piano",
+      "piano",
       "piano",
       "Gentle",
       "Harmony",
-      "relaxing"
+      "Relaxing"
     ],
-    "desc": "Gentle piano melody, accompanied by soothing accompaniment, brings a peaceful and comfortable feeling.",
+    "desc": "A gentle piano melody, accompanied by soothing accompaniment, brings a peaceful and comfortable feeling.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7169,8 +7169,8 @@
     "tag": [
       "Glockenspiel",
       "Tuning Fork",
-      "glockenspiel",
-      "tuning fork",
+      "Glockenspiel",
+      "Tuning Fork",
       "Ethereal"
     ],
     "desc": "The ethereal sounds of the glockenspiel and tuning fork are suitable for meditation, cleansing, and focus.",
@@ -7567,11 +7567,11 @@
     "tag": [
       "Flute",
       "Xiao",
-      "flute",
-      "xiao",
+      "Flute",
+      "Xiao",
       "Flowing"
     ],
-    "desc": "The main melody of the flute and xiao flows distantly, creating an ethereal and profound state of mind.",
+    "desc": "The main melodies of the flute and xiao flow distantly, creating an ethereal and profound state of mind.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,

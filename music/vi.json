@@ -1,15 +1,15 @@
 [
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
-    "title": "Tigela Cantante",
+    "title": "chuông xoay",
     "tag": [
-      "Tigela Cantante",
-      "tigela cantante",
-      "Meditação",
-      "meditação",
-      "cura"
+      "chuông xoay",
+      "chuông xoay",
+      "thiền",
+      "thiền",
+      "chữa lành"
     ],
-    "desc": "Com o som da tigela cantante como melodia principal, ressonância suave, adequado para paisagens sonoras de meditação e cura.",
+    "desc": "Âm thanh chuông xoay làm giai điệu chính, cộng hưởng nhẹ nhàng, phù hợp cho thiền và âm cảnh chữa lành.",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -399,15 +399,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
-    "title": "Violão",
+    "title": "đàn guitar",
     "tag": [
-      "Violão",
-      "violão",
-      "Suave",
-      "acústico",
-      "relaxar"
+      "đàn guitar",
+      "đàn guitar",
+      "nhẹ nhàng",
+      "acoustic",
+      "thư giãn"
     ],
-    "desc": "Principalmente violão suave, complementado por almofadas sonoras leves, adequado para relaxamento e concentração.",
+    "desc": "Đàn guitar nhẹ nhàng làm chủ đạo, kết hợp với âm nền nhẹ, phù hợp để thư giãn và tập trung.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -797,15 +797,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "Terra",
+    "title": "đất",
     "tag": [
-      "Terra",
-      "terra",
-      "Natureza",
-      "Terra",
-      "grounding"
+      "đất",
+      "đất",
+      "Tự nhiên",
+      "Đại địa",
+      "nối đất"
     ],
-    "desc": "Inspirado nos elementos da terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
+    "desc": "Lấy cảm hứng từ yếu tố đại địa, kết hợp tần số thấp tự nhiên và âm thanh môi trường, nhấn mạnh cảm giác ổn định và yên tĩnh.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1195,15 +1195,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%A4%AA%E9%99%BD%E7%A5%9E%E7%B6%93%E5%8F%A2%E8%BC%AA.mp3",
-    "title": "Chakra do Plexo Solar",
+    "title": "Luân xa đám rối mặt trời",
     "tag": [
-      "Chakra do Plexo Solar",
-      "solar plexus chakra",
-      "Energia",
-      "chakra",
-      "Confiança"
+      "Luân xa đám rối mặt trời",
+      "luân xa đám rối mặt trời",
+      "Năng lượng",
+      "luân xa",
+      "Tự tin"
     ],
-    "desc": "Tema do chakra do plexo solar, simboliza vitalidade, vontade e centro de energia, com uma atmosfera de calor e luz.",
+    "desc": "Chủ đề luân xa đám rối mặt trời, tượng trưng cho sức sống, ý chí và trung tâm năng lượng, bầu không khí ấm áp và sáng sủa.",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1593,15 +1593,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%B1%B1.mp3",
-    "title": "Montanha",
+    "title": "Núi",
     "tag": [
-      "Montanha",
-      "mountain",
-      "Tranquilidade",
-      "paz",
-      "Natureza"
+      "Núi",
+      "núi",
+      "Yên tĩnh",
+      "hòa bình",
+      "Tự nhiên"
     ],
-    "desc": "Simula a tranquilidade e vastidão das montanhas, utilizando sons ambientais naturais para promover a paz interior.",
+    "desc": "Mô phỏng sự yên tĩnh và rộng lớn của núi, sử dụng âm thanh môi trường tự nhiên để tạo ra sự bình yên trong tâm hồn.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan e tambor de língua de aço",
+    "title": "Trống tay không linh",
     "tag": [
-      "Handpan",
-      "Tambor de língua de aço",
+      "Trống tay",
+      "Trống không linh",
       "handpan",
-      "steel tongue drum",
-      "Relaxar"
+      "trống lưỡi thép",
+      "thư giãn"
     ],
-    "desc": "Melodia principal de handpan e tambor de língua de aço, uma melodia suave e etérea, adequada para meditação profunda e relaxamento.",
+    "desc": "Giai điệu chính của trống tay và trống không linh, giai điệu tròn trịa và không linh, thích hợp cho thiền sâu và thư giãn.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2389,15 +2389,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9C%A8.mp3",
-    "title": "Madeira",
+    "title": "Gỗ",
     "tag": [
-      "Madeira",
-      "wood",
-      "Natureza",
-      "Vitalidade",
-      "floresta"
+      "Gỗ",
+      "gỗ",
+      "tự nhiên",
+      "sức sống",
+      "rừng"
     ],
-    "desc": "Inspirado no elemento madeira, combina o som do vento entre as árvores e os sons naturais das árvores, mostrando vitalidade.",
+    "desc": "Lấy cảm hứng từ yếu tố gỗ, kết hợp âm thanh gió rừng và âm thanh tự nhiên của cây cối, thể hiện sức sống.",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -2787,15 +2787,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9E%97.mp3",
-    "title": "Floresta",
+    "title": "Rừng",
     "tag": [
-      "Floresta",
-      "floresta",
-      "Canto dos pássaros",
-      "Natureza",
-      "Estabilidade"
+      "Rừng",
+      "rừng",
+      "Tiếng chim hót",
+      "Thiên nhiên",
+      "Ổn định"
     ],
-    "desc": "Paisagem sonora da floresta, canto dos pássaros e som das folhas, criando uma atmosfera natural e estável.",
+    "desc": "Âm cảnh rừng, tiếng chim hót và tiếng lá xào xạc, tạo ra bầu không khí thiên nhiên ổn định.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3185,15 +3185,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B0%B4.mp3",
-    "title": "Água",
+    "title": "Nước",
     "tag": [
-      "Água",
-      "água",
-      "Fluxo de água",
-      "Fluir",
-      "Fresco"
+      "Nước",
+      "nước",
+      "Dòng nước",
+      "Lưu động",
+      "Tươi mới"
     ],
-    "desc": "Com o fluxo de água e o som do riacho como tema principal, apresenta um estado de espírito fresco e fluido.",
+    "desc": "Lấy dòng nước, tiếng suối làm chủ thể, thể hiện tâm trạng tươi mới lưu động.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3583,15 +3583,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B5%B7%E5%BA%95%E8%BC%AA.mp3",
-    "title": "Chakra Raiz",
+    "title": "Luân xa gốc",
     "tag": [
-      "Chakra Raiz",
-      "chakra raiz",
-      "Estabilidade",
-      "chakra",
-      "Fundamento"
+      "Luân xa gốc",
+      "luân xa gốc",
+      "Ổn định",
+      "luân xa",
+      "Cơ bản"
     ],
-    "desc": "Tema do chakra raiz, ressonância de baixa frequência criando um campo de energia seguro e estável, adequado para meditação.",
+    "desc": "Chủ đề luân xa gốc, cộng hưởng tần số thấp tạo ra trường năng lượng an toàn ổn định, thích hợp cho tĩnh tâm.",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -3981,15 +3981,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%81%AB.mp3",
-    "title": "Fogo",
+    "title": "Lửa",
     "tag": [
-      "Fogo",
-      "fogo",
-      "energia",
-      "paixão",
-      "elemento"
+      "Lửa",
+      "fire",
+      "năng lượng",
+      "nhiệt huyết",
+      "yếu tố"
     ],
-    "desc": "Com o tema do elemento fogo, incorpora efeitos sonoros naturais como chamas e fogueiras, simbolizando energia e transformação.",
+    "desc": "Lấy yếu tố lửa làm chủ đề, kết hợp với các hiệu ứng âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Melodia principal de sons ambientais",
+    "title": "Giai điệu chính của âm thanh môi trường",
     "tag": [
-      "sons ambientais",
-      "sons da natureza",
-      "som ambiente",
-      "puramente natural",
-      "ambiente"
+      "Âm thanh môi trường",
+      "nature sounds",
+      "âm thanh môi trường",
+      "thuần tự nhiên",
+      "ambient"
     ],
-    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes humanas, adequada para meditação, relaxamento e cura natural.",
+    "desc": "Cảnh âm thanh môi trường thuần tự nhiên, không có nhạc cụ hay giọng hát, phù hợp cho thiền định, thư giãn và chữa lành tự nhiên.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4777,15 +4777,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%9C%89%E5%BF%83%E8%BC%AA.mp3",
-    "title": "Chakra do terceiro olho",
+    "title": "Luân xa con mắt thứ ba",
     "tag": [
-      "Chakra do terceiro olho",
-      "chakra do terceiro olho",
-      "Espiritualidade",
+      "Luân xa con mắt thứ ba",
+      "third eye chakra",
+      "Tâm linh",
       "chakra",
-      "Intuição"
+      "Trực giác"
     ],
-    "desc": "Paisagem sonora de meditação do chakra do terceiro olho, enfatizando a abertura espiritual e intuitiva, adequada para uma percepção profunda.",
+    "desc": "Cảnh âm thiền định luân xa mắt, nhấn mạnh sự mở ra của tâm linh và trực giác, phù hợp cho nhận thức sâu sắc.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Tambor xamânico de baixa frequência",
+    "title": "Trống tần số thấp shaman",
     "tag": [
-      "Tambor xamânico",
-      "Tambor de baixa frequência",
-      "tambor xamânico",
-      "tambor de moldura",
-      "Aterramento"
+      "Trống shaman",
+      "Trống tần số thấp",
+      "trống shamanic",
+      "trống khung",
+      "nối đất"
     ],
-    "desc": "Ritmo estável do tambor xamânico de baixa frequência, auxiliando na entrada em meditação profunda e percepção corporal.",
+    "desc": "Nhịp điệu ổn định của trống shaman tần số thấp, hỗ trợ vào thiền định sâu và cảm nhận cơ thể.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5573,15 +5573,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "Chakra da garganta",
+    "title": "Luân xa họng",
     "tag": [
-      "Chakra da garganta",
-      "chakra da garganta",
-      "Comunicação",
+      "Luân xa họng",
+      "luân xa họng",
+      "Giao tiếp",
       "chakra",
-      "Liberdade"
+      "Tự do"
     ],
-    "desc": "Paisagem sonora temática do chakra da garganta, criando um espaço para o fluxo de energia suave e expressão livre.",
+    "desc": "Cảnh âm chủ đề luân xa họng, tạo không gian cho dòng năng lượng thông suốt và biểu đạt tự do.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Chakra Sacral",
+    "title": "Luân xa xương cùng",
     "tag": [
-      "Chakra Sacral",
-      "chakra sacral",
-      "emoções",
-      "chakra",
-      "fluxo"
+      "Luân xa xương cùng",
+      "luân xa xương cùng",
+      "cảm xúc",
+      "luân xa",
+      "dòng chảy"
     ],
-    "desc": "Paisagem sonora do Chakra Sacral, simboliza o fluxo emocional, criatividade e energia de prazer.",
+    "desc": "Âm cảnh luân xa xương cùng, tượng trưng cho dòng chảy cảm xúc, sáng tạo và năng lượng vui vẻ.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Metal",
+    "title": "Kim",
     "tag": [
-      "Metal",
-      "metal",
-      "pureza",
-      "clareza",
-      "clareza"
+      "Kim",
+      "kim loại",
+      "thuần khiết",
+      "trong trẻo",
+      "sự rõ ràng"
     ],
-    "desc": "Tema do elemento metal, com timbre claro e brilhante, criando uma atmosfera pura e etérea.",
+    "desc": "Chủ đề nguyên tố kim, âm sắc trong trẻo sáng sủa, tạo ra không gian thuần khiết và huyền ảo.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -6767,15 +6767,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
-    "title": "Piano",
+    "title": "Đàn piano",
     "tag": [
-      "Piano",
-      "piano",
-      "Gentileza",
-      "Harmonia",
-      "relaxante"
+      "Đàn piano",
+      "đàn piano",
+      "Dịu dàng",
+      "Hài hòa",
+      "thư giãn"
     ],
-    "desc": "Melodia principal de piano suave, acompanhada por um acompanhamento tranquilo, proporcionando uma sensação de paz e conforto.",
+    "desc": "Giai điệu chính của piano dịu dàng, kết hợp với đệm nhẹ nhàng, mang lại cảm giác bình yên và thoải mái.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Diapasão de Glockenspiel",
+    "title": "Âm thoa chuông",
     "tag": [
-      "Glockenspiel",
-      "Diapasão",
-      "glockenspiel",
-      "diapasão",
-      "Etéreo"
+      "Chuông",
+      "Âm thoa",
+      "chuông",
+      "âm thoa",
+      "Không linh"
     ],
-    "desc": "O som etéreo do glockenspiel e do diapasão é adequado para meditação, limpeza e concentração.",
+    "desc": "Âm thanh không linh của chuông và âm thoa, thích hợp cho thiền định, thanh lọc và tập trung.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flauta e Xiao",
+    "title": "Sáo trúc và sáo động",
     "tag": [
-      "Flauta",
-      "Xiao",
-      "flauta",
-      "xiao",
-      "Fluxo"
+      "Sáo trúc",
+      "Sáo động",
+      "sáo",
+      "sáo động",
+      "Lưu động"
     ],
-    "desc": "Melodia principal de flauta e xiao, fluindo de forma distante, criando um estado de espírito etéreo e profundo.",
+    "desc": "Giai điệu chính của sáo trúc và sáo động, lưu động xa xăm, tạo nên tâm trạng không linh sâu xa.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
@@ -7961,15 +7961,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Trovão",
+    "title": "Sấm sét",
     "tag": [
-      "Trovão",
-      "thunder",
-      "Natureza",
-      "Natureza",
-      "Energia"
+      "Sấm sét",
+      "sấm sét",
+      "Tự nhiên",
+      "Thiên nhiên",
+      "Năng lượng"
     ],
-    "desc": "O som do trovão e da chuva natural cria uma paisagem sonora cheia de energia e liberação.",
+    "desc": "Âm thanh của sấm sét và mưa tự nhiên tạo ra một cảnh quan âm thanh đầy năng lượng và giải phóng.",
     "embedding": [
       0.03458813577890396,
       0.027948737144470215,
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Chakra da Coroa",
+    "title": "Luân xa vương miện",
     "tag": [
-      "Chakra da Coroa",
-      "crown chakra",
-      "Despertar",
-      "chakra",
-      "Luz"
+      "Luân xa vương miện",
+      "luân xa vương miện",
+      "Thức tỉnh",
+      "luân xa",
+      "Ánh sáng"
     ],
-    "desc": "Paisagem sonora temática do chakra da coroa, simbolizando o despertar espiritual, a elevação espiritual e a luz.",
+    "desc": "Chủ đề âm thanh của luân xa vương miện, tượng trưng cho sự thức tỉnh tâm linh, nâng cao tinh thần và ánh sáng.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

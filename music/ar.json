@@ -1,15 +1,15 @@
 [
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
-    "title": "Tigela Cantante",
+    "title": "وعاء الغناء",
     "tag": [
-      "Tigela Cantante",
-      "tigela cantante",
-      "Meditação",
-      "meditação",
-      "cura"
+      "وعاء الغناء",
+      "وعاء الغناء",
+      "تأمل",
+      "تأمل",
+      "شفاء"
     ],
-    "desc": "Com o som da tigela cantante como melodia principal, ressonância suave, adequado para paisagens sonoras de meditação e cura.",
+    "desc": "يتميز بصوت وعاء الغناء كالميلودي الرئيسي، يتناغم بلطف، مناسب للتأمل ومشاهد الشفاء الصوتية.",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -399,15 +399,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
-    "title": "Violão",
+    "title": "غيتار",
     "tag": [
-      "Violão",
-      "violão",
-      "Suave",
-      "acústico",
-      "relaxar"
+      "غيتار",
+      "غيتار",
+      "ناعم",
+      "أكوستيك",
+      "استرخاء"
     ],
-    "desc": "Principalmente violão suave, complementado por almofadas sonoras leves, adequado para relaxamento e concentração.",
+    "desc": "يركز على الغيتار الناعم، مدعوم بوسائد صوتية ناعمة، مناسب للاسترخاء والتركيز.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -797,15 +797,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "Terra",
+    "title": "أرض",
     "tag": [
-      "Terra",
-      "terra",
-      "Natureza",
-      "Terra",
-      "grounding"
+      "أرض",
+      "أرض",
+      "الطبيعة",
+      "الأرض",
+      "التأريض"
     ],
-    "desc": "Inspirado nos elementos da terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
+    "desc": "مستوحى من عنصر الأرض، يدمج الترددات المنخفضة الطبيعية مع الأصوات البيئية، ويؤكد على الاستقرار والهدوء.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1195,15 +1195,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%A4%AA%E9%99%BD%E7%A5%9E%E7%B6%93%E5%8F%A2%E8%BC%AA.mp3",
-    "title": "Chakra do Plexo Solar",
+    "title": "تشاكرا الضفيرة الشمسية",
     "tag": [
-      "Chakra do Plexo Solar",
+      "تشاكرا الضفيرة الشمسية",
       "solar plexus chakra",
-      "Energia",
-      "chakra",
-      "Confiança"
+      "الطاقة",
+      "تشاكرا",
+      "الثقة بالنفس"
     ],
-    "desc": "Tema do chakra do plexo solar, simboliza vitalidade, vontade e centro de energia, com uma atmosfera de calor e luz.",
+    "desc": "موضوع تشاكرا الضفيرة الشمسية، يرمز إلى الحيوية والإرادة ومركز الطاقة، أجواء دافئة ومشرقة.",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1593,15 +1593,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%B1%B1.mp3",
-    "title": "Montanha",
+    "title": "الجبل",
     "tag": [
-      "Montanha",
+      "الجبل",
       "mountain",
-      "Tranquilidade",
-      "paz",
-      "Natureza"
+      "الهدوء",
+      "السلام",
+      "الطبيعة"
     ],
-    "desc": "Simula a tranquilidade e vastidão das montanhas, utilizando sons ambientais naturais para promover a paz interior.",
+    "desc": "محاكاة الهدوء والاتساع في الجبال، باستخدام أصوات البيئة الطبيعية لتعزيز السلام الداخلي.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan e tambor de língua de aço",
+    "title": "طبلة هاندبان الروحية",
     "tag": [
-      "Handpan",
-      "Tambor de língua de aço",
-      "handpan",
-      "steel tongue drum",
-      "Relaxar"
+      "هاندبان",
+      "طبلة روحية",
+      "هاندبان",
+      "طبلة لسان فولاذية",
+      "استرخاء"
     ],
-    "desc": "Melodia principal de handpan e tambor de língua de aço, uma melodia suave e etérea, adequada para meditação profunda e relaxamento.",
+    "desc": "اللحن الرئيسي للهاندبان والطبلة الروحية، لحن دائري وروحي، مناسب للتأمل العميق والاسترخاء.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2389,15 +2389,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9C%A8.mp3",
-    "title": "Madeira",
+    "title": "خشب",
     "tag": [
-      "Madeira",
-      "wood",
-      "Natureza",
-      "Vitalidade",
-      "floresta"
+      "خشب",
+      "خشب",
+      "طبيعة",
+      "حيوية",
+      "غابة"
     ],
-    "desc": "Inspirado no elemento madeira, combina o som do vento entre as árvores e os sons naturais das árvores, mostrando vitalidade.",
+    "desc": "مستوحى من عنصر الخشب، يجمع بين صوت الرياح بين الأشجار وأصوات الطبيعة، ليظهر الحيوية.",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -2787,15 +2787,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9E%97.mp3",
-    "title": "Floresta",
+    "title": "غابة",
     "tag": [
-      "Floresta",
-      "floresta",
-      "Canto dos pássaros",
-      "Natureza",
-      "Estabilidade"
+      "غابة",
+      "غابة",
+      "صوت الطيور",
+      "الطبيعة",
+      "استقرار"
     ],
-    "desc": "Paisagem sonora da floresta, canto dos pássaros e som das folhas, criando uma atmosfera natural e estável.",
+    "desc": "مشهد صوتي للغابة، صوت الطيور وحفيف الأوراق، يخلق جوًا طبيعيًا مستقرًا.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3185,15 +3185,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B0%B4.mp3",
-    "title": "Água",
+    "title": "الماء",
     "tag": [
-      "Água",
-      "água",
-      "Fluxo de água",
-      "Fluir",
-      "Fresco"
+      "الماء",
+      "الماء",
+      "تدفق الماء",
+      "تدفق",
+      "نقاء"
     ],
-    "desc": "Com o fluxo de água e o som do riacho como tema principal, apresenta um estado de espírito fresco e fluido.",
+    "desc": "يركز على تدفق الماء وصوت الجداول، ليعكس حالة ذهنية نقية ومتدفقة.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3583,15 +3583,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B5%B7%E5%BA%95%E8%BC%AA.mp3",
-    "title": "Chakra Raiz",
+    "title": "شاكرا الجذر",
     "tag": [
-      "Chakra Raiz",
-      "chakra raiz",
-      "Estabilidade",
-      "chakra",
-      "Fundamento"
+      "شاكرا الجذر",
+      "شاكرا الجذر",
+      "استقرار",
+      "شاكرا",
+      "أساس"
     ],
-    "desc": "Tema do chakra raiz, ressonância de baixa frequência criando um campo de energia seguro e estável, adequado para meditação.",
+    "desc": "موضوع شاكرا الجذر، ترددات منخفضة تخلق مجال طاقة آمن ومستقر، مناسب للتأمل.",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -3981,15 +3981,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%81%AB.mp3",
-    "title": "Fogo",
+    "title": "نار",
     "tag": [
-      "Fogo",
-      "fogo",
-      "energia",
-      "paixão",
-      "elemento"
+      "نار",
+      "fire",
+      "طاقة",
+      "شغف",
+      "عنصر"
     ],
-    "desc": "Com o tema do elemento fogo, incorpora efeitos sonoros naturais como chamas e fogueiras, simbolizando energia e transformação.",
+    "desc": "موضوعه عنصر النار، يدمج أصوات طبيعية مثل اللهب والنار، يرمز إلى الطاقة والتحول.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Melodia principal de sons ambientais",
+    "title": "اللحن الرئيسي لأصوات البيئة",
     "tag": [
-      "sons ambientais",
-      "sons da natureza",
-      "som ambiente",
-      "puramente natural",
-      "ambiente"
+      "أصوات البيئة",
+      "nature sounds",
+      "أصوات البيئة",
+      "طبيعي بحت",
+      "محیط"
     ],
-    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes humanas, adequada para meditação, relaxamento e cura natural.",
+    "desc": "منظر صوتي طبيعي بحت، بدون أي آلات موسيقية أو أصوات بشرية، مناسب للتأمل والاسترخاء والعلاج الطبيعي.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4777,15 +4777,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%9C%89%E5%BF%83%E8%BC%AA.mp3",
-    "title": "Chakra do terceiro olho",
+    "title": "شاكرا العين الثالثة",
     "tag": [
-      "Chakra do terceiro olho",
-      "chakra do terceiro olho",
-      "Espiritualidade",
-      "chakra",
-      "Intuição"
+      "شاكرا العين الثالثة",
+      "third eye chakra",
+      "روحانية",
+      "شاكرا",
+      "حدس"
     ],
-    "desc": "Paisagem sonora de meditação do chakra do terceiro olho, enfatizando a abertura espiritual e intuitiva, adequada para uma percepção profunda.",
+    "desc": "مشهد تأمل العين الثالثة، يركز على فتح الروحانية والحدس، مناسب للوعي العميق.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Tambor xamânico de baixa frequência",
+    "title": "طبل الشامان منخفض التردد",
     "tag": [
-      "Tambor xamânico",
-      "Tambor de baixa frequência",
-      "tambor xamânico",
-      "tambor de moldura",
-      "Aterramento"
+      "طبل الشامان",
+      "طبل منخفض التردد",
+      "طبل شاماني",
+      "طبل الإطار",
+      "تأريض"
     ],
-    "desc": "Ritmo estável do tambor xamânico de baixa frequência, auxiliando na entrada em meditação profunda e percepção corporal.",
+    "desc": "إيقاع ثابت لطبل الشامان منخفض التردد، يساعد على الدخول في تأمل عميق وإدراك جسدي.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5573,15 +5573,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "Chakra da garganta",
+    "title": "شاكرا الحلق",
     "tag": [
-      "Chakra da garganta",
-      "chakra da garganta",
-      "Comunicação",
-      "chakra",
-      "Liberdade"
+      "شاكرا الحلق",
+      "شاكرا الحلق",
+      "تواصل",
+      "شاكرا",
+      "حرية"
     ],
-    "desc": "Paisagem sonora temática do chakra da garganta, criando um espaço para o fluxo de energia suave e expressão livre.",
+    "desc": "مشهد صوتي لموضوع شاكرا الحلق، يخلق مساحة لتدفق الطاقة بسلاسة والتعبير بحرية.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Chakra Sacral",
+    "title": "العجلة العجزية",
     "tag": [
-      "Chakra Sacral",
-      "chakra sacral",
-      "emoções",
-      "chakra",
-      "fluxo"
+      "العجلة العجزية",
+      "العجلة العجزية",
+      "العواطف",
+      "الشاكرا",
+      "التدفق"
     ],
-    "desc": "Paisagem sonora do Chakra Sacral, simboliza o fluxo emocional, criatividade e energia de prazer.",
+    "desc": "مشهد صوتي للعجلة العجزية، يرمز إلى تدفق العواطف، الإبداع والطاقة السعيدة.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Metal",
+    "title": "الذهب",
     "tag": [
-      "Metal",
-      "metal",
-      "pureza",
-      "clareza",
-      "clareza"
+      "الذهب",
+      "المعدن",
+      "النقاء",
+      "الصفاء",
+      "الوضوح"
     ],
-    "desc": "Tema do elemento metal, com timbre claro e brilhante, criando uma atmosfera pura e etérea.",
+    "desc": "موضوع عنصر الذهب، نغمة صوتية نقية ومشرقة، تخلق جوًا نقيًا وشفافًا.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -6767,15 +6767,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
-    "title": "Piano",
+    "title": "البيانو",
     "tag": [
-      "Piano",
-      "piano",
-      "Gentileza",
-      "Harmonia",
-      "relaxante"
+      "البيانو",
+      "البيانو",
+      "رقيق",
+      "انسجام",
+      "مريح"
     ],
-    "desc": "Melodia principal de piano suave, acompanhada por um acompanhamento tranquilo, proporcionando uma sensação de paz e conforto.",
+    "desc": "لحن البيانو الرقيق مع مرافقة مهدئة، يجلب شعوراً بالسلام والراحة.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Diapasão de Glockenspiel",
+    "title": "صوت الجرس والشوكة الرنانة",
     "tag": [
-      "Glockenspiel",
-      "Diapasão",
-      "glockenspiel",
-      "diapasão",
-      "Etéreo"
+      "جرس",
+      "شوكة رنانة",
+      "جلوكنسبيل",
+      "شوكة ضبط",
+      "روحاني"
     ],
-    "desc": "O som etéreo do glockenspiel e do diapasão é adequado para meditação, limpeza e concentração.",
+    "desc": "صوت الجرس والشوكة الرنانة الروحاني، مناسب للتأمل والتنظيف والتركيز.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flauta e Xiao",
+    "title": "ناي الفلوت",
     "tag": [
-      "Flauta",
-      "Xiao",
-      "flauta",
-      "xiao",
-      "Fluxo"
+      "فلوت",
+      "ناي",
+      "فلوت",
+      "شياو",
+      "تدفق"
     ],
-    "desc": "Melodia principal de flauta e xiao, fluindo de forma distante, criando um estado de espírito etéreo e profundo.",
+    "desc": "لحن الفلوت والناي، يتدفق بعيداً، يخلق حالة ذهنية روحانية وعميقة.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
@@ -7961,15 +7961,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Trovão",
+    "title": "رعد",
     "tag": [
-      "Trovão",
+      "رعد",
       "thunder",
-      "Natureza",
-      "Natureza",
-      "Energia"
+      "طبيعة",
+      "الطبيعة",
+      "طاقة"
     ],
-    "desc": "O som do trovão e da chuva natural cria uma paisagem sonora cheia de energia e liberação.",
+    "desc": "صوت الرعد وصوت المطر الطبيعي يخلق بيئة صوتية مليئة بالطاقة والتحرر.",
     "embedding": [
       0.03458813577890396,
       0.027948737144470215,
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Chakra da Coroa",
+    "title": "التاج",
     "tag": [
-      "Chakra da Coroa",
+      "التاج",
       "crown chakra",
-      "Despertar",
-      "chakra",
-      "Luz"
+      "اليقظة",
+      "شاكرا",
+      "نور"
     ],
-    "desc": "Paisagem sonora temática do chakra da coroa, simbolizando o despertar espiritual, a elevação espiritual e a luz.",
+    "desc": "المشهد الصوتي لموضوع التاج يرمز إلى اليقظة الروحية، الارتقاء الروحي والنور.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

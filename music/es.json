@@ -407,7 +407,7 @@
       "acústico",
       "Relajación"
     ],
-    "desc": "Principalmente guitarra suave, acompañada de un fondo sonoro ligero, adecuado para relajarse y concentrarse.",
+    "desc": "Guitarra suave como principal, acompañada de un fondo sonoro ligero, adecuado para relajarse y concentrarse.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -805,7 +805,7 @@
       "Tierra",
       "conexión a tierra"
     ],
-    "desc": "Inspirado en el elemento tierra, fusiona frecuencias bajas naturales y sonidos ambientales, enfatizando una sensación de estabilidad y calma.",
+    "desc": "Inspirado en el elemento tierra, fusiona frecuencias bajas naturales y sonidos ambientales, enfatizando la estabilidad y la calma.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Tambor de mano etéreo",
+    "title": "Tambor espiritual de mano",
     "tag": [
       "Tambor de mano",
-      "Tambor etéreo",
+      "Tambor espiritual",
       "handpan",
       "tambor de lengüeta de acero",
       "relajación"
     ],
-    "desc": "Melodía principal de tambor de mano y tambor etéreo, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
+    "desc": "Melodía principal de tambor de mano y tambor espiritual, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2795,7 +2795,7 @@
       "Naturaleza",
       "Estabilidad"
     ],
-    "desc": "Paisaje sonoro del bosque, con canto de pájaros y el susurro de las hojas, creando una atmósfera natural y estable.",
+    "desc": "Paisaje sonoro del bosque, canto de pájaros y susurro de hojas, creando una atmósfera natural y estable.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3591,7 +3591,7 @@
       "chakra",
       "Fundamento"
     ],
-    "desc": "Tema del chakra raíz, la resonancia de baja frecuencia crea un campo de energía seguro y estable, adecuado para la meditación.",
+    "desc": "Tema del chakra raíz, resonancia de baja frecuencia que crea un campo de energía seguro y estable, adecuado para la meditación.",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -4384,10 +4384,10 @@
       "Sonidos ambientales",
       "sonidos de la naturaleza",
       "sonido ambiental",
-      "pura naturaleza",
+      "naturaleza pura",
       "ambiente"
     ],
-    "desc": "Paisaje sonoro de pura naturaleza, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
+    "desc": "Paisaje sonoro de ambiente natural puro, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuición"
     ],
-    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatiza la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
+    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatizando la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5581,7 +5581,7 @@
       "chakra",
       "Libertad"
     ],
-    "desc": "Paisaje sonoro temático del chakra de la garganta, crea un espacio para el flujo de energía suave y la expresión libre.",
+    "desc": "Paisaje sonoro temático del chakra de la garganta, creando un espacio para el flujo de energía suave y la expresión libre.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Metal",
+    "title": "Oro",
     "tag": [
-      "Metal",
+      "Oro",
       "metal",
       "Pureza",
       "Claridad",
       "claridad"
     ],
-    "desc": "Tema del elemento metal, con un tono claro y brillante, creando una atmósfera pura y etérea.",
+    "desc": "Tema del elemento oro, el tono es claro y brillante, creando una atmósfera pura y etérea.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Diapasón de campana",
+    "title": "Diapasón de campanillas",
     "tag": [
-      "Campana",
+      "Campanillas",
       "Diapasón",
       "glockenspiel",
       "diapasón",
       "Etéreo"
     ],
-    "desc": "El sonido etéreo del glockenspiel y el diapasón es adecuado para la meditación, la limpieza y la concentración.",
+    "desc": "El sonido etéreo de las campanillas y el diapasón es adecuado para la meditación, la limpieza y la concentración.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7964,7 +7964,7 @@
     "title": "Trueno",
     "tag": [
       "Trueno",
-      "trueno",
+      "thunder",
       "Naturaleza",
       "Naturaleza",
       "Energía"
@@ -8362,12 +8362,12 @@
     "title": "Chakra corona",
     "tag": [
       "Chakra corona",
-      "chakra corona",
+      "crown chakra",
       "Despertar",
       "chakra",
       "Luz"
     ],
-    "desc": "Paisaje sonoro temático del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
+    "desc": "El paisaje sonoro del chakra corona simboliza el despertar espiritual, la elevación espiritual y la luz.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

@@ -1,15 +1,15 @@
 [
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
-    "title": "Tigela Cantante",
+    "title": "ਸਿੰਗਿੰਗ ਬੋਲ",
     "tag": [
-      "Tigela Cantante",
-      "tigela cantante",
-      "Meditação",
-      "meditação",
-      "cura"
+      "ਸਿੰਗਿੰਗ ਬੋਲ",
+      "singing bowl",
+      "ਧਿਆਨ",
+      "meditation",
+      "ਚੰਗਾ ਕਰਨਾ"
     ],
-    "desc": "Com o som da tigela cantante como melodia principal, ressonância suave, adequado para paisagens sonoras de meditação e cura.",
+    "desc": "ਸਿੰਗਿੰਗ ਬੋਲ ਦੀ ਆਵਾਜ਼ ਨੂੰ ਮੁੱਖ ਧੁਨ ਵਜੋਂ ਵਰਤਿਆ ਗਿਆ ਹੈ, ਜੋ ਕਿ ਧਿਆਨ ਅਤੇ ਚੰਗੇ ਕਰਨ ਵਾਲੇ ਸੰਗੀਤ ਲਈ ਉਚਿਤ ਹੈ।",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -399,15 +399,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
-    "title": "Violão",
+    "title": "ਗਿਟਾਰ",
     "tag": [
-      "Violão",
-      "violão",
-      "Suave",
-      "acústico",
-      "relaxar"
+      "ਗਿਟਾਰ",
+      "guitar",
+      "ਹੌਲੀ",
+      "acoustic",
+      "ਆਰਾਮ"
     ],
-    "desc": "Principalmente violão suave, complementado por almofadas sonoras leves, adequado para relaxamento e concentração.",
+    "desc": "ਮੁੱਖ ਤੌਰ 'ਤੇ ਨਰਮ ਗਿਟਾਰ, ਹੌਲੀ ਧੁਨ ਨਾਲ ਸਹਾਇਕ, ਆਰਾਮ ਅਤੇ ਧਿਆਨ ਲਈ ਉਚਿਤ।",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -797,15 +797,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "Terra",
+    "title": "ਧਰਤੀ",
     "tag": [
-      "Terra",
-      "terra",
-      "Natureza",
-      "Terra",
-      "grounding"
+      "ਧਰਤੀ",
+      "earth",
+      "ਕੁਦਰਤ",
+      "ਧਰਤੀ",
+      "ਗ੍ਰਾਊਂਡਿੰਗ"
     ],
-    "desc": "Inspirado nos elementos da terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
+    "desc": "ਧਰਤੀ ਦੇ ਤੱਤਾਂ ਤੋਂ ਪ੍ਰੇਰਿਤ, ਕੁਦਰਤੀ ਘੱਟ ਫ੍ਰਿਕਵੈਂਸੀ ਅਤੇ ਵਾਤਾਵਰਣ ਦੀਆਂ ਆਵਾਜ਼ਾਂ ਨੂੰ ਮਿਲਾ ਕੇ, ਸਥਿਰਤਾ ਅਤੇ ਸ਼ਾਂਤੀ ਦੀ ਭਾਵਨਾ ਨੂੰ ਜ਼ੋਰ ਦਿੰਦਾ ਹੈ।",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1195,15 +1195,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%A4%AA%E9%99%BD%E7%A5%9E%E7%B6%93%E5%8F%A2%E8%BC%AA.mp3",
-    "title": "Chakra do Plexo Solar",
+    "title": "ਸੂਰਜੀ ਪਲੇਕਸਸ ਚਕਰ",
     "tag": [
-      "Chakra do Plexo Solar",
+      "ਸੂਰਜੀ ਪਲੇਕਸਸ ਚਕਰ",
       "solar plexus chakra",
-      "Energia",
-      "chakra",
-      "Confiança"
+      "ਉਰਜਾ",
+      "ਚਕਰ",
+      "ਆਤਮ ਵਿਸ਼ਵਾਸ"
     ],
-    "desc": "Tema do chakra do plexo solar, simboliza vitalidade, vontade e centro de energia, com uma atmosfera de calor e luz.",
+    "desc": "ਸੂਰਜੀ ਪਲੇਕਸਸ ਚਕਰ ਦਾ ਵਿਸ਼ਾ, ਜੋ ਜੀਵਨਸ਼ਕਤੀ, ਇੱਛਾ ਅਤੇ ਉਰਜਾ ਕੇਂਦਰ ਦਾ ਪ੍ਰਤੀਕ ਹੈ, ਗਰਮੀ ਅਤੇ ਰੌਸ਼ਨੀ ਦਾ ਮਾਹੌਲ।",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1593,15 +1593,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%B1%B1.mp3",
-    "title": "Montanha",
+    "title": "ਪਹਾੜ",
     "tag": [
-      "Montanha",
+      "ਪਹਾੜ",
       "mountain",
-      "Tranquilidade",
-      "paz",
-      "Natureza"
+      "ਸ਼ਾਂਤੀ",
+      "ਸ਼ਾਂਤੀ",
+      "ਕੁਦਰਤ"
     ],
-    "desc": "Simula a tranquilidade e vastidão das montanhas, utilizando sons ambientais naturais para promover a paz interior.",
+    "desc": "ਪਹਾੜਾਂ ਦੀ ਸ਼ਾਂਤੀ ਅਤੇ ਵਿਸ਼ਾਲਤਾ ਦਾ ਅਨੁਕਰਣ, ਮਨ ਦੀ ਸ਼ਾਂਤੀ ਨੂੰ ਉਭਾਰਨ ਲਈ ਕੁਦਰਤੀ ਵਾਤਾਵਰਣ ਦੀਆਂ ਆਵਾਜ਼ਾਂ ਨਾਲ।",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan e tambor de língua de aço",
+    "title": "ਹੱਥ ਪੈਨ ਖਾਲੀ ਆਤਮਿਕ ਡਰਮ",
     "tag": [
-      "Handpan",
-      "Tambor de língua de aço",
-      "handpan",
-      "steel tongue drum",
-      "Relaxar"
+      "ਹੱਥ ਪੈਨ",
+      "ਖਾਲੀ ਆਤਮਿਕ ਡਰਮ",
+      "ਹੈਂਡਪੈਨ",
+      "ਸਟੀਲ ਟੰਗ ਡਰਮ",
+      "ਆਰਾਮ"
     ],
-    "desc": "Melodia principal de handpan e tambor de língua de aço, uma melodia suave e etérea, adequada para meditação profunda e relaxamento.",
+    "desc": "ਹੱਥ ਪੈਨ ਅਤੇ ਖਾਲੀ ਆਤਮਿਕ ਡਰਮ ਦੀ ਮੁੱਖ ਧੁਨ, ਗੋਲ ਅਤੇ ਆਤਮਿਕ ਧੁਨ, ਡੂੰਘੀ ਧਿਆਨ ਅਤੇ ਆਰਾਮ ਲਈ ਉਚਿਤ।",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2389,15 +2389,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9C%A8.mp3",
-    "title": "Madeira",
+    "title": "ਲੱਕੜ",
     "tag": [
-      "Madeira",
-      "wood",
-      "Natureza",
-      "Vitalidade",
-      "floresta"
+      "ਲੱਕੜ",
+      "ਵੁੱਡ",
+      "ਕੁਦਰਤ",
+      "ਜੀਵਨ ਸ਼ਕਤੀ",
+      "ਜੰਗਲ"
     ],
-    "desc": "Inspirado no elemento madeira, combina o som do vento entre as árvores e os sons naturais das árvores, mostrando vitalidade.",
+    "desc": "ਲੱਕੜ ਦੇ ਤੱਤ ਤੋਂ ਪ੍ਰੇਰਿਤ, ਜੰਗਲ ਦੀ ਹਵਾ ਦੀ ਆਵਾਜ਼ ਅਤੇ ਰੁੱਖਾਂ ਦੀ ਕੁਦਰਤੀ ਧੁਨ ਨੂੰ ਜੋੜ ਕੇ, ਜੀਵਨ ਸ਼ਕਤੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ।",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -2787,15 +2787,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%9E%97.mp3",
-    "title": "Floresta",
+    "title": "ਜੰਗਲ",
     "tag": [
-      "Floresta",
-      "floresta",
-      "Canto dos pássaros",
-      "Natureza",
-      "Estabilidade"
+      "ਜੰਗਲ",
+      "ਫਾਰੇਸਟ",
+      "ਪੰਛੀਆਂ ਦੀ ਚਹਚਹਾਹਟ",
+      "ਕੁਦਰਤ",
+      "ਸਥਿਰਤਾ"
     ],
-    "desc": "Paisagem sonora da floresta, canto dos pássaros e som das folhas, criando uma atmosfera natural e estável.",
+    "desc": "ਜੰਗਲ ਦੀ ਆਵਾਜ਼, ਪੰਛੀਆਂ ਦੀ ਚਹਚਹਾਹਟ ਅਤੇ ਪੱਤਿਆਂ ਦੀ ਖੜਕ, ਕੁਦਰਤੀ ਸਥਿਰਤਾ ਦਾ ਮਾਹੌਲ ਬਣਾਉਂਦੀ ਹੈ।",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3185,15 +3185,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B0%B4.mp3",
-    "title": "Água",
+    "title": "ਪਾਣੀ",
     "tag": [
-      "Água",
-      "água",
-      "Fluxo de água",
-      "Fluir",
-      "Fresco"
+      "ਪਾਣੀ",
+      "ਪਾਣੀ",
+      "ਬਹਿੰਦਾ ਪਾਣੀ",
+      "ਵਹਾਉਣਾ",
+      "ਤਾਜ਼ਗੀ"
     ],
-    "desc": "Com o fluxo de água e o som do riacho como tema principal, apresenta um estado de espírito fresco e fluido.",
+    "desc": "ਪਾਣੀ ਦੇ ਵਹਾਅ ਅਤੇ ਨਦੀ ਦੀ ਆਵਾਜ਼ ਨੂੰ ਮੁੱਖ ਰੂਪ ਵਿੱਚ ਰੱਖ ਕੇ, ਤਾਜ਼ਗੀ ਭਰੀ ਚਲਦੀ ਹੋਈ ਮਨੋਸਥਿਤੀ ਪੇਸ਼ ਕਰਦਾ ਹੈ।",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3583,15 +3583,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B5%B7%E5%BA%95%E8%BC%AA.mp3",
-    "title": "Chakra Raiz",
+    "title": "ਸਮੁੰਦਰ ਤਲ ਚੱਕਰ",
     "tag": [
-      "Chakra Raiz",
-      "chakra raiz",
-      "Estabilidade",
-      "chakra",
-      "Fundamento"
+      "ਸਮੁੰਦਰ ਤਲ ਚੱਕਰ",
+      "ਮੂਲ ਚੱਕਰ",
+      "ਸਥਿਰਤਾ",
+      "ਚੱਕਰ",
+      "ਬੁਨਿਆਦ"
     ],
-    "desc": "Tema do chakra raiz, ressonância de baixa frequência criando um campo de energia seguro e estável, adequado para meditação.",
+    "desc": "ਸਮੁੰਦਰ ਤਲ ਚੱਕਰ ਦਾ ਵਿਸ਼ਾ, ਘੱਟ ਫ੍ਰੀਕਵੈਂਸੀ ਦਾ ਕੰਪਨ ਸੁਰੱਖਿਅਤ ਅਤੇ ਸਥਿਰ ਊਰਜਾ ਖੇਤਰ ਬਣਾਉਂਦਾ ਹੈ, ਜੋ ਧਿਆਨ ਲਈ ਉਚਿਤ ਹੈ।",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -3981,15 +3981,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%81%AB.mp3",
-    "title": "Fogo",
+    "title": "ਅੱਗ",
     "tag": [
-      "Fogo",
-      "fogo",
-      "energia",
-      "paixão",
-      "elemento"
+      "ਅੱਗ",
+      "ਅੱਗ",
+      "ਉਰਜਾ",
+      "ਜੋਸ਼",
+      "ਤੱਤ"
     ],
-    "desc": "Com o tema do elemento fogo, incorpora efeitos sonoros naturais como chamas e fogueiras, simbolizando energia e transformação.",
+    "desc": "ਅੱਗ ਦੇ ਤੱਤ ਨੂੰ ਕੇਂਦਰ ਵਿੱਚ ਰੱਖ ਕੇ, ਅੱਗ ਅਤੇ ਅੱਗ ਦੇ ਕੈਂਪਫਾਇਰ ਵਰਗੇ ਕੁਦਰਤੀ ਧੁਨੀਆਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰਦਾ ਹੈ, ਜੋ ਉਰਜਾ ਅਤੇ ਬਦਲਾਅ ਦਾ ਪ੍ਰਤੀਕ ਹੈ।",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Melodia principal de sons ambientais",
+    "title": "ਵਾਤਾਵਰਣ ਦੀ ਮੁੱਖ ਧੁਨ",
     "tag": [
-      "sons ambientais",
-      "sons da natureza",
-      "som ambiente",
-      "puramente natural",
-      "ambiente"
+      "ਵਾਤਾਵਰਣ ਦੀ ਆਵਾਜ਼",
+      "ਕੁਦਰਤੀ ਧੁਨੀਆਂ",
+      "ਵਾਤਾਵਰਣ ਦੀ ਧੁਨ",
+      "ਸ਼ੁੱਧ ਕੁਦਰਤੀ",
+      "ਵਾਤਾਵਰਣ"
     ],
-    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes humanas, adequada para meditação, relaxamento e cura natural.",
+    "desc": "ਸ਼ੁੱਧ ਕੁਦਰਤੀ ਵਾਤਾਵਰਣ ਦੀ ਧੁਨ, ਕਿਸੇ ਵੀ ਸਾਜ਼ ਜਾਂ ਮਨੁੱਖੀ ਆਵਾਜ਼ ਤੋਂ ਬਿਨਾਂ, ਧਿਆਨ, ਆਰਾਮ ਅਤੇ ਕੁਦਰਤੀ ਥੇਰੇਪੀ ਲਈ ਉਚਿਤ।",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4777,15 +4777,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%9C%89%E5%BF%83%E8%BC%AA.mp3",
-    "title": "Chakra do terceiro olho",
+    "title": "ਭੌਂਹ ਚੱਕਰ",
     "tag": [
-      "Chakra do terceiro olho",
-      "chakra do terceiro olho",
-      "Espiritualidade",
-      "chakra",
-      "Intuição"
+      "ਭੌਂਹ ਚੱਕਰ",
+      "ਤੀਜੀ ਅੱਖ ਚੱਕਰ",
+      "ਆਤਮਿਕਤਾ",
+      "ਚਕਰਾ",
+      "ਸਿੱਧੀ ਦ੍ਰਿਸ਼ਟੀ"
     ],
-    "desc": "Paisagem sonora de meditação do chakra do terceiro olho, enfatizando a abertura espiritual e intuitiva, adequada para uma percepção profunda.",
+    "desc": "ਭਰੋਸੇਯੋਗ ਆਤਮਿਕਤਾ ਅਤੇ ਸਿੱਧੀ ਦ੍ਰਿਸ਼ਟੀ ਦੇ ਖੁਲ੍ਹਣ ਨੂੰ ਜ਼ੋਰ ਦਿੰਦਾ ਹੈ, ਡੂੰਘੀ ਸੂਚਨਾ ਲਈ ਉਚਿਤ ਹੈ।",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Tambor xamânico de baixa frequência",
+    "title": "ਸ਼ਾਮਨਿਕ ਡਰਮ ਘੱਟ ਫ੍ਰੀਕਵੈਂਸੀ ਡਰਮ",
     "tag": [
-      "Tambor xamânico",
-      "Tambor de baixa frequência",
-      "tambor xamânico",
-      "tambor de moldura",
-      "Aterramento"
+      "ਸ਼ਾਮਨਿਕ ਡਰਮ",
+      "ਘੱਟ ਫ੍ਰੀਕਵੈਂਸੀ ਡਰਮ",
+      "ਸ਼ਾਮਨਿਕ ਡਰਮ",
+      "ਫਰੇਮ ਡਰਮ",
+      "ਮੁੱਢਲੀ ਜੁੜਾਈ"
     ],
-    "desc": "Ritmo estável do tambor xamânico de baixa frequência, auxiliando na entrada em meditação profunda e percepção corporal.",
+    "desc": "ਘੱਟ ਫ੍ਰੀਕਵੈਂਸੀ ਸ਼ਾਮਨਿਕ ਡਰਮ ਦਾ ਸਥਿਰ ਰਿਥਮ, ਡੂੰਘੀ ਧਿਆਨ ਅਤੇ ਸਰੀਰਕ ਸੂਚਨਾ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ।",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5573,15 +5573,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "Chakra da garganta",
+    "title": "ਗਲਾ ਚਕਰਾ",
     "tag": [
-      "Chakra da garganta",
-      "chakra da garganta",
-      "Comunicação",
-      "chakra",
-      "Liberdade"
+      "ਗਲਾ ਚਕਰਾ",
+      "ਗਲਾ ਚਕਰਾ",
+      "ਸੰਚਾਰ",
+      "ਚਕਰਾ",
+      "ਆਜ਼ਾਦੀ"
     ],
-    "desc": "Paisagem sonora temática do chakra da garganta, criando um espaço para o fluxo de energia suave e expressão livre.",
+    "desc": "ਗਲਾ ਚਕਰਾ ਥੀਮਿਕ ਸਾਊਂਡਸਕੇਪ, ਸਹੀ ਊਰਜਾ ਦੇ ਪ੍ਰਵਾਹ ਅਤੇ ਆਜ਼ਾਦੀ ਦੇ ਪ੍ਰਗਟਾਵੇ ਦਾ ਮਾਹੌਲ ਬਣਾਉਂਦਾ ਹੈ।",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Chakra Sacral",
+    "title": "ਨਾਭੀ ਚਕਰ",
     "tag": [
-      "Chakra Sacral",
-      "chakra sacral",
-      "emoções",
-      "chakra",
-      "fluxo"
+      "ਨਾਭੀ ਚਕਰ",
+      "ਸੈਕਰਲ ਚਕਰ",
+      "ਭਾਵਨਾਵਾਂ",
+      "ਚਕਰ",
+      "ਵਹਾਅ"
     ],
-    "desc": "Paisagem sonora do Chakra Sacral, simboliza o fluxo emocional, criatividade e energia de prazer.",
+    "desc": "ਨਾਭੀ ਚਕਰ ਸਾਊਂਡਸਕੇਪ, ਜੋ ਭਾਵਨਾਵਾਂ ਦੇ ਵਹਾਅ, ਰਚਨਾਤਮਕਤਾ ਅਤੇ ਖੁਸ਼ੀ ਦੀ ਊਰਜਾ ਦਾ ਪ੍ਰਤੀਕ ਹੈ।",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Metal",
+    "title": "ਸੋਨਾ",
     "tag": [
-      "Metal",
-      "metal",
-      "pureza",
-      "clareza",
-      "clareza"
+      "ਸੋਨਾ",
+      "ਧਾਤ",
+      "ਸੁੱਚਤਾ",
+      "ਸਾਫ਼",
+      "ਸਪਸ਼ਟਤਾ"
     ],
-    "desc": "Tema do elemento metal, com timbre claro e brilhante, criando uma atmosfera pura e etérea.",
+    "desc": "ਸੋਨੇ ਦੇ ਤੱਤ ਦਾ ਵਿਸ਼ਾ, ਸਾਫ਼ ਅਤੇ ਚਮਕਦਾਰ ਸੁਰ, ਸੁੱਚ ਅਤੇ ਆਤਮਿਕ ਮਾਹੌਲ ਪੈਦਾ ਕਰਦਾ ਹੈ।",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -6767,15 +6767,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
-    "title": "Piano",
+    "title": "ਪਿਆਨੋ",
     "tag": [
-      "Piano",
-      "piano",
-      "Gentileza",
-      "Harmonia",
-      "relaxante"
+      "ਪਿਆਨੋ",
+      "ਪਿਆਨੋ",
+      "ਨਰਮ",
+      "ਸਮਰਸਤਾ",
+      "ਆਰਾਮਦਾਇਕ"
     ],
-    "desc": "Melodia principal de piano suave, acompanhada por um acompanhamento tranquilo, proporcionando uma sensação de paz e conforto.",
+    "desc": "ਨਰਮ ਪਿਆਨੋ ਮੁੱਖ ਧੁਨ, ਹੌਲੀ ਸੰਗਤ ਨਾਲ, ਸ਼ਾਂਤੀ ਅਤੇ ਆਰਾਮ ਦਾ ਅਹਿਸਾਸ ਦਿੰਦੀ ਹੈ।",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Diapasão de Glockenspiel",
+    "title": "ਘੰਟੀ ਸੰਗੀਤਕ ਸਾਜ਼",
     "tag": [
-      "Glockenspiel",
-      "Diapasão",
-      "glockenspiel",
-      "diapasão",
-      "Etéreo"
+      "ਘੰਟੀ",
+      "ਸੰਗੀਤਕ ਸਾਜ਼",
+      "ਗਲੋਕਨਸਪੀਲ",
+      "ਟਿਊਨਿੰਗ ਫੋਰਕ",
+      "ਅਲੌਕਿਕ"
     ],
-    "desc": "O som etéreo do glockenspiel e do diapasão é adequado para meditação, limpeza e concentração.",
+    "desc": "ਘੰਟੀ ਅਤੇ ਸੰਗੀਤਕ ਸਾਜ਼ ਦੀ ਅਲੌਕਿਕ ਧੁਨ, ਧਿਆਨ, ਸਫਾਈ ਅਤੇ ਧਿਆਨ ਲਈ ਉਚਿਤ ਹੈ।",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flauta e Xiao",
+    "title": "ਬਾਂਸਰੀ ਅਤੇ ਦੋਂਗਸਿਓ",
     "tag": [
-      "Flauta",
-      "Xiao",
-      "flauta",
-      "xiao",
-      "Fluxo"
+      "ਬਾਂਸਰੀ",
+      "ਦੋਂਗਸਿਓ",
+      "ਫਲੂਟ",
+      "ਸ਼ਿਆਓ",
+      "ਵਹਾਅ"
     ],
-    "desc": "Melodia principal de flauta e xiao, fluindo de forma distante, criando um estado de espírito etéreo e profundo.",
+    "desc": "ਬਾਂਸਰੀ, ਦੋਂਗਸਿਓ ਮੁੱਖ ਧੁਨ, ਦੂਰ ਤੱਕ ਵਹਾਅ ਕਰਦੀ ਹੈ, ਅਲੌਕਿਕ ਅਤੇ ਗਹਿਰੇ ਮਨੋਭਾਵ ਬਣਾਉਂਦੀ ਹੈ।",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
@@ -7961,15 +7961,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Trovão",
+    "title": "ਬਿਜਲੀ",
     "tag": [
-      "Trovão",
+      "ਬਿਜਲੀ",
       "thunder",
-      "Natureza",
-      "Natureza",
-      "Energia"
+      "ਕੁਦਰਤ",
+      "ਵੱਡੀ ਕੁਦਰਤ",
+      "ਉਰਜਾ"
     ],
-    "desc": "O som do trovão e da chuva natural cria uma paisagem sonora cheia de energia e liberação.",
+    "desc": "ਬਿਜਲੀ ਦੀਆਂ ਆਵਾਜ਼ਾਂ ਅਤੇ ਕੁਦਰਤੀ ਮੀਂਹ ਦੀਆਂ ਧੁਨੀਆਂ ਨਾਲ ਭਰਪੂਰ ਉਰਜਾ ਅਤੇ ਮੁਕਤੀ ਵਾਲਾ ਵਾਤਾਵਰਣ ਬਣਦਾ ਹੈ।",
     "embedding": [
       0.03458813577890396,
       0.027948737144470215,
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Chakra da Coroa",
+    "title": "ਸਿਰ ਚੱਕਰ",
     "tag": [
-      "Chakra da Coroa",
+      "ਸਿਰ ਚੱਕਰ",
       "crown chakra",
-      "Despertar",
-      "chakra",
-      "Luz"
+      "ਜਾਗਰੂਕਤਾ",
+      "ਚੱਕਰ",
+      "ਰੌਸ਼ਨੀ"
     ],
-    "desc": "Paisagem sonora temática do chakra da coroa, simbolizando o despertar espiritual, a elevação espiritual e a luz.",
+    "desc": "ਸਿਰ ਚੱਕਰ ਦਾ ਥੀਮ ਸੰਗੀਤ, ਜੋ ਮਨ ਦੀ ਜਾਗਰੂਕਤਾ, ਆਤਮਿਕ ਉੱਚਾਈ ਅਤੇ ਰੌਸ਼ਨੀ ਦਾ ਪ੍ਰਤੀਕ ਹੈ।",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,
