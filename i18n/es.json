@@ -31,7 +31,7 @@
     "stop": "🍂 Detener"
   },
   "status": {
-    "monitoring": "🎙️ Monitoreando la respiración... Por favor, respira naturalmente",
+    "monitoring": "🎙️ Monitoreando respiración... Por favor, respira naturalmente",
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
     "unsupported": "⚠️ Tu navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
@@ -65,7 +65,7 @@
     "激發靈感": "Onda Gamma de 40Hz, mejora el pensamiento creativo"
   },
   "trust": {
-    "free": "Completamente gratis, no requiere registro",
+    "free": "Completamente gratis, no se requiere registro",
     "openSource": "Proyecto de código abierto",
     "privacy": "El audio se procesa solo localmente, no se sube al servidor"
   },
@@ -80,7 +80,7 @@
     "items": [
       {
         "q": "¿Qué es la frecuencia binaural?",
-        "a": "La frecuencia binaural ocurre cuando los oídos izquierdo y derecho escuchan sonidos de frecuencias ligeramente diferentes, el cerebro genera una tercera 'frecuencia de latido'. Por ejemplo, si el oído izquierdo escucha 200Hz y el derecho 210Hz, el cerebro percibirá una frecuencia de latido de 10Hz, lo que puede ayudar a guiar las ondas cerebrales a un estado específico."
+        "a": "La frecuencia binaural es cuando el cerebro genera una tercera 'frecuencia de latido' al escuchar sonidos de frecuencias ligeramente diferentes en cada oído. Por ejemplo, si el oído izquierdo escucha 200Hz y el derecho 210Hz, el cerebro percibirá una frecuencia de latido de 10Hz, lo que puede ayudar a guiar las ondas cerebrales a un estado específico."
       },
       {
         "q": "¿Por qué es necesario usar auriculares?",

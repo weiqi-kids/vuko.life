@@ -4,8 +4,8 @@
   "description": "Sistem, nefes durumunuzu gerçek zamanlı olarak izler ve sizi farklı bilinç durumlarına yönlendirmek için frekansı otomatik olarak ayarlar:",
   "seoKeywords": "Binaural vuruş meditasyonu・Odaklanma・Derin uyku・Gerçek zamanlı nefes rehberliği",
   "instructions": {
-    "headphones": "Lütfen <strong>stereo kulaklık</strong> kullanın, böylece beyninizdeki vuruş frekansının etkisini elde edebilirsiniz.",
-    "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağız ve burun bölgenize yaklaştırın, sizi daha derin bir duruma yönlendirmeye çalışacağız."
+    "headphones": "<strong>Çift kanallı kulaklık</strong> kullanın, böylece beyindeki vuruş etkisini elde edebilirsiniz.",
+    "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağız ve burun yakınında tutun, sizi daha derin bir duruma yönlendirmeye çalışacağız."
   },
   "volumeRatioDetail": "Vuruş frekansı {binaural}% / Arka plan sesi {background}%",
   "labels": {
@@ -20,7 +20,7 @@
     "audioSearch": "🎵 Arka plan müziği arama",
     "searchPlaceholder": "Müzik ara... (örneğin: piyano, deniz, meditasyon)",
     "noResults": "İlgili müzik bulunamadı",
-    "currentMusic": "Şu anki seçim",
+    "currentMusic": "Mevcut seçim",
     "deviceTest": "Cihaz testi",
     "libraryTab": "Çevrimiçi Ses Kütüphanesi",
     "localFileTab": "Yerel Dosya",
@@ -80,15 +80,15 @@
     "items": [
       {
         "q": "Binaural vuruş nedir?",
-        "a": "Binaural vuruş, sol ve sağ kulaklar biraz farklı frekanslarda sesler duyduğunda, beynin üçüncü bir 'vuruş' frekansı oluşturmasıdır. Örneğin, sol kulak 200Hz, sağ kulak 210Hz duyduğunda, beyin 10Hz'lik bir vuruş frekansı algılar, bu da beyin dalgalarını belirli bir duruma yönlendirmeye yardımcı olabilir."
+        "a": "Binaural vuruş, sol ve sağ kulaklar biraz farklı frekansta sesler duyduğunda, beynin üçüncü bir 'vuruş' frekansı oluşturmasıdır. Örneğin, sol kulak 200Hz, sağ kulak 210Hz duyduğunda, beyin 10Hz'lik bir vuruş frekansı algılar, bu da beyin dalgalarını belirli bir duruma yönlendirmeye yardımcı olabilir."
       },
       {
         "q": "Neden kulaklık kullanmak zorunludur?",
-        "a": "Çift kulak vuruş frekansı prensibi, sol ve sağ kulağa farklı frekanslar dinleterek çalışır. Bu etkinin doğru bir şekilde oluşabilmesi için kulaklık kullanarak sol ve sağ ses kanallarının ayrılması gerekir."
+        "a": "Çift kulak vuruş frekansı prensibi, sol ve sağ kulağa farklı frekanslar dinleterek çalışır. Bu etkinin doğru bir şekilde oluşabilmesi için kulaklık kullanarak sol ve sağ ses kanallarının ayrılması sağlanmalıdır."
       },
       {
         "q": "Nefes izleme nasıl çalışır?",
-        "a": "Sistem, mikrofon aracılığıyla nefes sesinizi algılar, nefes ritminizi analiz eder ve durumunuza göre vuruş frekansını otomatik olarak ayarlayarak hedef duruma daha hızlı ulaşmanıza yardımcı olur. Tüm ses verileri yalnızca yerel olarak işlenir, yüklenmez."
+        "a": "Sistem, mikrofon aracılığıyla nefes sesinizi algılar, nefes ritminizi analiz eder ve durumunuza göre vuruş frekansını otomatik olarak ayarlayarak hedef duruma daha hızlı ulaşmanıza yardımcı olur. Tüm sesler yalnızca yerel olarak işlenir, yüklenmez."
       },
       {
         "q": "Bu araç gerçekten ücretsiz mi?",
@@ -96,7 +96,7 @@
       },
       {
         "q": "Verilerim güvende mi?",
-        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, hiçbir ses verisi toplanmaz, saklanmaz veya iletilmez. Bu, yalnızca ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
+        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, hiçbir ses verisi toplanmaz, saklanmaz veya iletilmez. Bu, tamamen ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
       }
     ]
   }

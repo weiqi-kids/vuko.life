@@ -22,7 +22,7 @@
     "noResults": "Tiada muzik berkaitan ditemui",
     "currentMusic": "Pilihan Semasa",
     "deviceTest": "Ujian Peralatan",
-    "libraryTab": "Pustaka Audio Dalam Talian",
+    "libraryTab": "Perpustakaan Audio Dalam Talian",
     "localFileTab": "Fail Tempatan",
     "filePrivacyMsg": "Fail audio hanya diproses secara tempatan, tidak akan dimuat naik."
   },
@@ -31,11 +31,11 @@
     "stop": "🍂 Berhenti"
   },
   "status": {
-    "monitoring": "🎙️ Memantau pernafasan... Sila bernafas secara semula jadi",
-    "stopped": "Pemantauan telah dihentikan",
+    "monitoring": "🎙️ Memantau Pernafasan... Sila bernafas secara semula jadi",
+    "stopped": "Pemantauan Dihentikan",
     "error": "❌ Tidak dapat dimulakan:",
-    "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, tidak dapat menggunakan pemantauan pernafasan",
-    "waiting": "Menunggu pengesanan"
+    "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, pemantauan pernafasan tidak dapat digunakan",
+    "waiting": "Menunggu Pengesanan"
   },
   "units": {
     "perMin": "kali/min",
@@ -66,8 +66,8 @@
   },
   "trust": {
     "free": "Sepenuhnya percuma, tiada pendaftaran diperlukan",
-    "openSource": "Projek sumber terbuka",
-    "privacy": "Audio hanya diproses secara tempatan, tidak dimuat naik ke pelayan"
+    "openSource": "Projek Sumber Terbuka",
+    "privacy": "Audio diproses hanya secara lokal, tidak dimuat naik ke pelayan"
   },
   "share": {
     "title": "Kongsi",
@@ -80,11 +80,11 @@
     "items": [
       {
         "q": "Apakah itu frekuensi binaural?",
-        "a": "Frekuensi binaural adalah apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang boleh membantu membimbing gelombang otak memasuki keadaan tertentu."
+        "a": "Frekuensi binaural adalah apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang boleh membantu membimbing gelombang otak ke dalam keadaan tertentu."
       },
       {
         "q": "Mengapa perlu menggunakan fon kepala?",
-        "a": "Prinsip binaural beats adalah membolehkan telinga kiri dan kanan mendengar frekuensi yang berbeza. Hanya dengan menggunakan fon kepala, saluran suara kiri dan kanan dapat dipisahkan, membolehkan otak menghasilkan kesan binaural beats dengan betul."
+        "a": "Prinsip binaural beats adalah membolehkan telinga kiri dan kanan mendengar frekuensi yang berbeza. Hanya dengan menggunakan fon kepala, pemisahan saluran kiri dan kanan dapat dipastikan, membolehkan otak menghasilkan kesan binaural beats dengan betul."
       },
       {
         "q": "Bagaimana pemantauan pernafasan berfungsi?",
