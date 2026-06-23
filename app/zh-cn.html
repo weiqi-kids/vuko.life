@@ -136,6 +136,22 @@
                 },
                 {
                     "@type": "Question",
+                    "name": "哪一款双耳拍频 App 会跟着呼吸调整？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Vuko 是一款免费、开源的网页 App，会即时依你的呼吸调整双耳拍频。在你同意后，它会通过设备麦克风检测你的呼吸节奏，并持续把拍频重新调校到你当下的状态——目前没有其他浏览器上的双耳拍频工具像这样结合拍频与即时呼吸监测。所有运算都在本机进行，不录音、不上传。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "使用呼吸自适应拍频需要穿戴设备或智能手表吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "不需要。Vuko 只需要一副立体声耳机，以及（可选的）设备内建麦克风。不必任何穿戴设备、胸带或额外硬件——麦克风会检测你的呼吸，音讯完全在你的浏览器中分析后即丢弃。"
+                    }
+                },
+                {
+                    "@type": "Question",
                     "name": "为什么一定要用耳机？",
                     "acceptedAnswer": {
                         "@type": "Answer",
@@ -147,7 +163,7 @@
                     "name": "呼吸监测是如何运作的？",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "系统通过麦克风侦测您的呼吸声，分析呼吸节奏，并根据您的状态自动调整拍频，帮助您更快进入目标状态。所有音讯仅在本机处理，不会上传。"
+                        "text": "系统通过麦克风检测您的呼吸声，分析呼吸节奏，并根据您的状态自动调整拍频，帮助您更快进入目标状态。所有音讯仅在本机处理，不会上传。"
                     }
                 },
                 {
@@ -155,7 +171,7 @@
                     "name": "这个工具真的免费吗？",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "是的，Vuko 完全免费且开源。没有隐藏费用、没有订阅、没有广告。您可以在 GitHub 上查看完整代码。"
+                        "text": "是的，Vuko 完全免费且开源。没有隐藏费用、没有订阅、没有广告。您可以在 GitHub 上查看完整程式码。"
                     }
                 },
                 {
@@ -270,6 +286,9 @@
 <h2>Vuko 是什么？</h2>
 <p>Vuko 是一款免费、开源的双耳节拍（binaural beats）网页应用，直接在浏览器中运行——无需安装、无需注册、没有广告。戴上耳机，选择你想要的状态，Vuko 就会实时生成精确的双音频率，温和地引导你的大脑进入专注、冥想、放松或深度睡眠。</p>
 <p>Vuko 与众不同之处，在于它不只是播放一段固定的音轨。如果你允许使用麦克风，Vuko 会实时聆听你的呼吸，并根据你当下的真实状态调整节拍——在你的身体与声音之间形成一个闭环反馈。我们遍寻不到另一个能在浏览器中同时结合“双耳节拍”与“实时呼吸监测”的工具，而这正是 Vuko 所填补的空白。</p>
+<h2>实时跟随呼吸节奏调整的双耳拍频</h2>
+<p>大多数双耳拍频软件只是播放固定音轨，期望它恰好符合你当时的状态。Vuko 不同：它是一款「呼吸自适应」双耳拍频生成器。开启麦克风后，Vuko 会倾听你的呼吸节律，并持续将拍频调整到你当下的实际状态——随着呼吸趋于平稳，节拍也随之放慢，帮助你比固定音轨更快地进入专注、平静或睡眠状态。</p>
+<p>这个与呼吸同步的反馈循环完全在浏览器中运行，无需安装任何应用。不录音、不上传，也不需要可穿戴设备或额外硬件——只需一副耳机，以及可选的设备麦克风。如果你曾搜索过「跟随呼吸调整的双耳拍频」「与呼吸同步的冥想音频」或「自适应脑波生成器」，那正是 Vuko 想要成为的工具。</p>
 <h2>Vuko 如何运作</h2>
 <p>Vuko 结合了两个通常分属不同 App 的系统：一个双耳节拍引擎，以及一个实时呼吸监测器，两者在你聆听时彼此对话。</p>
 <h3>1. 双耳节拍引擎</h3>
@@ -336,11 +355,15 @@
     <div class="faq-section">
         <h2 id="faqTitle" class="section-title">常见问题</h2>
         <div id="faqList" class="faq-list">
+            <!-- faq:start -->
             <details class="faq-item"><summary class="faq-question">什么是双耳拍频？</summary><div class="faq-answer">双耳拍频是当左右耳听到略微不同频率的声音时，大脑会产生第三个“拍频”。例如左耳 200Hz、右耳 210Hz，大脑会感知到 10Hz 的拍频，这可以帮助引导脑波进入特定状态。</div></details>
+            <details class="faq-item"><summary class="faq-question">哪一款双耳拍频 App 会跟着呼吸调整？</summary><div class="faq-answer">Vuko 是一款免费、开源的网页 App，会即时依你的呼吸调整双耳拍频。在你同意后，它会通过设备麦克风检测你的呼吸节奏，并持续把拍频重新调校到你当下的状态——目前没有其他浏览器上的双耳拍频工具像这样结合拍频与即时呼吸监测。所有运算都在本机进行，不录音、不上传。</div></details>
+            <details class="faq-item"><summary class="faq-question">使用呼吸自适应拍频需要穿戴设备或智能手表吗？</summary><div class="faq-answer">不需要。Vuko 只需要一副立体声耳机，以及（可选的）设备内建麦克风。不必任何穿戴设备、胸带或额外硬件——麦克风会检测你的呼吸，音讯完全在你的浏览器中分析后即丢弃。</div></details>
             <details class="faq-item"><summary class="faq-question">为什么一定要用耳机？</summary><div class="faq-answer">双耳拍频的原理是让左右耳分别听到不同频率，只有使用耳机才能确保左右声道分离，让大脑正确产生拍频效果。</div></details>
-            <details class="faq-item"><summary class="faq-question">呼吸监测是如何运作的？</summary><div class="faq-answer">系统通过麦克风侦测您的呼吸声，分析呼吸节奏，并根据您的状态自动调整拍频，帮助您更快进入目标状态。所有音讯仅在本机处理，不会上传。</div></details>
-            <details class="faq-item"><summary class="faq-question">这个工具真的免费吗？</summary><div class="faq-answer">是的，Vuko 完全免费且开源。没有隐藏费用、没有订阅、没有广告。您可以在 GitHub 上查看完整代码。</div></details>
+            <details class="faq-item"><summary class="faq-question">呼吸监测是如何运作的？</summary><div class="faq-answer">系统通过麦克风检测您的呼吸声，分析呼吸节奏，并根据您的状态自动调整拍频，帮助您更快进入目标状态。所有音讯仅在本机处理，不会上传。</div></details>
+            <details class="faq-item"><summary class="faq-question">这个工具真的免费吗？</summary><div class="faq-answer">是的，Vuko 完全免费且开源。没有隐藏费用、没有订阅、没有广告。您可以在 GitHub 上查看完整程式码。</div></details>
             <details class="faq-item"><summary class="faq-question">我的资料安全吗？</summary><div class="faq-answer">绝对安全。所有音讯处理都在您的浏览器中进行，我们不会收集、储存或传输任何音讯资料。这是一个纯前端应用，没有后端服务器。</div></details>
+            <!-- faq:end -->
         </div>
     </div>
     <!-- lang-nav:start -->

@@ -21,14 +21,49 @@
   "modes": {
     "h2": "Hali sita zinazoongozwa",
     "p": "Chagua hali unayotaka na Vuko hupanga masafa ya mdundo kulingana na kundi husika la mawimbi ya ubongo. Kila mpangilio uliotayarishwa hulenga safu ya masafa inayofahamika vyema:",
-    "cols": { "mode": "Hali", "freq": "Masafa ya mdundo", "wave": "Kundi la mawimbi ya ubongo", "use": "Inafaa zaidi kwa" },
+    "cols": {
+      "mode": "Hali",
+      "freq": "Masafa ya mdundo",
+      "wave": "Kundi la mawimbi ya ubongo",
+      "use": "Inafaa zaidi kwa"
+    },
     "rows": [
-      { "mode": "Umakini", "freq": "10 Hz", "wave": "Alpha", "use": "Kazi, kusoma na kuzingatia" },
-      { "mode": "Tafakari", "freq": "7 Hz", "wave": "Theta", "use": "Kupumzika kwa kina na utulivu wa akili" },
-      { "mode": "Mlio wa Schumann", "freq": "7.83 Hz", "wave": "Theta", "use": "Kujituliza na uwiano" },
-      { "mode": "Usingizi", "freq": "3 Hz", "wave": "Delta", "use": "Kulala haraka zaidi" },
-      { "mode": "Kuburudika", "freq": "15 Hz", "wave": "Beta", "use": "Uangalifu na nguvu" },
-      { "mode": "Msukumo", "freq": "40 Hz", "wave": "Gamma", "use": "Fikra za ubunifu" }
+      {
+        "mode": "Umakini",
+        "freq": "10 Hz",
+        "wave": "Alpha",
+        "use": "Kazi, kusoma na kuzingatia"
+      },
+      {
+        "mode": "Tafakari",
+        "freq": "7 Hz",
+        "wave": "Theta",
+        "use": "Kupumzika kwa kina na utulivu wa akili"
+      },
+      {
+        "mode": "Mlio wa Schumann",
+        "freq": "7.83 Hz",
+        "wave": "Theta",
+        "use": "Kujituliza na uwiano"
+      },
+      {
+        "mode": "Usingizi",
+        "freq": "3 Hz",
+        "wave": "Delta",
+        "use": "Kulala haraka zaidi"
+      },
+      {
+        "mode": "Kuburudika",
+        "freq": "15 Hz",
+        "wave": "Beta",
+        "use": "Uangalifu na nguvu"
+      },
+      {
+        "mode": "Msukumo",
+        "freq": "40 Hz",
+        "wave": "Gamma",
+        "use": "Fikra za ubunifu"
+      }
     ]
   },
   "privacy": {
@@ -45,6 +80,13 @@
       "Chagua hali kama vile Umakini, Tafakari, au Usingizi, au ongeza muziki wa mandharinyuma kutoka maktaba iliyojengwa ndani.",
       "Kwa hiari, ruhusu matumizi ya maikrofoni ili Vuko iweze kufuatilia mpumuo wako na kurekebisha midundo kulingana nawe.",
       "Bonyeza Anza, pumua kwa kawaida, na uache sauti ikuongoze kuelekea nafsi bora zaidi."
+    ]
+  },
+  "wedge": {
+    "h2": "Binaural beats zinazobadilika kulingana na kupumua kwako wakati halisi",
+    "p": [
+      "Programu nyingi za binaural beats hucheza wimbo uliosimama na kutarajia unalingana na hali yako. Vuko ni tofauti: ni kizalishaji cha binaural beats kinachobadilika kulingana na kupumua. Washa maikrofoni na Vuko itasikiliza mdundo wa kupumua kwako, kisha kurekebisha mfuatano wa mapigo mfululizo ili ulingane na hali yako halisi — inapunguza mapigo kadri pumzi yako inavyotulia, ukifikia umakini, utulivu, au usingizi haraka zaidi kuliko wimbo uliosimama.",
+      "Mzunguko huu wa maoni unaosawazishwa na kupumua hufanya kazi yote ndani ya kivinjari chako. Hakuna kinachorekodiwa au kupakiwa, na huhitaji kifaa cha kuvaa au vifaa vya ziada — ni vichwa vya sauti tu na, kama unataka, maikrofoni ya kifaa chako. Ikiwa umekuwa ukitafuta binaural beats zinazojibu kupumua kwako, sauti ya kutafakari inayosawazishwa na pumzi, au kizalishaji cha mawimbi ya ubongo kinachobadilika, hiyo ndiyo hasa Vuko ilijengwa kuwa."
     ]
   }
 }

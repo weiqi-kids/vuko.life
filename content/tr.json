@@ -21,14 +21,49 @@
   "modes": {
     "h2": "Altı rehberli durum",
     "p": "İstediğiniz durumu seçin; Vuko vuruş frekansını ona uygun beyin dalgası bandına göre ayarlasın. Her hazır ayar, iyi bilinen bir frekans aralığını hedefler:",
-    "cols": { "mode": "Mod", "freq": "Vuruş frekansı", "wave": "Beyin dalgası bandı", "use": "En uygun" },
+    "cols": {
+      "mode": "Mod",
+      "freq": "Vuruş frekansı",
+      "wave": "Beyin dalgası bandı",
+      "use": "En uygun"
+    },
     "rows": [
-      { "mode": "Odaklanma", "freq": "10 Hz", "wave": "Alpha", "use": "Çalışma, ders ve konsantrasyon" },
-      { "mode": "Meditasyon", "freq": "7 Hz", "wave": "Theta", "use": "Derin rahatlama ve farkındalık" },
-      { "mode": "Schumann rezonansı", "freq": "7.83 Hz", "wave": "Theta", "use": "Topraklanma ve denge" },
-      { "mode": "Uyku", "freq": "3 Hz", "wave": "Delta", "use": "Daha hızlı uykuya dalma" },
-      { "mode": "Canlanma", "freq": "15 Hz", "wave": "Beta", "use": "Uyanıklık ve enerji" },
-      { "mode": "İlham", "freq": "40 Hz", "wave": "Gamma", "use": "Yaratıcı düşünme" }
+      {
+        "mode": "Odaklanma",
+        "freq": "10 Hz",
+        "wave": "Alpha",
+        "use": "Çalışma, ders ve konsantrasyon"
+      },
+      {
+        "mode": "Meditasyon",
+        "freq": "7 Hz",
+        "wave": "Theta",
+        "use": "Derin rahatlama ve farkındalık"
+      },
+      {
+        "mode": "Schumann rezonansı",
+        "freq": "7.83 Hz",
+        "wave": "Theta",
+        "use": "Topraklanma ve denge"
+      },
+      {
+        "mode": "Uyku",
+        "freq": "3 Hz",
+        "wave": "Delta",
+        "use": "Daha hızlı uykuya dalma"
+      },
+      {
+        "mode": "Canlanma",
+        "freq": "15 Hz",
+        "wave": "Beta",
+        "use": "Uyanıklık ve enerji"
+      },
+      {
+        "mode": "İlham",
+        "freq": "40 Hz",
+        "wave": "Gamma",
+        "use": "Yaratıcı düşünme"
+      }
     ]
   },
   "privacy": {
@@ -45,6 +80,13 @@
       "Odaklanma, Meditasyon veya Uyku gibi bir mod seçin ya da yerleşik kütüphaneden fon müziği ekleyin.",
       "İsteğe bağlı olarak mikrofon erişimine izin verin; böylece Vuko nefesinizi izleyip vuruşları size göre uyarlayabilir.",
       "Başlat'a basın, doğal nefes alın ve sesin sizi daha iyi bir benliğe yönlendirmesine izin verin."
+    ]
+  },
+  "wedge": {
+    "h2": "Nefes almanıza gerçek zamanlı uyum sağlayan binaural vuruşlar",
+    "p": [
+      "Çoğu binaural vuruş uygulaması sabit bir parça çalar ve umarınıza uymasını bekler. Vuko farklıdır: nefese uyumlu bir binaural vuruş üreticisidir. Mikrofonu açın ve Vuko nefes ritminizi dinlesin; ardından vuruş frekansını sürekli olarak bulunduğunuz gerçek duruma göre yeniden ayarlasın — nefesiniz yavaşladıkça vuruşları da yavaşlatarak sizi statik bir parçadan çok daha hızlı odaklanma, dinginlik veya uykuya taşısın.",
+      "Nefese senkronize bu geri bildirim döngüsü tamamen tarayıcınızda çalışır. Hiçbir şey kaydedilmez veya yüklenmez; giyilebilir cihaza ya da ekstra donanıma gerek yoktur — yalnızca kulaklık ve isteğe bağlı olarak cihazınızın mikrofonu yeterlidir. Nefese yanıt veren binaural vuruşlar, nefese senkronize meditasyon sesi veya uyumlu bir beyin dalgası üreticisi aradıysanız, Vuko tam olarak bunun için tasarlandı."
     ]
   }
 }

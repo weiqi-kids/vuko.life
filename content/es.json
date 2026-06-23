@@ -21,14 +21,49 @@
   "modes": {
     "h2": "Seis estados guiados",
     "p": "Elige el estado que quieres y Vuko ajusta la frecuencia del latido a la banda de ondas cerebrales correspondiente. Cada preajuste apunta a un rango de frecuencia bien conocido:",
-    "cols": { "mode": "Modo", "freq": "Frecuencia del latido", "wave": "Banda de ondas cerebrales", "use": "Ideal para" },
+    "cols": {
+      "mode": "Modo",
+      "freq": "Frecuencia del latido",
+      "wave": "Banda de ondas cerebrales",
+      "use": "Ideal para"
+    },
     "rows": [
-      { "mode": "Concentración", "freq": "10 Hz", "wave": "Alpha", "use": "Trabajo, estudio y concentración" },
-      { "mode": "Meditación", "freq": "7 Hz", "wave": "Theta", "use": "Relajación profunda y atención plena" },
-      { "mode": "Resonancia Schumann", "freq": "7.83 Hz", "wave": "Theta", "use": "Conexión a tierra y equilibrio" },
-      { "mode": "Sueño", "freq": "3 Hz", "wave": "Delta", "use": "Conciliar el sueño más rápido" },
-      { "mode": "Energía", "freq": "15 Hz", "wave": "Beta", "use": "Estado de alerta y vitalidad" },
-      { "mode": "Inspiración", "freq": "40 Hz", "wave": "Gamma", "use": "Pensamiento creativo" }
+      {
+        "mode": "Concentración",
+        "freq": "10 Hz",
+        "wave": "Alpha",
+        "use": "Trabajo, estudio y concentración"
+      },
+      {
+        "mode": "Meditación",
+        "freq": "7 Hz",
+        "wave": "Theta",
+        "use": "Relajación profunda y atención plena"
+      },
+      {
+        "mode": "Resonancia Schumann",
+        "freq": "7.83 Hz",
+        "wave": "Theta",
+        "use": "Conexión a tierra y equilibrio"
+      },
+      {
+        "mode": "Sueño",
+        "freq": "3 Hz",
+        "wave": "Delta",
+        "use": "Conciliar el sueño más rápido"
+      },
+      {
+        "mode": "Energía",
+        "freq": "15 Hz",
+        "wave": "Beta",
+        "use": "Estado de alerta y vitalidad"
+      },
+      {
+        "mode": "Inspiración",
+        "freq": "40 Hz",
+        "wave": "Gamma",
+        "use": "Pensamiento creativo"
+      }
     ]
   },
   "privacy": {
@@ -45,6 +80,13 @@
       "Elige un modo como Concentración, Meditación o Sueño, o añade música de fondo desde la biblioteca integrada.",
       "Si quieres, permite el acceso al micrófono para que Vuko pueda monitorizar tu respiración y adaptar los sonidos a ti.",
       "Pulsa Iniciar, respira con naturalidad y deja que el sonido te guíe hacia una mejor versión de ti."
+    ]
+  },
+  "wedge": {
+    "h2": "Pulsos binaurales que se adaptan a tu respiración en tiempo real",
+    "p": [
+      "La mayoría de las aplicaciones de pulsos binaurales reproducen una pista fija y esperan que encaje con tu estado de ánimo. Vuko es diferente: es un generador de pulsos binaurales adaptado a la respiración. Activa el micrófono y Vuko escucha el ritmo de tu respiración, luego reajusta continuamente la frecuencia del pulso para acompañarte donde realmente estás — ralentizando los pulsos a medida que tu respiración se serena, para que alcances el enfoque, la calma o el sueño más rápido que con una pista estática.",
+      "Este bucle de retroalimentación sincronizado con tu respiración funciona completamente en tu navegador. No se graba ni se sube nada, y no necesitas ningún dispositivo o hardware adicional — solo auriculares y, opcionalmente, el micrófono de tu dispositivo. Si has buscado pulsos binaurales que respondan a tu respiración, sonido de meditación sincronizado con la respiración o un generador adaptativo de ondas cerebrales, eso es exactamente lo que Vuko fue creado para ser."
     ]
   }
 }

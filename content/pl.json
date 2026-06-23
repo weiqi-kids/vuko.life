@@ -21,14 +21,49 @@
   "modes": {
     "h2": "Sześć prowadzonych stanów",
     "p": "Wybierz stan, który chcesz osiągnąć, a Vuko dostroi częstotliwość dudnień do odpowiedniego pasma fal mózgowych. Każdy gotowy tryb celuje w dobrze znany zakres częstotliwości:",
-    "cols": { "mode": "Tryb", "freq": "Częstotliwość dudnień", "wave": "Pasmo fal mózgowych", "use": "Najlepszy do" },
+    "cols": {
+      "mode": "Tryb",
+      "freq": "Częstotliwość dudnień",
+      "wave": "Pasmo fal mózgowych",
+      "use": "Najlepszy do"
+    },
     "rows": [
-      { "mode": "Skupienie", "freq": "10 Hz", "wave": "Alpha", "use": "Praca, nauka i koncentracja" },
-      { "mode": "Medytacja", "freq": "7 Hz", "wave": "Theta", "use": "Głęboki relaks i uważność" },
-      { "mode": "Rezonans Schumanna", "freq": "7.83 Hz", "wave": "Theta", "use": "Uziemienie i równowaga" },
-      { "mode": "Sen", "freq": "3 Hz", "wave": "Delta", "use": "Szybsze zasypianie" },
-      { "mode": "Pobudzenie", "freq": "15 Hz", "wave": "Beta", "use": "Czujność i energia" },
-      { "mode": "Inspiracja", "freq": "40 Hz", "wave": "Gamma", "use": "Twórcze myślenie" }
+      {
+        "mode": "Skupienie",
+        "freq": "10 Hz",
+        "wave": "Alpha",
+        "use": "Praca, nauka i koncentracja"
+      },
+      {
+        "mode": "Medytacja",
+        "freq": "7 Hz",
+        "wave": "Theta",
+        "use": "Głęboki relaks i uważność"
+      },
+      {
+        "mode": "Rezonans Schumanna",
+        "freq": "7.83 Hz",
+        "wave": "Theta",
+        "use": "Uziemienie i równowaga"
+      },
+      {
+        "mode": "Sen",
+        "freq": "3 Hz",
+        "wave": "Delta",
+        "use": "Szybsze zasypianie"
+      },
+      {
+        "mode": "Pobudzenie",
+        "freq": "15 Hz",
+        "wave": "Beta",
+        "use": "Czujność i energia"
+      },
+      {
+        "mode": "Inspiracja",
+        "freq": "40 Hz",
+        "wave": "Gamma",
+        "use": "Twórcze myślenie"
+      }
     ]
   },
   "privacy": {
@@ -45,6 +80,13 @@
       "Wybierz tryb, taki jak Skupienie, Medytacja czy Sen, albo dodaj muzykę w tle z wbudowanej biblioteki.",
       "Opcjonalnie zezwól na dostęp do mikrofonu, aby Vuko mogło monitorować Twój oddech i dostosowywać do Ciebie dudnienia.",
       "Naciśnij Start, oddychaj naturalnie i pozwól, by dźwięk poprowadził Cię ku lepszej wersji siebie."
+    ]
+  },
+  "wedge": {
+    "h2": "Dudnienia różnicowe, które dostosowują się do Twojego oddechu w czasie rzeczywistym",
+    "p": [
+      "Większość aplikacji z dudnieniami różnicowymi odtwarza stały utwór i liczy, że trafi w Twój aktualny nastrój. Vuko działa inaczej: to generator dudnień różnicowych adaptowany do oddechu. Włącz mikrofon, a Vuko zasłucha się w rytm Twojego oddechu i będzie na bieżąco dostrajać częstotliwość beatów do Twojego rzeczywistego stanu. Gdy oddech się uspokaja, bity zwalniają – pomagając Ci szybciej wejść w skupienie, spokój lub sen niż jakakolwiek statyczna ścieżka dźwiękowa.",
+      "Ta zsynchronizowana z oddechem pętla sprzężenia zwrotnego działa całkowicie w przeglądarce. Nic nie jest nagrywane ani przesyłane, a do działania nie potrzebujesz żadnych urządzeń do noszenia ani dodatkowego sprzętu – wystarczą słuchawki i opcjonalnie mikrofon urządzenia. Jeśli szukałeś dudnień różnicowych reagujących na oddech, zsynchronizowanych z oddechem dźwięków do medytacji lub adaptywnego generatora fal mózgowych – właśnie po to powstało Vuko."
     ]
   }
 }

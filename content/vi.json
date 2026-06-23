@@ -21,14 +21,49 @@
   "modes": {
     "h2": "Sáu trạng thái được dẫn dắt",
     "p": "Chọn trạng thái bạn mong muốn và Vuko sẽ điều chỉnh tần số nhịp khớp với dải sóng não tương ứng. Mỗi chế độ có sẵn nhắm đến một khoảng tần số được biết đến rộng rãi:",
-    "cols": { "mode": "Chế độ", "freq": "Tần số nhịp", "wave": "Dải sóng não", "use": "Phù hợp nhất cho" },
+    "cols": {
+      "mode": "Chế độ",
+      "freq": "Tần số nhịp",
+      "wave": "Dải sóng não",
+      "use": "Phù hợp nhất cho"
+    },
     "rows": [
-      { "mode": "Tập trung", "freq": "10 Hz", "wave": "Alpha", "use": "Làm việc, học tập và tập trung" },
-      { "mode": "Thiền định", "freq": "7 Hz", "wave": "Theta", "use": "Thư giãn sâu và chánh niệm" },
-      { "mode": "Cộng hưởng Schumann", "freq": "7.83 Hz", "wave": "Theta", "use": "An định và cân bằng" },
-      { "mode": "Giấc ngủ", "freq": "3 Hz", "wave": "Delta", "use": "Đi vào giấc ngủ nhanh hơn" },
-      { "mode": "Sảng khoái", "freq": "15 Hz", "wave": "Beta", "use": "Tỉnh táo và tràn đầy năng lượng" },
-      { "mode": "Khơi nguồn cảm hứng", "freq": "40 Hz", "wave": "Gamma", "use": "Tư duy sáng tạo" }
+      {
+        "mode": "Tập trung",
+        "freq": "10 Hz",
+        "wave": "Alpha",
+        "use": "Làm việc, học tập và tập trung"
+      },
+      {
+        "mode": "Thiền định",
+        "freq": "7 Hz",
+        "wave": "Theta",
+        "use": "Thư giãn sâu và chánh niệm"
+      },
+      {
+        "mode": "Cộng hưởng Schumann",
+        "freq": "7.83 Hz",
+        "wave": "Theta",
+        "use": "An định và cân bằng"
+      },
+      {
+        "mode": "Giấc ngủ",
+        "freq": "3 Hz",
+        "wave": "Delta",
+        "use": "Đi vào giấc ngủ nhanh hơn"
+      },
+      {
+        "mode": "Sảng khoái",
+        "freq": "15 Hz",
+        "wave": "Beta",
+        "use": "Tỉnh táo và tràn đầy năng lượng"
+      },
+      {
+        "mode": "Khơi nguồn cảm hứng",
+        "freq": "40 Hz",
+        "wave": "Gamma",
+        "use": "Tư duy sáng tạo"
+      }
     ]
   },
   "privacy": {
@@ -45,6 +80,13 @@
       "Chọn một chế độ như Tập trung, Thiền định hay Giấc ngủ, hoặc thêm nhạc nền từ thư viện tích hợp sẵn.",
       "Tùy ý cho phép truy cập micro để Vuko có thể theo dõi hơi thở và điều chỉnh nhịp âm thanh cho phù hợp với bạn.",
       "Nhấn Bắt đầu, hít thở tự nhiên và để âm thanh dẫn dắt bạn đến một phiên bản tốt hơn của chính mình."
+    ]
+  },
+  "wedge": {
+    "h2": "Âm thanh binaural beats tự động điều chỉnh theo nhịp thở của bạn",
+    "p": [
+      "Hầu hết các ứng dụng binaural beats chỉ phát một bản nhạc cố định và hy vọng nó phù hợp với trạng thái của bạn. Vuko thì khác: đây là bộ tạo binaural beats thích ứng với hơi thở. Bật microphone lên, Vuko sẽ lắng nghe nhịp thở của bạn và liên tục điều chỉnh tần số beat để khớp với trạng thái thực tế của bạn lúc đó — khi hơi thở chậm lại, beat cũng chậm theo, giúp bạn đạt trạng thái tập trung, thư giãn hoặc ngủ nhanh hơn so với bản nhạc tĩnh.",
+      "Vòng phản hồi đồng bộ hơi thở này chạy hoàn toàn trên trình duyệt của bạn. Không có gì được ghi âm hay tải lên, và bạn không cần thiết bị đeo tay hay phần cứng bổ sung — chỉ cần tai nghe và tùy chọn microphone của thiết bị. Nếu bạn đã từng tìm kiếm \"binaural beats phản hồi theo hơi thở\", \"âm thanh thiền định đồng bộ hơi thở\" hay \"máy phát sóng não thích ứng\", thì đó chính xác là những gì Vuko được tạo ra để làm."
     ]
   }
 }

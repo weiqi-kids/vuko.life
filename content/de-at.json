@@ -21,14 +21,49 @@
   "modes": {
     "h2": "Sechs geführte Zustände",
     "p": "Wähle den gewünschten Zustand, und Vuko stimmt die Beat-Frequenz auf das passende Gehirnwellenband ab. Jede Voreinstellung zielt auf einen bekannten Frequenzbereich:",
-    "cols": { "mode": "Modus", "freq": "Beat-Frequenz", "wave": "Gehirnwellenband", "use": "Ideal für" },
+    "cols": {
+      "mode": "Modus",
+      "freq": "Beat-Frequenz",
+      "wave": "Gehirnwellenband",
+      "use": "Ideal für"
+    },
     "rows": [
-      { "mode": "Fokus", "freq": "10 Hz", "wave": "Alpha", "use": "Arbeit, Lernen und Konzentration" },
-      { "mode": "Meditation", "freq": "7 Hz", "wave": "Theta", "use": "Tiefe Entspannung und Achtsamkeit" },
-      { "mode": "Schumann-Resonanz", "freq": "7.83 Hz", "wave": "Theta", "use": "Erdung und Balance" },
-      { "mode": "Schlaf", "freq": "3 Hz", "wave": "Delta", "use": "Schneller einschlafen" },
-      { "mode": "Auffrischen", "freq": "15 Hz", "wave": "Beta", "use": "Wachheit und Energie" },
-      { "mode": "Inspiration", "freq": "40 Hz", "wave": "Gamma", "use": "Kreatives Denken" }
+      {
+        "mode": "Fokus",
+        "freq": "10 Hz",
+        "wave": "Alpha",
+        "use": "Arbeit, Lernen und Konzentration"
+      },
+      {
+        "mode": "Meditation",
+        "freq": "7 Hz",
+        "wave": "Theta",
+        "use": "Tiefe Entspannung und Achtsamkeit"
+      },
+      {
+        "mode": "Schumann-Resonanz",
+        "freq": "7.83 Hz",
+        "wave": "Theta",
+        "use": "Erdung und Balance"
+      },
+      {
+        "mode": "Schlaf",
+        "freq": "3 Hz",
+        "wave": "Delta",
+        "use": "Schneller einschlafen"
+      },
+      {
+        "mode": "Auffrischen",
+        "freq": "15 Hz",
+        "wave": "Beta",
+        "use": "Wachheit und Energie"
+      },
+      {
+        "mode": "Inspiration",
+        "freq": "40 Hz",
+        "wave": "Gamma",
+        "use": "Kreatives Denken"
+      }
     ]
   },
   "privacy": {
@@ -45,6 +80,13 @@
       "Wähle einen Modus wie Fokus, Meditation oder Schlaf oder füge Hintergrundmusik aus der integrierten Bibliothek hinzu.",
       "Erlaube optional den Mikrofonzugriff, damit Vuko deine Atmung überwachen und die Beats an dich anpassen kann.",
       "Drück auf Start, atme natürlich und lass den Klang dich zu einem besseren Ich führen."
+    ]
+  },
+  "wedge": {
+    "h2": "Binaurale Beats, die sich in Echtzeit deinem Atem anpassen",
+    "p": [
+      "Die meisten Apps für binaurale Beats spielen eine fixe Spur ab und hoffen, dass sie zu deiner aktuellen Verfassung passt. Vuko macht das anders: Es ist ein atemadaptiver Generator für binaurale Beats. Schalte dein Mikrofon ein, und Vuko hört auf den Rhythmus deines Atems – dann stimmt es die Beatfrequenz laufend auf deinen tatsächlichen Zustand ab. Wenn dein Atem ruhiger wird, verlangsamen sich die Beats, sodass du schneller in Fokus, Ruhe oder Schlaf findest als mit einer statischen Aufnahme.",
+      "Diese atemsynchrone Rückkopplung läuft vollständig in deinem Browser. Es wird nichts aufgezeichnet oder hochgeladen, und du brauchst weder ein Wearable noch zusätzliche Hardware – nur Kopfhörer und optional das Mikrofon deines Geräts. Wer nach binauralen Beats sucht, die auf den Atem reagieren, nach atemsynchronen Meditationsklängen oder einem adaptiven Gehirnwellengenerator, findet in Vuko genau das."
     ]
   }
 }

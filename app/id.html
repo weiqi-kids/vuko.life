@@ -128,10 +128,26 @@
             "mainEntity": [
                 {
                     "@type": "Question",
-                    "name": "Apa itu frekuensi binaural?",
+                    "name": "Apa itu Binaural Beats?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Frekuensi binaural adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan 'frekuensi binaural' ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang dapat membantu membimbing gelombang otak memasuki keadaan tertentu."
+                        "text": "Binaural beats adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan 'beat' ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan beat 10Hz, yang dapat membantu membimbing gelombang otak ke dalam keadaan tertentu."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Aplikasi binaural beats mana yang menyesuaikan dengan pernapasan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Vuko adalah aplikasi web gratis dan open-source yang menyesuaikan binaural beats secara real-time berdasarkan pernapasan Anda. Setelah Anda setuju, aplikasi ini akan mendeteksi ritme pernapasan Anda melalui mikrofon perangkat dan terus menyesuaikan beats sesuai dengan kondisi Anda saat ini—tidak ada alat binaural beats lain di browser yang menggabungkan beats dengan pemantauan pernapasan real-time seperti ini. Semua pemrosesan dilakukan secara lokal, tidak merekam, tidak mengunggah."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Apakah menggunakan binaural beats adaptif pernapasan memerlukan perangkat wearable atau jam tangan pintar?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Tidak perlu. Vuko hanya memerlukan sepasang headphone stereo dan (opsional) mikrofon bawaan perangkat. Tidak perlu perangkat wearable, sabuk dada, atau perangkat keras tambahan—mikrofon akan mendeteksi pernapasan Anda, dan audio dianalisis sepenuhnya di browser Anda lalu dibuang."
                     }
                 },
                 {
@@ -139,15 +155,15 @@
                     "name": "Mengapa harus menggunakan headphone?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Prinsip dari binaural beats adalah membuat telinga kiri dan kanan mendengar frekuensi yang berbeda. Hanya dengan menggunakan headphone, pemisahan saluran kiri dan kanan dapat dipastikan, sehingga otak dapat menghasilkan efek binaural beats dengan benar."
+                        "text": "Prinsip binaural beats adalah membuat telinga kiri dan kanan mendengar frekuensi yang berbeda, hanya dengan menggunakan headphone dapat memastikan pemisahan saluran kiri dan kanan, sehingga otak dapat menghasilkan efek beats dengan benar."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Bagaimana cara kerja pemantauan pernapasan?",
+                    "name": "Bagaimana pemantauan pernapasan bekerja?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Sistem mendeteksi suara napas Anda melalui mikrofon, menganalisis ritme pernapasan, dan secara otomatis menyesuaikan binaural beats berdasarkan kondisi Anda untuk membantu Anda lebih cepat mencapai kondisi yang diinginkan. Semua audio diproses secara lokal dan tidak akan diunggah."
+                        "text": "Sistem mendeteksi suara pernapasan Anda melalui mikrofon, menganalisis ritme pernapasan, dan secara otomatis menyesuaikan beats berdasarkan kondisi Anda, membantu Anda lebih cepat mencapai kondisi target. Semua audio diproses secara lokal dan tidak akan diunggah."
                     }
                 },
                 {
@@ -155,7 +171,7 @@
                     "name": "Apakah alat ini benar-benar gratis?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Ya, Vuko sepenuhnya gratis dan open source. Tidak ada biaya tersembunyi, tidak ada langganan, tidak ada iklan. Anda dapat melihat kode lengkapnya di GitHub."
+                        "text": "Ya, Vuko sepenuhnya gratis dan open-source. Tidak ada biaya tersembunyi, tidak ada langganan, tidak ada iklan. Anda dapat melihat kode lengkapnya di GitHub."
                     }
                 },
                 {
@@ -270,6 +286,9 @@
 <h2>Apa itu Vuko?</h2>
 <p>Vuko adalah aplikasi web binaural beats gratis dan open-source yang berjalan langsung di browser Anda — tanpa instalasi, tanpa akun, tanpa iklan. Kenakan headphone, pilih suasana yang Anda inginkan, dan Vuko langsung menghasilkan frekuensi nada ganda yang presisi untuk menuntun otak Anda dengan lembut menuju fokus, meditasi, relaksasi, atau tidur nyenyak.</p>
 <p>Yang membuat Vuko berbeda adalah ia tidak sekadar memutar trek yang tetap. Jika Anda mengizinkan akses mikrofon, Vuko mendengarkan napas Anda secara real-time dan menyesuaikan beats dengan kondisi Anda yang sebenarnya — sebuah putaran umpan balik tertutup antara tubuh dan suara Anda. Kami tidak menemukan alat lain yang memadukan binaural beats dengan pemantauan napas langsung di dalam browser, dan justru celah inilah yang diisi oleh Vuko.</p>
+<h2>Binaural beats yang menyesuaikan diri dengan napas Anda secara real time</h2>
+<p>Kebanyakan aplikasi binaural beats memutar trek tetap dan berharap cocok dengan perasaan Anda. Vuko berbeda: ini adalah generator binaural beats yang adaptif terhadap pernapasan. Aktifkan mikrofon Anda dan Vuko mendengarkan ritme napas Anda, lalu terus-menerus menyetel ulang frekuensi beat agar sesuai dengan kondisi Anda saat ini — memperlambat beat seiring napas Anda mengendur, sehingga Anda lebih cepat masuk ke fokus, ketenangan, atau tidur dibandingkan dengan trek yang statis.</p>
+<p>Loop umpan balik yang tersinkronisasi dengan napas ini berjalan sepenuhnya di browser Anda. Tidak ada yang direkam atau diunggah, dan Anda tidak memerlukan perangkat wearable atau hardware tambahan — cukup headphone dan, opsional, mikrofon perangkat Anda. Jika Anda pernah mencari binaural beats yang merespons pernapasan, suara meditasi tersinkronisasi napas, atau generator gelombang otak adaptif, itulah tepatnya yang dibangun oleh Vuko.</p>
 <h2>Cara kerja Vuko</h2>
 <p>Vuko menggabungkan dua sistem yang biasanya berada di aplikasi terpisah: sebuah mesin binaural beat dan pemantau napas real-time yang saling berkomunikasi selama Anda mendengarkan.</p>
 <h3>1. Mesin binaural beat</h3>
@@ -336,11 +355,15 @@
     <div class="faq-section">
         <h2 id="faqTitle" class="section-title">Pertanyaan Umum</h2>
         <div id="faqList" class="faq-list">
-            <details class="faq-item"><summary class="faq-question">Apa itu frekuensi binaural?</summary><div class="faq-answer">Frekuensi binaural adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan &#x27;frekuensi binaural&#x27; ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang dapat membantu membimbing gelombang otak memasuki keadaan tertentu.</div></details>
-            <details class="faq-item"><summary class="faq-question">Mengapa harus menggunakan headphone?</summary><div class="faq-answer">Prinsip dari binaural beats adalah membuat telinga kiri dan kanan mendengar frekuensi yang berbeda. Hanya dengan menggunakan headphone, pemisahan saluran kiri dan kanan dapat dipastikan, sehingga otak dapat menghasilkan efek binaural beats dengan benar.</div></details>
-            <details class="faq-item"><summary class="faq-question">Bagaimana cara kerja pemantauan pernapasan?</summary><div class="faq-answer">Sistem mendeteksi suara napas Anda melalui mikrofon, menganalisis ritme pernapasan, dan secara otomatis menyesuaikan binaural beats berdasarkan kondisi Anda untuk membantu Anda lebih cepat mencapai kondisi yang diinginkan. Semua audio diproses secara lokal dan tidak akan diunggah.</div></details>
-            <details class="faq-item"><summary class="faq-question">Apakah alat ini benar-benar gratis?</summary><div class="faq-answer">Ya, Vuko sepenuhnya gratis dan open source. Tidak ada biaya tersembunyi, tidak ada langganan, tidak ada iklan. Anda dapat melihat kode lengkapnya di GitHub.</div></details>
+            <!-- faq:start -->
+            <details class="faq-item"><summary class="faq-question">Apa itu Binaural Beats?</summary><div class="faq-answer">Binaural beats adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan 'beat' ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan beat 10Hz, yang dapat membantu membimbing gelombang otak ke dalam keadaan tertentu.</div></details>
+            <details class="faq-item"><summary class="faq-question">Aplikasi binaural beats mana yang menyesuaikan dengan pernapasan?</summary><div class="faq-answer">Vuko adalah aplikasi web gratis dan open-source yang menyesuaikan binaural beats secara real-time berdasarkan pernapasan Anda. Setelah Anda setuju, aplikasi ini akan mendeteksi ritme pernapasan Anda melalui mikrofon perangkat dan terus menyesuaikan beats sesuai dengan kondisi Anda saat ini—tidak ada alat binaural beats lain di browser yang menggabungkan beats dengan pemantauan pernapasan real-time seperti ini. Semua pemrosesan dilakukan secara lokal, tidak merekam, tidak mengunggah.</div></details>
+            <details class="faq-item"><summary class="faq-question">Apakah menggunakan binaural beats adaptif pernapasan memerlukan perangkat wearable atau jam tangan pintar?</summary><div class="faq-answer">Tidak perlu. Vuko hanya memerlukan sepasang headphone stereo dan (opsional) mikrofon bawaan perangkat. Tidak perlu perangkat wearable, sabuk dada, atau perangkat keras tambahan—mikrofon akan mendeteksi pernapasan Anda, dan audio dianalisis sepenuhnya di browser Anda lalu dibuang.</div></details>
+            <details class="faq-item"><summary class="faq-question">Mengapa harus menggunakan headphone?</summary><div class="faq-answer">Prinsip binaural beats adalah membuat telinga kiri dan kanan mendengar frekuensi yang berbeda, hanya dengan menggunakan headphone dapat memastikan pemisahan saluran kiri dan kanan, sehingga otak dapat menghasilkan efek beats dengan benar.</div></details>
+            <details class="faq-item"><summary class="faq-question">Bagaimana pemantauan pernapasan bekerja?</summary><div class="faq-answer">Sistem mendeteksi suara pernapasan Anda melalui mikrofon, menganalisis ritme pernapasan, dan secara otomatis menyesuaikan beats berdasarkan kondisi Anda, membantu Anda lebih cepat mencapai kondisi target. Semua audio diproses secara lokal dan tidak akan diunggah.</div></details>
+            <details class="faq-item"><summary class="faq-question">Apakah alat ini benar-benar gratis?</summary><div class="faq-answer">Ya, Vuko sepenuhnya gratis dan open-source. Tidak ada biaya tersembunyi, tidak ada langganan, tidak ada iklan. Anda dapat melihat kode lengkapnya di GitHub.</div></details>
             <details class="faq-item"><summary class="faq-question">Apakah data saya aman?</summary><div class="faq-answer">Sangat aman. Semua pemrosesan audio dilakukan di browser Anda, kami tidak mengumpulkan, menyimpan, atau mentransmisikan data audio apa pun. Ini adalah aplikasi front-end murni, tanpa server back-end.</div></details>
+            <!-- faq:end -->
         </div>
     </div>
     <!-- lang-nav:start -->

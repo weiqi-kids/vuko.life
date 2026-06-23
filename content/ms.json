@@ -21,14 +21,49 @@
   "modes": {
     "h2": "Enam keadaan terpandu",
     "p": "Pilih keadaan yang anda mahukan dan Vuko menala frekuensi beat ke jalur gelombang otak yang sepadan. Setiap pratetap menyasarkan julat frekuensi yang terkenal:",
-    "cols": { "mode": "Mod", "freq": "Frekuensi beat", "wave": "Jalur gelombang otak", "use": "Paling sesuai untuk" },
+    "cols": {
+      "mode": "Mod",
+      "freq": "Frekuensi beat",
+      "wave": "Jalur gelombang otak",
+      "use": "Paling sesuai untuk"
+    },
     "rows": [
-      { "mode": "Fokus", "freq": "10 Hz", "wave": "Alpha", "use": "Kerja, belajar dan tumpuan" },
-      { "mode": "Meditasi", "freq": "7 Hz", "wave": "Theta", "use": "Relaksasi mendalam dan kesedaran penuh" },
-      { "mode": "Resonans Schumann", "freq": "7.83 Hz", "wave": "Theta", "use": "Ketenangan dan keseimbangan" },
-      { "mode": "Tidur", "freq": "3 Hz", "wave": "Delta", "use": "Lebih cepat lena" },
-      { "mode": "Penyegar", "freq": "15 Hz", "wave": "Beta", "use": "Kecergasan dan tenaga" },
-      { "mode": "Inspirasi", "freq": "40 Hz", "wave": "Gamma", "use": "Pemikiran kreatif" }
+      {
+        "mode": "Fokus",
+        "freq": "10 Hz",
+        "wave": "Alpha",
+        "use": "Kerja, belajar dan tumpuan"
+      },
+      {
+        "mode": "Meditasi",
+        "freq": "7 Hz",
+        "wave": "Theta",
+        "use": "Relaksasi mendalam dan kesedaran penuh"
+      },
+      {
+        "mode": "Resonans Schumann",
+        "freq": "7.83 Hz",
+        "wave": "Theta",
+        "use": "Ketenangan dan keseimbangan"
+      },
+      {
+        "mode": "Tidur",
+        "freq": "3 Hz",
+        "wave": "Delta",
+        "use": "Lebih cepat lena"
+      },
+      {
+        "mode": "Penyegar",
+        "freq": "15 Hz",
+        "wave": "Beta",
+        "use": "Kecergasan dan tenaga"
+      },
+      {
+        "mode": "Inspirasi",
+        "freq": "40 Hz",
+        "wave": "Gamma",
+        "use": "Pemikiran kreatif"
+      }
     ]
   },
   "privacy": {
@@ -45,6 +80,13 @@
       "Pilih satu mod seperti Fokus, Meditasi, atau Tidur, atau tambahkan muzik latar daripada pustaka terbina dalam.",
       "Secara pilihan, benarkan akses mikrofon supaya Vuko boleh memantau pernafasan anda dan menyesuaikan beats untuk anda.",
       "Tekan Mula, bernafas secara semula jadi, dan biarkan bunyi membimbing anda ke arah diri yang lebih baik."
+    ]
+  },
+  "wedge": {
+    "h2": "Binaural beats yang menyesuaikan diri dengan pernafasan anda secara masa nyata",
+    "p": [
+      "Kebanyakan aplikasi binaural beats memainkan trek tetap dan berharap ia sesuai dengan perasaan anda. Vuko berbeza: ia adalah penjana binaural beats yang adaptif kepada pernafasan. Hidupkan mikrofon anda dan Vuko mendengar irama pernafasan anda, kemudian secara berterusan menala semula frekuensi detik agar sepadan dengan keadaan anda yang sebenar — memperlahankan detik apabila nafas anda semakin tenang, supaya anda lebih cepat masuk ke dalam fokus, ketenangan, atau tidur berbanding mana-mana trek statik.",
+      "Gelung maklum balas yang diselaraskan dengan pernafasan ini berjalan sepenuhnya dalam pelayar anda. Tiada apa-apa yang dirakam atau dimuat naik, dan anda tidak memerlukan peranti boleh pakai atau perkakasan tambahan — hanya fon kepala dan, secara pilihan, mikrofon peranti anda. Jika anda pernah mencari binaural beats yang bertindak balas terhadap pernafasan, bunyi meditasi terselerak nafas, atau penjana gelombang otak adaptif, itulah tepat apa yang Vuko dibina untuk jadi."
     ]
   }
 }

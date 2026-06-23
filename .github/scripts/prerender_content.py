@@ -117,20 +117,15 @@ def render_lang_nav() -> str:
     return f'<nav class="lang-footer" aria-label="Choose your language">{items}</nav>'
 
 
-def apply_seo_head(doc: str, lang: str, label: str) -> str:
-    """Rewrite the static <title> and meta description/OG tags from
-    i18n/<lang>.json so crawlers see keyword-rich, localized tags (the
-    JS in js/i18n.js builds the same string at runtime for users).
+def apply_seo_head(doc: str, data: dict) -> str:
+    """Rewrite the static <title> and meta description/OG tags from i18n
+    `data` so crawlers see keyword-rich, localized tags (js/i18n.js builds
+    the same string at runtime for users).
 
     Title formula (keyword-first): "{seoKeywords}｜Vuko".
     Description comes from i18n `seoDescription`; if absent, the existing
     static description tags are left untouched (never clobber with a worse one).
     """
-    ifile = I18N_DIR / f"{lang}.json"
-    if not ifile.exists():
-        print(f"  seo-head {label}: no {ifile}, skipped")
-        return doc
-    data = json.loads(ifile.read_text(encoding="utf-8"))
     kw = (data.get("seoKeywords") or "").strip()
     desc = (data.get("seoDescription") or "").strip()
 
@@ -155,6 +150,91 @@ def apply_seo_head(doc: str, lang: str, label: str) -> str:
         for pat, repl in subs:
             doc, n = re.subn(pat, repl, doc, count=1, flags=re.DOTALL)
     return doc
+
+
+# Right-to-left languages: their <html> needs dir="rtl".
+RTL_LANGS = {"ar", "he", "fa", "ur"}
+
+FAQ_START = "<!-- faq:start -->"
+FAQ_END = "<!-- faq:end -->"
+
+
+def set_html_dir(doc: str, lang: str) -> str:
+    """Ensure <html> carries dir="rtl" for RTL languages (and no stray dir
+    for LTR ones). Idempotent: strips any existing dir before re-adding."""
+    want = ' dir="rtl"' if lang in RTL_LANGS else ""
+
+    def repl(m):
+        attrs = re.sub(r'\s+dir="[^"]*"', "", m.group(1))
+        return f"<html{attrs}{want}>"
+
+    return re.sub(r"<html([^>]*)>", repl, doc, count=1)
+
+
+def render_faq_details(faq: dict) -> str:
+    rows = []
+    for it in faq.get("items", []):
+        q = esc(it.get("q", ""))
+        a = esc(it.get("a", ""))
+        rows.append(
+            f'<details class="faq-item"><summary class="faq-question">{q}</summary>'
+            f'<div class="faq-answer">{a}</div></details>'
+        )
+    return "\n            ".join(rows)
+
+
+def set_faq(doc: str, faq) -> str:
+    """Bake the static FAQ <details> list from i18n `faq` into #faqList.
+    Marker-delimited so it's idempotent; on first run (no markers) it replaces
+    the hand-baked inner content of the faqList container. js/i18n.js rebuilds
+    this list at runtime, so the static copy is for crawlers/AEO."""
+    if not faq or not faq.get("items"):
+        return doc
+    block = f"{FAQ_START}\n            {render_faq_details(faq)}\n            {FAQ_END}"
+    if FAQ_START in doc and FAQ_END in doc:
+        return doc[: doc.index(FAQ_START)] + block + doc[doc.index(FAQ_END) + len(FAQ_END):]
+    # First run: faqList holds only <details> (which close with </details>, not
+    # </div>), so the first "</div>\n</div>" is faqList-close + faq-section-close.
+    m = re.search(r'(<div id="faqList"[^>]*>)(.*?)(\n[ \t]*</div>\n[ \t]*</div>)',
+                  doc, re.DOTALL)
+    if not m:
+        print("  faq: no #faqList anchor, skipped")
+        return doc
+    return doc[: m.start()] + m.group(1) + "\n            " + block + m.group(3) + doc[m.end():]
+
+
+def apply_jsonld_faq(doc: str, faq) -> str:
+    """Regenerate the FAQPage node's mainEntity in the JSON-LD @graph from
+    i18n `faq`, keeping every other node untouched."""
+    if not faq or not faq.get("items"):
+        return doc
+    m = re.search(r'(<script type="application/ld\+json">\s*)(\{.*?\})(\s*</script>)',
+                  doc, re.DOTALL)
+    if not m:
+        return doc
+    try:
+        data = json.loads(m.group(2))
+    except json.JSONDecodeError:
+        print("  jsonld: parse failed, skipped")
+        return doc
+    graph = data.get("@graph")
+    nodes = graph if isinstance(graph, list) else [data]
+    changed = False
+    for node in nodes:
+        if isinstance(node, dict) and node.get("@type") == "FAQPage":
+            node["mainEntity"] = [
+                {
+                    "@type": "Question",
+                    "name": it.get("q", ""),
+                    "acceptedAnswer": {"@type": "Answer", "text": it.get("a", "")},
+                }
+                for it in faq["items"]
+            ]
+            changed = True
+    if not changed:
+        return doc
+    new_json = json.dumps(data, ensure_ascii=False, indent=4)
+    return doc[: m.start()] + m.group(1) + new_json + m.group(3) + doc[m.end():]
 
 
 def put_block(doc: str, start: str, end: str, body: str, anchors) -> str:
@@ -185,8 +265,19 @@ def inject_file(cfile, hfile, label, lang) -> bool:
                     ('<div class="faq-section">', '<div class="footer">'))
     doc = put_block(doc, LN_START, LN_END, render_lang_nav(),
                     ('<div class="footer">',))
-    # Keyword-rich, localized static <title>/meta from i18n/<lang>.json.
-    doc = apply_seo_head(doc, lang, label)
+    # Everything below is driven by i18n/<lang>.json (translated by CI), so the
+    # static <title>/meta, the crawlable FAQ, the JSON-LD FAQPage, and <html dir>
+    # never drift from the translations again.
+    ifile = I18N_DIR / f"{lang}.json"
+    if ifile.exists():
+        i18n = json.loads(ifile.read_text(encoding="utf-8"))
+        doc = apply_seo_head(doc, i18n)
+        faq = i18n.get("faq")
+        doc = set_faq(doc, faq)
+        doc = apply_jsonld_faq(doc, faq)
+    else:
+        print(f"  {label}: no {ifile}, i18n-driven tags skipped")
+    doc = set_html_dir(doc, lang)
     hfile.write_text(doc, encoding="utf-8")
     print(f"injected {label}")
     return True
