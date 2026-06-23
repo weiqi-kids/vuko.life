@@ -8,23 +8,48 @@
     <link rel="apple-touch-icon" href="/img/icons/icon-180.png" />
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/service-worker.js').catch(function(){});});}</script>
 
-    <title>Vuko — Free AI Binaural Beats & Breathing Guide</title>
-    <meta name="description" content="Free, open-source binaural beats web app with real-time breath monitoring. Guides meditation, focus, relaxation and deep sleep — processed locally, no signup, 30 languages." />
-    <link rel="canonical" href="https://www.vuko.life/app/en.html" />
-    <link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html" />
-    <link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html" />
-    <link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html" />
-    <link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html" />
-    <link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html" />
+    <meta name="description" content="Free, open-source AI breathing guide - Use binaural beats for meditation, focus, or deep sleep. Real-time breath monitoring with smart frequency adaptation. 100% free, no data upload.">
+    <title>Let sound guide you to a better you</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Let sound guide you to a better you" />
+    <meta property="og:description" content="Free, open-source AI breathing guide. Use binaural beats for meditation, focus, or deep sleep. Real-time breath monitoring with smart frequency adaptation." />
+    <meta property="og:image" content="https://www.vuko.life/assets/en/home-og.jpg" />
+    <meta property="og:url" content="https://www.vuko.life/" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Let sound guide you to a better you">
+    <meta name="twitter:description" content="Free, open-source AI breathing guide. Use binaural beats for meditation, focus, or deep sleep. Real-time breath monitoring with smart frequency adaptation.">
+    <meta name="twitter:image" content="https://www.vuko.life/assets/en/home-og.jpg">
+    <script>
+    (function(){
+      var lang=(navigator.language||'').toLowerCase();
+      if(!lang||lang.indexOf('en')===0)return; // 英文或未知 → 留首頁（英文正規頁，供索引）
+      var m=[['zh-tw','zh-tw'],['zh-hk','zh-hk'],['zh-cn','zh-cn'],['de-at','de-at'],['de-ch','de-ch'],['de-de','de-de'],['fr-be','fr-be'],['fr-ca','fr-ca'],['fr-fr','fr-fr'],['ar','ar'],['bn','bn'],['he','he'],['hi','hi'],['id','id'],['ms','ms'],['my','my'],['pa','pa'],['pl','pl'],['pt','pt'],['ru','ru'],['sw','sw'],['ta','ta'],['th','th'],['tr','tr'],['uk','uk'],['vi','vi'],['ja','ja'],['ko','ko'],['es','es'],['de','de-de'],['fr','fr-fr'],['zh','zh-cn']];
+      for(var i=0;i<m.length;i++){var c=m[i][0];if(lang===c||lang.indexOf(c+'-')===0){location.replace('/app/'+m[i][1]+'.html');return;}}
+    })();
+    </script>
+    <link rel="canonical" href="https://www.vuko.life/" />
+<!-- hreflang-block -->
     <link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html" />
     <link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html" />
+    <link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html" />
+    <link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html" />
+    <link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html" />
+    <link rel="alternate" hreflang="en" href="https://www.vuko.life/" />
+    <link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html" />
+    <link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html" />
+    <link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html" />
+    <link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html" />
     <link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html" />
     <link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html" />
     <link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html" />
+    <link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html" />
+    <link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html" />
     <link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html" />
     <link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html" />
     <link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html" />
     <link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html" />
+    <link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html" />
     <link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html" />
     <link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html" />
     <link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html" />
@@ -35,67 +60,298 @@
     <link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html" />
     <link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html" />
     <link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html" />
-    <link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html" />
-    <link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html" />
-    <link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html" />
-    <link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html" />
-    <link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html" />
-    <link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html" />
-    <link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html" />
-    <script>
-        (function() {
-            var lang = (navigator.language || '').toLowerCase();
-            var target = '/app/en.html';
-            var mappings = [
-                ['zh-tw', 'zh-tw.html'],
-                ['zh-cn', 'zh-cn.html'],
-                ['zh-hk', 'zh-hk.html'],
-                ['de-at', 'de-at.html'],
-                ['de-ch', 'de-ch.html'],
-                ['de-de', 'de-de.html'],
-                ['fr-be', 'fr-be.html'],
-                ['fr-ca', 'fr-ca.html'],
-                ['fr-fr', 'fr-fr.html'],
-                ['ar', 'ar.html'],
-                ['bn', 'bn.html'],
-                ['he', 'he.html'],
-                ['hi', 'hi.html'],
-                ['id', 'id.html'],
-                ['ms', 'ms.html'],
-                ['my', 'my.html'],
-                ['pa', 'pa.html'],
-                ['pl', 'pl.html'],
-                ['pt', 'pt.html'],
-                ['ru', 'ru.html'],
-                ['sw', 'sw.html'],
-                ['ta', 'ta.html'],
-                ['th', 'th.html'],
-                ['tr', 'tr.html'],
-                ['uk', 'uk.html'],
-                ['vi', 'vi.html'],
-                ['ja', 'ja.html'],
-                ['ko', 'ko.html'],
-                ['es', 'es.html'],
-                ['de', 'de-de.html'],
-                ['fr', 'fr-fr.html'],
-                ['en', 'en.html']
-            ];
-            for (var i = 0; i < mappings.length; i++) {
-                var code = mappings[i][0];
-                if (lang === code || lang.startsWith(code + '-')) {
-                    target = '/app/' + mappings[i][1];
-                    break;
-                }
+    <link rel="alternate" hreflang="x-default" href="https://www.vuko.life/" />
+    <link rel="stylesheet" href="assets/base.css">
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebApplication",
+            "name": "Vuko - AI Breathing Rhythm Processor",
+            "description": "Use binaural beats to guide yourself into meditation, focus, relaxation, or sleep",
+            "url": "https://www.vuko.life/",
+            "applicationCategory": "HealthApplication",
+            "operatingSystem": "Web Browser",
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            },
+            "featureList": [
+                "Binaural Beats",
+                "Breath Monitoring",
+                "Meditation",
+                "Sleep Aid",
+                "Focus Enhancement"
+            ],
+            "@id": "https://www.vuko.life/#webapp",
+            "isAccessibleForFree": true,
+            "publisher": {
+                "@id": "https://www.vuko.life/#organization"
             }
-            window.location.replace(target);
-        })();
-    </script>
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://www.vuko.life/#webpage",
+            "url": "https://www.vuko.life/",
+            "isPartOf": {
+                "@id": "https://www.vuko.life/#website"
+            },
+            "speakable": {
+                "@type": "SpeakableSpecification",
+                "cssSelector": [
+                    "h1",
+                    ".trust-badges",
+                    ".faq-answer"
+                ]
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://www.vuko.life/#organization",
+            "name": "Vuko",
+            "url": "https://www.vuko.life/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.vuko.life/favicon.ico"
+            },
+            "sameAs": [
+                "https://github.com/weiqi-kids/vuko.life"
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.vuko.life/#website",
+            "name": "Vuko",
+            "url": "https://www.vuko.life/",
+            "publisher": {
+                "@id": "https://www.vuko.life/#organization"
+            }
+        },
+        {
+            "@type": "FAQPage",
+            "@id": "https://www.vuko.life/#faq",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is binaural beats?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Binaural beats occur when slightly different frequencies are heard in the left and right ears, causing the brain to produce a third 'beat frequency.' For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into a specific state."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why must headphones be used?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can the separation of the left and right channels be ensured, allowing the brain to correctly produce the beat effect."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does breath monitoring work?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The system detects your breathing sounds through a microphone, analyzes the breathing rhythm, and automatically adjusts the beats according to your state to help you reach the target state faster. All audio is processed locally and will not be uploaded."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is this tool really free?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, Vuko is completely free and open source. There are no hidden fees, no subscriptions, and no ads. You can view the complete code on GitHub."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is my data safe?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Absolutely safe. All audio processing is done in your browser, and we do not collect, store, or transmit any audio data. This is a purely front-end application with no backend server."
+                    }
+                }
+            ]
+        }
+    ]
+}
+</script>
 </head>
 <body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+    </button>
+    <div class="container">
+        <h1 id="mainTitle">Let sound guide you to a better you</h1>
+
+        <h2 id="sectionInstructions" class="section-title"></h2>
+        <div class="adaptive-mode">
+            <h3></h3>
+            <ul>
+                <li id="instructionHeadphones"></li>
+                <li id="instructionMicrophone"></li>
+            </ul>
+        </div>
+
+        
+        <h2 id="sectionSettings" class="section-title"></h2>
+        <div class="config-audio-container">
+            <div class="audio-search-section">
+                <h3 id="audioSearchTitle"></h3>
+                <div class="audio-tabs">
+                    <button id="tabLibrary" class="tab-button active"></button>
+                    <button id="tabLocal" class="tab-button"></button>
+                </div>
+                <div id="libraryTabContent">
+                    <div class="search-container">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                    </div>
+                    <div id="searchResults" class="search-results" style="display: none;"></div>
+                </div>
+                <div id="localTabContent" style="display: none;">
+                    <input type="file" id="localFileInput" accept="audio/*">
+                    <div class="privacy-msg" id="filePrivacyMsg"></div>
+                </div>
+                <div id="currentSelection" class="current-selection" style="display: none;">
+                    <div class="current-selection-label" id="currentSelectionLabel"></div>
+                    <div class="current-selection-name" id="currentSelectionName"></div>
+                </div>
+            </div>
+
+            <div class="config-info">
+                <h3 id="systemConfigTitle"></h3>
+                <ul class="binaural-options" id="binauralOptionsList"></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+            </div>
+        </div>
+
+        <div id="status" class="status" style="display: none;"></div>
+
+        <h2 id="sectionMonitor" class="section-title"></h2>
+        <div class="breathing-monitor">
+            <div class="breath-visual">
+                <h3></h3>
+                <canvas id="waveform" class="waveform"></canvas>
+            </div>
+
+            <div class="breath-stats">
+                <h3></h3>
+                <div class="stat-item">
+                    <span class="stat-label"></span>
+                    <span class="stat-value" id="breathRate">--</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label" id="noiseLevelLabel"></span>
+                    <span class="stat-value" id="noiseLevel">--</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-buttons">
+            <button onclick="toggleAdaptiveMode()" id="monitorToggleBtn"></button>
+        </div>
+    </div>
+
+    <div class="trust-badges">
+        <span id="trustFree" class="trust-badge"></span>
+        <span id="trustOpenSource" class="trust-badge"></span>
+        <span id="trustPrivacy" class="trust-badge"></span>
+    </div>
+
+    
+    <div class="share-section">
+        <span id="shareTitle" class="share-title"></span>
+        <div class="share-buttons">
+            <a id="shareTwitter" class="share-btn share-twitter" href="#" target="_blank" rel="noopener">Twitter</a>
+            <a id="shareFacebook" class="share-btn share-facebook" href="#" target="_blank" rel="noopener">Facebook</a>
+            <a id="shareLine" class="share-btn share-line" href="#" target="_blank" rel="noopener">LINE</a>
+        </div>
+    </div>
+
+    
+    <!-- seo-content:start -->
+<section class="seo-content" aria-label="About Vuko">
+<h2>What is Vuko?</h2>
+<p>Vuko is a free, open-source binaural beats web app that you run directly in your browser — nothing to install, no account, no ads. Put on headphones, choose how you want to feel, and Vuko generates the precise dual-tone frequencies that gently guide your brain toward focus, meditation, relaxation, or deep sleep.</p>
+<p>What makes Vuko different is that it does not just play a fixed track. If you allow microphone access, Vuko listens to your breathing in real time and adapts the beats to your actual state — a closed feedback loop between your body and the sound. We could not find another tool that combines binaural beats with live breath monitoring in the browser, which is exactly the gap Vuko fills.</p>
+<h2>How Vuko works</h2>
+<p>Vuko combines two systems that usually live in separate apps: a binaural beat engine and a real-time breath monitor that talk to each other while you listen.</p>
+<h3>1. Binaural beat engine</h3>
+<p>When your left and right ears hear two slightly different frequencies — say 200 Hz and 210 Hz — your brain perceives a third "beat" at the difference (10 Hz). This phantom beat can encourage your brainwaves to settle near that rhythm, a process often called entrainment. Because the effect depends on each ear hearing its own channel, stereo headphones are required. Vuko renders these tones live with the Web Audio API, so the sound is generated on your device rather than streamed.</p>
+<h3>2. Real-time breath monitoring</h3>
+<p>With your permission, Vuko uses the microphone to detect the soft sound of your breathing, measures your breathing rate, and adjusts the beat frequency to match where you are right now — slowing things down as you relax, easing you deeper toward the target state. The audio is analysed entirely on your device and never leaves your browser. If you prefer, you can skip the microphone and simply choose a preset.</p>
+<h2>Six guided states</h2>
+<p>Pick the state you want and Vuko tunes the beat frequency to the matching brainwave band. Each preset targets a well-known frequency range:</p>
+<table class="modes-table"><thead><tr>
+<th>Mode</th>
+<th>Beat frequency</th>
+<th>Brainwave band</th>
+<th>Best for</th>
+</tr></thead><tbody>
+<tr>
+<td>Focus</td>
+<td>10 Hz</td>
+<td>Alpha</td>
+<td>Work, study and concentration</td>
+</tr>
+<tr>
+<td>Meditation</td>
+<td>7 Hz</td>
+<td>Theta</td>
+<td>Deep relaxation and mindfulness</td>
+</tr>
+<tr>
+<td>Schumann resonance</td>
+<td>7.83 Hz</td>
+<td>Theta</td>
+<td>Grounding and balance</td>
+</tr>
+<tr>
+<td>Sleep</td>
+<td>3 Hz</td>
+<td>Delta</td>
+<td>Falling asleep faster</td>
+</tr>
+<tr>
+<td>Refresh</td>
+<td>15 Hz</td>
+<td>Beta</td>
+<td>Alertness and energy</td>
+</tr>
+<tr>
+<td>Inspiration</td>
+<td>40 Hz</td>
+<td>Gamma</td>
+<td>Creative thinking</td>
+</tr>
+</tbody></table>
+<h2>Private by design, free forever</h2>
+<p>Vuko has no backend server that stores your data. All sound generation and breath analysis happen locally in your browser, so your microphone audio is never uploaded, recorded, or shared. There is nothing to sign up for and nothing to pay.</p>
+<p>The entire project is open source on GitHub — you can read exactly how it works, verify the privacy claims, and contribute. It is free to use today and built to stay that way.</p>
+<h2>How to use Vuko</h2>
+<ol>
+<li>Put on stereo headphones — binaural beats only work when each ear hears its own channel.</li>
+<li>Choose a mode such as Focus, Meditation, or Sleep, or add background music from the built-in library.</li>
+<li>Optionally allow microphone access so Vuko can monitor your breathing and adapt the beats to you.</li>
+<li>Press Start, breathe naturally, and let the sound guide you toward a better you.</li>
+</ol>
+</section>
+<!-- seo-content:end -->
+    <div class="faq-section">
+        <h2 id="faqTitle" class="section-title">Frequently Asked Questions</h2>
+        <div id="faqList" class="faq-list">
+            <details class="faq-item"><summary class="faq-question">What is binaural beats?</summary><div class="faq-answer">Binaural beats occur when slightly different frequencies are heard in the left and right ears, causing the brain to produce a third &#x27;beat frequency.&#x27; For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into a specific state.</div></details>
+            <details class="faq-item"><summary class="faq-question">Why must headphones be used?</summary><div class="faq-answer">The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can the separation of the left and right channels be ensured, allowing the brain to correctly produce the beat effect.</div></details>
+            <details class="faq-item"><summary class="faq-question">How does breath monitoring work?</summary><div class="faq-answer">The system detects your breathing sounds through a microphone, analyzes the breathing rhythm, and automatically adjusts the beats according to your state to help you reach the target state faster. All audio is processed locally and will not be uploaded.</div></details>
+            <details class="faq-item"><summary class="faq-question">Is this tool really free?</summary><div class="faq-answer">Yes, Vuko is completely free and open source. There are no hidden fees, no subscriptions, and no ads. You can view the complete code on GitHub.</div></details>
+            <details class="faq-item"><summary class="faq-question">Is my data safe?</summary><div class="faq-answer">Absolutely safe. All audio processing is done in your browser, and we do not collect, store, or transmit any audio data. This is a purely front-end application with no backend server.</div></details>
+        </div>
+    </div>
     <noscript>
-      <h1>Vuko — Free AI Binaural Beats &amp; Breathing Guide</h1>
-      <p>A free, open-source web app that combines binaural beats with real-time breath monitoring to guide meditation, focus, relaxation and deep sleep. Choose your language:</p>
-      <ul>
+    <nav aria-label="Languages"><ul>
         <li><a href="/app/en.html">English</a></li>
         <li><a href="/app/es.html">Español</a></li>
         <li><a href="/app/ja.html">日本語</a></li>
@@ -126,7 +382,21 @@
         <li><a href="/app/fr-be.html">Français(BE)</a></li>
         <li><a href="/app/fr-ca.html">Français(CA)</a></li>
         <li><a href="/app/fr-fr.html">Français</a></li>
-      </ul>
+      </ul></nav>
     </noscript>
+    <div class="footer">
+        <a href="https://github.com/weiqi-kids/vuko.life" target="_blank">GitHub</a>
+    </div>
+    <script src="js/i18n.js"></script>
+    <script src="js/ga.js" async></script>
+    <script src="js/audio_selector.js" defer></script>
+    <script src="js/binaural_processor.js" defer></script>
+    <script src="js/onboarding.js" defer></script>
+    <script src="js/session_tracker.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <script src="js/theme.js" defer></script>
+    <script src="js/keyboard.js" defer></script>
+    <script src="js/lang-switcher.js" defer></script>
+    <script>CONFIG.LANGUAGE = 'en';</script>
 </body>
 </html>

@@ -82,14 +82,12 @@ def render(c: dict) -> str:
     return "\n".join(out)
 
 
-def inject(lang: str) -> bool:
-    cfile = CONTENT_DIR / f"{lang}.json"
-    hfile = APP_DIR / f"{lang}.html"
+def inject_file(cfile, hfile, label) -> bool:
     if not cfile.exists():
-        print(f"skip {lang}: no content/{lang}.json")
+        print(f"skip {label}: no {cfile}")
         return False
     if not hfile.exists():
-        print(f"skip {lang}: no app/{lang}.html")
+        print(f"skip {label}: no {hfile}")
         return False
 
     content = json.loads(cfile.read_text(encoding="utf-8"))
@@ -112,8 +110,12 @@ def inject(lang: str) -> bool:
             raise RuntimeError(f"{lang}: no insertion anchor found")
 
     hfile.write_text(doc, encoding="utf-8")
-    print(f"injected {lang}")
+    print(f"injected {label}")
     return True
+
+
+def inject(lang: str) -> bool:
+    return inject_file(CONTENT_DIR / f"{lang}.json", APP_DIR / f"{lang}.html", lang)
 
 
 def main() -> None:
@@ -121,6 +123,9 @@ def main() -> None:
     if not langs:
         langs = sorted(p.stem for p in CONTENT_DIR.glob("*.json") if p.stem != "base")
     count = sum(inject(l) for l in langs)
+    # The site root (index.html) is the English canonical page — keep its
+    # long-form block in sync with content/en.json too.
+    count += inject_file(CONTENT_DIR / "en.json", ROOT / "index.html", "index.html")
     print(f"done: {count} page(s)")
 
 
