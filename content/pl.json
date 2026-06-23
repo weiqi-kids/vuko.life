@@ -1,0 +1,50 @@
+{
+  "intro": {
+    "h2": "Czym jest Vuko?",
+    "p": [
+      "Vuko to darmowa aplikacja internetowa o otwartym kodzie źródłowym, generująca dudnienia różnicowe (binaural beats), która działa bezpośrednio w przeglądarce — bez instalacji, bez zakładania konta, bez reklam. Załóż słuchawki, wybierz stan, który chcesz osiągnąć, a Vuko w czasie rzeczywistym wygeneruje precyzyjne częstotliwości dwutonowe, które łagodnie poprowadzą Twój mózg ku skupieniu, medytacji, relaksowi lub głębokiemu snowi.",
+      "To, co wyróżnia Vuko, to fakt, że aplikacja nie odtwarza po prostu nagranego wcześniej utworu. Jeśli zezwolisz na dostęp do mikrofonu, Vuko w czasie rzeczywistym wsłuchuje się w Twój oddech i dostosowuje dudnienia do Twojego rzeczywistego stanu, zamykając pętlę sprzężenia zwrotnego między ciałem a dźwiękiem. Nie znaleźliśmy żadnego innego narzędzia, które łączyłoby dudnienia różnicowe z monitorowaniem oddechu na żywo w przeglądarce — i właśnie tę lukę wypełnia Vuko."
+    ]
+  },
+  "how": {
+    "h2": "Jak działa Vuko",
+    "p": "Vuko łączy dwa systemy, które zwykle żyją w osobnych aplikacjach: silnik dudnień różnicowych oraz monitor oddechu działający w czasie rzeczywistym, które komunikują się ze sobą, gdy słuchasz.",
+    "binaural": {
+      "h3": "1. Silnik dudnień różnicowych",
+      "p": "Gdy lewe i prawe ucho słyszą nieco różne częstotliwości — na przykład 200 Hz i 210 Hz — mózg odbiera trzecie „dudnienie” odpowiadające ich różnicy (10 Hz). To pozorne dudnienie może skłonić Twoje fale mózgowe do dostrojenia się do tego rytmu — proces ten często nazywa się synchronizacją (entrainment). Ponieważ efekt zależy od tego, że każde ucho słyszy własny kanał, słuchawki stereo są niezbędne. Vuko generuje te tony na żywo za pomocą Web Audio API, więc dźwięk powstaje na Twoim urządzeniu, a nie jest przesyłany strumieniowo."
+    },
+    "breath": {
+      "h3": "2. Monitorowanie oddechu w czasie rzeczywistym",
+      "p": "Za Twoją zgodą Vuko wykorzystuje mikrofon, aby wychwycić cichy dźwięk Twojego oddechu, mierzy jego tempo i dostosowuje częstotliwość dudnień do tego, w jakim stanie jesteś teraz — zwalniając, gdy się odprężasz, i delikatnie prowadząc Cię bliżej docelowego stanu. Cały dźwięk jest analizowany wyłącznie na Twoim urządzeniu i nigdy nie opuszcza przeglądarki. Jeśli wolisz, możesz pominąć mikrofon i po prostu wybrać gotowy tryb."
+    }
+  },
+  "modes": {
+    "h2": "Sześć prowadzonych stanów",
+    "p": "Wybierz stan, który chcesz osiągnąć, a Vuko dostroi częstotliwość dudnień do odpowiedniego pasma fal mózgowych. Każdy gotowy tryb celuje w dobrze znany zakres częstotliwości:",
+    "cols": { "mode": "Tryb", "freq": "Częstotliwość dudnień", "wave": "Pasmo fal mózgowych", "use": "Najlepszy do" },
+    "rows": [
+      { "mode": "Skupienie", "freq": "10 Hz", "wave": "Alpha", "use": "Praca, nauka i koncentracja" },
+      { "mode": "Medytacja", "freq": "7 Hz", "wave": "Theta", "use": "Głęboki relaks i uważność" },
+      { "mode": "Rezonans Schumanna", "freq": "7.83 Hz", "wave": "Theta", "use": "Uziemienie i równowaga" },
+      { "mode": "Sen", "freq": "3 Hz", "wave": "Delta", "use": "Szybsze zasypianie" },
+      { "mode": "Pobudzenie", "freq": "15 Hz", "wave": "Beta", "use": "Czujność i energia" },
+      { "mode": "Inspiracja", "freq": "40 Hz", "wave": "Gamma", "use": "Twórcze myślenie" }
+    ]
+  },
+  "privacy": {
+    "h2": "Prywatność u podstaw, darmowe na zawsze",
+    "p": [
+      "Vuko nie ma serwera zaplecza, który przechowywałby Twoje dane. Całe generowanie dźwięku i analiza oddechu odbywają się lokalnie w Twojej przeglądarce, więc dźwięk z mikrofonu nigdy nie jest przesyłany na serwer, nagrywany ani udostępniany. Nie trzeba się rejestrować ani za nic płacić.",
+      "Cały projekt jest dostępny jako otwarty kod źródłowy na GitHub — możesz samodzielnie sprawdzić, jak działa, zweryfikować deklaracje dotyczące prywatności i wnieść swój wkład. Jest darmowy już dziś i zbudowany tak, by takim pozostać."
+    ]
+  },
+  "usage": {
+    "h2": "Jak korzystać z Vuko",
+    "steps": [
+      "Załóż słuchawki stereo — dudnienia różnicowe działają tylko wtedy, gdy każde ucho słyszy własny kanał.",
+      "Wybierz tryb, taki jak Skupienie, Medytacja czy Sen, albo dodaj muzykę w tle z wbudowanej biblioteki.",
+      "Opcjonalnie zezwól na dostęp do mikrofonu, aby Vuko mogło monitorować Twój oddech i dostosowywać do Ciebie dudnienia.",
+      "Naciśnij Start, oddychaj naturalnie i pozwól, by dźwięk poprowadził Cię ku lepszej wersji siebie."
+    ]
+  }
+}

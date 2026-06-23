@@ -1,0 +1,50 @@
+{
+  "intro": {
+    "h2": "Apakah itu Vuko?",
+    "p": [
+      "Vuko ialah aplikasi web binaural beats percuma dan sumber terbuka yang anda jalankan terus di pelayar — tanpa pemasangan, tanpa akaun, tanpa iklan. Pakai fon kepala, pilih perasaan yang anda mahukan, dan Vuko terus menjana frekuensi nada berkembar yang tepat untuk membimbing otak anda dengan lembut ke arah fokus, meditasi, relaksasi, atau tidur lena.",
+      "Apa yang membezakan Vuko ialah ia bukan sekadar memainkan trek yang tetap. Jika anda membenarkan akses mikrofon, Vuko mendengar pernafasan anda secara masa nyata dan menyesuaikan beats dengan keadaan sebenar anda — satu gelung maklum balas tertutup antara tubuh dan bunyi anda. Kami tidak menemui alat lain yang menggabungkan binaural beats dengan pemantauan nafas secara langsung dalam pelayar, dan inilah jurang yang diisi oleh Vuko."
+    ]
+  },
+  "how": {
+    "h2": "Cara Vuko berfungsi",
+    "p": "Vuko menggabungkan dua sistem yang biasanya berada dalam aplikasi berasingan: sebuah enjin binaural beat dan pemantau nafas masa nyata yang saling berkomunikasi sewaktu anda mendengar.",
+    "binaural": {
+      "h3": "1. Enjin binaural beat",
+      "p": "Apabila telinga kiri dan kanan anda mendengar dua frekuensi yang sedikit berbeza — katakan 200 Hz dan 210 Hz — otak anda menanggap satu \"beat\" ketiga pada bezanya (10 Hz). Beat ilusi ini boleh menggalakkan gelombang otak anda menyelaras dengan irama tersebut, satu proses yang sering dipanggil entrainment. Oleh sebab kesan ini bergantung pada setiap telinga mendengar salurannya sendiri, fon kepala stereo adalah wajib. Vuko menjana nada-nada ini secara langsung dengan Web Audio API, jadi bunyi dihasilkan pada peranti anda dan bukan dialirkan dari pelayan."
+    },
+    "breath": {
+      "h3": "2. Pemantauan nafas masa nyata",
+      "p": "Dengan kebenaran anda, Vuko menggunakan mikrofon untuk mengesan bunyi halus pernafasan anda, mengukur kadar pernafasan, dan melaraskan frekuensi beat supaya sepadan dengan keadaan anda kini — memperlahankan irama apabila anda berehat, membimbing anda lebih dalam ke arah keadaan yang disasarkan. Audio dianalisis sepenuhnya pada peranti anda dan tidak pernah meninggalkan pelayar. Jika anda lebih suka, anda boleh melangkau mikrofon dan cukup sekadar memilih satu pratetap."
+    }
+  },
+  "modes": {
+    "h2": "Enam keadaan terpandu",
+    "p": "Pilih keadaan yang anda mahukan dan Vuko menala frekuensi beat ke jalur gelombang otak yang sepadan. Setiap pratetap menyasarkan julat frekuensi yang terkenal:",
+    "cols": { "mode": "Mod", "freq": "Frekuensi beat", "wave": "Jalur gelombang otak", "use": "Paling sesuai untuk" },
+    "rows": [
+      { "mode": "Fokus", "freq": "10 Hz", "wave": "Alpha", "use": "Kerja, belajar dan tumpuan" },
+      { "mode": "Meditasi", "freq": "7 Hz", "wave": "Theta", "use": "Relaksasi mendalam dan kesedaran penuh" },
+      { "mode": "Resonans Schumann", "freq": "7.83 Hz", "wave": "Theta", "use": "Ketenangan dan keseimbangan" },
+      { "mode": "Tidur", "freq": "3 Hz", "wave": "Delta", "use": "Lebih cepat lena" },
+      { "mode": "Penyegar", "freq": "15 Hz", "wave": "Beta", "use": "Kecergasan dan tenaga" },
+      { "mode": "Inspirasi", "freq": "40 Hz", "wave": "Gamma", "use": "Pemikiran kreatif" }
+    ]
+  },
+  "privacy": {
+    "h2": "Peribadi secara reka bentuk, percuma selamanya",
+    "p": [
+      "Vuko tidak mempunyai pelayan bahagian belakang yang menyimpan data anda. Semua penjanaan bunyi dan analisis nafas berlaku secara setempat dalam pelayar anda, jadi audio mikrofon anda tidak pernah dimuat naik, dirakam, atau dikongsi. Tiada apa-apa untuk didaftarkan dan tiada apa-apa untuk dibayar.",
+      "Keseluruhan projek ini ialah sumber terbuka di GitHub — anda boleh membaca dengan tepat cara ia berfungsi, mengesahkan dakwaan privasinya, dan menyumbang. Ia percuma untuk digunakan hari ini dan dibina untuk kekal begitu."
+    ]
+  },
+  "usage": {
+    "h2": "Cara menggunakan Vuko",
+    "steps": [
+      "Pakai fon kepala stereo — binaural beats hanya berfungsi apabila setiap telinga mendengar salurannya sendiri.",
+      "Pilih satu mod seperti Fokus, Meditasi, atau Tidur, atau tambahkan muzik latar daripada pustaka terbina dalam.",
+      "Secara pilihan, benarkan akses mikrofon supaya Vuko boleh memantau pernafasan anda dan menyesuaikan beats untuk anda.",
+      "Tekan Mula, bernafas secara semula jadi, dan biarkan bunyi membimbing anda ke arah diri yang lebih baik."
+    ]
+  }
+}

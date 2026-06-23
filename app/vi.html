@@ -265,6 +265,74 @@
     </div>
 
     
+    <!-- seo-content:start -->
+<section class="seo-content" aria-label="About Vuko">
+<h2>Vuko là gì?</h2>
+<p>Vuko là một ứng dụng web nhịp song nhĩ (binaural beats) miễn phí và mã nguồn mở, chạy trực tiếp trên trình duyệt của bạn — không cần cài đặt, không cần tài khoản, không quảng cáo. Chỉ cần đeo tai nghe, chọn trạng thái bạn mong muốn, và Vuko sẽ tạo ra những tần số hai âm chính xác theo thời gian thực, nhẹ nhàng dẫn dắt não bộ của bạn vào trạng thái tập trung, thiền định, thư giãn hoặc giấc ngủ sâu.</p>
+<p>Điều làm nên sự khác biệt của Vuko là nó không chỉ phát một bản âm thanh cố định. Nếu bạn cho phép truy cập micro, Vuko sẽ lắng nghe hơi thở của bạn theo thời gian thực và điều chỉnh nhịp âm thanh theo đúng trạng thái thực tế của bạn — tạo nên một vòng phản hồi khép kín giữa cơ thể bạn và âm thanh. Chúng tôi không tìm thấy một công cụ nào khác kết hợp được nhịp song nhĩ với việc theo dõi hơi thở trực tiếp ngay trên trình duyệt, và đó chính là khoảng trống mà Vuko lấp đầy.</p>
+<h2>Vuko hoạt động như thế nào</h2>
+<p>Vuko kết hợp hai hệ thống vốn thường nằm ở hai ứng dụng riêng biệt: một bộ tạo nhịp song nhĩ và một bộ theo dõi hơi thở thời gian thực, cả hai cùng trao đổi với nhau trong khi bạn lắng nghe.</p>
+<h3>1. Bộ tạo nhịp song nhĩ</h3>
+<p>Khi tai trái và tai phải của bạn nghe hai tần số hơi khác nhau — chẳng hạn 200 Hz và 210 Hz — não bộ sẽ cảm nhận được một "nhịp" thứ ba bằng phần chênh lệch giữa chúng (10 Hz). Nhịp ảo này có thể khuyến khích sóng não của bạn ổn định gần với nhịp điệu đó, một quá trình thường được gọi là sự đồng bộ sóng não (entrainment). Vì hiệu ứng phụ thuộc vào việc mỗi tai nghe được kênh riêng của mình, nên cần phải dùng tai nghe stereo. Vuko tạo ra những âm thanh này trực tiếp bằng Web Audio API, nên âm thanh được sinh ra ngay trên thiết bị của bạn chứ không phải được phát trực tuyến.</p>
+<h3>2. Theo dõi hơi thở thời gian thực</h3>
+<p>Khi được bạn cho phép, Vuko dùng micro để nhận biết âm thanh hơi thở nhẹ nhàng của bạn, đo nhịp thở và điều chỉnh tần số nhịp cho khớp với trạng thái của bạn ngay lúc này — chậm lại khi bạn thư giãn, dẫn dắt bạn tiến sâu hơn về trạng thái mục tiêu. Toàn bộ âm thanh được phân tích hoàn toàn trên thiết bị của bạn và không bao giờ rời khỏi trình duyệt. Nếu muốn, bạn có thể bỏ qua micro và chỉ cần chọn một chế độ có sẵn.</p>
+<h2>Sáu trạng thái được dẫn dắt</h2>
+<p>Chọn trạng thái bạn mong muốn và Vuko sẽ điều chỉnh tần số nhịp khớp với dải sóng não tương ứng. Mỗi chế độ có sẵn nhắm đến một khoảng tần số được biết đến rộng rãi:</p>
+<table class="modes-table"><thead><tr>
+<th>Chế độ</th>
+<th>Tần số nhịp</th>
+<th>Dải sóng não</th>
+<th>Phù hợp nhất cho</th>
+</tr></thead><tbody>
+<tr>
+<td>Tập trung</td>
+<td>10 Hz</td>
+<td>Alpha</td>
+<td>Làm việc, học tập và tập trung</td>
+</tr>
+<tr>
+<td>Thiền định</td>
+<td>7 Hz</td>
+<td>Theta</td>
+<td>Thư giãn sâu và chánh niệm</td>
+</tr>
+<tr>
+<td>Cộng hưởng Schumann</td>
+<td>7.83 Hz</td>
+<td>Theta</td>
+<td>An định và cân bằng</td>
+</tr>
+<tr>
+<td>Giấc ngủ</td>
+<td>3 Hz</td>
+<td>Delta</td>
+<td>Đi vào giấc ngủ nhanh hơn</td>
+</tr>
+<tr>
+<td>Sảng khoái</td>
+<td>15 Hz</td>
+<td>Beta</td>
+<td>Tỉnh táo và tràn đầy năng lượng</td>
+</tr>
+<tr>
+<td>Khơi nguồn cảm hứng</td>
+<td>40 Hz</td>
+<td>Gamma</td>
+<td>Tư duy sáng tạo</td>
+</tr>
+</tbody></table>
+<h2>Riêng tư từ trong thiết kế, miễn phí mãi mãi</h2>
+<p>Vuko không có máy chủ phía sau nào lưu trữ dữ liệu của bạn. Toàn bộ việc tạo âm thanh và phân tích hơi thở đều diễn ra cục bộ ngay trên trình duyệt của bạn, vì vậy âm thanh từ micro của bạn không bao giờ được tải lên, ghi lại hay chia sẻ. Không có gì để đăng ký và không có gì để trả tiền.</p>
+<p>Toàn bộ dự án là mã nguồn mở trên GitHub — bạn có thể tự mình đọc xem nó hoạt động ra sao, kiểm chứng những cam kết về quyền riêng tư và đóng góp vào dự án. Hôm nay nó miễn phí để dùng, và được tạo ra để luôn duy trì như vậy.</p>
+<h2>Cách sử dụng Vuko</h2>
+<ol>
+<li>Đeo tai nghe stereo — nhịp song nhĩ chỉ phát huy tác dụng khi mỗi tai nghe được kênh riêng của mình.</li>
+<li>Chọn một chế độ như Tập trung, Thiền định hay Giấc ngủ, hoặc thêm nhạc nền từ thư viện tích hợp sẵn.</li>
+<li>Tùy ý cho phép truy cập micro để Vuko có thể theo dõi hơi thở và điều chỉnh nhịp âm thanh cho phù hợp với bạn.</li>
+<li>Nhấn Bắt đầu, hít thở tự nhiên và để âm thanh dẫn dắt bạn đến một phiên bản tốt hơn của chính mình.</li>
+</ol>
+</section>
+<!-- seo-content:end -->
     <div class="faq-section">
         <h2 id="faqTitle" class="section-title">Câu hỏi thường gặp</h2>
         <div id="faqList" class="faq-list">

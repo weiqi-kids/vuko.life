@@ -1,0 +1,50 @@
+{
+  "intro": {
+    "h2": "O que é o Vuko?",
+    "p": [
+      "O Vuko é um app web de batidas binaurais gratuito e de código aberto que funciona diretamente no seu navegador — sem instalação, sem conta, sem anúncios. Coloque os fones de ouvido, escolha como você quer se sentir e o Vuko gera na hora as frequências precisas de tom duplo que guiam suavemente o seu cérebro rumo ao foco, à meditação, ao relaxamento ou ao sono profundo.",
+      "O que torna o Vuko diferente é que ele não se limita a tocar uma faixa fixa. Se você permitir o acesso ao microfone, o Vuko ouve a sua respiração em tempo real e adapta as batidas ao seu estado real — um ciclo de retroalimentação fechado entre o seu corpo e o som. Não encontramos nenhuma outra ferramenta que combine batidas binaurais com monitoramento da respiração ao vivo no navegador, e é exatamente essa lacuna que o Vuko preenche."
+    ]
+  },
+  "how": {
+    "h2": "Como o Vuko funciona",
+    "p": "O Vuko combina dois sistemas que normalmente vivem em apps separados: um motor de batidas binaurais e um monitor de respiração em tempo real que conversam entre si enquanto você ouve.",
+    "binaural": {
+      "h3": "1. Motor de batidas binaurais",
+      "p": "Quando o seu ouvido esquerdo e o seu ouvido direito recebem duas frequências ligeiramente diferentes — digamos, 200 Hz e 210 Hz —, o seu cérebro percebe uma terceira «batida» na diferença (10 Hz). Essa batida fantasma pode incentivar as suas ondas cerebrais a se ajustarem perto desse ritmo, um processo frequentemente chamado de sincronização cerebral (entrainment). Como o efeito depende de cada ouvido receber o seu próprio canal, são necessários fones de ouvido estéreo. O Vuko gera esses tons ao vivo com a Web Audio API, de modo que o som é produzido no seu dispositivo em vez de ser transmitido por streaming."
+    },
+    "breath": {
+      "h3": "2. Monitoramento da respiração em tempo real",
+      "p": "Com a sua permissão, o Vuko usa o microfone para detectar o som suave da sua respiração, mede o seu ritmo respiratório e ajusta a frequência da batida para acompanhar onde você está neste momento — desacelerando à medida que você relaxa e conduzindo você mais fundo em direção ao estado desejado. O áudio é analisado inteiramente no seu dispositivo e nunca sai do seu navegador. Se preferir, você pode dispensar o microfone e simplesmente escolher uma predefinição."
+    }
+  },
+  "modes": {
+    "h2": "Seis estados guiados",
+    "p": "Escolha o estado que você quer e o Vuko ajusta a frequência da batida à banda de ondas cerebrais correspondente. Cada predefinição mira uma faixa de frequência bem conhecida:",
+    "cols": { "mode": "Modo", "freq": "Frequência da batida", "wave": "Banda de ondas cerebrais", "use": "Ideal para" },
+    "rows": [
+      { "mode": "Foco", "freq": "10 Hz", "wave": "Alpha", "use": "Trabalho, estudo e concentração" },
+      { "mode": "Meditação", "freq": "7 Hz", "wave": "Theta", "use": "Relaxamento profundo e atenção plena" },
+      { "mode": "Ressonância de Schumann", "freq": "7.83 Hz", "wave": "Theta", "use": "Aterramento e equilíbrio" },
+      { "mode": "Sono", "freq": "3 Hz", "wave": "Delta", "use": "Adormecer mais rápido" },
+      { "mode": "Energia", "freq": "15 Hz", "wave": "Beta", "use": "Estado de alerta e disposição" },
+      { "mode": "Inspiração", "freq": "40 Hz", "wave": "Gamma", "use": "Pensamento criativo" }
+    ]
+  },
+  "privacy": {
+    "h2": "Privacidade por princípio, grátis para sempre",
+    "p": [
+      "O Vuko não tem nenhum servidor backend que armazene os seus dados. Toda a geração de som e a análise da respiração acontecem localmente no seu navegador, por isso o áudio do seu microfone nunca é enviado, gravado ou compartilhado. Não há nada para cadastrar e nada para pagar.",
+      "Todo o projeto é de código aberto no GitHub — você pode ler exatamente como ele funciona, verificar as promessas de privacidade e contribuir. É grátis hoje e foi feito para continuar assim."
+    ]
+  },
+  "usage": {
+    "h2": "Como usar o Vuko",
+    "steps": [
+      "Coloque fones de ouvido estéreo — as batidas binaurais só funcionam quando cada ouvido recebe o seu próprio canal.",
+      "Escolha um modo como Foco, Meditação ou Sono, ou adicione música de fundo da biblioteca integrada.",
+      "Se quiser, permita o acesso ao microfone para que o Vuko possa monitorar a sua respiração e adaptar as batidas a você.",
+      "Pressione Iniciar, respire naturalmente e deixe o som guiar você rumo a uma versão melhor de si mesmo."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "intro": {
+    "h2": "¿Qué es Vuko?",
+    "p": [
+      "Vuko es una app web de sonidos binaurales gratuita y de código abierto que funciona directamente en tu navegador: sin instalaciones, sin cuentas y sin anuncios. Ponte los auriculares, elige cómo quieres sentirte y Vuko genera al instante las frecuencias precisas de doble tono que guían suavemente tu cerebro hacia la concentración, la meditación, la relajación o el sueño profundo.",
+      "Lo que diferencia a Vuko es que no se limita a reproducir una pista fija. Si permites el acceso al micrófono, Vuko escucha tu respiración en tiempo real y adapta los sonidos a tu estado real: un circuito de retroalimentación cerrado entre tu cuerpo y el sonido. No encontramos ninguna otra herramienta que combine sonidos binaurales con monitorización de la respiración en vivo dentro del navegador, y ese es precisamente el vacío que Vuko viene a llenar."
+    ]
+  },
+  "how": {
+    "h2": "Cómo funciona Vuko",
+    "p": "Vuko combina dos sistemas que normalmente viven en apps separadas: un motor de sonidos binaurales y un monitor de respiración en tiempo real que dialogan entre sí mientras escuchas.",
+    "binaural": {
+      "h3": "1. Motor de sonidos binaurales",
+      "p": "Cuando tu oído izquierdo y tu oído derecho perciben dos frecuencias ligeramente distintas —por ejemplo, 200 Hz y 210 Hz—, tu cerebro percibe un tercer «latido» en la diferencia (10 Hz). Ese latido fantasma puede animar a tus ondas cerebrales a asentarse cerca de ese ritmo, un proceso conocido como sincronización cerebral (entrainment). Como el efecto depende de que cada oído reciba su propio canal, se necesitan auriculares estéreo. Vuko genera estos tonos en vivo con la Web Audio API, de modo que el sonido se produce en tu dispositivo en lugar de transmitirse por streaming."
+    },
+    "breath": {
+      "h3": "2. Monitorización de la respiración en tiempo real",
+      "p": "Con tu permiso, Vuko utiliza el micrófono para detectar el suave sonido de tu respiración, mide tu ritmo respiratorio y ajusta la frecuencia del latido para adaptarse a donde estás ahora mismo: ralentizando el ritmo a medida que te relajas y llevándote más profundamente hacia el estado deseado. El audio se analiza por completo en tu dispositivo y nunca sale de tu navegador. Si lo prefieres, puedes prescindir del micrófono y simplemente elegir un preajuste."
+    }
+  },
+  "modes": {
+    "h2": "Seis estados guiados",
+    "p": "Elige el estado que quieres y Vuko ajusta la frecuencia del latido a la banda de ondas cerebrales correspondiente. Cada preajuste apunta a un rango de frecuencia bien conocido:",
+    "cols": { "mode": "Modo", "freq": "Frecuencia del latido", "wave": "Banda de ondas cerebrales", "use": "Ideal para" },
+    "rows": [
+      { "mode": "Concentración", "freq": "10 Hz", "wave": "Alpha", "use": "Trabajo, estudio y concentración" },
+      { "mode": "Meditación", "freq": "7 Hz", "wave": "Theta", "use": "Relajación profunda y atención plena" },
+      { "mode": "Resonancia Schumann", "freq": "7.83 Hz", "wave": "Theta", "use": "Conexión a tierra y equilibrio" },
+      { "mode": "Sueño", "freq": "3 Hz", "wave": "Delta", "use": "Conciliar el sueño más rápido" },
+      { "mode": "Energía", "freq": "15 Hz", "wave": "Beta", "use": "Estado de alerta y vitalidad" },
+      { "mode": "Inspiración", "freq": "40 Hz", "wave": "Gamma", "use": "Pensamiento creativo" }
+    ]
+  },
+  "privacy": {
+    "h2": "Privacidad por diseño, gratis para siempre",
+    "p": [
+      "Vuko no tiene ningún servidor backend que almacene tus datos. Toda la generación de sonido y el análisis de la respiración ocurren localmente en tu navegador, por lo que el audio de tu micrófono nunca se sube, ni se graba, ni se comparte. No hay nada que registrar ni nada que pagar.",
+      "Todo el proyecto es de código abierto en GitHub: puedes leer exactamente cómo funciona, verificar sus promesas de privacidad y contribuir. Es gratis hoy y está hecho para seguir siéndolo."
+    ]
+  },
+  "usage": {
+    "h2": "Cómo usar Vuko",
+    "steps": [
+      "Ponte auriculares estéreo: los sonidos binaurales solo funcionan cuando cada oído recibe su propio canal.",
+      "Elige un modo como Concentración, Meditación o Sueño, o añade música de fondo desde la biblioteca integrada.",
+      "Si quieres, permite el acceso al micrófono para que Vuko pueda monitorizar tu respiración y adaptar los sonidos a ti.",
+      "Pulsa Iniciar, respira con naturalidad y deja que el sonido te guíe hacia una mejor versión de ti."
+    ]
+  }
+}

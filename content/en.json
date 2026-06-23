@@ -1,0 +1,50 @@
+{
+  "intro": {
+    "h2": "What is Vuko?",
+    "p": [
+      "Vuko is a free, open-source binaural beats web app that you run directly in your browser — nothing to install, no account, no ads. Put on headphones, choose how you want to feel, and Vuko generates the precise dual-tone frequencies that gently guide your brain toward focus, meditation, relaxation, or deep sleep.",
+      "What makes Vuko different is that it does not just play a fixed track. If you allow microphone access, Vuko listens to your breathing in real time and adapts the beats to your actual state — a closed feedback loop between your body and the sound. We could not find another tool that combines binaural beats with live breath monitoring in the browser, which is exactly the gap Vuko fills."
+    ]
+  },
+  "how": {
+    "h2": "How Vuko works",
+    "p": "Vuko combines two systems that usually live in separate apps: a binaural beat engine and a real-time breath monitor that talk to each other while you listen.",
+    "binaural": {
+      "h3": "1. Binaural beat engine",
+      "p": "When your left and right ears hear two slightly different frequencies — say 200 Hz and 210 Hz — your brain perceives a third \"beat\" at the difference (10 Hz). This phantom beat can encourage your brainwaves to settle near that rhythm, a process often called entrainment. Because the effect depends on each ear hearing its own channel, stereo headphones are required. Vuko renders these tones live with the Web Audio API, so the sound is generated on your device rather than streamed."
+    },
+    "breath": {
+      "h3": "2. Real-time breath monitoring",
+      "p": "With your permission, Vuko uses the microphone to detect the soft sound of your breathing, measures your breathing rate, and adjusts the beat frequency to match where you are right now — slowing things down as you relax, easing you deeper toward the target state. The audio is analysed entirely on your device and never leaves your browser. If you prefer, you can skip the microphone and simply choose a preset."
+    }
+  },
+  "modes": {
+    "h2": "Six guided states",
+    "p": "Pick the state you want and Vuko tunes the beat frequency to the matching brainwave band. Each preset targets a well-known frequency range:",
+    "cols": { "mode": "Mode", "freq": "Beat frequency", "wave": "Brainwave band", "use": "Best for" },
+    "rows": [
+      { "mode": "Focus", "freq": "10 Hz", "wave": "Alpha", "use": "Work, study and concentration" },
+      { "mode": "Meditation", "freq": "7 Hz", "wave": "Theta", "use": "Deep relaxation and mindfulness" },
+      { "mode": "Schumann resonance", "freq": "7.83 Hz", "wave": "Theta", "use": "Grounding and balance" },
+      { "mode": "Sleep", "freq": "3 Hz", "wave": "Delta", "use": "Falling asleep faster" },
+      { "mode": "Refresh", "freq": "15 Hz", "wave": "Beta", "use": "Alertness and energy" },
+      { "mode": "Inspiration", "freq": "40 Hz", "wave": "Gamma", "use": "Creative thinking" }
+    ]
+  },
+  "privacy": {
+    "h2": "Private by design, free forever",
+    "p": [
+      "Vuko has no backend server that stores your data. All sound generation and breath analysis happen locally in your browser, so your microphone audio is never uploaded, recorded, or shared. There is nothing to sign up for and nothing to pay.",
+      "The entire project is open source on GitHub — you can read exactly how it works, verify the privacy claims, and contribute. It is free to use today and built to stay that way."
+    ]
+  },
+  "usage": {
+    "h2": "How to use Vuko",
+    "steps": [
+      "Put on stereo headphones — binaural beats only work when each ear hears its own channel.",
+      "Choose a mode such as Focus, Meditation, or Sleep, or add background music from the built-in library.",
+      "Optionally allow microphone access so Vuko can monitor your breathing and adapt the beats to you.",
+      "Press Start, breathe naturally, and let the sound guide you toward a better you."
+    ]
+  }
+}

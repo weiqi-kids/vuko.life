@@ -1,0 +1,50 @@
+{
+  "intro": {
+    "h2": "Vuko nedir?",
+    "p": [
+      "Vuko, doğrudan tarayıcınızda çalışan ücretsiz ve açık kaynaklı bir binaural beats web uygulamasıdır — kurulum yok, hesap yok, reklam yok. Kulaklığınızı takın, nasıl hissetmek istediğinizi seçin; Vuko, beyninizi yavaşça odaklanmaya, meditasyona, rahatlamaya veya derin uykuya yönlendiren hassas çift tonlu frekansları üretsin.",
+      "Vuko'yu farklı kılan şey, yalnızca sabit bir parça çalmamasıdır. Mikrofon erişimine izin verirseniz Vuko nefesinizi gerçek zamanlı olarak dinler ve vuruşları o anki durumunuza uyarlar — bedeniniz ile ses arasında kapalı bir geri besleme döngüsü oluşturur. Binaural beats ile canlı nefes takibini tarayıcıda birleştiren başka bir araç bulamadık; Vuko işte tam da bu boşluğu dolduruyor."
+    ]
+  },
+  "how": {
+    "h2": "Vuko nasıl çalışır",
+    "p": "Vuko, genellikle ayrı uygulamalarda bulunan iki sistemi bir araya getirir: bir binaural beat motoru ve siz dinlerken bu motorla iletişim kuran gerçek zamanlı bir nefes monitörü.",
+    "binaural": {
+      "h3": "1. Binaural beat motoru",
+      "p": "Sol ve sağ kulağınız birbirinden hafifçe farklı iki frekans duyduğunda — örneğin 200 Hz ve 210 Hz — beyniniz aradaki farkta (10 Hz) üçüncü bir \"vuruş\" algılar. Bu hayalet vuruş, beyin dalgalarınızı o ritme yakınlaşmaya teşvik edebilir; bu sürece genellikle senkronizasyon (entrainment) denir. Etki, her kulağın kendi kanalını duymasına bağlı olduğundan stereo kulaklık şarttır. Vuko bu tonları Web Audio API ile canlı olarak oluşturur, böylece ses akış yoluyla gelmek yerine cihazınızda üretilir."
+    },
+    "breath": {
+      "h3": "2. Gerçek zamanlı nefes takibi",
+      "p": "İzninizle Vuko, mikrofonu kullanarak nefesinizin yumuşak sesini algılar, nefes alma hızınızı ölçer ve vuruş frekansını şu an bulunduğunuz yere göre ayarlar — rahatladıkça ritmi yavaşlatır ve sizi hedef duruma doğru daha derine taşır. Ses tamamen cihazınızda işlenir ve tarayıcınızdan asla çıkmaz. Dilerseniz mikrofonu atlayıp yalnızca bir hazır ayar seçebilirsiniz."
+    }
+  },
+  "modes": {
+    "h2": "Altı rehberli durum",
+    "p": "İstediğiniz durumu seçin; Vuko vuruş frekansını ona uygun beyin dalgası bandına göre ayarlasın. Her hazır ayar, iyi bilinen bir frekans aralığını hedefler:",
+    "cols": { "mode": "Mod", "freq": "Vuruş frekansı", "wave": "Beyin dalgası bandı", "use": "En uygun" },
+    "rows": [
+      { "mode": "Odaklanma", "freq": "10 Hz", "wave": "Alpha", "use": "Çalışma, ders ve konsantrasyon" },
+      { "mode": "Meditasyon", "freq": "7 Hz", "wave": "Theta", "use": "Derin rahatlama ve farkındalık" },
+      { "mode": "Schumann rezonansı", "freq": "7.83 Hz", "wave": "Theta", "use": "Topraklanma ve denge" },
+      { "mode": "Uyku", "freq": "3 Hz", "wave": "Delta", "use": "Daha hızlı uykuya dalma" },
+      { "mode": "Canlanma", "freq": "15 Hz", "wave": "Beta", "use": "Uyanıklık ve enerji" },
+      { "mode": "İlham", "freq": "40 Hz", "wave": "Gamma", "use": "Yaratıcı düşünme" }
+    ]
+  },
+  "privacy": {
+    "h2": "Tasarımı gereği gizli, sonsuza dek ücretsiz",
+    "p": [
+      "Vuko'nun verilerinizi saklayan hiçbir arka uç sunucusu yoktur. Tüm ses üretimi ve nefes analizi tarayıcınızda yerel olarak gerçekleşir; bu nedenle mikrofon sesiniz asla karşıya yüklenmez, kaydedilmez veya paylaşılmaz. Kaydolacağınız bir şey yok, ödeyeceğiniz bir ücret yok.",
+      "Projenin tamamı GitHub'da açık kaynaktır — nasıl çalıştığını birebir okuyabilir, gizlilik vaatlerini doğrulayabilir ve katkıda bulunabilirsiniz. Bugün ücretsiz kullanılabiliyor ve öyle kalacak şekilde tasarlandı."
+    ]
+  },
+  "usage": {
+    "h2": "Vuko nasıl kullanılır",
+    "steps": [
+      "Stereo kulaklık takın — binaural beats yalnızca her kulak kendi kanalını duyduğunda çalışır.",
+      "Odaklanma, Meditasyon veya Uyku gibi bir mod seçin ya da yerleşik kütüphaneden fon müziği ekleyin.",
+      "İsteğe bağlı olarak mikrofon erişimine izin verin; böylece Vuko nefesinizi izleyip vuruşları size göre uyarlayabilir.",
+      "Başlat'a basın, doğal nefes alın ve sesin sizi daha iyi bir benliğe yönlendirmesine izin verin."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "intro": {
+    "h2": "Vuko ni nini?",
+    "p": [
+      "Vuko ni programu-tovuti ya bure na ya chanzo huria ya binaural beats inayofanya kazi moja kwa moja kwenye kivinjari chako — bila kusakinisha, bila akaunti, bila matangazo. Vaa vipokea-sauti, chagua jinsi unavyotaka kujihisi, na Vuko hutengeneza masafa sahihi ya toni mbili yanayouongoza ubongo wako kwa upole hadi umakini, tafakari, kupumzika, au usingizi wa kina.",
+      "Kinachoifanya Vuko kuwa tofauti ni kwamba haichezi tu wimbo uliowekwa kabisa. Ukiruhusu matumizi ya maikrofoni, Vuko husikiliza mpumuo wako kwa wakati halisi na kurekebisha midundo kulingana na hali yako halisi — mzunguko wa mrejesho uliofungwa kati ya mwili wako na sauti. Hatukuweza kupata kifaa kingine kinachounganisha binaural beats na ufuatiliaji wa mpumuo wa moja kwa moja ndani ya kivinjari, na hilo ndilo pengo halisi ambalo Vuko hujaza."
+    ]
+  },
+  "how": {
+    "h2": "Jinsi Vuko inavyofanya kazi",
+    "p": "Vuko huunganisha mifumo miwili ambayo kwa kawaida hupatikana katika programu tofauti: injini ya binaural beat na kifuatiliaji cha mpumuo cha wakati halisi vinavyoshirikiana wakati unasikiliza.",
+    "binaural": {
+      "h3": "1. Injini ya binaural beat",
+      "p": "Sikio lako la kushoto na la kulia yanaposikia masafa mawili yanayotofautiana kidogo — kwa mfano 200 Hz na 210 Hz — ubongo wako huhisi \"mdundo\" wa tatu kwenye tofauti yake (10 Hz). Mdundo huu wa kificho unaweza kuhamasisha mawimbi ya ubongo wako kutulia karibu na mpigo huo, mchakato unaoitwa mara nyingi entrainment. Kwa kuwa athari hii hutegemea kila sikio kusikia chaneli yake yenyewe, vipokea-sauti vya stereo vinahitajika. Vuko hutengeneza toni hizi moja kwa moja kwa kutumia Web Audio API, hivyo sauti huzalishwa kwenye kifaa chako badala ya kutiririshwa."
+    },
+    "breath": {
+      "h3": "2. Ufuatiliaji wa mpumuo wa wakati halisi",
+      "p": "Kwa ruhusa yako, Vuko hutumia maikrofoni kutambua sauti laini ya mpumuo wako, kupima kasi ya kupumua kwako, na kurekebisha masafa ya mdundo kulingana na ulipo sasa hivi — ikipunguza kasi unapotulia, ikikuongoza kwa kina zaidi kuelekea hali unayolenga. Sauti huchanganuliwa kabisa kwenye kifaa chako na kamwe haitoki kwenye kivinjari chako. Ukipenda, unaweza kuruka maikrofoni na kuchagua tu mpangilio uliotayarishwa."
+    }
+  },
+  "modes": {
+    "h2": "Hali sita zinazoongozwa",
+    "p": "Chagua hali unayotaka na Vuko hupanga masafa ya mdundo kulingana na kundi husika la mawimbi ya ubongo. Kila mpangilio uliotayarishwa hulenga safu ya masafa inayofahamika vyema:",
+    "cols": { "mode": "Hali", "freq": "Masafa ya mdundo", "wave": "Kundi la mawimbi ya ubongo", "use": "Inafaa zaidi kwa" },
+    "rows": [
+      { "mode": "Umakini", "freq": "10 Hz", "wave": "Alpha", "use": "Kazi, kusoma na kuzingatia" },
+      { "mode": "Tafakari", "freq": "7 Hz", "wave": "Theta", "use": "Kupumzika kwa kina na utulivu wa akili" },
+      { "mode": "Mlio wa Schumann", "freq": "7.83 Hz", "wave": "Theta", "use": "Kujituliza na uwiano" },
+      { "mode": "Usingizi", "freq": "3 Hz", "wave": "Delta", "use": "Kulala haraka zaidi" },
+      { "mode": "Kuburudika", "freq": "15 Hz", "wave": "Beta", "use": "Uangalifu na nguvu" },
+      { "mode": "Msukumo", "freq": "40 Hz", "wave": "Gamma", "use": "Fikra za ubunifu" }
+    ]
+  },
+  "privacy": {
+    "h2": "Faragha kwa muundo, bure milele",
+    "p": [
+      "Vuko haina seva ya nyuma inayohifadhi data yako. Uzalishaji wote wa sauti na uchanganuzi wa mpumuo hufanyika ndani ya kivinjari chako, hivyo sauti ya maikrofoni yako kamwe haipakiwi, hairekodiwi, wala haishirikiwi. Hakuna kitu cha kujisajili wala cha kulipia.",
+      "Mradi mzima ni wa chanzo huria kwenye GitHub — unaweza kusoma hasa jinsi unavyofanya kazi, kuthibitisha ahadi za faragha, na kuchangia. Ni wa bure kutumika leo na umejengwa kubaki hivyo."
+    ]
+  },
+  "usage": {
+    "h2": "Jinsi ya kutumia Vuko",
+    "steps": [
+      "Vaa vipokea-sauti vya stereo — binaural beats hufanya kazi tu pale kila sikio linaposikia chaneli yake yenyewe.",
+      "Chagua hali kama vile Umakini, Tafakari, au Usingizi, au ongeza muziki wa mandharinyuma kutoka maktaba iliyojengwa ndani.",
+      "Kwa hiari, ruhusu matumizi ya maikrofoni ili Vuko iweze kufuatilia mpumuo wako na kurekebisha midundo kulingana nawe.",
+      "Bonyeza Anza, pumua kwa kawaida, na uache sauti ikuongoze kuelekea nafsi bora zaidi."
+    ]
+  }
+}
