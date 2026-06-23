@@ -407,7 +407,7 @@
       "acústico",
       "Relajación"
     ],
-    "desc": "Principalmente guitarra suave, acompañada de un fondo sonoro ligero, adecuado para relajarse y concentrarse.",
+    "desc": "Principalmente guitarra suave, complementada con almohadillas sonoras suaves, adecuada para relajarse y concentrarse.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan y tambor de lengua de acero",
+    "title": "Tambor espiritual de mano",
     "tag": [
-      "Handpan",
-      "Tambor de lengua de acero",
+      "Tambor de mano",
+      "Tambor espiritual",
       "handpan",
-      "tambor de lengua de acero",
-      "Relajación"
+      "tambor de lengüeta de acero",
+      "relajación"
     ],
-    "desc": "Melodía principal de handpan y tambor de lengua de acero, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
+    "desc": "Melodía principal de tambor de mano y tambor espiritual, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2393,8 +2393,8 @@
     "tag": [
       "Madera",
       "madera",
-      "Naturaleza",
-      "Vitalidad",
+      "naturaleza",
+      "vitalidad",
       "bosque"
     ],
     "desc": "Inspirado en el elemento madera, combina el sonido del viento entre los árboles y los sonidos naturales de la madera, mostrando vitalidad.",
@@ -3189,11 +3189,11 @@
     "tag": [
       "Agua",
       "agua",
-      "Fluir",
+      "Fluir del agua",
       "Fluir",
       "Frescura"
     ],
-    "desc": "Con el flujo de agua y el sonido del arroyo como tema principal, presenta un estado de ánimo fresco y fluido.",
+    "desc": "Con el flujo del agua y el sonido del arroyo como tema principal, presenta un estado de ánimo fresco y fluido.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodía principal de sonidos ambientales",
     "tag": [
-      "sonidos ambientales",
+      "Sonidos ambientales",
       "sonidos de la naturaleza",
       "sonido ambiental",
       "naturaleza pura",
       "ambiente"
     ],
-    "desc": "Paisaje sonoro de ambiente natural puro, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
+    "desc": "Paisaje sonoro de ambiente natural puro, sin instrumentos ni voces, adecuado para meditación, relajación y sanación natural.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuición"
     ],
-    "desc": "Paisaje sonoro de meditación del tercer ojo, enfatiza la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
+    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatizando la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5581,7 +5581,7 @@
       "chakra",
       "Libertad"
     ],
-    "desc": "Paisaje sonoro temático del chakra de la garganta, crea un espacio para el flujo de energía suave y la expresión libre.",
+    "desc": "Paisaje sonoro temático del chakra de la garganta, creando un espacio para el flujo de energía suave y la expresión libre.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -7563,7 +7563,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flauta y Xiao",
+    "title": "Flauta y xiao",
     "tag": [
       "Flauta",
       "Xiao",
@@ -8367,7 +8367,7 @@
       "chakra",
       "luz"
     ],
-    "desc": "Paisaje sonoro temático del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
+    "desc": "Paisaje sonoro del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8765,7 +8765,7 @@
       "Etéreo",
       "ambiental"
     ],
-    "desc": "Un paisaje sonoro etéreo dominado por el sonido del viento, fluido y distante, ideal para relajarse, meditar y concentrarse.",
+    "desc": "Un paisaje sonoro etéreo dominado por el sonido del viento, fluido y distante, adecuado para relajarse, meditar y concentrarse.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,
@@ -9163,7 +9163,7 @@
       "Sanador",
       "relajante"
     ],
-    "desc": "Un paisaje sonoro suave adornado con el sonido nítido de campanillas de viento, etéreo y sanador, ideal para relajarse y aliviarse antes de dormir.",
+    "desc": "Un paisaje sonoro suave adornado con el sonido nítido de campanillas de viento, etéreo y sanador, adecuado para relajarse y aliviarse antes de dormir.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

@@ -4,7 +4,7 @@
     "title": "chuông xoay",
     "tag": [
       "chuông xoay",
-      "chuông hát",
+      "chuông xoay",
       "thiền",
       "thiền",
       "chữa lành"
@@ -1601,7 +1601,7 @@
       "hòa bình",
       "Tự nhiên"
     ],
-    "desc": "Mô phỏng sự yên tĩnh và rộng lớn của núi, sử dụng âm thanh môi trường tự nhiên để tạo ra sự bình yên trong tâm hồn.",
+    "desc": "Mô phỏng sự yên tĩnh và rộng lớn trong núi, sử dụng âm thanh môi trường tự nhiên để tạo ra sự bình yên trong tâm hồn.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -2791,11 +2791,11 @@
     "tag": [
       "Rừng",
       "rừng",
-      "Tiếng chim",
+      "Tiếng chim hót",
       "Thiên nhiên",
       "Ổn định"
     ],
-    "desc": "Âm cảnh rừng, tiếng chim và tiếng lá xào xạc, tạo ra bầu không khí thiên nhiên ổn định.",
+    "desc": "Âm cảnh rừng, tiếng chim hót và tiếng lá xào xạc, tạo ra bầu không khí thiên nhiên ổn định.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3984,12 +3984,12 @@
     "title": "Lửa",
     "tag": [
       "Lửa",
-      "lửa",
+      "fire",
       "năng lượng",
       "nhiệt huyết",
       "nguyên tố"
     ],
-    "desc": "Chủ đề nguyên tố lửa, kết hợp âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
+    "desc": "Lấy nguyên tố lửa làm chủ đề, kết hợp với các hiệu ứng âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Giai điệu chính âm thanh môi trường",
+    "title": "Giai điệu chính của âm thanh môi trường",
     "tag": [
-      "Âm thanh môi trường",
-      "âm thanh thiên nhiên",
+      "âm thanh môi trường",
+      "nature sounds",
       "âm thanh môi trường",
       "thuần tự nhiên",
-      "môi trường"
+      "ambient"
     ],
-    "desc": "Cảnh âm thanh môi trường thuần tự nhiên, không có nhạc cụ hay giọng hát, phù hợp cho thiền định, thư giãn và chữa lành tự nhiên.",
+    "desc": "Cảnh âm thanh môi trường thuần tự nhiên, không có bất kỳ nhạc cụ hay giọng hát nào, phù hợp cho thiền định, thư giãn và chữa lành tự nhiên.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4780,12 +4780,12 @@
     "title": "Luân xa con mắt thứ ba",
     "tag": [
       "Luân xa con mắt thứ ba",
-      "luân xa con mắt thứ ba",
+      "third eye chakra",
       "Tâm linh",
       "chakra",
       "Trực giác"
     ],
-    "desc": "Cảnh âm thiền định luân xa mắt thứ ba, nhấn mạnh sự mở ra của tâm linh và trực giác, phù hợp cho sự nhận thức sâu sắc.",
+    "desc": "Cảnh âm thiền định luân xa mắt, nhấn mạnh sự mở ra của tâm linh và trực giác, phù hợp cho nhận thức sâu sắc.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Trống tần số thấp shaman",
+    "title": "Trống tần số thấp Shaman",
     "tag": [
-      "Trống shaman",
+      "Trống Shaman",
       "Trống tần số thấp",
-      "trống shaman",
+      "trống shamanic",
       "trống khung",
-      "Nối đất"
+      "nối đất"
     ],
-    "desc": "Nhịp điệu ổn định của trống tần số thấp shaman, hỗ trợ đi vào thiền định sâu và cảm nhận cơ thể.",
+    "desc": "Nhịp điệu ổn định của trống tần số thấp Shaman, hỗ trợ vào thiền định sâu và cảm nhận cơ thể.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -5573,15 +5573,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "Luân xa cổ họng",
+    "title": "Luân xa họng",
     "tag": [
-      "Luân xa cổ họng",
-      "luân xa cổ họng",
+      "Luân xa họng",
+      "luân xa họng",
       "Giao tiếp",
       "chakra",
       "Tự do"
     ],
-    "desc": "Cảnh âm chủ đề luân xa cổ họng, tạo không gian cho dòng năng lượng thông suốt và biểu đạt tự do.",
+    "desc": "Cảnh âm chủ đề luân xa họng, tạo không gian cho dòng năng lượng thông suốt và biểu đạt tự do.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -6373,11 +6373,11 @@
     "tag": [
       "Kim",
       "kim loại",
-      "thuần khiết",
+      "tinh khiết",
       "trong trẻo",
       "sự rõ ràng"
     ],
-    "desc": "Chủ đề nguyên tố kim, âm sắc trong trẻo sáng sủa, tạo ra không gian thuần khiết và thanh thoát.",
+    "desc": "Chủ đề nguyên tố kim, âm sắc trong trẻo sáng sủa, tạo ra không gian tinh khiết và huyền ảo.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Sáo trúc và sáo dọc",
+    "title": "Sáo trúc và sáo động",
     "tag": [
       "Sáo trúc",
-      "Sáo dọc",
-      "sáo trúc",
-      "sáo dọc",
+      "Sáo động",
+      "sáo",
+      "sáo động",
       "Lưu động"
     ],
-    "desc": "Giai điệu chính của sáo trúc và sáo dọc, lưu động xa xăm, tạo nên tâm trạng hư không sâu xa.",
+    "desc": "Giai điệu chính của sáo trúc và sáo động, lưu động xa xăm, tạo nên tâm trạng hư không sâu xa.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -8765,7 +8765,7 @@
       "Không linh",
       "ambient"
     ],
-    "desc": "Âm cảnh không linh chủ yếu là tiếng gió, trôi chảy xa xăm, thích hợp để thư giãn, thiền định và tập trung.",
+    "desc": "Âm cảnh không linh chủ yếu là tiếng gió, trôi chảy và xa xăm, thích hợp để thư giãn, thiền định và tập trung.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,
@@ -9163,7 +9163,7 @@
       "Chữa lành",
       "Thư giãn"
     ],
-    "desc": "Âm cảnh nhẹ nhàng được điểm xuyết bởi tiếng chuông gió trong trẻo, không linh chữa lành, thích hợp để thư giãn và làm dịu trước khi ngủ.",
+    "desc": "Âm cảnh nhẹ nhàng được điểm xuyết bởi tiếng chuông gió trong trẻo, không linh và chữa lành, thích hợp để thư giãn và xoa dịu trước khi ngủ.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,
