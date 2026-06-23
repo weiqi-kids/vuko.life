@@ -22,6 +22,24 @@ APP_DIR = ROOT / "app"
 START = "<!-- seo-content:start -->"
 END = "<!-- seo-content:end -->"
 
+# Static, crawlable language links injected into every page's footer so Google
+# can discover all language versions via <a> links (hreflang alone doesn't
+# guarantee crawling). English canonical lives at the site root "/".
+LN_START = "<!-- lang-nav:start -->"
+LN_END = "<!-- lang-nav:end -->"
+LANG_LINKS = [
+    ("/", "English"), ("/app/zh-tw.html", "繁體中文"), ("/app/zh-hk.html", "繁體中文(香港)"),
+    ("/app/zh-cn.html", "简体中文"), ("/app/ja.html", "日本語"), ("/app/ko.html", "한국어"),
+    ("/app/es.html", "Español"), ("/app/pt.html", "Português"), ("/app/fr-fr.html", "Français"),
+    ("/app/fr-ca.html", "Français(CA)"), ("/app/fr-be.html", "Français(BE)"), ("/app/de-de.html", "Deutsch"),
+    ("/app/de-at.html", "Deutsch(AT)"), ("/app/de-ch.html", "Deutsch(CH)"), ("/app/ru.html", "Русский"),
+    ("/app/uk.html", "Українська"), ("/app/pl.html", "Polski"), ("/app/tr.html", "Türkçe"),
+    ("/app/vi.html", "Tiếng Việt"), ("/app/th.html", "ไทย"), ("/app/id.html", "Indonesia"),
+    ("/app/ms.html", "Melayu"), ("/app/hi.html", "हिन्दी"), ("/app/bn.html", "বাংলা"),
+    ("/app/ta.html", "தமிழ்"), ("/app/pa.html", "ਪੰਜਾਬੀ"), ("/app/my.html", "မြန်မာ"),
+    ("/app/ar.html", "العربية"), ("/app/he.html", "עברית"), ("/app/sw.html", "Kiswahili"),
+]
+
 
 def esc(s: str) -> str:
     return html.escape(str(s), quote=False)
@@ -82,6 +100,24 @@ def render(c: dict) -> str:
     return "\n".join(out)
 
 
+def render_lang_nav() -> str:
+    items = "".join(f'<a href="{h}">{esc(n)}</a>' for h, n in LANG_LINKS)
+    return f'<nav class="lang-footer" aria-label="Choose your language">{items}</nav>'
+
+
+def put_block(doc: str, start: str, end: str, body: str, anchors) -> str:
+    """Idempotently place start+body+end in doc: replace between existing
+    markers, otherwise insert before the first matching anchor."""
+    block = f"{start}\n{body}\n{end}"
+    if start in doc and end in doc:
+        return doc[: doc.index(start)] + block + doc[doc.index(end) + len(end):]
+    for a in anchors:
+        if a in doc:
+            i = doc.index(a)
+            return doc[:i] + block + "\n    " + doc[i:]
+    raise RuntimeError(f"no insertion anchor among {anchors}")
+
+
 def inject_file(cfile, hfile, label) -> bool:
     if not cfile.exists():
         print(f"skip {label}: no {cfile}")
@@ -91,24 +127,12 @@ def inject_file(cfile, hfile, label) -> bool:
         return False
 
     content = json.loads(cfile.read_text(encoding="utf-8"))
-    block = f"{START}\n{render(content)}\n{END}"
     doc = hfile.read_text(encoding="utf-8")
-
-    if START in doc and END in doc:
-        pre = doc[: doc.index(START)]
-        post = doc[doc.index(END) + len(END):]
-        doc = pre + block + post
-    else:
-        # Insert before the FAQ section (falling back to the footer) so the
-        # reading order is: app UI -> SEO content -> FAQ -> footer.
-        for marker in ('<div class="faq-section">', '<div class="footer">'):
-            if marker in doc:
-                insert_at = doc.index(marker)
-                doc = doc[:insert_at] + block + "\n    " + doc[insert_at:]
-                break
-        else:
-            raise RuntimeError(f"{lang}: no insertion anchor found")
-
+    # SEO long-form before the FAQ; crawlable language nav before the footer.
+    doc = put_block(doc, START, END, render(content),
+                    ('<div class="faq-section">', '<div class="footer">'))
+    doc = put_block(doc, LN_START, LN_END, render_lang_nav(),
+                    ('<div class="footer">',))
     hfile.write_text(doc, encoding="utf-8")
     print(f"injected {label}")
     return True

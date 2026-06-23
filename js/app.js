@@ -17,7 +17,8 @@
             // IPinfo 地理位置偵測設定
             IPINFO: {
                 API_TOKEN: '',               // IPinfo API Token (可留空使用免費額度)
-                ENABLE_AUTO_LANGUAGE: true,  // 是否啟用根據地理位置自動切換語言
+                ENABLE_AUTO_LANGUAGE: false, // 停用：改用 navigator.language（無外部 API、無隱私疑慮、即時）。
+                                             // 過去呼叫 ipinfo.io 約 25% 失敗 (language_detection_failed)，且各頁皆已硬設語言、首頁依瀏覽器語言轉址。
                 TIMEOUT: 5000               // API 請求超時時間 (毫秒)
             },
             
@@ -106,9 +107,9 @@
                     return;
                 }
 
-                // 如果未啟用自動語言偵測，使用預設語言
+                // 未啟用地理位置偵測：用瀏覽器語言（而非固定 fallback），不呼叫外部 API
                 if (!CONFIG.IPINFO.ENABLE_AUTO_LANGUAGE) {
-                    currentLanguage = CONFIG.FALLBACK_LANGUAGE;
+                    currentLanguage = getBrowserLanguage();
                     resolve(currentLanguage);
                     return;
                 }

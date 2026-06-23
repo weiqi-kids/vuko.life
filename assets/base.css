@@ -1296,3 +1296,50 @@
                 font-size: 0.85rem;
             }
         }
+
+        /* Non-intrusive tutorial trigger (replaces the old auto-popup modal) */
+        .onboarding-help-btn {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: none;
+            background: var(--container-bg);
+            color: var(--accent-color);
+            font-size: 1.3rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            z-index: 900;
+            transition: transform 0.2s ease;
+        }
+
+        .onboarding-help-btn:hover {
+            transform: scale(1.1);
+        }
+
+        /* Crawlable language links in the footer */
+        .lang-footer {
+            max-width: 800px;
+            margin: 24px auto 0;
+            padding: 16px 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px 14px;
+            border-top: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .lang-footer a {
+            color: rgba(255, 255, 255, 0.75);
+            text-decoration: none;
+            font-size: 0.82rem;
+            white-space: nowrap;
+        }
+
+        .lang-footer a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }

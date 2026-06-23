@@ -161,12 +161,18 @@ function createDemoIndicator() {
     }
 }
 
-// Show onboarding modal
+// Show onboarding modal (always starts from the first step)
 function showOnboarding() {
     let overlay = document.getElementById('onboardingOverlay');
     if (!overlay) {
         overlay = createOnboardingModal();
     }
+
+    // Reset to the first step so re-opening from the help button starts fresh
+    currentStep = 0;
+    const steps = overlay.querySelectorAll('.onboarding-step');
+    steps.forEach((s, i) => s.classList.toggle('active', i === 0));
+    updateDots();
 
     // Small delay for animation
     setTimeout(() => {
@@ -430,18 +436,28 @@ function stopDemoAudio() {
     }
 }
 
+// Create a small, non-intrusive floating button to (re)open the tutorial.
+function createHelpButton() {
+    if (document.getElementById('onboardingHelpBtn')) return;
+    const btn = document.createElement('button');
+    btn.id = 'onboardingHelpBtn';
+    btn.className = 'onboarding-help-btn';
+    btn.setAttribute('aria-label', 'How to use Vuko');
+    btn.textContent = '?';
+    btn.onclick = function () { showOnboarding(); };
+    document.body.appendChild(btn);
+}
+
 // Initialize onboarding on page load
 function initOnboarding() {
     // Create demo indicator (hidden by default)
     createDemoIndicator();
 
-    // Show onboarding for first-time users
-    if (!hasCompletedOnboarding()) {
-        // Small delay to let the page render first
-        setTimeout(() => {
-            showOnboarding();
-        }, 500);
-    }
+    // Non-blocking onboarding: the old auto-popup full-screen modal correlated
+    // with high bounce (onboarding_shown with almost no onboarding_completed,
+    // 6s avg engagement). First-time visitors now land directly on the working
+    // app + content; a floating "?" button lets anyone open the tutorial.
+    createHelpButton();
 }
 
 // Update onboarding content when language changes
@@ -464,6 +480,7 @@ function updateOnboardingContent() {
 
 // Export for global access
 window.initOnboarding = initOnboarding;
+window.createHelpButton = createHelpButton;
 window.showOnboarding = showOnboarding;
 window.hideOnboarding = hideOnboarding;
 window.nextOnboardingStep = nextOnboardingStep;
