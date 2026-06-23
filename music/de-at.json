@@ -407,7 +407,7 @@
       "akustisch",
       "Entspannung"
     ],
-    "desc": "Sanfte Gitarre im Vordergrund, begleitet von weichen Klangteppichen, geeignet für Entspannung und Konzentration.",
+    "desc": "Sanfte Gitarre im Vordergrund, begleitet von weichen Klängen, geeignet für Entspannung und Konzentration.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -805,7 +805,7 @@
       "Erde",
       "Erdung"
     ],
-    "desc": "Inspiriert von den Elementen der Erde, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
+    "desc": "Inspiriert von den Elementen der Erde, kombiniert es natürliche tiefe Frequenzen und Umgebungsgeräusche, um ein Gefühl von Stabilität und Ruhe zu betonen.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1198,7 +1198,7 @@
     "title": "Solarplexus-Chakra",
     "tag": [
       "Solarplexus-Chakra",
-      "solar plexus chakra",
+      "Solarplexus-Chakra",
       "Energie",
       "Chakra",
       "Selbstvertrauen"
@@ -5183,7 +5183,7 @@
       "Rahmentrommel",
       "Erdung"
     ],
-    "desc": "Niedrigfrequente Schamanentrommel mit stabilem Rhythmus, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
+    "desc": "Stabiler Rhythmus der Schamanentrommel mit niedriger Frequenz, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Nabelchakra",
+    "title": "Sakralchakra",
     "tag": [
-      "Nabelchakra",
-      "sakrales Chakra",
+      "Sakralchakra",
+      "Sakralchakra",
       "Emotionen",
       "Chakra",
       "Fluss"
     ],
-    "desc": "Nabelchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
+    "desc": "Sakralchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -6775,7 +6775,7 @@
       "Harmonie",
       "entspannend"
     ],
-    "desc": "Sanfte Klaviermelodie, begleitet von beruhigenden Klängen, vermittelt ein Gefühl von Frieden und Komfort.",
+    "desc": "Sanfte Klaviermelodie, begleitet von beruhigender Begleitung, vermittelt ein Gefühl von Frieden und Komfort.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7165,7 +7165,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Glockenspiel und Stimmgabel",
+    "title": "Glockenspiel-Stimmgabel",
     "tag": [
       "Glockenspiel",
       "Stimmgabel",
@@ -7571,7 +7571,7 @@
       "Xiao",
       "Fließen"
     ],
-    "desc": "Die Melodie von Flöte und Xiao fließt weit und schafft eine ätherische und tiefgründige Stimmung.",
+    "desc": "Flöte und Xiao als Hauptmelodie, die weit und fließend ist und eine ätherische und tiefgründige Stimmung schafft.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
@@ -7969,7 +7969,7 @@
       "Natur",
       "Energie"
     ],
-    "desc": "Donner- und Regengeräusche schaffen eine klangliche Umgebung voller Energie und Entspannung.",
+    "desc": "Donner- und Naturregengeräusche schaffen eine klangliche Umgebung voller Energie und Entspannung.",
     "embedding": [
       0.03458813577890396,
       0.027948737144470215,
@@ -8367,7 +8367,7 @@
       "Chakra",
       "Licht"
     ],
-    "desc": "Das Klangbild des Kronenchakras symbolisiert spirituelles Erwachen, spirituelles Wachstum und Licht.",
+    "desc": "Das Klangbild des Kronenchakras symbolisiert spirituelles Erwachen, geistiges Wachstum und Licht.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

@@ -1,7 +1,7 @@
 {
   "title": "Dengan suara, temui diri anda yang lebih baik",
   "subtitle": "🤖 Arahan Penggunaan",
-  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan menyesuaikan frekuensi binaural secara automatik untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
+  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan secara automatik menyesuaikan frekuensi binaural untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
   "seoKeywords": "Meditasi Binaural・Fokus・Tidur Mendalam・Panduan Pernafasan Masa Nyata",
   "instructions": {
     "headphones": "Sila gunakan <strong>fon kepala stereo</strong> untuk mencapai kesan frekuensi binaural dalam otak.",
@@ -80,7 +80,7 @@
     "items": [
       {
         "q": "Apakah itu frekuensi binaural?",
-        "a": "Frekuensi binaural adalah apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, ini boleh membantu membimbing gelombang otak memasuki keadaan tertentu."
+        "a": "Frekuensi binaural adalah apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang boleh membantu membimbing gelombang otak memasuki keadaan tertentu."
       },
       {
         "q": "Mengapa perlu menggunakan fon kepala?",

@@ -805,7 +805,7 @@
       "Erde",
       "Erdung"
     ],
-    "desc": "Inspiriert von Erdelementen, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
+    "desc": "Inspiriert von den Elementen der Erde, kombiniert es natürliche tiefe Frequenzen und Umgebungsgeräusche, um Stabilität und Ruhe zu betonen.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1198,10 +1198,10 @@
     "title": "Solarplexus-Chakra",
     "tag": [
       "Solarplexus-Chakra",
-      "solar plexus chakra",
+      "Solarplexus-Chakra",
       "Energie",
       "Chakra",
-      "Selbstvertrauen"
+      "Selbstbewusstsein"
     ],
     "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
     "embedding": [
@@ -1601,7 +1601,7 @@
       "Frieden",
       "Natur"
     ],
-    "desc": "Simuliert die Ruhe und Weite der Berge, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
+    "desc": "Simuliert die Ruhe und Weite in den Bergen, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1999,7 +1999,7 @@
       "steel tongue drum",
       "Entspannung"
     ],
-    "desc": "Hauptmelodie von Handpan und Steel Tongue Drum, eine runde und ätherische Melodie, geeignet für tiefgehende Meditation und Entspannung.",
+    "desc": "Die Hauptmelodie von Handpan und Steel Tongue Drum, eine runde und ätherische Melodie, geeignet für tiefgehende Meditation und Entspannung.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -3189,8 +3189,8 @@
     "tag": [
       "Wasser",
       "Wasser",
-      "fließendes Wasser",
-      "Fluss",
+      "Fließendes Wasser",
+      "Fließen",
       "Frische"
     ],
     "desc": "Mit Wasserfluss und Bachgeräuschen als Hauptthema wird eine frische und fließende Stimmung präsentiert.",
@@ -5183,7 +5183,7 @@
       "Rahmentrommel",
       "Erdung"
     ],
-    "desc": "Niedrigfrequente Schamanentrommel mit stabilem Rhythmus, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
+    "desc": "Stabiler Rhythmus der Schamanentrommel mit niedriger Frequenz, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -6369,10 +6369,10 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Metall",
+    "title": "Gold",
     "tag": [
+      "Gold",
       "Metall",
-      "metal",
       "Reinheit",
       "Klarheit",
       "clarity"
@@ -6771,7 +6771,7 @@
     "tag": [
       "Klavier",
       "piano",
-      "Sanft",
+      "Sanftheit",
       "Harmonie",
       "entspannend"
     ],
@@ -8367,7 +8367,7 @@
       "Chakra",
       "Licht"
     ],
-    "desc": "Das Klangthema des Kronenchakras symbolisiert spirituelles Erwachen, spirituelle Erhebung und Licht.",
+    "desc": "Das Klangbild des Kronenchakras symbolisiert spirituelles Erwachen, spirituelles Wachstum und Licht.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

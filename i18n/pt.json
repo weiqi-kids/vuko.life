@@ -1,27 +1,27 @@
 {
   "title": "Com a voz, encontre uma versão melhor de si mesmo",
-  "subtitle": "🤖 Instruções de uso",
-  "description": "O sistema monitorará seu estado de respiração em tempo real e ajustará automaticamente a frequência binaural para guiá-lo a diferentes estados de consciência:",
-  "seoKeywords": "Meditação com frequência binaural・Foco・Sono profundo・Guia de respiração em tempo real",
+  "subtitle": "🤖 Instruções de Uso",
+  "description": "O sistema monitorará seu estado respiratório em tempo real e ajustará automaticamente a frequência binaural para guiá-lo a diferentes estados de consciência:",
+  "seoKeywords": "Meditação Binaural・Foco・Sono Profundo・Guia de Respiração em Tempo Real",
   "instructions": {
     "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito da frequência binaural no cérebro.",
     "microphone": "Se você concordar em usar seu <strong>microfone</strong>, aproxime-o da boca e do nariz, tentaremos guiá-lo para um estado mais profundo."
   },
-  "volumeRatioDetail": "Frequência binaural {binaural}% / Som de fundo {background}%",
+  "volumeRatioDetail": "Frequência Binaural {binaural}% / Som de Fundo {background}%",
   "labels": {
-    "breathRate": "Taxa de respiração:",
-    "noiseLevel": "Ruído de fundo:",
-    "baseFreq": "Frequência da base:",
-    "audioFile": "Arquivo de som de fundo:",
-    "volumeRatio": "Proporção de volume:",
-    "breathVisual": "Visualização da respiração",
-    "realTimeData": "Dados em tempo real",
-    "systemConfig": "Configuração de frequência binaural",
-    "audioSearch": "🎵 Pesquisa de música de fundo",
+    "breathRate": "Taxa de Respiração:",
+    "noiseLevel": "Ruído de Fundo:",
+    "baseFreq": "Frequência Fundamental:",
+    "audioFile": "Arquivo de Som de Fundo:",
+    "volumeRatio": "Proporção de Volume:",
+    "breathVisual": "Visualização da Respiração",
+    "realTimeData": "Dados em Tempo Real",
+    "systemConfig": "Configuração de Frequência Binaural",
+    "audioSearch": "🎵 Busca de Música de Fundo",
     "searchPlaceholder": "Procurar música... (por exemplo: piano, mar, meditação)",
     "noResults": "Nenhuma música encontrada",
-    "currentMusic": "Seleção atual",
-    "deviceTest": "Teste de equipamento",
+    "currentMusic": "Seleção Atual",
+    "deviceTest": "Teste de Equipamento",
     "libraryTab": "Biblioteca de Áudio Online",
     "localFileTab": "Arquivo Local",
     "filePrivacyMsg": "Os arquivos de áudio são processados apenas localmente e não serão enviados."
@@ -57,7 +57,7 @@
     "monitor": "Monitoramento da respiração"
   },
   "binauralDescriptions": {
-    "專注": "Onda Alpha de 10Hz, ajuda a entrar em estado de concentração, adequada para trabalho e estudo",
+    "專注": "Onda Alpha de 10Hz, ajuda a entrar em estado de foco, adequada para trabalho e estudo",
     "冥想": "Onda Theta de 7Hz, guia para relaxamento profundo, adequada para meditação",
     "舒曼共振": "Frequência natural da Terra de 7.83Hz, equilibra a energia do corpo e da mente",
     "睡眠": "Onda Delta de 3Hz, ajuda a adormecer rapidamente",
@@ -80,7 +80,7 @@
     "items": [
       {
         "q": "O que é batimento binaural?",
-        "a": "Batimento binaural ocorre quando os ouvidos esquerdo e direito ouvem sons de frequências ligeiramente diferentes, o cérebro gera uma terceira 'frequência de batimento'. Por exemplo, ouvido esquerdo 200Hz, ouvido direito 210Hz, o cérebro percebe um batimento de 10Hz, o que pode ajudar a guiar as ondas cerebrais para um estado específico."
+        "a": "Batimento binaural ocorre quando os ouvidos esquerdo e direito ouvem sons de frequências ligeiramente diferentes, o cérebro gera uma terceira frequência chamada \"batimento\". Por exemplo, ouvido esquerdo 200Hz, ouvido direito 210Hz, o cérebro percebe um batimento de 10Hz, o que pode ajudar a guiar as ondas cerebrais para um estado específico."
       },
       {
         "q": "Por que é necessário usar fones de ouvido?",
@@ -88,11 +88,11 @@
       },
       {
         "q": "Como funciona o monitoramento da respiração?",
-        "a": "O sistema detecta o som da sua respiração através do microfone, analisa o ritmo respiratório e ajusta automaticamente a batida de acordo com seu estado, ajudando você a atingir o estado desejado mais rapidamente. Todo o áudio é processado localmente e não é enviado para nenhum servidor."
+        "a": "O sistema detecta o som da sua respiração através do microfone, analisa o ritmo respiratório e ajusta automaticamente a batida de acordo com o seu estado, ajudando você a atingir o estado desejado mais rapidamente. Todo o áudio é processado localmente e não é enviado para nenhum servidor."
       },
       {
         "q": "Esta ferramenta é realmente gratuita?",
-        "a": "Sim, o Vuko é totalmente gratuito e de código aberto. Não há custos ocultos, assinaturas ou anúncios. Você pode ver o código completo no GitHub."
+        "a": "Sim, o Vuko é completamente gratuito e de código aberto. Não há custos ocultos, assinaturas ou anúncios. Você pode ver o código completo no GitHub."
       },
       {
         "q": "Meus dados estão seguros?",

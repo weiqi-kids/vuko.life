@@ -407,7 +407,7 @@
       "acoustic",
       "Relaxation"
     ],
-    "desc": "Gentle guitar as the main focus, accompanied by soft sound pads, suitable for relaxation and concentration.",
+    "desc": "Gentle guitar as the main, accompanied by soft sound pads, suitable for relaxation and focus.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -2397,7 +2397,7 @@
       "Vitality",
       "forest"
     ],
-    "desc": "Inspired by the element of wood, combined with the sound of wind through the forest and natural tree sounds, showcasing vitality.",
+    "desc": "Inspired by the element of wood, combined with the sound of wind through the forest and the natural sound of trees, showcasing vitality.",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -4387,7 +4387,7 @@
       "Pure Nature",
       "ambient"
     ],
-    "desc": "A pure natural soundscape with no instruments or vocals, suitable for meditation, relaxation, and natural healing.",
+    "desc": "A pure natural soundscape without any instruments or vocals, suitable for meditation, relaxation, and natural healing.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -5975,9 +5975,9 @@
     "tag": [
       "Sacral Chakra",
       "sacral chakra",
-      "Emotion",
+      "emotion",
       "chakra",
-      "Flow"
+      "flow"
     ],
     "desc": "The soundscape of the sacral chakra symbolizes emotional flow, creativity, and pleasurable energy.",
     "embedding": [
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Metal",
+    "title": "Gold",
     "tag": [
-      "Metal",
+      "Gold",
       "metal",
-      "Purity",
-      "Clarity",
+      "purity",
+      "clarity",
       "clarity"
     ],
-    "desc": "The theme of the metal element, with clear and bright tones, creates a pure and ethereal atmosphere.",
+    "desc": "The theme of the metal element, with a clear and bright tone, creates a pure and ethereal atmosphere.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -6775,7 +6775,7 @@
       "Harmony",
       "Relaxing"
     ],
-    "desc": "Gentle piano melody, accompanied by soothing accompaniment, brings a peaceful and comfortable feeling.",
+    "desc": "A gentle piano melody, accompanied by soothing accompaniment, brings a peaceful and comfortable feeling.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,

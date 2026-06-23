@@ -7,7 +7,7 @@
     "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats in the brain.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
-  "volumeRatioDetail": "Binaural Beat {binaural}% / Background Sound {background}%",
+  "volumeRatioDetail": "Binaural Beats {binaural}% / Background Sound {background}%",
   "labels": {
     "breathRate": "Breathing Rate:",
     "noiseLevel": "Background Noise:",
@@ -76,23 +76,23 @@
     "line": "Share on LINE"
   },
   "faq": {
-    "title": "FAQ",
+    "title": "Frequently Asked Questions",
     "items": [
       {
         "q": "What is binaural beats?",
-        "a": "Binaural beats occur when slightly different frequencies are heard in each ear, creating a third 'beat frequency' in the brain. For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into specific states."
+        "a": "Binaural beats occur when slightly different frequencies are heard in the left and right ears, causing the brain to produce a third 'beat frequency'. For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into a specific state."
       },
       {
-        "q": "Why do I have to use headphones?",
-        "a": "The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can the separation of the left and right channels be ensured, allowing the brain to correctly produce the beat effect."
+        "q": "Why is it necessary to use headphones?",
+        "a": "The principle of binaural beats is to let the left and right ears hear different frequencies, and only by using headphones can the separation of the left and right channels be ensured, allowing the brain to correctly produce the beat effect."
       },
       {
-        "q": "How does breath monitoring work?",
+        "q": "How does breathing monitoring work?",
         "a": "The system detects your breathing sounds through a microphone, analyzes the breathing rhythm, and automatically adjusts the beats according to your state to help you reach the target state faster. All audio is processed locally and will not be uploaded."
       },
       {
         "q": "Is this tool really free?",
-        "a": "Yes, Vuko is completely free and open source. There are no hidden fees, no subscriptions, and no ads. You can view the complete code on GitHub."
+        "a": "Yes, Vuko is completely free and open source. There are no hidden fees, no subscriptions, and no ads. You can view the full code on GitHub."
       },
       {
         "q": "Is my data safe?",

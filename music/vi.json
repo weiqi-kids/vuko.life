@@ -4,7 +4,7 @@
     "title": "chuông xoay",
     "tag": [
       "chuông xoay",
-      "chuông xoay",
+      "chuông hát",
       "thiền",
       "thiền",
       "chữa lành"
@@ -402,7 +402,7 @@
     "title": "đàn guitar",
     "tag": [
       "đàn guitar",
-      "đàn guitar",
+      "guitar",
       "nhẹ nhàng",
       "acoustic",
       "thư giãn"
@@ -3190,10 +3190,10 @@
       "Nước",
       "nước",
       "Dòng nước",
-      "Lưu động",
+      "Chảy",
       "Tươi mới"
     ],
-    "desc": "Lấy dòng nước, tiếng suối làm chủ thể, thể hiện tâm trạng tươi mới lưu động.",
+    "desc": "Lấy dòng nước, tiếng suối làm chủ thể, thể hiện tâm trạng tươi mới và chảy trôi.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3591,7 +3591,7 @@
       "luân xa",
       "Cơ bản"
     ],
-    "desc": "Chủ đề luân xa gốc, cộng hưởng tần số thấp tạo ra trường năng lượng an toàn ổn định, thích hợp cho thiền định.",
+    "desc": "Chủ đề luân xa gốc, cộng hưởng tần số thấp tạo ra trường năng lượng an toàn và ổn định, thích hợp cho thiền định.",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -3984,12 +3984,12 @@
     "title": "Lửa",
     "tag": [
       "Lửa",
-      "lửa",
+      "fire",
       "năng lượng",
       "nhiệt huyết",
-      "nguyên tố"
+      "element"
     ],
-    "desc": "Chủ đề nguyên tố lửa, kết hợp âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
+    "desc": "Chủ đề về nguyên tố lửa, kết hợp với hiệu ứng âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4379,13 +4379,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Giai điệu chính âm thanh môi trường",
+    "title": "Giai điệu chính của âm thanh môi trường",
     "tag": [
       "Âm thanh môi trường",
-      "âm thanh thiên nhiên",
+      "nature sounds",
       "âm thanh môi trường",
       "thuần tự nhiên",
-      "môi trường"
+      "ambient"
     ],
     "desc": "Cảnh âm thanh môi trường thuần tự nhiên, không có nhạc cụ hay giọng hát, phù hợp cho thiền định, thư giãn và chữa lành tự nhiên.",
     "embedding": [
@@ -4780,7 +4780,7 @@
     "title": "Luân xa con mắt thứ ba",
     "tag": [
       "Luân xa con mắt thứ ba",
-      "luân xa con mắt thứ ba",
+      "third eye chakra",
       "Tâm linh",
       "chakra",
       "Trực giác"
@@ -5581,7 +5581,7 @@
       "chakra",
       "Tự do"
     ],
-    "desc": "Cảnh âm chủ đề luân xa cổ họng, tạo không gian cho dòng năng lượng trôi chảy và biểu đạt tự do.",
+    "desc": "Cảnh âm chủ đề luân xa cổ họng, tạo không gian cho dòng năng lượng thông suốt và biểu đạt tự do.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -6377,7 +6377,7 @@
       "trong trẻo",
       "sự rõ ràng"
     ],
-    "desc": "Chủ đề nguyên tố kim, âm sắc trong trẻo sáng sủa, tạo ra không gian thuần khiết và huyền ảo.",
+    "desc": "Chủ đề nguyên tố kim, âm sắc trong trẻo sáng sủa, tạo ra không gian thuần khiết và thanh thoát.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -7169,7 +7169,7 @@
     "tag": [
       "Chuông",
       "Âm thoa",
-      "đàn glockenspiel",
+      "chuông",
       "âm thoa",
       "Hư không"
     ],
@@ -8367,7 +8367,7 @@
       "luân xa",
       "Ánh sáng"
     ],
-    "desc": "Cảnh quan âm thanh chủ đề luân xa vương miện, tượng trưng cho sự thức tỉnh tâm linh, nâng cao tinh thần và ánh sáng.",
+    "desc": "Chủ đề âm thanh luân xa vương miện, tượng trưng cho sự thức tỉnh tâm linh, nâng cao tinh thần và ánh sáng.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

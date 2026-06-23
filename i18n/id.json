@@ -2,7 +2,7 @@
   "title": "Dengan suara, temui diri Anda yang lebih baik",
   "subtitle": "🤖 Petunjuk Penggunaan",
   "description": "Sistem akan memantau kondisi pernapasan Anda secara real-time dan secara otomatis menyesuaikan frekuensi binaural untuk membimbing Anda ke dalam berbagai kondisi kesadaran:",
-  "seoKeywords": "Meditasi Binaural・Konsentrasi・Tidur Dalam・Panduan Pernapasan Real-time",
+  "seoKeywords": "Meditasi Binaural・Fokus・Tidur Dalam・Panduan Pernapasan Real-time",
   "instructions": {
     "headphones": "Silakan gunakan <strong>headphone stereo</strong> agar dapat mencapai efek frekuensi binaural di otak.",
     "microphone": "Jika Anda setuju untuk menggunakan <strong>mikrofon</strong> Anda, silakan dekatkan mikrofon ke mulut dan hidung Anda, kami akan mencoba membimbing Anda ke dalam kondisi yang lebih dalam."
@@ -24,7 +24,7 @@
     "deviceTest": "Tes Perangkat",
     "libraryTab": "Perpustakaan Suara Online",
     "localFileTab": "Berkas Lokal",
-    "filePrivacyMsg": "Berkas audio hanya diproses secara lokal, tidak akan diunggah."
+    "filePrivacyMsg": "Berkas audio hanya diproses di perangkat lokal, tidak akan diunggah."
   },
   "buttons": {
     "start": "🎶 Mulai",
@@ -34,7 +34,7 @@
     "monitoring": "🎙️ Memantau Pernapasan... Silakan bernapas secara alami",
     "stopped": "Pemantauan Dihentikan",
     "error": "❌ Tidak dapat memulai:",
-    "unsupported": "⚠️ Peramban Anda tidak mendukung fitur mikrofon, tidak dapat menggunakan pemantauan pernapasan",
+    "unsupported": "⚠️ Peramban Anda tidak mendukung fitur mikrofon, pemantauan pernapasan tidak dapat digunakan",
     "waiting": "Menunggu Deteksi"
   },
   "units": {
@@ -79,8 +79,8 @@
     "title": "Pertanyaan Umum",
     "items": [
       {
-        "q": "Apa itu Binaural Beats?",
-        "a": "Binaural Beats adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan \"beat\" ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan beat 10Hz, yang dapat membantu membimbing gelombang otak memasuki keadaan tertentu."
+        "q": "Apa itu frekuensi binaural?",
+        "a": "Frekuensi binaural adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan \"frekuensi binaural\" ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang dapat membantu membimbing gelombang otak memasuki keadaan tertentu."
       },
       {
         "q": "Mengapa harus menggunakan headphone?",

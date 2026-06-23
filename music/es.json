@@ -4,7 +4,7 @@
     "title": "Cuenco tibetano",
     "tag": [
       "Cuenco tibetano",
-      "singing bowl",
+      "cuenco tibetano",
       "Meditación",
       "meditación",
       "Sanación"
@@ -402,7 +402,7 @@
     "title": "Guitarra",
     "tag": [
       "Guitarra",
-      "guitar",
+      "guitarra",
       "Suave",
       "acústico",
       "Relajación"
@@ -800,7 +800,7 @@
     "title": "Tierra",
     "tag": [
       "Tierra",
-      "earth",
+      "tierra",
       "Naturaleza",
       "Tierra",
       "conexión a tierra"
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodía principal de sonidos ambientales",
     "tag": [
-      "Sonidos ambientales",
+      "sonidos ambientales",
       "sonidos de la naturaleza",
       "sonido ambiental",
       "naturaleza pura",
       "ambiente"
     ],
-    "desc": "Paisaje sonoro de ambiente natural puro, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
+    "desc": "Paisaje sonoro de pura naturaleza, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuición"
     ],
-    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatizando la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
+    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatizando la apertura espiritual e intuitiva, adecuado para una profunda percepción.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5181,7 +5181,7 @@
       "Tambor de baja frecuencia",
       "tambor chamánico",
       "tambor de marco",
-      "enraizamiento"
+      "Conexión a tierra"
     ],
     "desc": "Ritmo estable del tambor chamánico de baja frecuencia, ayuda a entrar en una meditación profunda y percepción corporal.",
     "embedding": [
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Metal",
+    "title": "Oro",
     "tag": [
-      "Metal",
+      "Oro",
       "metal",
       "Pureza",
       "Claridad",
       "claridad"
     ],
-    "desc": "Tema del elemento metal, el timbre es claro y brillante, creando una atmósfera pura y etérea.",
+    "desc": "Tema del elemento oro, el timbre es claro y brillante, creando una atmósfera pura y etérea.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Diapasón de campanillas",
+    "title": "Diapasón de campana",
     "tag": [
-      "Campanillas",
+      "Campana",
       "Diapasón",
       "glockenspiel",
       "diapasón",
       "Etéreo"
     ],
-    "desc": "El sonido etéreo de las campanillas y el diapasón es adecuado para la meditación, la limpieza y la concentración.",
+    "desc": "El sonido etéreo de la campana y el diapasón es adecuado para la meditación, la limpieza y la concentración.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7964,7 +7964,7 @@
     "title": "Trueno",
     "tag": [
       "Trueno",
-      "trueno",
+      "thunder",
       "Naturaleza",
       "Naturaleza",
       "Energía"
@@ -8362,7 +8362,7 @@
     "title": "Chakra corona",
     "tag": [
       "Chakra corona",
-      "chakra corona",
+      "crown chakra",
       "Despertar",
       "chakra",
       "Luz"

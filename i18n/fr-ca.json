@@ -19,12 +19,12 @@
     "systemConfig": "Paramètres de fréquence binaurale",
     "audioSearch": "🎵 Recherche de musique de fond",
     "searchPlaceholder": "Recherche de musique... (par exemple : piano, mer, méditation)",
-    "noResults": "Aucune musique correspondante trouvée",
+    "noResults": "Aucune musique trouvée",
     "currentMusic": "Sélection actuelle",
     "deviceTest": "Test de l'équipement",
     "libraryTab": "Bibliothèque en ligne",
     "localFileTab": "Fichier local",
-    "filePrivacyMsg": "Les fichiers audio sont traités uniquement sur cet appareil et ne seront pas téléchargés."
+    "filePrivacyMsg": "Les fichiers audio sont traités localement et ne seront pas téléchargés."
   },
   "buttons": {
     "start": "🎶 Commencer",
@@ -48,7 +48,7 @@
     "Méditation",
     "Résonance de Schumann",
     "Sommeil",
-    "Revitalisant",
+    "Revitaliser",
     "Inspiration"
   ],
   "sections": {
@@ -57,12 +57,12 @@
     "monitor": "Surveillance de la respiration"
   },
   "binauralDescriptions": {
-    "專注": "Onde Alpha à 10 Hz, aide à entrer dans un état de concentration, adapté au travail et à l'étude",
-    "冥想": "Onde Thêta à 7 Hz, guide vers une relaxation profonde, adapté à la méditation assise",
-    "舒曼共振": "Fréquence naturelle de la Terre à 7,83 Hz, équilibre l'énergie du corps et de l'esprit",
-    "睡眠": "Onde Delta à 3 Hz, aide à s'endormir rapidement",
-    "提神": "Onde Bêta à 15 Hz, améliore la vitalité mentale",
-    "激發靈感": "Onde Gamma à 40 Hz, améliore la pensée créative"
+    "專注": "Onde Alpha à 10Hz, aide à entrer en état de concentration, adaptée au travail et à l'étude",
+    "冥想": "Onde Thêta à 7Hz, guide vers une relaxation profonde, adaptée à la méditation assise",
+    "舒曼共振": "Fréquence naturelle de la Terre à 7,83Hz, équilibre l'énergie du corps et de l'esprit",
+    "睡眠": "Onde Delta à 3Hz, aide à s'endormir rapidement",
+    "提神": "Onde Bêta à 15Hz, améliore la vitalité mentale",
+    "激發靈感": "Onde Gamma à 40Hz, améliore la pensée créative"
   },
   "trust": {
     "free": "Entièrement gratuit, pas besoin d'inscription",
@@ -76,11 +76,11 @@
     "line": "Partager sur LINE"
   },
   "faq": {
-    "title": "FAQ",
+    "title": "Questions fréquentes",
     "items": [
       {
         "q": "Qu'est-ce que la fréquence binaurale ?",
-        "a": "La fréquence binaurale se produit lorsque les oreilles gauche et droite entendent des sons de fréquences légèrement différentes, le cerveau génère une troisième « fréquence de battement ». Par exemple, l'oreille gauche entend 200 Hz, l'oreille droite 210 Hz, le cerveau perçoit une fréquence de battement de 10 Hz, ce qui peut aider à guider les ondes cérébrales vers un état spécifique."
+        "a": "La fréquence binaurale se produit lorsque les oreilles gauche et droite entendent des sons de fréquences légèrement différentes, le cerveau génère une troisième « fréquence de battement ». Par exemple, l'oreille gauche entend 200Hz et l'oreille droite 210Hz, le cerveau percevra une fréquence de battement de 10Hz, ce qui peut aider à guider les ondes cérébrales vers un état spécifique."
       },
       {
         "q": "Pourquoi est-il nécessaire d'utiliser des écouteurs ?",
@@ -88,7 +88,7 @@
       },
       {
         "q": "Comment fonctionne la surveillance de la respiration ?",
-        "a": "Le système détecte le son de votre respiration à l'aide d'un microphone, analyse le rythme respiratoire et ajuste automatiquement les battements en fonction de votre état pour vous aider à atteindre plus rapidement l'état souhaité. Tous les traitements audio sont effectués localement et ne sont pas téléchargés."
+        "a": "Le système détecte votre respiration à l'aide d'un microphone, analyse le rythme respiratoire et ajuste automatiquement les battements en fonction de votre état pour vous aider à atteindre plus rapidement l'état souhaité. Tous les traitements audio sont effectués localement et ne sont pas téléchargés."
       },
       {
         "q": "Cet outil est-il vraiment gratuit ?",
@@ -96,7 +96,7 @@
       },
       {
         "q": "Mes données sont-elles en sécurité ?",
-        "a": "Absolument sécurisées. Tous les traitements audio sont effectués dans votre navigateur, nous ne collectons, stockons ou transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
+        "a": "Absolument sécurisées. Tous les traitements audio sont effectués dans votre navigateur, nous ne collectons, stockons ou transmettons aucune donnée audio. C'est une application entièrement frontale, sans serveur backend."
       }
     ]
   }

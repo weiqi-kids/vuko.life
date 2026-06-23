@@ -407,7 +407,7 @@
       "akustyczny",
       "relaks"
     ],
-    "desc": "Delikatna gitara jako główny motyw, wsparta miękkimi podkładami dźwiękowymi, odpowiednia do relaksu i koncentracji.",
+    "desc": "Delikatna gitara jako główny motyw, wsparta łagodnym podkładem dźwiękowym, odpowiednia do relaksu i koncentracji.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -2795,7 +2795,7 @@
       "Natura",
       "Stabilność"
     ],
-    "desc": "Dźwięki lasu, śpiew ptaków i szum liści tworzą naturalną, stabilną atmosferę.",
+    "desc": "Dźwięki lasu, śpiew ptaków i szum liści tworzą naturalną i stabilną atmosferę.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3193,7 +3193,7 @@
       "Przepływ",
       "Świeżość"
     ],
-    "desc": "Dźwięki płynącej wody i strumienia tworzą świeży, płynny nastrój.",
+    "desc": "Dźwięki płynącej wody i strumienia tworzą świeży i płynny nastrój.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3984,12 +3984,12 @@
     "title": "Ogień",
     "tag": [
       "Ogień",
-      "ogień",
+      "fire",
       "energia",
       "pasja",
       "element"
     ],
-    "desc": "Temat ognia, wplecione naturalne efekty dźwiękowe jak płomienie i ognisko, symbolizujące energię i transformację.",
+    "desc": "Temat ognia, wplecione naturalne dźwięki płomieni i ogniska, symbolizujące energię i transformację.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4382,12 +4382,12 @@
     "title": "Główna melodia dźwięków otoczenia",
     "tag": [
       "Dźwięki natury",
-      "dźwięki natury",
+      "nature sounds",
       "dźwięki otoczenia",
       "czysta natura",
       "ambient"
     ],
-    "desc": "Czysty dźwięk otoczenia bez instrumentów czy głosów, idealny do medytacji, relaksu i naturalnego uzdrawiania.",
+    "desc": "Czysty pejzaż dźwiękowy natury, bez instrumentów czy głosów, idealny do medytacji, relaksu i naturalnego uzdrawiania.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4780,10 +4780,10 @@
     "title": "Czakra trzeciego oka",
     "tag": [
       "Czakra trzeciego oka",
-      "czakra trzeciego oka",
+      "third eye chakra",
       "Duchowość",
       "czakra",
-      "intuicja"
+      "Intuicja"
     ],
     "desc": "Medytacyjny pejzaż dźwiękowy czakry trzeciego oka, podkreślający otwarcie duchowości i intuicji, odpowiedni do głębokiej świadomości.",
     "embedding": [
@@ -5577,11 +5577,11 @@
     "tag": [
       "Czakra gardła",
       "czakra gardła",
-      "komunikacja",
+      "Komunikacja",
       "czakra",
-      "wolność"
+      "Wolność"
     ],
-    "desc": "Pejzaż dźwiękowy tematyki czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
+    "desc": "Pejzaż dźwiękowy czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -6375,7 +6375,7 @@
       "metal",
       "czystość",
       "przejrzystość",
-      "klarowność"
+      "przejrzystość"
     ],
     "desc": "Temat elementu metalu, dźwięk jest czysty i jasny, tworząc atmosferę czystości i przestrzeni.",
     "embedding": [
@@ -6775,7 +6775,7 @@
       "Harmonia",
       "relaksujący"
     ],
-    "desc": "Delikatna melodia fortepianowa z łagodnym akompaniamentem, przynosząca spokojne i komfortowe odczucia.",
+    "desc": "Delikatna melodia fortepianu z łagodnym akompaniamentem przynosi spokojne i komfortowe uczucie.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7173,7 +7173,7 @@
       "kamerton",
       "Eteryczność"
     ],
-    "desc": "Eteryczne dźwięki dzwonków i kamertonu, idealne do medytacji, oczyszczania i koncentracji.",
+    "desc": "Eteryczne dźwięki dzwonków i kamertonu, idealne do medytacji, oczyszczania i skupienia.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7569,9 +7569,9 @@
       "Xiao",
       "flet",
       "xiao",
-      "Płynność"
+      "Przepływ"
     ],
-    "desc": "Melodia fletu i xiao, daleka i płynna, tworząca eteryczny i głęboki nastrój.",
+    "desc": "Melodia fletu i Xiao, daleka i płynąca, tworzy eteryczny i głęboki nastrój.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,

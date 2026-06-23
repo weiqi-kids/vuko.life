@@ -1203,7 +1203,7 @@
       "chakra",
       "Kepercayaan Diri"
     ],
-    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kehendak, dan pusat energi, dengan suasana hangat dan cerah.",
+    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kehendak, dan pusat energi, suasana hangat dan cerah.",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1999,7 +1999,7 @@
       "steel tongue drum",
       "relaksasi"
     ],
-    "desc": "Melodi utama handpan dan drum lidah baja, melodi yang bulat dan menenangkan, cocok untuk meditasi mendalam dan relaksasi.",
+    "desc": "Melodi utama handpan dan drum lidah baja, melodi bulat dan etereal, cocok untuk meditasi mendalam dan relaksasi.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2392,7 +2392,7 @@
     "title": "Kayu",
     "tag": [
       "Kayu",
-      "kayu",
+      "wood",
       "alam",
       "vitalitas",
       "hutan"
@@ -2790,12 +2790,12 @@
     "title": "Hutan",
     "tag": [
       "Hutan",
-      "hutan",
+      "forest",
       "Kicauan burung",
       "Alam",
       "Stabil"
     ],
-    "desc": "Suara hutan, kicauan burung dan gemerisik daun, menciptakan suasana alam yang stabil.",
+    "desc": "Suara hutan, kicauan burung dan suara daun bergesekan, menciptakan suasana alam yang stabil.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3984,9 +3984,9 @@
     "title": "Api",
     "tag": [
       "Api",
-      "api",
-      "energi",
-      "semangat",
+      "fire",
+      "Energi",
+      "Antusiasme",
       "elemen"
     ],
     "desc": "Dengan tema elemen api, menggabungkan efek suara alam seperti api dan api unggun, melambangkan energi dan transformasi.",
@@ -4382,12 +4382,12 @@
     "title": "Melodi Utama Suara Lingkungan",
     "tag": [
       "Suara Lingkungan",
-      "suara alam",
-      "suara lingkungan",
-      "murni alami",
-      "ambien"
+      "nature sounds",
+      "Suara Lingkungan",
+      "Alam Murni",
+      "ambient"
     ],
-    "desc": "Pemandangan suara lingkungan yang murni alami, tanpa instrumen atau suara manusia, cocok untuk meditasi, relaksasi, dan penyembuhan alami.",
+    "desc": "Pemandangan suara lingkungan alam murni, tanpa instrumen atau suara manusia, cocok untuk meditasi, relaksasi, dan penyembuhan alami.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4780,12 +4780,12 @@
     "title": "Cakra Mata Ketiga",
     "tag": [
       "Cakra Mata Ketiga",
-      "cakra mata ketiga",
+      "third eye chakra",
       "Spiritualitas",
       "chakra",
       "Intuisi"
     ],
-    "desc": "Pemandangan suara meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
+    "desc": "Suasana meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5581,7 +5581,7 @@
       "chakra",
       "Kebebasan"
     ],
-    "desc": "Pemandangan suara bertema chakra tenggorokan, menciptakan ruang untuk aliran energi yang lancar dan ekspresi bebas.",
+    "desc": "Suasana tema chakra tenggorokan, menciptakan ruang untuk aliran energi yang lancar dan ekspresi bebas.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Emas",
+    "title": "Logam",
     "tag": [
-      "Emas",
+      "Logam",
       "logam",
-      "kemurnian",
-      "kejernihan",
+      "murni",
+      "jernih",
       "kejernihan"
     ],
-    "desc": "Tema elemen logam, dengan suara yang jernih dan terang, menciptakan suasana yang murni dan etereal.",
+    "desc": "Tema elemen logam, dengan nada yang jernih dan cerah, menciptakan suasana yang murni dan etereal.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -7964,7 +7964,7 @@
     "title": "Guntur",
     "tag": [
       "Guntur",
-      "guntur",
+      "thunder",
       "Alam",
       "Alam",
       "Energi"
@@ -8362,9 +8362,9 @@
     "title": "Cakra Mahkota",
     "tag": [
       "Cakra Mahkota",
-      "cakra mahkota",
+      "crown chakra",
       "Kebangkitan",
-      "cakra",
+      "chakra",
       "Cahaya"
     ],
     "desc": "Lanskap suara bertema cakra mahkota, melambangkan kebangkitan spiritual, peningkatan spiritual, dan cahaya.",

@@ -407,7 +407,7 @@
       "akustisch",
       "Entspannung"
     ],
-    "desc": "Sanfte Gitarre im Vordergrund, begleitet von weichen Klangteppichen, geeignet für Entspannung und Konzentration.",
+    "desc": "Sanfte Gitarre im Vordergrund, ergänzt durch weiche Klangteppiche, geeignet für Entspannung und Konzentration.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -1203,7 +1203,7 @@
       "Chakra",
       "Selbstvertrauen"
     ],
-    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, warme und helle Atmosphäre.",
+    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willenskraft und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1601,7 +1601,7 @@
       "Frieden",
       "Natur"
     ],
-    "desc": "Simuliert die Ruhe und Weite in den Bergen, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
+    "desc": "Simuliert die Ruhe und Weite der Berge, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1999,7 +1999,7 @@
       "steel tongue drum",
       "Entspannung"
     ],
-    "desc": "Die Hauptmelodie von Handpan und Steel Tongue Drum, eine runde und ätherische Melodie, ideal für tiefgehende Meditation und Entspannung.",
+    "desc": "Die Hauptmelodie von Handpan und Steel Tongue Drum, eine runde und ätherische Melodie, geeignet für tiefgehende Meditation und Entspannung.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -5178,7 +5178,7 @@
     "title": "Schamanentrommel mit niedriger Frequenz",
     "tag": [
       "Schamanentrommel",
-      "Niedrigfrequenz-Trommel",
+      "Niedrigfrequenztrommel",
       "Schamanentrommel",
       "Rahmentrommel",
       "Erdung"
@@ -5581,7 +5581,7 @@
       "Chakra",
       "Freiheit"
     ],
-    "desc": "Halschakra-Themenklanglandschaft, schafft Raum für einen reibungslosen Energiefluss und freie Ausdrucksweise.",
+    "desc": "Halschakra-Themenklanglandschaft, schafft Raum für einen reibungslosen Energiefluss und freie Ausdrucksmöglichkeiten.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flöte und Xiao",
+    "title": "Querflöte und Xiao",
     "tag": [
-      "Flöte",
+      "Querflöte",
       "Xiao",
       "Flöte",
       "Xiao",
-      "Fließen"
+      "Fließend"
     ],
-    "desc": "Die Melodie von Flöte und Xiao ist weitreichend und fließend und schafft eine ätherische und tiefgründige Stimmung.",
+    "desc": "Die Melodie von Querflöte und Xiao ist weitreichend und fließend, schafft eine ätherische und tiefgründige Stimmung.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,

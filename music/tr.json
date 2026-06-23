@@ -9,7 +9,7 @@
       "meditasyon",
       "Şifa"
     ],
-    "desc": "Şarkı kasesi sesi ana melodi olarak kullanılır, yumuşak bir rezonans sağlar, meditasyon ve şifa ses manzaraları için uygundur.",
+    "desc": "Şarkı kasesi sesi ana melodi olarak, yumuşak rezonans ile meditasyon ve şifa ses manzaraları için uygundur.",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -407,7 +407,7 @@
       "akustik",
       "Rahatlama"
     ],
-    "desc": "Nazik gitar ana enstrüman olarak kullanılır, hafif ses yastıklarıyla desteklenir, rahatlama ve odaklanma için uygundur.",
+    "desc": "Nazik gitar ana enstrüman olarak, hafif ses yastıkları ile desteklenmiş, rahatlama ve odaklanma için uygundur.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -3989,7 +3989,7 @@
       "tutku",
       "element"
     ],
-    "desc": "Ateş elementi temalı, alev, kamp ateşi gibi doğal ses efektlerini içeren, enerji ve dönüşümü simgeleyen.",
+    "desc": "Ateş elementi temalı, alev ve kamp ateşi gibi doğal ses efektlerini içeren, enerji ve dönüşümü simgeleyen bir parça.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Çevre sesi ana melodisi",
+    "title": "Çevre Sesleri Ana Melodi",
     "tag": [
-      "Çevre sesi",
+      "Çevre Sesleri",
       "doğa sesleri",
       "çevresel ses",
       "saf doğa",
       "ortam"
     ],
-    "desc": "Herhangi bir enstrüman veya insan sesi olmadan, meditasyon, boşalma ve doğal iyileşme için uygun saf doğa ortam ses manzarası.",
+    "desc": "Hiçbir enstrüman veya insan sesi içermeyen saf doğa ses manzarası, meditasyon, boş zaman ve doğal iyileşme için uygundur.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4777,9 +4777,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%9C%89%E5%BF%83%E8%BC%AA.mp3",
-    "title": "Üçüncü göz çakrası",
+    "title": "Üçüncü Göz Çakrası",
     "tag": [
-      "Üçüncü göz çakrası",
+      "Üçüncü Göz Çakrası",
       "üçüncü göz çakrası",
       "Ruhsallık",
       "çakra",
@@ -5175,10 +5175,10 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Şaman davulu düşük frekans davulu",
+    "title": "Şaman davulu düşük frekanslı davul",
     "tag": [
       "Şaman davulu",
-      "Düşük frekans davulu",
+      "Düşük frekanslı davul",
       "şamanik davul",
       "çerçeve davul",
       "topraklama"
@@ -5581,7 +5581,7 @@
       "çakra",
       "özgürlük"
     ],
-    "desc": "Boğaz çakrası temalı ses manzarası, enerjinin akıcı bir şekilde hareket etmesi ve özgürce ifade edilmesi için bir alan yaratır.",
+    "desc": "Boğaz çakrası temalı ses manzarası, enerjinin akıcı bir şekilde hareket etmesini ve özgürce ifade edilmesini sağlar.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -6377,7 +6377,7 @@
       "berraklık",
       "berraklık"
     ],
-    "desc": "Altın elementi teması, ses tonu berrak ve parlak, saf ve eterik bir atmosfer yaratır.",
+    "desc": "Altın elementi teması, ses tonu berrak ve parlak olup, saf ve eterik bir atmosfer yaratır.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -6771,11 +6771,11 @@
     "tag": [
       "Piyano",
       "piyano",
-      "nazik",
-      "uyum",
+      "Nazik",
+      "Uyum",
       "rahatlatıcı"
     ],
-    "desc": "Nazik piyano ana melodisi, rahatlatıcı bir eşlik ile birleşerek huzurlu ve konforlu bir his yaratır.",
+    "desc": "Nazik piyano ana melodisi, rahatlatıcı bir eşlik ile huzurlu ve konforlu bir his yaratır.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "çan piyano diyapazonu",
+    "title": "Çan piyano diyapazonu",
     "tag": [
-      "çan piyano",
-      "diyapazon",
+      "Çan piyano",
+      "Diyapazon",
       "glockenspiel",
       "akort çatalı",
-      "eteryal"
+      "Ethereal"
     ],
-    "desc": "Çan piyano ve diyapazonun eteryal sesleri, meditasyon, temizlik ve odaklanma için uygundur.",
+    "desc": "Çan piyano ve diyapazonun eterik sesleri meditasyon, temizlik ve odaklanma için uygundur.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "flüt ve xiao",
+    "title": "Flüt ve Xiao",
     "tag": [
+      "Flüt",
+      "Xiao",
       "flüt",
       "xiao",
-      "flüt",
-      "xiao",
-      "akış"
+      "Akış"
     ],
-    "desc": "Flüt ve xiao ana melodisi, uzak ve akıcı bir şekilde eteryal ve derin bir ruh hali yaratır.",
+    "desc": "Flüt ve Xiao ana melodisi, uzak ve akıcı, eterik ve derin bir ruh hali yaratır.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,

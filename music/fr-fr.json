@@ -405,9 +405,9 @@
       "guitare",
       "Doux",
       "acoustique",
-      "Détente"
+      "Relaxation"
     ],
-    "desc": "Principalement une guitare douce, accompagnée de légers coussins sonores, adaptée à la détente et à la concentration.",
+    "desc": "Guitare douce en principal, accompagnée de légers coussins sonores, adaptée pour la relaxation et la concentration.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -1201,7 +1201,7 @@
       "chakra du plexus solaire",
       "Énergie",
       "chakra",
-      "Confiance"
+      "Confiance en soi"
     ],
     "desc": "Thème du chakra du plexus solaire, symbolisant la vitalité, la volonté et le centre énergétique, avec une ambiance chaleureuse et lumineuse.",
     "embedding": [
@@ -1601,7 +1601,7 @@
       "paix",
       "Nature"
     ],
-    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons de l'environnement naturel pour favoriser la paix intérieure.",
+    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons naturels pour favoriser la paix intérieure.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan et steel tongue drum",
+    "title": "Handpan et tambour à languettes",
     "tag": [
       "Handpan",
-      "Steel tongue drum",
+      "Tambour à languettes",
       "handpan",
-      "steel tongue drum",
+      "tambour à languettes en acier",
       "Relaxation"
     ],
-    "desc": "Mélodie principale de handpan et steel tongue drum, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
+    "desc": "Mélodie principale de handpan et de tambour à languettes, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -3193,7 +3193,7 @@
       "Flux",
       "Fraîcheur"
     ],
-    "desc": "Avec le flux de l'eau et le son du ruisseau comme éléments principaux, il présente un état d'esprit frais et fluide.",
+    "desc": "Principalement composé de sons d'eau et de ruisseaux, présentant un état d'esprit frais et fluide.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3589,7 +3589,7 @@
       "chakra racine",
       "Stabilité",
       "chakra",
-      "Base"
+      "Fondation"
     ],
     "desc": "Thème du chakra racine, résonance basse fréquence créant un champ énergétique sûr et stable, idéal pour la méditation.",
     "embedding": [
@@ -3989,7 +3989,7 @@
       "passion",
       "élément"
     ],
-    "desc": "Thème basé sur l'élément feu, intégrant des effets sonores naturels comme les flammes et les feux de camp, symbolisant l'énergie et la transformation.",
+    "desc": "Thème de l'élément feu, intégrant des effets sonores naturels comme les flammes et les feux de camp, symbolisant l'énergie et la transformation.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -5971,9 +5971,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Chakra sacré",
+    "title": "chakra sacré",
     "tag": [
-      "Chakra sacré",
+      "chakra sacré",
       "chakra sacré",
       "émotion",
       "chakra",
@@ -6369,9 +6369,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Métal",
+    "title": "métal",
     "tag": [
-      "Métal",
+      "métal",
       "métal",
       "pureté",
       "clarté",
@@ -6767,9 +6767,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
-    "title": "Piano",
+    "title": "piano",
     "tag": [
-      "Piano",
+      "piano",
       "piano",
       "Doux",
       "Harmonieux",
@@ -7173,7 +7173,7 @@
       "diapason",
       "Éthéré"
     ],
-    "desc": "Les sons éthérés du glockenspiel et du diapason, adaptés à la méditation, au nettoyage et à la concentration.",
+    "desc": "Les sons éthérés du glockenspiel et du diapason, idéaux pour la méditation, le nettoyage et la concentration.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7964,7 +7964,7 @@
     "title": "tonnerre",
     "tag": [
       "tonnerre",
-      "tonnerre",
+      "thunder",
       "nature",
       "nature",
       "énergie"
@@ -8362,12 +8362,12 @@
     "title": "chakra couronne",
     "tag": [
       "chakra couronne",
-      "chakra couronne",
+      "crown chakra",
       "éveil",
       "chakra",
       "lumière"
     ],
-    "desc": "Paysage sonore sur le thème du chakra couronne, symbolisant l'éveil spirituel, l'élévation spirituelle et la lumière.",
+    "desc": "Le paysage sonore du chakra couronne symbolise l'éveil spirituel, l'élévation spirituelle et la lumière.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

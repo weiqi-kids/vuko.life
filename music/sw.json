@@ -1,15 +1,15 @@
 [
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
-    "title": "Singing Bowl",
+    "title": "Bakuli la Kuimba",
     "tag": [
-      "Singing Bowl",
-      "singing bowl",
+      "Bakuli la Kuimba",
+      "bakuli la kuimba",
       "Kutafakari",
-      "meditation",
+      "kutafakari",
       "Uponyaji"
     ],
-    "desc": "Sauti ya Singing Bowl kama melodi kuu, inatoa mwangwi wa upole, inafaa kwa kutafakari na mandhari ya sauti ya uponyaji.",
+    "desc": "Sauti ya bakuli la kuimba kama melodi kuu, inatoa mwangwi wa upole, inafaa kwa kutafakari na mandhari ya sauti ya uponyaji.",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -402,9 +402,9 @@
     "title": "Gitaa",
     "tag": [
       "Gitaa",
-      "guitar",
-      "Laini",
-      "acoustic",
+      "gitaa",
+      "Polepole",
+      "akustiki",
       "Kupumzika"
     ],
     "desc": "Gitaa la upole kama msingi, likisaidiwa na sauti laini, linafaa kwa kupumzika na kuzingatia.",
@@ -797,15 +797,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "Ardhi",
+    "title": "Udongo",
     "tag": [
-      "Ardhi",
-      "earth",
+      "Udongo",
+      "ardhi",
       "Asili",
       "Ardhi",
       "kuunganishwa na ardhi"
     ],
-    "desc": "Iliyochochewa na kipengele cha ardhi, ikichanganya masafa ya chini ya asili na sauti za mazingira, ikisisitiza utulivu na hisia ya utulivu.",
+    "desc": "Iliyochochewa na elementi za ardhi, ikichanganya masafa ya chini ya asili na sauti za mazingira, ikisisitiza utulivu na hisia ya utulivu.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1601,7 +1601,7 @@
       "amani",
       "Asili"
     ],
-    "desc": "Inasimulia utulivu na upana wa milimani, ikitumia sauti za mazingira ya asili kukuza utulivu wa akili.",
+    "desc": "Inasimulia utulivu na upana wa mlima, ikitumia sauti za mazingira ya asili kukuza amani ya akili.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -1999,7 +1999,7 @@
       "ngoma ya chuma yenye ndimi",
       "kupumzika"
     ],
-    "desc": "Melodi kuu ya Handpan na Ngoma ya Kiroho, melodi laini na ya kiroho, inafaa kwa kutafakari kwa kina na kupumzika.",
+    "desc": "Melodi kuu ya handpan na ngoma ya kiroho, melodi laini na ya kiroho, inafaa kwa kutafakari kwa kina na kupumzika.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2795,7 +2795,7 @@
       "Asili",
       "Utulivu"
     ],
-    "desc": "Mandhari ya sauti ya msitu, ndege wanaimba na sauti ya majani, huunda mazingira ya asili na utulivu.",
+    "desc": "Mandhari ya sauti ya msituni, ndege wanaimba na sauti ya majani, huunda mazingira ya asili na utulivu.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -3193,7 +3193,7 @@
       "Kutiririka",
       "Safisha"
     ],
-    "desc": "Kwa kutumia sauti ya maji yanayotiririka na mto, huonyesha hali ya akili safi na inayotiririka.",
+    "desc": "Kwa sauti ya maji yanayotiririka na sauti ya kijito, huonyesha hali ya akili safi na inayotiririka.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -4781,11 +4781,11 @@
     "tag": [
       "Chakra ya Jicho la Tatu",
       "chakra ya jicho la tatu",
-      "kiroho",
+      "Kiroho",
       "chakra",
-      "hisia"
+      "Intuition"
     ],
-    "desc": "Mandhari ya kutafakari ya jicho la tatu, inasisitiza ufunguzi wa kiroho na hisia, inafaa kwa utambuzi wa kina.",
+    "desc": "Mandhari ya kutafakari ya jicho la tatu, inasisitiza ufunguzi wa kiroho na intuition, inafaa kwa utambuzi wa kina.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "ngoma ya shaman ya masafa ya chini",
+    "title": "Ngoma ya Shaman ya masafa ya chini",
     "tag": [
-      "ngoma ya shaman",
-      "ngoma ya masafa ya chini",
+      "Ngoma ya Shaman",
+      "Ngoma ya masafa ya chini",
       "ngoma ya kishaman",
       "ngoma ya fremu",
       "kuimarisha"
     ],
-    "desc": "Ngoma ya shaman ya masafa ya chini yenye mdundo thabiti, husaidia kuingia katika kutafakari kwa kina na kuhisi mwili.",
+    "desc": "Ngoma ya Shaman ya masafa ya chini yenye mdundo thabiti, husaidia kuingia katika kutafakari kwa kina na kuhisi mwili.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5573,13 +5573,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "chakra ya koo",
+    "title": "Chakra ya koo",
     "tag": [
+      "Chakra ya koo",
       "chakra ya koo",
-      "chakra ya koo",
-      "mawasiliano",
+      "Mawasiliano",
       "chakra",
-      "uhuru"
+      "Uhuru"
     ],
     "desc": "Mandhari ya chakra ya koo, inaunda nafasi ya mtiririko wa nishati ulio huru na kujieleza kwa uhuru.",
     "embedding": [
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Kichwa cha taji",
+    "title": "Kichwa",
     "tag": [
-      "Kichwa cha taji",
-      "kichwa cha taji",
+      "Kichwa",
+      "kichwa chakra",
       "Kuamka",
       "chakra",
       "Mwanga"
     ],
-    "desc": "Mandhari ya kichwa cha taji, inawakilisha kuamka kiroho, kuinuka kiroho na mwanga.",
+    "desc": "Mandhari ya kichwa, inawakilisha kuamka kiroho, kuinua kiroho na mwanga.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,
