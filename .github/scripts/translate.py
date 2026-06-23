@@ -89,6 +89,36 @@ def save_json(path: Path, data: Any) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def deep_merge(base: Any, override: Any) -> Any:
+    """Recursively merge `override` onto `base`; override wins for scalars/lists."""
+    if isinstance(base, dict) and isinstance(override, dict):
+        merged = dict(base)
+        for k, v in override.items():
+            merged[k] = deep_merge(merged.get(k), v) if k in merged else v
+        return merged
+    return override
+
+
+def finalize(dst_path: Path, data: Any) -> None:
+    """Apply per-language manual overrides (if any) then write the file.
+
+    Auto-translation is only the BASELINE. Hand-localized strings live in
+    `<dir>/overrides/<lang>.json` (e.g. i18n/overrides/en.json) — they are
+    never produced by GPT, so they always win and survive every CI re-run.
+    This is how each language gets tuned to what actually fits that market
+    (keywords, idioms, SEO) without the translation pipeline clobbering it.
+    """
+    ov = dst_path.parent / "overrides" / dst_path.name
+    if ov.exists():
+        try:
+            override = load_json(ov)
+            data = deep_merge(data, override)
+            print(f"Applied {len(collect_strings(override))} override strings from {ov}")
+        except Exception as e:  # malformed override must never break the build
+            print(f"Skipping invalid overrides {ov}: {e}")
+    save_json(dst_path, data)
+
+
 def collect_strings(data: Any, path: Tuple = ()) -> List[Tuple[Tuple, str]]:
     entries: List[Tuple[Tuple, str]] = []
     if isinstance(data, dict):
@@ -162,7 +192,7 @@ def main() -> None:
     if not api_key:
         print("OPENAI_API_KEY not set; skipping translation")
         data = load_json(Path(args.src))
-        save_json(Path(args.dst), data)
+        finalize(Path(args.dst), data)
         return
 
     if hasattr(openai, "OpenAI"):
@@ -179,7 +209,7 @@ def main() -> None:
 
     if src_lang == dst_lang:
         data = load_json(src_path)
-        save_json(dst_path, data)
+        finalize(dst_path, data)
         print(f"Source and target languages are the same ({src_lang}); file copied.")
         return
 
@@ -202,7 +232,7 @@ def main() -> None:
             set_value(data, path, trans)
 
     dst_path.parent.mkdir(parents=True, exist_ok=True)
-    save_json(dst_path, data)
+    finalize(dst_path, data)
     print(f"Translated {len(entries)} entries to {dst_lang} -> {dst_path}")
 
 

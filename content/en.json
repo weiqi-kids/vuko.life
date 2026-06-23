@@ -2,8 +2,8 @@
   "intro": {
     "h2": "What is Vuko?",
     "p": [
-      "Vuko is a free, open-source binaural beats web app that you run directly in your browser — nothing to install, no account, no ads. Put on headphones, choose how you want to feel, and Vuko generates the precise dual-tone frequencies that gently guide your brain toward focus, meditation, relaxation, or deep sleep.",
-      "What makes Vuko different is that it does not just play a fixed track. If you allow microphone access, Vuko listens to your breathing in real time and adapts the beats to your actual state — a closed feedback loop between your body and the sound. We could not find another tool that combines binaural beats with live breath monitoring in the browser, which is exactly the gap Vuko fills."
+      "Vuko is a free, open-source breathing and relaxation web app that runs right in your browser — nothing to install, no account, no ads. It pairs a binaural beats engine with real-time breath detection to help you wind down for sleep, stay focused while you work, ease stress and anxiety, or settle into meditation. Put on headphones, choose how you want to feel, and Vuko generates the precise dual-tone frequencies that gently guide your brain toward focus, relaxation, or deep sleep.",
+      "What makes Vuko different is that it does not just play a fixed track. If you allow microphone access, Vuko listens to your breathing in real time — like a guided breathing exercise that the sound responds to — and adapts the beats to your actual state, a closed feedback loop between your body and the sound. We could not find another tool that combines binaural beats with live breath monitoring in the browser, which is exactly the gap Vuko fills."
     ]
   },
   "wedge": {
