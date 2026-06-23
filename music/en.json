@@ -403,11 +403,11 @@
     "tag": [
       "Guitar",
       "guitar",
-      "Soft",
+      "Gentle",
       "acoustic",
       "Relaxation"
     ],
-    "desc": "Gentle guitar as the main focus, accompanied by soft sound pads, suitable for relaxation and concentration.",
+    "desc": "Mainly gentle guitar, accompanied by soft sound pads, suitable for relaxation and focus.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -805,7 +805,7 @@
       "Earth",
       "grounding"
     ],
-    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds, emphasizing stability and tranquility.",
+    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds to emphasize a sense of stability and calmness.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1203,7 +1203,7 @@
       "chakra",
       "Confidence"
     ],
-    "desc": "The theme of the solar plexus chakra symbolizes vitality, will, and energy center, with a warm and bright atmosphere.",
+    "desc": "The theme of the solar plexus chakra symbolizes vitality, will, and the energy center, with a warm and bright atmosphere.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1991,7 +1991,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan and Steel Tongue Drum",
+    "title": "Handpan Steel Tongue Drum",
     "tag": [
       "Handpan",
       "Steel Tongue Drum",
@@ -1999,7 +1999,7 @@
       "steel tongue drum",
       "Relaxation"
     ],
-    "desc": "The main melody of handpan and steel tongue drum, with a rounded and ethereal melody, suitable for deep meditation and relaxation.",
+    "desc": "The main melody of handpan and steel tongue drum, with a round and ethereal melody, suitable for deep meditation and relaxation.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -3989,7 +3989,7 @@
       "Passion",
       "element"
     ],
-    "desc": "Centered around the theme of the fire element, incorporating natural sound effects like flames and campfires, symbolizing energy and transformation.",
+    "desc": "Centered around the theme of the fire element, incorporating natural sounds like flames and campfires, symbolizing energy and transformation.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Gold",
+    "title": "Metal",
     "tag": [
-      "Gold",
+      "Metal",
       "metal",
       "purity",
       "clarity",
       "clarity"
     ],
-    "desc": "The theme of the metal element, with a clear and bright tone, creates a pure and ethereal atmosphere.",
+    "desc": "The theme of the metal element, with clear and bright tones, creates a pure and ethereal atmosphere.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -9163,7 +9163,7 @@
       "Healing",
       "relaxing"
     ],
-    "desc": "A gentle soundscape adorned with crisp wind chime sounds, ethereal and healing, suitable for relaxation and pre-sleep soothing.",
+    "desc": "A gentle soundscape adorned with crisp wind chime sounds, ethereal and healing, suitable for relaxation and soothing before sleep.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

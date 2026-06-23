@@ -9,7 +9,7 @@
       "thiền",
       "chữa lành"
     ],
-    "desc": "Âm thanh chuông xoay làm giai điệu chính, cộng hưởng nhẹ nhàng, phù hợp cho thiền và âm cảnh chữa lành.",
+    "desc": "Âm thanh chuông xoay làm giai điệu chính, cộng hưởng nhẹ nhàng, phù hợp cho thiền và cảnh âm thanh chữa lành.",
     "embedding": [
       0.06329084187746048,
       0.050360459834337234,
@@ -1198,7 +1198,7 @@
     "title": "Luân xa đám rối mặt trời",
     "tag": [
       "Luân xa đám rối mặt trời",
-      "solar plexus chakra",
+      "luân xa đám rối mặt trời",
       "Năng lượng",
       "luân xa",
       "Tự tin"
@@ -1596,7 +1596,7 @@
     "title": "Núi",
     "tag": [
       "Núi",
-      "mountain",
+      "núi",
       "Yên tĩnh",
       "hòa bình",
       "Tự nhiên"
@@ -2791,7 +2791,7 @@
     "tag": [
       "Rừng",
       "rừng",
-      "Tiếng chim hót",
+      "Tiếng chim",
       "Thiên nhiên",
       "Ổn định"
     ],
@@ -3190,10 +3190,10 @@
       "Nước",
       "nước",
       "Dòng nước",
-      "Lưu động",
+      "Chảy",
       "Tươi mới"
     ],
-    "desc": "Lấy dòng nước, tiếng suối làm chủ thể, thể hiện tâm trạng tươi mới lưu động.",
+    "desc": "Lấy dòng nước, tiếng suối làm chủ thể, thể hiện tâm trạng tươi mới và chảy trôi.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -3591,7 +3591,7 @@
       "luân xa",
       "Cơ bản"
     ],
-    "desc": "Chủ đề luân xa gốc, cộng hưởng tần số thấp tạo ra trường năng lượng an toàn ổn định, thích hợp cho tĩnh tâm.",
+    "desc": "Chủ đề luân xa gốc, cộng hưởng tần số thấp tạo ra trường năng lượng an toàn và ổn định, thích hợp cho thiền định.",
     "embedding": [
       -0.01075701229274273,
       0.07280674576759338,
@@ -3984,12 +3984,12 @@
     "title": "Lửa",
     "tag": [
       "Lửa",
-      "fire",
+      "lửa",
       "năng lượng",
       "nhiệt huyết",
       "nguyên tố"
     ],
-    "desc": "Lấy nguyên tố lửa làm chủ đề, kết hợp với các hiệu ứng âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
+    "desc": "Chủ đề nguyên tố lửa, kết hợp với âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Giai điệu chính của âm thanh môi trường",
+    "title": "Giai điệu chính âm thanh môi trường",
     "tag": [
-      "âm thanh môi trường",
-      "nature sounds",
+      "Âm thanh môi trường",
+      "âm thanh thiên nhiên",
       "âm thanh môi trường",
       "thuần tự nhiên",
-      "ambient"
+      "môi trường"
     ],
-    "desc": "Cảnh âm thanh môi trường thuần tự nhiên, không có bất kỳ nhạc cụ hay giọng hát nào, phù hợp cho thiền định, thư giãn và chữa lành tự nhiên.",
+    "desc": "Cảnh âm thanh môi trường tự nhiên thuần túy, không có nhạc cụ hay giọng hát, phù hợp cho thiền định, thư giãn và chữa lành tự nhiên.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4780,12 +4780,12 @@
     "title": "Luân xa con mắt thứ ba",
     "tag": [
       "Luân xa con mắt thứ ba",
-      "third eye chakra",
+      "luân xa con mắt thứ ba",
       "Tâm linh",
       "chakra",
       "Trực giác"
     ],
-    "desc": "Cảnh âm thiền định luân xa mắt, nhấn mạnh sự mở ra của tâm linh và trực giác, phù hợp cho nhận thức sâu sắc.",
+    "desc": "Cảnh âm thiền định luân xa mắt thứ ba, nhấn mạnh sự khai mở tâm linh và trực giác, phù hợp cho sự nhận thức sâu sắc.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5175,7 +5175,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Trống tần số thấp Shaman",
+    "title": "Trống tần số thấp của Shaman",
     "tag": [
       "Trống Shaman",
       "Trống tần số thấp",
@@ -5183,7 +5183,7 @@
       "trống khung",
       "nối đất"
     ],
-    "desc": "Nhịp điệu ổn định của trống tần số thấp Shaman, hỗ trợ vào thiền định sâu và cảm nhận cơ thể.",
+    "desc": "Nhịp điệu ổn định của trống Shaman tần số thấp, hỗ trợ vào thiền định sâu và cảm nhận cơ thể.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -5573,15 +5573,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "Luân xa họng",
+    "title": "Luân xa cổ họng",
     "tag": [
-      "Luân xa họng",
-      "luân xa họng",
+      "Luân xa cổ họng",
+      "luân xa cổ họng",
       "Giao tiếp",
       "chakra",
       "Tự do"
     ],
-    "desc": "Cảnh âm chủ đề luân xa họng, tạo không gian cho dòng năng lượng thông suốt và biểu đạt tự do.",
+    "desc": "Cảnh âm chủ đề luân xa cổ họng, tạo không gian cho dòng năng lượng thông suốt và biểu đạt tự do.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -6373,11 +6373,11 @@
     "tag": [
       "Kim",
       "kim loại",
-      "tinh khiết",
+      "thuần khiết",
       "trong trẻo",
       "sự rõ ràng"
     ],
-    "desc": "Chủ đề nguyên tố kim, âm sắc trong trẻo sáng sủa, tạo ra không gian tinh khiết và huyền ảo.",
+    "desc": "Chủ đề nguyên tố kim, âm sắc trong trẻo sáng sủa, tạo ra không gian thuần khiết và huyền ảo.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -7171,9 +7171,9 @@
       "Âm thoa",
       "chuông",
       "âm thoa",
-      "Hư không"
+      "Không linh"
     ],
-    "desc": "Âm thanh hư không của chuông và âm thoa, thích hợp cho thiền định, thanh lọc và tập trung.",
+    "desc": "Âm thanh không linh của chuông và âm thoa, thích hợp cho thiền định, thanh lọc và tập trung.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Sáo trúc và sáo động",
+    "title": "Sáo trúc và sáo dọc",
     "tag": [
       "Sáo trúc",
-      "Sáo động",
+      "Sáo dọc",
       "sáo",
-      "sáo động",
+      "sáo dọc",
       "Lưu động"
     ],
-    "desc": "Giai điệu chính của sáo trúc và sáo động, lưu động xa xăm, tạo nên tâm trạng hư không sâu xa.",
+    "desc": "Giai điệu chính của sáo trúc và sáo dọc, lưu động xa xăm, tạo nên tâm trạng không linh sâu xa.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -7961,15 +7961,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Sấm sét",
+    "title": "Sấm",
     "tag": [
-      "Sấm sét",
-      "sấm sét",
-      "tự nhiên",
-      "thiên nhiên",
-      "năng lượng"
+      "Sấm",
+      "sấm",
+      "Tự nhiên",
+      "Thiên nhiên",
+      "Năng lượng"
     ],
-    "desc": "Âm thanh của sấm sét và mưa tự nhiên tạo ra một cảnh quan âm thanh đầy năng lượng và giải phóng.",
+    "desc": "Âm thanh của sấm và mưa tự nhiên tạo ra một cảnh quan âm thanh đầy năng lượng và giải phóng.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8363,9 +8363,9 @@
     "tag": [
       "Luân xa vương miện",
       "luân xa vương miện",
-      "thức tỉnh",
+      "Thức tỉnh",
       "luân xa",
-      "ánh sáng"
+      "Ánh sáng"
     ],
     "desc": "Cảnh quan âm thanh chủ đề luân xa vương miện, tượng trưng cho sự thức tỉnh tâm linh, nâng cao tinh thần và ánh sáng.",
     "embedding": [

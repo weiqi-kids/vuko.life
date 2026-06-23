@@ -407,7 +407,7 @@
       "acoustique",
       "Détente"
     ],
-    "desc": "Principalement une guitare douce, accompagnée de légers coussins sonores, adaptée à la détente et à la concentration.",
+    "desc": "Guitare douce en principal, accompagnée de légers coussins sonores, adaptée pour la détente et la concentration.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -1203,7 +1203,7 @@
       "chakra",
       "Confiance"
     ],
-    "desc": "Thème du chakra du plexus solaire, symbolisant la vitalité, la volonté et le centre énergétique, avec une atmosphère chaleureuse et lumineuse.",
+    "desc": "Thème du chakra du plexus solaire, symbolisant la vitalité, la volonté et le centre énergétique, avec une ambiance chaleureuse et lumineuse.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "paix",
       "Nature"
     ],
-    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons naturels pour favoriser la paix intérieure.",
+    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons de l'environnement naturel pour favoriser la paix intérieure.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -4379,7 +4379,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Mélodie principale des sons de l'environnement",
+    "title": "Mélodie principale des sons de la nature",
     "tag": [
       "sons de la nature",
       "sons de la nature",
@@ -5971,13 +5971,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Chakra sacré",
+    "title": "chakra sacré",
     "tag": [
-      "Chakra sacré",
       "chakra sacré",
-      "Émotion",
+      "chakra sacré",
+      "émotion",
       "chakra",
-      "Flux"
+      "flux"
     ],
     "desc": "Paysage sonore du chakra sacré, symbolisant le flux émotionnel, la créativité et l'énergie de plaisir.",
     "embedding": [
@@ -6369,12 +6369,12 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Métal",
+    "title": "métal",
     "tag": [
-      "Métal",
       "métal",
-      "Pureté",
-      "Clarté",
+      "métal",
+      "pureté",
+      "clarté",
       "clarté"
     ],
     "desc": "Thème de l'élément métal, avec un timbre clair et lumineux, créant une atmosphère pure et éthérée.",
@@ -6767,9 +6767,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
-    "title": "Piano",
+    "title": "piano",
     "tag": [
-      "Piano",
+      "piano",
       "piano",
       "Doux",
       "Harmonieux",
@@ -7173,7 +7173,7 @@
       "diapason",
       "Éthéré"
     ],
-    "desc": "Les sons éthérés du glockenspiel et du diapason, adaptés à la méditation, au nettoyage et à la concentration.",
+    "desc": "Les sons éthérés du glockenspiel et du diapason, idéaux pour la méditation, le nettoyage et la concentration.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,

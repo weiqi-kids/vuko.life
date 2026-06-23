@@ -2,15 +2,15 @@
   "title": "Dengan suara, temui diri Anda yang lebih baik",
   "subtitle": "🤖 Petunjuk Penggunaan",
   "description": "Sistem akan memantau kondisi pernapasan Anda secara real-time dan secara otomatis menyesuaikan frekuensi ketukan untuk membimbing Anda memasuki berbagai kondisi kesadaran:",
-  "seoKeywords": "Frekuensi Ketukan Binaural Adaptif Pernapasan Real-time｜Meditasi・Fokus・Tidur Dalam",
-  "seoDescription": "Vuko adalah aplikasi web frekuensi ketukan binaural (binaural beats) yang gratis dan open-source, yang mendeteksi pernapasan Anda secara real-time melalui mikrofon dan secara otomatis menyesuaikan frekuensi ketukan. Tanpa pendaftaran, tanpa iklan, membantu Anda bermeditasi, fokus, rileks, dan tidur dalam di browser.",
+  "seoKeywords": "Latihan Pernapasan untuk Tidur, Fokus & Relaksasi | Binaural Beats Gratis",
+  "seoDescription": "Vuko adalah aplikasi web pernapasan dan relaksasi gratis. Ia mendeteksi napas Anda secara real-time lewat mikrofon dan menyetel binaural beats otomatis untuk membantu Anda rileks, meredakan stres, fokus, meditasi, dan tidur lebih nyenyak. Tanpa daftar, tanpa iklan, open source — langsung di browser.",
   "instructions": {
     "headphones": "Silakan gunakan <strong>headphone stereo</strong> agar efek frekuensi ketukan di otak dapat tercapai.",
     "microphone": "Jika Anda setuju untuk menggunakan <strong>mikrofon</strong> Anda, silakan dekatkan mikrofon ke mulut dan hidung, kami akan mencoba membimbing Anda ke dalam kondisi yang lebih dalam."
   },
   "volumeRatioDetail": "Frekuensi ketukan {binaural}% / Suara latar {background}%",
   "labels": {
-    "breathRate": "Tingkat Pernapasan:",
+    "breathRate": "Laju Pernapasan:",
     "noiseLevel": "Kebisingan Latar:",
     "baseFreq": "Frekuensi Dasar:",
     "audioFile": "File Suara Latar:",
@@ -20,12 +20,12 @@
     "systemConfig": "Pengaturan Frekuensi Ketukan Binaural",
     "audioSearch": "🎵 Pencarian Musik Latar",
     "searchPlaceholder": "Cari musik... (misalnya: piano, laut, meditasi)",
-    "noResults": "Tidak dapat menemukan musik terkait",
+    "noResults": "Tidak ditemukan musik terkait",
     "currentMusic": "Pilihan saat ini",
     "deviceTest": "Pengujian Perangkat",
     "libraryTab": "Perpustakaan Suara Online",
     "localFileTab": "Berkas Lokal",
-    "filePrivacyMsg": "Berkas suara hanya diproses di perangkat lokal, tidak akan diunggah."
+    "filePrivacyMsg": "Berkas audio hanya diproses secara lokal, tidak akan diunggah."
   },
   "buttons": {
     "start": "🎶 Mulai",
@@ -80,8 +80,8 @@
     "title": "Pertanyaan Umum",
     "items": [
       {
-        "q": "Apa itu Binaural Beats?",
-        "a": "Binaural Beats adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan \"beat\" ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan beat 10Hz, yang dapat membantu membimbing gelombang otak memasuki keadaan tertentu."
+        "q": "Apa itu frekuensi binaural?",
+        "a": "Frekuensi binaural adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan 'frekuensi binaural' ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang dapat membantu membimbing gelombang otak memasuki keadaan tertentu."
       },
       {
         "q": "Aplikasi binaural beats mana yang menyesuaikan dengan pernapasan?",
@@ -89,7 +89,7 @@
       },
       {
         "q": "Apakah perlu perangkat wearable atau jam tangan pintar untuk menggunakan binaural beats adaptif pernapasan?",
-        "a": "Tidak perlu. Vuko hanya memerlukan sepasang headphone stereo, dan (opsional) mikrofon bawaan perangkat. Tidak perlu perangkat wearable, sabuk dada, atau perangkat keras tambahan—mikrofon akan mendeteksi pernapasan Anda, dan audio dianalisis sepenuhnya di browser Anda lalu dibuang."
+        "a": "Tidak perlu. Vuko hanya memerlukan sepasang headphone stereo, dan (opsional) mikrofon bawaan perangkat. Tidak perlu perangkat wearable, sabuk dada, atau perangkat keras tambahan—mikrofon akan mendeteksi pernapasan Anda, dan audio sepenuhnya dianalisis di browser Anda lalu dibuang."
       },
       {
         "q": "Mengapa harus menggunakan headphone?",

@@ -1597,7 +1597,7 @@
     "tag": [
       "Montagne",
       "montagne",
-      "tranquillité",
+      "sérénité",
       "paix",
       "Nature"
     ],
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan et Steel Tongue Drum",
+    "title": "Handpan et steel tongue drum",
     "tag": [
       "Handpan",
-      "Steel Tongue Drum",
+      "Steel tongue drum",
       "handpan",
       "steel tongue drum",
-      "relaxation"
+      "Relaxation"
     ],
-    "desc": "Mélodie principale de handpan et de steel tongue drum, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
+    "desc": "Mélodie principale de handpan et steel tongue drum, mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2393,11 +2393,11 @@
     "tag": [
       "Bois",
       "bois",
-      "nature",
-      "vitalité",
+      "Nature",
+      "Vitalité",
       "forêt"
     ],
-    "desc": "Inspiré par l'élément bois, combinant le son du vent dans la forêt et les sons naturels des arbres, exprimant la vitalité.",
+    "desc": "Inspiré par l'élément bois, combiné avec le son naturel du vent dans la forêt et des arbres, exprimant la vitalité.",
     "embedding": [
       0.030727757140994072,
       0.07157044112682343,
@@ -2795,7 +2795,7 @@
       "Nature",
       "Stabilité"
     ],
-    "desc": "Paysage sonore de la forêt, avec chants d'oiseaux et bruissement des feuilles, créant une ambiance naturelle et stable.",
+    "desc": "Paysage sonore de la forêt, chant d'oiseaux et bruissement des feuilles, créant une atmosphère naturelle et stable.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3189,7 +3189,7 @@
     "tag": [
       "Eau",
       "eau",
-      "Eau courante",
+      "Écoulement",
       "Flux",
       "Fraîcheur"
     ],
@@ -4785,7 +4785,7 @@
       "chakra",
       "intuition"
     ],
-    "desc": "Paysage sonore de méditation du troisième œil, mettant l'accent sur l'ouverture de la spiritualité et de l'intuition, adapté à une prise de conscience profonde.",
+    "desc": "Paysage sonore de méditation du chakra du troisième œil, mettant l'accent sur l'ouverture de la spiritualité et de l'intuition, adapté à une prise de conscience profonde.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5974,7 +5974,7 @@
     "title": "chakra sacré",
     "tag": [
       "chakra sacré",
-      "sacral chakra",
+      "chakra sacré",
       "émotion",
       "chakra",
       "flux"
@@ -6372,10 +6372,10 @@
     "title": "métal",
     "tag": [
       "métal",
-      "metal",
+      "métal",
       "pureté",
       "clarté",
-      "clarity"
+      "clarté"
     ],
     "desc": "Thème de l'élément métal, avec un timbre clair et lumineux, créant une atmosphère pure et éthérée.",
     "embedding": [
@@ -7964,12 +7964,12 @@
     "title": "tonnerre",
     "tag": [
       "tonnerre",
-      "thunder",
+      "tonnerre",
       "nature",
       "nature",
       "énergie"
     ],
-    "desc": "Les sons de tonnerre et de pluie naturelle créent un paysage sonore plein d'énergie et de libération.",
+    "desc": "Les sons du tonnerre et de la pluie naturelle créent un paysage sonore plein d'énergie et de libération.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8362,7 +8362,7 @@
     "title": "chakra couronne",
     "tag": [
       "chakra couronne",
-      "crown chakra",
+      "chakra couronne",
       "éveil",
       "chakra",
       "lumière"
@@ -8760,7 +8760,7 @@
     "title": "vent",
     "tag": [
       "vent",
-      "wind",
+      "vent",
       "Nature",
       "Éthéré",
       "ambiant"

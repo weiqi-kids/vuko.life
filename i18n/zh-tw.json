@@ -2,8 +2,8 @@
   "title": "用聲音，帶你遇見更好的自己",
   "subtitle": "🤖 使用說明",
   "description": "系統會即時監測你的呼吸狀態，並自動調整拍頻來引導你進入不同的意識狀態：",
-  "seoKeywords": "即時呼吸自適應雙耳拍頻｜冥想・專注・深層睡眠",
-  "seoDescription": "Vuko 是免費開源的雙耳拍頻（binaural beats）網頁 App，會透過麥克風即時偵測你的呼吸並自動調整拍頻。免註冊、無廣告，在瀏覽器中助你冥想、專注、放鬆與深層睡眠。",
+  "seoKeywords": "呼吸練習 App・助眠放鬆音樂｜減壓・專注冥想・深層睡眠・呼吸自適應雙耳拍頻",
+  "seoDescription": "Vuko 是免費的呼吸練習與助眠放鬆網頁 App：透過麥克風即時偵測你的呼吸，自動調整雙耳拍頻（binaural beats），引導你放鬆、減壓、專注、冥想與深層睡眠。免註冊、無廣告、開源，打開瀏覽器就能用。",
   "instructions": {
     "headphones": "請使用<strong>雙聲道耳機</strong>，這樣才能達成腦中拍頻的效果。",
     "microphone": "若您同意使用您的<strong>麥克風</strong>，請將麥克風靠近口鼻，我們會嘗試引導您進入更深層的狀態。"

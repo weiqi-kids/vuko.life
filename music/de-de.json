@@ -1201,7 +1201,7 @@
       "solar plexus chakra",
       "Energie",
       "Chakra",
-      "Selbstbewusstsein"
+      "Selbstvertrauen"
     ],
     "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
     "embedding": [
@@ -3989,7 +3989,7 @@
       "Leidenschaft",
       "Element"
     ],
-    "desc": "Mit dem Thema Feuerelement, integriert natürliche Klangeffekte wie Flammen und Lagerfeuer, symbolisiert Energie und Transformation.",
+    "desc": "Ein Thema, das sich um das Feuerelement dreht und natürliche Klänge wie Flammen und Lagerfeuer integriert, symbolisiert Energie und Transformation.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4387,7 +4387,7 @@
       "reine Natur",
       "Umgebung"
     ],
-    "desc": "Reine natürliche Klanglandschaft ohne Instrumente oder Stimmen, geeignet für Meditation, Entspannung und natürliche Heilung.",
+    "desc": "Eine Klanglandschaft aus reinen Naturgeräuschen, ohne Instrumente oder Stimmen, geeignet für Meditation, Entspannung und natürliche Heilung.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Nabelchakra",
+    "title": "Sakralchakra",
     "tag": [
-      "Nabelchakra",
-      "sakrales Chakra",
+      "Sakralchakra",
+      "sacral chakra",
       "Emotionen",
       "Chakra",
       "Fluss"
     ],
-    "desc": "Nabelchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
+    "desc": "Die Klanglandschaft des Sakralchakras symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6771,11 +6771,11 @@
     "tag": [
       "Klavier",
       "Klavier",
-      "Sanft",
+      "Sanftheit",
       "Harmonie",
       "entspannend"
     ],
-    "desc": "Sanfte Klaviermelodie, begleitet von beruhigender Begleitung, vermittelt ein Gefühl von Frieden und Komfort.",
+    "desc": "Sanfte Klaviermelodie, begleitet von beruhigender Begleitung, vermittelt ein friedliches und angenehmes Gefühl.",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -7569,9 +7569,9 @@
       "Xiao",
       "Flöte",
       "Xiao",
-      "Fließend"
+      "Fließen"
     ],
-    "desc": "Flöten- und Xiao-Melodie, die weit und fließend ist und eine ätherische und tiefgründige Stimmung schafft.",
+    "desc": "Flöte und Xiao Melodie, weit und fließend, schafft eine ätherische und tiefgründige Stimmung.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -8367,7 +8367,7 @@
       "Chakra",
       "Licht"
     ],
-    "desc": "Kronenchakra-Themenklanglandschaft, die spirituelles Erwachen, spirituelles Wachstum und Licht symbolisiert.",
+    "desc": "Das Klangbild des Kronenchakras symbolisiert spirituelles Erwachen, spirituelles Wachstum und Licht.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8762,10 +8762,10 @@
       "Wind",
       "wind",
       "Natur",
-      "Ätherisch",
-      "Ambient"
+      "Luftig",
+      "ambient"
     ],
-    "desc": "Ein ätherisches Klangbild, das von Windgeräuschen dominiert wird, fließend und weitreichend, geeignet zum Entspannen, Meditieren und Konzentrieren.",
+    "desc": "Ein luftiges Klangbild, das von Windgeräuschen dominiert wird, fließt weit und ist ideal zum Entspannen, Meditieren und Konzentrieren.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,
@@ -9158,12 +9158,12 @@
     "title": "Windspiel",
     "tag": [
       "Windspiel",
-      "Windspiel",
-      "Ätherisch",
-      "Heilsam",
-      "Entspannend"
+      "wind chime",
+      "Luftig",
+      "Heilend",
+      "entspannend"
     ],
-    "desc": "Ein sanftes Klangbild, verziert mit klaren Windspielklängen, ätherisch und heilsam, geeignet zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
+    "desc": "Ein sanftes Klangbild, das von klaren Windspielgeräuschen akzentuiert wird, ist luftig und heilend, ideal zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

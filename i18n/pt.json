@@ -1,9 +1,9 @@
 {
-  "title": "Com som, encontre uma versão melhor de si mesmo",
-  "subtitle": "🤖 Instruções de uso",
+  "title": "Com a voz, encontre uma versão melhor de si mesmo",
+  "subtitle": "🤖 Instruções de Uso",
   "description": "O sistema monitorará seu estado de respiração em tempo real e ajustará automaticamente a frequência de batida para guiá-lo a diferentes estados de consciência:",
-  "seoKeywords": "Frequência de batida binaural adaptativa à respiração em tempo real｜Meditação・Foco・Sono profundo",
-  "seoDescription": "Vuko é um aplicativo web gratuito e de código aberto de batidas binaurais que detecta sua respiração em tempo real através do microfone e ajusta automaticamente a frequência de batida. Sem registro, sem anúncios, ajuda você a meditar, focar, relaxar e dormir profundamente no navegador.",
+  "seoKeywords": "Exercícios de respiração para dormir e relaxar · Binaural beats grátis",
+  "seoDescription": "Vuko é um app web gratuito de respiração, relaxamento e sono. Ele detecta sua respiração em tempo real pelo microfone e ajusta os binaural beats para ajudar você a relaxar, aliviar o estresse, focar, meditar e dormir profundamente. Sem cadastro, sem anúncios e de código aberto, direto no navegador.",
   "instructions": {
     "headphones": "Por favor, use <strong>fones de ouvido estéreo</strong> para alcançar o efeito de batida no cérebro.",
     "microphone": "Se você concordar em usar seu <strong>microfone</strong>, aproxime-o da boca e do nariz, tentaremos guiá-lo a um estado mais profundo."
@@ -12,14 +12,14 @@
   "labels": {
     "breathRate": "Taxa de respiração:",
     "noiseLevel": "Ruído de fundo:",
-    "baseFreq": "Frequência da frequência base:",
+    "baseFreq": "Frequência da base:",
     "audioFile": "Arquivo de som de fundo:",
     "volumeRatio": "Proporção de volume:",
     "breathVisual": "Visualização da respiração",
     "realTimeData": "Dados em tempo real",
-    "systemConfig": "Configurações de batida binaural",
-    "audioSearch": "🎵 Pesquisa de música de fundo",
-    "searchPlaceholder": "Pesquise música... (por exemplo: piano, mar, meditação)",
+    "systemConfig": "Configuração de batidas binaurais",
+    "audioSearch": "🎵 Pesquisa de Música de Fundo",
+    "searchPlaceholder": "Procurar música... (por exemplo: piano, mar, meditação)",
     "noResults": "Nenhuma música encontrada",
     "currentMusic": "Seleção atual",
     "deviceTest": "Teste de equipamento",
@@ -50,7 +50,7 @@
     "Ressonância Schumann",
     "Dormir",
     "Revigorar",
-    "Inspiração"
+    "Inspire-se"
   ],
   "sections": {
     "instructions": "Instruções de uso",
@@ -59,7 +59,7 @@
   },
   "binauralDescriptions": {
     "專注": "Onda Alpha de 10Hz, ajuda a entrar em estado de foco, ideal para trabalho e estudo",
-    "冥想": "Onda Theta de 7Hz, guia para relaxamento profundo, ideal para meditação",
+    "冥想": "Onda Theta de 7Hz, guia para relaxamento profundo, ideal para meditação sentada",
     "舒曼共振": "Frequência natural da Terra de 7.83Hz, equilibra a energia do corpo e da mente",
     "睡眠": "Onda Delta de 3Hz, ajuda a adormecer rapidamente",
     "提神": "Onda Beta de 15Hz, aumenta a vitalidade mental",
@@ -81,7 +81,7 @@
     "items": [
       {
         "q": "O que é batimento binaural?",
-        "a": "Batimento binaural ocorre quando os ouvidos esquerdo e direito ouvem sons de frequências ligeiramente diferentes, o cérebro gera uma terceira frequência chamada 'batimento'. Por exemplo, ouvido esquerdo 200Hz, ouvido direito 210Hz, o cérebro percebe um batimento de 10Hz, o que pode ajudar a guiar as ondas cerebrais para um estado específico."
+        "a": "Batimento binaural ocorre quando os ouvidos esquerdo e direito ouvem sons de frequências ligeiramente diferentes, o cérebro gera uma terceira 'batida'. Por exemplo, ouvido esquerdo 200Hz, ouvido direito 210Hz, o cérebro percebe uma batida de 10Hz, o que pode ajudar a guiar as ondas cerebrais para um estado específico."
       },
       {
         "q": "Qual aplicativo de batimento binaural ajusta-se à respiração?",
@@ -89,7 +89,7 @@
       },
       {
         "q": "É necessário um dispositivo vestível ou smartwatch para usar o batimento adaptativo à respiração?",
-        "a": "Não é necessário. Vuko só precisa de um fone de ouvido estéreo e de um microfone embutido no dispositivo (opcional). Não é necessário nenhum dispositivo vestível, cinta peitoral ou hardware adicional — o microfone detecta sua respiração, e o áudio é analisado completamente no seu navegador e descartado em seguida."
+        "a": "Não é necessário. Vuko só precisa de um fone de ouvido estéreo e (opcionalmente) do microfone embutido do dispositivo. Não é necessário nenhum dispositivo vestível, cinta torácica ou hardware adicional — o microfone detecta sua respiração, e o áudio é analisado completamente no seu navegador e descartado em seguida."
       },
       {
         "q": "Por que é necessário usar fones de ouvido?",
@@ -97,7 +97,7 @@
       },
       {
         "q": "Como funciona o monitoramento da respiração?",
-        "a": "O sistema detecta o som da sua respiração através do microfone, analisa o ritmo respiratório e ajusta automaticamente o batimento de acordo com seu estado, ajudando você a entrar mais rapidamente no estado desejado. Todo o áudio é processado localmente e não é enviado."
+        "a": "O sistema detecta o som da sua respiração através do microfone, analisa o ritmo respiratório e ajusta automaticamente o batimento de acordo com seu estado, ajudando você a atingir o estado desejado mais rapidamente. Todo o áudio é processado localmente e não é enviado."
       },
       {
         "q": "Esta ferramenta é realmente gratuita?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Meus dados estão seguros?",
-        "a": "Absolutamente seguros. Todo o processamento de áudio é feito no seu navegador, e não coletamos, armazenamos ou transmitimos nenhum dado de áudio. É uma aplicação puramente front-end, sem servidor de back-end."
+        "a": "Absolutamente seguros. Todo o processamento de áudio é feito no seu navegador, não coletamos, armazenamos ou transmitimos nenhum dado de áudio. É uma aplicação puramente front-end, sem servidor de back-end."
       }
     ]
   }

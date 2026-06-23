@@ -2,13 +2,13 @@
   "title": "Avec la voix, rencontrez une meilleure version de vous-même",
   "subtitle": "🤖 Mode d'emploi",
   "description": "Le système surveille en temps réel votre état respiratoire et ajuste automatiquement la fréquence des battements pour vous guider vers différents états de conscience :",
-  "seoKeywords": "Fréquence binaurale adaptative en temps réel à la respiration｜Méditation・Concentration・Sommeil profond",
-  "seoDescription": "Vuko est une application web gratuite et open-source de battements binauraux qui détecte votre respiration en temps réel via le microphone et ajuste automatiquement la fréquence des battements. Pas d'inscription, pas de publicité, elle vous aide à méditer, vous concentrer, vous détendre et dormir profondément dans le navigateur.",
+  "seoKeywords": "Exercice de respiration pour dormir et se détendre · Binaural beats gratuit",
+  "seoDescription": "Vuko est une appli web gratuite de respiration, de relaxation et de sommeil. Elle détecte votre respiration en temps réel avec le micro et ajuste les binaural beats pour vous aider à relaxer, déstresser, vous concentrer, méditer et dormir profondément. Sans inscription, sans pub, à code source ouvert, directement dans le navigateur.",
   "instructions": {
-    "headphones": "Veuillez utiliser un <strong>casque stéréo</strong> pour obtenir l'effet des battements dans le cerveau.",
+    "headphones": "Veuillez utiliser des <strong>écouteurs stéréo</strong> pour obtenir l'effet de fréquence des battements dans le cerveau.",
     "microphone": "Si vous acceptez d'utiliser votre <strong>microphone</strong>, veuillez le rapprocher de votre bouche et de votre nez, nous essaierons de vous guider vers un état plus profond."
   },
-  "volumeRatioDetail": "Fréquence des battements {binaural}% / Son de fond {background}%",
+  "volumeRatioDetail": "Fréquence des battements {binaural}% / Bruit de fond {background}%",
   "labels": {
     "breathRate": "Taux de respiration :",
     "noiseLevel": "Bruit de fond :",
@@ -17,9 +17,9 @@
     "volumeRatio": "Proportion du volume :",
     "breathVisual": "Visualisation de la respiration",
     "realTimeData": "Données en temps réel",
-    "systemConfig": "Paramètres des battements binauraux",
+    "systemConfig": "Paramètres de fréquence binaurale",
     "audioSearch": "🎵 Recherche de musique de fond",
-    "searchPlaceholder": "Rechercher de la musique... (par exemple : piano, mer, méditation)",
+    "searchPlaceholder": "Recherche de musique... (par exemple : piano, mer, méditation)",
     "noResults": "Aucune musique trouvée",
     "currentMusic": "Sélection actuelle",
     "deviceTest": "Test de l'équipement",
@@ -63,12 +63,12 @@
     "舒曼共振": "Fréquence naturelle de la Terre à 7,83Hz, équilibre l'énergie du corps et de l'esprit",
     "睡眠": "Onde Delta à 3Hz, aide à s'endormir rapidement",
     "提神": "Onde Bêta à 15Hz, améliore la vitalité mentale",
-    "激發靈感": "Onde Gamma à 40Hz, stimule la pensée créative"
+    "激發靈感": "Onde Gamma à 40Hz, améliore la pensée créative"
   },
   "trust": {
     "free": "Entièrement gratuit, sans inscription",
     "openSource": "Projet open source",
-    "privacy": "L'audio est traité uniquement en local, pas de téléchargement sur le serveur"
+    "privacy": "L'audio est traité localement, sans téléchargement sur le serveur"
   },
   "share": {
     "title": "Partager",
@@ -89,7 +89,7 @@
       },
       {
         "q": "Faut-il un appareil portable ou une montre intelligente pour utiliser le battement adaptatif à la respiration ?",
-        "a": "Non. Vuko nécessite seulement un casque stéréo et, éventuellement, le microphone intégré de l'appareil. Aucun appareil portable, ceinture thoracique ou matériel supplémentaire n'est nécessaire. Le microphone détecte votre respiration, et l'audio est analysé et supprimé directement dans votre navigateur."
+        "a": "Non, ce n'est pas nécessaire. Vuko nécessite uniquement un casque stéréo et, éventuellement, le microphone intégré de l'appareil. Aucun appareil portable, ceinture thoracique ou matériel supplémentaire n'est requis. Le microphone détecte votre respiration, et l'audio est analysé et supprimé directement dans votre navigateur."
       },
       {
         "q": "Pourquoi faut-il absolument utiliser un casque ?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Mes données sont-elles en sécurité ?",
-        "a": "Absolument sécurisées. Tous les traitements audio sont effectués dans votre navigateur, nous ne collectons, stockons ou transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
+        "a": "Absolument. Tous les traitements audio sont effectués dans votre navigateur, et nous ne collectons, stockons ou transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
       }
     ]
   }

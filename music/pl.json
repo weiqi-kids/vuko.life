@@ -5,9 +5,9 @@
     "tag": [
       "Misa śpiewająca",
       "miska śpiewająca",
-      "Medytacja",
       "medytacja",
-      "Uzdrawianie"
+      "medytacja",
+      "uzdrawianie"
     ],
     "desc": "Dźwięk misy śpiewającej jako główna melodia, łagodny rezonans, odpowiedni do medytacji i uzdrawiających pejzaży dźwiękowych.",
     "embedding": [
@@ -403,11 +403,11 @@
     "tag": [
       "Gitara",
       "gitara",
-      "Delikatny",
       "akustyczny",
-      "Relaks"
+      "akustyczny",
+      "relaks"
     ],
-    "desc": "Delikatna gitara jako główny element, wsparta lekkimi podkładami dźwiękowymi, odpowiednia do relaksu i koncentracji.",
+    "desc": "Delikatna gitara jako główny motyw, wspierana przez łagodne podkłady dźwiękowe, odpowiednia do relaksu i koncentracji.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -805,7 +805,7 @@
       "Ziemia",
       "uziemienie"
     ],
-    "desc": "Zainspirowane elementem ziemi, łączy naturalne niskie częstotliwości i dźwięki otoczenia, podkreślając stabilność i spokój.",
+    "desc": "Zainspirowane elementem ziemi, łączy niskie częstotliwości natury i dźwięki otoczenia, podkreślając stabilność i spokój.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1203,7 +1203,7 @@
       "czakra",
       "Pewność siebie"
     ],
-    "desc": "Temat splotu słonecznego, symbolizuje witalność, wolę i centrum energii, ciepłą i jasną atmosferę.",
+    "desc": "Temat splotu słonecznego, symbolizujący witalność, wolę i centrum energii, atmosfera ciepła i światła.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "pokój",
       "Natura"
     ],
-    "desc": "Symuluje spokój i rozległość gór, podkreślając spokój ducha dźwiękami naturalnego otoczenia.",
+    "desc": "Symulacja spokoju i przestrzeni w górach, podkreślająca spokój ducha za pomocą dźwięków naturalnego otoczenia.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -2397,7 +2397,7 @@
       "witalność",
       "las"
     ],
-    "desc": "Zainspirowane elementem drewna, łączy dźwięki wiatru w lesie i naturalne dźwięki drzew, ukazując witalność.",
+    "desc": "Zainspirowane elementem drewna, połączone z dźwiękami wiatru w lesie i naturalnymi dźwiękami drzew, ukazuje witalność.",
     "embedding": [
       0.030727757140994072,
       0.07157044112682343,
@@ -2795,7 +2795,7 @@
       "Natura",
       "Stabilność"
     ],
-    "desc": "Dźwięki lasu, śpiew ptaków i szum liści tworzą naturalną, stabilną atmosferę.",
+    "desc": "Dźwięki lasu, śpiew ptaków i szum liści tworzą naturalną i stabilną atmosferę.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3193,7 +3193,7 @@
       "Przepływ",
       "Świeżość"
     ],
-    "desc": "Dźwięki płynącej wody i strumienia tworzą świeży, płynny nastrój.",
+    "desc": "Dźwięki płynącej wody i strumienia tworzą świeży i płynny nastrój.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -3985,11 +3985,11 @@
     "tag": [
       "Ogień",
       "fire",
-      "Energia",
-      "Pasja",
+      "energia",
+      "pasja",
       "element"
     ],
-    "desc": "Temat przewodni to element ognia, wpleciono naturalne efekty dźwiękowe jak płomienie i ognisko, symbolizujące energię i transformację.",
+    "desc": "Temat ognia jako elementu, z wplecionymi dźwiękami natury jak płomienie i ognisko, symbolizuje energię i transformację.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4383,11 +4383,11 @@
     "tag": [
       "Dźwięki natury",
       "nature sounds",
-      "Dźwięki otoczenia",
-      "Czysta natura",
+      "dźwięki otoczenia",
+      "czysta natura",
       "ambient"
     ],
-    "desc": "Czysty dźwięk otoczenia bez instrumentów czy głosów, idealny do medytacji, relaksu i naturalnego uzdrawiania.",
+    "desc": "Czysty pejzaż dźwiękowy natury, bez instrumentów czy głosów, idealny do medytacji, relaksu i naturalnego uzdrawiania.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4783,7 +4783,7 @@
       "third eye chakra",
       "Duchowość",
       "czakra",
-      "Intuicja"
+      "intuicja"
     ],
     "desc": "Medytacyjny pejzaż dźwiękowy czakry trzeciego oka, podkreślający otwarcie duchowości i intuicji, odpowiedni do głębokiej świadomości.",
     "embedding": [
@@ -5577,11 +5577,11 @@
     "tag": [
       "Czakra gardła",
       "czakra gardła",
-      "Komunikacja",
+      "komunikacja",
       "czakra",
-      "Wolność"
+      "wolność"
     ],
-    "desc": "Pejzaż dźwiękowy czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
+    "desc": "Pejzaż dźwiękowy tematyczny czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -7969,7 +7969,7 @@
       "Przyroda",
       "Energia"
     ],
-    "desc": "Dźwięki grzmotu i deszczu tworzą środowisko pełne energii i uwolnienia.",
+    "desc": "Dźwięki grzmotu i deszczu tworzą pejzaż dźwiękowy pełen energii i uwolnienia.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8367,7 +8367,7 @@
       "czakra",
       "Światło"
     ],
-    "desc": "Dźwięki związane z czakrą korony symbolizują przebudzenie duchowe, wzrost duchowy i światło.",
+    "desc": "Pejzaż dźwiękowy czakry korony symbolizuje duchowe przebudzenie, wzrost duchowy i światło.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8765,7 +8765,7 @@
       "Eteryczny",
       "ambient"
     ],
-    "desc": "Eteryczny pejzaż dźwiękowy z dominującym szumem wiatru, płynący i odległy, odpowiedni do relaksu, medytacji i koncentracji.",
+    "desc": "Eteryczny pejzaż dźwiękowy z dominującym szumem wiatru, płynący i odległy, idealny do relaksu, medytacji i koncentracji.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,
@@ -9163,7 +9163,7 @@
       "Leczniczy",
       "relaksujący"
     ],
-    "desc": "Delikatny pejzaż dźwiękowy ozdobiony dźwiękiem dzwonków wietrznych, eteryczny i leczniczy, odpowiedni do relaksu i odprężenia przed snem.",
+    "desc": "Delikatny pejzaż dźwiękowy ozdobiony dźwiękiem dzwonków wietrznych, eteryczny i leczniczy, idealny do relaksu i odprężenia przed snem.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

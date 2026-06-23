@@ -803,9 +803,9 @@
       "earth",
       "Natureza",
       "Terra",
-      "aterramento"
+      "grounding"
     ],
-    "desc": "Inspirado no elemento terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
+    "desc": "Inspirado nos elementos da terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1198,7 +1198,7 @@
     "title": "Chakra do Plexo Solar",
     "tag": [
       "Chakra do Plexo Solar",
-      "chakra do plexo solar",
+      "solar plexus chakra",
       "Energia",
       "chakra",
       "Confiança"
@@ -1596,7 +1596,7 @@
     "title": "Montanha",
     "tag": [
       "Montanha",
-      "montanha",
+      "mountain",
       "Tranquilidade",
       "paz",
       "Natureza"
@@ -2795,7 +2795,7 @@
       "Natureza",
       "Estabilidade"
     ],
-    "desc": "Paisagem sonora da floresta, canto dos pássaros e som das folhas, criando uma atmosfera natural e estável.",
+    "desc": "Paisagem sonora da floresta, com canto de pássaros e som de folhas farfalhando, criando uma atmosfera natural e estável.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3189,11 +3189,11 @@
     "tag": [
       "Água",
       "água",
-      "Água corrente",
-      "Fluxo",
+      "Fluxo de água",
+      "Fluir",
       "Fresco"
     ],
-    "desc": "Com a água corrente e o som do riacho como tema principal, apresenta um estado de espírito fresco e fluido.",
+    "desc": "Com o fluxo de água e o som do riacho como tema principal, apresenta um estado de espírito fresco e fluido.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -4383,11 +4383,11 @@
     "tag": [
       "sons ambientais",
       "sons da natureza",
-      "som ambiente",
-      "natureza pura",
+      "sons ambientais",
+      "puramente natural",
       "ambiente"
     ],
-    "desc": "Paisagem sonora de ambiente natural puro, sem instrumentos ou vozes, adequada para meditação, relaxamento e cura natural.",
+    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes humanas, adequada para meditação, relaxamento e cura natural.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -5975,7 +5975,7 @@
     "tag": [
       "Chakra Sacral",
       "chakra sacral",
-      "emoções",
+      "emoção",
       "chakra",
       "fluxo"
     ],
@@ -6775,7 +6775,7 @@
       "Harmonia",
       "relaxante"
     ],
-    "desc": "Melodia principal de piano suave, acompanhada por um acompanhamento tranquilo, trazendo uma sensação de paz e conforto.",
+    "desc": "Melodia principal de piano suave, acompanhada por um acompanhamento tranquilo, proporcionando uma sensação de paz e conforto.",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -7571,7 +7571,7 @@
       "xiao",
       "Fluxo"
     ],
-    "desc": "Melodia principal de flauta e xiao, fluindo distante, criando um estado de espírito etéreo e profundo.",
+    "desc": "Melodia principal de flauta e xiao, fluindo de forma distante, criando um estado de espírito etéreo e profundo.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -7961,13 +7961,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "trovão",
+    "title": "Trovão",
     "tag": [
-      "trovão",
+      "Trovão",
       "thunder",
-      "natureza",
-      "natureza",
-      "energia"
+      "Natureza",
+      "Natureza",
+      "Energia"
     ],
     "desc": "O som do trovão e da chuva natural cria uma paisagem sonora cheia de energia e liberação.",
     "embedding": [
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "chakra coronário",
+    "title": "Chakra da Coroa",
     "tag": [
-      "chakra coronário",
+      "Chakra da Coroa",
       "crown chakra",
-      "despertar",
+      "Despertar",
       "chakra",
-      "luz"
+      "Luz"
     ],
-    "desc": "Paisagem sonora temática do chakra coronário, simbolizando o despertar espiritual, a elevação espiritual e a luz.",
+    "desc": "Paisagem sonora temática do chakra da coroa, simbolizando o despertar espiritual, a elevação espiritual e a luz.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8757,9 +8757,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
-    "title": "vento",
+    "title": "Vento",
     "tag": [
-      "vento",
+      "Vento",
       "wind",
       "Natureza",
       "Etéreo",

@@ -4387,7 +4387,7 @@
       "naturaleza pura",
       "ambiente"
     ],
-    "desc": "Paisaje sonoro de ambiente natural puro, sin instrumentos ni voces, adecuado para meditación, relajación y sanación natural.",
+    "desc": "Paisaje sonoro de pura naturaleza, sin instrumentos ni voces humanas, ideal para meditación, relajación y sanación natural.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuición"
     ],
-    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatizando la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
+    "desc": "Paisaje sonoro de meditación del tercer ojo, enfatiza la apertura espiritual e intuitiva, adecuado para una profunda percepción.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5181,7 +5181,7 @@
       "Tambor de baja frecuencia",
       "tambor chamánico",
       "tambor de marco",
-      "Conexión a tierra"
+      "conexión a tierra"
     ],
     "desc": "Ritmo estable del tambor chamánico de baja frecuencia, ayuda a entrar en una meditación profunda y percepción corporal.",
     "embedding": [
@@ -5581,7 +5581,7 @@
       "chakra",
       "Libertad"
     ],
-    "desc": "Paisaje sonoro temático del chakra de la garganta, creando un espacio para el flujo de energía suave y la expresión libre.",
+    "desc": "Paisaje sonoro temático del chakra de la garganta, crea un espacio para el flujo de energía suave y la expresión libre.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -7563,7 +7563,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flauta y xiao",
+    "title": "Flauta y Xiao",
     "tag": [
       "Flauta",
       "Xiao",
@@ -8367,7 +8367,7 @@
       "chakra",
       "luz"
     ],
-    "desc": "Paisaje sonoro del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
+    "desc": "Paisaje sonoro temático del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,

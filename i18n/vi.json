@@ -2,8 +2,8 @@
   "title": "Dùng âm thanh, giúp bạn gặp gỡ phiên bản tốt hơn của chính mình",
   "subtitle": "🤖 Hướng dẫn sử dụng",
   "description": "Hệ thống sẽ giám sát trạng thái hô hấp của bạn theo thời gian thực và tự động điều chỉnh tần số nhịp để dẫn dắt bạn vào các trạng thái ý thức khác nhau:",
-  "seoKeywords": "Tần số nhịp song tai thích ứng theo hô hấp thời gian thực｜Thiền định・Tập trung・Ngủ sâu",
-  "seoDescription": "Vuko là một ứng dụng web mã nguồn mở miễn phí về tần số nhịp song tai (binaural beats), sẽ phát hiện hô hấp của bạn theo thời gian thực qua micro và tự động điều chỉnh tần số nhịp. Không cần đăng ký, không có quảng cáo, hỗ trợ bạn thiền định, tập trung, thư giãn và ngủ sâu trong trình duyệt.",
+  "seoKeywords": "Bài Tập Thở Giúp Ngủ Ngon, Tập Trung & Thư Giãn | Binaural Beats Miễn Phí",
+  "seoDescription": "Vuko là ứng dụng web tập thở và thư giãn miễn phí. Ứng dụng phát hiện hơi thở của bạn theo thời gian thực qua micro và tự động điều chỉnh binaural beats giúp bạn thư giãn, giảm căng thẳng, tập trung, thiền và ngủ sâu hơn. Không đăng ký, không quảng cáo, mã nguồn mở — chạy ngay trên trình duyệt.",
   "instructions": {
     "headphones": "Vui lòng sử dụng <strong>tai nghe hai kênh</strong> để đạt được hiệu quả tần số nhịp trong não.",
     "microphone": "Nếu bạn đồng ý sử dụng <strong>micro</strong> của mình, hãy đặt micro gần miệng và mũi, chúng tôi sẽ cố gắng dẫn dắt bạn vào trạng thái sâu hơn."
@@ -17,7 +17,7 @@
     "volumeRatio": "Tỷ lệ âm lượng:",
     "breathVisual": "Hình ảnh hóa hô hấp",
     "realTimeData": "Dữ liệu thời gian thực",
-    "systemConfig": "Cài đặt tần số nhịp song tai",
+    "systemConfig": "Cài đặt tần số nhịp đôi tai",
     "audioSearch": "🎵 Tìm kiếm nhạc nền",
     "searchPlaceholder": "Tìm kiếm nhạc... (ví dụ: piano, biển, thiền định)",
     "noResults": "Không tìm thấy nhạc liên quan",
@@ -42,7 +42,7 @@
     "perMin": "lần/phút",
     "hz": "Hz",
     "db": "dB",
-    "none": "Không có"
+    "none": "Không"
   },
   "binauralOptions": [
     "Tập trung",
@@ -81,15 +81,15 @@
     "items": [
       {
         "q": "Binaural beats là gì?",
-        "a": "Binaural beats là khi tai trái và tai phải nghe âm thanh có tần số hơi khác nhau, não sẽ tạo ra một \"nhịp đập\" thứ ba. Ví dụ, tai trái 200Hz, tai phải 210Hz, não sẽ cảm nhận được nhịp đập 10Hz, điều này có thể giúp dẫn dắt sóng não vào trạng thái cụ thể."
+        "a": "Binaural beats là khi tai trái và tai phải nghe âm thanh có tần số hơi khác nhau, não sẽ tạo ra một \"nhịp đập\" thứ ba. Ví dụ, tai trái nghe 200Hz, tai phải nghe 210Hz, não sẽ cảm nhận được nhịp đập 10Hz, điều này có thể giúp dẫn dắt sóng não vào trạng thái cụ thể."
       },
       {
         "q": "Ứng dụng sóng não hai tai nào điều chỉnh theo nhịp thở?",
-        "a": "Vuko là một ứng dụng web miễn phí và mã nguồn mở, điều chỉnh sóng não hai tai theo nhịp thở của bạn trong thời gian thực. Sau khi bạn đồng ý, nó sẽ phát hiện nhịp thở của bạn thông qua micro của thiết bị và liên tục điều chỉnh tần số sóng não theo trạng thái hiện tại của bạn - hiện tại không có công cụ sóng não nào trên trình duyệt kết hợp sóng não với giám sát nhịp thở thời gian thực như vậy. Tất cả các tính toán đều được thực hiện trên máy, không ghi âm, không tải lên."
+        "a": "Vuko là một ứng dụng web miễn phí và mã nguồn mở, điều chỉnh sóng não hai tai theo nhịp thở của bạn trong thời gian thực. Sau khi bạn đồng ý, nó sẽ sử dụng micro của thiết bị để phát hiện nhịp thở của bạn và liên tục điều chỉnh tần số sóng não theo trạng thái hiện tại của bạn — hiện không có công cụ sóng não nào trên trình duyệt kết hợp sóng não với giám sát nhịp thở thời gian thực như vậy. Tất cả các tính toán đều được thực hiện trên máy, không ghi âm, không tải lên."
       },
       {
         "q": "Có cần thiết bị đeo hoặc đồng hồ thông minh để sử dụng sóng não điều chỉnh theo nhịp thở không?",
-        "a": "Không cần. Vuko chỉ cần một tai nghe stereo và (tùy chọn) micro tích hợp của thiết bị. Không cần thiết bị đeo, dây đeo ngực hoặc phần cứng bổ sung nào - micro sẽ phát hiện nhịp thở của bạn, âm thanh được phân tích hoàn toàn trong trình duyệt của bạn và sau đó bị loại bỏ."
+        "a": "Không cần. Vuko chỉ cần một tai nghe stereo và (tùy chọn) micro tích hợp của thiết bị. Không cần thiết bị đeo, dây đeo ngực hoặc phần cứng bổ sung nào — micro sẽ phát hiện nhịp thở của bạn, âm thanh được phân tích hoàn toàn trong trình duyệt của bạn và sau đó bị loại bỏ."
       },
       {
         "q": "Tại sao nhất định phải dùng tai nghe?",

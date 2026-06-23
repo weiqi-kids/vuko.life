@@ -2,8 +2,8 @@
   "title": "用声音，带你遇见更好的自己",
   "subtitle": "🤖 使用说明",
   "description": "系统会实时监测你的呼吸状态，并自动调整拍频来引导你进入不同的意识状态：",
-  "seoKeywords": "实时呼吸自适应双耳拍频｜冥想・专注・深层睡眠",
-  "seoDescription": "Vuko 是免费开源的双耳拍频（binaural beats）网页 App，会通过麦克风实时侦测你的呼吸并自动调整拍频。免注册、无广告，在浏览器中助你冥想、专注、放松与深层睡眠。",
+  "seoKeywords": "呼吸练习 App・助眠放松音乐｜减压・专注冥想・深层睡眠・呼吸自适应双耳拍频",
+  "seoDescription": "Vuko 是免费的呼吸练习与助眠放松网页 App：通过麦克风实时侦测你的呼吸，自动调整双耳拍频（binaural beats），引导你放松、减压、专注、冥想与深层睡眠。免注册、无广告、开源，打开浏览器就能用。",
   "instructions": {
     "headphones": "请使用<strong>双声道耳机</strong>，这样才能达成脑中拍频的效果。",
     "microphone": "若您同意使用您的<strong>麦克风</strong>，请将麦克风靠近口鼻，我们会尝试引导您进入更深层的状态。"
@@ -16,7 +16,7 @@
     "audioFile": "背景音档：",
     "volumeRatio": "音量比例：",
     "breathVisual": "呼吸视觉化",
-    "realTimeData": "实时数据",
+    "realTimeData": "即时数据",
     "systemConfig": "双耳拍频设置",
     "audioSearch": "🎵 背景音乐搜索",
     "searchPlaceholder": "搜索音乐... (例如: 钢琴、海、冥想)",

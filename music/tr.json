@@ -407,7 +407,7 @@
       "akustik",
       "Rahatlama"
     ],
-    "desc": "Nazik gitar ana enstrüman olarak, hafif ses yastıkları ile desteklenmiş, rahatlama ve odaklanma için uygundur.",
+    "desc": "Nazik gitar ana enstrüman olarak, hafif ses yastıklarıyla desteklenmiş, rahatlama ve odaklanma için uygundur.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -1198,7 +1198,7 @@
     "title": "Güneş Sinir Ağı Çakrası",
     "tag": [
       "Güneş Sinir Ağı Çakrası",
-      "solar plexus çakra",
+      "solar plexus çakrası",
       "Enerji",
       "çakra",
       "Özgüven"
@@ -5183,7 +5183,7 @@
       "çerçeve davul",
       "topraklama"
     ],
-    "desc": "Düşük frekanslı şaman davulu sabit ritmi, derin meditasyon ve beden farkındalığına yardımcı olur.",
+    "desc": "Düşük frekanslı şaman davulu sabit ritmi, derin meditasyon ve bedensel farkındalığa yardımcı olur.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -5581,7 +5581,7 @@
       "çakra",
       "özgürlük"
     ],
-    "desc": "Boğaz çakrası temalı ses manzarası, enerjinin akıcı bir şekilde hareket etmesini ve özgürce ifade edilmesini sağlar.",
+    "desc": "Boğaz çakrası temalı ses manzarası, enerjinin akıcı bir şekilde hareket etmesi ve özgür ifade için bir alan yaratır.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -6377,7 +6377,7 @@
       "berraklık",
       "berraklık"
     ],
-    "desc": "Altın elementi teması, ses tonu berrak ve parlak olup, saf ve eterik bir atmosfer yaratır.",
+    "desc": "Altın elementi teması, ses tonu berrak ve parlak, saf ve eterik bir atmosfer yaratır.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -6771,11 +6771,11 @@
     "tag": [
       "Piyano",
       "piyano",
-      "nazik",
-      "uyum",
+      "Nazik",
+      "Uyum",
       "rahatlatıcı"
     ],
-    "desc": "Nazik piyano ana melodisi, rahatlatıcı bir eşlik ile birleşerek huzurlu ve konforlu bir his yaratır.",
+    "desc": "Nazik piyano ana melodisi, rahatlatıcı bir eşlik ile huzurlu ve konforlu bir his yaratır.",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "çelik çubuk",
+    "title": "Çan piyano diyapazonu",
     "tag": [
-      "çelik",
-      "çubuk",
+      "Çan piyano",
+      "Diyapazon",
       "glockenspiel",
       "akort çatalı",
-      "eteryal"
+      "Ethereal"
     ],
-    "desc": "Çelik çubuk ve akort çatalının eteryal sesleri meditasyon, temizlik ve odaklanma için uygundur.",
+    "desc": "Çan piyano ve diyapazonun eterik sesleri meditasyon, temizlik ve odaklanma için uygundur.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "flüt ve xiao",
+    "title": "Flüt ve Xiao",
     "tag": [
+      "Flüt",
+      "Xiao",
       "flüt",
       "xiao",
-      "flüt",
-      "xiao",
-      "akış"
+      "Akış"
     ],
-    "desc": "Flüt ve xiao ana melodisi, uzak ve akıcı bir şekilde eteryal ve derin bir ruh hali yaratır.",
+    "desc": "Flüt ve Xiao ana melodisi, uzak ve akıcı, eterik ve derin bir ruh hali yaratır.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -7961,15 +7961,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Gök gürültüsü",
+    "title": "gök gürültüsü",
     "tag": [
-      "Gök gürültüsü",
+      "gök gürültüsü",
       "thunder",
-      "Doğa",
-      "Doğa",
-      "Enerji"
+      "doğa",
+      "doğa",
+      "enerji"
     ],
-    "desc": "Gök gürültüsü ve doğal yağmur sesi, enerji dolu ve rahatlatıcı bir ortam sesi yaratır.",
+    "desc": "Gök gürültüsü ve doğal yağmur sesi, enerji dolu ve rahatlatıcı bir ortam ses manzarası yaratır.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8359,13 +8359,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Taç çakra",
+    "title": "taç çakra",
     "tag": [
-      "Taç çakra",
+      "taç çakra",
       "crown chakra",
-      "Uyanış",
+      "uyanış",
       "çakra",
-      "Aydınlık"
+      "aydınlık"
     ],
     "desc": "Taç çakra temalı ses manzarası, ruhsal uyanışı, manevi yükselişi ve aydınlığı simgeler.",
     "embedding": [
@@ -8757,9 +8757,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
-    "title": "Rüzgar",
+    "title": "rüzgar",
     "tag": [
-      "Rüzgar",
+      "rüzgar",
       "wind",
       "Doğa",
       "Ethereal",
@@ -9163,7 +9163,7 @@
       "Şifa",
       "rahatlatıcı"
     ],
-    "desc": "Tiz rüzgar çanı sesleriyle süslenmiş hafif bir ses manzarası, eterik ve iyileştirici, rahatlama ve uyku öncesi gevşeme için uygundur.",
+    "desc": "Tiz rüzgar çanı sesleriyle süslenmiş hafif bir ses manzarası, eterik ve şifalı, rahatlama ve uyku öncesi gevşeme için uygundur.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

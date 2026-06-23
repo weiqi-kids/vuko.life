@@ -1,42 +1,42 @@
 {
   "title": "Dengan suara, temui diri anda yang lebih baik",
   "subtitle": "🤖 Arahan Penggunaan",
-  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan menyesuaikan frekuensi ketukan secara automatik untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
-  "seoKeywords": "Frekuensi Ketukan Binaural Penyesuaian Pernafasan Masa Nyata｜Meditasi・Fokus・Tidur Mendalam",
-  "seoDescription": "Vuko adalah aplikasi web binaural beats sumber terbuka percuma yang mengesan pernafasan anda secara masa nyata melalui mikrofon dan menyesuaikan frekuensi ketukan secara automatik. Tanpa pendaftaran, tiada iklan, membantu anda bermeditasi, fokus, berehat dan tidur mendalam dalam pelayar.",
+  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan secara automatik menyesuaikan frekuensi ketukan untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
+  "seoKeywords": "Latihan Pernafasan untuk Tidur, Fokus & Relaksasi | Binaural Beats Percuma",
+  "seoDescription": "Vuko ialah aplikasi web pernafasan dan relaksasi percuma. Ia mengesan nafas anda secara masa nyata melalui mikrofon dan menala binaural beats secara automatik untuk membantu anda bertenang, redakan tekanan, fokus, bermeditasi dan tidur lena. Tanpa pendaftaran, tanpa iklan, sumber terbuka — terus dalam pelayar.",
   "instructions": {
     "headphones": "Sila gunakan <strong>fon kepala stereo</strong> untuk mencapai kesan frekuensi ketukan dalam otak.",
     "microphone": "Jika anda bersetuju untuk menggunakan <strong>mikrofon</strong> anda, sila letakkan mikrofon berhampiran mulut dan hidung, kami akan cuba membimbing anda ke dalam keadaan yang lebih mendalam."
   },
-  "volumeRatioDetail": "Frekuensi Ketukan {binaural}% / Bunyi Latar {background}%",
+  "volumeRatioDetail": "Frekuensi ketukan {binaural}% / Bunyi latar {background}%",
   "labels": {
-    "breathRate": "Kadar Pernafasan:",
-    "noiseLevel": "Bunyi Latar:",
-    "baseFreq": "Frekuensi Asas:",
-    "audioFile": "Fail Bunyi Latar:",
-    "volumeRatio": "Nisbah Kelantangan:",
-    "breathVisual": "Visualisasi Pernafasan",
-    "realTimeData": "Data Masa Nyata",
-    "systemConfig": "Tetapan Frekuensi Ketukan Binaural",
+    "breathRate": "Kadar pernafasan:",
+    "noiseLevel": "Bunyi latar belakang:",
+    "baseFreq": "Frekuensi asas:",
+    "audioFile": "Fail bunyi latar:",
+    "volumeRatio": "Nisbah kelantangan:",
+    "breathVisual": "Visualisasi pernafasan",
+    "realTimeData": "Data masa nyata",
+    "systemConfig": "Tetapan frekuensi ketukan binaural",
     "audioSearch": "🎵 Carian Muzik Latar",
     "searchPlaceholder": "Cari muzik... (contoh: piano, laut, meditasi)",
     "noResults": "Tiada muzik berkaitan ditemui",
-    "currentMusic": "Pilihan Semasa",
+    "currentMusic": "Pilihan semasa",
     "deviceTest": "Ujian Peralatan",
     "libraryTab": "Perpustakaan Audio Dalam Talian",
     "localFileTab": "Fail Tempatan",
-    "filePrivacyMsg": "Fail audio hanya diproses secara tempatan, tidak akan dimuat naik."
+    "filePrivacyMsg": "Fail audio hanya diproses di mesin ini, tidak akan dimuat naik."
   },
   "buttons": {
     "start": "🎶 Mula",
     "stop": "🍂 Berhenti"
   },
   "status": {
-    "monitoring": "🎙️ Memantau pernafasan... Sila bernafas secara semula jadi",
-    "stopped": "Pemantauan telah dihentikan",
+    "monitoring": "🎙️ Memantau Pernafasan... Sila bernafas secara semula jadi",
+    "stopped": "Pemantauan Dihentikan",
     "error": "❌ Tidak dapat dimulakan:",
     "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, tidak dapat menggunakan pemantauan pernafasan",
-    "waiting": "Menunggu pengesanan"
+    "waiting": "Menunggu Pengesanan"
   },
   "units": {
     "perMin": "kali/min",
@@ -59,16 +59,16 @@
   },
   "binauralDescriptions": {
     "專注": "Gelombang Alpha 10Hz, membantu memasuki keadaan fokus, sesuai untuk kerja dan pembelajaran",
-    "冥想": "Gelombang Theta 7Hz, membimbing relaksasi mendalam, sesuai untuk meditasi",
+    "冥想": "Gelombang Theta 7Hz, membimbing relaksasi mendalam, sesuai untuk meditasi duduk",
     "舒曼共振": "Frekuensi semula jadi bumi 7.83Hz, mengimbangi tenaga badan dan minda",
     "睡眠": "Gelombang Delta 3Hz, membantu tidur dengan cepat",
-    "提神": "Gelombang Beta 15Hz, meningkatkan tenaga mental",
+    "提神": "Gelombang Beta 15Hz, meningkatkan kecergasan mental",
     "激發靈感": "Gelombang Gamma 40Hz, meningkatkan pemikiran kreatif"
   },
   "trust": {
     "free": "Sepenuhnya percuma, tiada pendaftaran diperlukan",
-    "openSource": "Projek sumber terbuka",
-    "privacy": "Audio diproses hanya di peranti, tidak dimuat naik ke pelayan"
+    "openSource": "Projek Sumber Terbuka",
+    "privacy": "Audio hanya diproses secara tempatan, tidak dimuat naik ke pelayan"
   },
   "share": {
     "title": "Kongsi",

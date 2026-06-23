@@ -1,12 +1,12 @@
 {
-  "title": "Con la voz, te encuentras con un mejor tú",
+  "title": "Con la voz, te encuentras con una mejor versión de ti mismo",
   "subtitle": "🤖 Instrucciones de uso",
   "description": "El sistema monitoreará en tiempo real tu estado de respiración y ajustará automáticamente la frecuencia de los latidos para guiarte a diferentes estados de conciencia:",
-  "seoKeywords": "Frecuencia de latidos binaurales adaptativa a la respiración en tiempo real｜Meditación・Concentración・Sueño profundo",
-  "seoDescription": "Vuko es una aplicación web gratuita y de código abierto de latidos binaurales que detecta en tiempo real tu respiración a través del micrófono y ajusta automáticamente la frecuencia de los latidos. Sin registro, sin anuncios, te ayuda a meditar, concentrarte, relajarte y dormir profundamente en el navegador.",
+  "seoKeywords": "Ejercicios de respiración para dormir y relajarse · Binaural beats gratis",
+  "seoDescription": "Vuko es una app web gratuita de respiración, relajación y sueño. Detecta tu respiración en tiempo real con el micrófono y ajusta los binaural beats para ayudarte a relajarte, reducir el estrés, concentrarte, meditar y dormir profundamente. Sin registro, sin anuncios y de código abierto, directo en tu navegador.",
   "instructions": {
-    "headphones": "Por favor, usa <strong>auriculares estéreo</strong> para lograr el efecto de latidos en el cerebro.",
-    "microphone": "Si aceptas usar tu <strong>micrófono</strong>, colócalo cerca de tu boca y nariz, intentaremos guiarte a un estado más profundo."
+    "headphones": "Por favor, usa <strong>auriculares estéreo</strong> para lograr el efecto de frecuencia de latidos en el cerebro.",
+    "microphone": "Si aceptas usar tu <strong>micrófono</strong>, acércalo a tu boca y nariz, intentaremos guiarte a un estado más profundo."
   },
   "volumeRatioDetail": "Frecuencia de latidos {binaural}% / Sonido de fondo {background}%",
   "labels": {
@@ -19,7 +19,7 @@
     "realTimeData": "Datos en tiempo real",
     "systemConfig": "Configuración de latidos binaurales",
     "audioSearch": "🎵 Búsqueda de música de fondo",
-    "searchPlaceholder": "Buscar música... (por ejemplo: piano, mar, meditación)",
+    "searchPlaceholder": "Buscando música... (por ejemplo: piano, mar, meditación)",
     "noResults": "No se encontró música relacionada",
     "currentMusic": "Selección actual",
     "deviceTest": "Prueba de equipo",
@@ -81,11 +81,11 @@
     "items": [
       {
         "q": "¿Qué es la frecuencia binaural?",
-        "a": "La frecuencia binaural es cuando el cerebro genera una tercera \"frecuencia de latido\" al escuchar sonidos de frecuencias ligeramente diferentes en cada oído. Por ejemplo, si el oído izquierdo escucha 200Hz y el derecho 210Hz, el cerebro percibirá una frecuencia de latido de 10Hz, lo que puede ayudar a guiar las ondas cerebrales a un estado específico."
+        "a": "La frecuencia binaural ocurre cuando los oídos izquierdo y derecho escuchan sonidos de frecuencias ligeramente diferentes, el cerebro genera una tercera \"frecuencia binaural\". Por ejemplo, si el oído izquierdo escucha 200Hz y el derecho 210Hz, el cerebro percibirá una frecuencia binaural de 10Hz, lo que puede ayudar a guiar las ondas cerebrales a un estado específico."
       },
       {
-        "q": "¿Qué aplicación de latidos binaurales se ajusta con la respiración?",
-        "a": "Vuko es una aplicación web gratuita y de código abierto que ajusta en tiempo real los latidos binaurales según tu respiración. Con tu consentimiento, detecta el ritmo de tu respiración a través del micrófono del dispositivo y ajusta continuamente los latidos a tu estado actual. Actualmente, no hay otras herramientas de latidos binaurales en el navegador que combinen latidos con monitoreo de respiración en tiempo real de esta manera. Todos los cálculos se realizan localmente, sin grabación ni carga."
+        "q": "¿Qué aplicación de latidos binaurales se ajusta a la respiración?",
+        "a": "Vuko es una aplicación web gratuita y de código abierto que ajusta en tiempo real los latidos binaurales según tu respiración. Con tu consentimiento, detecta el ritmo de tu respiración a través del micrófono del dispositivo y ajusta continuamente los latidos a tu estado actual. Actualmente, no hay otra herramienta de latidos binaurales en el navegador que combine latidos con monitoreo de respiración en tiempo real de esta manera. Todo el procesamiento se realiza localmente, sin grabación ni carga de datos."
       },
       {
         "q": "¿Se necesita un dispositivo portátil o un reloj inteligente para usar la frecuencia de latidos adaptativa a la respiración?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "¿Mis datos están seguros?",
-        "a": "Absolutamente seguros. Todo el procesamiento de audio se realiza en tu navegador. No recopilamos, almacenamos ni transmitimos ningún dato de audio. Es una aplicación completamente del lado del cliente, sin servidores de backend."
+        "a": "Absolutamente seguros. Todo el procesamiento de audio se realiza en tu navegador, no recopilamos, almacenamos ni transmitimos ningún dato de audio. Es una aplicación completamente de frontend, sin servidor backend."
       }
     ]
   }
