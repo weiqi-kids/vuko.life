@@ -39,8 +39,24 @@ function getUserId() {
   }
 }
 
+// 偵測自動化／無頭瀏覽器（Playwright / Selenium / Puppeteer 等）。
+// CI 的截圖工作（.github/scripts/screenshot.py）會用 Playwright 載入線上站台並觸發
+// GA，這些來自資料中心的命中會污染本來就很小的樣本（GA4 顯示為 Unassigned /
+// 資料中心城市），因此自動化流量一律不初始化 GA。
+function isAutomatedBrowser() {
+    try {
+        if (navigator.webdriver) return true;
+        if (/HeadlessChrome|PhantomJS|Puppeteer|Playwright|Selenium|\bbot\b|crawler|spider/i.test(navigator.userAgent || '')) return true;
+    } catch (e) {}
+    return false;
+}
+
 function initGoogleAnalytics() {
     if (!CONFIG.GOOGLE_ANALYTICS.ENABLE_TRACKING || !CONFIG.GOOGLE_ANALYTICS.GA_ID || gaInitialized) {
+        return;
+    }
+
+    if (isAutomatedBrowser()) {
         return;
     }
 
