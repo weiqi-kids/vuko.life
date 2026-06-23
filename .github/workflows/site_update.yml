@@ -109,6 +109,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
+          # Check out the tip of main, which includes the commit the translate
+          # job just pushed — otherwise this job's own commit/push lands on a
+          # stale base and is rejected non-fast-forward.
+          ref: main
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
@@ -170,6 +174,9 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
+          # Tip of main (incl. translate's + embedding's pushed commits) so this
+          # job's screenshot-summary commit pushes fast-forward.
+          ref: main
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
