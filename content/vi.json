@@ -2,8 +2,8 @@
   "intro": {
     "h2": "Vuko là gì?",
     "p": [
-      "Vuko là một ứng dụng web nhịp song nhĩ (binaural beats) miễn phí và mã nguồn mở, chạy trực tiếp trên trình duyệt của bạn — không cần cài đặt, không cần tài khoản, không quảng cáo. Chỉ cần đeo tai nghe, chọn trạng thái bạn mong muốn, và Vuko sẽ tạo ra những tần số hai âm chính xác theo thời gian thực, nhẹ nhàng dẫn dắt não bộ của bạn vào trạng thái tập trung, thiền định, thư giãn hoặc giấc ngủ sâu.",
-      "Điều làm nên sự khác biệt của Vuko là nó không chỉ phát một bản âm thanh cố định. Nếu bạn cho phép truy cập micro, Vuko sẽ lắng nghe hơi thở của bạn theo thời gian thực và điều chỉnh nhịp âm thanh theo đúng trạng thái thực tế của bạn — tạo nên một vòng phản hồi khép kín giữa cơ thể bạn và âm thanh. Chúng tôi không tìm thấy một công cụ nào khác kết hợp được nhịp song nhĩ với việc theo dõi hơi thở trực tiếp ngay trên trình duyệt, và đó chính là khoảng trống mà Vuko lấp đầy."
+      "Vuko là một ứng dụng web tập thở và thư giãn miễn phí, mã nguồn mở, chạy trực tiếp trên trình duyệt của bạn — không cần cài đặt, không cần tài khoản, không quảng cáo. Nó kết hợp bộ tạo binaural beats với khả năng phát hiện hơi thở theo thời gian thực để giúp bạn thư thái trước khi ngủ, giữ tập trung khi làm việc, giảm căng thẳng và lo âu, hoặc đi sâu vào thiền định. Chỉ cần đeo tai nghe, chọn trạng thái bạn mong muốn, và Vuko sẽ tạo ra những tần số hai âm chính xác, nhẹ nhàng dẫn dắt não bộ của bạn vào trạng thái tập trung, thư giãn hoặc giấc ngủ sâu.",
+      "Điều làm nên sự khác biệt của Vuko là nó không chỉ phát một bản âm thanh cố định. Nếu bạn cho phép truy cập micro, Vuko sẽ lắng nghe hơi thở của bạn theo thời gian thực — như một bài tập thở có hướng dẫn mà âm thanh đáp lại theo bạn — và điều chỉnh nhịp âm thanh theo đúng trạng thái thực tế của bạn, tạo nên một vòng phản hồi khép kín giữa cơ thể bạn và âm thanh. Chúng tôi không tìm thấy một công cụ nào khác kết hợp được binaural beats với việc theo dõi hơi thở trực tiếp ngay trên trình duyệt, và đó chính là khoảng trống mà Vuko lấp đầy."
     ]
   },
   "how": {

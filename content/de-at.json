@@ -2,8 +2,8 @@
   "intro": {
     "h2": "Was ist Vuko?",
     "p": [
-      "Vuko ist eine kostenlose, quelloffene Web-App für binaurale Beats, die direkt in deinem Browser läuft – nichts zu installieren, kein Konto, keine Werbung. Setz Kopfhörer auf, wähle, wie du dich fühlen möchtest, und Vuko erzeugt die präzisen Zweiton-Frequenzen, die dein Gehirn behutsam zu Fokus, Meditation, Entspannung oder tiefem Schlaf geleiten.",
-      "Das Besondere an Vuko: Es spielt nicht bloß eine fixe Tonspur ab. Wenn du den Mikrofonzugriff erlaubst, lauscht Vuko in Echtzeit deiner Atmung und passt die Beats an deinen tatsächlichen Zustand an – ein geschlossener Rückkopplungskreis zwischen deinem Körper und dem Klang. Wir konnten kein anderes Tool finden, das binaurale Beats mit Live-Atemüberwachung im Browser verbindet – genau diese Lücke schließt Vuko."
+      "Vuko ist eine kostenlose, quelloffene Web-App für Atmung und Entspannung, die direkt in deinem Browser läuft – nichts zu installieren, kein Konto, keine Werbung. Sie verbindet eine Engine für binaurale Beats mit Atemerkennung in Echtzeit, damit du zum Einschlafen abschalten, beim Arbeiten konzentriert bleiben, Stress und Ängste lösen oder in eine Meditation finden kannst. Setz Kopfhörer auf, wähle, wie du dich fühlen möchtest, und Vuko erzeugt die präzisen Zweiton-Frequenzen, die dein Gehirn behutsam zu Fokus, Entspannung oder tiefem Schlaf geleiten.",
+      "Das Besondere an Vuko: Es spielt nicht bloß eine fixe Tonspur ab. Wenn du den Mikrofonzugriff erlaubst, lauscht Vuko in Echtzeit deiner Atmung – wie eine geführte Atemübung, auf die der Klang reagiert – und passt die Beats an deinen tatsächlichen Zustand an, ein geschlossener Rückkopplungskreis zwischen deinem Körper und dem Klang. Wir konnten kein anderes Tool finden, das binaurale Beats mit Live-Atemüberwachung im Browser verbindet – genau diese Lücke schließt Vuko."
     ]
   },
   "how": {

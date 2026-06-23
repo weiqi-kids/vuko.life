@@ -2,8 +2,8 @@
   "intro": {
     "h2": "O que é o Vuko?",
     "p": [
-      "O Vuko é um app web de batidas binaurais gratuito e de código aberto que funciona diretamente no seu navegador — sem instalação, sem conta, sem anúncios. Coloque os fones de ouvido, escolha como você quer se sentir e o Vuko gera na hora as frequências precisas de tom duplo que guiam suavemente o seu cérebro rumo ao foco, à meditação, ao relaxamento ou ao sono profundo.",
-      "O que torna o Vuko diferente é que ele não se limita a tocar uma faixa fixa. Se você permitir o acesso ao microfone, o Vuko ouve a sua respiração em tempo real e adapta as batidas ao seu estado real — um ciclo de retroalimentação fechado entre o seu corpo e o som. Não encontramos nenhuma outra ferramenta que combine batidas binaurais com monitoramento da respiração ao vivo no navegador, e é exatamente essa lacuna que o Vuko preenche."
+      "O Vuko é um app web de respiração e relaxamento gratuito e de código aberto que funciona diretamente no seu navegador — nada para instalar, sem conta, sem anúncios. Ele combina um motor de binaural beats com detecção da respiração em tempo real para ajudar você a desacelerar para dormir, manter o foco enquanto trabalha, aliviar o estresse e a ansiedade ou entrar em meditação. Coloque os fones de ouvido, escolha como você quer se sentir e o Vuko gera as frequências precisas de tom duplo que guiam suavemente o seu cérebro rumo ao foco, ao relaxamento ou ao sono profundo.",
+      "O que torna o Vuko diferente é que ele não se limita a tocar uma faixa fixa. Se você permitir o acesso ao microfone, o Vuko ouve a sua respiração em tempo real — como um exercício de respiração guiada ao qual o som responde — e adapta os binaural beats ao seu estado real: um ciclo de retroalimentação fechado entre o seu corpo e o som. Não encontramos nenhuma outra ferramenta que combine binaural beats com monitoramento da respiração ao vivo no navegador, e é exatamente essa lacuna que o Vuko preenche."
     ]
   },
   "how": {

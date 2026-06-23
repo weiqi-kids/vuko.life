@@ -2,8 +2,8 @@
   "intro": {
     "h2": "Qu'est-ce que Vuko ?",
     "p": [
-      "Vuko est une application web de sons binauraux gratuite et open source qui fonctionne directement dans votre navigateur — rien à installer, aucun compte, aucune publicité. Mettez votre casque, choisissez l'état dans lequel vous souhaitez vous trouver, et Vuko génère en temps réel les fréquences à double tonalité précises qui guident doucement votre cerveau vers la concentration, la méditation, la détente ou le sommeil profond.",
-      "Ce qui distingue Vuko, c'est qu'il ne se contente pas de diffuser une piste figée. Si vous autorisez l'accès au microphone, Vuko écoute votre respiration en temps réel et adapte les battements à votre état réel — une boucle de rétroaction fermée entre votre corps et le son. Nous n'avons trouvé aucun autre outil combinant sons binauraux et suivi respiratoire en direct dans le navigateur : c'est précisément ce vide que Vuko vient combler."
+      "Vuko est une application web de respiration et de relaxation gratuite et open source qui fonctionne directement dans votre navigateur — rien à installer, aucun compte, aucune publicité. Elle associe un moteur de binaural beats à une détection de la respiration en temps réel pour vous aider à décompresser avant de dormir, à rester concentré pendant que vous travaillez, à apaiser le stress et l'anxiété ou à entrer en méditation. Mettez votre casque, choisissez l'état dans lequel vous souhaitez vous trouver, et Vuko génère les fréquences à double tonalité précises qui guident en douceur votre cerveau vers la concentration, la détente ou le sommeil profond.",
+      "Ce qui distingue Vuko, c'est qu'il ne se contente pas de diffuser une piste figée. Si vous autorisez l'accès au microphone, Vuko écoute votre respiration en temps réel — comme un exercice de respiration guidée auquel le son répond — et adapte les binaural beats à votre état réel : une boucle de rétroaction fermée entre votre corps et le son. Nous n'avons trouvé aucun autre outil combinant binaural beats et suivi respiratoire en direct dans le navigateur : c'est précisément ce vide que Vuko vient combler."
     ]
   },
   "how": {

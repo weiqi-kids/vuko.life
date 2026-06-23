@@ -2,8 +2,8 @@
   "intro": {
     "h2": "Apa itu Vuko?",
     "p": [
-      "Vuko adalah aplikasi web binaural beats gratis dan open-source yang berjalan langsung di browser Anda — tanpa instalasi, tanpa akun, tanpa iklan. Kenakan headphone, pilih suasana yang Anda inginkan, dan Vuko langsung menghasilkan frekuensi nada ganda yang presisi untuk menuntun otak Anda dengan lembut menuju fokus, meditasi, relaksasi, atau tidur nyenyak.",
-      "Yang membuat Vuko berbeda adalah ia tidak sekadar memutar trek yang tetap. Jika Anda mengizinkan akses mikrofon, Vuko mendengarkan napas Anda secara real-time dan menyesuaikan beats dengan kondisi Anda yang sebenarnya — sebuah putaran umpan balik tertutup antara tubuh dan suara Anda. Kami tidak menemukan alat lain yang memadukan binaural beats dengan pemantauan napas langsung di dalam browser, dan justru celah inilah yang diisi oleh Vuko."
+      "Vuko adalah aplikasi web pernapasan dan relaksasi yang gratis dan open-source, berjalan langsung di browser Anda — tanpa instalasi, tanpa akun, tanpa iklan. Vuko memadukan mesin binaural beats dengan deteksi napas real-time untuk membantu Anda bersantai menjelang tidur, tetap fokus saat bekerja, meredakan stres dan kecemasan, atau tenggelam dalam meditasi. Kenakan headphone, pilih suasana yang Anda inginkan, dan Vuko menghasilkan frekuensi nada ganda yang presisi untuk menuntun otak Anda dengan lembut menuju fokus, relaksasi, atau tidur nyenyak.",
+      "Yang membuat Vuko berbeda adalah ia tidak sekadar memutar trek yang tetap. Jika Anda mengizinkan akses mikrofon, Vuko mendengarkan napas Anda secara real-time — seperti latihan pernapasan terpandu yang suaranya merespons Anda — dan menyesuaikan beats dengan kondisi Anda yang sebenarnya, sebuah putaran umpan balik tertutup antara tubuh dan suara Anda. Kami tidak menemukan alat lain yang memadukan binaural beats dengan pemantauan napas langsung di dalam browser, dan justru celah inilah yang diisi oleh Vuko."
     ]
   },
   "how": {

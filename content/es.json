@@ -2,8 +2,8 @@
   "intro": {
     "h2": "¿Qué es Vuko?",
     "p": [
-      "Vuko es una app web de sonidos binaurales gratuita y de código abierto que funciona directamente en tu navegador: sin instalaciones, sin cuentas y sin anuncios. Ponte los auriculares, elige cómo quieres sentirte y Vuko genera al instante las frecuencias precisas de doble tono que guían suavemente tu cerebro hacia la concentración, la meditación, la relajación o el sueño profundo.",
-      "Lo que diferencia a Vuko es que no se limita a reproducir una pista fija. Si permites el acceso al micrófono, Vuko escucha tu respiración en tiempo real y adapta los sonidos a tu estado real: un circuito de retroalimentación cerrado entre tu cuerpo y el sonido. No encontramos ninguna otra herramienta que combine sonidos binaurales con monitorización de la respiración en vivo dentro del navegador, y ese es precisamente el vacío que Vuko viene a llenar."
+      "Vuko es una app web de respiración y relajación gratuita y de código abierto que funciona directamente en tu navegador: nada que instalar, sin cuenta y sin anuncios. Combina un motor de binaural beats con detección de la respiración en tiempo real para ayudarte a desconectar para dormir, mantener la concentración mientras trabajas, aliviar el estrés y la ansiedad, o entrar en meditación. Ponte los auriculares, elige cómo quieres sentirte y Vuko genera las frecuencias precisas de doble tono que guían suavemente tu cerebro hacia la concentración, la relajación o el sueño profundo.",
+      "Lo que diferencia a Vuko es que no se limita a reproducir una pista fija. Si permites el acceso al micrófono, Vuko escucha tu respiración en tiempo real —como un ejercicio de respiración guiada al que el sonido responde— y adapta los binaural beats a tu estado real: un circuito de retroalimentación cerrado entre tu cuerpo y el sonido. No encontramos ninguna otra herramienta que combine binaural beats con monitorización de la respiración en vivo dentro del navegador, y ese es precisamente el vacío que Vuko viene a llenar."
     ]
   },
   "how": {

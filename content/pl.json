@@ -2,8 +2,8 @@
   "intro": {
     "h2": "Czym jest Vuko?",
     "p": [
-      "Vuko to darmowa aplikacja internetowa o otwartym kodzie źródłowym, generująca dudnienia różnicowe (binaural beats), która działa bezpośrednio w przeglądarce — bez instalacji, bez zakładania konta, bez reklam. Załóż słuchawki, wybierz stan, który chcesz osiągnąć, a Vuko w czasie rzeczywistym wygeneruje precyzyjne częstotliwości dwutonowe, które łagodnie poprowadzą Twój mózg ku skupieniu, medytacji, relaksowi lub głębokiemu snowi.",
-      "To, co wyróżnia Vuko, to fakt, że aplikacja nie odtwarza po prostu nagranego wcześniej utworu. Jeśli zezwolisz na dostęp do mikrofonu, Vuko w czasie rzeczywistym wsłuchuje się w Twój oddech i dostosowuje dudnienia do Twojego rzeczywistego stanu, zamykając pętlę sprzężenia zwrotnego między ciałem a dźwiękiem. Nie znaleźliśmy żadnego innego narzędzia, które łączyłoby dudnienia różnicowe z monitorowaniem oddechu na żywo w przeglądarce — i właśnie tę lukę wypełnia Vuko."
+      "Vuko to darmowa aplikacja internetowa o otwartym kodzie źródłowym do oddychania i relaksu, która działa bezpośrednio w przeglądarce — bez instalacji, bez konta, bez reklam. Łączy silnik dudnień różnicowych (binaural beats) z wykrywaniem oddechu w czasie rzeczywistym, aby pomóc Ci wyciszyć się przed snem, utrzymać skupienie podczas pracy, złagodzić stres i lęk lub zagłębić się w medytację. Załóż słuchawki, wybierz, jak chcesz się poczuć, a Vuko wygeneruje precyzyjne częstotliwości dwutonowe, które łagodnie poprowadzą Twój mózg ku skupieniu, relaksowi lub głębokiemu snowi.",
+      "To, co wyróżnia Vuko, to fakt, że aplikacja nie odtwarza po prostu nagranego wcześniej utworu. Jeśli zezwolisz na dostęp do mikrofonu, Vuko w czasie rzeczywistym wsłuchuje się w Twój oddech — niczym ćwiczenie oddechowe, na które reaguje dźwięk — i dostosowuje dudnienia do Twojego rzeczywistego stanu, zamykając pętlę sprzężenia zwrotnego między ciałem a dźwiękiem. Nie znaleźliśmy żadnego innego narzędzia, które łączyłoby dudnienia różnicowe z monitorowaniem oddechu na żywo w przeglądarce — i właśnie tę lukę wypełnia Vuko."
     ]
   },
   "how": {
