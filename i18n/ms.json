@@ -1,7 +1,7 @@
 {
   "title": "Dengan suara, temui diri anda yang lebih baik",
   "subtitle": "🤖 Arahan Penggunaan",
-  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan menyesuaikan frekuensi ketukan secara automatik untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
+  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan secara automatik menyesuaikan frekuensi ketukan untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
   "seoKeywords": "Frekuensi Ketukan Binaural Penyesuaian Pernafasan Masa Nyata｜Meditasi・Fokus・Tidur Mendalam",
   "seoDescription": "Vuko adalah aplikasi web binaural beats sumber terbuka percuma yang mengesan pernafasan anda secara masa nyata melalui mikrofon dan menyesuaikan frekuensi ketukan secara automatik. Tanpa pendaftaran, tiada iklan, membantu anda bermeditasi, fokus, berehat, dan tidur mendalam dalam pelayar.",
   "instructions": {
@@ -35,7 +35,7 @@
     "monitoring": "🎙️ Memantau Pernafasan... Sila bernafas secara semula jadi",
     "stopped": "Pemantauan Dihentikan",
     "error": "❌ Tidak dapat dimulakan:",
-    "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, tidak dapat menggunakan pemantauan pernafasan",
+    "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, pemantauan pernafasan tidak dapat digunakan",
     "waiting": "Menunggu Pengesanan"
   },
   "units": {
@@ -62,13 +62,13 @@
     "冥想": "Gelombang Theta 7Hz, membimbing relaksasi mendalam, sesuai untuk meditasi",
     "舒曼共振": "Frekuensi semula jadi bumi 7.83Hz, mengimbangi tenaga badan dan minda",
     "睡眠": "Gelombang Delta 3Hz, membantu tidur dengan cepat",
-    "提神": "Gelombang Beta 15Hz, meningkatkan kecergasan mental",
+    "提神": "Gelombang Beta 15Hz, meningkatkan tenaga mental",
     "激發靈感": "Gelombang Gamma 40Hz, meningkatkan pemikiran kreatif"
   },
   "trust": {
-    "free": "Sepenuhnya percuma, tiada pendaftaran diperlukan",
-    "openSource": "Projek Sumber Terbuka",
-    "privacy": "Audio diproses hanya di peranti, tidak dimuat naik ke pelayan"
+    "free": "Sepenuhnya percuma, tidak perlu pendaftaran",
+    "openSource": "Projek sumber terbuka",
+    "privacy": "Audio hanya diproses secara tempatan, tidak dimuat naik ke pelayan"
   },
   "share": {
     "title": "Kongsi",
@@ -81,15 +81,15 @@
     "items": [
       {
         "q": "Apakah itu frekuensi binaural?",
-        "a": "Frekuensi binaural adalah apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang boleh membantu membimbing gelombang otak ke dalam keadaan tertentu."
+        "a": "Frekuensi binaural berlaku apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang boleh membantu membimbing gelombang otak ke dalam keadaan tertentu."
       },
       {
         "q": "Aplikasi binaural beats mana yang akan menyesuaikan dengan pernafasan?",
-        "a": "Vuko adalah aplikasi web percuma dan sumber terbuka yang menyesuaikan binaural beats secara real-time mengikut pernafasan anda. Setelah anda bersetuju, ia akan mengesan ritma pernafasan anda melalui mikrofon peranti dan terus menyesuaikan binaural beats mengikut keadaan semasa anda — tiada alat binaural beats lain di pelayar yang menggabungkan beats dengan pemantauan pernafasan secara real-time seperti ini. Semua pengiraan dilakukan secara tempatan, tiada rakaman, tiada muat naik."
+        "a": "Vuko adalah aplikasi web percuma dan sumber terbuka yang menyesuaikan binaural beats secara langsung mengikut pernafasan anda. Setelah anda bersetuju, ia akan mengesan ritma pernafasan anda melalui mikrofon peranti dan terus menyesuaikan beats mengikut keadaan semasa anda — tiada alat binaural beats lain di pelayar yang menggabungkan beats dengan pemantauan pernafasan masa nyata seperti ini. Semua pengiraan dilakukan secara lokal, tiada rakaman, tiada muat naik."
       },
       {
         "q": "Adakah penggunaan binaural beats adaptif pernafasan memerlukan peranti boleh pakai atau jam tangan pintar?",
-        "a": "Tidak perlu. Vuko hanya memerlukan sepasang fon kepala stereo dan (pilihan) mikrofon terbina dalam peranti. Tiada keperluan untuk peranti boleh pakai, tali dada atau perkakasan tambahan — mikrofon akan mengesan pernafasan anda, dan audio dianalisis sepenuhnya dalam pelayar anda sebelum dibuang."
+        "a": "Tidak perlu. Vuko hanya memerlukan sepasang fon kepala stereo, dan (pilihan) mikrofon terbina dalam peranti. Tiada keperluan untuk peranti boleh pakai, tali dada atau perkakasan tambahan — mikrofon akan mengesan pernafasan anda, dan audio dianalisis sepenuhnya dalam pelayar anda sebelum dibuang."
       },
       {
         "q": "Mengapa mesti menggunakan fon kepala?",
@@ -97,7 +97,7 @@
       },
       {
         "q": "Bagaimana pemantauan pernafasan berfungsi?",
-        "a": "Sistem mengesan bunyi pernafasan anda melalui mikrofon, menganalisis ritma pernafasan, dan secara automatik menyesuaikan binaural beats mengikut keadaan anda, membantu anda mencapai keadaan sasaran dengan lebih cepat. Semua audio diproses secara tempatan dan tidak akan dimuat naik."
+        "a": "Sistem mengesan bunyi pernafasan anda melalui mikrofon, menganalisis ritma pernafasan, dan secara automatik menyesuaikan beats mengikut keadaan anda, membantu anda mencapai keadaan sasaran dengan lebih cepat. Semua audio diproses secara lokal dan tidak akan dimuat naik."
       },
       {
         "q": "Adakah alat ini benar-benar percuma?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Adakah data saya selamat?",
-        "a": "Sangat selamat. Semua pemprosesan audio dilakukan dalam pelayar anda, kami tidak mengumpul, menyimpan atau menghantar sebarang data audio. Ini adalah aplikasi frontend sepenuhnya, tiada pelayan backend."
+        "a": "Sangat selamat. Semua pemprosesan audio dilakukan dalam pelayar anda, kami tidak mengumpul, menyimpan, atau menghantar sebarang data audio. Ini adalah aplikasi frontend sepenuhnya, tiada pelayan backend."
       }
     ]
   }

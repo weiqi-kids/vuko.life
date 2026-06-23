@@ -11,7 +11,7 @@
   "volumeRatioDetail": "Częstotliwość bicia {binaural}% / Dźwięk tła {background}%",
   "labels": {
     "breathRate": "Szybkość oddechu:",
-    "noiseLevel": "Szumy tła:",
+    "noiseLevel": "Szum tła:",
     "baseFreq": "Częstotliwość podstawowa:",
     "audioFile": "Plik dźwiękowy tła:",
     "volumeRatio": "Proporcja głośności:",
@@ -35,7 +35,7 @@
     "monitoring": "🎙️ Monitorowanie oddechu... Proszę oddychać naturalnie",
     "stopped": "Monitorowanie zatrzymane",
     "error": "❌ Nie można uruchomić:",
-    "unsupported": "⚠️ Twoja przeglądarka nie obsługuje funkcji mikrofonu, nie można użyć monitorowania oddechu",
+    "unsupported": "⚠️ Twoja przeglądarka nie obsługuje funkcji mikrofonu, monitorowanie oddechu jest niemożliwe",
     "waiting": "Do wykrycia"
   },
   "units": {
@@ -50,7 +50,7 @@
     "Rezonans Schumanna",
     "Sen",
     "Pobudzenie",
-    "Inspiracja"
+    "Pobudzanie inspiracji"
   ],
   "sections": {
     "instructions": "Instrukcja obsługi",
@@ -60,7 +60,7 @@
   "binauralDescriptions": {
     "專注": "Fale Alfa 10Hz, pomagają wejść w stan skupienia, odpowiednie do pracy i nauki",
     "冥想": "Fale Theta 7Hz, prowadzą do głębokiego relaksu, odpowiednie do medytacji",
-    "舒曼共振": "Naturalna częstotliwość Ziemi 7.83Hz, równoważy energię ciała i umysłu",
+    "舒曼共振": "Naturalna częstotliwość Ziemi 7,83Hz, równoważy energię ciała i umysłu",
     "睡眠": "Fale Delta 3Hz, pomagają szybko zasnąć",
     "提神": "Fale Beta 15Hz, zwiększają energię umysłową",
     "激發靈感": "Fale Gamma 40Hz, zwiększają kreatywne myślenie"
@@ -84,20 +84,20 @@
         "a": "Binauralne bicie to zjawisko, gdy uszy słyszą dźwięki o nieco różnych częstotliwościach, a mózg tworzy trzecią częstotliwość, tzw. „bicie”. Na przykład, gdy lewe ucho słyszy 200Hz, a prawe 210Hz, mózg odbiera bicie o częstotliwości 10Hz, co może pomóc wprowadzić fale mózgowe w określony stan."
       },
       {
-        "q": "Która aplikacja do binaural beats dostosowuje się do oddechu?",
-        "a": "Vuko to darmowa, otwartoźródłowa aplikacja internetowa, która w czasie rzeczywistym dostosowuje binaural beats do twojego oddechu. Po wyrażeniu zgody, wykrywa rytm twojego oddechu za pomocą mikrofonu urządzenia i stale dostosowuje częstotliwość do twojego aktualnego stanu — obecnie nie ma innych narzędzi do binaural beats w przeglądarkach, które łączą częstotliwość z monitorowaniem oddechu w czasie rzeczywistym. Wszystkie obliczenia odbywają się lokalnie, bez nagrywania i przesyłania danych."
+        "q": "Która aplikacja do binauralnych bitów dostosowuje się do oddechu?",
+        "a": "Vuko to darmowa, otwartoźródłowa aplikacja internetowa, która w czasie rzeczywistym dostosowuje binauralne bity do twojego oddechu. Po wyrażeniu zgody, wykrywa rytm twojego oddechu za pomocą mikrofonu urządzenia i stale dostosowuje bity do twojego aktualnego stanu — obecnie nie ma innych narzędzi do binauralnych bitów w przeglądarkach, które łączą bity z monitorowaniem oddechu w czasie rzeczywistym. Wszystkie obliczenia odbywają się lokalnie, bez nagrywania i przesyłania."
       },
       {
-        "q": "Czy do korzystania z adaptacyjnych binaural beats potrzebne jest urządzenie do noszenia lub smartwatch?",
-        "a": "Nie, Vuko wymaga tylko słuchawek stereo i (opcjonalnie) wbudowanego mikrofonu urządzenia. Nie potrzebujesz żadnych urządzeń do noszenia, pasów na klatkę piersiową ani dodatkowego sprzętu — mikrofon wykrywa twój oddech, a dźwięk jest analizowany i odrzucany bezpośrednio w przeglądarce."
+        "q": "Czy do korzystania z adaptacyjnych bitów oddechowych potrzebne jest urządzenie do noszenia lub smartwatch?",
+        "a": "Nie, Vuko potrzebuje tylko słuchawek stereo i (opcjonalnie) wbudowanego mikrofonu urządzenia. Nie są potrzebne żadne urządzenia do noszenia, pasy na klatkę piersiową ani dodatkowy sprzęt — mikrofon wykrywa twój oddech, a dźwięk jest analizowany i odrzucany bezpośrednio w przeglądarce."
       },
       {
         "q": "Dlaczego konieczne jest używanie słuchawek?",
-        "a": "Zasada działania binaural beats polega na tym, że każde ucho słyszy inną częstotliwość, a tylko użycie słuchawek zapewnia separację kanałów, co pozwala mózgowi prawidłowo generować efekt binaural beats."
+        "a": "Zasada działania binauralnych bitów polega na tym, że lewe i prawe ucho słyszą różne częstotliwości. Tylko użycie słuchawek zapewnia separację kanałów, co pozwala mózgowi prawidłowo generować efekt bitów."
       },
       {
         "q": "Jak działa monitorowanie oddechu?",
-        "a": "System wykrywa dźwięk twojego oddechu za pomocą mikrofonu, analizuje rytm oddechu i automatycznie dostosowuje częstotliwość do twojego stanu, pomagając szybciej osiągnąć zamierzony stan. Wszystkie dane audio są przetwarzane lokalnie i nie są przesyłane."
+        "a": "System wykrywa dźwięk twojego oddechu za pomocą mikrofonu, analizuje rytm oddechu i automatycznie dostosowuje bity do twojego stanu, pomagając szybciej osiągnąć docelowy stan. Wszystkie dźwięki są przetwarzane lokalnie i nie są przesyłane."
       },
       {
         "q": "Czy to narzędzie jest naprawdę darmowe?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Czy moje dane są bezpieczne?",
-        "a": "Absolutnie bezpieczne. Wszystkie przetwarzania audio odbywają się w twojej przeglądarce, nie zbieramy, nie przechowujemy ani nie przesyłamy żadnych danych audio. To czysto frontendowa aplikacja, bez serwera backendowego."
+        "a": "Absolutnie bezpieczne. Wszystkie przetwarzania dźwięku odbywają się w twojej przeglądarce, nie zbieramy, nie przechowujemy ani nie przesyłamy żadnych danych dźwiękowych. To czysto front-endowa aplikacja, bez serwera zaplecza."
       }
     ]
   }

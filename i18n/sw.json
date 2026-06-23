@@ -1,12 +1,12 @@
 {
   "title": "Kwa sauti, kukutana na wewe bora zaidi",
   "subtitle": "🤖 Maelekezo ya Matumizi",
-  "description": "Mfumo utafuatilia hali yako ya kupumua kwa wakati halisi na kurekebisha mdundo ili kukuongoza kuingia katika hali tofauti za ufahamu:",
-  "seoKeywords": "Mdundo wa masikio mawili unaobadilika kwa kupumua kwa wakati halisi｜Kutafakari・Kuzingatia・Kulala kwa kina",
+  "description": "Mfumo utafuatilia hali yako ya kupumua kwa wakati halisi na kurekebisha mdundo kiotomatiki ili kukuongoza kuingia katika hali tofauti za ufahamu:",
+  "seoKeywords": "Mdundo wa masikio mawili unaobadilika kulingana na kupumua kwa wakati halisi｜Kutafakari・Kuzingatia・Kulala kwa kina",
   "seoDescription": "Vuko ni programu ya wavuti ya mdundo wa masikio mawili (binaural beats) ya bure na ya wazi, inayotambua kupumua kwako kwa wakati halisi kupitia kipaza sauti na kurekebisha mdundo kiotomatiki. Hakuna usajili, hakuna matangazo, inakusaidia kutafakari, kuzingatia, kupumzika na kulala kwa kina kwenye kivinjari.",
   "instructions": {
-    "headphones": "Tafadhali tumia <strong>vifaa vya masikio vya stereo</strong> ili kufikia athari ya mdundo wa ubongo.",
-    "microphone": "Ikiwa unakubali kutumia <strong>kipaza sauti</strong> chako, tafadhali weka kipaza sauti karibu na mdomo na pua, tutajaribu kukuongoza kuingia katika hali ya kina zaidi."
+    "headphones": "Tafadhali tumia <strong>vifaa vya sauti vya masikio mawili</strong> ili kufikia athari ya mdundo wa ubongo.",
+    "microphone": "Ikiwa unakubali kutumia <strong>kipaza sauti</strong> chako, tafadhali kikaribishe kwenye mdomo na pua, tutajaribu kukuongoza kuingia katika hali ya kina zaidi."
   },
   "volumeRatioDetail": "Mdundo {binaural}% / Sauti ya nyuma {background}%",
   "labels": {
@@ -16,7 +16,7 @@
     "audioFile": "Faili ya sauti ya nyuma:",
     "volumeRatio": "Uwiano wa sauti:",
     "breathVisual": "Uonyeshaji wa kupumua",
-    "realTimeData": "Data ya wakati halisi",
+    "realTimeData": "Takwimu za wakati halisi",
     "systemConfig": "Mipangilio ya mdundo wa masikio mawili",
     "audioSearch": "🎵 Utafutaji wa Muziki wa Nyuma",
     "searchPlaceholder": "Tafuta muziki... (mfano: piano, bahari, kutafakari)",
@@ -32,7 +32,7 @@
     "stop": "🍂 Simamisha"
   },
   "status": {
-    "monitoring": "🎙️ Ufuatiliaji wa Kupumua unaendelea... Tafadhali endelea kupumua kawaida",
+    "monitoring": "🎙️ Ufuatiliaji wa Kupumua unaendelea... Tafadhali endelea kupumua kwa kawaida",
     "stopped": "Ufuatiliaji umesimamishwa",
     "error": "❌ Haiwezi kuanzisha:",
     "unsupported": "⚠️ Kivinjari chako hakina msaada wa kipengele cha maikrofoni, huwezi kutumia ufuatiliaji wa kupumua",
@@ -47,7 +47,7 @@
   "binauralOptions": [
     "Kuzingatia",
     "Kutafakari",
-    "Resonansi ya Schumann",
+    "Rezonansi ya Schumann",
     "Kulala",
     "Kuamsha",
     "Kuchochea Ubunifu"
@@ -59,7 +59,7 @@
   },
   "binauralDescriptions": {
     "專注": "Mawimbi ya Alpha ya 10Hz, kusaidia kuingia katika hali ya umakini, yanafaa kwa kazi na masomo",
-    "冥想": "Mawimbi ya Theta ya 7Hz, kuongoza utulivu wa kina, yanafaa kwa kutafakari na kutulia",
+    "冥想": "Mawimbi ya Theta ya 7Hz, kuongoza katika utulivu wa kina, yanafaa kwa kutafakari",
     "舒曼共振": "Mawimbi ya asili ya Dunia ya 7.83Hz, kusawazisha nishati ya mwili na akili",
     "睡眠": "Mawimbi ya Delta ya 3Hz, kusaidia kulala haraka",
     "提神": "Mawimbi ya Beta ya 15Hz, kuongeza nguvu ya akili",
@@ -68,7 +68,7 @@
   "trust": {
     "free": "Bure kabisa, hakuna usajili unaohitajika",
     "openSource": "Mradi wa Chanzo Huria",
-    "privacy": "Sauti inashughulikiwa tu kwenye kifaa, haitumwi kwa seva"
+    "privacy": "Sauti inashughulikiwa tu kwenye kifaa, haipakuliwi kwenye seva"
   },
   "share": {
     "title": "Shiriki",
@@ -81,15 +81,15 @@
     "items": [
       {
         "q": "Binaural Beats ni nini?",
-        "a": "Binaural Beats ni wakati masikio ya kushoto na kulia yanaposikia sauti za masafa tofauti kidogo, ubongo huzalisha 'kibao' cha tatu. Kwa mfano, sikio la kushoto 200Hz, sikio la kulia 210Hz, ubongo utahisi kibao cha 10Hz, ambacho kinaweza kusaidia kuongoza mawimbi ya ubongo kuingia katika hali maalum."
+        "a": "Binaural Beats ni wakati masikio ya kushoto na kulia yanasikia sauti za masafa tofauti kidogo, ubongo huzalisha 'kibao' cha tatu. Kwa mfano, sikio la kushoto 200Hz, sikio la kulia 210Hz, ubongo utahisi kibao cha 10Hz, ambacho kinaweza kusaidia kuongoza mawimbi ya ubongo kuingia katika hali maalum."
       },
       {
         "q": "Ni programu gani ya binaural beats inayobadilika kulingana na kupumua?",
-        "a": "Vuko ni programu ya bure na ya chanzo huria ya wavuti inayobadilisha binaural beats kulingana na kupumua kwako kwa wakati halisi. Baada ya kukubali, itatumia kipaza sauti cha kifaa chako kugundua mdundo wa kupumua kwako na kuendelea kurekebisha beats kulingana na hali yako ya sasa - hakuna zana nyingine ya binaural beats kwenye kivinjari inayochanganya beats na ufuatiliaji wa kupumua kwa wakati halisi kama hii. Michakato yote inafanyika ndani ya kifaa, hakuna kurekodi wala kupakia."
+        "a": "Vuko ni programu ya wavuti ya bure na ya chanzo huria, inayobadilisha binaural beats kulingana na kupumua kwako kwa wakati halisi. Baada ya kukubali, itatumia kipaza sauti cha kifaa chako kugundua mdundo wa kupumua kwako na kuendelea kurekebisha beats kulingana na hali yako ya sasa - hakuna zana nyingine ya binaural beats kwenye kivinjari inayochanganya beats na ufuatiliaji wa kupumua kwa wakati halisi kama hii. Michakato yote inafanyika kwenye kifaa chako, hakuna kurekodi wala kupakia."
       },
       {
         "q": "Je, kutumia binaural beats inayobadilika kulingana na kupumua kunahitaji vifaa vya kuvaa au saa mahiri?",
-        "a": "Hapana. Vuko inahitaji tu vichwa vya sauti vya stereo na (hiari) kipaza sauti kilichojengwa ndani ya kifaa. Hakuna haja ya vifaa vya kuvaa, mikanda ya kifua au vifaa vya ziada - kipaza sauti kitagundua kupumua kwako, na sauti itachambuliwa kabisa ndani ya kivinjari chako na kisha kutupwa."
+        "a": "Hapana. Vuko inahitaji tu vichwa vya sauti vya stereo na (hiari) kipaza sauti kilichojengwa ndani ya kifaa. Hakuna haja ya vifaa vya kuvaa, mikanda ya kifua au vifaa vya ziada - kipaza sauti kitagundua kupumua kwako, na sauti itachambuliwa kabisa kwenye kivinjari chako na kisha kutupwa."
       },
       {
         "q": "Kwa nini ni lazima kutumia vichwa vya sauti?",
@@ -97,7 +97,7 @@
       },
       {
         "q": "Ufuatiliaji wa kupumua unafanyaje kazi?",
-        "a": "Mfumo hutumia kipaza sauti kugundua sauti ya kupumua kwako, kuchambua mdundo wa kupumua, na kurekebisha beats kiotomatiki kulingana na hali yako, kukusaidia kuingia katika hali unayolenga haraka zaidi. Sauti zote zinashughulikiwa ndani ya kifaa, hazitapakiwa."
+        "a": "Mfumo hutumia kipaza sauti kugundua sauti ya kupumua kwako, kuchambua mdundo wa kupumua, na kurekebisha beats kiotomatiki kulingana na hali yako, kukusaidia kuingia haraka katika hali unayolenga. Sauti zote zinashughulikiwa kwenye kifaa chako, hazitapakiwa."
       },
       {
         "q": "Je, chombo hiki ni bure kweli?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Je, data yangu iko salama?",
-        "a": "Iko salama kabisa. Usindikaji wote wa sauti unafanyika ndani ya kivinjari chako, hatukusanyi, kuhifadhi, au kusambaza data yoyote ya sauti. Hii ni programu ya mbele tu, haina seva ya nyuma."
+        "a": "Iko salama kabisa. Usindikaji wote wa sauti unafanyika kwenye kivinjari chako, hatukusanyi, kuhifadhi, au kusambaza data yoyote ya sauti. Hii ni programu ya mbele tu, haina seva ya nyuma."
       }
     ]
   }

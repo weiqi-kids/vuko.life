@@ -1,12 +1,12 @@
 {
   "title": "Sesle, daha iyi bir senle tanış",
   "subtitle": "🤖 Kullanım Kılavuzu",
-  "description": "Sistem, nefes durumunuzu gerçek zamanlı olarak izler ve sizi farklı bilinç durumlarına yönlendirmek için frekansı otomatik olarak ayarlar:",
+  "description": "Sistem, nefes alma durumunuzu anlık olarak izler ve sizi farklı bilinç durumlarına yönlendirmek için frekansı otomatik olarak ayarlar:",
   "seoKeywords": "Gerçek Zamanlı Nefes Uyarlamalı Binaural Vuruşlar｜Meditasyon・Odaklanma・Derin Uyku",
-  "seoDescription": "Vuko, mikrofon aracılığıyla nefesinizi gerçek zamanlı olarak algılayan ve frekansı otomatik olarak ayarlayan ücretsiz ve açık kaynaklı bir binaural vuruşlar (binaural beats) web uygulamasıdır. Kayıt gerektirmez, reklamsızdır ve tarayıcıda meditasyon, odaklanma, rahatlama ve derin uykuya yardımcı olur.",
+  "seoDescription": "Vuko, mikrofon aracılığıyla nefesinizi anlık olarak algılayan ve frekansı otomatik olarak ayarlayan ücretsiz ve açık kaynaklı bir binaural vuruşlar (binaural beats) web uygulamasıdır. Kayıt gerektirmez, reklamsızdır ve tarayıcıda meditasyon, odaklanma, rahatlama ve derin uykuya yardımcı olur.",
   "instructions": {
     "headphones": "Beyin vuruşu etkisini elde etmek için lütfen <strong>stereo kulaklık</strong> kullanın.",
-    "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağız ve burun bölgenize yaklaştırın, sizi daha derin bir duruma yönlendirmeye çalışacağız."
+    "microphone": "<strong>Mikrofonunuzu</strong> kullanmamıza izin verirseniz, mikrofonu ağız ve burun bölgenize yaklaştırın, sizi daha derin bir duruma yönlendirmeye çalışacağız."
   },
   "volumeRatioDetail": "Vuruş frekansı {binaural}% / Arka plan sesi {background}%",
   "labels": {
@@ -21,7 +21,7 @@
     "audioSearch": "🎵 Arka Plan Müziği Arama",
     "searchPlaceholder": "Müzik ara... (örneğin: piyano, deniz, meditasyon)",
     "noResults": "İlgili müzik bulunamadı",
-    "currentMusic": "Şu Anki Seçim",
+    "currentMusic": "Şu anki seçim",
     "deviceTest": "Cihaz testi",
     "libraryTab": "Çevrimiçi ses kütüphanesi",
     "localFileTab": "Yerel dosya",
@@ -32,7 +32,7 @@
     "stop": "🍂 Durdur"
   },
   "status": {
-    "monitoring": "🎙️ Nefes izleme devam ediyor... Lütfen doğal nefes alın",
+    "monitoring": "🎙️ Nefes izleme... Lütfen doğal nefes alın",
     "stopped": "İzleme durduruldu",
     "error": "❌ Başlatılamıyor:",
     "unsupported": "⚠️ Tarayıcınız mikrofon özelliğini desteklemiyor, nefes izleme kullanılamaz",
@@ -58,10 +58,10 @@
     "monitor": "Nefes İzleme"
   },
   "binauralDescriptions": {
-    "專注": "10Hz Alfa dalgaları, odaklanma durumuna geçişe yardımcı olur, çalışma ve öğrenme için uygundur",
-    "冥想": "7Hz Teta dalgaları, derin gevşemeye rehberlik eder, meditasyon için uygundur",
+    "專注": "10Hz Alfa dalgaları, odaklanma durumuna geçişi destekler, çalışma ve öğrenme için uygundur",
+    "冥想": "7Hz Teta dalgaları, derin gevşemeyi yönlendirir, meditasyon için uygundur",
     "舒曼共振": "7.83Hz Dünya'nın doğal frekansı, beden ve zihin enerjisini dengeler",
-    "睡眠": "3Hz Delta dalgaları, hızlı uykuya dalmaya yardımcı olur",
+    "睡眠": "3Hz Delta dalgaları, hızlı uykuya dalmayı destekler",
     "提神": "15Hz Beta dalgaları, zihinsel canlılığı artırır",
     "激發靈感": "40Hz Gama dalgaları, yaratıcı düşünceyi geliştirir"
   },
@@ -84,28 +84,28 @@
         "a": "Binaural vuruş, sol ve sağ kulaklar biraz farklı frekanslarda sesler duyduğunda, beynin üçüncü bir 'vuruş' frekansı oluşturmasıdır. Örneğin, sol kulak 200Hz, sağ kulak 210Hz duyduğunda, beyin 10Hz'lik bir vuruş frekansı algılar, bu da beyin dalgalarını belirli bir duruma yönlendirmeye yardımcı olabilir."
       },
       {
-        "q": "Hangi çift kulaklı atım frekansı uygulaması nefesle ayarlanır?",
-        "a": "Vuko, nefesinize göre çift kulaklı atım frekansını gerçek zamanlı olarak ayarlayan ücretsiz ve açık kaynaklı bir web uygulamasıdır. Onayınızdan sonra, cihazın mikrofonu aracılığıyla nefes ritminizi algılar ve atım frekansını mevcut durumunuza göre sürekli olarak yeniden ayarlar. Şu anda, başka hiçbir tarayıcı tabanlı çift kulaklı atım frekansı aracı, atım frekansını ve gerçek zamanlı nefes izlemeyi bu şekilde birleştirmiyor. Tüm işlemler yerel olarak gerçekleştirilir, kayıt yapılmaz ve yükleme yapılmaz."
+        "q": "Hangi çift kulaklı atım frekansı uygulaması nefesle birlikte ayarlanır?",
+        "a": "Vuko, nefesinize göre çift kulaklı atım frekansını gerçek zamanlı olarak ayarlayan ücretsiz ve açık kaynaklı bir web uygulamasıdır. Onayınızdan sonra, cihazın mikrofonu aracılığıyla nefes ritminizi algılar ve atım frekansını mevcut durumunuza göre sürekli olarak yeniden ayarlar. Şu anda, diğer tarayıcı tabanlı çift kulaklı atım frekansı araçları, atım frekansını gerçek zamanlı nefes izleme ile bu şekilde birleştirmemektedir. Tüm işlemler yerel olarak gerçekleştirilir, kayıt yapılmaz ve veri yüklenmez."
       },
       {
         "q": "Nefes uyumlu atım frekansı kullanmak için giyilebilir cihaz veya akıllı saat gerekli mi?",
-        "a": "Gerekli değil. Vuko sadece bir stereo kulaklık ve (isteğe bağlı) cihazın dahili mikrofonunu gerektirir. Herhangi bir giyilebilir cihaz, göğüs bandı veya ek donanım gerekmez - mikrofon nefesinizi algılar ve ses tamamen tarayıcınızda analiz edildikten sonra atılır."
+        "a": "Gerekli değil. Vuko sadece bir stereo kulaklık ve (isteğe bağlı) cihazın dahili mikrofonunu gerektirir. Herhangi bir giyilebilir cihaz, göğüs bandı veya ek donanım gerekmez. Mikrofon nefesinizi algılar ve ses tamamen tarayıcınızda analiz edildikten sonra silinir."
       },
       {
         "q": "Neden kulaklık kullanmak zorunlu?",
-        "a": "Çift kulaklı atım frekansının prensibi, sol ve sağ kulağa farklı frekanslar duyurmaktır. Sadece kulaklık kullanarak sol ve sağ ses kanallarının ayrılması sağlanabilir ve beynin doğru atım frekansı etkisi oluşturması sağlanır."
+        "a": "Çift kulaklı atım frekansının prensibi, sol ve sağ kulağa farklı frekanslar dinletmektir. Sadece kulaklık kullanarak sol ve sağ ses kanallarının ayrılması sağlanabilir ve beynin doğru atım frekansı etkisi oluşturması sağlanır."
       },
       {
         "q": "Nefes izleme nasıl çalışır?",
-        "a": "Sistem, mikrofon aracılığıyla nefes sesinizi algılar, nefes ritmini analiz eder ve durumunuza göre atım frekansını otomatik olarak ayarlayarak hedef duruma daha hızlı ulaşmanıza yardımcı olur. Tüm sesler sadece yerel olarak işlenir ve yüklenmez."
+        "a": "Sistem, mikrofon aracılığıyla nefes sesinizi algılar, nefes ritmini analiz eder ve durumunuza göre atım frekansını otomatik olarak ayarlar, böylece hedef duruma daha hızlı ulaşmanıza yardımcı olur. Tüm sesler sadece yerel olarak işlenir ve yüklenmez."
       },
       {
         "q": "Bu araç gerçekten ücretsiz mi?",
-        "a": "Evet, Vuko tamamen ücretsiz ve açık kaynaklıdır. Gizli ücretler, abonelikler veya reklamlar yoktur. Tüm kaynak kodunu GitHub'da görebilirsiniz."
+        "a": "Evet, Vuko tamamen ücretsiz ve açık kaynaklıdır. Gizli ücretler, abonelikler veya reklamlar yoktur. Tüm kaynak kodunu GitHub'da inceleyebilirsiniz."
       },
       {
         "q": "Verilerim güvende mi?",
-        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, hiçbir ses verisi toplanmaz, saklanmaz veya iletilmez. Bu, tamamen ön uç bir uygulamadır, arka uç sunucusu yoktur."
+        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, hiçbir ses verisi toplanmaz, saklanmaz veya iletilmez. Bu, tamamen ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
       }
     ]
   }
