@@ -1,7 +1,7 @@
 {
   "title": "Mit Klang zu einem besseren Ich",
   "subtitle": "🤖 Gebrauchsanweisung",
-  "description": "Das System überwacht in Echtzeit deinen Atemzustand und passt die Binauralfrequenz automatisch an, um dich in verschiedene Bewusstseinszustände zu führen:",
+  "description": "Das System überwacht in Echtzeit deinen Atemzustand und passt automatisch die Binauralfrequenz an, um dich in verschiedene Bewusstseinszustände zu führen:",
   "seoKeywords": "Binaurale Beats Meditation・Konzentration・Tiefschlaf・Echtzeit-Atemführung",
   "instructions": {
     "headphones": "Bitte benutze <strong>Stereo-Kopfhörer</strong>, um den Effekt der binauralen Beats zu erzielen.",
@@ -17,23 +17,23 @@
     "breathVisual": "Atemvisualisierung",
     "realTimeData": "Echtzeitdaten",
     "systemConfig": "Einstellungen für binaurale Beats",
-    "audioSearch": "🎵 Hintergrundmusik-Suche",
+    "audioSearch": "🎵 Hintergrundmusik suchen",
     "searchPlaceholder": "Musik suchen... (z.B.: Klavier, Meer, Meditation)",
     "noResults": "Keine passende Musik gefunden",
     "currentMusic": "Aktuelle Auswahl",
     "deviceTest": "Gerätetest",
     "libraryTab": "Online-Soundbibliothek",
     "localFileTab": "Lokale Datei",
-    "filePrivacyMsg": "Die Audiodatei wird nur lokal verarbeitet und nicht hochgeladen."
+    "filePrivacyMsg": "Audiodateien werden nur lokal verarbeitet und nicht hochgeladen."
   },
   "buttons": {
     "start": "🎶 Starten",
     "stop": "🍂 Stoppen"
   },
   "status": {
-    "monitoring": "🎙️ Atemüberwachung läuft... Bitte atmen Sie natürlich",
+    "monitoring": "🎙️ Atemüberwachung läuft... Bitte natürlich weiteratmen",
     "stopped": "Überwachung gestoppt",
-    "error": "❌ Kann nicht gestartet werden:",
+    "error": "❌ Konnte nicht gestartet werden:",
     "unsupported": "⚠️ Ihr Browser unterstützt die Mikrofonfunktion nicht, Atemüberwachung nicht möglich",
     "waiting": "Zu überprüfen"
   },
@@ -59,7 +59,7 @@
   "binauralDescriptions": {
     "專注": "10Hz Alpha-Wellen, helfen, in einen fokussierten Zustand zu gelangen, geeignet für Arbeit und Lernen",
     "冥想": "7Hz Theta-Wellen, führen zu tiefer Entspannung, geeignet für Meditation",
-    "舒曼共振": "7.83Hz natürliche Erdfrequenz, balanciert Körper und Geist",
+    "舒曼共振": "7.83Hz natürliche Erd-Frequenz, balanciert Körper und Geist",
     "睡眠": "3Hz Delta-Wellen, helfen beim schnellen Einschlafen",
     "提神": "15Hz Beta-Wellen, steigern die geistige Vitalität",
     "激發靈感": "40Hz Gamma-Wellen, fördern kreatives Denken"
@@ -92,7 +92,7 @@
       },
       {
         "q": "Ist dieses Tool wirklich kostenlos?",
-        "a": "Ja, Vuko ist völlig kostenlos und Open Source. Es gibt keine versteckten Kosten, keine Abonnements und keine Werbung. Sie können den vollständigen Quellcode auf GitHub einsehen."
+        "a": "Ja, Vuko ist völlig kostenlos und Open Source. Es gibt keine versteckten Kosten, keine Abonnements, keine Werbung. Sie können den vollständigen Quellcode auf GitHub einsehen."
       },
       {
         "q": "Sind meine Daten sicher?",

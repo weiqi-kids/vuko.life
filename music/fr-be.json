@@ -407,7 +407,7 @@
       "acoustique",
       "Détente"
     ],
-    "desc": "Guitare douce en principal, accompagnée de coussins sonores légers, adaptée pour la détente et la concentration.",
+    "desc": "Guitare douce en principal, accompagnée de sons légers, adaptée pour la détente et la concentration.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -1201,7 +1201,7 @@
       "chakra du plexus solaire",
       "Énergie",
       "chakra",
-      "Confiance"
+      "Confiance en soi"
     ],
     "desc": "Thème du chakra du plexus solaire, symbolisant la vitalité, la volonté et le centre énergétique, avec une ambiance chaleureuse et lumineuse.",
     "embedding": [
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan et steel tongue drum",
+    "title": "Handpan et tambour à languettes",
     "tag": [
       "Handpan",
-      "Steel tongue drum",
+      "Tambour à languettes",
       "handpan",
-      "steel tongue drum",
-      "Relaxation"
+      "tambour à languettes en acier",
+      "relaxation"
     ],
-    "desc": "Mélodie principale de handpan et steel tongue drum, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
+    "desc": "Mélodie principale de handpan et de tambour à languettes, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2393,11 +2393,11 @@
     "tag": [
       "Bois",
       "bois",
-      "Nature",
-      "Vitalité",
+      "nature",
+      "vitalité",
       "forêt"
     ],
-    "desc": "Inspiré par l'élément bois, combiné avec le son du vent dans la forêt et les sons naturels des arbres, exprimant la vitalité.",
+    "desc": "Inspiré par l'élément bois, combinant le son du vent dans la forêt et les sons naturels des arbres, exprimant la vitalité.",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -3193,7 +3193,7 @@
       "Flux",
       "Fraîcheur"
     ],
-    "desc": "Avec le flux de l'eau et le son du ruisseau comme éléments principaux, il présente un état d'esprit frais et fluide.",
+    "desc": "Principalement composé de flux d'eau et de sons de ruisseaux, présentant un état d'esprit frais et fluide.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -4379,7 +4379,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Mélodie principale des sons de l'environnement",
+    "title": "Mélodie principale des sons de la nature",
     "tag": [
       "sons de la nature",
       "sons de la nature",
@@ -4781,9 +4781,9 @@
     "tag": [
       "Chakra du troisième œil",
       "chakra du troisième œil",
-      "spiritualité",
+      "Spiritualité",
       "chakra",
-      "intuition"
+      "Intuition"
     ],
     "desc": "Paysage sonore de méditation du troisième œil, mettant l'accent sur l'ouverture spirituelle et l'intuition, adapté à une prise de conscience profonde.",
     "embedding": [
@@ -5175,10 +5175,10 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "tambour chamanique basse fréquence",
+    "title": "Tambour chamanique basse fréquence",
     "tag": [
-      "tambour chamanique",
-      "tambour basse fréquence",
+      "Tambour chamanique",
+      "Tambour basse fréquence",
       "tambour chamanique",
       "tambour sur cadre",
       "ancrage"
@@ -5573,13 +5573,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "chakra de la gorge",
+    "title": "Chakra de la gorge",
     "tag": [
+      "Chakra de la gorge",
       "chakra de la gorge",
-      "chakra de la gorge",
-      "communication",
+      "Communication",
       "chakra",
-      "liberté"
+      "Liberté"
     ],
     "desc": "Paysage sonore sur le thème du chakra de la gorge, créant un espace pour un flux d'énergie fluide et une expression libre.",
     "embedding": [
@@ -5974,7 +5974,7 @@
     "title": "chakra sacré",
     "tag": [
       "chakra sacré",
-      "sacral chakra",
+      "chakra sacré",
       "émotion",
       "chakra",
       "flux"
@@ -6372,10 +6372,10 @@
     "title": "métal",
     "tag": [
       "métal",
-      "metal",
+      "métal",
       "pureté",
       "clarté",
-      "clarity"
+      "clarté"
     ],
     "desc": "Thème de l'élément métal, avec un timbre clair et lumineux, créant une atmosphère pure et éthérée.",
     "embedding": [
@@ -6771,8 +6771,8 @@
     "tag": [
       "piano",
       "piano",
-      "doux",
-      "harmonie",
+      "Doux",
+      "Harmonieux",
       "relaxant"
     ],
     "desc": "Mélodie principale douce au piano, accompagnée d'un accompagnement apaisant, apportant une sensation de paix et de confort.",
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "diapason de glockenspiel",
+    "title": "Diapason de glockenspiel",
     "tag": [
+      "Glockenspiel",
+      "Diapason",
       "glockenspiel",
       "diapason",
-      "glockenspiel",
-      "diapason",
-      "éthéré"
+      "Éthéré"
     ],
-    "desc": "Les sons éthérés du glockenspiel et du diapason conviennent à la méditation, au nettoyage et à la concentration.",
+    "desc": "Les sons éthérés du glockenspiel et du diapason, idéaux pour la méditation, le nettoyage et la concentration.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7563,13 +7563,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "flûte et xiao",
+    "title": "Flûte et xiao",
     "tag": [
+      "Flûte",
+      "Xiao",
       "flûte",
       "xiao",
-      "flûte",
-      "xiao",
-      "flux"
+      "Fluide"
     ],
     "desc": "Mélodie principale de flûte et de xiao, fluide et lointaine, créant une ambiance éthérée et profonde.",
     "embedding": [
@@ -7969,7 +7969,7 @@
       "nature",
       "énergie"
     ],
-    "desc": "Les sons du tonnerre et de la pluie naturelle créent un paysage sonore plein d'énergie et de libération.",
+    "desc": "Les sons de tonnerre et de pluie naturelle créent un paysage sonore plein d'énergie et de libération.",
     "embedding": [
       0.03458813577890396,
       0.027948737144470215,

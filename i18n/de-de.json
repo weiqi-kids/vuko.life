@@ -5,7 +5,7 @@
   "seoKeywords": "Binaurale Beats Meditation・Konzentration・Tiefschlaf・Echtzeit-Atemführung",
   "instructions": {
     "headphones": "Bitte benutze <strong>Stereo-Kopfhörer</strong>, um den Effekt der Binauralfrequenzen zu erzielen.",
-    "microphone": "Wenn du der Nutzung deines <strong>Mikrofons</strong> zustimmst, halte es in die Nähe von Mund und Nase. Wir werden versuchen, dich in einen tieferen Zustand zu führen."
+    "microphone": "Wenn du der Nutzung deines <strong>Mikrofons</strong> zustimmst, halte es bitte in der Nähe von Mund und Nase. Wir werden versuchen, dich in einen tieferen Zustand zu führen."
   },
   "volumeRatioDetail": "Binauralfrequenz {binaural}% / Hintergrundgeräusch {background}%",
   "labels": {
@@ -17,7 +17,7 @@
     "breathVisual": "Atemvisualisierung",
     "realTimeData": "Echtzeitdaten",
     "systemConfig": "Einstellungen für Binaurale Beats",
-    "audioSearch": "🎵 Hintergrundmusik-Suche",
+    "audioSearch": "🎵 Hintergrundmusik suchen",
     "searchPlaceholder": "Musik suchen... (z.B.: Klavier, Meer, Meditation)",
     "noResults": "Keine passende Musik gefunden",
     "currentMusic": "Aktuelle Auswahl",
@@ -27,13 +27,13 @@
     "filePrivacyMsg": "Audiodateien werden nur lokal verarbeitet und nicht hochgeladen."
   },
   "buttons": {
-    "start": "🎶 Start",
-    "stop": "🍂 Stopp"
+    "start": "🎶 Starten",
+    "stop": "🍂 Stoppen"
   },
   "status": {
     "monitoring": "🎙️ Atemüberwachung läuft... Bitte atmen Sie natürlich",
     "stopped": "Überwachung gestoppt",
-    "error": "❌ Starten nicht möglich:",
+    "error": "❌ Kann nicht gestartet werden:",
     "unsupported": "⚠️ Ihr Browser unterstützt die Mikrofonfunktion nicht, Atemüberwachung nicht möglich",
     "waiting": "Zu überprüfen"
   },
@@ -49,7 +49,7 @@
     "Schumann-Resonanz",
     "Schlaf",
     "Erfrischung",
-    "Inspiration"
+    "Inspiration wecken"
   ],
   "sections": {
     "instructions": "Gebrauchsanweisung",
@@ -59,7 +59,7 @@
   "binauralDescriptions": {
     "專注": "10Hz Alpha-Wellen, helfen beim Erreichen eines fokussierten Zustands, geeignet für Arbeit und Lernen",
     "冥想": "7Hz Theta-Wellen, führen zu tiefer Entspannung, geeignet für Meditation",
-    "舒曼共振": "7,83Hz natürliche Erd-Frequenz, balanciert Körper und Geist",
+    "舒曼共振": "7,83Hz Erdresonanzfrequenz, balanciert Körper und Geist",
     "睡眠": "3Hz Delta-Wellen, helfen beim schnellen Einschlafen",
     "提神": "15Hz Beta-Wellen, steigern die geistige Vitalität",
     "激發靈感": "40Hz Gamma-Wellen, fördern kreatives Denken"
@@ -80,7 +80,7 @@
     "items": [
       {
         "q": "Was ist binaurale Beats?",
-        "a": "Binaurale Beats entstehen, wenn das linke und rechte Ohr leicht unterschiedliche Frequenzen hören, wodurch das Gehirn eine dritte „Beat-Frequenz“ erzeugt. Zum Beispiel bei 200Hz im linken Ohr und 210Hz im rechten Ohr nimmt das Gehirn eine Beat-Frequenz von 10Hz wahr, was helfen kann, die Gehirnwellen in einen bestimmten Zustand zu führen."
+        "a": "Binaurale Beats entstehen, wenn das linke und rechte Ohr Töne mit leicht unterschiedlichen Frequenzen hören, wodurch das Gehirn eine dritte „Schlagfrequenz“ erzeugt. Zum Beispiel bei 200Hz im linken Ohr und 210Hz im rechten Ohr nimmt das Gehirn eine Schlagfrequenz von 10Hz wahr, die helfen kann, die Gehirnwellen in einen bestimmten Zustand zu führen."
       },
       {
         "q": "Warum muss man unbedingt Kopfhörer verwenden?",

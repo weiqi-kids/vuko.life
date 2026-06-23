@@ -803,9 +803,9 @@
       "terra",
       "Natureza",
       "Terra",
-      "grounding"
+      "aterramento"
     ],
-    "desc": "Inspirado nos elementos da terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
+    "desc": "Inspirado no elemento terra, combina baixas frequências naturais e sons ambientais, enfatizando a estabilidade e a sensação de calma.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1198,7 +1198,7 @@
     "title": "Chakra do Plexo Solar",
     "tag": [
       "Chakra do Plexo Solar",
-      "solar plexus chakra",
+      "chakra do plexo solar",
       "Energia",
       "chakra",
       "Confiança"
@@ -1596,12 +1596,12 @@
     "title": "Montanha",
     "tag": [
       "Montanha",
-      "mountain",
+      "montanha",
       "Tranquilidade",
       "paz",
       "Natureza"
     ],
-    "desc": "Simula a tranquilidade e vastidão das montanhas, utilizando sons ambientais naturais para promover a paz interior.",
+    "desc": "Simula a tranquilidade e a vastidão das montanhas, utilizando sons ambientais naturais para promover a paz interior.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -2397,7 +2397,7 @@
       "Vitalidade",
       "floresta"
     ],
-    "desc": "Inspirado no elemento madeira, combina o som do vento entre as árvores e os sons naturais das árvores, mostrando vitalidade.",
+    "desc": "Inspirado no elemento madeira, combina sons naturais de vento entre as árvores para mostrar vitalidade.",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -3591,7 +3591,7 @@
       "chakra",
       "Fundamento"
     ],
-    "desc": "Tema do chakra raiz, ressonância de baixa frequência criando um campo de energia seguro e estável, adequado para meditação.",
+    "desc": "Tema do chakra raiz, ressonância de baixa frequência cria um campo de energia seguro e estável, adequado para meditação.",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodia principal de sons ambientais",
     "tag": [
-      "sons ambientais",
+      "Sons ambientais",
       "sons da natureza",
-      "som ambiente",
-      "puramente natural",
+      "sons ambientais",
+      "natureza pura",
       "ambiente"
     ],
-    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes humanas, adequada para meditação, relaxamento e cura natural.",
+    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes humanas, ideal para meditação, relaxamento e cura natural.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -6775,7 +6775,7 @@
       "Harmonia",
       "relaxante"
     ],
-    "desc": "Melodia principal de piano suave, acompanhada por um acompanhamento tranquilo, proporcionando uma sensação de paz e conforto.",
+    "desc": "Melodia principal de piano suave, acompanhada por um acompanhamento tranquilo, trazendo uma sensação de paz e conforto.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7563,7 +7563,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flauta e Xiao",
+    "title": "Flauta Xiao",
     "tag": [
       "Flauta",
       "Xiao",

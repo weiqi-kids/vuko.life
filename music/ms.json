@@ -4,9 +4,9 @@
     "title": "mangkuk nyanyi",
     "tag": [
       "mangkuk nyanyi",
-      "mangkuk nyanyi",
+      "singing bowl",
       "meditasi",
-      "meditasi",
+      "meditation",
       "penyembuhan"
     ],
     "desc": "Bunyi mangkuk nyanyi sebagai melodi utama, resonans lembut, sesuai untuk meditasi dan landskap bunyi penyembuhan.",
@@ -402,7 +402,7 @@
     "title": "gitar",
     "tag": [
       "gitar",
-      "gitar",
+      "guitar",
       "lembut",
       "akustik",
       "santai"
@@ -800,12 +800,12 @@
     "title": "tanah",
     "tag": [
       "tanah",
-      "bumi",
+      "earth",
       "Alam",
       "Bumi",
       "pembumian"
     ],
-    "desc": "Diilhamkan oleh elemen bumi, menggabungkan frekuensi rendah semula jadi dan bunyi persekitaran, menekankan kestabilan dan ketenangan.",
+    "desc": "Diilhamkan oleh elemen bumi, menggabungkan frekuensi rendah alam dan bunyi persekitaran, menekankan kestabilan dan ketenangan.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan dan Drum Lidah Keluli",
+    "title": "Handpan dan Steel Tongue Drum",
     "tag": [
       "Handpan",
-      "Drum Lidah Keluli",
+      "Steel Tongue Drum",
       "handpan",
-      "drum lidah keluli",
+      "steel tongue drum",
       "relaksasi"
     ],
-    "desc": "Melodi utama handpan dan drum lidah keluli, melodi yang bulat dan menenangkan, sesuai untuk meditasi mendalam dan relaksasi.",
+    "desc": "Melodi utama handpan dan steel tongue drum, melodi yang bulat dan menenangkan, sesuai untuk meditasi mendalam dan relaksasi.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -2397,7 +2397,7 @@
       "daya hidup",
       "hutan"
     ],
-    "desc": "Diilhamkan oleh elemen kayu, digabungkan dengan bunyi angin di hutan dan bunyi semula jadi pokok, menunjukkan daya hidup.",
+    "desc": "Diilhamkan oleh elemen kayu, menggabungkan bunyi angin di antara pokok dan bunyi semula jadi pokok, menunjukkan daya hidup.",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -3189,11 +3189,11 @@
     "tag": [
       "Air",
       "air",
-      "Air mengalir",
+      "Aliran air",
       "Mengalir",
       "Segar"
     ],
-    "desc": "Dengan aliran air dan bunyi sungai sebagai tema utama, menggambarkan suasana hati yang segar dan mengalir.",
+    "desc": "Dengan aliran air dan bunyi sungai sebagai elemen utama, menggambarkan suasana hati yang segar dan mengalir.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3984,7 +3984,7 @@
     "title": "Api",
     "tag": [
       "Api",
-      "api",
+      "fire",
       "tenaga",
       "semangat",
       "elemen"
@@ -4382,7 +4382,7 @@
     "title": "Melodi Utama Bunyi Persekitaran",
     "tag": [
       "Bunyi Persekitaran",
-      "bunyi alam",
+      "nature sounds",
       "bunyi persekitaran",
       "semula jadi tulen",
       "ambien"
@@ -4780,7 +4780,7 @@
     "title": "Chakra Mata Ketiga",
     "tag": [
       "Chakra Mata Ketiga",
-      "chakra mata ketiga",
+      "third eye chakra",
       "Kerohanian",
       "chakra",
       "Intuisi"
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Gendang shamanik frekuensi rendah",
+    "title": "Gendang frekuensi rendah shaman",
     "tag": [
-      "Gendang shamanik",
+      "Gendang shaman",
       "Gendang frekuensi rendah",
-      "gendang shamanik",
+      "gendang shaman",
       "gendang bingkai",
       "Pembumian"
     ],
-    "desc": "Ritma stabil gendang shamanik frekuensi rendah, membantu memasuki meditasi mendalam dan kesedaran tubuh.",
+    "desc": "Rentak stabil gendang frekuensi rendah shaman, membantu memasuki meditasi mendalam dan kesedaran tubuh.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5974,12 +5974,12 @@
     "title": "Chakra Sakral",
     "tag": [
       "Chakra Sakral",
-      "chakra sakral",
+      "sacral chakra",
       "emosi",
       "chakra",
       "aliran"
     ],
-    "desc": "Landskap bunyi chakra sakral, melambangkan aliran emosi, kreativiti, dan tenaga keseronokan.",
+    "desc": "Landskap bunyi Chakra Sakral, melambangkan aliran emosi, kreativiti, dan tenaga keseronokan.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -6377,7 +6377,7 @@
       "kejernihan",
       "kejernihan"
     ],
-    "desc": "Tema elemen logam, bunyi yang jernih dan terang, mencipta suasana yang suci dan ethereal.",
+    "desc": "Tema elemen logam, bunyi yang jernih dan terang, mencipta suasana yang suci dan etereal.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -7969,7 +7969,7 @@
       "Alam semula jadi",
       "Tenaga"
     ],
-    "desc": "Bunyi guruh dan hujan semula jadi mencipta suasana bunyi yang penuh tenaga dan pelepasan.",
+    "desc": "Bunyi guruh dan hujan semula jadi mencipta landskap bunyi yang penuh tenaga dan pelepasan.",
     "embedding": [
       0.03458813577890396,
       0.027948737144470215,
@@ -8367,7 +8367,7 @@
       "chakra",
       "Cahaya"
     ],
-    "desc": "Suasana bunyi bertema chakra mahkota, melambangkan kebangkitan rohani, peningkatan spiritual dan cahaya.",
+    "desc": "Landskap bunyi bertema chakra mahkota, melambangkan kebangkitan rohani, peningkatan spiritual dan cahaya.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

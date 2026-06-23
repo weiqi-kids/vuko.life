@@ -1,8 +1,8 @@
 {
-  "title": "Dùng âm thanh, giúp bạn gặp gỡ phiên bản tốt hơn của chính mình",
+  "title": "Dùng âm thanh, dẫn bạn gặp gỡ bản thân tốt hơn",
   "subtitle": "🤖 Hướng dẫn sử dụng",
   "description": "Hệ thống sẽ giám sát trạng thái hô hấp của bạn theo thời gian thực và tự động điều chỉnh tần số nhịp để dẫn dắt bạn vào các trạng thái ý thức khác nhau:",
-  "seoKeywords": "Thiền nhịp hai tai・Tập trung・Ngủ sâu・Hướng dẫn hô hấp theo thời gian thực",
+  "seoKeywords": "Thiền nhịp song tai・Tập trung・Ngủ sâu・Hướng dẫn hô hấp theo thời gian thực",
   "instructions": {
     "headphones": "Vui lòng sử dụng <strong>tai nghe hai kênh</strong> để đạt được hiệu quả nhịp trong não.",
     "microphone": "Nếu bạn đồng ý sử dụng <strong>micro</strong> của mình, hãy đặt micro gần miệng và mũi, chúng tôi sẽ cố gắng dẫn dắt bạn vào trạng thái sâu hơn."
@@ -16,7 +16,7 @@
     "volumeRatio": "Tỷ lệ âm lượng:",
     "breathVisual": "Hình ảnh hóa hô hấp",
     "realTimeData": "Dữ liệu thời gian thực",
-    "systemConfig": "Cài đặt nhịp hai tai",
+    "systemConfig": "Cài đặt nhịp song tai",
     "audioSearch": "🎵 Tìm kiếm nhạc nền",
     "searchPlaceholder": "Tìm kiếm nhạc... (ví dụ: piano, biển, thiền)",
     "noResults": "Không tìm thấy nhạc liên quan",
@@ -80,7 +80,7 @@
     "items": [
       {
         "q": "Binaural beats là gì?",
-        "a": "Binaural beats là khi tai trái và tai phải nghe âm thanh có tần số hơi khác nhau, não sẽ tạo ra một tần số 'beat' thứ ba. Ví dụ, tai trái nghe 200Hz, tai phải nghe 210Hz, não sẽ cảm nhận được tần số beat 10Hz, điều này có thể giúp dẫn dắt sóng não vào trạng thái cụ thể."
+        "a": "Binaural beats là khi tai trái và tai phải nghe âm thanh có tần số hơi khác nhau, não sẽ tạo ra một tần số 'đập' thứ ba. Ví dụ, tai trái nghe 200Hz, tai phải nghe 210Hz, não sẽ cảm nhận tần số đập 10Hz, điều này có thể giúp dẫn dắt sóng não vào trạng thái cụ thể."
       },
       {
         "q": "Tại sao nhất định phải dùng tai nghe?",
@@ -92,7 +92,7 @@
       },
       {
         "q": "Công cụ này thực sự miễn phí không?",
-        "a": "Vâng, Vuko hoàn toàn miễn phí và mã nguồn mở. Không có chi phí ẩn, không có đăng ký, không có quảng cáo. Bạn có thể xem mã nguồn đầy đủ trên GitHub."
+        "a": "Đúng vậy, Vuko hoàn toàn miễn phí và mã nguồn mở. Không có chi phí ẩn, không có đăng ký, không có quảng cáo. Bạn có thể xem mã nguồn đầy đủ trên GitHub."
       },
       {
         "q": "Dữ liệu của tôi có an toàn không?",

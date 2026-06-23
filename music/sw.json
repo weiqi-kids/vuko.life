@@ -9,7 +9,7 @@
       "meditation",
       "Uponyaji"
     ],
-    "desc": "Sauti ya singing bowl kama melodi kuu, inatoa mwangwi wa upole, inafaa kwa kutafakari na mandhari ya uponyaji.",
+    "desc": "Sauti ya Singing Bowl kama melodi kuu, inatoa mwangwi wa upole, inafaa kwa kutafakari na mandhari ya sauti ya uponyaji.",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -403,11 +403,11 @@
     "tag": [
       "Gitaa",
       "guitar",
-      "Polepole",
+      "Laini",
       "acoustic",
       "Kupumzika"
     ],
-    "desc": "Gitaa la upole kama kuu, likisaidiwa na sauti laini, linafaa kwa kupumzika na kuzingatia.",
+    "desc": "Gitaa la upole kama msingi, likisaidiwa na sauti laini, linafaa kwa kupumzika na kuzingatia.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -1596,12 +1596,12 @@
     "title": "Mlima",
     "tag": [
       "Mlima",
-      "mlima",
+      "mountain",
       "Utulivu",
       "amani",
       "Asili"
     ],
-    "desc": "Inasimulia utulivu na upana wa mlima, ikitumia sauti za mazingira ya asili kukuza amani ya akili.",
+    "desc": "Inasimulia utulivu na upana wa milimani, ikitumia sauti za mazingira ya asili kukuza utulivu wa akili.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -2397,7 +2397,7 @@
       "nguvu ya uhai",
       "msitu"
     ],
-    "desc": "Imechochewa na kipengele cha mbao, ikichanganya sauti ya upepo msituni na sauti za asili za miti, ikionyesha nguvu ya uhai.",
+    "desc": "Iliyopata msukumo kutoka kwa kipengele cha mbao, ikichanganya sauti ya upepo msituni na sauti za asili za miti, ikionyesha nguvu ya uhai.",
     "embedding": [
       0.03072773851454258,
       0.07157044857740402,
@@ -3190,10 +3190,10 @@
       "Maji",
       "maji",
       "Maji yanayotiririka",
-      "Mtiririko",
+      "Kutiririka",
       "Safisha"
     ],
-    "desc": "Kwa sauti ya maji yanayotiririka na mto, huonyesha hali ya akili safi na inayotiririka.",
+    "desc": "Kwa kutumia sauti ya maji yanayotiririka na mto, huonyesha hali ya akili safi na inayotiririka.",
     "embedding": [
       0.025072133168578148,
       0.11613613367080688,
@@ -3587,11 +3587,11 @@
     "tag": [
       "Chakra ya mizizi",
       "chakra ya mizizi",
-      "Utulivu",
+      "Imara",
       "chakra",
       "Msingi"
     ],
-    "desc": "Mandhari ya chakra ya mizizi, mtetemo wa chini huunda uwanja wa nishati salama na thabiti, unaofaa kwa kutafakari.",
+    "desc": "Mandhari ya chakra ya mizizi, mtetemo wa chini huunda uwanja wa nishati salama na imara, unaofaa kwa kutafakari.",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Melodi kuu ya sauti za mazingira",
+    "title": "Melodi Kuu ya Sauti za Mazingira",
     "tag": [
-      "sauti za mazingira",
+      "Sauti za Mazingira",
       "sauti za asili",
       "sauti za mazingira",
       "asili safi",
       "mazingira"
     ],
-    "desc": "Mandhari ya sauti za mazingira safi bila vyombo au sauti za binadamu, yanafaa kwa kutafakari, kupumzika na uponyaji wa asili.",
+    "desc": "Mandhari ya sauti za mazingira asili bila vyombo au sauti za binadamu, yanafaa kwa kutafakari, kupumzika na uponyaji wa asili.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4777,9 +4777,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%9C%89%E5%BF%83%E8%BC%AA.mp3",
-    "title": "Chakra ya jicho la tatu",
+    "title": "Chakra ya Jicho la Tatu",
     "tag": [
-      "Chakra ya jicho la tatu",
+      "Chakra ya Jicho la Tatu",
       "chakra ya jicho la tatu",
       "kiroho",
       "chakra",
@@ -5179,7 +5179,7 @@
     "tag": [
       "ngoma ya shaman",
       "ngoma ya masafa ya chini",
-      "ngoma ya shamanic",
+      "ngoma ya kishaman",
       "ngoma ya fremu",
       "kuimarisha"
     ],
@@ -5581,7 +5581,7 @@
       "chakra",
       "uhuru"
     ],
-    "desc": "Mandhari ya chakra ya koo, inaunda nafasi ya mtiririko wa nishati ulio laini na uhuru wa kujieleza.",
+    "desc": "Mandhari ya chakra ya koo, inaunda nafasi ya mtiririko wa nishati ulio huru na kujieleza kwa uhuru.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -6374,10 +6374,10 @@
       "Dhahabu",
       "metal",
       "Usafi",
-      "Uwazaji",
+      "Uwazi",
       "clarity"
     ],
-    "desc": "Mandhari ya kipengele cha Dhahabu, sauti ni safi na angavu, ikileta hali ya usafi na utulivu.",
+    "desc": "Mandhari ya kipengele cha Dhahabu, sauti ni safi na angavu, ikijenga mazingira ya usafi na utulivu.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -7171,9 +7171,9 @@
       "Chombo cha sauti",
       "glockenspiel",
       "chombo cha kupimia sauti",
-      "Angavu"
+      "Kiroho"
     ],
-    "desc": "Sauti angavu za kengele na chombo cha sauti, zinafaa kwa kutafakari, kusafisha na kuzingatia.",
+    "desc": "Sauti za kiroho za kengele na chombo cha sauti, zinafaa kwa kutafakari, kusafisha na kuzingatia.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7571,7 +7571,7 @@
       "xiao",
       "Mtiririko"
     ],
-    "desc": "Melodi kuu ya filimbi na xiao, ikitiririka kwa mbali, inaunda hali ya akili angavu na ya kina.",
+    "desc": "Melodi kuu ya filimbi na xiao, ikitiririka kwa mbali, inaunda hali ya kiroho na ya kina.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Kichwa",
+    "title": "Kichwa cha taji",
     "tag": [
-      "Kichwa",
-      "kichwa chakra",
+      "Kichwa cha taji",
+      "kichwa cha taji",
       "Kuamka",
       "chakra",
       "Mwanga"
     ],
-    "desc": "Mandhari ya kichwa, inawakilisha kuamka kiroho, kuinua kiroho na mwanga.",
+    "desc": "Mandhari ya kichwa cha taji, inawakilisha kuamka kiroho, kuinuka kiroho na mwanga.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

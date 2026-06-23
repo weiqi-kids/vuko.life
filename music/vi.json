@@ -3591,7 +3591,7 @@
       "luân xa",
       "Cơ bản"
     ],
-    "desc": "Chủ đề luân xa gốc, cộng hưởng tần số thấp tạo ra trường năng lượng an toàn ổn định, thích hợp cho tĩnh tâm.",
+    "desc": "Chủ đề luân xa gốc, cộng hưởng tần số thấp tạo ra trường năng lượng an toàn ổn định, thích hợp cho thiền định.",
     "embedding": [
       -0.010757001116871834,
       0.07280673086643219,
@@ -3984,12 +3984,12 @@
     "title": "Lửa",
     "tag": [
       "Lửa",
-      "fire",
+      "lửa",
       "năng lượng",
       "nhiệt huyết",
-      "yếu tố"
+      "nguyên tố"
     ],
-    "desc": "Lấy yếu tố lửa làm chủ đề, kết hợp với các hiệu ứng âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
+    "desc": "Chủ đề nguyên tố lửa, kết hợp âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4379,13 +4379,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Giai điệu chính của âm thanh môi trường",
+    "title": "Giai điệu chính âm thanh môi trường",
     "tag": [
       "Âm thanh môi trường",
-      "nature sounds",
+      "âm thanh thiên nhiên",
       "âm thanh môi trường",
       "thuần tự nhiên",
-      "ambient"
+      "môi trường"
     ],
     "desc": "Cảnh âm thanh môi trường thuần tự nhiên, không có nhạc cụ hay giọng hát, phù hợp cho thiền định, thư giãn và chữa lành tự nhiên.",
     "embedding": [
@@ -4780,12 +4780,12 @@
     "title": "Luân xa con mắt thứ ba",
     "tag": [
       "Luân xa con mắt thứ ba",
-      "third eye chakra",
+      "luân xa con mắt thứ ba",
       "Tâm linh",
       "chakra",
       "Trực giác"
     ],
-    "desc": "Cảnh âm thiền định luân xa mắt, nhấn mạnh sự mở ra của tâm linh và trực giác, phù hợp cho nhận thức sâu sắc.",
+    "desc": "Cảnh âm thiền định luân xa mắt thứ ba, nhấn mạnh sự mở ra của tâm linh và trực giác, phù hợp cho sự nhận thức sâu sắc.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5573,15 +5573,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "Luân xa họng",
+    "title": "Luân xa cổ họng",
     "tag": [
-      "Luân xa họng",
-      "luân xa họng",
+      "Luân xa cổ họng",
+      "luân xa cổ họng",
       "Giao tiếp",
       "chakra",
       "Tự do"
     ],
-    "desc": "Cảnh âm chủ đề luân xa họng, tạo không gian cho dòng năng lượng thông suốt và biểu đạt tự do.",
+    "desc": "Cảnh âm chủ đề luân xa cổ họng, tạo không gian cho dòng năng lượng trôi chảy và biểu đạt tự do.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -5979,7 +5979,7 @@
       "luân xa",
       "dòng chảy"
     ],
-    "desc": "Âm cảnh luân xa xương cùng, tượng trưng cho dòng chảy cảm xúc, sáng tạo và năng lượng vui vẻ.",
+    "desc": "Âm cảnh luân xa xương cùng, tượng trưng cho dòng chảy cảm xúc, sự sáng tạo và năng lượng vui vẻ.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -6775,7 +6775,7 @@
       "Hài hòa",
       "thư giãn"
     ],
-    "desc": "Giai điệu chính của piano dịu dàng, kết hợp với đệm nhẹ nhàng, mang lại cảm giác bình yên và thoải mái.",
+    "desc": "Giai điệu chính của piano dịu dàng, kết hợp với đệm nhạc nhẹ nhàng, mang lại cảm giác bình yên và thoải mái.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7169,11 +7169,11 @@
     "tag": [
       "Chuông",
       "Âm thoa",
-      "chuông",
+      "đàn glockenspiel",
       "âm thoa",
-      "Không linh"
+      "Hư không"
     ],
-    "desc": "Âm thanh không linh của chuông và âm thoa, thích hợp cho thiền định, thanh lọc và tập trung.",
+    "desc": "Âm thanh hư không của chuông và âm thoa, thích hợp cho thiền định, thanh lọc và tập trung.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7571,7 +7571,7 @@
       "sáo động",
       "Lưu động"
     ],
-    "desc": "Giai điệu chính của sáo trúc và sáo động, lưu động xa xăm, tạo nên tâm trạng không linh sâu xa.",
+    "desc": "Giai điệu chính của sáo trúc và sáo động, lưu động xa xăm, tạo nên tâm trạng hư không sâu xa.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
@@ -8367,7 +8367,7 @@
       "luân xa",
       "Ánh sáng"
     ],
-    "desc": "Chủ đề âm thanh của luân xa vương miện, tượng trưng cho sự thức tỉnh tâm linh, nâng cao tinh thần và ánh sáng.",
+    "desc": "Cảnh quan âm thanh chủ đề luân xa vương miện, tượng trưng cho sự thức tỉnh tâm linh, nâng cao tinh thần và ánh sáng.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

@@ -1,10 +1,10 @@
 {
   "title": "Dengan suara, temui diri Anda yang lebih baik",
   "subtitle": "🤖 Petunjuk Penggunaan",
-  "description": "Sistem akan memantau kondisi pernapasan Anda secara real-time dan secara otomatis menyesuaikan frekuensi binaural untuk membimbing Anda memasuki berbagai kondisi kesadaran:",
+  "description": "Sistem akan memantau kondisi pernapasan Anda secara real-time dan secara otomatis menyesuaikan frekuensi binaural untuk membimbing Anda ke dalam berbagai kondisi kesadaran:",
   "seoKeywords": "Meditasi Binaural・Konsentrasi・Tidur Dalam・Panduan Pernapasan Real-time",
   "instructions": {
-    "headphones": "Silakan gunakan <strong>headphone stereo</strong> agar efek frekuensi binaural dapat tercapai.",
+    "headphones": "Silakan gunakan <strong>headphone stereo</strong> agar dapat mencapai efek frekuensi binaural di otak.",
     "microphone": "Jika Anda setuju untuk menggunakan <strong>mikrofon</strong> Anda, silakan dekatkan mikrofon ke mulut dan hidung Anda, kami akan mencoba membimbing Anda ke dalam kondisi yang lebih dalam."
   },
   "volumeRatioDetail": "Frekuensi Binaural {binaural}% / Suara Latar {background}%",
@@ -19,7 +19,7 @@
     "systemConfig": "Pengaturan Frekuensi Binaural",
     "audioSearch": "🎵 Pencarian Musik Latar",
     "searchPlaceholder": "Cari musik... (misalnya: piano, laut, meditasi)",
-    "noResults": "Tidak ada musik yang ditemukan",
+    "noResults": "Tidak dapat menemukan musik terkait",
     "currentMusic": "Pilihan Saat Ini",
     "deviceTest": "Tes Perangkat",
     "libraryTab": "Perpustakaan Suara Online",
@@ -80,7 +80,7 @@
     "items": [
       {
         "q": "Apa itu Binaural Beats?",
-        "a": "Binaural Beats adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan 'beat' ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan beat 10Hz, yang dapat membantu membimbing gelombang otak memasuki keadaan tertentu."
+        "a": "Binaural Beats adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan \"beat\" ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan beat 10Hz, yang dapat membantu membimbing gelombang otak memasuki keadaan tertentu."
       },
       {
         "q": "Mengapa harus menggunakan headphone?",

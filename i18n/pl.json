@@ -1,7 +1,7 @@
 {
   "title": "Za pomocą dźwięku, spotkaj lepszą wersję siebie",
   "subtitle": "🤖 Instrukcja obsługi",
-  "description": "System będzie na bieżąco monitorować twój stan oddychania i automatycznie dostosowywać częstotliwość bicia, aby wprowadzić cię w różne stany świadomości:",
+  "description": "System będzie na bieżąco monitorować twój stan oddechu i automatycznie dostosowywać częstotliwość bicia, aby wprowadzić cię w różne stany świadomości:",
   "seoKeywords": "Medytacja z częstotliwością binauralną・Koncentracja・Głęboki sen・Natychmiastowe prowadzenie oddechu",
   "instructions": {
     "headphones": "Proszę używać <strong>słuchawek stereo</strong>, aby osiągnąć efekt częstotliwości binauralnej w mózgu.",
@@ -9,12 +9,12 @@
   },
   "volumeRatioDetail": "Częstotliwość binauralna {binaural}% / Dźwięk tła {background}%",
   "labels": {
-    "breathRate": "Szybkość oddychania:",
+    "breathRate": "Szybkość oddechu:",
     "noiseLevel": "Szum tła:",
     "baseFreq": "Częstotliwość podstawowa:",
     "audioFile": "Plik dźwiękowy tła:",
     "volumeRatio": "Proporcja głośności:",
-    "breathVisual": "Wizualizacja oddychania",
+    "breathVisual": "Wizualizacja oddechu",
     "realTimeData": "Dane w czasie rzeczywistym",
     "systemConfig": "Ustawienia częstotliwości binauralnej",
     "audioSearch": "🎵 Wyszukiwanie muzyki w tle",
@@ -23,8 +23,8 @@
     "currentMusic": "Aktualny wybór",
     "deviceTest": "Test urządzenia",
     "libraryTab": "Biblioteka dźwięków online",
-    "localFileTab": "Plik lokalny",
-    "filePrivacyMsg": "Plik audio jest przetwarzany tylko lokalnie i nie będzie przesyłany."
+    "localFileTab": "Pliki lokalne",
+    "filePrivacyMsg": "Pliki audio są przetwarzane tylko lokalnie i nie będą przesyłane."
   },
   "buttons": {
     "start": "🎶 Start",
@@ -34,7 +34,7 @@
     "monitoring": "🎙️ Monitorowanie oddechu... Proszę oddychać naturalnie",
     "stopped": "Monitorowanie zatrzymane",
     "error": "❌ Nie można uruchomić:",
-    "unsupported": "⚠️ Twoja przeglądarka nie obsługuje funkcji mikrofonu, nie można użyć monitorowania oddechu",
+    "unsupported": "⚠️ Twoja przeglądarka nie obsługuje funkcji mikrofonu, monitorowanie oddechu jest niemożliwe",
     "waiting": "Do wykrycia"
   },
   "units": {
@@ -61,11 +61,11 @@
     "冥想": "Fale Theta 7Hz, prowadzą do głębokiego relaksu, odpowiednie do medytacji",
     "舒曼共振": "Naturalna częstotliwość Ziemi 7.83Hz, równoważy energię ciała i umysłu",
     "睡眠": "Fale Delta 3Hz, pomagają szybko zasnąć",
-    "提神": "Fale Beta 15Hz, zwiększają witalność umysłową",
+    "提神": "Fale Beta 15Hz, zwiększają energię umysłową",
     "激發靈感": "Fale Gamma 40Hz, zwiększają kreatywne myślenie"
   },
   "trust": {
-    "free": "Całkowicie darmowe, bez potrzeby rejestracji",
+    "free": "Całkowicie darmowe, bez rejestracji",
     "openSource": "Projekt open source",
     "privacy": "Dźwięk przetwarzany jest tylko lokalnie, nie jest przesyłany na serwer"
   },
@@ -80,11 +80,11 @@
     "items": [
       {
         "q": "Czym jest binauralne bicie?",
-        "a": "Binauralne bicie powstaje, gdy lewe i prawe ucho słyszą dźwięki o nieco różnych częstotliwościach, a mózg generuje trzecią „częstotliwość bicia”. Na przykład, jeśli lewe ucho słyszy 200Hz, a prawe 210Hz, mózg odbiera bicie o częstotliwości 10Hz, co może pomóc wprowadzić fale mózgowe w określony stan."
+        "a": "Binauralne bicie występuje, gdy lewe i prawe ucho słyszą dźwięki o nieco różnych częstotliwościach, a mózg generuje trzecią „częstotliwość bicia”. Na przykład, jeśli lewe ucho słyszy 200Hz, a prawe 210Hz, mózg odbiera bicie o częstotliwości 10Hz, co może pomóc wprowadzić fale mózgowe w określony stan."
       },
       {
         "q": "Dlaczego konieczne jest używanie słuchawek?",
-        "a": "Zasada działania dudnień różnicowych polega na tym, że lewe i prawe ucho słyszą różne częstotliwości. Tylko użycie słuchawek zapewnia rozdzielenie kanałów, co pozwala mózgowi prawidłowo generować efekt dudnień."
+        "a": "Zasada działania dudnień binauralnych polega na tym, że lewe i prawe ucho słyszą różne częstotliwości. Tylko użycie słuchawek zapewnia separację kanałów, co pozwala mózgowi prawidłowo generować efekt dudnień."
       },
       {
         "q": "Jak działa monitorowanie oddechu?",
@@ -92,11 +92,11 @@
       },
       {
         "q": "Czy to narzędzie jest naprawdę darmowe?",
-        "a": "Tak, Vuko jest całkowicie darmowe i otwartoźródłowe. Nie ma ukrytych opłat, subskrypcji ani reklam. Możesz zobaczyć pełny kod źródłowy na GitHubie."
+        "a": "Tak, Vuko jest całkowicie darmowe i open-source. Nie ma ukrytych opłat, subskrypcji ani reklam. Możesz zobaczyć pełny kod źródłowy na GitHubie."
       },
       {
         "q": "Czy moje dane są bezpieczne?",
-        "a": "Absolutnie bezpieczne. Wszystkie operacje na dźwięku odbywają się w Twojej przeglądarce, nie zbieramy, nie przechowujemy ani nie przesyłamy żadnych danych audio. To czysto frontendowa aplikacja, bez serwera backendowego."
+        "a": "Absolutnie bezpieczne. Wszystkie przetwarzania audio odbywają się w Twojej przeglądarce, nie zbieramy, nie przechowujemy ani nie przesyłamy żadnych danych audio. To czysto front-endowa aplikacja, bez serwera backendowego."
       }
     ]
   }

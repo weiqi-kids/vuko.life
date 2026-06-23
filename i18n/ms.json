@@ -1,28 +1,28 @@
 {
   "title": "Dengan suara, temui diri anda yang lebih baik",
   "subtitle": "🤖 Arahan Penggunaan",
-  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan secara automatik menyesuaikan frekuensi ketukan untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
-  "seoKeywords": "Meditasi Binaural Beat・Fokus・Tidur Mendalam・Panduan Pernafasan Masa Nyata",
+  "description": "Sistem akan memantau keadaan pernafasan anda secara masa nyata dan menyesuaikan frekuensi binaural secara automatik untuk membimbing anda ke dalam pelbagai keadaan kesedaran:",
+  "seoKeywords": "Meditasi Binaural・Fokus・Tidur Mendalam・Panduan Pernafasan Masa Nyata",
   "instructions": {
-    "headphones": "Sila gunakan <strong>fon kepala stereo</strong> untuk mencapai kesan frekuensi ketukan dalam otak.",
+    "headphones": "Sila gunakan <strong>fon kepala stereo</strong> untuk mencapai kesan frekuensi binaural dalam otak.",
     "microphone": "Jika anda bersetuju untuk menggunakan <strong>mikrofon</strong> anda, sila letakkan mikrofon berhampiran mulut dan hidung, kami akan cuba membimbing anda ke dalam keadaan yang lebih mendalam."
   },
-  "volumeRatioDetail": "Frekuensi Ketukan {binaural}% / Bunyi Latar {background}%",
+  "volumeRatioDetail": "Frekuensi Binaural {binaural}% / Bunyi Latar {background}%",
   "labels": {
     "breathRate": "Kadar Pernafasan:",
-    "noiseLevel": "Bunyi Latar Belakang:",
+    "noiseLevel": "Bunyi Latar:",
     "baseFreq": "Frekuensi Asas:",
     "audioFile": "Fail Bunyi Latar:",
     "volumeRatio": "Nisbah Kelantangan:",
     "breathVisual": "Visualisasi Pernafasan",
     "realTimeData": "Data Masa Nyata",
-    "systemConfig": "Tetapan Frekuensi Ketukan Binaural",
-    "audioSearch": "🎵 Carian Muzik Latar Belakang",
+    "systemConfig": "Tetapan Frekuensi Binaural",
+    "audioSearch": "🎵 Carian Muzik Latar",
     "searchPlaceholder": "Cari muzik... (contoh: piano, laut, meditasi)",
     "noResults": "Tiada muzik berkaitan ditemui",
     "currentMusic": "Pilihan Semasa",
     "deviceTest": "Ujian Peralatan",
-    "libraryTab": "Perpustakaan Audio Dalam Talian",
+    "libraryTab": "Pustaka Audio Dalam Talian",
     "localFileTab": "Fail Tempatan",
     "filePrivacyMsg": "Fail audio hanya diproses secara tempatan, tidak akan dimuat naik."
   },
@@ -31,11 +31,11 @@
     "stop": "🍂 Berhenti"
   },
   "status": {
-    "monitoring": "🎙️ Memantau Pernafasan... Sila bernafas secara semula jadi",
-    "stopped": "Pemantauan Dihentikan",
+    "monitoring": "🎙️ Memantau pernafasan... Sila bernafas secara semula jadi",
+    "stopped": "Pemantauan telah dihentikan",
     "error": "❌ Tidak dapat dimulakan:",
-    "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, pemantauan pernafasan tidak dapat digunakan",
-    "waiting": "Menunggu Pengesanan"
+    "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, tidak dapat menggunakan pemantauan pernafasan",
+    "waiting": "Menunggu pengesanan"
   },
   "units": {
     "perMin": "kali/min",
@@ -67,7 +67,7 @@
   "trust": {
     "free": "Sepenuhnya percuma, tiada pendaftaran diperlukan",
     "openSource": "Projek sumber terbuka",
-    "privacy": "Audio diproses hanya secara lokal, tidak dimuat naik ke pelayan"
+    "privacy": "Audio hanya diproses secara tempatan, tidak dimuat naik ke pelayan"
   },
   "share": {
     "title": "Kongsi",
@@ -84,7 +84,7 @@
       },
       {
         "q": "Mengapa perlu menggunakan fon kepala?",
-        "a": "Prinsip binaural beats adalah membolehkan telinga kiri dan kanan mendengar frekuensi yang berbeza. Hanya dengan menggunakan fon kepala, saluran bunyi kiri dan kanan dapat dipisahkan, membolehkan otak menghasilkan kesan binaural beats dengan betul."
+        "a": "Prinsip binaural beats adalah membolehkan telinga kiri dan kanan mendengar frekuensi yang berbeza. Hanya dengan menggunakan fon kepala, saluran suara kiri dan kanan dapat dipisahkan, membolehkan otak menghasilkan kesan binaural beats dengan betul."
       },
       {
         "q": "Bagaimana pemantauan pernafasan berfungsi?",

@@ -4,7 +4,7 @@
     "title": "Cuenco tibetano",
     "tag": [
       "Cuenco tibetano",
-      "cuenco tibetano",
+      "singing bowl",
       "Meditación",
       "meditación",
       "Sanación"
@@ -402,12 +402,12 @@
     "title": "Guitarra",
     "tag": [
       "Guitarra",
-      "guitarra",
+      "guitar",
       "Suave",
       "acústico",
       "Relajación"
     ],
-    "desc": "Guitarra suave como principal, acompañada de un fondo sonoro ligero, adecuado para relajarse y concentrarse.",
+    "desc": "Principalmente guitarra suave, complementada con almohadillas sonoras ligeras, adecuada para relajarse y concentrarse.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -800,7 +800,7 @@
     "title": "Tierra",
     "tag": [
       "Tierra",
-      "tierra",
+      "earth",
       "Naturaleza",
       "Tierra",
       "conexión a tierra"
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Tambor espiritual de mano",
+    "title": "Handpan y tambor de lengua de acero",
     "tag": [
-      "Tambor de mano",
-      "Tambor espiritual",
+      "Handpan",
+      "Tambor de lengua de acero",
       "handpan",
-      "tambor de lengüeta de acero",
+      "tambor de lengua de acero",
       "relajación"
     ],
-    "desc": "Melodía principal de tambor de mano y tambor espiritual, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
+    "desc": "Melodía principal de handpan y tambor de lengua de acero, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -5181,7 +5181,7 @@
       "Tambor de baja frecuencia",
       "tambor chamánico",
       "tambor de marco",
-      "Conexión a tierra"
+      "enraizamiento"
     ],
     "desc": "Ritmo estable del tambor chamánico de baja frecuencia, ayuda a entrar en una meditación profunda y percepción corporal.",
     "embedding": [
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Oro",
+    "title": "Metal",
     "tag": [
-      "Oro",
+      "Metal",
       "metal",
       "Pureza",
       "Claridad",
       "claridad"
     ],
-    "desc": "Tema del elemento oro, el tono es claro y brillante, creando una atmósfera pura y etérea.",
+    "desc": "Tema del elemento metal, el timbre es claro y brillante, creando una atmósfera pura y etérea.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -7964,7 +7964,7 @@
     "title": "Trueno",
     "tag": [
       "Trueno",
-      "thunder",
+      "trueno",
       "Naturaleza",
       "Naturaleza",
       "Energía"
@@ -8362,12 +8362,12 @@
     "title": "Chakra corona",
     "tag": [
       "Chakra corona",
-      "crown chakra",
+      "chakra corona",
       "Despertar",
       "chakra",
       "Luz"
     ],
-    "desc": "El paisaje sonoro del chakra corona simboliza el despertar espiritual, la elevación espiritual y la luz.",
+    "desc": "Paisaje sonoro temático del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,

@@ -9,7 +9,7 @@
       "medytacja",
       "uzdrawianie"
     ],
-    "desc": "Dźwięk misy śpiewającej jako główny motyw, łagodny rezonans, odpowiedni do medytacji i uzdrawiających pejzaży dźwiękowych.",
+    "desc": "Dźwięk misy śpiewającej jako główna melodia, łagodny rezonans, odpowiedni do medytacji i uzdrawiających pejzaży dźwiękowych.",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -805,7 +805,7 @@
       "Ziemia",
       "uziemienie"
     ],
-    "desc": "Zainspirowane elementem ziemi, łączy niskie częstotliwości natury i dźwięki otoczenia, podkreślając stabilność i spokój.",
+    "desc": "Zainspirowane elementem ziemi, łączy naturalne niskie częstotliwości i dźwięki otoczenia, podkreślając stabilność i spokój.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -3984,7 +3984,7 @@
     "title": "Ogień",
     "tag": [
       "Ogień",
-      "fire",
+      "ogień",
       "energia",
       "pasja",
       "element"
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Główna melodia dźwięków otoczenia",
     "tag": [
-      "Dźwięki otoczenia",
-      "nature sounds",
+      "Dźwięki natury",
+      "dźwięki natury",
       "dźwięki otoczenia",
       "czysta natura",
       "ambient"
     ],
-    "desc": "Czysty pejzaż dźwiękowy natury, bez instrumentów czy głosów, idealny do medytacji, relaksu i naturalnego uzdrawiania.",
+    "desc": "Czysty dźwięk otoczenia bez instrumentów czy głosów, idealny do medytacji, relaksu i naturalnego uzdrawiania.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4780,7 +4780,7 @@
     "title": "Czakra trzeciego oka",
     "tag": [
       "Czakra trzeciego oka",
-      "third eye chakra",
+      "czakra trzeciego oka",
       "Duchowość",
       "czakra",
       "intuicja"
@@ -5581,7 +5581,7 @@
       "czakra",
       "wolność"
     ],
-    "desc": "Pejzaż dźwiękowy tematyczny czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
+    "desc": "Pejzaż dźwiękowy tematyki czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -7165,7 +7165,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Dzwonki i kamerton",
+    "title": "Kamerton",
     "tag": [
       "Dzwonki",
       "Kamerton",
@@ -7173,7 +7173,7 @@
       "kamerton",
       "Eteryczność"
     ],
-    "desc": "Eteryczne dźwięki dzwonków i kamertonu, odpowiednie do medytacji, oczyszczania i skupienia.",
+    "desc": "Eteryczne dźwięki dzwonków i kamertonu, idealne do medytacji, oczyszczania i koncentracji.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7563,7 +7563,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flet i xiao",
+    "title": "Flet i Xiao",
     "tag": [
       "Flet",
       "Xiao",

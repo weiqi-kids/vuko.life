@@ -9,7 +9,7 @@
       "meditasyon",
       "Şifa"
     ],
-    "desc": "Şarkı kasesi sesi ana melodi olarak, yumuşak rezonans ile meditasyon ve şifa ses manzaraları için uygundur.",
+    "desc": "Şarkı kasesi sesi ana melodi olarak kullanılır, yumuşak bir rezonans sağlar, meditasyon ve şifa ses manzaraları için uygundur.",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -407,7 +407,7 @@
       "akustik",
       "Rahatlama"
     ],
-    "desc": "Nazik gitar ana enstrüman olarak, hafif ses yastıkları ile desteklenmiş, rahatlama ve odaklanma için uygundur.",
+    "desc": "Nazik gitar ana enstrüman olarak kullanılır, hafif ses yastıklarıyla desteklenir, rahatlama ve odaklanma için uygundur.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -805,7 +805,7 @@
       "Toprak",
       "topraklama"
     ],
-    "desc": "Toprak elementinden ilham alarak, doğal düşük frekanslar ve çevresel seslerle birleştirerek, istikrar ve sakinliği vurgular.",
+    "desc": "Toprak elementinden ilham alarak, doğal düşük frekanslar ve çevresel seslerle birleşerek, istikrar ve sakinliği vurgular.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -4387,7 +4387,7 @@
       "saf doğa",
       "ortam"
     ],
-    "desc": "Hiçbir enstrüman veya insan sesi olmadan, meditasyon, boşalma ve doğal iyileşme için uygun saf doğal çevre ses manzarası.",
+    "desc": "Herhangi bir enstrüman veya insan sesi olmadan, meditasyon, boşalma ve doğal iyileşme için uygun saf doğa ortam ses manzarası.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -5581,7 +5581,7 @@
       "çakra",
       "özgürlük"
     ],
-    "desc": "Boğaz çakrası temalı ses manzarası, enerjinin akıcı bir şekilde hareket etmesi ve özgür ifade için bir alan yaratır.",
+    "desc": "Boğaz çakrası temalı ses manzarası, enerjinin akıcı bir şekilde hareket etmesi ve özgürce ifade edilmesi için bir alan yaratır.",
     "embedding": [
       7.946656842250377e-05,
       0.07640466839075089,
@@ -6771,11 +6771,11 @@
     "tag": [
       "Piyano",
       "piyano",
-      "Nazik",
-      "Uyum",
+      "nazik",
+      "uyum",
       "rahatlatıcı"
     ],
-    "desc": "Nazik piyano ana melodisi, rahatlatıcı bir eşlik ile huzurlu ve konforlu bir his yaratır.",
+    "desc": "Nazik piyano ana melodisi, rahatlatıcı bir eşlik ile birleşerek huzurlu ve konforlu bir his yaratır.",
     "embedding": [
       0.04465566575527191,
       0.05054694041609764,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Çan piyano diyapazonu",
+    "title": "çan piyano diyapazonu",
     "tag": [
-      "Çan piyano",
-      "Diyapazon",
+      "çan piyano",
+      "diyapazon",
       "glockenspiel",
       "akort çatalı",
-      "Ethereal"
+      "eteryal"
     ],
-    "desc": "Çan piyano ve diyapazonun eterik sesleri meditasyon, temizlik ve odaklanma için uygundur.",
+    "desc": "Çan piyano ve diyapazonun eteryal sesleri, meditasyon, temizlik ve odaklanma için uygundur.",
     "embedding": [
       -0.062186677008867264,
       0.046817366033792496,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flüt ve Xiao",
+    "title": "flüt ve xiao",
     "tag": [
-      "Flüt",
-      "Xiao",
       "flüt",
       "xiao",
-      "Akış"
+      "flüt",
+      "xiao",
+      "akış"
     ],
-    "desc": "Flüt ve Xiao ana melodisi, uzak ve akıcı, eterik ve derin bir ruh hali yaratır.",
+    "desc": "Flüt ve xiao ana melodisi, uzak ve akıcı bir şekilde eteryal ve derin bir ruh hali yaratır.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,

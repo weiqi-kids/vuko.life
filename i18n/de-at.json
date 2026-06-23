@@ -7,7 +7,7 @@
     "headphones": "Bitte benutze <strong>Stereo-Kopfhörer</strong>, um den Effekt der binauralen Beats zu erzielen.",
     "microphone": "Wenn du der Nutzung deines <strong>Mikrofons</strong> zustimmst, halte es bitte nahe an Mund und Nase. Wir werden versuchen, dich in einen tieferen Zustand zu führen."
   },
-  "volumeRatioDetail": "Binaurale Frequenz {binaural}% / Hintergrundgeräusch {background}%",
+  "volumeRatioDetail": "Binaurale Beats {binaural}% / Hintergrundgeräusch {background}%",
   "labels": {
     "breathRate": "Atemfrequenz:",
     "noiseLevel": "Hintergrundgeräusch:",
@@ -33,7 +33,7 @@
   "status": {
     "monitoring": "🎙️ Atemüberwachung läuft... Bitte atmen Sie natürlich",
     "stopped": "Überwachung gestoppt",
-    "error": "❌ Kann nicht gestartet werden:",
+    "error": "❌ Konnte nicht gestartet werden:",
     "unsupported": "⚠️ Ihr Browser unterstützt die Mikrofonfunktion nicht, Atemüberwachung nicht möglich",
     "waiting": "Zu überprüfen"
   },
@@ -44,12 +44,12 @@
     "none": "Keine"
   },
   "binauralOptions": [
-    "Konzentration",
+    "Fokus",
     "Meditation",
     "Schumann-Resonanz",
     "Schlaf",
     "Erfrischung",
-    "Inspiration"
+    "Inspiration wecken"
   ],
   "sections": {
     "instructions": "Gebrauchsanweisung",
@@ -57,9 +57,9 @@
     "monitor": "Atemüberwachung"
   },
   "binauralDescriptions": {
-    "專注": "10Hz Alpha-Wellen, helfen beim Erreichen eines fokussierten Zustands, geeignet für Arbeit und Lernen",
+    "專注": "10Hz Alpha-Wellen, helfen, in einen fokussierten Zustand zu gelangen, geeignet für Arbeit und Lernen",
     "冥想": "7Hz Theta-Wellen, führen zu tiefer Entspannung, geeignet für Meditation",
-    "舒曼共振": "7,83Hz natürliche Erd-Frequenz, balanciert Körper und Geist",
+    "舒曼共振": "7,83Hz natürliche Erdfrequenz, balanciert Körper und Geist",
     "睡眠": "3Hz Delta-Wellen, helfen beim schnellen Einschlafen",
     "提神": "15Hz Beta-Wellen, steigern die geistige Vitalität",
     "激發靈感": "40Hz Gamma-Wellen, fördern kreatives Denken"
@@ -80,19 +80,19 @@
     "items": [
       {
         "q": "Was ist binaurale Beats?",
-        "a": "Binaurale Beats entstehen, wenn das linke und rechte Ohr leicht unterschiedliche Frequenzen hören, wodurch das Gehirn eine dritte „Beat-Frequenz“ erzeugt. Zum Beispiel bei 200Hz im linken Ohr und 210Hz im rechten Ohr nimmt das Gehirn eine Beat-Frequenz von 10Hz wahr, was helfen kann, die Gehirnwellen in einen bestimmten Zustand zu führen."
+        "a": "Binaurale Beats entstehen, wenn das Gehirn einen dritten „Beat“ erzeugt, wenn das linke und rechte Ohr leicht unterschiedliche Frequenzen hören. Zum Beispiel hört das linke Ohr 200Hz und das rechte Ohr 210Hz, das Gehirn nimmt einen 10Hz Beat wahr, der helfen kann, die Gehirnwellen in einen bestimmten Zustand zu führen."
       },
       {
-        "q": "Warum muss man unbedingt Kopfhörer verwenden?",
+        "q": "Warum müssen Kopfhörer verwendet werden?",
         "a": "Das Prinzip der binauralen Beats besteht darin, dass das linke und rechte Ohr unterschiedliche Frequenzen hören. Nur mit Kopfhörern kann die Trennung der linken und rechten Kanäle sichergestellt werden, sodass das Gehirn den Beat-Effekt korrekt erzeugt."
       },
       {
         "q": "Wie funktioniert die Atemüberwachung?",
-        "a": "Das System erkennt Ihre Atemgeräusche über das Mikrofon, analysiert den Atemrhythmus und passt die Beats automatisch an Ihren Zustand an, um Ihnen zu helfen, schneller in den Zielzustand zu gelangen. Alle Audiodaten werden nur lokal verarbeitet und nicht hochgeladen."
+        "a": "Das System erkennt Ihre Atemgeräusche über das Mikrofon, analysiert den Atemrhythmus und passt die Beats automatisch an Ihren Zustand an, um Ihnen zu helfen, schneller den Zielzustand zu erreichen. Alle Audiodaten werden nur lokal verarbeitet und nicht hochgeladen."
       },
       {
         "q": "Ist dieses Tool wirklich kostenlos?",
-        "a": "Ja, Vuko ist völlig kostenlos und Open Source. Es gibt keine versteckten Kosten, keine Abonnements, keine Werbung. Sie können den vollständigen Quellcode auf GitHub einsehen."
+        "a": "Ja, Vuko ist völlig kostenlos und Open Source. Es gibt keine versteckten Kosten, keine Abonnements und keine Werbung. Sie können den vollständigen Quellcode auf GitHub einsehen."
       },
       {
         "q": "Sind meine Daten sicher?",

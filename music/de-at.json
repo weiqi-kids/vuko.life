@@ -407,7 +407,7 @@
       "akustisch",
       "Entspannung"
     ],
-    "desc": "Sanfte Gitarre im Vordergrund, begleitet von weichen Klängen, geeignet für Entspannung und Konzentration.",
+    "desc": "Sanfte Gitarre im Vordergrund, begleitet von weichen Klangteppichen, geeignet für Entspannung und Konzentration.",
     "embedding": [
       -0.026056844741106033,
       0.02513190358877182,
@@ -805,7 +805,7 @@
       "Erde",
       "Erdung"
     ],
-    "desc": "Inspiriert von den Erdelementen, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
+    "desc": "Inspiriert von den Elementen der Erde, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1203,7 +1203,7 @@
       "Chakra",
       "Selbstvertrauen"
     ],
-    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
+    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willenskraft und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1601,7 +1601,7 @@
       "Frieden",
       "Natur"
     ],
-    "desc": "Simuliert die Ruhe und Weite der Berge, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
+    "desc": "Simuliert die Ruhe und Weite in den Bergen, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -3989,7 +3989,7 @@
       "Leidenschaft",
       "Element"
     ],
-    "desc": "Ein Thema, das sich um das Feuerelement dreht, mit natürlichen Klangeffekten wie Flammen und Lagerfeuer, die Energie und Transformation symbolisieren.",
+    "desc": "Mit dem Thema Feuerelement, integriert natürliche Klangeffekte wie Flammen und Lagerfeuer, symbolisiert Energie und Transformation.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -4387,7 +4387,7 @@
       "reine Natur",
       "ambient"
     ],
-    "desc": "Eine Klanglandschaft aus reinen Naturgeräuschen, ohne jegliche Instrumente oder Stimmen, ideal für Meditation, Entspannung und natürliche Heilung.",
+    "desc": "Reine natürliche Umgebungsgeräuschkulisse, ohne Instrumente oder Stimmen, geeignet für Meditation, Entspannung und natürliche Heilung.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -5979,7 +5979,7 @@
       "Chakra",
       "Fluss"
     ],
-    "desc": "Die Klanglandschaft des Nabelchakras symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
+    "desc": "Nabelchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -7165,7 +7165,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Glockenspiel-Stimmgabel",
+    "title": "Glockenspiel und Stimmgabel",
     "tag": [
       "Glockenspiel",
       "Stimmgabel",
@@ -7571,7 +7571,7 @@
       "Xiao",
       "Fließen"
     ],
-    "desc": "Die Melodie von Flöte und Xiao fließt weit und schafft eine ätherische, tiefgründige Stimmung.",
+    "desc": "Die Melodie von Flöte und Xiao fließt weit und schafft eine ätherische und tiefgründige Stimmung.",
     "embedding": [
       0.014551150612533092,
       0.059979312121868134,
@@ -7969,7 +7969,7 @@
       "Natur",
       "Energie"
     ],
-    "desc": "Donner- und Naturregengeräusche schaffen eine klangliche Umgebung voller Energie und Entspannung.",
+    "desc": "Donner- und Regengeräusche schaffen eine klangliche Umgebung voller Energie und Entspannung.",
     "embedding": [
       0.03458813577890396,
       0.027948737144470215,

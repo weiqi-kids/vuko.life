@@ -7,7 +7,7 @@
     "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats in the brain.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
-  "volumeRatioDetail": "Binaural Beats {binaural}% / Background Sound {background}%",
+  "volumeRatioDetail": "Binaural Beat {binaural}% / Background Sound {background}%",
   "labels": {
     "breathRate": "Breathing Rate:",
     "noiseLevel": "Background Noise:",
@@ -57,10 +57,10 @@
     "monitor": "Breathing Monitoring"
   },
   "binauralDescriptions": {
-    "專注": "10Hz Alpha waves, help enter a focused state, suitable for work and study",
+    "專注": "10Hz Alpha waves, help to enter a focused state, suitable for work and study",
     "冥想": "7Hz Theta waves, guide deep relaxation, suitable for meditation",
     "舒曼共振": "7.83Hz Earth's natural frequency, balance body and mind energy",
-    "睡眠": "3Hz Delta waves, help fall asleep quickly",
+    "睡眠": "3Hz Delta waves, help to fall asleep quickly",
     "提神": "15Hz Beta waves, enhance mental vitality",
     "激發靈感": "40Hz Gamma waves, enhance creative thinking"
   },
@@ -76,19 +76,19 @@
     "line": "Share on LINE"
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "FAQ",
     "items": [
       {
         "q": "What is binaural beats?",
         "a": "Binaural beats occur when slightly different frequencies are heard in each ear, creating a third 'beat frequency' in the brain. For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into specific states."
       },
       {
-        "q": "Why must headphones be used?",
-        "a": "The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can you ensure the separation of the left and right channels, allowing the brain to correctly produce the beat effect."
+        "q": "Why do I have to use headphones?",
+        "a": "The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can the separation of the left and right channels be ensured, allowing the brain to correctly produce the beat effect."
       },
       {
         "q": "How does breath monitoring work?",
-        "a": "The system detects your breathing sounds through the microphone, analyzes the breathing rhythm, and automatically adjusts the beats according to your state to help you reach the target state faster. All audio is processed locally and will not be uploaded."
+        "a": "The system detects your breathing sounds through a microphone, analyzes the breathing rhythm, and automatically adjusts the beats according to your state to help you reach the target state faster. All audio is processed locally and will not be uploaded."
       },
       {
         "q": "Is this tool really free?",
@@ -96,7 +96,7 @@
       },
       {
         "q": "Is my data safe?",
-        "a": "Absolutely safe. All audio processing is done in your browser, and we do not collect, store, or transmit any audio data. This is a purely front-end application with no back-end server."
+        "a": "Absolutely safe. All audio processing is done in your browser, and we do not collect, store, or transmit any audio data. This is a purely front-end application with no backend server."
       }
     ]
   }

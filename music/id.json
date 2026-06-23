@@ -4,9 +4,9 @@
     "title": "Mangkok Bernyanyi",
     "tag": [
       "Mangkok Bernyanyi",
-      "singing bowl",
+      "mangkok bernyanyi",
       "Meditasi",
-      "meditation",
+      "meditasi",
       "Penyembuhan"
     ],
     "desc": "Dengan suara mangkok bernyanyi sebagai melodi utama, resonansi lembut, cocok untuk meditasi dan lanskap suara penyembuhan.",
@@ -402,7 +402,7 @@
     "title": "Gitar",
     "tag": [
       "Gitar",
-      "guitar",
+      "gitar",
       "Lembut",
       "akustik",
       "Relaksasi"
@@ -800,7 +800,7 @@
     "title": "Tanah",
     "tag": [
       "Tanah",
-      "earth",
+      "tanah",
       "Alam",
       "Bumi",
       "grounding"
@@ -1203,7 +1203,7 @@
       "chakra",
       "Kepercayaan Diri"
     ],
-    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kehendak, dan pusat energi, suasana hangat dan cerah.",
+    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kehendak, dan pusat energi, dengan suasana hangat dan cerah.",
     "embedding": [
       -0.001555707072839141,
       0.08569271117448807,
@@ -1601,7 +1601,7 @@
       "damai",
       "Alam"
     ],
-    "desc": "Mensimulasikan ketenangan dan keluasan di pegunungan, menggunakan suara lingkungan alami untuk mendukung ketenangan batin.",
+    "desc": "Mensimulasikan ketenangan dan keluasan di pegunungan, menggunakan suara lingkungan alami untuk mendukung ketenangan jiwa.",
     "embedding": [
       0.06228222697973251,
       0.12578989565372467,
@@ -2795,7 +2795,7 @@
       "Alam",
       "Stabil"
     ],
-    "desc": "Suara hutan, kicauan burung dan desiran daun, menciptakan suasana alam yang stabil.",
+    "desc": "Suara hutan, kicauan burung dan gemerisik daun, menciptakan suasana alam yang stabil.",
     "embedding": [
       0.06267280131578445,
       0.05141540244221687,
@@ -4387,7 +4387,7 @@
       "murni alami",
       "ambien"
     ],
-    "desc": "Pemandangan suara lingkungan murni tanpa instrumen atau suara manusia, cocok untuk meditasi, relaksasi, dan penyembuhan alami.",
+    "desc": "Pemandangan suara lingkungan yang murni alami, tanpa instrumen atau suara manusia, cocok untuk meditasi, relaksasi, dan penyembuhan alami.",
     "embedding": [
       0.01539694331586361,
       -0.008305741474032402,
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuisi"
     ],
-    "desc": "Pemandangan meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
+    "desc": "Pemandangan suara meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
     "embedding": [
       0.004177552182227373,
       -0.025303371250629425,
@@ -5974,10 +5974,10 @@
     "title": "Cakra Sakral",
     "tag": [
       "Cakra Sakral",
-      "sacral chakra",
-      "Emosi",
+      "cakra sakral",
+      "emosi",
       "cakra",
-      "Mengalir"
+      "mengalir"
     ],
     "desc": "Suasana cakra sakral, melambangkan aliran emosi, kreativitas, dan energi kesenangan.",
     "embedding": [
@@ -6372,12 +6372,12 @@
     "title": "Emas",
     "tag": [
       "Emas",
-      "metal",
-      "Kemurnian",
-      "Kejernihan",
-      "clarity"
+      "logam",
+      "kemurnian",
+      "kejernihan",
+      "kejernihan"
     ],
-    "desc": "Tema elemen emas, dengan nada yang jernih dan cerah, menciptakan suasana yang murni dan etereal.",
+    "desc": "Tema elemen logam, dengan suara yang jernih dan terang, menciptakan suasana yang murni dan etereal.",
     "embedding": [
       -0.05469849705696106,
       0.10919876396656036,
@@ -7170,7 +7170,7 @@
       "Glockenspiel",
       "Garpu Tala",
       "Glockenspiel",
-      "Tuning Fork",
+      "Garpu Tala",
       "Ethereal"
     ],
     "desc": "Suara etereal dari glockenspiel dan garpu tala, cocok untuk meditasi, pembersihan, dan fokus.",
@@ -7567,7 +7567,7 @@
     "tag": [
       "Seruling",
       "Xiao",
-      "Flute",
+      "Seruling",
       "Xiao",
       "Mengalir"
     ],
@@ -7964,7 +7964,7 @@
     "title": "Guntur",
     "tag": [
       "Guntur",
-      "thunder",
+      "guntur",
       "Alam",
       "Alam",
       "Energi"
@@ -8362,9 +8362,9 @@
     "title": "Cakra Mahkota",
     "tag": [
       "Cakra Mahkota",
-      "crown chakra",
+      "cakra mahkota",
       "Kebangkitan",
-      "chakra",
+      "cakra",
       "Cahaya"
     ],
     "desc": "Lanskap suara bertema cakra mahkota, melambangkan kebangkitan spiritual, peningkatan spiritual, dan cahaya.",

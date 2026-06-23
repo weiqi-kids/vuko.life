@@ -2,26 +2,26 @@
   "title": "Sesle, daha iyi bir senle tanış",
   "subtitle": "🤖 Kullanım Kılavuzu",
   "description": "Sistem, nefes durumunuzu gerçek zamanlı olarak izler ve sizi farklı bilinç durumlarına yönlendirmek için frekansı otomatik olarak ayarlar:",
-  "seoKeywords": "Binaural vuruş meditasyonu・Odaklanma・Derin uyku・Gerçek zamanlı nefes rehberliği",
+  "seoKeywords": "Binaural Vuruş Meditasyonu・Odaklanma・Derin Uyku・Gerçek Zamanlı Nefes Rehberliği",
   "instructions": {
-    "headphones": "<strong>Çift kanallı kulaklık</strong> kullanın, böylece beyindeki vuruş frekansı etkisini elde edebilirsiniz.",
-    "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağız ve burun yakınında tutun, sizi daha derin bir duruma yönlendirmeye çalışacağız."
+    "headphones": "Lütfen <strong>stereo kulaklık</strong> kullanın, böylece beyninizdeki vuruş frekansının etkisini elde edebilirsiniz.",
+    "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağzınıza ve burnunuza yakın tutun, sizi daha derin bir duruma yönlendirmeye çalışacağız."
   },
-  "volumeRatioDetail": "Vuruş frekansı {binaural}% / Arka plan sesi {background}%",
+  "volumeRatioDetail": "Vuruş Frekansı {binaural}% / Arka Plan Sesi {background}%",
   "labels": {
-    "breathRate": "Nefes hızı:",
-    "noiseLevel": "Arka plan gürültüsü:",
-    "baseFreq": "Temel frekans:",
-    "audioFile": "Arka plan ses dosyası:",
-    "volumeRatio": "Ses seviyesi oranı:",
-    "breathVisual": "Nefes görselleştirme",
-    "realTimeData": "Gerçek zamanlı veri",
-    "systemConfig": "Binaural vuruş ayarları",
-    "audioSearch": "🎵 Arka plan müziği arama",
+    "breathRate": "Nefes Hızı:",
+    "noiseLevel": "Arka Plan Gürültüsü:",
+    "baseFreq": "Temel Frekans:",
+    "audioFile": "Arka Plan Ses Dosyası:",
+    "volumeRatio": "Ses Seviyesi Oranı:",
+    "breathVisual": "Nefes Görselleştirme",
+    "realTimeData": "Gerçek Zamanlı Veri",
+    "systemConfig": "Binaural Vuruş Ayarları",
+    "audioSearch": "🎵 Arka Plan Müziği Arama",
     "searchPlaceholder": "Müzik ara... (örneğin: piyano, deniz, meditasyon)",
     "noResults": "İlgili müzik bulunamadı",
-    "currentMusic": "Mevcut seçim",
-    "deviceTest": "Cihaz testi",
+    "currentMusic": "Mevcut Seçim",
+    "deviceTest": "Cihaz Testi",
     "libraryTab": "Çevrimiçi Ses Kütüphanesi",
     "localFileTab": "Yerel Dosya",
     "filePrivacyMsg": "Ses dosyaları yalnızca yerel olarak işlenir, yüklenmez."
@@ -83,12 +83,12 @@
         "a": "Binaural vuruş, sol ve sağ kulaklar biraz farklı frekanslarda sesler duyduğunda, beynin üçüncü bir 'vuruş' frekansı oluşturmasıdır. Örneğin, sol kulak 200Hz, sağ kulak 210Hz duyduğunda, beyin 10Hz'lik bir vuruş frekansı algılar, bu da beyin dalgalarını belirli bir duruma yönlendirmeye yardımcı olabilir."
       },
       {
-        "q": "Neden kulaklık kullanmak zorunludur?",
-        "a": "Çift kulak vuruş frekansı prensibi, sol ve sağ kulakların farklı frekanslar duymasını sağlar. Bu etkiyi doğru bir şekilde elde etmek için kulaklık kullanarak sol ve sağ ses kanallarının ayrılması gereklidir."
+        "q": "Neden mutlaka kulaklık kullanmalıyım?",
+        "a": "Çift kulak vuruş frekansı prensibi, sol ve sağ kulağa farklı frekanslar dinleterek çalışır. Bu etkinin doğru bir şekilde oluşabilmesi için kulaklık kullanarak sol ve sağ ses kanallarının ayrılması sağlanmalıdır."
       },
       {
         "q": "Nefes izleme nasıl çalışır?",
-        "a": "Sistem, mikrofon aracılığıyla nefes sesinizi algılar, nefes ritminizi analiz eder ve durumunuza göre vuruş frekansını otomatik olarak ayarlayarak hedef duruma daha hızlı ulaşmanıza yardımcı olur. Tüm ses verileri yalnızca yerel olarak işlenir, yüklenmez."
+        "a": "Sistem, mikrofon aracılığıyla nefes sesinizi algılar, nefes ritminizi analiz eder ve durumunuza göre vuruş frekansını otomatik olarak ayarlayarak hedef duruma daha hızlı ulaşmanıza yardımcı olur. Tüm sesler yalnızca yerel olarak işlenir, yüklenmez."
       },
       {
         "q": "Bu araç gerçekten ücretsiz mi?",
@@ -96,7 +96,7 @@
       },
       {
         "q": "Verilerim güvende mi?",
-        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, herhangi bir ses verisi toplamayız, saklamayız veya iletmeyiz. Bu, tamamen ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
+        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, hiçbir ses verisi toplanmaz, saklanmaz veya iletilmez. Bu, yalnızca ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
       }
     ]
   }

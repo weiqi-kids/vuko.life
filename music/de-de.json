@@ -9,7 +9,7 @@
       "meditation",
       "Heilung"
     ],
-    "desc": "Der Klang der Klangschale steht im Mittelpunkt, sanfte Resonanz, geeignet für Meditation und heilende Klanglandschaften.",
+    "desc": "Mit dem Klang der Klangschale als Hauptmelodie, sanfte Resonanz, geeignet für Meditation und heilende Klanglandschaften.",
     "embedding": [
       0.06329083442687988,
       0.05036045238375664,
@@ -805,7 +805,7 @@
       "Erde",
       "Erdung"
     ],
-    "desc": "Inspiriert von den Elementen der Erde, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
+    "desc": "Inspiriert von Erdelementen, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
     "embedding": [
       0.050774868577718735,
       0.04871750622987747,
@@ -1999,7 +1999,7 @@
       "steel tongue drum",
       "Entspannung"
     ],
-    "desc": "Die Hauptmelodie von Handpan und Steel Tongue Drum, eine runde und ätherische Melodie, geeignet für tiefgehende Meditation und Entspannung.",
+    "desc": "Hauptmelodie von Handpan und Steel Tongue Drum, eine runde und ätherische Melodie, geeignet für tiefgehende Meditation und Entspannung.",
     "embedding": [
       -0.07905332744121552,
       -0.025964858010411263,
@@ -3189,8 +3189,8 @@
     "tag": [
       "Wasser",
       "Wasser",
-      "Fließendes Wasser",
-      "Fließen",
+      "fließendes Wasser",
+      "Fluss",
       "Frische"
     ],
     "desc": "Mit Wasserfluss und Bachgeräuschen als Hauptthema wird eine frische und fließende Stimmung präsentiert.",
@@ -3989,7 +3989,7 @@
       "Leidenschaft",
       "Element"
     ],
-    "desc": "Mit dem Thema Feuerelement, das natürliche Klangeffekte wie Flammen und Lagerfeuer integriert, symbolisiert es Energie und Transformation.",
+    "desc": "Mit dem Thema Feuerelement, integriert natürliche Klangeffekte wie Flammen und Lagerfeuer, symbolisiert Energie und Transformation.",
     "embedding": [
       0.024529555812478065,
       0.0927068293094635,
@@ -5183,7 +5183,7 @@
       "Rahmentrommel",
       "Erdung"
     ],
-    "desc": "Stabiler Rhythmus der Schamanentrommel mit niedriger Frequenz, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
+    "desc": "Niedrigfrequente Schamanentrommel mit stabilem Rhythmus, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
     "embedding": [
       0.033682603389024734,
       0.029797319322824478,
@@ -5979,7 +5979,7 @@
       "Chakra",
       "Fluss"
     ],
-    "desc": "Die Klanglandschaft des Sakralchakras symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
+    "desc": "Sakralchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
     "embedding": [
       -0.006283728405833244,
       0.07302704453468323,
@@ -7569,7 +7569,7 @@
       "Xiao",
       "Flöte",
       "Xiao",
-      "Fließend"
+      "Fließen"
     ],
     "desc": "Flöten- und Xiao-Melodie, die weit und fließend ist und eine ätherische und tiefgründige Stimmung schafft.",
     "embedding": [
@@ -8367,7 +8367,7 @@
       "Chakra",
       "Licht"
     ],
-    "desc": "Das Klangbild des Kronenchakras symbolisiert spirituelles Erwachen, spirituelles Wachstum und Licht.",
+    "desc": "Das Klangthema des Kronenchakras symbolisiert spirituelles Erwachen, spirituelle Erhebung und Licht.",
     "embedding": [
       -0.007530564907938242,
       0.08393403887748718,
