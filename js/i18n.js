@@ -59,7 +59,9 @@ async function updateLanguageContent() {
 
     document.documentElement.lang = currentLanguage;
 
-    document.title = content.title || '';
+    const seoKw = content.seoKeywords || 'Binaural Beats Meditation Focus Sleep';
+    const brand = 'Vuko';
+    document.title = (content.title ? content.title + '｜' : '') + seoKw + '｜' + brand;
     document.querySelector('h1').textContent = content.title || '';
 
     // 更新 h2 區段標題

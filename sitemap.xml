@@ -1,96 +1,1059 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.vuko.life/</loc>
-  </url>
-  <url>
-    <loc>https://www.vuko.life/app/en.html</loc>
-  </url>
-  <url>
-    <loc>https://www.vuko.life/app/es.html</loc>
-  </url>
-  <url>
-    <loc>https://www.vuko.life/app/ja.html</loc>
-  </url>
-  <url>
-    <loc>https://www.vuko.life/app/ko.html</loc>
-  </url>
-  <url>
-    <loc>https://www.vuko.life/app/pt.html</loc>
-  </url>
-  <url>
-    <loc>https://www.vuko.life/app/zh-cn.html</loc>
-  </url>
-  <url>
-    <loc>https://www.vuko.life/app/zh-hk.html</loc>
-  </url>
-  <url>
-    <loc>https://www.vuko.life/app/zh-tw.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/ar.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/bn.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/de-at.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/de-ch.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/de-de.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
+  </url>
+  <url>
+    <loc>https://www.vuko.life/app/en.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
+  </url>
+  <url>
+    <loc>https://www.vuko.life/app/es.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/fr-be.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/fr-ca.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/fr-fr.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/he.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/hi.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/id.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
+  </url>
+  <url>
+    <loc>https://www.vuko.life/app/ja.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
+  </url>
+  <url>
+    <loc>https://www.vuko.life/app/ko.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/ms.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/my.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/pa.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/pl.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
+  </url>
+  <url>
+    <loc>https://www.vuko.life/app/pt.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/ru.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/sw.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/ta.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/th.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/tr.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/uk.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
   <url>
     <loc>https://www.vuko.life/app/vi.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
+  </url>
+  <url>
+    <loc>https://www.vuko.life/app/zh-cn.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
+  </url>
+  <url>
+    <loc>https://www.vuko.life/app/zh-hk.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
+  </url>
+  <url>
+    <loc>https://www.vuko.life/app/zh-tw.html</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.vuko.life/app/ar.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://www.vuko.life/app/bn.html"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.vuko.life/app/de-at.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.vuko.life/app/de-ch.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://www.vuko.life/app/de-de.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vuko.life/app/en.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vuko.life/app/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.vuko.life/app/fr-be.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.vuko.life/app/fr-ca.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://www.vuko.life/app/fr-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.vuko.life/app/he.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.vuko.life/app/hi.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.vuko.life/app/id.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.vuko.life/app/ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.vuko.life/app/ko.html"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://www.vuko.life/app/ms.html"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://www.vuko.life/app/my.html"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://www.vuko.life/app/pa.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.vuko.life/app/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vuko.life/app/pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.vuko.life/app/ru.html"/>
+    <xhtml:link rel="alternate" hreflang="sw" href="https://www.vuko.life/app/sw.html"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.vuko.life/app/ta.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://www.vuko.life/app/th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.vuko.life/app/tr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.vuko.life/app/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.vuko.life/app/vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.vuko.life/app/zh-cn.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.vuko.life/app/zh-hk.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://www.vuko.life/app/zh-tw.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vuko.life/app/en.html"/>
   </url>
 </urlset>

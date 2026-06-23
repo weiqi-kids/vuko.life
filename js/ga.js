@@ -9,8 +9,8 @@ function genRandHex(length) {
     .slice(0, length);
 }
 
-// 產生自訂格式的 UID
-function getUserId() {
+// 產生自訂格式的 UID（僅在無法取得既有 UID 時呼叫）
+function _generateUid() {
   const random8 = genRandHex(8);
   const now = new Date();
   const yy = now.getFullYear().toString().slice(-2);
@@ -22,6 +22,21 @@ function getUserId() {
   const wxxx = weekday + genRandHex(3); // w1~7 + 3位亂數
   const random12 = genRandHex(12);
   return `${random8}-${yy}${mm}-${dd}${hh}-${wxxx}-${random12}`;
+}
+
+// 回傳穩定的跨 session UID；優先從 localStorage 讀取，首次訪問才產生並儲存
+function getUserId() {
+  const LS_KEY = 'vuko_uid';
+  try {
+    const stored = localStorage.getItem(LS_KEY);
+    if (stored) return stored;
+    const uid = _generateUid();
+    localStorage.setItem(LS_KEY, uid);
+    return uid;
+  } catch (e) {
+    // localStorage 不可用（例如私密模式被封鎖）→ 退回單次 session 行為
+    return _generateUid();
+  }
 }
 
 function initGoogleAnalytics() {

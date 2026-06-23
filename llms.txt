@@ -1,0 +1,41 @@
+# Vuko — Free AI Binaural Beats & Breathing Guide
+
+> A free, open-source web app that uses binaural beats and optional real-time breath monitoring to guide you into meditation, focus, relaxation, or deep sleep — all processed locally in your browser, no signup, no ads.
+
+Vuko (https://www.vuko.life) is a browser-based AI guide that generates binaural beats via the Web Audio API to help users reach specific mental states — meditation, focus, relaxation, or deep sleep. It works by playing slightly different frequencies in each ear; the brain perceives the difference as a rhythmic "beat" that gently entrains brainwave activity toward a target state. Optionally, users can enable their microphone so Vuko can monitor breathing rhythm in real time and automatically adjust the beat frequency — all audio analysis happens entirely within the browser and is never uploaded to any server. The app is 100% free, requires no registration, displays no ads, and is available in 30 languages as a pure HTML/CSS/vanilla-JS site deployed on GitHub Pages.
+
+## How it works
+
+- Stereo headphones are required: each ear receives a slightly different frequency, and the brain perceives the difference as a "beat"
+- Base carrier frequency is 200 Hz; the perceived beat frequency varies by target state
+- Target beat frequencies: relaxed state ~6 Hz, focused state ~10 Hz, alert/tense state ~14 Hz
+- Optional microphone input enables real-time breath monitoring; Vuko analyzes breathing rhythm and auto-adjusts the beat frequency accordingly
+- All audio generation and microphone analysis run locally in the browser — no audio data is ever sent to a server
+
+## Key facts
+
+- Free to use with no registration, no subscription, and no ads
+- Open-source (MIT-licensed) on GitHub
+- Privacy-first: all processing is local; no data leaves the browser
+- Available in 30 languages, each at its own URL (`https://www.vuko.life/app/<lang>.html`)
+- Built with pure HTML, CSS, and vanilla JavaScript — no framework, no build step
+- Deployed on GitHub Pages
+
+## Main pages
+
+- [English](https://www.vuko.life/app/en.html)
+- [繁體中文](https://www.vuko.life/app/zh-tw.html)
+- [简体中文](https://www.vuko.life/app/zh-cn.html)
+- [日本語](https://www.vuko.life/app/ja.html)
+- [한국어](https://www.vuko.life/app/ko.html)
+- [Español](https://www.vuko.life/app/es.html)
+- [Deutsch](https://www.vuko.life/app/de-de.html)
+- [Français](https://www.vuko.life/app/fr-fr.html)
+- [Português](https://www.vuko.life/app/pt-pt.html)
+- [Italiano](https://www.vuko.life/app/it.html)
+- [Nederlands](https://www.vuko.life/app/nl.html)
+- [Русский](https://www.vuko.life/app/ru.html)
+
+## Source code
+
+- [GitHub repository](https://github.com/weiqi-kids/vuko.life)
