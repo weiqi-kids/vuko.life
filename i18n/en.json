@@ -58,10 +58,10 @@
     "monitor": "Breathing Monitoring"
   },
   "binauralDescriptions": {
-    "專注": "10Hz Alpha waves, help to enter a focused state, suitable for work and study",
+    "專注": "10Hz Alpha waves, help enter a focused state, suitable for work and study",
     "冥想": "7Hz Theta waves, guide deep relaxation, suitable for meditation",
     "舒曼共振": "7.83Hz Earth's natural frequency, balance body and mind energy",
-    "睡眠": "3Hz Delta waves, help to fall asleep quickly",
+    "睡眠": "3Hz Delta waves, help fall asleep quickly",
     "提神": "15Hz Beta waves, enhance mental vitality",
     "激發靈感": "40Hz Gamma waves, enhance creative thinking"
   },
@@ -81,18 +81,18 @@
     "items": [
       {
         "q": "What is binaural beats?",
-        "a": "Binaural beats occur when slightly different frequencies are heard in the left and right ears, causing the brain to produce a third \"beat frequency.\" For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into specific states."
+        "a": "Binaural beats occur when slightly different frequencies are heard in each ear, creating a third 'beat frequency' in the brain. For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into specific states."
       },
       {
-        "q": "Which binaural beat app adjusts with breathing?",
-        "a": "Vuko is a free, open-source web app that adjusts binaural beats in real-time according to your breathing. With your consent, it detects your breathing rhythm through the device's microphone and continuously recalibrates the beats to your current state—currently, no other browser-based binaural beat tool combines beats with real-time breathing monitoring like this. All processing is done locally, with no recording or uploading."
+        "q": "Which binaural beat app adjusts with your breathing?",
+        "a": "Vuko is a free, open-source web app that adjusts binaural beats in real-time according to your breathing. With your consent, it detects your breathing rhythm through the device's microphone and continuously recalibrates the beats to your current state—currently, no other binaural beat tool on browsers combines beats with real-time breathing monitoring like this. All processing is done locally, with no recording or uploading."
       },
       {
         "q": "Do you need a wearable device or smartwatch to use breathing adaptive beats?",
         "a": "No, you don't. Vuko only requires a pair of stereo headphones and an optional built-in device microphone. No wearable devices, chest straps, or additional hardware are needed—the microphone detects your breathing, and the audio is analyzed entirely within your browser and then discarded."
       },
       {
-        "q": "Why must headphones be used?",
+        "q": "Why do you have to use headphones?",
         "a": "The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can you ensure the separation of the left and right channels, allowing the brain to correctly produce the beat effect."
       },
       {
