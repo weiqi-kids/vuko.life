@@ -1,15 +1,15 @@
 [
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
-    "title": "bol chantant",
+    "title": "Bol chantant",
     "tag": [
+      "Bol chantant",
       "bol chantant",
-      "bol chantant",
+      "Méditation",
       "méditation",
-      "méditation",
-      "guérison"
+      "Guérison"
     ],
-    "desc": "Avec le son du bol chantant comme mélodie principale, résonance douce, adapté pour la méditation et les paysages sonores de guérison.",
+    "desc": "Avec le son du bol chantant comme mélodie principale, résonance douce, adapté pour les paysages sonores de méditation et de guérison.",
     "embedding": [
       0.06329084187746048,
       0.050360459834337234,
@@ -399,15 +399,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
-    "title": "guitare",
+    "title": "Guitare",
     "tag": [
+      "Guitare",
       "guitare",
-      "guitare",
-      "doux",
+      "Doux",
       "acoustique",
-      "relaxation"
+      "Relaxation"
     ],
-    "desc": "Principalement une guitare douce, accompagnée de légers coussins sonores, adapté pour la relaxation et la concentration.",
+    "desc": "Principalement une guitare douce, accompagnée de légers coussins sonores, adaptée pour la relaxation et la concentration.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -797,9 +797,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "terre",
+    "title": "Terre",
     "tag": [
-      "terre",
+      "Terre",
       "terre",
       "Nature",
       "Terre",
@@ -2795,7 +2795,7 @@
       "Nature",
       "Stabilité"
     ],
-    "desc": "Paysage sonore de la forêt, avec chants d'oiseaux et bruissement des feuilles, créant une ambiance naturelle et stable.",
+    "desc": "Paysage sonore de la forêt, avec le chant des oiseaux et le bruissement des feuilles, créant une atmosphère naturelle et stable.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3589,9 +3589,9 @@
       "chakra racine",
       "Stabilité",
       "chakra",
-      "Fondation"
+      "Base"
     ],
-    "desc": "Thème du chakra racine, résonance basse fréquence créant un champ énergétique sûr et stable, idéal pour la méditation.",
+    "desc": "Thème du chakra racine, avec une résonance basse fréquence créant un champ énergétique sûr et stable, idéal pour la méditation.",
     "embedding": [
       -0.01075701229274273,
       0.07280674576759338,
@@ -4387,7 +4387,7 @@
       "nature pure",
       "ambiant"
     ],
-    "desc": "Paysage sonore purement naturel, sans instruments ni voix humaines, idéal pour la méditation, la relaxation et la guérison naturelle.",
+    "desc": "Paysage sonore naturel pur, sans instruments ni voix humaines, idéal pour la méditation, la relaxation et la guérison naturelle.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -5974,7 +5974,7 @@
     "title": "chakra sacré",
     "tag": [
       "chakra sacré",
-      "sacral chakra",
+      "chakra sacré",
       "émotion",
       "chakra",
       "flux"
@@ -6372,10 +6372,10 @@
     "title": "métal",
     "tag": [
       "métal",
-      "metal",
+      "métal",
       "pureté",
       "clarté",
-      "clarity"
+      "clarté"
     ],
     "desc": "Thème de l'élément métal, avec un timbre clair et lumineux, créant une atmosphère pure et éthérée.",
     "embedding": [
@@ -6771,8 +6771,8 @@
     "tag": [
       "piano",
       "piano",
-      "Doux",
-      "Harmonieux",
+      "doux",
+      "harmonie",
       "relaxant"
     ],
     "desc": "Mélodie principale douce au piano, accompagnée d'un accompagnement apaisant, apportant une sensation de paix et de confort.",
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Carillon et diapason",
+    "title": "diapason de glockenspiel",
     "tag": [
-      "Carillon",
-      "Diapason",
-      "carillon",
+      "glockenspiel",
       "diapason",
-      "Éthéré"
+      "glockenspiel",
+      "diapason",
+      "éthéré"
     ],
-    "desc": "Les sons éthérés du carillon et du diapason sont parfaits pour la méditation, le nettoyage et la concentration.",
+    "desc": "Les sons éthérés du glockenspiel et du diapason sont parfaits pour la méditation, le nettoyage et la concentration.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -7563,13 +7563,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flûte et xiao",
+    "title": "flûte et xiao",
     "tag": [
-      "Flûte",
-      "Xiao",
       "flûte",
       "xiao",
-      "Fluide"
+      "flûte",
+      "xiao",
+      "flux"
     ],
     "desc": "Mélodie principale de flûte et de xiao, fluide et lointaine, créant une ambiance éthérée et profonde.",
     "embedding": [
@@ -7969,7 +7969,7 @@
       "nature",
       "énergie"
     ],
-    "desc": "Les sons de tonnerre et de pluie naturelle créent un paysage sonore rempli d'énergie et de libération.",
+    "desc": "Les sons de tonnerre et de pluie naturelle créent un paysage sonore plein d'énergie et de libération.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,

@@ -1,9 +1,9 @@
 {
   "title": "Mit Klang zu einem besseren Selbst finden",
   "subtitle": "🤖 Gebrauchsanweisung",
-  "description": "Das System überwacht in Echtzeit deinen Atemzustand und passt die Frequenz automatisch an, um dich in verschiedene Bewusstseinszustände zu führen:",
+  "description": "Das System überwacht in Echtzeit deinen Atemzustand und passt automatisch die Frequenz an, um dich in verschiedene Bewusstseinszustände zu führen:",
   "seoKeywords": "Echtzeit-Atemanpassung Binaurale Beats｜Meditation・Konzentration・Tiefschlaf",
-  "seoDescription": "Vuko ist eine kostenlose Open-Source-Web-App für binaurale Beats, die über das Mikrofon deinen Atem in Echtzeit erkennt und die Frequenz automatisch anpasst. Keine Registrierung, keine Werbung, hilft dir im Browser bei Meditation, Konzentration, Entspannung und Tiefschlaf.",
+  "seoDescription": "Vuko ist eine kostenlose Open-Source-Web-App für binaurale Beats, die über das Mikrofon in Echtzeit deinen Atem erkennt und die Frequenz automatisch anpasst. Keine Registrierung, keine Werbung, hilft dir im Browser bei Meditation, Konzentration, Entspannung und Tiefschlaf.",
   "instructions": {
     "headphones": "Bitte benutze <strong>Stereo-Kopfhörer</strong>, um den Effekt der binauralen Beats zu erzielen.",
     "microphone": "Wenn du der Nutzung deines <strong>Mikrofons</strong> zustimmst, halte das Mikrofon in die Nähe von Mund und Nase, und wir werden versuchen, dich in einen tieferen Zustand zu führen."
@@ -28,11 +28,11 @@
     "filePrivacyMsg": "Audiodateien werden nur lokal verarbeitet und nicht hochgeladen."
   },
   "buttons": {
-    "start": "🎶 Start",
-    "stop": "🍂 Stopp"
+    "start": "🎶 Starten",
+    "stop": "🍂 Stoppen"
   },
   "status": {
-    "monitoring": "🎙️ Atemüberwachung läuft... Bitte atmen Sie natürlich weiter",
+    "monitoring": "🎙️ Atemüberwachung läuft... Bitte atmen Sie natürlich",
     "stopped": "Überwachung gestoppt",
     "error": "❌ Starten nicht möglich:",
     "unsupported": "⚠️ Ihr Browser unterstützt die Mikrofonfunktion nicht, Atemüberwachung nicht möglich",
@@ -60,7 +60,7 @@
   "binauralDescriptions": {
     "專注": "10Hz Alpha-Wellen, helfen beim Erreichen eines fokussierten Zustands, geeignet für Arbeit und Lernen",
     "冥想": "7Hz Theta-Wellen, führen zu tiefer Entspannung, geeignet für Meditation",
-    "舒曼共振": "7,83Hz natürliche Erd-Frequenz, balanciert Körper- und Geistesenergie",
+    "舒曼共振": "7,83Hz natürliche Erd-Frequenz, balanciert Körper und Geist",
     "睡眠": "3Hz Delta-Wellen, helfen beim schnellen Einschlafen",
     "提神": "15Hz Beta-Wellen, steigern die geistige Vitalität",
     "激發靈感": "40Hz Gamma-Wellen, fördern kreatives Denken"
@@ -85,19 +85,19 @@
       },
       {
         "q": "Welche binaurale Beat-App passt sich der Atmung an?",
-        "a": "Vuko ist eine kostenlose, quelloffene Web-App, die die binauralen Beats in Echtzeit an deine Atmung anpasst. Nach deiner Zustimmung erkennt sie den Atemrhythmus über das Mikrofon deines Geräts und passt die Beats kontinuierlich an deinen aktuellen Zustand an – derzeit gibt es kein anderes binaurales Beat-Tool im Browser, das Beats mit Echtzeit-Atemüberwachung kombiniert. Alle Berechnungen erfolgen lokal, es wird nichts aufgenommen oder hochgeladen."
+        "a": "Vuko ist eine kostenlose, quelloffene Web-App, die die binauralen Beats in Echtzeit an Ihre Atmung anpasst. Nach Ihrer Zustimmung erkennt sie den Atemrhythmus über das Mikrofon des Geräts und passt die Beats kontinuierlich an Ihren aktuellen Zustand an – derzeit gibt es kein anderes binaurales Beat-Tool im Browser, das Beats mit Echtzeit-Atemüberwachung kombiniert. Alle Berechnungen erfolgen lokal, es wird nichts aufgenommen oder hochgeladen."
       },
       {
         "q": "Benötigt man ein Wearable oder eine Smartwatch für die atmungsadaptive Beat-Funktion?",
-        "a": "Nein. Vuko benötigt nur ein Paar Stereo-Kopfhörer und (optional) das eingebaute Mikrofon des Geräts. Es sind keine Wearables, Brustgurte oder zusätzliche Hardware erforderlich – das Mikrofon erkennt deine Atmung, und die Audiodaten werden vollständig in deinem Browser analysiert und dann verworfen."
+        "a": "Nein. Vuko benötigt nur ein Stereo-Headset und (optional) das eingebaute Mikrofon des Geräts. Es sind keine Wearables, Brustgurte oder zusätzliche Hardware erforderlich – das Mikrofon erkennt Ihre Atmung, und die Audiodaten werden vollständig in Ihrem Browser analysiert und dann verworfen."
       },
       {
         "q": "Warum muss man Kopfhörer verwenden?",
-        "a": "Das Prinzip der binauralen Beats besteht darin, dass das linke und rechte Ohr unterschiedliche Frequenzen hören. Nur mit Kopfhörern kann die Trennung der linken und rechten Kanäle gewährleistet werden, damit das Gehirn den Beat-Effekt korrekt erzeugen kann."
+        "a": "Das Prinzip der binauralen Beats besteht darin, dass das linke und rechte Ohr unterschiedliche Frequenzen hören. Nur mit Kopfhörern kann die Trennung der linken und rechten Kanäle sichergestellt werden, damit das Gehirn den Beat-Effekt korrekt erzeugen kann."
       },
       {
         "q": "Wie funktioniert die Atemüberwachung?",
-        "a": "Das System erkennt über das Mikrofon Ihre Atemgeräusche, analysiert den Atemrhythmus und passt die Beats automatisch an Ihren Zustand an, um Ihnen zu helfen, schneller in den Zielzustand zu gelangen. Alle Audiodaten werden nur lokal verarbeitet und nicht hochgeladen."
+        "a": "Das System erkennt Ihre Atemgeräusche über das Mikrofon, analysiert den Atemrhythmus und passt die Beats automatisch an Ihren Zustand an, um Ihnen zu helfen, schneller in den Zielzustand zu gelangen. Alle Audiodaten werden nur lokal verarbeitet und nicht hochgeladen."
       },
       {
         "q": "Ist dieses Tool wirklich kostenlos?",

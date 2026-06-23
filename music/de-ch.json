@@ -407,7 +407,7 @@
       "akustisch",
       "Entspannung"
     ],
-    "desc": "Sanfte Gitarre im Vordergrund, ergänzt durch weiche Klangteppiche, geeignet für Entspannung und Konzentration.",
+    "desc": "Sanfte Gitarre im Vordergrund, begleitet von weichen Klangteppichen, geeignet für Entspannung und Konzentration.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -805,7 +805,7 @@
       "Erde",
       "Erdung"
     ],
-    "desc": "Inspiriert von den Erdelementen, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont Stabilität und Ruhe.",
+    "desc": "Inspiriert von Erdelementen, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1203,7 +1203,7 @@
       "Chakra",
       "Selbstvertrauen"
     ],
-    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, warme und helle Atmosphäre.",
+    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willenskraft und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "Frieden",
       "Natur"
     ],
-    "desc": "Simuliert die Ruhe und Weite in den Bergen, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
+    "desc": "Simuliert die Ruhe und Weite der Berge, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -1999,7 +1999,7 @@
       "steel tongue drum",
       "Entspannung"
     ],
-    "desc": "Die Hauptmelodie von Handpan und Steel Tongue Drum, eine runde und ätherische Melodie, geeignet für tiefgehende Meditation und Entspannung.",
+    "desc": "Die Hauptmelodie von Handpan und Steel Tongue Drum, eine runde und ätherische Melodie, ideal für tiefgehende Meditation und Entspannung.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -3989,7 +3989,7 @@
       "Leidenschaft",
       "Element"
     ],
-    "desc": "Mit dem Thema Feuerelement, integriert natürliche Klangeffekte wie Flammen und Lagerfeuer, symbolisiert Energie und Transformation.",
+    "desc": "Mit dem Thema Feuerelement, das natürliche Klangeffekte wie Flammen und Lagerfeuer integriert, symbolisiert es Energie und Transformation.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4385,9 +4385,9 @@
       "Naturgeräusche",
       "Umgebungsgeräusche",
       "reine Natur",
-      "ambient"
+      "Umgebung"
     ],
-    "desc": "Reine natürliche Klanglandschaft ohne Instrumente oder Stimmen, geeignet für Meditation, Entspannung und natürliche Heilung.",
+    "desc": "Eine reine natürliche Klanglandschaft ohne Instrumente oder Stimmen, geeignet für Meditation, Entspannung und natürliche Heilung.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Schamanentrommel mit niedriger Frequenz",
+    "title": "Schamanentrommel mit tiefen Frequenzen",
     "tag": [
       "Schamanentrommel",
-      "Niedrigfrequenz-Trommel",
+      "Trommel mit tiefen Frequenzen",
       "Schamanentrommel",
       "Rahmentrommel",
       "Erdung"
     ],
-    "desc": "Stabiler Rhythmus der Schamanentrommel mit niedriger Frequenz, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
+    "desc": "Stabiler Rhythmus der Schamanentrommel mit tiefen Frequenzen, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Nabelchakra",
+    "title": "Sakralchakra",
     "tag": [
-      "Nabelchakra",
-      "sakrales Chakra",
+      "Sakralchakra",
+      "sacral chakra",
       "Emotionen",
       "Chakra",
       "Fluss"
     ],
-    "desc": "Nabelchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
+    "desc": "Sakralchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6369,13 +6369,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Gold",
+    "title": "Metall",
     "tag": [
-      "Gold",
       "Metall",
+      "metal",
       "Reinheit",
       "Klarheit",
-      "Klarheit"
+      "clarity"
     ],
     "desc": "Thema des Metallelements, der Klang ist klar und hell und schafft eine reine, ätherische Atmosphäre.",
     "embedding": [
@@ -6770,7 +6770,7 @@
     "title": "Klavier",
     "tag": [
       "Klavier",
-      "Klavier",
+      "piano",
       "Sanftheit",
       "Harmonie",
       "entspannend"
@@ -7165,7 +7165,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Glockenspiel und Stimmgabel",
+    "title": "Glockenspiel-Stimmgabel",
     "tag": [
       "Glockenspiel",
       "Stimmgabel",
@@ -7571,7 +7571,7 @@
       "Xiao",
       "Fließen"
     ],
-    "desc": "Die Melodie von Flöte und Xiao ist weitreichend und fließend, schafft eine ätherische und tiefgründige Stimmung.",
+    "desc": "Die Melodie von Flöte und Xiao ist weitreichend und fließend und schafft eine ätherische und tiefgründige Stimmung.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -8762,10 +8762,10 @@
       "Wind",
       "wind",
       "Natur",
-      "Luftig",
-      "ambient"
+      "Ätherisch",
+      "Ambient"
     ],
-    "desc": "Ein luftiges Klangbild, das hauptsächlich aus Windgeräuschen besteht, fließt weit und ist ideal zum Entspannen, Meditieren und Konzentrieren.",
+    "desc": "Ein ätherisches Klangbild, das von Windgeräuschen dominiert wird, fließend und weitreichend, geeignet zum Entspannen, Meditieren und Konzentrieren.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,
@@ -9158,12 +9158,12 @@
     "title": "Windspiel",
     "tag": [
       "Windspiel",
-      "wind chime",
-      "luftig",
-      "heilend",
-      "entspannend"
+      "Windspiel",
+      "Ätherisch",
+      "Heilend",
+      "Entspannend"
     ],
-    "desc": "Ein sanftes Klangbild, das von klaren Windspielklängen akzentuiert wird, luftig und heilend, ideal zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
+    "desc": "Ein sanftes Klangbild, verziert mit klaren Windspielklängen, ätherisch und heilend, geeignet zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

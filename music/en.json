@@ -403,11 +403,11 @@
     "tag": [
       "Guitar",
       "guitar",
-      "Gentle",
+      "Soft",
       "acoustic",
       "Relaxation"
     ],
-    "desc": "Mainly gentle guitar, accompanied by soft sound pads, suitable for relaxation and focus.",
+    "desc": "Gentle guitar as the main focus, accompanied by soft sound pads, suitable for relaxation and concentration.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -805,7 +805,7 @@
       "Earth",
       "grounding"
     ],
-    "desc": "Inspired by earth elements, blending natural low frequencies and ambient sounds, emphasizing stability and tranquility.",
+    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds, emphasizing stability and tranquility.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1203,7 +1203,7 @@
       "chakra",
       "Confidence"
     ],
-    "desc": "Theme of the solar plexus chakra, symbolizing vitality, will, and energy center, with a warm and bright atmosphere.",
+    "desc": "The theme of the solar plexus chakra symbolizes vitality, will, and energy center, with a warm and bright atmosphere.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "peace",
       "Nature"
     ],
-    "desc": "Simulating the tranquility and vastness of the mountains, using natural ambient sounds to enhance inner peace.",
+    "desc": "Simulates the tranquility and vastness of the mountains, using natural ambient sounds to enhance inner peace.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -3189,7 +3189,7 @@
     "tag": [
       "Water",
       "water",
-      "Flowing Water",
+      "Flowing water",
       "Flow",
       "Fresh"
     ],
@@ -3989,7 +3989,7 @@
       "Passion",
       "element"
     ],
-    "desc": "The theme is based on the fire element, incorporating natural sound effects like flames and campfires, symbolizing energy and transformation.",
+    "desc": "Centered around the theme of the fire element, incorporating natural sound effects like flames and campfires, symbolizing energy and transformation.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -5183,7 +5183,7 @@
       "frame drum",
       "grounding"
     ],
-    "desc": "Low-frequency shamanic drum with a steady rhythm, aiding in deep meditation and body awareness.",
+    "desc": "Stable rhythm of low-frequency shamanic drum, assisting in deep meditation and body awareness.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -5979,7 +5979,7 @@
       "chakra",
       "flow"
     ],
-    "desc": "The soundscape of the sacral chakra symbolizes emotional flow, creativity, and pleasurable energy.",
+    "desc": "The soundscape of the Sacral Chakra symbolizes the flow of emotions, creativity, and pleasurable energy.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "metal",
+    "title": "Gold",
     "tag": [
-      "metal",
+      "Gold",
       "metal",
       "purity",
       "clarity",
       "clarity"
     ],
-    "desc": "The theme of the metal element, with clear and bright tones, creates a pure and ethereal atmosphere.",
+    "desc": "The theme of the metal element, with a clear and bright tone, creates a pure and ethereal atmosphere.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -6767,9 +6767,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
-    "title": "piano",
+    "title": "Piano",
     "tag": [
-      "piano",
+      "Piano",
       "piano",
       "Gentle",
       "Harmony",

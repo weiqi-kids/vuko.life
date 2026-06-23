@@ -2,7 +2,7 @@
   "title": "Dùng âm thanh, giúp bạn gặp gỡ phiên bản tốt hơn của chính mình",
   "subtitle": "🤖 Hướng dẫn sử dụng",
   "description": "Hệ thống sẽ giám sát trạng thái hô hấp của bạn theo thời gian thực và tự động điều chỉnh tần số nhịp để dẫn dắt bạn vào các trạng thái ý thức khác nhau:",
-  "seoKeywords": "Tần số nhịp song tai thích ứng theo thời gian thực｜Thiền định・Tập trung・Ngủ sâu",
+  "seoKeywords": "Tần số nhịp song tai thích ứng theo hô hấp thời gian thực｜Thiền định・Tập trung・Ngủ sâu",
   "seoDescription": "Vuko là một ứng dụng web mã nguồn mở miễn phí về tần số nhịp song tai (binaural beats), sẽ phát hiện hô hấp của bạn theo thời gian thực qua micro và tự động điều chỉnh tần số nhịp. Không cần đăng ký, không có quảng cáo, hỗ trợ bạn thiền định, tập trung, thư giãn và ngủ sâu trong trình duyệt.",
   "instructions": {
     "headphones": "Vui lòng sử dụng <strong>tai nghe hai kênh</strong> để đạt được hiệu quả tần số nhịp trong não.",
@@ -22,7 +22,7 @@
     "searchPlaceholder": "Tìm kiếm nhạc... (ví dụ: piano, biển, thiền định)",
     "noResults": "Không tìm thấy nhạc liên quan",
     "currentMusic": "Lựa chọn hiện tại",
-    "deviceTest": "Thiết bị kiểm tra",
+    "deviceTest": "Kiểm tra thiết bị",
     "libraryTab": "Thư viện âm thanh trực tuyến",
     "localFileTab": "Tệp cục bộ",
     "filePrivacyMsg": "Tệp âm thanh chỉ được xử lý trên máy, không tải lên."
@@ -42,7 +42,7 @@
     "perMin": "lần/phút",
     "hz": "Hz",
     "db": "dB",
-    "none": "Không"
+    "none": "Không có"
   },
   "binauralOptions": [
     "Tập trung",

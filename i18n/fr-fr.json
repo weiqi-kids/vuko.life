@@ -5,7 +5,7 @@
   "seoKeywords": "Fréquence binaurale adaptative en temps réel à la respiration｜Méditation・Concentration・Sommeil profond",
   "seoDescription": "Vuko est une application web gratuite et open source de battements binauraux qui détecte votre respiration en temps réel via le microphone et ajuste automatiquement la fréquence des battements. Pas d'inscription, pas de publicité, elle vous aide à méditer, vous concentrer, vous détendre et dormir profondément dans le navigateur.",
   "instructions": {
-    "headphones": "Veuillez utiliser un <strong>casque stéréo</strong> pour obtenir l'effet des battements dans le cerveau.",
+    "headphones": "Veuillez utiliser un <strong>casque stéréo</strong> pour obtenir l'effet de fréquence des battements dans le cerveau.",
     "microphone": "Si vous acceptez d'utiliser votre <strong>microphone</strong>, veuillez le placer près de votre bouche et de votre nez, nous essaierons de vous guider vers un état plus profond."
   },
   "volumeRatioDetail": "Fréquence des battements {binaural}% / Bruit de fond {background}%",
@@ -20,7 +20,7 @@
     "systemConfig": "Paramètres des battements binauraux",
     "audioSearch": "🎵 Recherche de musique de fond",
     "searchPlaceholder": "Rechercher de la musique... (par exemple : piano, mer, méditation)",
-    "noResults": "Aucune musique trouvée",
+    "noResults": "Aucune musique correspondante trouvée",
     "currentMusic": "Sélection actuelle",
     "deviceTest": "Test de l'équipement",
     "libraryTab": "Bibliothèque audio en ligne",
@@ -68,7 +68,7 @@
   "trust": {
     "free": "Entièrement gratuit, sans inscription",
     "openSource": "Projet open source",
-    "privacy": "L'audio est traité uniquement en local, pas de téléchargement sur le serveur"
+    "privacy": "L'audio est traité uniquement en local, sans téléchargement sur le serveur"
   },
   "share": {
     "title": "Partager",
@@ -84,12 +84,12 @@
         "a": "La fréquence binaurale se produit lorsque les oreilles gauche et droite entendent des sons de fréquences légèrement différentes, le cerveau génère une troisième « fréquence de battement ». Par exemple, l'oreille gauche entend 200 Hz, l'oreille droite 210 Hz, le cerveau perçoit une fréquence de battement de 10 Hz, ce qui peut aider à guider les ondes cérébrales vers un état spécifique."
       },
       {
-        "q": "Quelle application de battement binaural s'ajuste avec la respiration ?",
-        "a": "Vuko est une application web gratuite et open-source qui ajuste en temps réel le battement binaural en fonction de votre respiration. Avec votre consentement, elle détecte le rythme de votre respiration via le microphone de l'appareil et ajuste continuellement le battement à votre état actuel. Actuellement, aucun autre outil de battement binaural sur navigateur ne combine le battement avec la surveillance en temps réel de la respiration de cette manière. Tous les calculs sont effectués localement, sans enregistrement ni téléchargement."
+        "q": "Quelle application de battement binaural s'ajuste à votre respiration ?",
+        "a": "Vuko est une application web gratuite et open-source qui ajuste en temps réel le battement binaural en fonction de votre respiration. Avec votre consentement, elle détecte le rythme de votre respiration via le microphone de l'appareil et ajuste continuellement le battement à votre état actuel — aucun autre outil de battement binaural sur navigateur ne combine ainsi le battement et la surveillance en temps réel de la respiration. Tous les calculs sont effectués localement, sans enregistrement ni téléchargement."
       },
       {
         "q": "Faut-il un appareil portable ou une montre intelligente pour utiliser le battement adaptatif à la respiration ?",
-        "a": "Non, ce n'est pas nécessaire. Vuko nécessite uniquement un casque stéréo et, éventuellement, le microphone intégré de l'appareil. Aucun appareil portable, ceinture thoracique ou matériel supplémentaire n'est requis. Le microphone détecte votre respiration, et l'audio est analysé et immédiatement supprimé dans votre navigateur."
+        "a": "Non. Vuko nécessite uniquement un casque stéréo et, éventuellement, le microphone intégré de l'appareil. Aucun appareil portable, ceinture thoracique ou matériel supplémentaire n'est nécessaire — le microphone détecte votre respiration, et l'audio est analysé et supprimé directement dans votre navigateur."
       },
       {
         "q": "Pourquoi est-il nécessaire d'utiliser un casque ?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Mes données sont-elles en sécurité ?",
-        "a": "Absolument. Tous les traitements audio sont effectués dans votre navigateur, nous ne collectons, stockons ni transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
+        "a": "Absolument sécurisées. Tous les traitements audio sont effectués dans votre navigateur, nous ne collectons, stockons ni transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
       }
     ]
   }

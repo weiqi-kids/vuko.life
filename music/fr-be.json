@@ -407,7 +407,7 @@
       "acoustique",
       "Détente"
     ],
-    "desc": "Guitare douce en principal, accompagnée de sons légers, adaptée pour la détente et la concentration.",
+    "desc": "Principalement une guitare douce, accompagnée de légers coussins sonores, adaptée à la détente et à la concentration.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -1199,9 +1199,9 @@
     "tag": [
       "Chakra du plexus solaire",
       "chakra du plexus solaire",
-      "Énergie",
+      "énergie",
       "chakra",
-      "Confiance en soi"
+      "confiance en soi"
     ],
     "desc": "Thème du chakra du plexus solaire, symbolisant la vitalité, la volonté et le centre énergétique, avec une ambiance chaleureuse et lumineuse.",
     "embedding": [
@@ -1597,11 +1597,11 @@
     "tag": [
       "Montagne",
       "montagne",
-      "Tranquillité",
+      "tranquillité",
       "paix",
       "Nature"
     ],
-    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons naturels pour favoriser la paix intérieure.",
+    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons de l'environnement naturel pour favoriser la paix intérieure.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan et tambour à languettes",
+    "title": "Handpan et Steel Tongue Drum",
     "tag": [
       "Handpan",
-      "Tambour à languettes",
+      "Steel Tongue Drum",
       "handpan",
-      "tambour à languettes en acier",
+      "steel tongue drum",
       "relaxation"
     ],
-    "desc": "Mélodie principale de handpan et de tambour à languettes, mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
+    "desc": "Mélodie principale de handpan et de steel tongue drum, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2795,7 +2795,7 @@
       "Nature",
       "Stabilité"
     ],
-    "desc": "Paysage sonore de la forêt, chant d'oiseaux et bruissement des feuilles, créant une atmosphère naturelle et stable.",
+    "desc": "Paysage sonore de la forêt, avec chants d'oiseaux et bruissement des feuilles, créant une ambiance naturelle et stable.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3984,7 +3984,7 @@
     "title": "Feu",
     "tag": [
       "Feu",
-      "fire",
+      "feu",
       "énergie",
       "passion",
       "élément"
@@ -4382,9 +4382,9 @@
     "title": "Mélodie principale des sons de l'environnement",
     "tag": [
       "sons de la nature",
-      "nature sounds",
+      "sons de la nature",
       "sons ambiants",
-      "pur naturel",
+      "nature pure",
       "ambiant"
     ],
     "desc": "Paysage sonore purement naturel, sans aucun instrument ou voix humaine, idéal pour la méditation, la relaxation et la guérison naturelle.",
@@ -4780,7 +4780,7 @@
     "title": "Chakra du troisième œil",
     "tag": [
       "Chakra du troisième œil",
-      "third eye chakra",
+      "chakra du troisième œil",
       "spiritualité",
       "chakra",
       "intuition"
@@ -7964,7 +7964,7 @@
     "title": "tonnerre",
     "tag": [
       "tonnerre",
-      "tonnerre",
+      "thunder",
       "nature",
       "nature",
       "énergie"
@@ -8362,7 +8362,7 @@
     "title": "chakra couronne",
     "tag": [
       "chakra couronne",
-      "chakra couronne",
+      "crown chakra",
       "éveil",
       "chakra",
       "lumière"
@@ -8760,7 +8760,7 @@
     "title": "vent",
     "tag": [
       "vent",
-      "vent",
+      "wind",
       "Nature",
       "Éthéré",
       "ambiant"

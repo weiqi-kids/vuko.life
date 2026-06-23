@@ -9,7 +9,7 @@
       "meditasi",
       "Penyembuhan"
     ],
-    "desc": "Dengan suara mangkok bernyanyi sebagai melodi utama, resonansi lembut, cocok untuk meditasi dan lanskap suara penyembuhan.",
+    "desc": "Dengan suara mangkok bernyanyi sebagai melodi utama, resonansi lembut, cocok untuk meditasi dan pemandangan suara penyembuhan.",
     "embedding": [
       0.06329084187746048,
       0.050360459834337234,
@@ -1203,7 +1203,7 @@
       "chakra",
       "Kepercayaan diri"
     ],
-    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kehendak, dan pusat energi, suasana hangat dan cerah.",
+    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kemauan, dan pusat energi, dengan suasana hangat dan cerah.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1999,7 +1999,7 @@
       "steel tongue drum",
       "relaksasi"
     ],
-    "desc": "Melodi utama handpan dan drum lidah baja, melodi yang bulat dan menenangkan, cocok untuk meditasi mendalam dan relaksasi.",
+    "desc": "Melodi utama handpan dan drum lidah baja, melodi bulat dan etereal, cocok untuk meditasi mendalam dan relaksasi.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2795,7 +2795,7 @@
       "Alam",
       "Stabil"
     ],
-    "desc": "Suara hutan, kicauan burung dan gemerisik daun, menciptakan suasana alam yang stabil.",
+    "desc": "Suara hutan, kicauan burung dan suara daun bergesekan, menciptakan suasana alam yang stabil.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3985,8 +3985,8 @@
     "tag": [
       "Api",
       "api",
-      "Energi",
-      "Antusiasme",
+      "energi",
+      "antusiasme",
       "elemen"
     ],
     "desc": "Dengan tema elemen api, menggabungkan efek suara alam seperti api dan api unggun, melambangkan energi dan transformasi.",
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Melodi Utama Suara Lingkungan",
+    "title": "Melodi utama suara lingkungan",
     "tag": [
-      "Suara Lingkungan",
+      "Suara lingkungan",
       "suara alam",
-      "Suara Lingkungan",
-      "Alam Murni",
+      "suara lingkungan",
+      "murni alami",
       "ambien"
     ],
-    "desc": "Pemandangan suara lingkungan alam murni, tanpa alat musik atau suara manusia, cocok untuk meditasi, relaksasi, dan penyembuhan alami.",
+    "desc": "Pemandangan suara lingkungan yang murni alami, tanpa alat musik atau suara manusia, cocok untuk meditasi, relaksasi, dan penyembuhan alami.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4777,15 +4777,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%9C%89%E5%BF%83%E8%BC%AA.mp3",
-    "title": "Cakra Mata Ketiga",
+    "title": "Cakra mata ketiga",
     "tag": [
-      "Cakra Mata Ketiga",
+      "Cakra mata ketiga",
       "cakra mata ketiga",
       "Spiritualitas",
       "chakra",
       "Intuisi"
     ],
-    "desc": "Pemandangan suara meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
+    "desc": "Suasana meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5581,7 +5581,7 @@
       "chakra",
       "Kebebasan"
     ],
-    "desc": "Pemandangan suara bertema chakra tenggorokan, menciptakan ruang untuk aliran energi yang lancar dan ekspresi bebas.",
+    "desc": "Suasana tema chakra tenggorokan, menciptakan ruang untuk aliran energi yang lancar dan ekspresi bebas.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Chakra Sakral",
+    "title": "Cakra Sakral",
     "tag": [
-      "Chakra Sakral",
-      "chakra sakral",
+      "Cakra Sakral",
+      "cakra sakral",
       "emosi",
-      "chakra",
+      "cakra",
       "mengalir"
     ],
-    "desc": "Suasana suara chakra sakral, melambangkan aliran emosi, kreativitas, dan energi kesenangan.",
+    "desc": "Suasana cakra sakral, melambangkan aliran emosi, kreativitas, dan energi kesenangan.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6377,7 +6377,7 @@
       "kejernihan",
       "kejernihan"
     ],
-    "desc": "Tema elemen logam, dengan suara yang jernih dan terang, menciptakan suasana yang murni dan etereal.",
+    "desc": "Tema elemen logam, dengan nada yang jernih dan cerah, menciptakan suasana yang murni dan etereal.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -6772,8 +6772,8 @@
       "Piano",
       "piano",
       "Lembut",
-      "Harmoni",
-      "santai"
+      "Harmonis",
+      "Santai"
     ],
     "desc": "Melodi utama piano yang lembut, dipadukan dengan iringan yang menenangkan, memberikan perasaan damai dan nyaman.",
     "embedding": [
@@ -7164,13 +7164,13 @@
     ]
   },
   {
-    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Garpu Tala Glockenspiel",
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%B3.mp3",
+    "title": "Glockenspiel dan Garpu Tala",
     "tag": [
       "Glockenspiel",
       "Garpu Tala",
-      "glockenspiel",
-      "garpu tala",
+      "Glockenspiel",
+      "Garpu Tala",
       "Ethereal"
     ],
     "desc": "Suara etereal dari glockenspiel dan garpu tala, cocok untuk meditasi, pembersihan, dan fokus.",
@@ -7563,12 +7563,12 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Seruling Xiao",
+    "title": "Seruling dan Xiao",
     "tag": [
       "Seruling",
       "Xiao",
-      "seruling",
-      "xiao",
+      "Seruling",
+      "Xiao",
       "Mengalir"
     ],
     "desc": "Melodi utama seruling dan xiao, mengalir jauh, menciptakan suasana hati yang etereal dan mendalam.",

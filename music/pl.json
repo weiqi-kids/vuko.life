@@ -5,9 +5,9 @@
     "tag": [
       "Misa śpiewająca",
       "miska śpiewająca",
+      "Medytacja",
       "medytacja",
-      "medytacja",
-      "uzdrawianie"
+      "Uzdrawianie"
     ],
     "desc": "Dźwięk misy śpiewającej jako główna melodia, łagodny rezonans, odpowiedni do medytacji i uzdrawiających pejzaży dźwiękowych.",
     "embedding": [
@@ -403,11 +403,11 @@
     "tag": [
       "Gitara",
       "gitara",
-      "delikatny",
+      "Delikatny",
       "akustyczny",
-      "relaks"
+      "Relaks"
     ],
-    "desc": "Delikatna gitara jako główny instrument, wspierana przez łagodne podkłady dźwiękowe, odpowiednia do relaksu i koncentracji.",
+    "desc": "Delikatna gitara jako główny element, wsparta lekkimi podkładami dźwiękowymi, odpowiednia do relaksu i koncentracji.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -2795,7 +2795,7 @@
       "Natura",
       "Stabilność"
     ],
-    "desc": "Dźwięki lasu, śpiew ptaków i szum liści tworzą naturalną i stabilną atmosferę.",
+    "desc": "Dźwięki lasu, śpiew ptaków i szum liści tworzą naturalną, stabilną atmosferę.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3193,7 +3193,7 @@
       "Przepływ",
       "Świeżość"
     ],
-    "desc": "Dźwięki płynącej wody i strumienia tworzą świeży i płynny nastrój.",
+    "desc": "Dźwięki płynącej wody i strumienia tworzą świeży, płynny nastrój.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -3985,11 +3985,11 @@
     "tag": [
       "Ogień",
       "fire",
-      "energia",
-      "pasja",
+      "Energia",
+      "Pasja",
       "element"
     ],
-    "desc": "Temat przewodni to element ognia, wkomponowane są naturalne efekty dźwiękowe jak płomienie i ognisko, symbolizujące energię i transformację.",
+    "desc": "Temat przewodni to element ognia, wpleciono naturalne efekty dźwiękowe jak płomienie i ognisko, symbolizujące energię i transformację.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4383,11 +4383,11 @@
     "tag": [
       "Dźwięki natury",
       "nature sounds",
-      "dźwięki otoczenia",
-      "czysta natura",
+      "Dźwięki otoczenia",
+      "Czysta natura",
       "ambient"
     ],
-    "desc": "Czysty pejzaż dźwiękowy natury, bez żadnych instrumentów czy głosów, idealny do medytacji, relaksu i naturalnego uzdrawiania.",
+    "desc": "Czysty dźwięk otoczenia bez instrumentów czy głosów, idealny do medytacji, relaksu i naturalnego uzdrawiania.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -5581,7 +5581,7 @@
       "czakra",
       "Wolność"
     ],
-    "desc": "Pejzaż dźwiękowy tematyczny czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
+    "desc": "Pejzaż dźwiękowy czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Dźwięki ksylofonu",
+    "title": "Kamerton dzwonkowy",
     "tag": [
-      "Ksylofon",
+      "Dzwonki",
       "Kamerton",
       "dzwonki",
       "kamerton",
       "Eteryczność"
     ],
-    "desc": "Eteryczne dźwięki ksylofonu i kamertonu, odpowiednie do medytacji, oczyszczania i koncentracji.",
+    "desc": "Eteryczne dźwięki dzwonków i kamertonu, odpowiednie do medytacji, oczyszczania i skupienia.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -7571,7 +7571,7 @@
       "xiao",
       "Płynność"
     ],
-    "desc": "Melodia fletu i xiao, płynna i dalekosiężna, tworząca eteryczny i głęboki nastrój.",
+    "desc": "Melodia fletu i xiao, daleka i płynna, tworząca eteryczny i głęboki nastrój.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -7969,7 +7969,7 @@
       "Przyroda",
       "Energia"
     ],
-    "desc": "Dźwięki grzmotu i deszczu tworzą pejzaż dźwiękowy pełen energii i uwolnienia.",
+    "desc": "Dźwięki grzmotu i deszczu tworzą środowisko pełne energii i uwolnienia.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8367,7 +8367,7 @@
       "czakra",
       "Światło"
     ],
-    "desc": "Pejzaż dźwiękowy czakry korony, symbolizujący przebudzenie duchowe, wzrost duchowy i światło.",
+    "desc": "Dźwięki związane z czakrą korony symbolizują przebudzenie duchowe, wzrost duchowy i światło.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8765,7 +8765,7 @@
       "Eteryczny",
       "ambient"
     ],
-    "desc": "Eteryczny pejzaż dźwiękowy z dominującym szumem wiatru, płynący i odległy, idealny do relaksu, medytacji i koncentracji.",
+    "desc": "Eteryczny pejzaż dźwiękowy z dominującym szumem wiatru, płynący i odległy, odpowiedni do relaksu, medytacji i koncentracji.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,
@@ -9163,7 +9163,7 @@
       "Leczniczy",
       "relaksujący"
     ],
-    "desc": "Delikatny pejzaż dźwiękowy ozdobiony dźwiękiem dzwonków wietrznych, eteryczny i leczniczy, idealny do relaksu i odprężenia przed snem.",
+    "desc": "Delikatny pejzaż dźwiękowy ozdobiony dźwiękiem dzwonków wietrznych, eteryczny i leczniczy, odpowiedni do relaksu i odprężenia przed snem.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

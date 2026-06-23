@@ -805,7 +805,7 @@
       "Erde",
       "Erdung"
     ],
-    "desc": "Inspiriert von Erdelementen, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
+    "desc": "Inspiriert von den Elementen der Erde, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1203,7 +1203,7 @@
       "Chakra",
       "Selbstvertrauen"
     ],
-    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
+    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willenskraft und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "Frieden",
       "Natur"
     ],
-    "desc": "Simuliert die Ruhe und Weite der Berge, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
+    "desc": "Simuliert die Ruhe und Weite in den Bergen, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -3989,7 +3989,7 @@
       "Leidenschaft",
       "Element"
     ],
-    "desc": "Ein Thema, das sich um das Feuerelement dreht, mit natürlichen Klangeffekten wie Flammen und Lagerfeuer, die Energie und Transformation symbolisieren.",
+    "desc": "Mit dem Thema Feuerelement, integriert natürliche Klangeffekte wie Flammen und Lagerfeuer, symbolisiert Energie und Transformation.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4387,7 +4387,7 @@
       "reine Natur",
       "ambient"
     ],
-    "desc": "Eine Klanglandschaft aus reinen Naturgeräuschen, ohne jegliche Instrumente oder Stimmen, ideal für Meditation, Entspannung und natürliche Heilung.",
+    "desc": "Reine natürliche Klanglandschaft ohne Instrumente oder Stimmen, geeignet für Meditation, Entspannung und natürliche Heilung.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -5183,7 +5183,7 @@
       "Rahmentrommel",
       "Erdung"
     ],
-    "desc": "Stabiler Rhythmus der Schamanentrommel mit niedriger Frequenz, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
+    "desc": "Niedrigfrequente Schamanentrommel mit stabilem Rhythmus, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -5974,12 +5974,12 @@
     "title": "Sakralchakra",
     "tag": [
       "Sakralchakra",
-      "sacral chakra",
+      "Sakralchakra",
       "Emotionen",
       "Chakra",
       "Fluss"
     ],
-    "desc": "Sakralchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
+    "desc": "Die Klanglandschaft des Sakralchakras symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6375,7 +6375,7 @@
       "Metall",
       "Reinheit",
       "Klarheit",
-      "clarity"
+      "Klarheit"
     ],
     "desc": "Thema des Metallelements, der Klang ist klar und hell und schafft eine reine, ätherische Atmosphäre.",
     "embedding": [
@@ -6770,8 +6770,8 @@
     "title": "Klavier",
     "tag": [
       "Klavier",
-      "piano",
-      "Sanft",
+      "Klavier",
+      "Sanftheit",
       "Harmonie",
       "entspannend"
     ],
@@ -7569,7 +7569,7 @@
       "Xiao",
       "Flöte",
       "Xiao",
-      "Fließend"
+      "Fließen"
     ],
     "desc": "Die Melodie von Flöte und Xiao ist weitreichend und fließend, schafft eine ätherische und tiefgründige Stimmung.",
     "embedding": [
@@ -7969,7 +7969,7 @@
       "Natur",
       "Energie"
     ],
-    "desc": "Donner- und Regengeräusche schaffen eine klangliche Umgebung voller Energie und Entspannung.",
+    "desc": "Donner- und Regengeräusche schaffen eine klangvolle Umgebung voller Energie und Entspannung.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8367,7 +8367,7 @@
       "Chakra",
       "Licht"
     ],
-    "desc": "Das Klangbild des Kronenchakras symbolisiert spirituelles Erwachen, spirituelles Wachstum und Licht.",
+    "desc": "Das Klangbild des Kronenchakras symbolisiert spirituelles Erwachen, geistiges Wachstum und Licht.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8765,7 +8765,7 @@
       "Ätherisch",
       "ambient"
     ],
-    "desc": "Ein ätherisches Klangbild, das von Windgeräuschen dominiert wird, fließend und weitreichend, geeignet zum Entspannen, Meditieren und Konzentrieren.",
+    "desc": "Ein ätherisches Klangbild, das von Windgeräuschen dominiert wird, fließend und weitreichend, ideal zum Entspannen, Meditieren und Konzentrieren.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,
@@ -9163,7 +9163,7 @@
       "Heilend",
       "entspannend"
     ],
-    "desc": "Ein sanftes Klangbild, verziert mit klaren Windspielklängen, ätherisch und heilend, geeignet zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
+    "desc": "Ein sanftes Klangbild, verziert mit klaren Windspielklängen, ätherisch und heilend, ideal zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,
