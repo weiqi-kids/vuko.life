@@ -1,27 +1,28 @@
 {
-  "title": "Dengan suara, temukan diri Anda yang lebih baik",
+  "title": "Dengan suara, temui diri Anda yang lebih baik",
   "subtitle": "🤖 Petunjuk Penggunaan",
-  "description": "Sistem akan memantau kondisi pernapasan Anda secara real-time dan secara otomatis menyesuaikan frekuensi ketukan untuk membimbing Anda ke dalam berbagai kondisi kesadaran:",
+  "description": "Sistem akan memantau kondisi pernapasan Anda secara real-time dan secara otomatis menyesuaikan frekuensi binaural untuk membimbing Anda ke dalam berbagai kondisi kesadaran:",
+  "seoKeywords": "Meditasi Binaural・Konsentrasi・Tidur Dalam・Panduan Pernapasan Real-time",
   "instructions": {
-    "headphones": "Silakan gunakan <strong>headphone stereo</strong> agar dapat mencapai efek frekuensi ketukan di otak.",
+    "headphones": "Silakan gunakan <strong>headphone stereo</strong> agar efek frekuensi binaural dapat tercapai.",
     "microphone": "Jika Anda setuju untuk menggunakan <strong>mikrofon</strong> Anda, silakan dekatkan mikrofon ke mulut dan hidung Anda, kami akan mencoba membimbing Anda ke dalam kondisi yang lebih dalam."
   },
-  "volumeRatioDetail": "Frekuensi ketukan {binaural}% / Suara latar {background}%",
+  "volumeRatioDetail": "Frekuensi Binaural {binaural}% / Suara Latar {background}%",
   "labels": {
-    "breathRate": "Tingkat pernapasan:",
-    "noiseLevel": "Kebisingan latar belakang:",
-    "baseFreq": "Frekuensi dasar:",
-    "audioFile": "File suara latar:",
-    "volumeRatio": "Proporsi volume:",
-    "breathVisual": "Visualisasi pernapasan",
-    "realTimeData": "Data real-time",
-    "systemConfig": "Pengaturan frekuensi ketukan binaural",
+    "breathRate": "Tingkat Pernapasan:",
+    "noiseLevel": "Kebisingan Latar:",
+    "baseFreq": "Frekuensi Dasar:",
+    "audioFile": "File Suara Latar:",
+    "volumeRatio": "Proporsi Volume:",
+    "breathVisual": "Visualisasi Pernapasan",
+    "realTimeData": "Data Real-time",
+    "systemConfig": "Pengaturan Frekuensi Binaural",
     "audioSearch": "🎵 Pencarian Musik Latar",
     "searchPlaceholder": "Cari musik... (misalnya: piano, laut, meditasi)",
     "noResults": "Tidak dapat menemukan musik terkait",
-    "currentMusic": "Pilihan saat ini",
-    "deviceTest": "Tes perangkat",
-    "libraryTab": "Perpustakaan musik online",
+    "currentMusic": "Pilihan Saat Ini",
+    "deviceTest": "Tes Perangkat",
+    "libraryTab": "Perpustakaan Suara Online",
     "localFileTab": "Berkas Lokal",
     "filePrivacyMsg": "Berkas audio hanya diproses secara lokal, tidak akan diunggah."
   },
@@ -30,17 +31,17 @@
     "stop": "🍂 Berhenti"
   },
   "status": {
-    "monitoring": "🎙️ Memantau pernapasan... Silakan bernapas secara alami",
-    "stopped": "Pemantauan telah dihentikan",
+    "monitoring": "🎙️ Memantau Pernapasan... Silakan bernapas secara alami",
+    "stopped": "Pemantauan Dihentikan",
     "error": "❌ Tidak dapat memulai:",
-    "unsupported": "⚠️ Peramban Anda tidak mendukung fungsi mikrofon, tidak dapat menggunakan pemantauan pernapasan",
-    "waiting": "Menunggu deteksi"
+    "unsupported": "⚠️ Peramban Anda tidak mendukung fitur mikrofon, tidak dapat menggunakan pemantauan pernapasan",
+    "waiting": "Menunggu Deteksi"
   },
   "units": {
     "perMin": "kali/menit",
     "hz": "Hz",
     "db": "dB",
-    "none": "Tidak ada"
+    "none": "Tidak Ada"
   },
   "binauralOptions": [
     "Fokus",
@@ -73,5 +74,30 @@
     "twitter": "Bagikan ke Twitter",
     "facebook": "Bagikan ke Facebook",
     "line": "Bagikan ke LINE"
+  },
+  "faq": {
+    "title": "Pertanyaan Umum",
+    "items": [
+      {
+        "q": "Apa itu frekuensi binaural?",
+        "a": "Frekuensi binaural adalah ketika telinga kiri dan kanan mendengar suara dengan frekuensi yang sedikit berbeda, otak akan menghasilkan 'frekuensi binaural' ketiga. Misalnya, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang dapat membantu membimbing gelombang otak memasuki keadaan tertentu."
+      },
+      {
+        "q": "Mengapa harus menggunakan headphone?",
+        "a": "Prinsip dari binaural beats adalah membuat telinga kiri dan kanan mendengar frekuensi yang berbeda. Hanya dengan menggunakan headphone, pemisahan saluran kiri dan kanan dapat dipastikan, sehingga otak dapat menghasilkan efek binaural beats dengan benar."
+      },
+      {
+        "q": "Bagaimana cara kerja pemantauan pernapasan?",
+        "a": "Sistem mendeteksi suara napas Anda melalui mikrofon, menganalisis ritme pernapasan, dan secara otomatis menyesuaikan binaural beats berdasarkan kondisi Anda untuk membantu Anda lebih cepat mencapai kondisi yang diinginkan. Semua audio diproses secara lokal dan tidak akan diunggah."
+      },
+      {
+        "q": "Apakah alat ini benar-benar gratis?",
+        "a": "Ya, Vuko sepenuhnya gratis dan open source. Tidak ada biaya tersembunyi, tidak ada langganan, tidak ada iklan. Anda dapat melihat kode lengkapnya di GitHub."
+      },
+      {
+        "q": "Apakah data saya aman?",
+        "a": "Sangat aman. Semua pemrosesan audio dilakukan di browser Anda, kami tidak mengumpulkan, menyimpan, atau mentransmisikan data audio apa pun. Ini adalah aplikasi front-end murni, tanpa server back-end."
+      }
+    ]
   }
 }

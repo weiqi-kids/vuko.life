@@ -1,33 +1,34 @@
 {
   "title": "Za pomocą dźwięku, spotkaj lepszą wersję siebie",
   "subtitle": "🤖 Instrukcja obsługi",
-  "description": "System będzie na bieżąco monitorować twój stan oddechu i automatycznie dostosowywać częstotliwość bicia, aby wprowadzić cię w różne stany świadomości:",
+  "description": "System będzie na bieżąco monitorować twój stan oddychania i automatycznie dostosowywać częstotliwość bicia, aby wprowadzić cię w różne stany świadomości:",
+  "seoKeywords": "Medytacja z częstotliwością binauralną・Koncentracja・Głęboki sen・Natychmiastowe prowadzenie oddechu",
   "instructions": {
-    "headphones": "Proszę używać <strong>słuchawek stereo</strong>, aby osiągnąć efekt częstotliwości bicia w mózgu.",
-    "microphone": "Jeśli zgadzasz się na użycie swojego <strong>mikrofonu</strong>, umieść go blisko ust i nosa, spróbujemy wprowadzić cię w głębszy stan."
+    "headphones": "Proszę używać <strong>słuchawek stereo</strong>, aby osiągnąć efekt częstotliwości binauralnej w mózgu.",
+    "microphone": "Jeśli zgadzasz się na użycie swojego <strong>mikrofonu</strong>, umieść go blisko ust i nosa, a my spróbujemy wprowadzić cię w głębszy stan."
   },
-  "volumeRatioDetail": "Częstotliwość bicia {binaural}% / Dźwięk tła {background}%",
+  "volumeRatioDetail": "Częstotliwość binauralna {binaural}% / Dźwięk tła {background}%",
   "labels": {
-    "breathRate": "Szybkość oddechu:",
+    "breathRate": "Szybkość oddychania:",
     "noiseLevel": "Szum tła:",
     "baseFreq": "Częstotliwość podstawowa:",
     "audioFile": "Plik dźwiękowy tła:",
     "volumeRatio": "Proporcja głośności:",
-    "breathVisual": "Wizualizacja oddechu",
+    "breathVisual": "Wizualizacja oddychania",
     "realTimeData": "Dane w czasie rzeczywistym",
-    "systemConfig": "Ustawienia częstotliwości bicia binauralnego",
+    "systemConfig": "Ustawienia częstotliwości binauralnej",
     "audioSearch": "🎵 Wyszukiwanie muzyki w tle",
-    "searchPlaceholder": "Szukaj muzyki... (np.: fortepian, morze, medytacja)",
+    "searchPlaceholder": "Wyszukaj muzykę... (np.: fortepian, morze, medytacja)",
     "noResults": "Nie znaleziono odpowiedniej muzyki",
     "currentMusic": "Aktualny wybór",
     "deviceTest": "Test urządzenia",
     "libraryTab": "Biblioteka dźwięków online",
     "localFileTab": "Plik lokalny",
-    "filePrivacyMsg": "Plik audio jest przetwarzany tylko lokalnie, nie będzie przesyłany."
+    "filePrivacyMsg": "Plik audio jest przetwarzany tylko lokalnie i nie będzie przesyłany."
   },
   "buttons": {
-    "start": "🎶 Rozpocznij",
-    "stop": "🍂 Zatrzymaj"
+    "start": "🎶 Start",
+    "stop": "🍂 Stop"
   },
   "status": {
     "monitoring": "🎙️ Monitorowanie oddechu... Proszę oddychać naturalnie",
@@ -64,14 +65,39 @@
     "激發靈感": "Fale Gamma 40Hz, zwiększają kreatywne myślenie"
   },
   "trust": {
-    "free": "Całkowicie darmowe, bez rejestracji",
+    "free": "Całkowicie darmowe, bez potrzeby rejestracji",
     "openSource": "Projekt open source",
-    "privacy": "Dźwięk przetwarzany tylko lokalnie, nie przesyłany na serwer"
+    "privacy": "Dźwięk przetwarzany jest tylko lokalnie, nie jest przesyłany na serwer"
   },
   "share": {
     "title": "Udostępnij",
     "twitter": "Udostępnij na Twitterze",
     "facebook": "Udostępnij na Facebooku",
     "line": "Udostępnij na LINE"
+  },
+  "faq": {
+    "title": "Często zadawane pytania",
+    "items": [
+      {
+        "q": "Czym jest binauralne bicie?",
+        "a": "Binauralne bicie występuje, gdy lewe i prawe ucho słyszą dźwięki o nieco różnych częstotliwościach, a mózg generuje trzecią częstotliwość, tzw. „bicie”. Na przykład, jeśli lewe ucho słyszy 200Hz, a prawe 210Hz, mózg odbiera bicie o częstotliwości 10Hz, co może pomóc wprowadzić fale mózgowe w określony stan."
+      },
+      {
+        "q": "Dlaczego konieczne jest używanie słuchawek?",
+        "a": "Zasada działania dudnień binauralnych polega na tym, że każde ucho słyszy inny częstotliwość. Tylko użycie słuchawek zapewnia rozdzielenie kanałów lewego i prawego, co pozwala mózgowi prawidłowo generować efekt dudnień."
+      },
+      {
+        "q": "Jak działa monitorowanie oddechu?",
+        "a": "System wykrywa dźwięk twojego oddechu za pomocą mikrofonu, analizuje rytm oddechu i automatycznie dostosowuje dudnienia w zależności od twojego stanu, aby pomóc ci szybciej osiągnąć docelowy stan. Wszystkie dane audio są przetwarzane lokalnie i nie są przesyłane."
+      },
+      {
+        "q": "Czy to narzędzie jest naprawdę darmowe?",
+        "a": "Tak, Vuko jest całkowicie darmowe i open-source. Nie ma ukrytych opłat, subskrypcji ani reklam. Możesz zobaczyć pełny kod źródłowy na GitHubie."
+      },
+      {
+        "q": "Czy moje dane są bezpieczne?",
+        "a": "Absolutnie bezpieczne. Wszystkie przetwarzania audio odbywają się w twojej przeglądarce, nie zbieramy, nie przechowujemy ani nie przesyłamy żadnych danych audio. To jest czysto front-endowa aplikacja, bez serwera backendowego."
+      }
+    ]
   }
 }

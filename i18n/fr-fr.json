@@ -1,21 +1,22 @@
 {
   "title": "Avec la voix, rencontrez une meilleure version de vous-même",
   "subtitle": "🤖 Mode d'emploi",
-  "description": "Le système surveille en temps réel votre état respiratoire et ajuste automatiquement la fréquence des battements pour vous guider vers différents états de conscience :",
+  "description": "Le système surveille en temps réel votre état respiratoire et ajuste automatiquement la fréquence binaurale pour vous guider vers différents états de conscience :",
+  "seoKeywords": "Méditation binaurale・Concentration・Sommeil profond・Guidage respiratoire en temps réel",
   "instructions": {
-    "headphones": "Veuillez utiliser des <strong>écouteurs stéréo</strong> pour obtenir l'effet de fréquence de battement dans le cerveau.",
+    "headphones": "Veuillez utiliser des <strong>écouteurs stéréo</strong> pour obtenir l'effet de fréquence binaurale dans le cerveau.",
     "microphone": "Si vous acceptez d'utiliser votre <strong>microphone</strong>, veuillez le placer près de votre bouche et de votre nez, nous essaierons de vous guider vers un état plus profond."
   },
-  "volumeRatioDetail": "Fréquence des battements {binaural}% / Son de fond {background}%",
+  "volumeRatioDetail": "Fréquence binaurale {binaural}% / Bruit de fond {background}%",
   "labels": {
     "breathRate": "Taux de respiration :",
     "noiseLevel": "Bruit de fond :",
     "baseFreq": "Fréquence fondamentale :",
     "audioFile": "Fichier audio de fond :",
-    "volumeRatio": "Proportion du volume :",
+    "volumeRatio": "Proportion de volume :",
     "breathVisual": "Visualisation de la respiration",
     "realTimeData": "Données en temps réel",
-    "systemConfig": "Réglage de la fréquence des battements binauraux",
+    "systemConfig": "Paramètres de fréquence binaurale",
     "audioSearch": "🎵 Recherche de musique de fond",
     "searchPlaceholder": "Recherche de musique... (par exemple : piano, mer, méditation)",
     "noResults": "Aucune musique correspondante trouvée",
@@ -23,7 +24,7 @@
     "deviceTest": "Test de l'équipement",
     "libraryTab": "Bibliothèque audio en ligne",
     "localFileTab": "Fichier local",
-    "filePrivacyMsg": "Le fichier audio est traité localement et ne sera pas téléchargé."
+    "filePrivacyMsg": "Les fichiers audio sont traités uniquement en local et ne seront pas téléchargés."
   },
   "buttons": {
     "start": "🎶 Commencer",
@@ -47,7 +48,7 @@
     "Méditation",
     "Résonance de Schumann",
     "Sommeil",
-    "Revigorer",
+    "Revitaliser",
     "Inspiration"
   ],
   "sections": {
@@ -66,12 +67,37 @@
   "trust": {
     "free": "Entièrement gratuit, pas besoin d'inscription",
     "openSource": "Projet open source",
-    "privacy": "L'audio est traité localement, pas de téléchargement sur le serveur"
+    "privacy": "L'audio est traité uniquement en local, pas de téléchargement sur le serveur"
   },
   "share": {
     "title": "Partager",
     "twitter": "Partager sur Twitter",
     "facebook": "Partager sur Facebook",
     "line": "Partager sur LINE"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Qu'est-ce que la fréquence binaurale ?",
+        "a": "La fréquence binaurale est un phénomène où le cerveau génère une troisième fréquence « battement » lorsque les oreilles gauche et droite entendent des sons de fréquences légèrement différentes. Par exemple, si l'oreille gauche entend 200Hz et l'oreille droite 210Hz, le cerveau percevra un battement de 10Hz, ce qui peut aider à guider les ondes cérébrales vers un état spécifique."
+      },
+      {
+        "q": "Pourquoi est-il nécessaire d'utiliser des écouteurs ?",
+        "a": "Le principe des battements binauraux est de faire entendre des fréquences différentes à chaque oreille. L'utilisation d'un casque est nécessaire pour assurer la séparation des canaux gauche et droit, permettant ainsi au cerveau de produire correctement l'effet de battement."
+      },
+      {
+        "q": "Comment fonctionne la surveillance de la respiration ?",
+        "a": "Le système détecte votre respiration à l'aide d'un microphone, analyse le rythme respiratoire et ajuste automatiquement les battements en fonction de votre état pour vous aider à atteindre plus rapidement l'état souhaité. Tous les traitements audio sont effectués localement et ne sont pas téléchargés."
+      },
+      {
+        "q": "Cet outil est-il vraiment gratuit ?",
+        "a": "Oui, Vuko est entièrement gratuit et open source. Il n'y a pas de frais cachés, pas d'abonnement, pas de publicité. Vous pouvez consulter le code source complet sur GitHub."
+      },
+      {
+        "q": "Mes données sont-elles en sécurité ?",
+        "a": "Absolument sécurisées. Tous les traitements audio sont effectués dans votre navigateur, nous ne collectons, stockons ou transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
+      }
+    ]
   }
 }

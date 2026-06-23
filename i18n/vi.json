@@ -2,8 +2,9 @@
   "title": "Dùng âm thanh, dẫn bạn gặp gỡ bản thân tốt hơn",
   "subtitle": "🤖 Hướng dẫn sử dụng",
   "description": "Hệ thống sẽ giám sát trạng thái hô hấp của bạn theo thời gian thực và tự động điều chỉnh tần số nhịp để dẫn dắt bạn vào các trạng thái ý thức khác nhau:",
+  "seoKeywords": "Thiền nhịp hai tai・Tập trung・Ngủ sâu・Hướng dẫn hô hấp theo thời gian thực",
   "instructions": {
-    "headphones": "Vui lòng sử dụng <strong>tai nghe hai kênh</strong> để đạt được hiệu quả tần số nhịp trong não.",
+    "headphones": "Vui lòng sử dụng <strong>tai nghe hai kênh</strong> để đạt được hiệu quả nhịp trong não.",
     "microphone": "Nếu bạn đồng ý sử dụng <strong>micro</strong> của mình, hãy đặt micro gần miệng và mũi, chúng tôi sẽ cố gắng dẫn dắt bạn vào trạng thái sâu hơn."
   },
   "volumeRatioDetail": "Tần số nhịp {binaural}% / Âm nền {background}%",
@@ -15,7 +16,7 @@
     "volumeRatio": "Tỷ lệ âm lượng:",
     "breathVisual": "Hình ảnh hóa hô hấp",
     "realTimeData": "Dữ liệu thời gian thực",
-    "systemConfig": "Cài đặt tần số nhịp hai tai",
+    "systemConfig": "Cài đặt nhịp hai tai",
     "audioSearch": "🎵 Tìm kiếm nhạc nền",
     "searchPlaceholder": "Tìm kiếm nhạc... (ví dụ: piano, biển, thiền)",
     "noResults": "Không tìm thấy nhạc liên quan",
@@ -23,7 +24,7 @@
     "deviceTest": "Kiểm tra thiết bị",
     "libraryTab": "Thư viện âm thanh trực tuyến",
     "localFileTab": "Tệp cục bộ",
-    "filePrivacyMsg": "Tệp âm thanh chỉ được xử lý trên máy cục bộ, không tải lên."
+    "filePrivacyMsg": "Tệp âm thanh chỉ được xử lý trên máy, không tải lên."
   },
   "buttons": {
     "start": "🎶 Bắt đầu",
@@ -60,7 +61,7 @@
     "冥想": "Sóng Theta 7Hz, dẫn dắt thư giãn sâu, phù hợp cho thiền định",
     "舒曼共振": "Tần số tự nhiên của Trái Đất 7.83Hz, cân bằng năng lượng thân tâm",
     "睡眠": "Sóng Delta 3Hz, giúp nhanh chóng đi vào giấc ngủ",
-    "提神": "Sóng Beta 15Hz, nâng cao tinh thần",
+    "提神": "Sóng Beta 15Hz, nâng cao tinh thần và năng lượng",
     "激發靈感": "Sóng Gamma 40Hz, nâng cao tư duy sáng tạo"
   },
   "trust": {
@@ -73,5 +74,30 @@
     "twitter": "Chia sẻ lên Twitter",
     "facebook": "Chia sẻ lên Facebook",
     "line": "Chia sẻ lên LINE"
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Binaural beats là gì?",
+        "a": "Binaural beats là khi tai trái và tai phải nghe âm thanh có tần số hơi khác nhau, não sẽ tạo ra một tần số 'beat' thứ ba. Ví dụ, tai trái nghe 200Hz, tai phải nghe 210Hz, não sẽ cảm nhận được tần số beat 10Hz, điều này có thể giúp dẫn dắt sóng não vào trạng thái cụ thể."
+      },
+      {
+        "q": "Tại sao nhất định phải dùng tai nghe?",
+        "a": "Nguyên lý của nhịp đập hai tai là cho tai trái và tai phải nghe các tần số khác nhau, chỉ khi sử dụng tai nghe mới có thể đảm bảo tách biệt kênh âm thanh trái và phải, giúp não bộ tạo ra hiệu ứng nhịp đập chính xác."
+      },
+      {
+        "q": "Giám sát hô hấp hoạt động như thế nào?",
+        "a": "Hệ thống phát hiện âm thanh hô hấp của bạn thông qua micro, phân tích nhịp điệu hô hấp và tự động điều chỉnh nhịp đập dựa trên trạng thái của bạn để giúp bạn nhanh chóng đạt được trạng thái mục tiêu. Tất cả âm thanh chỉ được xử lý trên thiết bị, không tải lên."
+      },
+      {
+        "q": "Công cụ này thực sự miễn phí không?",
+        "a": "Đúng vậy, Vuko hoàn toàn miễn phí và mã nguồn mở. Không có chi phí ẩn, không có đăng ký, không có quảng cáo. Bạn có thể xem mã nguồn đầy đủ trên GitHub."
+      },
+      {
+        "q": "Dữ liệu của tôi có an toàn không?",
+        "a": "Hoàn toàn an toàn. Tất cả xử lý âm thanh đều được thực hiện trong trình duyệt của bạn, chúng tôi không thu thập, lưu trữ hoặc truyền bất kỳ dữ liệu âm thanh nào. Đây là một ứng dụng hoàn toàn phía trước, không có máy chủ phía sau."
+      }
+    ]
   }
 }

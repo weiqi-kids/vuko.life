@@ -1,27 +1,28 @@
 {
   "title": "Sesle, daha iyi bir senle tanış",
   "subtitle": "🤖 Kullanım Kılavuzu",
-  "description": "Sistem, nefes alma durumunuzu gerçek zamanlı olarak izler ve sizi farklı bilinç durumlarına yönlendirmek için frekansı otomatik olarak ayarlar:",
+  "description": "Sistem, nefes durumunuzu gerçek zamanlı olarak izler ve sizi farklı bilinç durumlarına yönlendirmek için frekansı otomatik olarak ayarlar:",
+  "seoKeywords": "Binaural vuruş meditasyonu・Odaklanma・Derin uyku・Gerçek zamanlı nefes rehberliği",
   "instructions": {
-    "headphones": "<strong>Çift kanallı kulaklık</strong> kullanın, böylece beyninizdeki frekans etkisini elde edebilirsiniz.",
-    "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağzınıza ve burnunuza yakın tutun, sizi daha derin bir duruma yönlendirmeye çalışacağız."
+    "headphones": "<strong>Çift kanallı kulaklık</strong> kullanın, böylece beyninizdeki vuruş frekansını elde edebilirsiniz.",
+    "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağız ve burun yakınında tutun, sizi daha derin bir duruma yönlendirmeye çalışacağız."
   },
-  "volumeRatioDetail": "Frekans {binaural}% / Arka plan sesi {background}%",
+  "volumeRatioDetail": "Vuruş frekansı {binaural}% / Arka plan sesi {background}%",
   "labels": {
-    "breathRate": "Nefes alma hızı:",
+    "breathRate": "Nefes hızı:",
     "noiseLevel": "Arka plan gürültüsü:",
     "baseFreq": "Temel frekans:",
     "audioFile": "Arka plan ses dosyası:",
     "volumeRatio": "Ses seviyesi oranı:",
     "breathVisual": "Nefes görselleştirme",
     "realTimeData": "Gerçek zamanlı veri",
-    "systemConfig": "Çift kulak frekans ayarı",
+    "systemConfig": "Binaural vuruş ayarları",
     "audioSearch": "🎵 Arka plan müziği arama",
     "searchPlaceholder": "Müzik ara... (örneğin: piyano, deniz, meditasyon)",
     "noResults": "İlgili müzik bulunamadı",
-    "currentMusic": "Mevcut seçim",
+    "currentMusic": "Şu anki seçim",
     "deviceTest": "Cihaz testi",
-    "libraryTab": "Çevrimiçi ses kütüphanesi",
+    "libraryTab": "Çevrimiçi Ses Kütüphanesi",
     "localFileTab": "Yerel Dosya",
     "filePrivacyMsg": "Ses dosyası yalnızca yerel olarak işlenir, yüklenmez."
   },
@@ -30,7 +31,7 @@
     "stop": "🍂 Durdur"
   },
   "status": {
-    "monitoring": "🎙️ Nefes izleniyor... Lütfen doğal nefes alın",
+    "monitoring": "🎙️ Nefes izleme devam ediyor... Lütfen doğal nefes alın",
     "stopped": "İzleme durduruldu",
     "error": "❌ Başlatılamıyor:",
     "unsupported": "⚠️ Tarayıcınız mikrofon özelliğini desteklemiyor, nefes izleme kullanılamaz",
@@ -56,12 +57,12 @@
     "monitor": "Nefes İzleme"
   },
   "binauralDescriptions": {
-    "專注": "10Hz Alfa dalgası, odaklanma durumuna geçişe yardımcı olur, çalışma ve öğrenme için uygundur",
-    "冥想": "7Hz Teta dalgası, derin gevşemeye rehberlik eder, meditasyon için uygundur",
+    "專注": "10Hz Alfa dalgaları, odaklanma durumuna geçişe yardımcı olur, çalışma ve öğrenme için uygundur",
+    "冥想": "7Hz Teta dalgaları, derin gevşemeye rehberlik eder, meditasyon için uygundur",
     "舒曼共振": "7.83Hz Dünya'nın doğal frekansı, beden ve zihin enerjisini dengeler",
-    "睡眠": "3Hz Delta dalgası, hızlı uykuya dalmaya yardımcı olur",
-    "提神": "15Hz Beta dalgası, zihinsel canlılığı artırır",
-    "激發靈感": "40Hz Gama dalgası, yaratıcı düşünceyi geliştirir"
+    "睡眠": "3Hz Delta dalgaları, hızlı uykuya dalmaya yardımcı olur",
+    "提神": "15Hz Beta dalgaları, zihinsel canlılığı artırır",
+    "激發靈感": "40Hz Gama dalgaları, yaratıcı düşünceyi geliştirir"
   },
   "trust": {
     "free": "Tamamen ücretsiz, kayıt gerektirmez",
@@ -73,5 +74,30 @@
     "twitter": "Twitter'da Paylaş",
     "facebook": "Facebook'ta Paylaş",
     "line": "LINE'da Paylaş"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "items": [
+      {
+        "q": "Binaural vuruş nedir?",
+        "a": "Binaural vuruş, sol ve sağ kulaklar biraz farklı frekanslarda sesler duyduğunda, beynin üçüncü bir 'vuruş' frekansı oluşturmasıdır. Örneğin, sol kulak 200Hz, sağ kulak 210Hz duyduğunda, beyin 10Hz'lik bir vuruş frekansı algılar, bu da beyin dalgalarını belirli bir duruma yönlendirmeye yardımcı olabilir."
+      },
+      {
+        "q": "Neden kulaklık kullanmak zorunludur?",
+        "a": "Çift kulak vuruş frekansı prensibi, sol ve sağ kulağa farklı frekanslar dinleterek çalışır. Bu etkinin doğru bir şekilde oluşabilmesi için kulaklık kullanarak sol ve sağ ses kanallarının ayrılması sağlanmalıdır."
+      },
+      {
+        "q": "Nefes izleme nasıl çalışır?",
+        "a": "Sistem, mikrofon aracılığıyla nefes sesinizi algılar, nefes ritminizi analiz eder ve durumunuza göre vuruş frekansını otomatik olarak ayarlayarak hedef duruma daha hızlı ulaşmanıza yardımcı olur. Tüm ses verileri yalnızca yerel olarak işlenir, yüklenmez."
+      },
+      {
+        "q": "Bu araç gerçekten ücretsiz mi?",
+        "a": "Evet, Vuko tamamen ücretsiz ve açık kaynaklıdır. Gizli ücretler, abonelikler veya reklamlar yoktur. Tam kaynak kodunu GitHub'da inceleyebilirsiniz."
+      },
+      {
+        "q": "Verilerim güvende mi?",
+        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, herhangi bir ses verisi toplamaz, saklamaz veya iletmeyiz. Bu, yalnızca ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
+      }
+    ]
   }
 }

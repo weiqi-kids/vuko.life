@@ -1,9 +1,10 @@
 {
-  "title": "Con la voz, te encuentras con un mejor tú",
+  "title": "Con la voz, te encuentras con una mejor versión de ti mismo",
   "subtitle": "🤖 Instrucciones de uso",
   "description": "El sistema monitoreará en tiempo real tu estado de respiración y ajustará automáticamente la frecuencia binaural para guiarte a diferentes estados de conciencia:",
+  "seoKeywords": "Meditación con frecuencia binaural・Concentración・Sueño profundo・Guía de respiración en tiempo real",
   "instructions": {
-    "headphones": "Por favor, usa <strong>auriculares estéreo</strong> para lograr el efecto de frecuencia binaural en el cerebro.",
+    "headphones": "Por favor, utiliza <strong>auriculares estéreo</strong> para lograr el efecto de frecuencia binaural en el cerebro.",
     "microphone": "Si aceptas usar tu <strong>micrófono</strong>, colócalo cerca de tu boca y nariz, intentaremos guiarte a un estado más profundo."
   },
   "volumeRatioDetail": "Frecuencia binaural {binaural}% / Sonido de fondo {background}%",
@@ -21,7 +22,7 @@
     "noResults": "No se encontró música relacionada",
     "currentMusic": "Selección actual",
     "deviceTest": "Prueba de dispositivo",
-    "libraryTab": "Biblioteca de música en línea",
+    "libraryTab": "Biblioteca de sonidos en línea",
     "localFileTab": "Archivo local",
     "filePrivacyMsg": "El archivo de audio se procesa solo localmente y no se subirá."
   },
@@ -33,8 +34,8 @@
     "monitoring": "🎙️ Monitoreando la respiración... Por favor, respira naturalmente",
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
-    "unsupported": "⚠️ Su navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
-    "waiting": "Por detectar"
+    "unsupported": "⚠️ Tu navegador no soporta la función de micrófono, no se puede usar el monitoreo de respiración",
+    "waiting": "Pendiente de detección"
   },
   "units": {
     "perMin": "veces/min",
@@ -59,7 +60,7 @@
     "專注": "Onda Alpha de 10Hz, ayuda a entrar en un estado de concentración, adecuada para trabajar y estudiar",
     "冥想": "Onda Theta de 7Hz, guía hacia una relajación profunda, adecuada para meditación en silencio",
     "舒曼共振": "Frecuencia natural de la Tierra de 7.83Hz, equilibra la energía del cuerpo y la mente",
-    "睡眠": "Onda Delta de 3Hz, ayuda a conciliar el sueño rápidamente",
+    "睡眠": "Onda Delta de 3Hz, ayuda a dormir rápidamente",
     "提神": "Onda Beta de 15Hz, mejora la vitalidad mental",
     "激發靈感": "Onda Gamma de 40Hz, mejora el pensamiento creativo"
   },
@@ -73,5 +74,30 @@
     "twitter": "Compartir en Twitter",
     "facebook": "Compartir en Facebook",
     "line": "Compartir en LINE"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Qué es la frecuencia binaural?",
+        "a": "La frecuencia binaural ocurre cuando los oídos izquierdo y derecho escuchan sonidos de frecuencias ligeramente diferentes, el cerebro genera una tercera 'frecuencia de latido'. Por ejemplo, si el oído izquierdo escucha 200Hz y el derecho 210Hz, el cerebro percibirá una frecuencia de latido de 10Hz, lo que puede ayudar a guiar las ondas cerebrales a un estado específico."
+      },
+      {
+        "q": "¿Por qué es necesario usar auriculares?",
+        "a": "El principio de los latidos binaurales es que cada oído escuche una frecuencia diferente. Solo usando auriculares se puede asegurar la separación de los canales izquierdo y derecho, permitiendo que el cerebro genere correctamente el efecto de latido."
+      },
+      {
+        "q": "¿Cómo funciona la monitorización de la respiración?",
+        "a": "El sistema detecta el sonido de su respiración a través del micrófono, analiza el ritmo respiratorio y ajusta automáticamente los latidos según su estado para ayudarle a alcanzar más rápidamente el estado deseado. Todo el procesamiento de audio se realiza localmente y no se sube nada."
+      },
+      {
+        "q": "¿Esta herramienta es realmente gratuita?",
+        "a": "Sí, Vuko es completamente gratuito y de código abierto. No hay costos ocultos, suscripciones ni anuncios. Puede ver el código completo en GitHub."
+      },
+      {
+        "q": "¿Mis datos están seguros?",
+        "a": "Absolutamente seguros. Todo el procesamiento de audio se realiza en su navegador, no recopilamos, almacenamos ni transmitimos ningún dato de audio. Es una aplicación completamente del lado del cliente, sin servidores de backend."
+      }
+    ]
   }
 }

@@ -1,28 +1,29 @@
 {
   "title": "With sound, meet a better version of yourself",
   "subtitle": "🤖 Instructions",
-  "description": "The system will monitor your breathing in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
+  "seoKeywords": "Binaural Beat Meditation・Focus・Deep Sleep・Real-time Breathing Guidance",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats.",
+    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats in the brain.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
-  "volumeRatioDetail": "Binaural beats {binaural}% / Background sound {background}%",
+  "volumeRatioDetail": "Binaural Beats {binaural}% / Background Sound {background}%",
   "labels": {
-    "breathRate": "Breathing rate:",
-    "noiseLevel": "Background noise:",
-    "baseFreq": "Base frequency:",
-    "audioFile": "Background audio file:",
-    "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
+    "breathRate": "Breathing Rate:",
+    "noiseLevel": "Background Noise:",
+    "baseFreq": "Base Frequency:",
+    "audioFile": "Background Audio File:",
+    "volumeRatio": "Volume Ratio:",
+    "breathVisual": "Breathing Visualization",
+    "realTimeData": "Real-time Data",
+    "systemConfig": "Binaural Beat Settings",
+    "audioSearch": "🎵 Background Music Search",
     "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
     "noResults": "No related music found",
-    "currentMusic": "Current selection",
-    "deviceTest": "Device test",
-    "libraryTab": "Online sound library",
-    "localFileTab": "Local File",
+    "currentMusic": "Current Selection",
+    "deviceTest": "Device Test",
+    "libraryTab": "Online Sound Library",
+    "localFileTab": "Local Files",
     "filePrivacyMsg": "Audio files are processed locally and will not be uploaded."
   },
   "buttons": {
@@ -70,8 +71,33 @@
   },
   "share": {
     "title": "Share",
-    "twitter": "Share to Twitter",
-    "facebook": "Share to Facebook",
-    "line": "Share to LINE"
+    "twitter": "Share on Twitter",
+    "facebook": "Share on Facebook",
+    "line": "Share on LINE"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is binaural beats?",
+        "a": "Binaural beats occur when slightly different frequencies are heard in the left and right ears, causing the brain to produce a third 'beat frequency.' For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into a specific state."
+      },
+      {
+        "q": "Why must headphones be used?",
+        "a": "The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can the separation of the left and right channels be ensured, allowing the brain to correctly produce the beat effect."
+      },
+      {
+        "q": "How does breath monitoring work?",
+        "a": "The system detects your breathing sounds through a microphone, analyzes the breathing rhythm, and automatically adjusts the beats according to your state to help you reach the target state faster. All audio is processed locally and will not be uploaded."
+      },
+      {
+        "q": "Is this tool really free?",
+        "a": "Yes, Vuko is completely free and open source. There are no hidden fees, no subscriptions, and no ads. You can view the complete code on GitHub."
+      },
+      {
+        "q": "Is my data safe?",
+        "a": "Absolutely safe. All audio processing is done in your browser, and we do not collect, store, or transmit any audio data. This is a purely front-end application with no backend server."
+      }
+    ]
   }
 }
