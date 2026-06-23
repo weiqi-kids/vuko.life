@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "手盘空灵鼓",
+    "title": "手碟空灵鼓",
     "tag": [
-      "手盘",
+      "手碟",
       "空灵鼓",
       "handpan",
       "steel tongue drum",
       "放松"
     ],
-    "desc": "手盘与空灵鼓主旋律，圆润空灵的旋律，适合深度冥想与放松。",
+    "desc": "手碟与空灵鼓主旋律，圆润空灵的旋律，适合深度冥想与放松。",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "风",
+    "tag": [
+      "风",
+      "wind",
+      "自然",
+      "空灵",
+      "ambient"
+    ],
+    "desc": "以风声为主的空灵音景，悠远流动，适合放松、冥想与专注。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "风铃",
+    "tag": [
+      "风铃",
+      "wind chime",
+      "空灵",
+      "疗愈",
+      "relaxing"
+    ],
+    "desc": "清脆风铃声点缀的轻柔音景，空灵疗愈，适合放松与睡前舒缓。",
+    "embedding": []
   }
 ]

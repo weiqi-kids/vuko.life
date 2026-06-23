@@ -1,13 +1,13 @@
 [
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
-    "title": "bol chantant",
+    "title": "Bol chantant",
     "tag": [
+      "Bol chantant",
       "bol chantant",
-      "bol chantant",
+      "Méditation",
       "méditation",
-      "méditation",
-      "guérison"
+      "Guérison"
     ],
     "desc": "Avec le son du bol chantant comme mélodie principale, résonance douce, adapté pour la méditation et les paysages sonores de guérison.",
     "embedding": [
@@ -399,15 +399,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
-    "title": "guitare",
+    "title": "Guitare",
     "tag": [
+      "Guitare",
       "guitare",
-      "guitare",
-      "doux",
+      "Doux",
       "acoustique",
-      "relaxation"
+      "Détente"
     ],
-    "desc": "Guitare douce en principal, accompagnée de nappes sonores légères, adaptée pour la relaxation et la concentration.",
+    "desc": "Principalement une guitare douce, accompagnée de légers coussins sonores, adaptée à la détente et à la concentration.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -797,9 +797,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "terre",
+    "title": "Terre",
     "tag": [
-      "terre",
+      "Terre",
       "terre",
       "Nature",
       "Terre",
@@ -1201,7 +1201,7 @@
       "chakra du plexus solaire",
       "Énergie",
       "chakra",
-      "Confiance"
+      "Confiance en soi"
     ],
     "desc": "Thème du chakra du plexus solaire, symbolisant la vitalité, la volonté et le centre énergétique, avec une ambiance chaleureuse et lumineuse.",
     "embedding": [
@@ -1601,7 +1601,7 @@
       "paix",
       "Nature"
     ],
-    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons de l'environnement naturel pour favoriser la paix intérieure.",
+    "desc": "Simule la tranquillité et l'immensité des montagnes, utilisant les sons de l'environnement naturel pour favoriser la paix intérieure.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan et steel tongue drum",
+    "title": "Handpan et Steel Tongue Drum",
     "tag": [
       "Handpan",
-      "Steel tongue drum",
+      "Steel Tongue Drum",
       "handpan",
       "steel tongue drum",
-      "Relaxation"
+      "relaxation"
     ],
-    "desc": "Mélodie principale de handpan et steel tongue drum, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
+    "desc": "Mélodie principale de handpan et de steel tongue drum, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2393,8 +2393,8 @@
     "tag": [
       "Bois",
       "bois",
-      "Nature",
-      "Vitalité",
+      "nature",
+      "vitalité",
       "forêt"
     ],
     "desc": "Inspiré par l'élément bois, combinant le son du vent dans la forêt et les sons naturels des arbres, exprimant la vitalité.",
@@ -3189,7 +3189,7 @@
     "tag": [
       "Eau",
       "eau",
-      "Écoulement",
+      "Eau courante",
       "Flux",
       "Fraîcheur"
     ],
@@ -5974,7 +5974,7 @@
     "title": "chakra sacré",
     "tag": [
       "chakra sacré",
-      "sacral chakra",
+      "chakra sacré",
       "émotion",
       "chakra",
       "flux"
@@ -6372,10 +6372,10 @@
     "title": "métal",
     "tag": [
       "métal",
-      "metal",
+      "métal",
       "pureté",
       "clarté",
-      "clarity"
+      "clarté"
     ],
     "desc": "Thème de l'élément métal, avec un timbre clair et lumineux, créant une atmosphère pure et éthérée.",
     "embedding": [
@@ -7173,7 +7173,7 @@
       "diapason",
       "Éthéré"
     ],
-    "desc": "Sons éthérés du glockenspiel et du diapason, adaptés à la méditation, au nettoyage et à la concentration.",
+    "desc": "Les sons éthérés du glockenspiel et du diapason, parfaits pour la méditation, le nettoyage et la concentration.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -8367,7 +8367,7 @@
       "chakra",
       "lumière"
     ],
-    "desc": "Paysage sonore sur le thème du chakra couronne, symbolisant l'éveil spirituel, l'élévation spirituelle et la lumière.",
+    "desc": "Paysage sonore du chakra couronne, symbolisant l'éveil spirituel, l'élévation spirituelle et la lumière.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "vent",
+    "tag": [
+      "vent",
+      "wind",
+      "Nature",
+      "Éthéré",
+      "ambiant"
+    ],
+    "desc": "Un paysage sonore éthéré dominé par le bruit du vent, fluide et lointain, idéal pour la détente, la méditation et la concentration.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Carillon",
+    "tag": [
+      "Carillon",
+      "carillon éolien",
+      "Éthéré",
+      "Guérison",
+      "relaxant"
+    ],
+    "desc": "Un paysage sonore doux ponctué par le son cristallin des carillons, éthéré et guérisseur, idéal pour la détente et l'apaisement avant le coucher.",
+    "embedding": []
   }
 ]

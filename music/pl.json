@@ -5,9 +5,9 @@
     "tag": [
       "Misa śpiewająca",
       "miska śpiewająca",
-      "Medytacja",
       "medytacja",
-      "Uzdrawianie"
+      "medytacja",
+      "uzdrawianie"
     ],
     "desc": "Dźwięk misy śpiewającej jako główna melodia, łagodny rezonans, odpowiedni do medytacji i uzdrawiających pejzaży dźwiękowych.",
     "embedding": [
@@ -403,11 +403,11 @@
     "tag": [
       "Gitara",
       "gitara",
-      "Delikatny",
+      "delikatny",
       "akustyczny",
-      "Relaks"
+      "relaks"
     ],
-    "desc": "Delikatna gitara jako główny motyw, wsparta lekkimi podkładami dźwiękowymi, odpowiednia do relaksu i koncentracji.",
+    "desc": "Delikatna gitara jako główny motyw, wspierana przez łagodne podkłady dźwiękowe, odpowiednia do relaksu i koncentracji.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -805,7 +805,7 @@
       "Ziemia",
       "uziemienie"
     ],
-    "desc": "Zainspirowane elementem ziemi, łączy naturalne niskie częstotliwości i dźwięki otoczenia, podkreślając stabilność i spokój.",
+    "desc": "Zainspirowane elementem ziemi, łączy niskie częstotliwości natury i dźwięki otoczenia, podkreślając stabilność i spokój.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1601,7 +1601,7 @@
       "pokój",
       "Natura"
     ],
-    "desc": "Symuluje spokój i rozległość gór, podkreślając wewnętrzny spokój dźwiękami naturalnego otoczenia.",
+    "desc": "Symuluje spokój i rozległość gór, podkreślając spokój ducha dźwiękami naturalnego otoczenia.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -2397,7 +2397,7 @@
       "witalność",
       "las"
     ],
-    "desc": "Zainspirowane elementem drewna, połączone z dźwiękami wiatru w lesie i naturalnymi dźwiękami drzew, ukazuje witalność.",
+    "desc": "Zainspirowane elementem drewna, połączone z dźwiękami wiatru w lesie i naturalnymi dźwiękami drzew, ukazującymi witalność.",
     "embedding": [
       0.030727753415703773,
       0.07157044112682343,
@@ -3193,7 +3193,7 @@
       "Przepływ",
       "Świeżość"
     ],
-    "desc": "Dźwięki płynącej wody i strumienia tworzą świeży, płynny nastrój.",
+    "desc": "Dźwięki płynącej wody i strumienia tworzą świeży, płynący nastrój.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -3591,7 +3591,7 @@
       "czakra",
       "Podstawa"
     ],
-    "desc": "Temat czakry podstawy, niskie częstotliwości tworzą bezpieczne i stabilne pole energetyczne, idealne do medytacji.",
+    "desc": "Temat czakry podstawy, niskie częstotliwości tworzą bezpieczne i stabilne pole energetyczne, odpowiednie do medytacji.",
     "embedding": [
       -0.010757019743323326,
       0.07280676066875458,
@@ -3984,12 +3984,12 @@
     "title": "Ogień",
     "tag": [
       "Ogień",
-      "ogień",
+      "fire",
       "energia",
       "pasja",
       "element"
     ],
-    "desc": "Temat ognia jako elementu, wpleciony w dźwięki natury takie jak płomienie i ognisko, symbolizuje energię i transformację.",
+    "desc": "Temat ognia, wplecione dźwięki natury jak płomienie i ognisko, symbolizujące energię i transformację.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4381,8 +4381,8 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Główna melodia dźwięków otoczenia",
     "tag": [
-      "Dźwięki otoczenia",
-      "dźwięki natury",
+      "Dźwięki natury",
+      "nature sounds",
       "dźwięki otoczenia",
       "czysta natura",
       "ambient"
@@ -4780,10 +4780,10 @@
     "title": "Czakra trzeciego oka",
     "tag": [
       "Czakra trzeciego oka",
-      "czakra trzeciego oka",
+      "third eye chakra",
       "Duchowość",
       "czakra",
-      "intuicja"
+      "Intuicja"
     ],
     "desc": "Medytacyjny pejzaż dźwiękowy czakry trzeciego oka, podkreślający otwarcie duchowości i intuicji, odpowiedni do głębokiej świadomości.",
     "embedding": [
@@ -5577,11 +5577,11 @@
     "tag": [
       "Czakra gardła",
       "czakra gardła",
-      "komunikacja",
+      "Komunikacja",
       "czakra",
-      "wolność"
+      "Wolność"
     ],
-    "desc": "Pejzaż dźwiękowy czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
+    "desc": "Pejzaż dźwiękowy tematyczny czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -6377,7 +6377,7 @@
       "przejrzystość",
       "przejrzystość"
     ],
-    "desc": "Temat elementu metalu, dźwięk jest czysty i jasny, tworząc atmosferę czystości i przestrzeni.",
+    "desc": "Temat elementu metalu, dźwięk czysty i jasny, tworzy atmosferę czystości i przestrzeni.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -6775,7 +6775,7 @@
       "Harmonia",
       "relaksujący"
     ],
-    "desc": "Delikatna melodia fortepianowa z łagodnym akompaniamentem, przynosząca spokojne i komfortowe odczucia.",
+    "desc": "Delikatna melodia fortepianu z łagodnym akompaniamentem, przynosząca spokojne i komfortowe odczucia.",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -7165,7 +7165,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Kamerton dzwonkowy",
+    "title": "Kamerton",
     "tag": [
       "Dzwonki",
       "Kamerton",
@@ -7563,7 +7563,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flet i xiao",
+    "title": "Flet i Xiao",
     "tag": [
       "Flet",
       "Xiao",
@@ -7571,7 +7571,7 @@
       "xiao",
       "Płynność"
     ],
-    "desc": "Melodia fletu i xiao, daleka i płynna, tworząca eteryczny i głęboki nastrój.",
+    "desc": "Melodia fletu i Xiao, daleka i płynna, tworząca eteryczny i głęboki nastrój.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Wiatr",
+    "tag": [
+      "Wiatr",
+      "wind",
+      "Natura",
+      "Eteryczny",
+      "ambient"
+    ],
+    "desc": "Eteryczny pejzaż dźwiękowy z dominującym szumem wiatru, płynący i odległy, idealny do relaksu, medytacji i koncentracji.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Dzwonki wietrzne",
+    "tag": [
+      "Dzwonki wietrzne",
+      "wind chime",
+      "Eteryczny",
+      "Leczniczy",
+      "relaksujący"
+    ],
+    "desc": "Delikatny pejzaż dźwiękowy ozdobiony dźwiękiem dzwonków wietrznych, eteryczny i leczniczy, idealny do relaksu i odprężenia przed snem.",
+    "embedding": []
   }
 ]

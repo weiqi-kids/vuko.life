@@ -403,11 +403,11 @@
     "tag": [
       "Guitar",
       "guitar",
-      "Gentle",
+      "Soft",
       "acoustic",
       "Relaxation"
     ],
-    "desc": "Features gentle guitar as the main element, accompanied by soft sound pads, suitable for relaxation and focus.",
+    "desc": "Gentle guitar as the main, accompanied by soft sound pads, suitable for relaxation and focus.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -805,7 +805,7 @@
       "Earth",
       "grounding"
     ],
-    "desc": "Inspired by the earth element, it combines natural low frequencies and ambient sounds to emphasize a sense of stability and calmness.",
+    "desc": "Inspired by earth elements, blending natural low frequencies and ambient sounds, emphasizing stability and tranquility.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1203,7 +1203,7 @@
       "chakra",
       "Confidence"
     ],
-    "desc": "The theme of the solar plexus chakra symbolizes vitality, will, and energy center, with a warm and bright atmosphere.",
+    "desc": "Solar plexus chakra theme, symbolizing vitality, will, and energy center, with a warm and bright atmosphere.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "peace",
       "Nature"
     ],
-    "desc": "Simulates the tranquility and vastness of the mountains, using natural ambient sounds to foster inner peace.",
+    "desc": "Simulating the tranquility and vastness of the mountains, using natural ambient sounds to enhance inner peace.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -1999,7 +1999,7 @@
       "steel tongue drum",
       "Relaxation"
     ],
-    "desc": "The main melody of handpan and steel tongue drum, with a rounded and ethereal melody, suitable for deep meditation and relaxation.",
+    "desc": "The main melody of handpan and steel tongue drum, with a round and ethereal melody, suitable for deep meditation and relaxation.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -3989,7 +3989,7 @@
       "Passion",
       "element"
     ],
-    "desc": "The theme is based on the fire element, incorporating natural sound effects like flames and campfires, symbolizing energy and transformation.",
+    "desc": "Centered around the theme of the fire element, incorporating natural sound effects like flames and campfires, symbolizing energy and transformation.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -5975,9 +5975,9 @@
     "tag": [
       "Sacral Chakra",
       "sacral chakra",
-      "emotion",
+      "Emotion",
       "chakra",
-      "flow"
+      "Flow"
     ],
     "desc": "The soundscape of the sacral chakra symbolizes emotional flow, creativity, and pleasurable energy.",
     "embedding": [
@@ -6369,12 +6369,12 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "metal",
+    "title": "Metal",
     "tag": [
+      "Metal",
       "metal",
-      "metal",
-      "purity",
-      "clarity",
+      "Purity",
+      "Clarity",
       "clarity"
     ],
     "desc": "The theme of the metal element, with clear and bright tones, creates a pure and ethereal atmosphere.",
@@ -6767,15 +6767,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%8B%BC%E7%90%B4.mp3",
-    "title": "piano",
+    "title": "Piano",
     "tag": [
-      "piano",
+      "Piano",
       "piano",
       "Gentle",
       "Harmony",
-      "relaxing"
+      "Relaxing"
     ],
-    "desc": "Gentle piano melody, accompanied by soothing accompaniment, brings a peaceful and comfortable feeling.",
+    "desc": "A gentle piano melody, accompanied by soothing accompaniment, brings a peaceful and comfortable feeling.",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -7169,8 +7169,8 @@
     "tag": [
       "Glockenspiel",
       "Tuning Fork",
-      "glockenspiel",
-      "tuning fork",
+      "Glockenspiel",
+      "Tuning Fork",
       "Ethereal"
     ],
     "desc": "The ethereal sounds of the glockenspiel and tuning fork are suitable for meditation, cleansing, and focus.",
@@ -7567,8 +7567,8 @@
     "tag": [
       "Flute",
       "Xiao",
-      "flute",
-      "xiao",
+      "Flute",
+      "Xiao",
       "Flowing"
     ],
     "desc": "The main melodies of the flute and xiao flow distantly, creating an ethereal and profound state of mind.",
@@ -8367,7 +8367,7 @@
       "chakra",
       "Light"
     ],
-    "desc": "The crown chakra themed soundscape symbolizes spiritual awakening, spiritual elevation, and light.",
+    "desc": "Crown chakra themed soundscape, symbolizing spiritual awakening, spiritual elevation, and light.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Wind",
+    "tag": [
+      "Wind",
+      "wind",
+      "Nature",
+      "Ethereal",
+      "ambient"
+    ],
+    "desc": "An ethereal soundscape dominated by the sound of wind, flowing distantly, suitable for relaxation, meditation, and focus.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Wind Chime",
+    "tag": [
+      "Wind Chime",
+      "wind chime",
+      "Ethereal",
+      "Healing",
+      "relaxing"
+    ],
+    "desc": "A gentle soundscape adorned with crisp wind chime sounds, ethereal and healing, suitable for relaxation and pre-sleep soothing.",
+    "embedding": []
   }
 ]

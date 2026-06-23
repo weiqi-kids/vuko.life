@@ -4,9 +4,9 @@
     "title": "mangkuk nyanyi",
     "tag": [
       "mangkuk nyanyi",
-      "mangkuk nyanyi",
+      "singing bowl",
       "meditasi",
-      "meditasi",
+      "meditation",
       "penyembuhan"
     ],
     "desc": "Bunyi mangkuk nyanyi sebagai melodi utama, resonans lembut, sesuai untuk meditasi dan landskap bunyi penyembuhan.",
@@ -402,7 +402,7 @@
     "title": "gitar",
     "tag": [
       "gitar",
-      "gitar",
+      "guitar",
       "lembut",
       "akustik",
       "santai"
@@ -800,7 +800,7 @@
     "title": "tanah",
     "tag": [
       "tanah",
-      "bumi",
+      "earth",
       "Alam",
       "Bumi",
       "pembumian"
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan dan Steel Tongue Drum",
+    "title": "Handpan dan Drum Lidah Keluli",
     "tag": [
       "Handpan",
-      "Steel Tongue Drum",
+      "Drum Lidah Keluli",
       "handpan",
       "steel tongue drum",
       "relaksasi"
     ],
-    "desc": "Melodi utama handpan dan steel tongue drum, melodi yang bulat dan menenangkan, sesuai untuk meditasi mendalam dan relaksasi.",
+    "desc": "Melodi utama handpan dan drum lidah keluli, melodi yang bulat dan menenangkan, sesuai untuk meditasi mendalam dan relaksasi.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2397,7 +2397,7 @@
       "daya hidup",
       "hutan"
     ],
-    "desc": "Diilhamkan oleh elemen kayu, menggabungkan bunyi angin di antara pepohonan dan bunyi semula jadi pokok, menunjukkan daya hidup.",
+    "desc": "Diilhamkan oleh elemen kayu, menggabungkan bunyi angin di antara pokok dan bunyi semula jadi pokok, menunjukkan daya hidup.",
     "embedding": [
       0.030727753415703773,
       0.07157044112682343,
@@ -3189,7 +3189,7 @@
     "tag": [
       "Air",
       "air",
-      "Aliran air",
+      "Air mengalir",
       "Mengalir",
       "Segar"
     ],
@@ -3583,15 +3583,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B5%B7%E5%BA%95%E8%BC%AA.mp3",
-    "title": "Chakra akar",
+    "title": "Cakra akar",
     "tag": [
-      "Chakra akar",
-      "chakra akar",
+      "Cakra akar",
+      "cakra akar",
       "Stabil",
-      "chakra",
+      "cakra",
       "Asas"
     ],
-    "desc": "Tema chakra akar, resonans frekuensi rendah mewujudkan medan tenaga yang selamat dan stabil, sesuai untuk meditasi.",
+    "desc": "Tema cakra akar, resonans frekuensi rendah mewujudkan medan tenaga yang selamat dan stabil, sesuai untuk meditasi.",
     "embedding": [
       -0.010757019743323326,
       0.07280676066875458,
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Gendang shamanik frekuensi rendah",
+    "title": "Gendang frekuensi rendah shaman",
     "tag": [
-      "Gendang shamanik",
+      "Gendang shaman",
       "Gendang frekuensi rendah",
-      "gendang shamanik",
+      "gendang shaman",
       "gendang bingkai",
       "Pembumian"
     ],
-    "desc": "Ritma stabil gendang shamanik frekuensi rendah, membantu memasuki meditasi mendalam dan kesedaran tubuh.",
+    "desc": "Rentak stabil gendang frekuensi rendah shaman, membantu memasuki meditasi mendalam dan kesedaran tubuh.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Emas",
+    "title": "Logam",
     "tag": [
-      "Emas",
+      "Logam",
       "logam",
       "kesucian",
       "jernih",
       "kejernihan"
     ],
-    "desc": "Tema elemen logam, bunyi yang jernih dan terang, mencipta suasana kesucian dan ketenangan.",
+    "desc": "Tema elemen logam, bunyi yang jernih dan terang, mencipta suasana yang suci dan etereal.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -7173,7 +7173,7 @@
       "garpu tala",
       "Ethereal"
     ],
-    "desc": "Bunyi etereal glockenspiel dan garpu tala, sesuai untuk meditasi, pembersihan dan fokus.",
+    "desc": "Bunyi ethereal glockenspiel dan garpu tala, sesuai untuk meditasi, pembersihan dan fokus.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -7571,7 +7571,7 @@
       "xiao",
       "Mengalir"
     ],
-    "desc": "Melodi utama seruling dan xiao, mengalir jauh, mencipta suasana hati yang etereal dan mendalam.",
+    "desc": "Melodi utama seruling dan xiao, mengalir jauh, mencipta suasana hati yang ethereal dan mendalam.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -8367,7 +8367,7 @@
       "chakra",
       "Cahaya"
     ],
-    "desc": "Suasana bunyi bertema Chakra Mahkota, melambangkan kebangkitan rohani, peningkatan spiritual dan cahaya.",
+    "desc": "Suasana bunyi bertema chakra mahkota, melambangkan kebangkitan rohani, peningkatan spiritual dan cahaya.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Angin",
+    "tag": [
+      "Angin",
+      "wind",
+      "Alam",
+      "Ethereal",
+      "ambient"
+    ],
+    "desc": "Landskap bunyi etereal yang didominasi oleh bunyi angin, mengalir jauh, sesuai untuk bersantai, meditasi, dan fokus.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Loceng Angin",
+    "tag": [
+      "Loceng Angin",
+      "wind chime",
+      "Ethereal",
+      "Menyembuhkan",
+      "relaxing"
+    ],
+    "desc": "Landskap bunyi lembut yang dihiasi dengan bunyi loceng angin yang jernih, etereal dan menyembuhkan, sesuai untuk bersantai dan menenangkan sebelum tidur.",
+    "embedding": []
   }
 ]

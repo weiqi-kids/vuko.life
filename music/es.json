@@ -4,7 +4,7 @@
     "title": "Cuenco tibetano",
     "tag": [
       "Cuenco tibetano",
-      "cuenco tibetano",
+      "singing bowl",
       "Meditación",
       "meditación",
       "Sanación"
@@ -402,7 +402,7 @@
     "title": "Guitarra",
     "tag": [
       "Guitarra",
-      "guitarra",
+      "guitar",
       "Suave",
       "acústico",
       "Relajación"
@@ -800,7 +800,7 @@
     "title": "Tierra",
     "tag": [
       "Tierra",
-      "tierra",
+      "earth",
       "Naturaleza",
       "Tierra",
       "conexión a tierra"
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan y tambor de lengua de acero",
+    "title": "Tambor espiritual de mano",
     "tag": [
-      "Handpan",
-      "Tambor de lengua de acero",
+      "Tambor de mano",
+      "Tambor espiritual",
       "handpan",
-      "tambor de lengua de acero",
-      "Relajación"
+      "tambor de lengüeta de acero",
+      "relajación"
     ],
-    "desc": "Melodía principal de handpan y tambor de lengua de acero, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
+    "desc": "Melodía principal de tambor de mano y tambor espiritual, una melodía redonda y etérea, adecuada para meditación profunda y relajación.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2393,8 +2393,8 @@
     "tag": [
       "Madera",
       "madera",
-      "Naturaleza",
-      "Vitalidad",
+      "naturaleza",
+      "vitalidad",
       "bosque"
     ],
     "desc": "Inspirado en el elemento madera, combina el sonido del viento entre los árboles y los sonidos naturales de la madera, mostrando vitalidad.",
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodía principal de sonidos ambientales",
     "tag": [
-      "sonidos ambientales",
+      "Sonidos ambientales",
       "sonidos de la naturaleza",
       "sonido ambiental",
       "naturaleza pura",
       "ambiente"
     ],
-    "desc": "Paisaje sonoro de ambiente natural puro, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
+    "desc": "Paisaje sonoro de pura naturaleza, sin instrumentos ni voces humanas, adecuado para meditación, relajación y sanación natural.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuición"
     ],
-    "desc": "Paisaje sonoro de meditación del chakra del tercer ojo, enfatizando la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
+    "desc": "Paisaje sonoro de meditación del tercer ojo, enfatiza la apertura espiritual e intuitiva, adecuado para una profunda conciencia.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5581,7 +5581,7 @@
       "chakra",
       "Libertad"
     ],
-    "desc": "Paisaje sonoro temático del chakra de la garganta, creando un espacio para el flujo de energía suave y la expresión libre.",
+    "desc": "Paisaje sonoro temático del chakra de la garganta, crea un espacio para el flujo de energía suave y la expresión libre.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -6377,7 +6377,7 @@
       "Claridad",
       "claridad"
     ],
-    "desc": "Tema del elemento metal, con un tono claro y brillante que crea una atmósfera pura y etérea.",
+    "desc": "Tema del elemento metal, el timbre es claro y brillante, creando una atmósfera pura y etérea.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -7563,7 +7563,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Flauta y xiao",
+    "title": "Flauta y Xiao",
     "tag": [
       "Flauta",
       "Xiao",
@@ -7961,13 +7961,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Trueno",
+    "title": "trueno",
     "tag": [
-      "Trueno",
+      "trueno",
       "thunder",
-      "Naturaleza",
-      "Naturaleza",
-      "Energía"
+      "naturaleza",
+      "naturaleza",
+      "energía"
     ],
     "desc": "El sonido del trueno y la lluvia natural crea un paisaje sonoro lleno de energía y liberación.",
     "embedding": [
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Chakra corona",
+    "title": "chakra corona",
     "tag": [
-      "Chakra corona",
+      "chakra corona",
       "crown chakra",
-      "Despertar",
+      "despertar",
       "chakra",
-      "Luz"
+      "luz"
     ],
-    "desc": "Paisaje sonoro temático del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
+    "desc": "Paisaje sonoro del chakra corona, simboliza el despertar espiritual, la elevación espiritual y la luz.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "viento",
+    "tag": [
+      "viento",
+      "wind",
+      "Naturaleza",
+      "Etéreo",
+      "ambiental"
+    ],
+    "desc": "Un paisaje sonoro etéreo dominado por el sonido del viento, fluido y distante, adecuado para relajarse, meditar y concentrarse.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Campanillas de viento",
+    "tag": [
+      "Campanillas de viento",
+      "campanillas de viento",
+      "etéreo",
+      "sanador",
+      "relajante"
+    ],
+    "desc": "Un paisaje sonoro suave adornado con el sonido nítido de campanillas de viento, etéreo y sanador, adecuado para relajarse y aliviarse antes de dormir.",
+    "embedding": []
   }
 ]

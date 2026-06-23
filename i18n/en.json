@@ -1,27 +1,27 @@
 {
   "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 Instructions",
-  "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
-  "seoKeywords": "Breath-Adaptive Binaural Beats for Sleep, Focus & Meditation",
-  "seoDescription": "Vuko is a free, open-source binaural beats web app that adapts to your breathing in real time. No signup, no ads — meditation, focus, relaxation, and deep sleep, all generated locally in your browser.",
+  "subtitle": "🤖 User Guide",
+  "description": "The system will monitor your breathing in real-time and automatically adjust the beat frequency to guide you into different states of consciousness:",
+  "seoKeywords": "Real-time Breath Adaptive Binaural Beats | Meditation・Focus・Deep Sleep",
+  "seoDescription": "Vuko is a free and open-source web app for binaural beats that detects your breathing in real-time through the microphone and automatically adjusts the beat frequency. No registration, no ads, helping you meditate, focus, relax, and achieve deep sleep in your browser.",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats in the brain.",
+    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats in your brain.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
-  "volumeRatioDetail": "Binaural Beats {binaural}% / Background Sound {background}%",
+  "volumeRatioDetail": "Beat frequency {binaural}% / Background sound {background}%",
   "labels": {
-    "breathRate": "Breathing Rate:",
-    "noiseLevel": "Background Noise:",
-    "baseFreq": "Base Frequency:",
-    "audioFile": "Background Audio File:",
-    "volumeRatio": "Volume Ratio:",
-    "breathVisual": "Breathing Visualization",
-    "realTimeData": "Real-time Data",
-    "systemConfig": "Binaural Beat Settings",
+    "breathRate": "Breathing rate:",
+    "noiseLevel": "Background noise:",
+    "baseFreq": "Base frequency:",
+    "audioFile": "Background audio file:",
+    "volumeRatio": "Volume ratio:",
+    "breathVisual": "Breathing visualization",
+    "realTimeData": "Real-time data",
+    "systemConfig": "Binaural beat settings",
     "audioSearch": "🎵 Background Music Search",
     "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
     "noResults": "No related music found",
-    "currentMusic": "Current Selection",
+    "currentMusic": "Currently selected",
     "deviceTest": "Device Test",
     "libraryTab": "Online Sound Library",
     "localFileTab": "Local Files",
@@ -32,9 +32,9 @@
     "stop": "🍂 Stop"
   },
   "status": {
-    "monitoring": "🎙️ Monitoring breathing... Please breathe naturally",
-    "stopped": "Monitoring stopped",
-    "error": "❌ Unable to start:",
+    "monitoring": "🎙️ Monitoring Breathing... Please breathe naturally",
+    "stopped": "Monitoring Stopped",
+    "error": "❌ Unable to Start:",
     "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
     "waiting": "To be detected"
   },
@@ -53,8 +53,8 @@
     "Inspire Creativity"
   ],
   "sections": {
-    "instructions": "Instructions for Use",
-    "settings": "Function Settings",
+    "instructions": "Instructions",
+    "settings": "Feature Settings",
     "monitor": "Breathing Monitoring"
   },
   "binauralDescriptions": {
@@ -77,35 +77,35 @@
     "line": "Share on LINE"
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "FAQ",
     "items": [
       {
         "q": "What is binaural beats?",
-        "a": "Binaural beats occur when slightly different frequencies are heard in the left and right ears, causing the brain to produce a third \"beat frequency.\" For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into a specific state."
+        "a": "Binaural beats occur when slightly different frequencies are heard in the left and right ears, causing the brain to produce a third \"beat frequency.\" For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into specific states."
       },
       {
-        "q": "Which binaural beats app adjusts to your breathing?",
-        "a": "Vuko is a free, open-source web app that adapts binaural beats to your breathing in real time. With your permission it uses your device's microphone to detect your breathing rhythm and continuously retunes the beat frequency to match your state — no other browser-based binaural beats tool combines beats with live breath monitoring like this. Everything runs locally, and nothing is recorded or uploaded."
+        "q": "Which binaural beat app adjusts with breathing?",
+        "a": "Vuko is a free, open-source web app that adjusts binaural beats in real-time according to your breathing. With your consent, it detects your breathing rhythm through the device's microphone and continuously recalibrates the beats to your current state—currently, no other browser-based binaural beat tool combines beats with real-time breathing monitoring like this. All processing is done locally, with no recording or uploading."
       },
       {
-        "q": "Do I need a wearable or smartwatch for breath-adaptive beats?",
-        "a": "No. Vuko needs only stereo headphones and, optionally, your device's built-in microphone. There is no wearable, chest strap, or extra hardware — the microphone detects your breathing and the audio is analysed entirely in your browser, then discarded."
+        "q": "Do you need a wearable device or smartwatch to use breathing adaptive beats?",
+        "a": "No, you don't. Vuko only requires a pair of stereo headphones and an optional built-in device microphone. No wearable devices, chest straps, or additional hardware are needed—the microphone detects your breathing, and the audio is analyzed entirely within your browser and then discarded."
       },
       {
         "q": "Why must headphones be used?",
-        "a": "The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can the separation of the left and right channels be ensured, allowing the brain to correctly produce the beat effect."
+        "a": "The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can you ensure the separation of the left and right channels, allowing the brain to correctly produce the beat effect."
       },
       {
         "q": "How does breathing monitoring work?",
-        "a": "The system detects your breathing sounds through the microphone, analyzes the breathing rhythm, and automatically adjusts the beats according to your state to help you reach the target state faster. All audio is processed locally and will not be uploaded."
+        "a": "The system detects your breathing sounds through the microphone, analyzes the breathing rhythm, and automatically adjusts the beats according to your state to help you reach the target state faster. All audio is processed locally and not uploaded."
       },
       {
         "q": "Is this tool really free?",
-        "a": "Yes, Vuko is completely free and open source. There are no hidden fees, no subscriptions, and no ads. You can view the full code on GitHub."
+        "a": "Yes, Vuko is completely free and open-source. There are no hidden fees, no subscriptions, and no ads. You can view the full code on GitHub."
       },
       {
         "q": "Is my data safe?",
-        "a": "Absolutely safe. All audio processing is done in your browser, and we do not collect, store, or transmit any audio data. This is a purely front-end application with no backend server."
+        "a": "Absolutely safe. All audio processing is done within your browser, and we do not collect, store, or transmit any audio data. This is a purely front-end application with no backend server."
       }
     ]
   }

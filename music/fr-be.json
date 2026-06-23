@@ -1,15 +1,15 @@
 [
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%8C%E7%BC%BD.mp3",
-    "title": "bol chantant",
+    "title": "Bol chantant",
     "tag": [
+      "Bol chantant",
       "bol chantant",
-      "bol chantant",
+      "Méditation",
       "méditation",
-      "méditation",
-      "guérison"
+      "Guérison"
     ],
-    "desc": "Avec le son du bol chantant comme mélodie principale, résonance douce, adapté pour les paysages sonores de méditation et de guérison.",
+    "desc": "Avec le son du bol chantant comme mélodie principale, résonance douce, adapté pour la méditation et les paysages sonores de guérison.",
     "embedding": [
       0.06329084187746048,
       0.050360459834337234,
@@ -399,15 +399,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%90%89%E4%BB%96.mp3",
-    "title": "guitare",
+    "title": "Guitare",
     "tag": [
+      "Guitare",
       "guitare",
-      "guitare",
-      "doux",
+      "Doux",
       "acoustique",
-      "relaxation"
+      "Détente"
     ],
-    "desc": "Principalement une guitare douce, accompagnée de légers coussins sonores, adaptée pour la relaxation et la concentration.",
+    "desc": "Principalement de la guitare douce, accompagnée de légers coussins sonores, adapté pour la détente et la concentration.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -797,9 +797,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "terre",
+    "title": "Terre",
     "tag": [
-      "terre",
+      "Terre",
       "terre",
       "Nature",
       "Terre",
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan et tambour à languettes",
+    "title": "Handpan et Steel Tongue Drum",
     "tag": [
       "Handpan",
-      "Tambour à languettes",
+      "Steel Tongue Drum",
       "handpan",
-      "tambour à languettes en acier",
-      "détente"
+      "steel tongue drum",
+      "relaxation"
     ],
-    "desc": "Mélodie principale de handpan et de tambour à languettes, mélodie ronde et éthérée, idéale pour la méditation profonde et la détente.",
+    "desc": "Mélodie principale de handpan et de steel tongue drum, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2397,7 +2397,7 @@
       "vitalité",
       "forêt"
     ],
-    "desc": "Inspiré par l'élément bois, combiné avec le son naturel du vent dans la forêt et des arbres, exprimant la vitalité.",
+    "desc": "Inspiré par l'élément bois, combinant le son du vent dans la forêt et les sons naturels des arbres, exprimant la vitalité.",
     "embedding": [
       0.030727753415703773,
       0.07157044112682343,
@@ -2795,7 +2795,7 @@
       "Nature",
       "Stabilité"
     ],
-    "desc": "Paysage sonore de la forêt, avec chants d'oiseaux et bruissement des feuilles, créant une atmosphère naturelle et stable.",
+    "desc": "Paysage sonore de la forêt, chant d'oiseaux et bruissement des feuilles, créant une atmosphère naturelle et stable.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3189,11 +3189,11 @@
     "tag": [
       "Eau",
       "eau",
-      "Eau courante",
+      "Écoulement",
       "Flux",
       "Fraîcheur"
     ],
-    "desc": "Avec le flux de l'eau et le son du ruisseau comme éléments principaux, cela présente un état d'esprit frais et fluide.",
+    "desc": "Principalement composé de sons d'eau et de ruisseaux, présentant un état d'esprit frais et fluide.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -3984,7 +3984,7 @@
     "title": "Feu",
     "tag": [
       "Feu",
-      "feu",
+      "fire",
       "énergie",
       "passion",
       "élément"
@@ -4382,12 +4382,12 @@
     "title": "Mélodie principale des sons de l'environnement",
     "tag": [
       "sons de la nature",
-      "sons de la nature",
+      "nature sounds",
       "sons ambiants",
-      "nature pure",
+      "pur naturel",
       "ambiant"
     ],
-    "desc": "Paysage sonore purement naturel, sans aucun instrument ou voix humaine, idéal pour la méditation, la relaxation et la guérison naturelle.",
+    "desc": "Paysage sonore purement naturel, sans instruments ni voix humaines, idéal pour la méditation, la relaxation et la guérison naturelle.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4780,12 +4780,12 @@
     "title": "Chakra du troisième œil",
     "tag": [
       "Chakra du troisième œil",
-      "chakra du troisième œil",
-      "Spiritualité",
+      "third eye chakra",
+      "spiritualité",
       "chakra",
-      "Intuition"
+      "intuition"
     ],
-    "desc": "Paysage sonore de méditation du troisième œil, mettant l'accent sur l'ouverture spirituelle et l'intuition, adapté à une prise de conscience profonde.",
+    "desc": "Paysage sonore de méditation du troisième œil, mettant l'accent sur l'ouverture de la spiritualité et de l'intuition, adapté à une prise de conscience profonde.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5175,10 +5175,10 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Tambour chamanique basse fréquence",
+    "title": "tambour chamanique basse fréquence",
     "tag": [
-      "Tambour chamanique",
-      "Tambour basse fréquence",
+      "tambour chamanique",
+      "tambour basse fréquence",
       "tambour chamanique",
       "tambour sur cadre",
       "ancrage"
@@ -5573,13 +5573,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "Chakra de la gorge",
+    "title": "chakra de la gorge",
     "tag": [
-      "Chakra de la gorge",
       "chakra de la gorge",
-      "Communication",
+      "chakra de la gorge",
+      "communication",
       "chakra",
-      "Liberté"
+      "liberté"
     ],
     "desc": "Paysage sonore sur le thème du chakra de la gorge, créant un espace pour un flux d'énergie fluide et une expression libre.",
     "embedding": [
@@ -6369,9 +6369,9 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "or",
+    "title": "métal",
     "tag": [
-      "or",
+      "métal",
       "métal",
       "pureté",
       "clarté",
@@ -7964,7 +7964,7 @@
     "title": "tonnerre",
     "tag": [
       "tonnerre",
-      "tonnerre",
+      "thunder",
       "nature",
       "nature",
       "énergie"
@@ -8362,7 +8362,7 @@
     "title": "chakra couronne",
     "tag": [
       "chakra couronne",
-      "chakra couronne",
+      "crown chakra",
       "éveil",
       "chakra",
       "lumière"
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "vent",
+    "tag": [
+      "vent",
+      "wind",
+      "Nature",
+      "Éthéré",
+      "ambiant"
+    ],
+    "desc": "Un paysage sonore éthéré dominé par le bruit du vent, fluide et lointain, idéal pour la détente, la méditation et la concentration.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Carillon",
+    "tag": [
+      "Carillon",
+      "carillon éolien",
+      "Éthéré",
+      "Guérison",
+      "relaxant"
+    ],
+    "desc": "Un paysage sonore doux ponctué par le son cristallin des carillons, éthéré et guérisseur, idéal pour la détente et l'apaisement avant le coucher.",
+    "embedding": []
   }
 ]

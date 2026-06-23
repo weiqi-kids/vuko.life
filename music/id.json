@@ -9,7 +9,7 @@
       "meditation",
       "Penyembuhan"
     ],
-    "desc": "Dengan suara mangkok bernyanyi sebagai melodi utama, resonansi lembut, cocok untuk meditasi dan lanskap suara penyembuhan.",
+    "desc": "Dengan suara mangkok bernyanyi sebagai melodi utama, resonansi lembut, cocok untuk meditasi dan pemandangan suara penyembuhan.",
     "embedding": [
       0.06329084187746048,
       0.050360459834337234,
@@ -404,10 +404,10 @@
       "Gitar",
       "guitar",
       "Lembut",
-      "acoustic",
+      "akustik",
       "Relaksasi"
     ],
-    "desc": "Didominasi oleh gitar lembut, dilengkapi dengan bantalan suara ringan, cocok untuk relaksasi dan fokus.",
+    "desc": "Gitar lembut sebagai utama, dilengkapi dengan bantalan suara lembut, cocok untuk relaksasi dan fokus.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -805,7 +805,7 @@
       "Bumi",
       "grounding"
     ],
-    "desc": "Terinspirasi oleh elemen bumi, menggabungkan frekuensi rendah alami dan suara lingkungan, menekankan rasa stabil dan tenang.",
+    "desc": "Terinspirasi oleh elemen bumi, menggabungkan frekuensi rendah alami dan suara lingkungan, menekankan stabilitas dan ketenangan.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1201,9 +1201,9 @@
       "solar plexus chakra",
       "Energi",
       "chakra",
-      "Kepercayaan Diri"
+      "Kepercayaan diri"
     ],
-    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kemauan, dan pusat energi, dengan suasana hangat dan cerah.",
+    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kemauan, dan pusat energi, suasana hangat dan cerah.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1597,11 +1597,11 @@
     "tag": [
       "Gunung",
       "mountain",
-      "Ketenteraman",
+      "Ketenangan",
       "damai",
       "Alam"
     ],
-    "desc": "Mensimulasikan ketenangan dan keluasan di pegunungan, dengan suara lingkungan alami yang mendukung ketenangan jiwa.",
+    "desc": "Mensimulasikan ketenangan dan keluasan di pegunungan, menggunakan suara lingkungan alami untuk mendukung ketenangan batin.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -2795,7 +2795,7 @@
       "Alam",
       "Stabil"
     ],
-    "desc": "Suara hutan, kicauan burung dan desiran daun, menciptakan suasana alam yang stabil.",
+    "desc": "Suara hutan, kicauan burung dan gemerisik daun, menciptakan suasana alam yang stabil.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3985,8 +3985,8 @@
     "tag": [
       "Api",
       "api",
-      "Energi",
-      "Antusiasme",
+      "energi",
+      "semangat",
       "elemen"
     ],
     "desc": "Dengan tema elemen api, menggabungkan efek suara alam seperti api dan api unggun, melambangkan energi dan transformasi.",
@@ -4383,11 +4383,11 @@
     "tag": [
       "Suara Lingkungan",
       "suara alam",
-      "Suara Lingkungan",
-      "Alam Murni",
+      "suara lingkungan",
+      "murni alami",
       "ambien"
     ],
-    "desc": "Pemandangan suara lingkungan alam murni, tanpa alat musik atau suara manusia, cocok untuk meditasi, relaksasi, dan penyembuhan alami.",
+    "desc": "Lanskap suara lingkungan murni tanpa instrumen atau vokal, cocok untuk meditasi, relaksasi, dan penyembuhan alami.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuisi"
     ],
-    "desc": "Suasana meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
+    "desc": "Pemandangan meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5183,7 +5183,7 @@
       "drum bingkai",
       "Pembumian"
     ],
-    "desc": "Ritme stabil drum shamanik frekuensi rendah, membantu masuk ke meditasi mendalam dan kesadaran tubuh.",
+    "desc": "Ritme stabil drum shamanik frekuensi rendah, membantu masuk ke dalam meditasi mendalam dan kesadaran tubuh.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -5581,7 +5581,7 @@
       "chakra",
       "Kebebasan"
     ],
-    "desc": "Suasana tema chakra tenggorokan, menciptakan ruang untuk aliran energi yang lancar dan ekspresi bebas.",
+    "desc": "Pemandangan suara bertema chakra tenggorokan, menciptakan ruang untuk aliran energi yang lancar dan ekspresi bebas.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Chakra Sakral",
+    "title": "Cakra Sakral",
     "tag": [
-      "Chakra Sakral",
-      "chakra sakral",
-      "emosi",
-      "chakra",
-      "mengalir"
+      "Cakra Sakral",
+      "sacral chakra",
+      "Emosi",
+      "cakra",
+      "Mengalir"
     ],
-    "desc": "Suasana suara chakra sakral, melambangkan aliran emosi, kreativitas, dan energi kesenangan.",
+    "desc": "Suasana cakra sakral, melambangkan aliran emosi, kreativitas, dan energi kesenangan.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6369,13 +6369,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Emas",
+    "title": "Logam",
     "tag": [
-      "Emas",
-      "logam",
-      "kemurnian",
-      "kejernihan",
-      "kejernihan"
+      "Logam",
+      "metal",
+      "Kemurnian",
+      "Kejernihan",
+      "clarity"
     ],
     "desc": "Tema elemen logam, dengan suara yang jernih dan terang, menciptakan suasana yang murni dan etereal.",
     "embedding": [
@@ -6772,8 +6772,8 @@
       "Piano",
       "piano",
       "Lembut",
-      "Harmoni",
-      "santai"
+      "Harmonis",
+      "Santai"
     ],
     "desc": "Melodi utama piano yang lembut, dipadukan dengan iringan yang menenangkan, memberikan perasaan damai dan nyaman.",
     "embedding": [
@@ -7169,8 +7169,8 @@
     "tag": [
       "Glockenspiel",
       "Garpu Tala",
-      "glockenspiel",
-      "garpu tala",
+      "Glockenspiel",
+      "Garpu Tala",
       "Ethereal"
     ],
     "desc": "Suara etereal dari glockenspiel dan garpu tala, cocok untuk meditasi, pembersihan, dan fokus.",
@@ -7567,8 +7567,8 @@
     "tag": [
       "Seruling",
       "Xiao",
-      "seruling",
-      "xiao",
+      "Seruling",
+      "Xiao",
       "Mengalir"
     ],
     "desc": "Melodi utama seruling dan xiao, mengalir jauh, menciptakan suasana hati yang etereal dan mendalam.",
@@ -7969,7 +7969,7 @@
       "Alam",
       "Energi"
     ],
-    "desc": "Suara guntur dan hujan alami menciptakan lanskap suara yang penuh energi dan pelepasan.",
+    "desc": "Suara guntur dan hujan alami menciptakan suasana lingkungan yang penuh energi dan pelepasan.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8364,10 +8364,10 @@
       "Cakra Mahkota",
       "crown chakra",
       "Kebangkitan",
-      "cakra",
+      "chakra",
       "Cahaya"
     ],
-    "desc": "Lanskap suara bertema cakra mahkota, melambangkan kebangkitan spiritual, peningkatan spiritual, dan cahaya.",
+    "desc": "Suasana tema cakra mahkota, melambangkan kebangkitan spiritual, peningkatan spiritual, dan cahaya.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Angin",
+    "tag": [
+      "Angin",
+      "wind",
+      "Alam",
+      "Ethereal",
+      "ambient"
+    ],
+    "desc": "Lanskap suara etereal yang didominasi oleh suara angin, mengalir jauh, cocok untuk relaksasi, meditasi, dan fokus.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Lonceng Angin",
+    "tag": [
+      "Lonceng Angin",
+      "wind chime",
+      "Ethereal",
+      "Menyembuhkan",
+      "relaxing"
+    ],
+    "desc": "Lanskap suara lembut yang dihiasi dengan suara lonceng angin yang jernih, etereal dan menyembuhkan, cocok untuk relaksasi dan menenangkan sebelum tidur.",
+    "embedding": []
   }
 ]

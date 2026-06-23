@@ -407,7 +407,7 @@
       "akustisch",
       "Entspannung"
     ],
-    "desc": "Sanfte Gitarre im Vordergrund, begleitet von weichen Klangteppichen, geeignet für Entspannung und Konzentration.",
+    "desc": "Sanfte Gitarre im Vordergrund, ergänzt durch weiche Klangteppiche, geeignet für Entspannung und Konzentration.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -1203,7 +1203,7 @@
       "Chakra",
       "Selbstvertrauen"
     ],
-    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, warme und helle Atmosphäre.",
+    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "Frieden",
       "Natur"
     ],
-    "desc": "Simuliert die Ruhe und Weite in den Bergen, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
+    "desc": "Simuliert die Ruhe und Weite der Berge, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -5971,15 +5971,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%87%8D%E8%BC%AA.mp3",
-    "title": "Sakralchakra",
+    "title": "Nabelchakra",
     "tag": [
-      "Sakralchakra",
-      "sacral chakra",
+      "Nabelchakra",
+      "sakrales Chakra",
       "Emotionen",
       "Chakra",
       "Fluss"
     ],
-    "desc": "Sakralchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
+    "desc": "Nabelchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6372,10 +6372,10 @@
     "title": "Metall",
     "tag": [
       "Metall",
-      "metal",
+      "Metall",
       "Reinheit",
       "Klarheit",
-      "clarity"
+      "Klarheit"
     ],
     "desc": "Thema des Metallelements, der Klang ist klar und hell und schafft eine reine, ätherische Atmosphäre.",
     "embedding": [
@@ -6770,12 +6770,12 @@
     "title": "Klavier",
     "tag": [
       "Klavier",
-      "piano",
+      "Klavier",
       "Sanftheit",
       "Harmonie",
       "entspannend"
     ],
-    "desc": "Sanfte Klaviermelodie, begleitet von beruhigenden Klängen, vermittelt ein Gefühl von Frieden und Komfort.",
+    "desc": "Sanfte Klaviermelodie, begleitet von beruhigender Begleitung, vermittelt ein friedliches und angenehmes Gefühl.",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -7569,9 +7569,9 @@
       "Xiao",
       "Flöte",
       "Xiao",
-      "Fließen"
+      "Fließend"
     ],
-    "desc": "Die Melodie von Flöte und Xiao ist weitreichend und fließend, schafft eine ätherische und tiefgründige Stimmung.",
+    "desc": "Die Hauptmelodie von Flöte und Xiao ist weitreichend und fließend und schafft eine ätherische und tiefgründige Stimmung.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Wind",
+    "tag": [
+      "Wind",
+      "wind",
+      "Natur",
+      "Luftig",
+      "ambient"
+    ],
+    "desc": "Ein luftiges Klangbild, das von Windgeräuschen dominiert wird, fließt weit und ist ideal zum Entspannen, Meditieren und Konzentrieren.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Windspiel",
+    "tag": [
+      "Windspiel",
+      "wind chime",
+      "luftig",
+      "heilend",
+      "entspannend"
+    ],
+    "desc": "Ein sanftes Klangbild, das von klaren Windspielgeräuschen akzentuiert wird, ist luftig und heilend, ideal zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
+    "embedding": []
   }
 ]

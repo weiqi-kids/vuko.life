@@ -1,30 +1,31 @@
 {
   "title": "Avec la voix, rencontre une meilleure version de toi-même",
   "subtitle": "🤖 Mode d'emploi",
-  "description": "Le système surveille en temps réel votre état respiratoire et ajuste automatiquement la fréquence binaurale pour vous guider vers différents états de conscience :",
-  "seoKeywords": "Méditation binaurale・Concentration・Sommeil profond・Guidage respiratoire en temps réel",
+  "description": "Le système surveille en temps réel votre état respiratoire et ajuste automatiquement la fréquence des battements pour vous guider vers différents états de conscience :",
+  "seoKeywords": "Fréquence binaurale adaptative en temps réel à la respiration｜Méditation・Concentration・Sommeil profond",
+  "seoDescription": "Vuko est une application web gratuite et open source de battements binauraux qui détecte votre respiration en temps réel via le microphone et ajuste automatiquement la fréquence des battements. Pas d'inscription, pas de publicité, elle vous aide à méditer, vous concentrer, vous détendre et dormir profondément dans le navigateur.",
   "instructions": {
-    "headphones": "Veuillez utiliser des <strong>écouteurs stéréo</strong> pour obtenir l'effet de fréquence binaurale dans le cerveau.",
+    "headphones": "Veuillez utiliser un <strong>casque stéréo</strong> pour obtenir l'effet des battements dans le cerveau.",
     "microphone": "Si vous acceptez d'utiliser votre <strong>microphone</strong>, veuillez le placer près de votre bouche et de votre nez, nous essaierons de vous guider vers un état plus profond."
   },
-  "volumeRatioDetail": "Fréquence binaurale {binaural}% / Son de fond {background}%",
+  "volumeRatioDetail": "Fréquence des battements {binaural}% / Bruit de fond {background}%",
   "labels": {
     "breathRate": "Taux de respiration :",
     "noiseLevel": "Bruit de fond :",
     "baseFreq": "Fréquence fondamentale :",
     "audioFile": "Fichier audio de fond :",
-    "volumeRatio": "Proportion de volume :",
+    "volumeRatio": "Proportion du volume :",
     "breathVisual": "Visualisation de la respiration",
     "realTimeData": "Données en temps réel",
-    "systemConfig": "Paramètres de fréquence binaurale",
+    "systemConfig": "Paramètres des battements binauraux",
     "audioSearch": "🎵 Recherche de musique de fond",
-    "searchPlaceholder": "Recherche de musique... (par exemple : piano, mer, méditation)",
-    "noResults": "Aucune musique correspondante trouvée",
+    "searchPlaceholder": "Rechercher de la musique... (par exemple : piano, mer, méditation)",
+    "noResults": "Musique non trouvée",
     "currentMusic": "Sélection actuelle",
-    "deviceTest": "Test de l'équipement",
-    "libraryTab": "Bibliothèque en ligne",
+    "deviceTest": "Test d'équipement",
+    "libraryTab": "Bibliothèque audio en ligne",
     "localFileTab": "Fichier local",
-    "filePrivacyMsg": "Les fichiers audio sont traités uniquement en local et ne seront pas téléchargés."
+    "filePrivacyMsg": "Les fichiers audio sont traités uniquement sur cet appareil et ne seront pas téléchargés."
   },
   "buttons": {
     "start": "🎶 Commencer",
@@ -49,7 +50,7 @@
     "Résonance de Schumann",
     "Sommeil",
     "Revitalisant",
-    "Inspiration"
+    "Inspirer"
   ],
   "sections": {
     "instructions": "Mode d'emploi",
@@ -57,8 +58,8 @@
     "monitor": "Surveillance de la respiration"
   },
   "binauralDescriptions": {
-    "專注": "Onde Alpha à 10Hz, aide à entrer dans un état de concentration, adapté pour le travail et l'étude",
-    "冥想": "Onde Thêta à 7Hz, guide vers une relaxation profonde, adapté pour la méditation assise",
+    "專注": "Onde Alpha à 10Hz, aide à entrer dans un état de concentration, adapté au travail et à l'étude",
+    "冥想": "Onde Thêta à 7Hz, guide vers une relaxation profonde, adapté à la méditation",
     "舒曼共振": "Fréquence naturelle de la Terre à 7,83Hz, équilibre l'énergie du corps et de l'esprit",
     "睡眠": "Onde Delta à 3Hz, aide à s'endormir rapidement",
     "提神": "Onde Bêta à 15Hz, améliore la vitalité mentale",
@@ -67,7 +68,7 @@
   "trust": {
     "free": "Entièrement gratuit, pas besoin d'inscription",
     "openSource": "Projet open source",
-    "privacy": "L'audio est traité uniquement en local, pas de téléchargement sur le serveur"
+    "privacy": "L'audio est traité localement, pas de téléchargement sur le serveur"
   },
   "share": {
     "title": "Partager",
@@ -76,23 +77,31 @@
     "line": "Partager sur LINE"
   },
   "faq": {
-    "title": "Questions fréquentes",
+    "title": "FAQ",
     "items": [
       {
         "q": "Qu'est-ce que la fréquence binaurale ?",
-        "a": "La fréquence binaurale se produit lorsque les oreilles gauche et droite entendent des sons de fréquences légèrement différentes, le cerveau génère une troisième « fréquence de battement ». Par exemple, l'oreille gauche entend 200Hz, l'oreille droite 210Hz, le cerveau perçoit une fréquence de battement de 10Hz, ce qui peut aider à guider les ondes cérébrales vers un état spécifique."
+        "a": "La fréquence binaurale se produit lorsque les oreilles gauche et droite entendent des sons de fréquences légèrement différentes, le cerveau génère une troisième « fréquence de battement ». Par exemple, l'oreille gauche entend 200Hz et l'oreille droite 210Hz, le cerveau perçoit une fréquence de battement de 10Hz, ce qui peut aider à guider les ondes cérébrales vers un état spécifique."
       },
       {
-        "q": "Pourquoi est-il nécessaire d'utiliser des écouteurs ?",
-        "a": "Le principe des battements binauraux est que chaque oreille entend une fréquence différente. L'utilisation d'un casque est nécessaire pour assurer la séparation des canaux gauche et droit, permettant ainsi au cerveau de produire correctement l'effet de battement."
+        "q": "Quelle application de battement binaural s'ajuste avec la respiration ?",
+        "a": "Vuko est une application web gratuite et open-source qui ajuste en temps réel le battement binaural en fonction de votre respiration. Avec votre consentement, elle détecte le rythme de votre respiration via le microphone de l'appareil et ajuste continuellement le battement à votre état actuel. Actuellement, aucun autre outil de battement binaural sur navigateur ne combine battement et surveillance respiratoire en temps réel de cette manière. Tous les calculs sont effectués localement, sans enregistrement ni téléchargement."
+      },
+      {
+        "q": "Faut-il un appareil portable ou une montre intelligente pour utiliser le battement adaptatif à la respiration ?",
+        "a": "Non, Vuko nécessite seulement un casque stéréo et, éventuellement, le microphone intégré de l'appareil. Aucun appareil portable, ceinture thoracique ou matériel supplémentaire n'est nécessaire. Le microphone détecte votre respiration, et l'audio est analysé et supprimé directement dans votre navigateur."
+      },
+      {
+        "q": "Pourquoi faut-il absolument utiliser un casque ?",
+        "a": "Le principe du battement binaural est que chaque oreille entend une fréquence différente. Seul un casque peut garantir la séparation des canaux gauche et droit, permettant au cerveau de générer correctement l'effet de battement."
       },
       {
         "q": "Comment fonctionne la surveillance de la respiration ?",
-        "a": "Le système détecte votre respiration à l'aide d'un microphone, analyse le rythme respiratoire et ajuste automatiquement les battements en fonction de votre état pour vous aider à atteindre plus rapidement l'état souhaité. Tous les traitements audio sont effectués localement et ne sont pas téléchargés."
+        "a": "Le système détecte le son de votre respiration via le microphone, analyse le rythme respiratoire et ajuste automatiquement le battement en fonction de votre état pour vous aider à atteindre plus rapidement l'état souhaité. Tous les traitements audio sont effectués localement et ne sont pas téléchargés."
       },
       {
         "q": "Cet outil est-il vraiment gratuit ?",
-        "a": "Oui, Vuko est entièrement gratuit et open source. Il n'y a pas de frais cachés, pas d'abonnement, pas de publicité. Vous pouvez consulter le code source complet sur GitHub."
+        "a": "Oui, Vuko est entièrement gratuit et open-source. Il n'y a pas de frais cachés, pas d'abonnement, pas de publicité. Vous pouvez consulter le code source complet sur GitHub."
       },
       {
         "q": "Mes données sont-elles en sécurité ?",

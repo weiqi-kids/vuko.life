@@ -9,7 +9,7 @@
       "meditation",
       "Uponyaji"
     ],
-    "desc": "Sauti ya singing bowl kama melodi kuu, inatoa mwangwi wa upole, inafaa kwa kutafakari na mandhari ya uponyaji.",
+    "desc": "Sauti ya Singing Bowl kama melodi kuu, inatoa mwangwi wa upole, inafaa kwa kutafakari na mandhari ya sauti ya uponyaji.",
     "embedding": [
       0.06329084187746048,
       0.050360459834337234,
@@ -403,11 +403,11 @@
     "tag": [
       "Gitaa",
       "guitar",
-      "Polepole",
+      "Laini",
       "acoustic",
       "Kupumzika"
     ],
-    "desc": "Gitaa la upole kama kuu, likisaidiwa na sauti laini, linafaa kwa kupumzika na kuzingatia.",
+    "desc": "Gitaa la upole kama msingi, likisaidiwa na sauti laini, linafaa kwa kupumzika na kuzingatia.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -797,15 +797,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%9C%9F.mp3",
-    "title": "Udongo",
+    "title": "Ardhi",
     "tag": [
-      "Udongo",
+      "Ardhi",
       "earth",
       "Asili",
       "Ardhi",
       "kuunganishwa na ardhi"
     ],
-    "desc": "Imechochewa na kipengele cha ardhi, ikichanganya masafa ya chini ya asili na sauti za mazingira, ikisisitiza utulivu na hisia ya utulivu.",
+    "desc": "Ikitumia kipengele cha ardhi kama msukumo, inachanganya masafa ya chini ya asili na sauti za mazingira, ikisisitiza utulivu na hisia ya utulivu.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1203,7 +1203,7 @@
       "chakra",
       "Kujiamini"
     ],
-    "desc": "Mada ya chakra ya plexus ya jua, inawakilisha nguvu, nia na kituo cha nishati, na hali ya joto na mwanga.",
+    "desc": "Mada ya chakra ya plexus ya jua, inawakilisha nguvu, nia na kituo cha nishati, na anga ya joto na mwanga.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "amani",
       "Asili"
     ],
-    "desc": "Inasimulia utulivu na upana wa milimani, ikitumia sauti za mazingira ya asili kukuza utulivu wa akili.",
+    "desc": "Inasimulia utulivu na upana wa milimani, ikitumia sauti za mazingira ya asili kukuza amani ya akili.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -3193,7 +3193,7 @@
       "Kutiririka",
       "Safisha"
     ],
-    "desc": "Kwa sauti ya maji yanayotiririka na sauti ya kijito, huonyesha hali ya akili safi na inayotiririka.",
+    "desc": "Kwa sauti ya maji yanayotiririka na mto, huonyesha hali ya akili safi na inayotiririka.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -3583,15 +3583,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B5%B7%E5%BA%95%E8%BC%AA.mp3",
-    "title": "Chakra ya Msingi",
+    "title": "Chakra ya mizizi",
     "tag": [
-      "Chakra ya Msingi",
+      "Chakra ya mizizi",
       "chakra ya mizizi",
       "Imara",
       "chakra",
       "Msingi"
     ],
-    "desc": "Mandhari ya chakra ya msingi, mtetemo wa chini huunda uwanja wa nishati salama na thabiti, unaofaa kwa kutafakari.",
+    "desc": "Mada ya chakra ya mizizi, mtetemo wa chini huunda uwanja wa nishati salama na imara, unaofaa kwa kutafakari.",
     "embedding": [
       -0.010757019743323326,
       0.07280676066875458,
@@ -4387,7 +4387,7 @@
       "asili safi",
       "mazingira"
     ],
-    "desc": "Mandhari ya sauti za mazingira asili bila vyombo vya muziki au sauti za binadamu, yanafaa kwa kutafakari, kupumzika na uponyaji wa asili.",
+    "desc": "Mandhari ya sauti za mazingira asili bila vyombo au sauti za binadamu, yanafaa kwa kutafakari, kupumzika na uponyaji wa asili.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4781,11 +4781,11 @@
     "tag": [
       "Chakra ya Jicho la Tatu",
       "chakra ya jicho la tatu",
-      "kiroho",
+      "Kiroho",
       "chakra",
-      "hisia ya sita"
+      "Intuition"
     ],
-    "desc": "Mandhari ya kutafakari ya chakra ya jicho la tatu, inasisitiza ufunguzi wa kiroho na hisia ya sita, inafaa kwa utambuzi wa kina.",
+    "desc": "Mandhari ya kutafakari ya jicho la tatu, inasisitiza ufunguzi wa kiroho na intuition, inafaa kwa utambuzi wa kina.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5573,13 +5573,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E5%96%89%E8%BC%AA.mp3",
-    "title": "chakra ya koo",
+    "title": "Chakra ya koo",
     "tag": [
+      "Chakra ya koo",
       "chakra ya koo",
-      "chakra ya koo",
-      "mawasiliano",
+      "Mawasiliano",
       "chakra",
-      "uhuru"
+      "Uhuru"
     ],
     "desc": "Mandhari ya chakra ya koo, inaunda nafasi ya mtiririko wa nishati ulio huru na kujieleza kwa uhuru.",
     "embedding": [
@@ -6377,7 +6377,7 @@
       "Uwazi",
       "clarity"
     ],
-    "desc": "Mandhari ya kipengele cha dhahabu, sauti ni safi na angavu, ikileta hali ya usafi na utulivu.",
+    "desc": "Mandhari ya kipengele cha Dhahabu, sauti ni safi na angavu, ikijenga mazingira ya usafi na utulivu.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -7171,9 +7171,9 @@
       "Chombo cha sauti",
       "glockenspiel",
       "chombo cha kupimia sauti",
-      "Angavu"
+      "Kiroho"
     ],
-    "desc": "Sauti angavu za kengele na chombo cha sauti, zinafaa kwa kutafakari, kusafisha na kuzingatia.",
+    "desc": "Sauti ya kiroho ya kengele na chombo cha sauti, inafaa kwa kutafakari, kusafisha na kuzingatia.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -7571,7 +7571,7 @@
       "xiao",
       "Mtiririko"
     ],
-    "desc": "Melodi kuu ya filimbi na xiao, mtiririko wa mbali, inaunda hali ya akili angavu na ya kina.",
+    "desc": "Melodi kuu ya filimbi na xiao, ikitiririka kwa mbali, inaunda hali ya kiroho na ya kina.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -7964,7 +7964,7 @@
     "title": "Radi",
     "tag": [
       "Radi",
-      "radi",
+      "thunder",
       "Asili",
       "Asili",
       "Nishati"
@@ -8359,15 +8359,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A0%82%E8%BC%AA.mp3",
-    "title": "Kichwa cha taji",
+    "title": "Kichwa",
     "tag": [
-      "Kichwa cha taji",
-      "kichwa cha taji",
+      "Kichwa",
+      "crown chakra",
       "Kuamka",
       "chakra",
       "Mwanga"
     ],
-    "desc": "Mandhari ya kichwa cha taji, inawakilisha kuamka kiroho, kuinua kiroho na mwanga.",
+    "desc": "Mandhari ya kichwa, inawakilisha kuamka kiroho, kuinuliwa kiroho na mwanga.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Upepo",
+    "tag": [
+      "Upepo",
+      "wind",
+      "Asili",
+      "Angavu",
+      "ambient"
+    ],
+    "desc": "Mandhari ya sauti ya upepo, yanayotiririka kwa mbali, yanafaa kwa kupumzika, kutafakari na kuzingatia.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Kengele za upepo",
+    "tag": [
+      "Kengele za upepo",
+      "wind chime",
+      "Angavu",
+      "Uponyaji",
+      "kutuliza"
+    ],
+    "desc": "Mandhari ya sauti laini yenye mapambo ya sauti ya kengele za upepo, angavu na ya uponyaji, yanafaa kwa kupumzika na kutuliza kabla ya kulala.",
+    "embedding": []
   }
 ]

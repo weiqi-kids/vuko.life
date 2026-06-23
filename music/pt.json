@@ -4,10 +4,10 @@
     "title": "Tigela Cantante",
     "tag": [
       "Tigela Cantante",
-      "singing bowl",
+      "tigela cantante",
       "Meditação",
       "meditação",
-      "Cura"
+      "cura"
     ],
     "desc": "Com o som da tigela cantante como melodia principal, ressonância suave, adequado para paisagens sonoras de meditação e cura.",
     "embedding": [
@@ -402,12 +402,12 @@
     "title": "Violão",
     "tag": [
       "Violão",
-      "guitar",
+      "violão",
       "Suave",
       "acústico",
-      "Relaxar"
+      "relaxar"
     ],
-    "desc": "Principalmente violão suave, acompanhado por almofadas sonoras leves, adequado para relaxamento e concentração.",
+    "desc": "Principalmente violão suave, complementado por almofadas sonoras leves, adequado para relaxamento e concentração.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -800,12 +800,12 @@
     "title": "Terra",
     "tag": [
       "Terra",
-      "earth",
+      "terra",
       "Natureza",
       "Terra",
-      "aterramento"
+      "grounding"
     ],
-    "desc": "Inspirado no elemento terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
+    "desc": "Inspirado nos elementos da terra, combina baixas frequências naturais e sons ambientais, enfatizando a sensação de estabilidade e tranquilidade.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1198,7 +1198,7 @@
     "title": "Chakra do Plexo Solar",
     "tag": [
       "Chakra do Plexo Solar",
-      "chakra do plexo solar",
+      "solar plexus chakra",
       "Energia",
       "chakra",
       "Confiança"
@@ -1596,7 +1596,7 @@
     "title": "Montanha",
     "tag": [
       "Montanha",
-      "montanha",
+      "mountain",
       "Tranquilidade",
       "paz",
       "Natureza"
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan e tambor de língua de aço",
+    "title": "Handpan e Steel Tongue Drum",
     "tag": [
       "Handpan",
-      "Tambor de língua de aço",
+      "Steel Tongue Drum",
       "handpan",
       "steel tongue drum",
-      "Relaxar"
+      "relaxar"
     ],
-    "desc": "Melodia principal de handpan e tambor de língua de aço, uma melodia suave e etérea, adequada para meditação profunda e relaxamento.",
+    "desc": "Melodia principal de handpan e steel tongue drum, uma melodia suave e etérea, adequada para meditação profunda e relaxamento.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2392,9 +2392,9 @@
     "title": "Madeira",
     "tag": [
       "Madeira",
-      "wood",
-      "Natureza",
-      "Vitalidade",
+      "madeira",
+      "natureza",
+      "vitalidade",
       "floresta"
     ],
     "desc": "Inspirado no elemento madeira, combina sons naturais de vento entre as árvores para mostrar vitalidade.",
@@ -3190,7 +3190,7 @@
       "Água",
       "água",
       "Fluxo de água",
-      "Fluxo",
+      "Fluir",
       "Fresco"
     ],
     "desc": "Com o fluxo de água e o som do riacho como tema principal, apresenta um estado de espírito fresco e fluido.",
@@ -4381,13 +4381,13 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodia principal de sons ambientais",
     "tag": [
-      "sons ambientais",
+      "Sons ambientais",
       "sons da natureza",
       "sons ambientais",
       "natureza pura",
       "ambiente"
     ],
-    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes humanas, ideal para meditação, relaxamento e cura natural.",
+    "desc": "Paisagem sonora puramente natural, sem instrumentos ou vozes, adequada para meditação, relaxamento e cura natural.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -5979,7 +5979,7 @@
       "chakra",
       "fluxo"
     ],
-    "desc": "Paisagem sonora do chakra sacral, simboliza o fluxo emocional, criatividade e energia de prazer.",
+    "desc": "Paisagem sonora do Chakra Sacral, simboliza o fluxo emocional, criatividade e energia de prazer.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6775,7 +6775,7 @@
       "Harmonia",
       "relaxante"
     ],
-    "desc": "Melodia principal de piano suave, acompanhada por um acompanhamento tranquilo, trazendo uma sensação de paz e conforto.",
+    "desc": "Melodia principal de piano suave, acompanhada por um acompanhamento tranquilo, proporcionando uma sensação de paz e conforto.",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -7571,7 +7571,7 @@
       "xiao",
       "Fluxo"
     ],
-    "desc": "Melodia principal de flauta e xiao, fluindo distante, criando um estado de espírito etéreo e profundo.",
+    "desc": "Melodia principal de flauta e xiao, fluindo de forma distante, criando um estado de espírito etéreo e profundo.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Vento",
+    "tag": [
+      "Vento",
+      "wind",
+      "Natureza",
+      "Etéreo",
+      "ambient"
+    ],
+    "desc": "Uma paisagem sonora etérea dominada pelo som do vento, fluindo de forma distante, adequada para relaxamento, meditação e concentração.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Sino de vento",
+    "tag": [
+      "Sino de vento",
+      "wind chime",
+      "Etéreo",
+      "Curativo",
+      "relaxante"
+    ],
+    "desc": "Uma paisagem sonora suave adornada com o som nítido de sinos de vento, etérea e curativa, adequada para relaxamento e alívio antes de dormir.",
+    "embedding": []
   }
 ]

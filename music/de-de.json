@@ -9,7 +9,7 @@
       "meditation",
       "Heilung"
     ],
-    "desc": "Der Klang der Klangschale steht im Mittelpunkt, sanfte Resonanz, geeignet für Meditation und heilende Klanglandschaften.",
+    "desc": "Der Klang der Klangschale ist die Hauptmelodie, sanft und resonant, geeignet für Meditation und heilende Klanglandschaften.",
     "embedding": [
       0.06329084187746048,
       0.050360459834337234,
@@ -407,7 +407,7 @@
       "akustisch",
       "Entspannung"
     ],
-    "desc": "Sanfte Gitarre im Vordergrund, begleitet von weichen Klangteppichen, geeignet für Entspannung und Konzentration.",
+    "desc": "Sanfte Gitarre als Hauptinstrument, ergänzt durch weiche Klangteppiche, geeignet für Entspannung und Konzentration.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -1995,8 +1995,8 @@
     "tag": [
       "Handpan",
       "Steel Tongue Drum",
-      "Handpan",
-      "Steel Tongue Drum",
+      "handpan",
+      "steel tongue drum",
       "Entspannung"
     ],
     "desc": "Hauptmelodie von Handpan und Steel Tongue Drum, eine runde und ätherische Melodie, geeignet für tiefgehende Meditation und Entspannung.",
@@ -2392,12 +2392,12 @@
     "title": "Holz",
     "tag": [
       "Holz",
-      "Holz",
+      "wood",
       "Natur",
       "Lebenskraft",
       "Wald"
     ],
-    "desc": "Inspiriert vom Holzelement, kombiniert mit dem Klang des Waldes und natürlichen Baumgeräuschen, um Lebenskraft zu zeigen.",
+    "desc": "Inspiriert vom Element Holz, kombiniert mit dem Klang des Windes im Wald und den natürlichen Geräuschen der Bäume, um Lebenskraft zu zeigen.",
     "embedding": [
       0.030727753415703773,
       0.07157044112682343,
@@ -2790,7 +2790,7 @@
     "title": "Wald",
     "tag": [
       "Wald",
-      "Wald",
+      "forest",
       "Vogelgesang",
       "Natur",
       "Stabilität"
@@ -3989,7 +3989,7 @@
       "Leidenschaft",
       "Element"
     ],
-    "desc": "Mit dem Thema des Feuerelements, integriert natürliche Klangeffekte wie Flammen und Lagerfeuer, symbolisiert Energie und Transformation.",
+    "desc": "Mit dem Thema Feuerelement, integriert natürliche Klangeffekte wie Flammen und Lagerfeuer, symbolisiert Energie und Transformation.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -5183,7 +5183,7 @@
       "Rahmentrommel",
       "Erdung"
     ],
-    "desc": "Stabiler Rhythmus der Schamanentrommel mit niedriger Frequenz, unterstützt das Eintauchen in tiefe Meditation und Körperwahrnehmung.",
+    "desc": "Niedrigfrequente Schamanentrommel mit stabilem Rhythmus, unterstützt den Eintritt in tiefe Meditation und Körperwahrnehmung.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -5979,7 +5979,7 @@
       "Chakra",
       "Fluss"
     ],
-    "desc": "Die Klanglandschaft des Sakralchakras symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
+    "desc": "Sakralchakra-Klanglandschaft, symbolisiert den Fluss der Emotionen, Kreativität und freudige Energie.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6369,10 +6369,10 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Metall",
+    "title": "Gold",
     "tag": [
+      "Gold",
       "Metall",
-      "metal",
       "Reinheit",
       "Klarheit",
       "clarity"
@@ -6771,11 +6771,11 @@
     "tag": [
       "Klavier",
       "piano",
-      "Sanftheit",
+      "Sanft",
       "Harmonie",
       "entspannend"
     ],
-    "desc": "Sanfte Klaviermelodie, begleitet von beruhigender Begleitung, vermittelt ein friedliches und angenehmes Gefühl.",
+    "desc": "Sanfte Klaviermelodie, begleitet von beruhigender Begleitung, vermittelt ein Gefühl von Frieden und Komfort.",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Wind",
+    "tag": [
+      "Wind",
+      "wind",
+      "Natur",
+      "Ätherisch",
+      "Ambient"
+    ],
+    "desc": "Ein ätherisches Klangbild, das von Windgeräuschen dominiert wird, fließend und weitreichend, geeignet zum Entspannen, Meditieren und Konzentrieren.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Windspiel",
+    "tag": [
+      "Windspiel",
+      "Windspiel",
+      "Ätherisch",
+      "Heilsam",
+      "Entspannend"
+    ],
+    "desc": "Ein sanftes Klangbild, verziert mit klaren Windspielklängen, ätherisch und heilsam, geeignet zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
+    "embedding": []
   }
 ]

@@ -805,7 +805,7 @@
       "Erde",
       "Erdung"
     ],
-    "desc": "Inspiriert von den Elementen der Erde, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
+    "desc": "Inspiriert von Erdelementen, kombiniert mit natürlichen Tiefenfrequenzen und Umgebungsgeräuschen, betont es Stabilität und Ruhe.",
     "embedding": [
       0.05077485740184784,
       0.048717472702264786,
@@ -1203,7 +1203,7 @@
       "Chakra",
       "Selbstvertrauen"
     ],
-    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willenskraft und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
+    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -3193,7 +3193,7 @@
       "Fließen",
       "Frische"
     ],
-    "desc": "Mit Wasserfluss und Bachgeräuschen als Hauptthema wird ein frisches und fließendes Gemüt dargestellt.",
+    "desc": "Mit Wasserfluss und Bachgeräuschen als Hauptthema wird eine frische und fließende Stimmung präsentiert.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -4387,7 +4387,7 @@
       "reine Natur",
       "ambient"
     ],
-    "desc": "Eine Klanglandschaft aus reinen Naturgeräuschen, ohne jegliche Instrumente oder Stimmen, ideal für Meditation, Entspannung und natürliche Heilung.",
+    "desc": "Eine Klanglandschaft aus reinen Naturgeräuschen, ohne Instrumente oder Stimmen, ideal für Meditation, Entspannung und natürliche Heilung.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -5178,7 +5178,7 @@
     "title": "Schamanentrommel mit niedriger Frequenz",
     "tag": [
       "Schamanentrommel",
-      "Niedrigfrequenz-Trommel",
+      "Niedrigfrequenztrommel",
       "Schamanentrommel",
       "Rahmentrommel",
       "Erdung"
@@ -5581,7 +5581,7 @@
       "Chakra",
       "Freiheit"
     ],
-    "desc": "Halschakra-Themenklanglandschaft, schafft Raum für einen reibungslosen Energiefluss und freie Ausdrucksmöglichkeiten.",
+    "desc": "Halschakra-Themenklanglandschaft, schafft Raum für reibungslosen Energiefluss und freie Ausdrucksweise.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -6771,7 +6771,7 @@
     "tag": [
       "Klavier",
       "Klavier",
-      "Sanft",
+      "Sanftheit",
       "Harmonie",
       "entspannend"
     ],
@@ -7165,7 +7165,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Glockenspiel-Stimmgabel",
+    "title": "Glockenspiel und Stimmgabel",
     "tag": [
       "Glockenspiel",
       "Stimmgabel",
@@ -7569,9 +7569,9 @@
       "Xiao",
       "Flöte",
       "Xiao",
-      "Fließend"
+      "Fließen"
     ],
-    "desc": "Die Melodie von Flöte und Xiao ist weitreichend und fließend und schafft eine ätherische und tiefgründige Stimmung.",
+    "desc": "Die Melodie von Flöte und Xiao ist weitreichend und fließend, schafft eine ätherische und tiefgründige Stimmung.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -7969,7 +7969,7 @@
       "Natur",
       "Energie"
     ],
-    "desc": "Donner- und Naturregengeräusche schaffen eine klangliche Umgebung voller Energie und Entspannung.",
+    "desc": "Donner- und Regengeräusche schaffen eine klangliche Umgebung voller Energie und Entspannung.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Wind",
+    "tag": [
+      "Wind",
+      "wind",
+      "Natur",
+      "Ätherisch",
+      "Ambient"
+    ],
+    "desc": "Ein ätherisches Klangbild, das von Windgeräuschen dominiert wird, fließend und weitreichend, ideal zum Entspannen, Meditieren und Konzentrieren.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Windspiel",
+    "tag": [
+      "Windspiel",
+      "Windspiel",
+      "Ätherisch",
+      "Heilsam",
+      "Entspannend"
+    ],
+    "desc": "Ein sanftes Klangbild, verziert mit klaren Windspielklängen, ätherisch und heilsam, ideal zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
+    "embedding": []
   }
 ]

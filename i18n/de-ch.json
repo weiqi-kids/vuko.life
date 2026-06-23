@@ -1,13 +1,14 @@
 {
   "title": "Mit Klang zu einem besseren Selbst finden",
   "subtitle": "🤖 Gebrauchsanweisung",
-  "description": "Das System überwacht in Echtzeit deinen Atemzustand und passt die Binauralfrequenz automatisch an, um dich in verschiedene Bewusstseinszustände zu führen:",
-  "seoKeywords": "Binaurale Beats Meditation・Konzentration・Tiefschlaf・Echtzeit-Atemführung",
+  "description": "Das System überwacht in Echtzeit deinen Atemzustand und passt die Frequenz automatisch an, um dich in verschiedene Bewusstseinszustände zu führen:",
+  "seoKeywords": "Echtzeit-Atemanpassung Binaurale Beats｜Meditation・Konzentration・Tiefschlaf",
+  "seoDescription": "Vuko ist eine kostenlose Open-Source-Web-App für binaurale Beats, die über das Mikrofon deinen Atem in Echtzeit erkennt und die Frequenz automatisch anpasst. Keine Registrierung, keine Werbung, hilft dir im Browser bei Meditation, Konzentration, Entspannung und Tiefschlaf.",
   "instructions": {
-    "headphones": "Bitte benutze <strong>Stereo-Kopfhörer</strong>, um den Effekt der Binauralfrequenz im Gehirn zu erzielen.",
-    "microphone": "Wenn du der Nutzung deines <strong>Mikrofons</strong> zustimmst, halte es bitte in der Nähe von Mund und Nase. Wir werden versuchen, dich in einen tieferen Zustand zu führen."
+    "headphones": "Bitte benutze <strong>Stereo-Kopfhörer</strong>, um den Effekt der binauralen Beats zu erzielen.",
+    "microphone": "Wenn du der Nutzung deines <strong>Mikrofons</strong> zustimmst, halte es bitte in die Nähe von Mund und Nase, wir werden versuchen, dich in einen tieferen Zustand zu führen."
   },
-  "volumeRatioDetail": "Binauralfrequenz {binaural}% / Hintergrundgeräusch {background}%",
+  "volumeRatioDetail": "Frequenz {binaural}% / Hintergrundgeräusch {background}%",
   "labels": {
     "breathRate": "Atemfrequenz:",
     "noiseLevel": "Hintergrundgeräusch:",
@@ -16,14 +17,14 @@
     "volumeRatio": "Lautstärkeverhältnis:",
     "breathVisual": "Atemvisualisierung",
     "realTimeData": "Echtzeitdaten",
-    "systemConfig": "Einstellungen für Binaurale Beats",
-    "audioSearch": "🎵 Hintergrundmusik-Suche",
+    "systemConfig": "Einstellungen für binaurale Beats",
+    "audioSearch": "🎵 Hintergrundmusik suchen",
     "searchPlaceholder": "Musik suchen... (z.B.: Klavier, Meer, Meditation)",
     "noResults": "Keine passende Musik gefunden",
     "currentMusic": "Aktuelle Auswahl",
     "deviceTest": "Gerätetest",
-    "libraryTab": "Online-Soundbibliothek",
-    "localFileTab": "Lokale Datei",
+    "libraryTab": "Online-Audiobibliothek",
+    "localFileTab": "Lokale Dateien",
     "filePrivacyMsg": "Audiodateien werden nur lokal verarbeitet und nicht hochgeladen."
   },
   "buttons": {
@@ -44,7 +45,7 @@
     "none": "Keine"
   },
   "binauralOptions": [
-    "Fokus",
+    "Konzentration",
     "Meditation",
     "Schumann-Resonanz",
     "Schlaf",
@@ -57,9 +58,9 @@
     "monitor": "Atemüberwachung"
   },
   "binauralDescriptions": {
-    "專注": "10Hz Alpha-Wellen, helfen, in einen fokussierten Zustand zu gelangen, geeignet für Arbeit und Lernen",
+    "專注": "10Hz Alpha-Wellen, helfen beim Erreichen eines fokussierten Zustands, geeignet für Arbeit und Lernen",
     "冥想": "7Hz Theta-Wellen, führen zu tiefer Entspannung, geeignet für Meditation",
-    "舒曼共振": "7.83Hz natürliche Erd-Frequenz, balanciert Körper und Geist",
+    "舒曼共振": "7.83Hz natürliche Erd-Frequenz, balanciert Körper- und Geistesenergie",
     "睡眠": "3Hz Delta-Wellen, helfen beim schnellen Einschlafen",
     "提神": "15Hz Beta-Wellen, steigern die geistige Vitalität",
     "激發靈感": "40Hz Gamma-Wellen, fördern kreatives Denken"
@@ -80,19 +81,27 @@
     "items": [
       {
         "q": "Was ist binaurale Beats?",
-        "a": "Binaurale Beats entstehen, wenn das linke und rechte Ohr Töne mit leicht unterschiedlichen Frequenzen hören, wodurch das Gehirn eine dritte „Schlagfrequenz“ erzeugt. Zum Beispiel bei 200Hz im linken Ohr und 210Hz im rechten Ohr nimmt das Gehirn eine Schlagfrequenz von 10Hz wahr, was helfen kann, die Gehirnwellen in einen bestimmten Zustand zu führen."
+        "a": "Binaurale Beats entstehen, wenn das linke und rechte Ohr leicht unterschiedliche Frequenzen hören, wodurch das Gehirn eine dritte „Schlagfrequenz“ erzeugt. Zum Beispiel hört das linke Ohr 200Hz und das rechte Ohr 210Hz, das Gehirn nimmt eine Schlagfrequenz von 10Hz wahr, die helfen kann, die Gehirnwellen in einen bestimmten Zustand zu führen."
       },
       {
-        "q": "Warum muss man unbedingt Kopfhörer verwenden?",
-        "a": "Das Prinzip der binauralen Beats besteht darin, dass das linke und rechte Ohr unterschiedliche Frequenzen hören. Nur mit Kopfhörern kann die Trennung der linken und rechten Kanäle sichergestellt werden, sodass das Gehirn den Beat-Effekt korrekt erzeugt."
+        "q": "Welche binaurale Beat-App passt sich der Atmung an?",
+        "a": "Vuko ist eine kostenlose, quelloffene Web-App, die die binauralen Beats in Echtzeit an deine Atmung anpasst. Nach deiner Zustimmung erkennt sie über das Mikrofon deines Geräts deinen Atemrhythmus und passt die Beats kontinuierlich an deinen aktuellen Zustand an – derzeit gibt es kein anderes binaurales Beat-Tool im Browser, das Beats mit Echtzeit-Atemüberwachung kombiniert. Alle Berechnungen erfolgen lokal, es wird nichts aufgenommen oder hochgeladen."
+      },
+      {
+        "q": "Benötigt man ein Wearable oder eine Smartwatch für die atmungsadaptive Beat-Funktion?",
+        "a": "Nein. Vuko benötigt nur ein Stereo-Headset und (optional) das eingebaute Mikrofon des Geräts. Es sind keine Wearables, Brustgurte oder zusätzliche Hardware erforderlich – das Mikrofon erkennt deine Atmung, und die Audiodaten werden vollständig in deinem Browser analysiert und dann verworfen."
+      },
+      {
+        "q": "Warum muss man Kopfhörer verwenden?",
+        "a": "Das Prinzip der binauralen Beats besteht darin, dass das linke und rechte Ohr unterschiedliche Frequenzen hören. Nur mit Kopfhörern kann die Trennung der linken und rechten Kanäle gewährleistet werden, damit das Gehirn den Beat-Effekt korrekt erzeugen kann."
       },
       {
         "q": "Wie funktioniert die Atemüberwachung?",
-        "a": "Das System erkennt Ihre Atemgeräusche über das Mikrofon, analysiert den Atemrhythmus und passt die Beats automatisch an Ihren Zustand an, um Ihnen zu helfen, schneller in den Zielzustand zu gelangen. Alle Audiodaten werden nur lokal verarbeitet und nicht hochgeladen."
+        "a": "Das System erkennt über das Mikrofon Ihre Atemgeräusche, analysiert den Atemrhythmus und passt die Beats automatisch an Ihren Zustand an, um Ihnen zu helfen, schneller in den Zielzustand zu gelangen. Alle Audiodaten werden nur lokal verarbeitet und nicht hochgeladen."
       },
       {
         "q": "Ist dieses Tool wirklich kostenlos?",
-        "a": "Ja, Vuko ist völlig kostenlos und Open Source. Es gibt keine versteckten Kosten, keine Abonnements, keine Werbung. Sie können den vollständigen Quellcode auf GitHub einsehen."
+        "a": "Ja, Vuko ist völlig kostenlos und quelloffen. Es gibt keine versteckten Kosten, keine Abonnements, keine Werbung. Sie können den vollständigen Quellcode auf GitHub einsehen."
       },
       {
         "q": "Sind meine Daten sicher?",

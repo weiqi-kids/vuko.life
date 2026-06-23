@@ -4,12 +4,12 @@
     "title": "chuông xoay",
     "tag": [
       "chuông xoay",
-      "chuông xoay",
+      "chuông hát",
       "thiền",
       "thiền",
       "chữa lành"
     ],
-    "desc": "Âm thanh chuông xoay làm giai điệu chính, cộng hưởng nhẹ nhàng, phù hợp cho thiền và cảnh âm thanh chữa lành.",
+    "desc": "Âm thanh chuông xoay làm giai điệu chính, cộng hưởng nhẹ nhàng, phù hợp cho thiền và âm cảnh chữa lành.",
     "embedding": [
       0.06329084187746048,
       0.050360459834337234,
@@ -402,12 +402,12 @@
     "title": "đàn guitar",
     "tag": [
       "đàn guitar",
-      "đàn guitar",
+      "guitar",
       "nhẹ nhàng",
       "acoustic",
       "thư giãn"
     ],
-    "desc": "Đàn guitar nhẹ nhàng làm chủ đạo, kết hợp với âm nền nhẹ nhàng, phù hợp để thư giãn và tập trung.",
+    "desc": "Đàn guitar nhẹ nhàng làm chủ đạo, kết hợp với âm nền nhẹ, phù hợp để thư giãn và tập trung.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -1996,8 +1996,8 @@
       "Trống tay",
       "Trống không linh",
       "handpan",
-      "trống lưỡi thép",
-      "thư giãn"
+      "steel tongue drum",
+      "Thư giãn"
     ],
     "desc": "Giai điệu chính của trống tay và trống không linh, giai điệu tròn trịa và không linh, thích hợp cho thiền sâu và thư giãn.",
     "embedding": [
@@ -2392,10 +2392,10 @@
     "title": "Gỗ",
     "tag": [
       "Gỗ",
-      "gỗ",
-      "tự nhiên",
-      "sức sống",
-      "rừng"
+      "wood",
+      "Tự nhiên",
+      "Sức sống",
+      "forest"
     ],
     "desc": "Lấy cảm hứng từ yếu tố gỗ, kết hợp âm thanh gió rừng và âm thanh tự nhiên của cây cối, thể hiện sức sống.",
     "embedding": [
@@ -2790,8 +2790,8 @@
     "title": "Rừng",
     "tag": [
       "Rừng",
-      "rừng",
-      "Tiếng chim hót",
+      "forest",
+      "Tiếng chim",
       "Thiên nhiên",
       "Ổn định"
     ],
@@ -3984,12 +3984,12 @@
     "title": "Lửa",
     "tag": [
       "Lửa",
-      "fire",
+      "lửa",
       "năng lượng",
       "nhiệt huyết",
-      "element"
+      "nguyên tố"
     ],
-    "desc": "Lấy chủ đề nguyên tố lửa, kết hợp với các hiệu ứng âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
+    "desc": "Chủ đề nguyên tố lửa, kết hợp âm thanh tự nhiên như ngọn lửa, lửa trại, tượng trưng cho năng lượng và sự chuyển hóa.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4379,15 +4379,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Giai điệu chính của âm thanh môi trường",
+    "title": "Giai điệu chính âm thanh môi trường",
     "tag": [
       "Âm thanh môi trường",
-      "nature sounds",
+      "âm thanh thiên nhiên",
       "âm thanh môi trường",
       "thuần tự nhiên",
-      "ambient"
+      "không gian"
     ],
-    "desc": "Cảnh âm thanh môi trường thuần tự nhiên, không có nhạc cụ hay giọng hát, phù hợp cho thiền định, thư giãn và chữa lành tự nhiên.",
+    "desc": "Cảnh âm thanh môi trường tự nhiên thuần túy, không có nhạc cụ hay giọng hát, phù hợp cho thiền định, thư giãn và chữa lành tự nhiên.",
     "embedding": [
       0.015396945178508759,
       -0.008305732160806656,
@@ -4780,7 +4780,7 @@
     "title": "Luân xa con mắt thứ ba",
     "tag": [
       "Luân xa con mắt thứ ba",
-      "third eye chakra",
+      "luân xa con mắt thứ ba",
       "Tâm linh",
       "chakra",
       "Trực giác"
@@ -5975,11 +5975,11 @@
     "tag": [
       "Luân xa xương cùng",
       "luân xa xương cùng",
-      "cảm xúc",
+      "Cảm xúc",
       "luân xa",
-      "dòng chảy"
+      "Lưu động"
     ],
-    "desc": "Âm cảnh luân xa xương cùng, tượng trưng cho dòng chảy cảm xúc, sự sáng tạo và năng lượng vui vẻ.",
+    "desc": "Âm cảnh luân xa xương cùng, tượng trưng cho sự lưu động cảm xúc, sáng tạo và năng lượng vui vẻ.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6373,8 +6373,8 @@
     "tag": [
       "Kim",
       "kim loại",
-      "thuần khiết",
-      "trong trẻo",
+      "Thuần khiết",
+      "Trong trẻo",
       "sự rõ ràng"
     ],
     "desc": "Chủ đề nguyên tố kim, âm sắc trong trẻo sáng sủa, tạo ra bầu không khí thuần khiết và thanh thoát.",
@@ -7571,7 +7571,7 @@
       "sáo dọc",
       "Lưu động"
     ],
-    "desc": "Giai điệu chính của sáo trúc và sáo dọc, lưu động xa xăm, tạo nên tâm trạng hư không sâu xa.",
+    "desc": "Giai điệu chính của sáo trúc và sáo dọc, lưu động xa xăm, tạo nên tâm trạng hư không sâu lắng.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -7961,15 +7961,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%9B%B7.mp3",
-    "title": "Sấm sét",
+    "title": "Sấm",
     "tag": [
-      "Sấm sét",
-      "sấm sét",
+      "Sấm",
+      "sấm",
       "Tự nhiên",
       "Thiên nhiên",
       "Năng lượng"
     ],
-    "desc": "Âm thanh của sấm sét và mưa tự nhiên tạo ra một cảnh quan âm thanh đầy năng lượng và giải phóng.",
+    "desc": "Âm thanh của sấm và mưa tự nhiên tạo ra một cảnh quan âm thanh đầy năng lượng và giải phóng.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "Gió",
+    "tag": [
+      "Gió",
+      "gió",
+      "Tự nhiên",
+      "Không linh",
+      "ambient"
+    ],
+    "desc": "Âm cảnh không linh chủ yếu là tiếng gió, trôi chảy xa xăm, thích hợp để thư giãn, thiền định và tập trung.",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "Chuông gió",
+    "tag": [
+      "Chuông gió",
+      "wind chime",
+      "Không linh",
+      "Chữa lành",
+      "Thư giãn"
+    ],
+    "desc": "Âm cảnh nhẹ nhàng được điểm xuyết bởi tiếng chuông gió trong trẻo, không linh chữa lành, thích hợp để thư giãn và xoa dịu trước khi ngủ.",
+    "embedding": []
   }
 ]

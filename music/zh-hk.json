@@ -6775,7 +6775,7 @@
       "和諧",
       "relaxing"
     ],
-    "desc": "溫柔鋼琴主旋律，配合舒緩伴奏，帶來平和舒適的感受。",
+    "desc": "溫柔鋼琴主旋律，搭配舒緩伴奏，帶來平和舒適的感受。",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -8754,5 +8754,31 @@
       -0.08234497904777527,
       0.011302006430923939
     ]
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8.mp3",
+    "title": "風",
+    "tag": [
+      "風",
+      "wind",
+      "自然",
+      "空靈",
+      "ambient"
+    ],
+    "desc": "以風聲為主的空靈音景，悠遠流動，適合放鬆、冥想與專注。",
+    "embedding": []
+  },
+  {
+    "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%A2%A8%E9%88%B4.mp3",
+    "title": "風鈴",
+    "tag": [
+      "風鈴",
+      "wind chime",
+      "空靈",
+      "療癒",
+      "relaxing"
+    ],
+    "desc": "清脆風鈴聲點綴的輕柔音景，空靈療癒，適合放鬆與睡前舒緩。",
+    "embedding": []
   }
 ]
