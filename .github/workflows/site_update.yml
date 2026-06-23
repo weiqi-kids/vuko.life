@@ -71,6 +71,14 @@ jobs:
             echo 'changed=0' >> "$GITHUB_OUTPUT"
             echo 'langs=' >> "$GITHUB_OUTPUT"
           fi
+      - name: Prerender static SEO content
+        # Re-bake content/<lang>.json long-form, crawlable lang-nav, and the
+        # keyword-rich <title>/meta tags from the freshly translated i18n into
+        # every app/*.html + index.html. Must run after translations so the
+        # static HTML never drifts from i18n (the cause of the old keyword-free
+        # <title> bug); committed alongside the translation update below.
+        if: steps.run.outcome == 'success'
+        run: python .github/scripts/prerender_content.py
       - name: Upload log
         if: always()
         uses: actions/upload-artifact@v4
@@ -83,7 +91,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           files=$(git status --porcelain i18n/*.json music/*.json | awk '{print $2}' | tr '\n' ' ')
-          git add i18n/*.json music/*.json
+          git add i18n/*.json music/*.json app/*.html index.html
           git commit -m "Update translations [skip ci]" -m "$files"
           git push
       - name: Commit translation failure summary

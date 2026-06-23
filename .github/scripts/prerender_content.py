@@ -12,12 +12,15 @@ Usage:
 """
 import html
 import json
+import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 CONTENT_DIR = ROOT / "content"
+I18N_DIR = ROOT / "i18n"
 APP_DIR = ROOT / "app"
+BRAND = "Vuko"
 
 START = "<!-- seo-content:start -->"
 END = "<!-- seo-content:end -->"
@@ -52,6 +55,15 @@ def render(c: dict) -> str:
     if intro:
         out.append(f'<h2>{esc(intro["h2"])}</h2>')
         for p in intro.get("p", []):
+            out.append(f"<p>{esc(p)}</p>")
+
+    # The differentiator, given its own H2 high on the page (the long-tail
+    # wedge: "binaural beats that adapt to your breathing"). Optional: only
+    # rendered for languages whose content/<lang>.json defines it.
+    wedge = c.get("wedge", {})
+    if wedge:
+        out.append(f'<h2>{esc(wedge["h2"])}</h2>')
+        for p in wedge.get("p", []):
             out.append(f"<p>{esc(p)}</p>")
 
     how = c.get("how", {})
@@ -105,6 +117,46 @@ def render_lang_nav() -> str:
     return f'<nav class="lang-footer" aria-label="Choose your language">{items}</nav>'
 
 
+def apply_seo_head(doc: str, lang: str, label: str) -> str:
+    """Rewrite the static <title> and meta description/OG tags from
+    i18n/<lang>.json so crawlers see keyword-rich, localized tags (the
+    JS in js/i18n.js builds the same string at runtime for users).
+
+    Title formula (keyword-first): "{seoKeywords}｜Vuko".
+    Description comes from i18n `seoDescription`; if absent, the existing
+    static description tags are left untouched (never clobber with a worse one).
+    """
+    ifile = I18N_DIR / f"{lang}.json"
+    if not ifile.exists():
+        print(f"  seo-head {label}: no {ifile}, skipped")
+        return doc
+    data = json.loads(ifile.read_text(encoding="utf-8"))
+    kw = (data.get("seoKeywords") or "").strip()
+    desc = (data.get("seoDescription") or "").strip()
+
+    if kw:
+        title = f"{kw}｜{BRAND}"
+        t = esc(title)
+        a = html.escape(title, quote=True)
+        subs = [
+            (r"(<title>).*?(</title>)", f"\\g<1>{t}\\g<2>"),
+            (r'(<meta property="og:title" content=")[^"]*(")', f"\\g<1>{a}\\g<2>"),
+            (r'(<meta name="twitter:title" content=")[^"]*(")', f"\\g<1>{a}\\g<2>"),
+        ]
+        for pat, repl in subs:
+            doc, n = re.subn(pat, repl, doc, count=1, flags=re.DOTALL)
+    if desc:
+        a = html.escape(desc, quote=True)
+        subs = [
+            (r'(<meta name="description" content=")[^"]*(")', f"\\g<1>{a}\\g<2>"),
+            (r'(<meta property="og:description" content=")[^"]*(")', f"\\g<1>{a}\\g<2>"),
+            (r'(<meta name="twitter:description" content=")[^"]*(")', f"\\g<1>{a}\\g<2>"),
+        ]
+        for pat, repl in subs:
+            doc, n = re.subn(pat, repl, doc, count=1, flags=re.DOTALL)
+    return doc
+
+
 def put_block(doc: str, start: str, end: str, body: str, anchors) -> str:
     """Idempotently place start+body+end in doc: replace between existing
     markers, otherwise insert before the first matching anchor."""
@@ -118,7 +170,7 @@ def put_block(doc: str, start: str, end: str, body: str, anchors) -> str:
     raise RuntimeError(f"no insertion anchor among {anchors}")
 
 
-def inject_file(cfile, hfile, label) -> bool:
+def inject_file(cfile, hfile, label, lang) -> bool:
     if not cfile.exists():
         print(f"skip {label}: no {cfile}")
         return False
@@ -133,13 +185,15 @@ def inject_file(cfile, hfile, label) -> bool:
                     ('<div class="faq-section">', '<div class="footer">'))
     doc = put_block(doc, LN_START, LN_END, render_lang_nav(),
                     ('<div class="footer">',))
+    # Keyword-rich, localized static <title>/meta from i18n/<lang>.json.
+    doc = apply_seo_head(doc, lang, label)
     hfile.write_text(doc, encoding="utf-8")
     print(f"injected {label}")
     return True
 
 
 def inject(lang: str) -> bool:
-    return inject_file(CONTENT_DIR / f"{lang}.json", APP_DIR / f"{lang}.html", lang)
+    return inject_file(CONTENT_DIR / f"{lang}.json", APP_DIR / f"{lang}.html", lang, lang)
 
 
 def main() -> None:
@@ -149,7 +203,7 @@ def main() -> None:
     count = sum(inject(l) for l in langs)
     # The site root (index.html) is the English canonical page — keep its
     # long-form block in sync with content/en.json too.
-    count += inject_file(CONTENT_DIR / "en.json", ROOT / "index.html", "index.html")
+    count += inject_file(CONTENT_DIR / "en.json", ROOT / "index.html", "index.html", "en")
     print(f"done: {count} page(s)")
 
 

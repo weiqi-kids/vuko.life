@@ -2,7 +2,8 @@
   "title": "With sound, meet a better version of yourself",
   "subtitle": "🤖 Instructions",
   "description": "The system will monitor your breathing status in real-time and automatically adjust the binaural beats to guide you into different states of consciousness:",
-  "seoKeywords": "Binaural Beat Meditation・Focus・Deep Sleep・Real-time Breathing Guidance",
+  "seoKeywords": "Breath-Adaptive Binaural Beats for Sleep, Focus & Meditation",
+  "seoDescription": "Vuko is a free, open-source binaural beats web app that adapts to your breathing in real time. No signup, no ads — meditation, focus, relaxation, and deep sleep, all generated locally in your browser.",
   "instructions": {
     "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats in the brain.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
@@ -81,6 +82,14 @@
       {
         "q": "What is binaural beats?",
         "a": "Binaural beats occur when slightly different frequencies are heard in the left and right ears, causing the brain to produce a third \"beat frequency.\" For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into a specific state."
+      },
+      {
+        "q": "Which binaural beats app adjusts to your breathing?",
+        "a": "Vuko is a free, open-source web app that adapts binaural beats to your breathing in real time. With your permission it uses your device's microphone to detect your breathing rhythm and continuously retunes the beat frequency to match your state — no other browser-based binaural beats tool combines beats with live breath monitoring like this. Everything runs locally, and nothing is recorded or uploaded."
+      },
+      {
+        "q": "Do I need a wearable or smartwatch for breath-adaptive beats?",
+        "a": "No. Vuko needs only stereo headphones and, optionally, your device's built-in microphone. There is no wearable, chest strap, or extra hardware — the microphone detects your breathing and the audio is analysed entirely in your browser, then discarded."
       },
       {
         "q": "Why must headphones be used?",

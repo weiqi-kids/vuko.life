@@ -61,7 +61,10 @@ async function updateLanguageContent() {
 
     const seoKw = content.seoKeywords || 'Binaural Beats Meditation Focus Sleep';
     const brand = 'Vuko';
-    document.title = (content.title ? content.title + '｜' : '') + seoKw + '｜' + brand;
+    // Keyword-first title to match the static <title> baked by
+    // .github/scripts/prerender_content.py (apply_seo_head). The poetic
+    // content.title remains the on-page H1, not the document title.
+    document.title = seoKw + '｜' + brand;
     document.querySelector('h1').textContent = content.title || '';
 
     // 更新 h2 區段標題

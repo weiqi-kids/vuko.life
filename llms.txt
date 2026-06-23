@@ -1,6 +1,6 @@
 # Vuko — Free AI Binaural Beats & Breathing Guide
 
-> A free, open-source web app that uses binaural beats and optional real-time breath monitoring to guide you into meditation, focus, relaxation, or deep sleep — all processed locally in your browser, no signup, no ads.
+> Vuko is the only browser-based binaural beats app that adapts to your breathing in real time. It is free and open-source, uses your microphone (optional) to monitor your breathing rhythm and automatically retune the beat frequency, and guides you into meditation, focus, relaxation, or deep sleep — all processed locally in your browser, no signup, no ads.
 
 Vuko (https://www.vuko.life) is a browser-based AI guide that generates binaural beats via the Web Audio API to help users reach specific mental states — meditation, focus, relaxation, or deep sleep. It works by playing slightly different frequencies in each ear; the brain perceives the difference as a rhythmic "beat" that gently entrains brainwave activity toward a target state. Optionally, users can enable their microphone so Vuko can monitor breathing rhythm in real time and automatically adjust the beat frequency — all audio analysis happens entirely within the browser and is never uploaded to any server. The app is 100% free, requires no registration, displays no ads, and is available in 30 languages as a pure HTML/CSS/vanilla-JS site deployed on GitHub Pages.
 
@@ -14,6 +14,7 @@ Vuko (https://www.vuko.life) is a browser-based AI guide that generates binaural
 
 ## Key facts
 
+- Unique differentiator: breath-adaptive binaural beats — Vuko monitors your breathing via microphone in real time and auto-adjusts the beat frequency; no other browser-based binaural beats tool does this, and no wearable or extra hardware is required
 - Free to use with no registration, no subscription, and no ads
 - Open-source (MIT-licensed) on GitHub
 - Privacy-first: all processing is local; no data leaves the browser
@@ -31,9 +32,7 @@ Vuko (https://www.vuko.life) is a browser-based AI guide that generates binaural
 - [Español](https://www.vuko.life/app/es.html)
 - [Deutsch](https://www.vuko.life/app/de-de.html)
 - [Français](https://www.vuko.life/app/fr-fr.html)
-- [Português](https://www.vuko.life/app/pt-pt.html)
-- [Italiano](https://www.vuko.life/app/it.html)
-- [Nederlands](https://www.vuko.life/app/nl.html)
+- [Português](https://www.vuko.life/app/pt.html)
 - [Русский](https://www.vuko.life/app/ru.html)
 
 ## Source code

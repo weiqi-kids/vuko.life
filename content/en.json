@@ -6,6 +6,13 @@
       "What makes Vuko different is that it does not just play a fixed track. If you allow microphone access, Vuko listens to your breathing in real time and adapts the beats to your actual state — a closed feedback loop between your body and the sound. We could not find another tool that combines binaural beats with live breath monitoring in the browser, which is exactly the gap Vuko fills."
     ]
   },
+  "wedge": {
+    "h2": "Binaural beats that adapt to your breathing in real time",
+    "p": [
+      "Most binaural beats apps play a fixed track and hope it matches how you feel. Vuko is different: it is a breath-adaptive binaural beats generator. Turn on your microphone and Vuko listens to the rhythm of your breathing, then continuously retunes the beat frequency to match where you actually are — slowing the beats as your breath settles, so you sink into focus, calm, or sleep faster than a static track can take you.",
+      "This breath-synced feedback loop runs entirely in your browser. Nothing is recorded or uploaded, and you need no wearable or extra hardware — just headphones and, optionally, your device's microphone. If you have looked for binaural beats that respond to your breathing, breath-synced meditation sound, or an adaptive brainwave generator, that is exactly what Vuko was built to be."
+    ]
+  },
   "how": {
     "h2": "How Vuko works",
     "p": "Vuko combines two systems that usually live in separate apps: a binaural beat engine and a real-time breath monitor that talk to each other while you listen.",
