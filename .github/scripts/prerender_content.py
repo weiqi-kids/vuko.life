@@ -348,6 +348,14 @@ def set_app_chrome(doc: str, i18n: dict) -> str:
     # Attribute (placeholder).
     if labels.get("searchPlaceholder"):
         doc = set_attr_by_id(doc, "musicSearchInput", "placeholder", labels["searchPlaceholder"])
+    # The "使用說明" subtitle <h3> has no id — target the first h3 inside
+    # .adaptive-mode (what js/i18n.js's `.adaptive-mode h3` selector hits).
+    subtitle = i18n.get("subtitle", "")
+    if subtitle:
+        doc = re.sub(
+            r'(<div class="adaptive-mode">\s*<h3[^>]*>).*?(</h3>)',
+            lambda m: m.group(1) + esc(subtitle) + m.group(2),
+            doc, count=1, flags=re.DOTALL)
     return doc
 
 
