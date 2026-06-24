@@ -1,5 +1,5 @@
 # vuko.life daily-optimize RAW data — 2026-06-24
-_generated 2026-06-24 01:40:02 (host TZ)_
+_generated 2026-06-24 10:30:03 (host TZ)_
 
 ## 1. GSC search presence
 windows: last7=2026-06-15..2026-06-21  prev7=2026-06-08..2026-06-14  28d=2026-05-27..2026-06-24
@@ -44,12 +44,12 @@ windows: last7=2026-06-15..2026-06-21  prev7=2026-06-08..2026-06-14  28d=2026-05
 - https://www.vuko.life/app/zh-tw.html
     coverage=Crawled - currently not indexed | verdict=NEUTRAL | lastCrawl=2025-08-14 | googleCanonical=https://www.vuko.life/app/zh-tw.html
 - https://www.vuko.life/app/ja.html
-    coverage=URL is unknown to Google | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
+    coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - https://www.vuko.life/app/es.html
-    coverage=URL is unknown to Google | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
+    coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - https://www.vuko.life/app/de-de.html
     coverage=Crawled - currently not indexed | verdict=NEUTRAL | lastCrawl=2025-06-25 | googleCanonical=https://www.vuko.life/app/de-de.html
-- sitemap https://www.vuko.life/sitemap.xml: submitted=31 indexed=0
+- sitemap https://www.vuko.life/sitemap.xml: submitted=30 indexed=0
 
 ---
 _end of RAW data. The optimizer reads this top-to-bottom; sparse search data is expected while the site is still being indexed — fall back to indexing/content-depth work per the playbook._
