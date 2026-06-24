@@ -251,27 +251,75 @@ def put_block(doc: str, start: str, end: str, body: str, anchors) -> str:
 
 
 def set_text_by_id(doc: str, el_id: str, text: str) -> str:
-    """Replace the inner text of the (single-text) element with id=el_id.
-    Idempotent — re-running writes the same value. Used to bake the
-    above-the-fold UI strings that js/i18n.js otherwise fills at runtime."""
+    """Replace the inner TEXT (escaped) of the single-text element with id=el_id.
+    Idempotent. Bakes the above-the-fold UI strings js/i18n.js fills at runtime."""
     pat = re.compile(
         r'(<(\w+)([^>]*\sid="' + re.escape(el_id) + r'"[^>]*)>)(.*?)(</\2>)',
         re.DOTALL)
     return pat.sub(lambda m: m.group(1) + esc(text) + m.group(5), doc, count=1)
 
 
+def set_html_by_id(doc: str, el_id: str, inner_html: str) -> str:
+    """Like set_text_by_id but writes RAW inner HTML — for trusted i18n strings
+    that contain markup (e.g. instructions with <strong>) or a built widget."""
+    pat = re.compile(
+        r'(<(\w+)([^>]*\sid="' + re.escape(el_id) + r'"[^>]*)>)(.*?)(</\2>)',
+        re.DOTALL)
+    return pat.sub(lambda m: m.group(1) + inner_html + m.group(5), doc, count=1)
+
+
+def set_attr_by_id(doc: str, el_id: str, attr: str, value: str) -> str:
+    """Set/replace one attribute (e.g. placeholder) on the element with id=el_id."""
+    a = html.escape(value, quote=True)
+
+    def repl(m):
+        tag = m.group(0)
+        am = re.search(r'\s' + re.escape(attr) + r'="[^"]*"', tag)
+        if am:
+            return tag[: am.start()] + f' {attr}="{a}"' + tag[am.end():]
+        return tag[:-1] + f' {attr}="{a}">'
+
+    return re.sub(r'<\w+[^>]*\sid="' + re.escape(el_id) + r'"[^>]*>', repl, doc, count=1)
+
+
+# Mode-button icons — MUST stay in sync with the `icons` array in js/i18n.js
+# (updateLanguageContent), which clears + rebuilds this list at runtime.
+BINAURAL_ICONS = ["🎯", "🧘", "🌍", "😴", "⚡", "💡"]
+
+
+def render_binaural_options(i18n: dict) -> str:
+    """Build the binaural mode <li> radio list exactly as js/i18n.js builds it,
+    so the central mode picker doesn't flash blank before hydration. JS rebuilds
+    it on load, so the baked copy is only for the pre-hydration paint."""
+    opts = i18n.get("binauralOptions") or []
+    descs = i18n.get("binauralDescriptions") or {}
+    out = []
+    for idx, text in enumerate(opts):
+        icon = BINAURAL_ICONS[idx] if idx < len(BINAURAL_ICONS) else "🎵"
+        checked = " checked" if idx == 0 else ""
+        val = html.escape(text, quote=True)
+        desc = descs.get(text)
+        desc_html = f'<span class="binaural-desc">{esc(desc)}</span>' if desc else ""
+        out.append(
+            f'<li><label><input type="radio" name="binauralPreset" value="{val}"{checked}>'
+            f'<span class="binaural-mode-name"><span class="binaural-mode-icon">{icon}</span>'
+            f"{esc(text)}</span>{desc_html}</label></li>"
+        )
+    return "".join(out)
+
+
 def set_app_chrome(doc: str, i18n: dict) -> str:
-    """Bake the above-the-fold interactive strings that js/i18n.js fills at
-    runtime (h1 title, section headings, the start button, FAQ title, trust
-    badges) so non-English pages render in-language immediately instead of
-    flashing the English/blank static placeholder before hydration. Each value
-    mirrors exactly what updateLanguageContent() sets, so runtime hydration is a
-    no-op refresh rather than a visible swap."""
+    """Bake the interactive UI strings that js/i18n.js fills at runtime so
+    non-English pages render in-language immediately instead of flashing the
+    English/blank static placeholder before hydration. Each value mirrors
+    exactly what updateLanguageContent() sets, so hydration is a no-op refresh."""
     labels = i18n.get("labels", {})
     sections = i18n.get("sections", {})
     buttons = i18n.get("buttons", {})
     trust = i18n.get("trust", {})
     faq = i18n.get("faq", {})
+    instructions = i18n.get("instructions", {})
+    # Plain-text elements (escaped).
     for el_id, text in [
         ("mainTitle", i18n.get("title", "")),
         ("sectionInstructions", sections.get("instructions", "")),
@@ -288,6 +336,18 @@ def set_app_chrome(doc: str, i18n: dict) -> str:
                        ("trustPrivacy", "privacy")]:
         if trust.get(key):
             doc = set_text_by_id(doc, el_id, "✓ " + trust[key])
+    # Markup / widget elements (raw inner HTML).
+    if instructions.get("headphones"):
+        doc = set_html_by_id(doc, "instructionHeadphones", instructions["headphones"])
+    if instructions.get("microphone"):
+        doc = set_html_by_id(doc, "instructionMicrophone", instructions["microphone"])
+    if i18n.get("binauralOptions"):
+        doc = set_html_by_id(doc, "binauralOptionsList", render_binaural_options(i18n))
+    if labels.get("deviceTest"):
+        doc = set_html_by_id(doc, "deviceTestBtn", "🎤 " + esc(labels["deviceTest"]))
+    # Attribute (placeholder).
+    if labels.get("searchPlaceholder"):
+        doc = set_attr_by_id(doc, "musicSearchInput", "placeholder", labels["searchPlaceholder"])
     return doc
 
 
