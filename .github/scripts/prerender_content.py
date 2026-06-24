@@ -250,6 +250,47 @@ def put_block(doc: str, start: str, end: str, body: str, anchors) -> str:
     raise RuntimeError(f"no insertion anchor among {anchors}")
 
 
+def set_text_by_id(doc: str, el_id: str, text: str) -> str:
+    """Replace the inner text of the (single-text) element with id=el_id.
+    Idempotent — re-running writes the same value. Used to bake the
+    above-the-fold UI strings that js/i18n.js otherwise fills at runtime."""
+    pat = re.compile(
+        r'(<(\w+)([^>]*\sid="' + re.escape(el_id) + r'"[^>]*)>)(.*?)(</\2>)',
+        re.DOTALL)
+    return pat.sub(lambda m: m.group(1) + esc(text) + m.group(5), doc, count=1)
+
+
+def set_app_chrome(doc: str, i18n: dict) -> str:
+    """Bake the above-the-fold interactive strings that js/i18n.js fills at
+    runtime (h1 title, section headings, the start button, FAQ title, trust
+    badges) so non-English pages render in-language immediately instead of
+    flashing the English/blank static placeholder before hydration. Each value
+    mirrors exactly what updateLanguageContent() sets, so runtime hydration is a
+    no-op refresh rather than a visible swap."""
+    labels = i18n.get("labels", {})
+    sections = i18n.get("sections", {})
+    buttons = i18n.get("buttons", {})
+    trust = i18n.get("trust", {})
+    faq = i18n.get("faq", {})
+    for el_id, text in [
+        ("mainTitle", i18n.get("title", "")),
+        ("sectionInstructions", sections.get("instructions", "")),
+        ("sectionSettings", sections.get("settings", "")),
+        ("sectionMonitor", sections.get("monitor", "")),
+        ("systemConfigTitle", labels.get("systemConfig", "")),
+        ("audioSearchTitle", labels.get("audioSearch", "")),
+        ("monitorToggleBtn", buttons.get("start", "")),
+        ("faqTitle", faq.get("title", "")),
+    ]:
+        if text:
+            doc = set_text_by_id(doc, el_id, text)
+    for el_id, key in [("trustFree", "free"), ("trustOpenSource", "openSource"),
+                       ("trustPrivacy", "privacy")]:
+        if trust.get(key):
+            doc = set_text_by_id(doc, el_id, "✓ " + trust[key])
+    return doc
+
+
 def inject_file(cfile, hfile, label, lang) -> bool:
     if not cfile.exists():
         print(f"skip {label}: no {cfile}")
@@ -272,6 +313,7 @@ def inject_file(cfile, hfile, label, lang) -> bool:
     if ifile.exists():
         i18n = json.loads(ifile.read_text(encoding="utf-8"))
         doc = apply_seo_head(doc, i18n)
+        doc = set_app_chrome(doc, i18n)
         faq = i18n.get("faq")
         doc = set_faq(doc, faq)
         doc = apply_jsonld_faq(doc, faq)
