@@ -1,9 +1,10 @@
 # vuko.life — 每日優化引擎 playbook（方法論權威檔）
 
-> 這是 vuko.life「每日自我優化迴圈」的**唯一方法論依據**。執行採**混合架構**：
-> (1) 本機唯讀資料 cron（`~/.config/vuko-life/data-cron.sh`）每天抓 GA4/GSC + 近 7 天關鍵字關係 +
-> 索引覆蓋率，寫進 repo 的 `seo/data/latest.raw.md` 並 commit；(2) 雲端 /schedule 優化 routine
-> （就是你）pull 後讀本檔 + RAW，跑下面的 7 步迴圈 → 過 gate → commit + push（GitHub Pages 自動部署）。
+> 這是 vuko.life「每日自我優化迴圈」的**唯一方法論依據**。執行分兩段：
+> (1) **GitHub Actions** workflow `.github/workflows/seo_data.yml`（每日 UTC 02:00）用 `GA4_SA_KEY`
+> secret 抓 GA4/GSC + 近 7 天關鍵字關係 + 索引覆蓋率，寫進 repo 的 `seo/data/latest.raw.md` 並
+> commit；(2) 雲端 /schedule 優化 routine（就是你，每日 UTC 03:40）pull 後讀本檔 + RAW，跑下面的
+> 7 步迴圈 → 過 gate → commit + push（GitHub Pages 自動部署）。
 > `/docs/` 與 `/seo/` 在 robots.txt 皆被 Disallow，本檔與資料不會被索引。
 
 ---
@@ -31,10 +32,10 @@ ROI 最高的 1–3 個動作把它做到位、過 gate、上線，並記錄成�
 
 ### Step 1 — 讀資料
 依序 Read（皆在 repo 內）：
-1. 當日 RAW 資料檔 `seo/data/latest.raw.md`（本機資料 cron 當天稍早寫入並 commit；內含三桶：
-   GSC 7d/28d + 週對週 + striking-distance + query×page；GA4 7d/28d 流量/互動/事件/landing；
-   索引覆蓋率 URL Inspection + sitemap）。**先確認它的日期是今天**——若是舊的，表示資料 cron 今天
-   還沒跑或失敗，據此謹慎判斷（可 no-op）。
+1. 當日 RAW 資料檔 `seo/data/latest.raw.md`（GitHub Actions `seo_data.yml` 當天稍早寫入並 commit；
+   內含三桶：GSC 7d/28d + 週對週 + striking-distance + query×page；GA4 7d/28d 流量/互動/事件/
+   landing；索引覆蓋率 URL Inspection + sitemap）。**先確認它的日期是今天**——若是舊的，表示
+   `seo_data.yml` 今天還沒跑或失敗，據此謹慎判斷（可 no-op）。
 2. 帳本 `seo/data/optimize-ledger.jsonl`（每行一筆 JSON）。取**近 14 天動過的目標**當排除清單，
    避免每天重改同一處造成抖動。
 3.（可選）`seo/data/index-coverage-history.jsonl` 看索引狀態的週對週變化，判斷昨天/上週的動作
