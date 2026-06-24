@@ -39,6 +39,8 @@ INSPECT_URLS = [
     "https://www.vuko.life/app/ja.html",
     "https://www.vuko.life/app/es.html",
     "https://www.vuko.life/app/de-de.html",
+    "https://www.vuko.life/app/ko.html",
+    "https://www.vuko.life/app/pt.html",
 ]
 
 OUT = []
@@ -165,6 +167,19 @@ def main():
         w(f"- ERROR {str(ex)[:120]}")
     w()
 
+    w("### GSC search impressions by country (28d)")
+    try:
+        cr = gsc({"startDate": d28_start.isoformat(), "endDate": d28_end.isoformat(),
+                  "dimensions": ["country"], "rowLimit": 15})
+        if cr:
+            for r in sorted(cr, key=lambda x: -x["impressions"])[:15]:
+                w(f"- {r['keys'][0]}: impr {r['impressions']} clicks {r['clicks']} pos {r['position']:.1f}")
+        else:
+            w("- (none yet)")
+    except Exception as ex:
+        w(f"- ERROR {str(ex)[:120]}")
+    w()
+
     # ============ BUCKET 2: GA4 traffic / engagement ============
     w("## 2. GA4 traffic & engagement")
     w()
@@ -220,6 +235,20 @@ def main():
             w(f"    - {ev}: {c}/{u}")
     except Exception as ex:
         w(f"- events: ERROR {str(ex)[:100]}")
+    w()
+
+    # Geo & language mix (90d for signal — traffic is small). Tells the optimizer
+    # WHICH language markets actually have visitors, so it can prioritise those
+    # language pages (per the playbook's source-A indexing work).
+    for dim, label in [("country", "country"), ("language", "browser language")]:
+        try:
+            r = report([dim], ["sessions", "totalUsers"], 90, limit=15, order_metric="sessions")
+            w(f"- GA4 {label} (90d sessions/users):")
+            for row in r.rows:
+                name = row.dimension_values[0].value or "(not set)"
+                w(f"    - {name}: {row.metric_values[0].value}/{row.metric_values[1].value}")
+        except Exception as ex:
+            w(f"- GA4 {label}: ERROR {str(ex)[:100]}")
     w()
 
     # ============ BUCKET 3: index coverage ============
