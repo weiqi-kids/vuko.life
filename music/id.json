@@ -4,9 +4,9 @@
     "title": "Mangkok Bernyanyi",
     "tag": [
       "Mangkok Bernyanyi",
-      "mangkok bernyanyi",
+      "singing bowl",
       "Meditasi",
-      "meditasi",
+      "meditation",
       "Penyembuhan"
     ],
     "desc": "Dengan suara mangkok bernyanyi sebagai melodi utama, resonansi lembut, cocok untuk meditasi dan lanskap suara penyembuhan.",
@@ -402,12 +402,12 @@
     "title": "Gitar",
     "tag": [
       "Gitar",
-      "gitar",
+      "guitar",
       "Lembut",
-      "akustik",
+      "acoustic",
       "Relaksasi"
     ],
-    "desc": "Gitar lembut sebagai utama, dilengkapi dengan bantalan suara lembut, cocok untuk relaksasi dan fokus.",
+    "desc": "Didominasi oleh gitar lembut, dilengkapi dengan bantalan suara ringan, cocok untuk relaksasi dan fokus.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -800,7 +800,7 @@
     "title": "Tanah",
     "tag": [
       "Tanah",
-      "tanah",
+      "earth",
       "Alam",
       "Bumi",
       "grounding"
@@ -1203,7 +1203,7 @@
       "chakra",
       "Kepercayaan Diri"
     ],
-    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kehendak, dan pusat energi, dengan suasana hangat dan cerah.",
+    "desc": "Tema chakra solar plexus, melambangkan vitalitas, kehendak, dan pusat energi, suasana hangat dan cerah.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "damai",
       "Alam"
     ],
-    "desc": "Mensimulasikan ketenangan dan keluasan di pegunungan, menggunakan suara lingkungan alami untuk mendukung ketenangan batin.",
+    "desc": "Mensimulasikan ketenangan dan keluasan di pegunungan, menggunakan suara lingkungan alami untuk mendukung ketenangan jiwa.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -1991,12 +1991,12 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan dan Drum Lidah Baja",
+    "title": "Handpan Drum yang Menenangkan",
     "tag": [
       "Handpan",
       "Drum Lidah Baja",
       "handpan",
-      "steel tongue drum",
+      "drum lidah baja",
       "relaksasi"
     ],
     "desc": "Melodi utama handpan dan drum lidah baja, melodi yang bulat dan menenangkan, cocok untuk meditasi mendalam dan relaksasi.",
@@ -4785,7 +4785,7 @@
       "chakra",
       "Intuisi"
     ],
-    "desc": "Suasana meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
+    "desc": "Pemandangan suara meditasi chakra mata ketiga, menekankan pembukaan spiritualitas dan intuisi, cocok untuk kesadaran mendalam.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -5581,7 +5581,7 @@
       "chakra",
       "Kebebasan"
     ],
-    "desc": "Suasana tema chakra tenggorokan, menciptakan ruang untuk aliran energi yang lancar dan ekspresi bebas.",
+    "desc": "Pemandangan suara bertema chakra tenggorokan, menciptakan ruang untuk aliran energi yang lancar dan ekspresi bebas.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -6773,7 +6773,7 @@
       "piano",
       "Lembut",
       "Harmonis",
-      "menenangkan"
+      "Santai"
     ],
     "desc": "Melodi utama piano yang lembut, dipadukan dengan iringan yang menenangkan, memberikan perasaan damai dan nyaman.",
     "embedding": [
@@ -7165,12 +7165,12 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Garpu Tala Glockenspiel",
+    "title": "Glockenspiel dan Garpu Tala",
     "tag": [
       "Glockenspiel",
       "Garpu Tala",
-      "glockenspiel",
-      "garpu tala",
+      "Glockenspiel",
+      "Garpu Tala",
       "Ethereal"
     ],
     "desc": "Suara etereal dari glockenspiel dan garpu tala, cocok untuk meditasi, pembersihan, dan fokus.",
@@ -7563,12 +7563,12 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Seruling Xiao",
+    "title": "Seruling dan Xiao",
     "tag": [
       "Seruling",
       "Xiao",
-      "seruling",
-      "xiao",
+      "Seruling",
+      "Xiao",
       "Mengalir"
     ],
     "desc": "Melodi utama seruling dan xiao, mengalir jauh, menciptakan suasana hati yang etereal dan mendalam.",
@@ -9160,7 +9160,7 @@
       "Lonceng Angin",
       "wind chime",
       "Ethereal",
-      "Penyembuhan",
+      "Menyembuhkan",
       "relaxing"
     ],
     "desc": "Lanskap suara lembut yang dihiasi dengan suara lonceng angin yang jernih, etereal dan menyembuhkan, cocok untuk relaksasi dan menenangkan sebelum tidur.",

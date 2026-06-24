@@ -1,11 +1,11 @@
 {
   "title": "With sound, meet a better version of yourself",
-  "subtitle": "🤖 Instructions",
+  "subtitle": "🤖 User Guide",
   "description": "The system will monitor your breathing status in real-time and automatically adjust the beat frequency to guide you into different states of consciousness:",
   "seoKeywords": "Breathing Exercise App for Sleep, Focus & Relaxation | Free Binaural Beats",
   "seoDescription": "Vuko is a free breathing-exercise and sleep & relaxation web app. It detects your breathing in real time through the microphone and auto-tunes binaural beats to help you relax, de-stress, focus, meditate, and fall into deep sleep. No sign-up, no ads, open source — runs right in your browser.",
   "instructions": {
-    "headphones": "Please use <strong>stereo headphones</strong> to achieve the effect of binaural beats in the brain.",
+    "headphones": "Please use <strong>stereo headphones</strong> to achieve the brainwave effect.",
     "microphone": "If you agree to use your <strong>microphone</strong>, please place it close to your mouth and nose, and we will attempt to guide you into a deeper state."
   },
   "volumeRatioDetail": "Beat frequency {binaural}% / Background sound {background}%",
@@ -15,13 +15,13 @@
     "baseFreq": "Base frequency:",
     "audioFile": "Background audio file:",
     "volumeRatio": "Volume ratio:",
-    "breathVisual": "Breathing visualization",
-    "realTimeData": "Real-time data",
-    "systemConfig": "Binaural beat settings",
-    "audioSearch": "🎵 Background music search",
+    "breathVisual": "Breathing Visualization",
+    "realTimeData": "Real-time Data",
+    "systemConfig": "Binaural Beat Settings",
+    "audioSearch": "🎵 Background Music Search",
     "searchPlaceholder": "Search music... (e.g., piano, ocean, meditation)",
     "noResults": "No related music found",
-    "currentMusic": "Currently selected",
+    "currentMusic": "Currently Selected",
     "deviceTest": "Device Test",
     "libraryTab": "Online Sound Library",
     "localFileTab": "Local Files",
@@ -35,7 +35,7 @@
     "monitoring": "🎙️ Monitoring Breathing... Please breathe naturally",
     "stopped": "Monitoring Stopped",
     "error": "❌ Unable to Start:",
-    "unsupported": "⚠️ Your browser does not support microphone functionality, unable to use breathing monitoring",
+    "unsupported": "⚠️ Your browser does not support microphone functionality, breathing monitoring cannot be used",
     "waiting": "To be detected"
   },
   "units": {
@@ -58,10 +58,10 @@
     "monitor": "Breathing Monitoring"
   },
   "binauralDescriptions": {
-    "專注": "10Hz Alpha waves, help to enter a focused state, suitable for work and study",
+    "專注": "10Hz Alpha waves, help enter a focused state, suitable for work and study",
     "冥想": "7Hz Theta waves, guide deep relaxation, suitable for meditation",
     "舒曼共振": "7.83Hz Earth's natural frequency, balance body and mind energy",
-    "睡眠": "3Hz Delta waves, help to fall asleep quickly",
+    "睡眠": "3Hz Delta waves, help fall asleep quickly",
     "提神": "15Hz Beta waves, enhance mental vitality",
     "激發靈感": "40Hz Gamma waves, enhance creative thinking"
   },
@@ -81,7 +81,7 @@
     "items": [
       {
         "q": "What is binaural beats?",
-        "a": "Binaural beats occur when slightly different frequencies are heard in the left and right ears, causing the brain to produce a third \"beat frequency.\" For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into specific states."
+        "a": "Binaural beats occur when slightly different frequencies are heard in each ear, causing the brain to produce a third 'beat frequency'. For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into specific states."
       },
       {
         "q": "Which binaural beat app adjusts with breathing?",
@@ -92,7 +92,7 @@
         "a": "No, you don't. Vuko only requires a pair of stereo headphones and an optional built-in device microphone. No wearable devices, chest straps, or additional hardware are needed—the microphone detects your breathing, and the audio is analyzed entirely within your browser and then discarded."
       },
       {
-        "q": "Why must headphones be used?",
+        "q": "Why do you have to use headphones?",
         "a": "The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can you ensure the separation of the left and right channels, allowing the brain to correctly produce the beat effect."
       },
       {

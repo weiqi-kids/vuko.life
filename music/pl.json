@@ -403,11 +403,11 @@
     "tag": [
       "Gitara",
       "gitara",
-      "akustyczny",
+      "delikatny",
       "akustyczny",
       "relaks"
     ],
-    "desc": "Delikatna gitara jako główny motyw, wspierana przez łagodne podkłady dźwiękowe, odpowiednia do relaksu i koncentracji.",
+    "desc": "Delikatna gitara jako główny motyw, wsparta miękkimi podkładami dźwiękowymi, odpowiednia do relaksu i koncentracji.",
     "embedding": [
       -0.026056861504912376,
       0.025131873786449432,
@@ -1601,7 +1601,7 @@
       "pokój",
       "Natura"
     ],
-    "desc": "Symulacja spokoju i przestrzeni w górach, podkreślająca spokój ducha za pomocą dźwięków naturalnego otoczenia.",
+    "desc": "Symulacja spokoju i przestrzeni w górach, podkreślająca spokój ducha dźwiękami naturalnego otoczenia.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -2397,7 +2397,7 @@
       "witalność",
       "las"
     ],
-    "desc": "Zainspirowane elementem drewna, połączone z dźwiękami wiatru w lesie i naturalnymi dźwiękami drzew, ukazuje witalność.",
+    "desc": "Zainspirowane elementem drewna, łączy dźwięki wiatru w lesie i naturalne dźwięki drzew, ukazując witalność.",
     "embedding": [
       0.030727757140994072,
       0.07157044112682343,
@@ -2795,7 +2795,7 @@
       "Natura",
       "Stabilność"
     ],
-    "desc": "Dźwięki lasu, śpiew ptaków i szum liści tworzą naturalną i stabilną atmosferę.",
+    "desc": "Dźwięki lasu, śpiew ptaków i szelest liści tworzą naturalną i stabilną atmosferę.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3989,7 +3989,7 @@
       "pasja",
       "element"
     ],
-    "desc": "Temat ognia jako elementu, z wplecionymi dźwiękami natury jak płomienie i ognisko, symbolizuje energię i transformację.",
+    "desc": "Temat przewodni to element ognia, wkomponowane są naturalne efekty dźwiękowe jak płomienie i ognisko, symbolizujące energię i transformację.",
     "embedding": [
       0.02452954277396202,
       0.09270686656236649,
@@ -4783,7 +4783,7 @@
       "third eye chakra",
       "Duchowość",
       "czakra",
-      "intuicja"
+      "Intuicja"
     ],
     "desc": "Medytacyjny pejzaż dźwiękowy czakry trzeciego oka, podkreślający otwarcie duchowości i intuicji, odpowiedni do głębokiej świadomości.",
     "embedding": [
@@ -5577,9 +5577,9 @@
     "tag": [
       "Czakra gardła",
       "czakra gardła",
-      "komunikacja",
+      "Komunikacja",
       "czakra",
-      "wolność"
+      "Wolność"
     ],
     "desc": "Pejzaż dźwiękowy tematyczny czakry gardła, tworzący przestrzeń dla płynnego przepływu energii i swobodnej ekspresji.",
     "embedding": [
@@ -7165,7 +7165,7 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "Kamerton dzwonkowy",
+    "title": "Dzwonki i kamerton",
     "tag": [
       "Dzwonki",
       "Kamerton",
@@ -8367,7 +8367,7 @@
       "czakra",
       "Światło"
     ],
-    "desc": "Pejzaż dźwiękowy czakry korony symbolizuje duchowe przebudzenie, wzrost duchowy i światło.",
+    "desc": "Pejzaż dźwiękowy czakry korony symbolizuje przebudzenie duchowe, wzrost duchowy i światło.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,
@@ -8765,7 +8765,7 @@
       "Eteryczny",
       "ambient"
     ],
-    "desc": "Eteryczny pejzaż dźwiękowy z dominującym szumem wiatru, płynący i odległy, idealny do relaksu, medytacji i koncentracji.",
+    "desc": "Eteryczny pejzaż dźwiękowy z dominującym szumem wiatru, płynący w oddali, odpowiedni do relaksu, medytacji i koncentracji.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,
@@ -9160,10 +9160,10 @@
       "Dzwonki wietrzne",
       "wind chime",
       "Eteryczny",
-      "Leczniczy",
+      "Uzdrowienie",
       "relaksujący"
     ],
-    "desc": "Delikatny pejzaż dźwiękowy ozdobiony dźwiękiem dzwonków wietrznych, eteryczny i leczniczy, idealny do relaksu i odprężenia przed snem.",
+    "desc": "Delikatny pejzaż dźwiękowy ozdobiony dźwiękiem dzwonków wietrznych, eteryczny i uzdrawiający, odpowiedni do relaksu i odprężenia przed snem.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

@@ -22,10 +22,10 @@
     "searchPlaceholder": "Recherche de musique... (par exemple : piano, mer, méditation)",
     "noResults": "Aucune musique trouvée",
     "currentMusic": "Sélection actuelle",
-    "deviceTest": "Test d'équipement",
+    "deviceTest": "Test de l'équipement",
     "libraryTab": "Bibliothèque audio en ligne",
     "localFileTab": "Fichier local",
-    "filePrivacyMsg": "Les fichiers audio sont traités uniquement sur cet appareil et ne seront pas téléchargés."
+    "filePrivacyMsg": "Les fichiers audio sont traités uniquement en local et ne seront pas téléchargés."
   },
   "buttons": {
     "start": "🎶 Commencer",
@@ -36,7 +36,7 @@
     "stopped": "Surveillance arrêtée",
     "error": "❌ Impossible de démarrer :",
     "unsupported": "⚠️ Votre navigateur ne prend pas en charge la fonction microphone, la surveillance de la respiration ne peut pas être utilisée",
-    "waiting": "À détecter"
+    "waiting": "En attente de détection"
   },
   "units": {
     "perMin": "fois/min",
@@ -66,9 +66,9 @@
     "激發靈感": "Onde Gamma à 40Hz, stimule la pensée créative"
   },
   "trust": {
-    "free": "Entièrement gratuit, pas besoin d'inscription",
+    "free": "Entièrement gratuit, sans inscription",
     "openSource": "Projet open source",
-    "privacy": "L'audio est traité uniquement en local, pas de téléchargement sur le serveur"
+    "privacy": "L'audio est traité uniquement localement, pas de téléchargement sur le serveur"
   },
   "share": {
     "title": "Partager",
@@ -77,7 +77,7 @@
     "line": "Partager sur LINE"
   },
   "faq": {
-    "title": "Questions fréquentes",
+    "title": "FAQ",
     "items": [
       {
         "q": "Qu'est-ce que la fréquence binaurale ?",
@@ -97,7 +97,7 @@
       },
       {
         "q": "Comment fonctionne la surveillance de la respiration ?",
-        "a": "Le système détecte le son de votre respiration via le microphone, analyse le rythme respiratoire et ajuste automatiquement le battement en fonction de votre état pour vous aider à atteindre plus rapidement l'état souhaité. Tous les traitements audio sont effectués localement et ne sont pas téléchargés."
+        "a": "Le système détecte le son de votre respiration via le microphone, analyse le rythme respiratoire et ajuste automatiquement le battement en fonction de votre état pour vous aider à atteindre plus rapidement l'état souhaité. Tout l'audio est traité localement et n'est pas téléchargé."
       },
       {
         "q": "Cet outil est-il vraiment gratuit ?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Mes données sont-elles en sécurité ?",
-        "a": "Absolument sécurisées. Tous les traitements audio sont effectués dans votre navigateur, nous ne collectons, stockons ou transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
+        "a": "Absolument. Tout le traitement audio se fait dans votre navigateur, nous ne collectons, stockons ou transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
       }
     ]
   }

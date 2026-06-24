@@ -1601,7 +1601,7 @@
       "damai",
       "Alam"
     ],
-    "desc": "Mensimulasikan ketenangan dan keluasan di dalam gunung, menggunakan bunyi persekitaran semula jadi untuk menyokong ketenangan jiwa.",
+    "desc": "Mensimulasikan ketenangan dan keluasan di gunung, menggunakan bunyi persekitaran semula jadi untuk menyokong ketenangan jiwa.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan dan Steel Tongue Drum",
+    "title": "Handpan dan Drum Lidah Keluli",
     "tag": [
       "Handpan",
-      "Steel Tongue Drum",
+      "Drum Lidah Keluli",
       "handpan",
       "steel tongue drum",
       "relaksasi"
     ],
-    "desc": "Melodi utama handpan dan steel tongue drum, melodi yang bulat dan menenangkan, sesuai untuk meditasi mendalam dan relaksasi.",
+    "desc": "Melodi utama handpan dan drum lidah keluli, melodi yang bulat dan menenangkan, sesuai untuk meditasi mendalam dan relaksasi.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2397,7 +2397,7 @@
       "daya hidup",
       "hutan"
     ],
-    "desc": "Diilhamkan oleh elemen kayu, menggabungkan bunyi angin di antara pepohonan dan bunyi semula jadi pokok, menunjukkan daya hidup.",
+    "desc": "Diilhamkan oleh elemen kayu, menggabungkan bunyi angin di antara pokok dan bunyi semula jadi pokok, menunjukkan daya hidup.",
     "embedding": [
       0.030727757140994072,
       0.07157044112682343,
@@ -3189,11 +3189,11 @@
     "tag": [
       "Air",
       "air",
-      "Air mengalir",
+      "Aliran air",
       "Mengalir",
       "Segar"
     ],
-    "desc": "Dengan aliran air dan bunyi sungai sebagai tema utama, menggambarkan suasana hati yang segar dan mengalir.",
+    "desc": "Dengan aliran air dan bunyi sungai sebagai elemen utama, menggambarkan suasana hati yang segar dan mengalir.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -3583,15 +3583,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%B5%B7%E5%BA%95%E8%BC%AA.mp3",
-    "title": "Chakra akar",
+    "title": "Cakra akar",
     "tag": [
-      "Chakra akar",
-      "chakra akar",
+      "Cakra akar",
+      "cakra akar",
       "Stabil",
-      "chakra",
+      "cakra",
       "Asas"
     ],
-    "desc": "Tema chakra akar, resonans frekuensi rendah mewujudkan medan tenaga yang selamat dan stabil, sesuai untuk meditasi.",
+    "desc": "Tema cakra akar, resonans frekuensi rendah mewujudkan medan tenaga yang selamat dan stabil, sesuai untuk meditasi.",
     "embedding": [
       -0.01075701229274273,
       0.07280674576759338,
@@ -3984,7 +3984,7 @@
     "title": "Api",
     "tag": [
       "Api",
-      "fire",
+      "api",
       "tenaga",
       "semangat",
       "elemen"
@@ -4381,11 +4381,11 @@
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
     "title": "Melodi Utama Bunyi Persekitaran",
     "tag": [
-      "bunyi persekitaran",
-      "nature sounds",
+      "Bunyi Persekitaran",
+      "bunyi alam",
       "bunyi persekitaran",
       "semula jadi tulen",
-      "ambient"
+      "ambien"
     ],
     "desc": "Landskap bunyi persekitaran semula jadi tulen, tanpa sebarang alat muzik atau suara manusia, sesuai untuk meditasi, relaksasi, dan penyembuhan semula jadi.",
     "embedding": [
@@ -4780,7 +4780,7 @@
     "title": "Chakra Mata Ketiga",
     "tag": [
       "Chakra Mata Ketiga",
-      "third eye chakra",
+      "chakra mata ketiga",
       "Kerohanian",
       "chakra",
       "Intuisi"
@@ -5175,15 +5175,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E8%96%A9%E6%BB%BF%E9%BC%93%E4%BD%8E%E9%A0%BB%E9%BC%93.mp3",
-    "title": "Gendang shamanik frekuensi rendah",
+    "title": "Gendang frekuensi rendah shaman",
     "tag": [
-      "Gendang shamanik",
+      "Gendang shaman",
       "Gendang frekuensi rendah",
-      "gendang shamanik",
+      "gendang shaman",
       "gendang bingkai",
       "Pembumian"
     ],
-    "desc": "Ritma stabil gendang shamanik frekuensi rendah, membantu memasuki meditasi mendalam dan kesedaran tubuh.",
+    "desc": "Rentak stabil gendang frekuensi rendah shaman membantu memasuki meditasi mendalam dan kesedaran tubuh.",
     "embedding": [
       0.03368259221315384,
       0.02979731373488903,
@@ -5581,7 +5581,7 @@
       "chakra",
       "Kebebasan"
     ],
-    "desc": "Pemandangan bunyi bertema chakra tekak, mewujudkan ruang aliran tenaga yang lancar dan ekspresi bebas.",
+    "desc": "Pemandangan bunyi bertema chakra tekak, mewujudkan ruang untuk aliran tenaga yang lancar dan ekspresi bebas.",
     "embedding": [
       7.947271660668775e-05,
       0.0764046162366867,
@@ -5979,7 +5979,7 @@
       "chakra",
       "aliran"
     ],
-    "desc": "Landskap bunyi chakra sakral, melambangkan aliran emosi, kreativiti dan tenaga keseronokan.",
+    "desc": "Landskap bunyi chakra sakral, melambangkan aliran emosi, kreativiti, dan tenaga keseronokan.",
     "embedding": [
       -0.006283709779381752,
       0.07302704453468323,
@@ -6369,15 +6369,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%87%91.mp3",
-    "title": "Logam",
+    "title": "Emas",
     "tag": [
-      "Logam",
+      "Emas",
       "logam",
       "kesucian",
-      "jernih",
+      "kejernihan",
       "kejernihan"
     ],
-    "desc": "Tema elemen logam, bunyi yang jernih dan terang, mencipta suasana kesucian dan ketenangan.",
+    "desc": "Tema elemen logam, bunyi yang jernih dan terang, mencipta suasana yang suci dan etereal.",
     "embedding": [
       -0.05469849705696106,
       0.10919877886772156,
@@ -7173,7 +7173,7 @@
       "garpu tala",
       "Ethereal"
     ],
-    "desc": "Bunyi etereal glockenspiel dan garpu tala, sesuai untuk meditasi, pembersihan dan fokus.",
+    "desc": "Bunyi ethereal glockenspiel dan garpu tala, sesuai untuk meditasi, pembersihan dan fokus.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -7571,7 +7571,7 @@
       "xiao",
       "Mengalir"
     ],
-    "desc": "Melodi utama seruling dan xiao, mengalir jauh, mencipta suasana hati yang etereal dan mendalam.",
+    "desc": "Melodi utama seruling dan xiao, mengalir jauh, mencipta suasana hati yang ethereal dan mendalam.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -8765,7 +8765,7 @@
       "Ethereal",
       "ambient"
     ],
-    "desc": "Landskap bunyi ethereal yang berfokus pada bunyi angin, mengalir jauh, sesuai untuk bersantai, meditasi, dan fokus.",
+    "desc": "Landskap bunyi ethereal yang didominasi oleh bunyi angin, mengalir jauh, sesuai untuk bersantai, meditasi, dan fokus.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,

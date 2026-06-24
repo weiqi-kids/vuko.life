@@ -1601,7 +1601,7 @@
       "paix",
       "Nature"
     ],
-    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons naturels pour favoriser la paix intérieure.",
+    "desc": "Simule la tranquillité et l'immensité des montagnes, utilisant les sons de l'environnement naturel pour favoriser la paix intérieure.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan et steel tongue drum",
+    "title": "Handpan et tambour de langue en acier",
     "tag": [
       "Handpan",
-      "Steel tongue drum",
+      "Tambour de langue en acier",
       "handpan",
-      "steel tongue drum",
+      "tambour de langue en acier",
       "Relaxation"
     ],
-    "desc": "Mélodie principale de handpan et steel tongue drum, une mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
+    "desc": "Mélodie principale de handpan et de tambour de langue en acier, une mélodie douce et éthérée, idéale pour la méditation profonde et la relaxation.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -3189,7 +3189,7 @@
     "tag": [
       "Eau",
       "eau",
-      "Eau courante",
+      "Écoulement",
       "Flux",
       "Fraîcheur"
     ],
@@ -7173,7 +7173,7 @@
       "diapason",
       "Éthéré"
     ],
-    "desc": "Les sons éthérés du glockenspiel et du diapason, parfaits pour la méditation, le nettoyage et la concentration.",
+    "desc": "Les sons éthérés du glockenspiel et du diapason, idéaux pour la méditation, le nettoyage et la concentration.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -7969,7 +7969,7 @@
       "nature",
       "énergie"
     ],
-    "desc": "Les sons de tonnerre et de pluie naturelle créent un paysage sonore plein d'énergie et de libération.",
+    "desc": "Les sons de tonnerre et de pluie naturelle créent un paysage sonore rempli d'énergie et de libération.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8367,7 +8367,7 @@
       "chakra",
       "lumière"
     ],
-    "desc": "Paysage sonore sur le thème du chakra couronne, symbolisant l'éveil spirituel, l'élévation spirituelle et la lumière.",
+    "desc": "Paysage sonore du chakra couronne, symbolisant l'éveil spirituel, l'élévation spirituelle et la lumière.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,

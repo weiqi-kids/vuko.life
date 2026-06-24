@@ -1,6 +1,6 @@
 {
   "title": "Com a voz, encontre uma versão melhor de si mesmo",
-  "subtitle": "🤖 Instruções de Uso",
+  "subtitle": "🤖 Instruções de uso",
   "description": "O sistema monitorará seu estado de respiração em tempo real e ajustará automaticamente a frequência de batida para guiá-lo a diferentes estados de consciência:",
   "seoKeywords": "Exercícios de respiração para dormir e relaxar · Binaural beats grátis",
   "seoDescription": "Vuko é um app web gratuito de respiração, relaxamento e sono. Ele detecta sua respiração em tempo real pelo microfone e ajusta os binaural beats para ajudar você a relaxar, aliviar o estresse, focar, meditar e dormir profundamente. Sem cadastro, sem anúncios e de código aberto, direto no navegador.",
@@ -18,7 +18,7 @@
     "breathVisual": "Visualização da respiração",
     "realTimeData": "Dados em tempo real",
     "systemConfig": "Configuração de batidas binaurais",
-    "audioSearch": "🎵 Pesquisa de Música de Fundo",
+    "audioSearch": "🎵 Pesquisa de música de fundo",
     "searchPlaceholder": "Procurar música... (por exemplo: piano, mar, meditação)",
     "noResults": "Nenhuma música encontrada",
     "currentMusic": "Seleção atual",
@@ -58,9 +58,9 @@
     "monitor": "Monitoramento da respiração"
   },
   "binauralDescriptions": {
-    "專注": "Onda Alpha de 10Hz, ajuda a entrar em estado de foco, ideal para trabalho e estudo",
-    "冥想": "Onda Theta de 7Hz, guia para relaxamento profundo, ideal para meditação sentada",
-    "舒曼共振": "Frequência natural da Terra de 7.83Hz, equilibra a energia do corpo e da mente",
+    "專注": "Onda Alpha de 10Hz, ajuda a entrar em estado de foco, adequada para trabalho e estudo",
+    "冥想": "Onda Theta de 7Hz, guia para relaxamento profundo, adequada para meditação sentada",
+    "舒曼共振": "Frequência natural da Terra de 7,83Hz, equilibra a energia do corpo e da mente",
     "睡眠": "Onda Delta de 3Hz, ajuda a adormecer rapidamente",
     "提神": "Onda Beta de 15Hz, aumenta a vitalidade mental",
     "激發靈感": "Onda Gamma de 40Hz, melhora o pensamento criativo"
@@ -97,7 +97,7 @@
       },
       {
         "q": "Como funciona o monitoramento da respiração?",
-        "a": "O sistema detecta o som da sua respiração através do microfone, analisa o ritmo respiratório e ajusta automaticamente o batimento de acordo com seu estado, ajudando você a atingir o estado desejado mais rapidamente. Todo o áudio é processado localmente e não é enviado."
+        "a": "O sistema detecta o som da sua respiração através do microfone, analisa o ritmo respiratório e ajusta automaticamente o batimento de acordo com seu estado, ajudando você a entrar mais rapidamente no estado desejado. Todo o áudio é processado localmente e não é enviado."
       },
       {
         "q": "Esta ferramenta é realmente gratuita?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Meus dados estão seguros?",
-        "a": "Absolutamente seguros. Todo o processamento de áudio é feito no seu navegador, não coletamos, armazenamos ou transmitimos nenhum dado de áudio. É uma aplicação puramente front-end, sem servidor de back-end."
+        "a": "Absolutamente seguros. Todo o processamento de áudio é feito no seu navegador, e não coletamos, armazenamos ou transmitimos nenhum dado de áudio. É uma aplicação puramente frontend, sem servidor backend."
       }
     ]
   }

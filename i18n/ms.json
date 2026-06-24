@@ -25,7 +25,7 @@
     "deviceTest": "Ujian Peralatan",
     "libraryTab": "Perpustakaan Audio Dalam Talian",
     "localFileTab": "Fail Tempatan",
-    "filePrivacyMsg": "Fail audio hanya diproses di mesin ini, tidak akan dimuat naik."
+    "filePrivacyMsg": "Fail audio hanya diproses secara tempatan, tidak akan dimuat naik."
   },
   "buttons": {
     "start": "🎶 Mula",
@@ -59,15 +59,15 @@
   },
   "binauralDescriptions": {
     "專注": "Gelombang Alpha 10Hz, membantu memasuki keadaan fokus, sesuai untuk kerja dan pembelajaran",
-    "冥想": "Gelombang Theta 7Hz, membimbing relaksasi mendalam, sesuai untuk meditasi duduk",
+    "冥想": "Gelombang Theta 7Hz, membimbing relaksasi mendalam, sesuai untuk meditasi",
     "舒曼共振": "Frekuensi semula jadi bumi 7.83Hz, mengimbangi tenaga badan dan minda",
     "睡眠": "Gelombang Delta 3Hz, membantu tidur dengan cepat",
     "提神": "Gelombang Beta 15Hz, meningkatkan kecergasan mental",
     "激發靈感": "Gelombang Gamma 40Hz, meningkatkan pemikiran kreatif"
   },
   "trust": {
-    "free": "Sepenuhnya percuma, tiada pendaftaran diperlukan",
-    "openSource": "Projek Sumber Terbuka",
+    "free": "Sepenuhnya percuma, tidak perlu pendaftaran",
+    "openSource": "Projek sumber terbuka",
     "privacy": "Audio hanya diproses secara tempatan, tidak dimuat naik ke pelayan"
   },
   "share": {
@@ -81,15 +81,15 @@
     "items": [
       {
         "q": "Apakah itu frekuensi binaural?",
-        "a": "Frekuensi binaural adalah apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang boleh membantu membimbing gelombang otak memasuki keadaan tertentu."
+        "a": "Frekuensi binaural berlaku apabila telinga kiri dan kanan mendengar bunyi dengan frekuensi yang sedikit berbeza, otak akan menghasilkan 'frekuensi binaural' ketiga. Sebagai contoh, telinga kiri 200Hz, telinga kanan 210Hz, otak akan merasakan frekuensi binaural 10Hz, yang boleh membantu membimbing gelombang otak memasuki keadaan tertentu."
       },
       {
         "q": "Aplikasi binaural beats mana yang menyesuaikan dengan pernafasan?",
-        "a": "Vuko adalah aplikasi web percuma dan sumber terbuka yang menyesuaikan binaural beats secara langsung mengikut pernafasan anda. Setelah anda bersetuju, ia akan mengesan ritma pernafasan anda melalui mikrofon peranti dan terus menyesuaikan binaural beats mengikut keadaan semasa anda — tiada alat binaural beats lain di pelayar yang menggabungkan beats dengan pemantauan pernafasan masa nyata seperti ini. Semua pengiraan dilakukan secara lokal, tiada rakaman, tiada muat naik."
+        "a": "Vuko adalah aplikasi web percuma dan sumber terbuka yang menyesuaikan binaural beats secara masa nyata mengikut pernafasan anda. Setelah anda bersetuju, ia akan mengesan ritma pernafasan anda melalui mikrofon peranti dan terus menyesuaikan binaural beats mengikut keadaan semasa anda — tiada alat binaural beats lain di pelayar yang menggabungkan beats dengan pemantauan pernafasan masa nyata seperti ini. Semua pengiraan dilakukan secara tempatan, tiada rakaman, tiada muat naik."
       },
       {
-        "q": "Adakah penggunaan binaural beats adaptif pernafasan memerlukan peranti boleh pakai atau jam tangan pintar?",
-        "a": "Tidak perlu. Vuko hanya memerlukan sepasang fon kepala stereo, dan (pilihan) mikrofon terbina dalam peranti. Tiada keperluan untuk peranti boleh pakai, tali dada atau perkakasan tambahan — mikrofon akan mengesan pernafasan anda, dan audio dianalisis sepenuhnya dalam pelayar anda sebelum dibuang."
+        "q": "Adakah anda memerlukan peranti boleh pakai atau jam tangan pintar untuk menggunakan binaural beats adaptif pernafasan?",
+        "a": "Tidak perlu. Vuko hanya memerlukan sepasang fon kepala stereo dan (pilihan) mikrofon terbina dalam peranti. Tiada keperluan untuk peranti boleh pakai, tali dada atau perkakasan tambahan — mikrofon akan mengesan pernafasan anda, dan audio dianalisis sepenuhnya dalam pelayar anda sebelum dibuang."
       },
       {
         "q": "Mengapa perlu menggunakan fon kepala?",
@@ -97,7 +97,7 @@
       },
       {
         "q": "Bagaimana pemantauan pernafasan berfungsi?",
-        "a": "Sistem mengesan bunyi pernafasan anda melalui mikrofon, menganalisis ritma pernafasan, dan secara automatik menyesuaikan binaural beats mengikut keadaan anda, membantu anda mencapai keadaan sasaran dengan lebih cepat. Semua audio diproses secara lokal dan tidak akan dimuat naik."
+        "a": "Sistem mengesan bunyi pernafasan anda melalui mikrofon, menganalisis ritma pernafasan, dan secara automatik menyesuaikan binaural beats mengikut keadaan anda, membantu anda mencapai keadaan sasaran dengan lebih cepat. Semua audio diproses secara tempatan dan tidak akan dimuat naik."
       },
       {
         "q": "Adakah alat ini benar-benar percuma?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Adakah data saya selamat?",
-        "a": "Sangat selamat. Semua pemprosesan audio dilakukan dalam pelayar anda, kami tidak mengumpul, menyimpan atau menghantar sebarang data audio. Ini adalah aplikasi frontend sepenuhnya, tiada pelayan backend."
+        "a": "Sangat selamat. Semua pemprosesan audio dilakukan dalam pelayar anda, kami tidak mengumpul, menyimpan, atau menghantar sebarang data audio. Ini adalah aplikasi frontend sepenuhnya, tiada pelayan backend."
       }
     ]
   }

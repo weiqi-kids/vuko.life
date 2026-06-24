@@ -9,7 +9,7 @@
       "méditation",
       "Guérison"
     ],
-    "desc": "Avec le son du bol chantant comme mélodie principale, résonance douce, adapté pour la méditation et les paysages sonores de guérison.",
+    "desc": "Avec le son du bol chantant comme mélodie principale, résonance douce, adapté pour des paysages sonores de méditation et de guérison.",
     "embedding": [
       0.06329084187746048,
       0.050360459834337234,
@@ -1199,9 +1199,9 @@
     "tag": [
       "Chakra du plexus solaire",
       "chakra du plexus solaire",
-      "énergie",
+      "Énergie",
       "chakra",
-      "confiance en soi"
+      "Confiance en soi"
     ],
     "desc": "Thème du chakra du plexus solaire, symbolisant la vitalité, la volonté et le centre énergétique, avec une ambiance chaleureuse et lumineuse.",
     "embedding": [
@@ -1597,11 +1597,11 @@
     "tag": [
       "Montagne",
       "montagne",
-      "sérénité",
+      "Tranquillité",
       "paix",
       "Nature"
     ],
-    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons de l'environnement naturel pour favoriser la paix intérieure.",
+    "desc": "Simule la tranquillité et l'immensité des montagnes, utilisant les sons naturels pour favoriser la paix intérieure.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -1991,15 +1991,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E6%89%8B%E7%A2%9F%E7%A9%BA%E9%9D%88%E9%BC%93.mp3",
-    "title": "Handpan et steel tongue drum",
+    "title": "Handpan et tambour à languettes",
     "tag": [
       "Handpan",
-      "Steel tongue drum",
+      "Tambour à languettes",
       "handpan",
-      "steel tongue drum",
-      "Relaxation"
+      "tambour à languettes en acier",
+      "relaxation"
     ],
-    "desc": "Mélodie principale de handpan et steel tongue drum, mélodie ronde et éthérée, idéale pour la méditation profonde et la relaxation.",
+    "desc": "Mélodie principale de handpan et de tambour à languettes, une mélodie douce et éthérée, idéale pour la méditation profonde et la relaxation.",
     "embedding": [
       -0.07905334234237671,
       -0.02596486732363701,
@@ -2393,11 +2393,11 @@
     "tag": [
       "Bois",
       "bois",
-      "Nature",
-      "Vitalité",
+      "nature",
+      "vitalité",
       "forêt"
     ],
-    "desc": "Inspiré par l'élément bois, combiné avec le son naturel du vent dans la forêt et des arbres, exprimant la vitalité.",
+    "desc": "Inspiré par l'élément bois, combinant le son du vent dans la forêt et les sons naturels des arbres, exprimant la vitalité.",
     "embedding": [
       0.030727757140994072,
       0.07157044112682343,
@@ -4785,7 +4785,7 @@
       "chakra",
       "intuition"
     ],
-    "desc": "Paysage sonore de méditation du chakra du troisième œil, mettant l'accent sur l'ouverture de la spiritualité et de l'intuition, adapté à une prise de conscience profonde.",
+    "desc": "Paysage sonore de méditation du troisième œil, mettant l'accent sur l'ouverture de la spiritualité et de l'intuition, adapté à une prise de conscience profonde.",
     "embedding": [
       0.0041775633580982685,
       -0.02530338615179062,
@@ -6771,8 +6771,8 @@
     "tag": [
       "piano",
       "piano",
-      "doux",
-      "harmonie",
+      "Doux",
+      "Harmonieux",
       "relaxant"
     ],
     "desc": "Mélodie principale douce au piano, accompagnée d'un accompagnement apaisant, apportant une sensation de paix et de confort.",
@@ -7165,15 +7165,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%90%98%E7%90%B4%E9%9F%B3%E5%8F%89.mp3",
-    "title": "diapason de glockenspiel",
+    "title": "Diapason de glockenspiel",
     "tag": [
+      "Glockenspiel",
+      "Diapason",
       "glockenspiel",
       "diapason",
-      "glockenspiel",
-      "diapason",
-      "éthéré"
+      "Éthéré"
     ],
-    "desc": "Les sons éthérés du glockenspiel et du diapason sont parfaits pour la méditation, le nettoyage et la concentration.",
+    "desc": "Les sons éthérés du glockenspiel et du diapason, idéaux pour la méditation, le nettoyage et la concentration.",
     "embedding": [
       -0.062186699360609055,
       0.04681738466024399,
@@ -7563,13 +7563,13 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "flûte et xiao",
+    "title": "Flûte et xiao",
     "tag": [
+      "Flûte",
+      "Xiao",
       "flûte",
       "xiao",
-      "flûte",
-      "xiao",
-      "flux"
+      "Fluide"
     ],
     "desc": "Mélodie principale de flûte et de xiao, fluide et lointaine, créant une ambiance éthérée et profonde.",
     "embedding": [
@@ -7969,7 +7969,7 @@
       "nature",
       "énergie"
     ],
-    "desc": "Les sons du tonnerre et de la pluie naturelle créent un paysage sonore plein d'énergie et de libération.",
+    "desc": "Les sons de tonnerre et de pluie naturelle créent un paysage sonore plein d'énergie et de libération.",
     "embedding": [
       0.03458816185593605,
       0.02794872224330902,
@@ -8367,7 +8367,7 @@
       "chakra",
       "lumière"
     ],
-    "desc": "Le paysage sonore du chakra couronne symbolise l'éveil spirituel, l'élévation spirituelle et la lumière.",
+    "desc": "Paysage sonore du chakra couronne, symbolisant l'éveil spirituel, l'élévation spirituelle et la lumière.",
     "embedding": [
       -0.007530557457357645,
       0.08393403142690659,

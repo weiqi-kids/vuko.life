@@ -5,7 +5,7 @@
   "seoKeywords": "Exercice de respiration pour dormir et se détendre · Binaural beats gratuit",
   "seoDescription": "Vuko est une appli web gratuite de respiration, de relaxation et de sommeil. Elle détecte votre respiration en temps réel avec le micro et ajuste les binaural beats pour vous aider à relaxer, déstresser, vous concentrer, méditer et dormir profondément. Sans inscription, sans pub, à code source ouvert, directement dans le navigateur.",
   "instructions": {
-    "headphones": "Veuillez utiliser des <strong>écouteurs stéréo</strong> pour obtenir l'effet de fréquence des battements dans le cerveau.",
+    "headphones": "Veuillez utiliser des <strong>écouteurs stéréo</strong> pour obtenir l'effet des battements binauraux dans le cerveau.",
     "microphone": "Si vous acceptez d'utiliser votre <strong>microphone</strong>, veuillez le rapprocher de votre bouche et de votre nez, nous essaierons de vous guider vers un état plus profond."
   },
   "volumeRatioDetail": "Fréquence des battements {binaural}% / Bruit de fond {background}%",
@@ -17,7 +17,7 @@
     "volumeRatio": "Proportion du volume :",
     "breathVisual": "Visualisation de la respiration",
     "realTimeData": "Données en temps réel",
-    "systemConfig": "Paramètres de fréquence binaurale",
+    "systemConfig": "Paramètres des battements binauraux",
     "audioSearch": "🎵 Recherche de musique de fond",
     "searchPlaceholder": "Recherche de musique... (par exemple : piano, mer, méditation)",
     "noResults": "Aucune musique trouvée",
@@ -25,7 +25,7 @@
     "deviceTest": "Test de l'équipement",
     "libraryTab": "Bibliothèque audio en ligne",
     "localFileTab": "Fichier local",
-    "filePrivacyMsg": "Les fichiers audio sont traités uniquement en local et ne seront pas téléchargés."
+    "filePrivacyMsg": "Les fichiers audio sont traités uniquement sur l'appareil local et ne seront pas téléchargés."
   },
   "buttons": {
     "start": "🎶 Commencer",
@@ -58,17 +58,17 @@
     "monitor": "Surveillance de la respiration"
   },
   "binauralDescriptions": {
-    "專注": "Onde Alpha à 10Hz, aide à entrer dans un état de concentration, idéal pour le travail et l'étude",
-    "冥想": "Onde Thêta à 7Hz, guide vers une relaxation profonde, idéal pour la méditation assise",
-    "舒曼共振": "Fréquence naturelle de la Terre à 7,83Hz, équilibre l'énergie du corps et de l'esprit",
-    "睡眠": "Onde Delta à 3Hz, aide à s'endormir rapidement",
-    "提神": "Onde Bêta à 15Hz, améliore la vitalité mentale",
-    "激發靈感": "Onde Gamma à 40Hz, améliore la pensée créative"
+    "專注": "Onde Alpha à 10 Hz, aide à entrer dans un état de concentration, adaptée au travail et à l'étude",
+    "冥想": "Onde Thêta à 7 Hz, guide vers une relaxation profonde, adaptée à la méditation assise",
+    "舒曼共振": "Fréquence naturelle de la Terre à 7,83 Hz, équilibre l'énergie du corps et de l'esprit",
+    "睡眠": "Onde Delta à 3 Hz, aide à s'endormir rapidement",
+    "提神": "Onde Bêta à 15 Hz, améliore la vitalité mentale",
+    "激發靈感": "Onde Gamma à 40 Hz, améliore la pensée créative"
   },
   "trust": {
     "free": "Entièrement gratuit, sans inscription",
     "openSource": "Projet open source",
-    "privacy": "L'audio est traité localement, sans téléchargement sur le serveur"
+    "privacy": "L'audio est traité uniquement localement, sans téléchargement sur le serveur"
   },
   "share": {
     "title": "Partager",
@@ -81,11 +81,11 @@
     "items": [
       {
         "q": "Qu'est-ce que la fréquence binaurale ?",
-        "a": "La fréquence binaurale se produit lorsque les oreilles gauche et droite entendent des sons de fréquences légèrement différentes, le cerveau génère une troisième « fréquence de battement ». Par exemple, l'oreille gauche entend 200Hz et l'oreille droite 210Hz, le cerveau perçoit une fréquence de battement de 10Hz, ce qui peut aider à guider les ondes cérébrales vers un état spécifique."
+        "a": "La fréquence binaurale se produit lorsque les oreilles gauche et droite entendent des sons de fréquences légèrement différentes, le cerveau génère une troisième « fréquence de battement ». Par exemple, l'oreille gauche entend 200 Hz et l'oreille droite 210 Hz, le cerveau perçoit une fréquence de battement de 10 Hz, ce qui peut aider à guider les ondes cérébrales vers un état spécifique."
       },
       {
         "q": "Quelle application de battement binaural s'ajuste avec la respiration ?",
-        "a": "Vuko est une application web gratuite et open-source qui ajuste en temps réel le battement binaural en fonction de votre respiration. Avec votre consentement, elle détecte le rythme de votre respiration via le microphone de l'appareil et ajuste continuellement le battement à votre état actuel. Actuellement, aucun autre outil de battement binaural sur navigateur ne combine battement et surveillance de la respiration en temps réel de cette manière. Tous les calculs sont effectués localement, sans enregistrement ni téléchargement."
+        "a": "Vuko est une application web gratuite et open-source qui ajuste en temps réel le battement binaural en fonction de votre respiration. Avec votre consentement, elle détecte le rythme de votre respiration via le microphone de l'appareil et ajuste continuellement le battement à votre état actuel. Actuellement, aucun autre outil de battement binaural sur navigateur ne combine le battement avec la surveillance en temps réel de la respiration de cette manière. Tous les calculs sont effectués localement, sans enregistrement ni téléchargement."
       },
       {
         "q": "Faut-il un appareil portable ou une montre intelligente pour utiliser le battement adaptatif à la respiration ?",

@@ -1,5 +1,5 @@
 {
-  "title": "Con la voz, te encuentras con una mejor versión de ti mismo",
+  "title": "Con la voz, te encuentras con un mejor tú",
   "subtitle": "🤖 Instrucciones de uso",
   "description": "El sistema monitoreará en tiempo real tu estado de respiración y ajustará automáticamente la frecuencia de los latidos para guiarte a diferentes estados de conciencia:",
   "seoKeywords": "Ejercicios de respiración para dormir y relajarse · Binaural beats gratis",
@@ -23,9 +23,9 @@
     "noResults": "No se encontró música relacionada",
     "currentMusic": "Selección actual",
     "deviceTest": "Prueba de equipo",
-    "libraryTab": "Biblioteca de sonidos en línea",
+    "libraryTab": "Biblioteca de audio en línea",
     "localFileTab": "Archivo local",
-    "filePrivacyMsg": "El archivo de audio se procesa solo en el dispositivo local, no se cargará."
+    "filePrivacyMsg": "El archivo de audio se procesa solo en el dispositivo y no se subirá."
   },
   "buttons": {
     "start": "🎶 Comenzar",
@@ -66,7 +66,7 @@
     "激發靈感": "Onda Gamma de 40Hz, mejora el pensamiento creativo"
   },
   "trust": {
-    "free": "Completamente gratis, no se requiere registro",
+    "free": "Completamente gratis, no requiere registro",
     "openSource": "Proyecto de código abierto",
     "privacy": "El audio se procesa solo localmente, no se sube al servidor"
   },
@@ -81,7 +81,7 @@
     "items": [
       {
         "q": "¿Qué es la frecuencia binaural?",
-        "a": "La frecuencia binaural ocurre cuando los oídos izquierdo y derecho escuchan sonidos de frecuencias ligeramente diferentes, el cerebro genera una tercera \"frecuencia binaural\". Por ejemplo, si el oído izquierdo escucha 200Hz y el derecho 210Hz, el cerebro percibirá una frecuencia binaural de 10Hz, lo que puede ayudar a guiar las ondas cerebrales a un estado específico."
+        "a": "La frecuencia binaural es cuando el cerebro genera un tercer \"batido\" al escuchar sonidos de frecuencias ligeramente diferentes en cada oído. Por ejemplo, si el oído izquierdo escucha 200Hz y el derecho 210Hz, el cerebro percibirá un batido de 10Hz, lo que puede ayudar a guiar las ondas cerebrales a un estado específico."
       },
       {
         "q": "¿Qué aplicación de latidos binaurales se ajusta a la respiración?",
@@ -89,7 +89,7 @@
       },
       {
         "q": "¿Se necesita un dispositivo portátil o un reloj inteligente para usar la frecuencia de latidos adaptativa a la respiración?",
-        "a": "No es necesario. Vuko solo requiere unos auriculares estéreo y un micrófono incorporado en el dispositivo (opcional). No se necesita ningún dispositivo portátil, correa de pecho ni hardware adicional. El micrófono detecta tu respiración y el audio se analiza completamente en tu navegador antes de ser descartado."
+        "a": "No es necesario. Vuko solo requiere unos auriculares estéreo y un micrófono incorporado en el dispositivo (opcional). No se necesita ningún dispositivo portátil, correa para el pecho ni hardware adicional. El micrófono detecta tu respiración y el audio se analiza completamente en tu navegador y luego se descarta."
       },
       {
         "q": "¿Por qué es necesario usar auriculares?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "¿Mis datos están seguros?",
-        "a": "Absolutamente seguros. Todo el procesamiento de audio se realiza en tu navegador, no recopilamos, almacenamos ni transmitimos ningún dato de audio. Es una aplicación completamente de frontend, sin servidor backend."
+        "a": "Absolutamente seguros. Todo el procesamiento de audio se realiza en tu navegador. No recopilamos, almacenamos ni transmitimos ningún dato de audio. Es una aplicación completamente de frontend, sin servidor backend."
       }
     ]
   }

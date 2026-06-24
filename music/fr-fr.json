@@ -1201,7 +1201,7 @@
       "chakra du plexus solaire",
       "Énergie",
       "chakra",
-      "Confiance"
+      "Confiance en soi"
     ],
     "desc": "Thème du chakra du plexus solaire, symbolisant la vitalité, la volonté et le centre énergétique, avec une ambiance chaleureuse et lumineuse.",
     "embedding": [
@@ -1601,7 +1601,7 @@
       "paix",
       "Nature"
     ],
-    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons de l'environnement naturel pour favoriser la paix intérieure.",
+    "desc": "Simule la tranquillité et l'immensité des montagnes, en utilisant les sons naturels pour favoriser la paix intérieure.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -2795,7 +2795,7 @@
       "Nature",
       "Stabilité"
     ],
-    "desc": "Paysage sonore de la forêt, chant d'oiseaux et bruissement des feuilles, créant une atmosphère naturelle et stable.",
+    "desc": "Paysage sonore de la forêt, avec chants d'oiseaux et bruissement des feuilles, créant une atmosphère naturelle et stable.",
     "embedding": [
       0.06267277151346207,
       0.05141540616750717,
@@ -3193,7 +3193,7 @@
       "Flux",
       "Fraîcheur"
     ],
-    "desc": "Avec le flux de l'eau et le son du ruisseau comme éléments principaux, il présente un état d'esprit frais et fluide.",
+    "desc": "Avec le flux de l'eau et le son du ruisseau comme éléments principaux, cela présente un état d'esprit frais et fluide.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -3984,7 +3984,7 @@
     "title": "Feu",
     "tag": [
       "Feu",
-      "feu",
+      "fire",
       "énergie",
       "passion",
       "élément"
@@ -4379,10 +4379,10 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E7%92%B0%E5%A2%83%E8%81%B2%E4%B8%BB%E6%97%8B%E5%BE%8B.mp3",
-    "title": "Mélodie principale des sons de la nature",
+    "title": "Mélodie principale des sons de l'environnement",
     "tag": [
       "sons de la nature",
-      "sons de la nature",
+      "nature sounds",
       "sons ambiants",
       "nature pure",
       "ambiant"
@@ -4780,7 +4780,7 @@
     "title": "Chakra du troisième œil",
     "tag": [
       "Chakra du troisième œil",
-      "chakra du troisième œil",
+      "third eye chakra",
       "Spiritualité",
       "chakra",
       "Intuition"
@@ -5974,7 +5974,7 @@
     "title": "chakra sacré",
     "tag": [
       "chakra sacré",
-      "chakra sacré",
+      "sacral chakra",
       "émotion",
       "chakra",
       "flux"
@@ -6372,10 +6372,10 @@
     "title": "métal",
     "tag": [
       "métal",
-      "métal",
+      "metal",
       "pureté",
       "clarté",
-      "clarté"
+      "clarity"
     ],
     "desc": "Thème de l'élément métal, avec un timbre clair et lumineux, créant une atmosphère pure et éthérée.",
     "embedding": [
@@ -9160,10 +9160,10 @@
       "Carillon",
       "carillon éolien",
       "Éthéré",
-      "Guérison",
+      "Apaisant",
       "relaxant"
     ],
-    "desc": "Un paysage sonore doux ponctué par le son cristallin des carillons, éthéré et guérisseur, idéal pour la détente et l'apaisement avant le coucher.",
+    "desc": "Un paysage sonore doux ponctué par le son cristallin des carillons, éthéré et apaisant, idéal pour la détente et la relaxation avant le coucher.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

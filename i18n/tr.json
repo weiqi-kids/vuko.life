@@ -5,10 +5,10 @@
   "seoKeywords": "Uyku, Odaklanma ve Rahatlama için Nefes Egzersizi | Binaural Beats",
   "seoDescription": "Vuko, ücretsiz bir nefes, uyku ve rahatlama uygulamasıdır. Nefesinizi mikrofonla gerçek zamanlı algılar ve binaural beats sesini otomatik ayarlayarak rahatlamanıza, stres atmanıza, odaklanmanıza, meditasyon yapmanıza ve derin uykuya dalmanıza yardımcı olur. Kayıt yok, reklam yok, açık kaynak — tarayıcıda.",
   "instructions": {
-    "headphones": "Beyin vuruşu etkisini elde etmek için lütfen <strong>stereo kulaklık</strong> kullanın.",
-    "microphone": "Mikrofonunuzu kullanmayı kabul ederseniz, lütfen mikrofonu ağız ve burun yakınında tutun, sizi daha derin bir duruma yönlendirmeye çalışacağız."
+    "headphones": "Beyin dalgası etkisini elde etmek için lütfen <strong>stereo kulaklık</strong> kullanın.",
+    "microphone": "<strong>Mikrofonunuzu</strong> kullanmayı kabul ederseniz, mikrofonu ağız ve burun bölgenize yaklaştırın, sizi daha derin bir duruma yönlendirmeye çalışacağız."
   },
-  "volumeRatioDetail": "Vuruş frekansı {binaural}% / Arka plan sesi {background}%",
+  "volumeRatioDetail": "Frekans {binaural}% / Arka plan sesi {background}%",
   "labels": {
     "breathRate": "Nefes Hızı:",
     "noiseLevel": "Arka Plan Gürültüsü:",
@@ -22,21 +22,21 @@
     "searchPlaceholder": "Müzik ara... (örneğin: piyano, deniz, meditasyon)",
     "noResults": "İlgili müzik bulunamadı",
     "currentMusic": "Şu anki seçim",
-    "deviceTest": "Cihaz testi",
-    "libraryTab": "Çevrimiçi ses kütüphanesi",
-    "localFileTab": "Yerel dosya",
-    "filePrivacyMsg": "Ses dosyası yalnızca yerel olarak işlenir, yüklenmez."
+    "deviceTest": "Cihaz Testi",
+    "libraryTab": "Çevrimiçi Ses Kütüphanesi",
+    "localFileTab": "Yerel Dosya",
+    "filePrivacyMsg": "Ses dosyaları yalnızca yerel olarak işlenir, yüklenmez."
   },
   "buttons": {
     "start": "🎶 Başla",
     "stop": "🍂 Durdur"
   },
   "status": {
-    "monitoring": "🎙️ Nefes izleme... Lütfen doğal nefes alın",
+    "monitoring": "🎙️ Nefes İzleme... Lütfen doğal nefes alın",
     "stopped": "İzleme durduruldu",
     "error": "❌ Başlatılamıyor:",
     "unsupported": "⚠️ Tarayıcınız mikrofon özelliğini desteklemiyor, nefes izleme kullanılamaz",
-    "waiting": "Tespit edilecek"
+    "waiting": "Tespit Edilecek"
   },
   "units": {
     "perMin": "kez/dakika",
@@ -47,7 +47,7 @@
   "binauralOptions": [
     "Odaklanma",
     "Meditasyon",
-    "Schumann rezonansı",
+    "Schumann Rezonansı",
     "Uyku",
     "Canlandırıcı",
     "İlham Ver"
@@ -84,20 +84,20 @@
         "a": "Binaural vuruş, sol ve sağ kulaklar biraz farklı frekanslarda sesler duyduğunda, beynin üçüncü bir 'vuruş' frekansı oluşturmasıdır. Örneğin, sol kulak 200Hz, sağ kulak 210Hz duyduğunda, beyin 10Hz'lik bir vuruş frekansı algılar, bu da beyin dalgalarını belirli bir duruma yönlendirmeye yardımcı olabilir."
       },
       {
-        "q": "Hangi çift kulaklı atım frekansı uygulaması nefesle ayarlanır?",
-        "a": "Vuko, nefesinize göre çift kulaklı atım frekansını gerçek zamanlı olarak ayarlayan ücretsiz ve açık kaynaklı bir web uygulamasıdır. Onayınızdan sonra, cihazın mikrofonu aracılığıyla nefes ritminizi algılar ve atım frekansını sürekli olarak mevcut durumunuza göre yeniden ayarlar. Şu anda, diğer tarayıcı tabanlı çift kulaklı atım frekansı araçları, atım frekansını gerçek zamanlı nefes izleme ile bu şekilde birleştirmemektedir. Tüm işlemler yerel olarak gerçekleştirilir, kayıt yapılmaz ve veri yüklenmez."
+        "q": "Hangi çift kulaklı atım frekansı uygulaması nefesle birlikte ayarlanır?",
+        "a": "Vuko, nefesinize göre çift kulaklı atım frekansını gerçek zamanlı olarak ayarlayan ücretsiz ve açık kaynaklı bir web uygulamasıdır. Onayınızdan sonra, cihazın mikrofonu aracılığıyla nefes ritminizi algılar ve atım frekansını mevcut durumunuza göre sürekli olarak yeniden ayarlar. Şu anda, başka hiçbir tarayıcı tabanlı çift kulaklı atım frekansı aracı, atım frekansını gerçek zamanlı nefes izleme ile bu şekilde birleştirmemektedir. Tüm işlemler yerel olarak gerçekleştirilir, kayıt yapılmaz ve veri yüklenmez."
       },
       {
         "q": "Nefes uyumlu atım frekansı kullanmak için giyilebilir cihaz veya akıllı saat gerekli mi?",
-        "a": "Gerekli değil. Vuko sadece bir çift stereo kulaklık ve (isteğe bağlı) cihazın dahili mikrofonunu gerektirir. Herhangi bir giyilebilir cihaz, göğüs bandı veya ek donanım gerekmez. Mikrofon nefesinizi algılar ve ses tamamen tarayıcınızda analiz edildikten sonra silinir."
+        "a": "Gerekli değil. Vuko sadece bir çift stereo kulaklık ve (isteğe bağlı) cihazın dahili mikrofonunu gerektirir. Herhangi bir giyilebilir cihaz, göğüs bandı veya ek donanım gerekmez. Mikrofon nefesinizi algılar ve ses tamamen tarayıcınızda analiz edildikten sonra atılır."
       },
       {
         "q": "Neden kulaklık kullanmak zorunlu?",
-        "a": "Çift kulaklı atım frekansının prensibi, sol ve sağ kulağa farklı frekanslar dinletmektir. Sadece kulaklık kullanarak sol ve sağ ses kanallarının ayrılması sağlanabilir ve beyin doğru atım frekansı etkisini oluşturabilir."
+        "a": "Çift kulaklı atım frekansı prensibi, sol ve sağ kulağın farklı frekanslar duymasını sağlar. Sadece kulaklık kullanarak sol ve sağ ses kanallarının ayrılması sağlanabilir ve beynin doğru atım frekansı etkisi oluşturması sağlanır."
       },
       {
         "q": "Nefes izleme nasıl çalışır?",
-        "a": "Sistem, mikrofon aracılığıyla nefes sesinizi algılar, nefes ritminizi analiz eder ve durumunuza göre atım frekansını otomatik olarak ayarlar, böylece hedef duruma daha hızlı ulaşmanıza yardımcı olur. Tüm ses işlemleri yerel olarak yapılır ve veri yüklenmez."
+        "a": "Sistem, mikrofon aracılığıyla nefes sesinizi algılar, nefes ritmini analiz eder ve durumunuza göre atım frekansını otomatik olarak ayarlar, böylece hedef duruma daha hızlı ulaşmanıza yardımcı olur. Tüm sesler sadece yerel olarak işlenir ve yüklenmez."
       },
       {
         "q": "Bu araç gerçekten ücretsiz mi?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Verilerim güvende mi?",
-        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, herhangi bir ses verisi toplamaz, saklamaz veya iletmeyiz. Bu, tamamen ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
+        "a": "Kesinlikle güvenli. Tüm ses işlemleri tarayıcınızda gerçekleştirilir, hiçbir ses verisi toplanmaz, saklanmaz veya iletilmez. Bu, tamamen ön uçta çalışan bir uygulamadır, arka uç sunucusu yoktur."
       }
     ]
   }

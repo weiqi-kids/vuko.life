@@ -1,7 +1,7 @@
 {
   "title": "Za pomocą dźwięku, spotkaj lepszą wersję siebie",
   "subtitle": "🤖 Instrukcja obsługi",
-  "description": "System będzie na bieżąco monitorować twój stan oddychania i automatycznie dostosowywać częstotliwość bicia, aby wprowadzić cię w różne stany świadomości:",
+  "description": "System będzie na bieżąco monitorować twój stan oddechu i automatycznie dostosowywać częstotliwość bicia, aby wprowadzić cię w różne stany świadomości:",
   "seoKeywords": "Ćwiczenia oddechowe na sen, skupienie i relaks | Darmowe binaural beats",
   "seoDescription": "Vuko to darmowa aplikacja do oddychania, snu i relaksu. Wykrywa Twój oddech przez mikrofon w czasie rzeczywistym i dostraja binaural beats, by pomóc Ci się odprężyć, zredukować stres, skupić, medytować i głęboko zasnąć. Bez rejestracji, bez reklam, otwarty kod — działa w przeglądarce.",
   "instructions": {
@@ -10,17 +10,17 @@
   },
   "volumeRatioDetail": "Częstotliwość bicia {binaural}% / Dźwięk tła {background}%",
   "labels": {
-    "breathRate": "Szybkość oddychania:",
+    "breathRate": "Tempo oddechu:",
     "noiseLevel": "Szum tła:",
     "baseFreq": "Częstotliwość podstawowa:",
     "audioFile": "Plik dźwiękowy tła:",
     "volumeRatio": "Proporcja głośności:",
-    "breathVisual": "Wizualizacja oddychania",
+    "breathVisual": "Wizualizacja oddechu",
     "realTimeData": "Dane w czasie rzeczywistym",
     "systemConfig": "Ustawienia bicia binauralnego",
     "audioSearch": "🎵 Wyszukiwanie muzyki w tle",
-    "searchPlaceholder": "Wyszukiwanie muzyki... (np.: fortepian, morze, medytacja)",
-    "noResults": "Nie znaleziono odpowiedniej muzyki",
+    "searchPlaceholder": "Szukaj muzyki... (np.: fortepian, morze, medytacja)",
+    "noResults": "Nie znaleziono powiązanej muzyki",
     "currentMusic": "Obecny wybór",
     "deviceTest": "Testowanie urządzenia",
     "libraryTab": "Biblioteka dźwięków online",
@@ -50,7 +50,7 @@
     "Rezonans Schumanna",
     "Sen",
     "Pobudzenie",
-    "Pobudzanie inspiracji"
+    "Inspiracja"
   ],
   "sections": {
     "instructions": "Instrukcja obsługi",
@@ -60,7 +60,7 @@
   "binauralDescriptions": {
     "專注": "Fale Alfa 10Hz, pomagają wejść w stan skupienia, odpowiednie do pracy i nauki",
     "冥想": "Fale Theta 7Hz, prowadzą do głębokiego relaksu, odpowiednie do medytacji",
-    "舒曼共振": "Naturalna częstotliwość Ziemi 7,83Hz, równoważy energię ciała i umysłu",
+    "舒曼共振": "Naturalna częstotliwość Ziemi 7.83Hz, równoważy energię ciała i umysłu",
     "睡眠": "Fale Delta 3Hz, pomagają szybko zasnąć",
     "提神": "Fale Beta 15Hz, zwiększają energię umysłową",
     "激發靈感": "Fale Gamma 40Hz, zwiększają kreatywne myślenie"
@@ -81,7 +81,7 @@
     "items": [
       {
         "q": "Czym jest binauralne bicie?",
-        "a": "Binauralne bicie to zjawisko, gdy uszy słyszą dźwięki o nieco różnych częstotliwościach, a mózg generuje trzecią „częstotliwość bicia”. Na przykład, gdy lewe ucho słyszy 200Hz, a prawe 210Hz, mózg odbiera bicie o częstotliwości 10Hz, co może pomóc wprowadzić fale mózgowe w określony stan."
+        "a": "Binauralne bicie to zjawisko, gdy uszy słyszą dźwięki o nieco różnych częstotliwościach, a mózg generuje trzecią częstotliwość, tzw. „bicie”. Na przykład, gdy lewe ucho słyszy 200Hz, a prawe 210Hz, mózg odbiera bicie o częstotliwości 10Hz, co może pomóc wprowadzić fale mózgowe w określony stan."
       },
       {
         "q": "Która aplikacja do binauralnych bitów dostosowuje się do oddechu?",
@@ -89,7 +89,7 @@
       },
       {
         "q": "Czy do korzystania z adaptacyjnych bitów oddechowych potrzebne jest urządzenie do noszenia lub smartwatch?",
-        "a": "Nie, Vuko wymaga tylko słuchawek stereo i (opcjonalnie) wbudowanego mikrofonu urządzenia. Nie potrzebujesz żadnych urządzeń do noszenia, pasów na klatkę piersiową ani dodatkowego sprzętu — mikrofon wykrywa twój oddech, a dźwięk jest analizowany i odrzucany bezpośrednio w twojej przeglądarce."
+        "a": "Nie, Vuko wymaga tylko słuchawek stereo i (opcjonalnie) wbudowanego mikrofonu urządzenia. Nie potrzebujesz żadnych urządzeń do noszenia, pasów na klatkę piersiową ani dodatkowego sprzętu — mikrofon wykrywa twój oddech, a dźwięk jest analizowany i odrzucany bezpośrednio w przeglądarce."
       },
       {
         "q": "Dlaczego konieczne jest używanie słuchawek?",
@@ -105,7 +105,7 @@
       },
       {
         "q": "Czy moje dane są bezpieczne?",
-        "a": "Absolutnie bezpieczne. Wszystkie przetwarzania dźwięku odbywają się w twojej przeglądarce, nie zbieramy, nie przechowujemy ani nie przesyłamy żadnych danych dźwiękowych. To czysto front-endowa aplikacja, bez serwera zaplecza."
+        "a": "Absolutnie bezpieczne. Wszystkie przetwarzania dźwięku odbywają się w twojej przeglądarce, nie zbieramy, nie przechowujemy ani nie przesyłamy żadnych danych dźwiękowych. To czysto frontendowa aplikacja, bez serwera backendowego."
       }
     ]
   }

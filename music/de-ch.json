@@ -1203,7 +1203,7 @@
       "Chakra",
       "Selbstvertrauen"
     ],
-    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, warme und helle Atmosphäre.",
+    "desc": "Thema des Solarplexus-Chakras, symbolisiert Vitalität, Willen und Energiezentrum, mit einer warmen und hellen Atmosphäre.",
     "embedding": [
       -0.0015557203441858292,
       0.08569267392158508,
@@ -1601,7 +1601,7 @@
       "Frieden",
       "Natur"
     ],
-    "desc": "Simuliert die Ruhe und Weite in den Bergen, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
+    "desc": "Simuliert die Ruhe und Weite der Berge, um mit natürlichen Umgebungsgeräuschen innere Ruhe zu fördern.",
     "embedding": [
       0.062282245606184006,
       0.12578991055488586,
@@ -3193,7 +3193,7 @@
       "Fließen",
       "Frische"
     ],
-    "desc": "Mit Wasserfluss und Bachklängen als Hauptthema wird eine frische und fließende Stimmung präsentiert.",
+    "desc": "Mit Wasserfluss und Bachgeräuschen als Hauptthema wird ein frisches und fließendes Gemüt dargestellt.",
     "embedding": [
       0.02507210150361061,
       0.11613613367080688,
@@ -4385,7 +4385,7 @@
       "Naturgeräusche",
       "Umgebungsgeräusche",
       "reine Natur",
-      "Umgebung"
+      "ambient"
     ],
     "desc": "Reine natürliche Klanglandschaft ohne Instrumente oder Stimmen, geeignet für Meditation, Entspannung und natürliche Heilung.",
     "embedding": [
@@ -6775,7 +6775,7 @@
       "Harmonie",
       "entspannend"
     ],
-    "desc": "Sanfte Klaviermelodie, begleitet von einem beruhigenden Arrangement, vermittelt ein friedliches und angenehmes Gefühl.",
+    "desc": "Sanfte Klaviermelodie, begleitet von beruhigenden Klängen, vermittelt ein Gefühl von Frieden und Komfort.",
     "embedding": [
       0.04465566202998161,
       0.05054696649312973,
@@ -7563,15 +7563,15 @@
   },
   {
     "file": "https://cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/%E9%95%B7%E7%AC%9B%E6%B4%9E%E7%B0%AB.mp3",
-    "title": "Querflöte und Xiao",
+    "title": "Flöte und Xiao",
     "tag": [
-      "Querflöte",
+      "Flöte",
       "Xiao",
       "Flöte",
       "Xiao",
       "Fließen"
     ],
-    "desc": "Die Melodie von Querflöte und Xiao fließt weit und schafft eine ätherische und tiefgründige Stimmung.",
+    "desc": "Die Melodie von Flöte und Xiao ist weitreichend und fließend, schafft eine ätherische und tiefgründige Stimmung.",
     "embedding": [
       0.014551143161952496,
       0.05997931584715843,
@@ -8765,7 +8765,7 @@
       "Luftig",
       "ambient"
     ],
-    "desc": "Ein luftiges Klangbild, das von Windgeräuschen dominiert wird, fließt weit und ist ideal zum Entspannen, Meditieren und Konzentrieren.",
+    "desc": "Eine luftige Klanglandschaft, die von Windgeräuschen dominiert wird, fließt weit und ist ideal zum Entspannen, Meditieren und Konzentrieren.",
     "embedding": [
       0.0021345652639865875,
       0.0893741026520729,
@@ -9159,11 +9159,11 @@
     "tag": [
       "Windspiel",
       "wind chime",
-      "Luftig",
-      "Heilend",
+      "luftig",
+      "heilend",
       "entspannend"
     ],
-    "desc": "Ein sanftes Klangbild, das von klaren Windspielklängen akzentuiert wird, luftig und heilend, ideal zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
+    "desc": "Eine sanfte Klanglandschaft, die von klaren Windspielklängen akzentuiert wird, luftig und heilend, ideal zum Entspannen und zur Beruhigung vor dem Schlafengehen.",
     "embedding": [
       0.027912920340895653,
       0.0959332212805748,

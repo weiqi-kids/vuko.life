@@ -5,8 +5,8 @@
   "seoKeywords": "Exercice de respiration pour dormir et se détendre · Binaural beats gratuit",
   "seoDescription": "Vuko est une appli web gratuite de respiration, de relaxation et de sommeil. Elle détecte votre respiration en temps réel via le micro et ajuste les binaural beats pour vous aider à vous détendre, déstresser, vous concentrer, méditer et dormir profondément. Sans inscription, sans pub, open source, directement dans le navigateur.",
   "instructions": {
-    "headphones": "Veuillez utiliser un <strong>casque stéréo</strong> pour obtenir l'effet des battements dans le cerveau.",
-    "microphone": "Si vous acceptez d'utiliser votre <strong>microphone</strong>, veuillez le placer près de votre bouche et de votre nez, nous essaierons de vous guider vers un état plus profond."
+    "headphones": "Veuillez utiliser un <strong>casque stéréo</strong> pour obtenir l'effet de battement dans le cerveau.",
+    "microphone": "Si vous acceptez d'utiliser votre <strong>microphone</strong>, veuillez le rapprocher de votre bouche et de votre nez, nous essaierons de vous guider vers un état plus profond."
   },
   "volumeRatioDetail": "Fréquence des battements {binaural}% / Bruit de fond {background}%",
   "labels": {
@@ -25,7 +25,7 @@
     "deviceTest": "Test de l'équipement",
     "libraryTab": "Bibliothèque audio en ligne",
     "localFileTab": "Fichier local",
-    "filePrivacyMsg": "Les fichiers audio sont traités uniquement en local et ne seront pas téléchargés."
+    "filePrivacyMsg": "Le fichier audio est traité uniquement en local, il ne sera pas téléchargé."
   },
   "buttons": {
     "start": "🎶 Commencer",
@@ -85,27 +85,27 @@
       },
       {
         "q": "Quelle application de battement binaural s'ajuste avec la respiration ?",
-        "a": "Vuko est une application web gratuite et open-source qui ajuste en temps réel le battement binaural en fonction de votre respiration. Avec votre consentement, elle détecte le rythme de votre respiration via le microphone de l'appareil et ajuste continuellement le battement à votre état actuel — actuellement, aucun autre outil de battement binaural sur navigateur ne combine battement et surveillance de la respiration en temps réel de cette manière. Tous les calculs sont effectués localement, sans enregistrement ni téléchargement."
+        "a": "Vuko est une application web gratuite et open-source qui ajuste en temps réel le battement binaural en fonction de votre respiration. Avec votre consentement, elle détecte le rythme de votre respiration via le microphone de l'appareil et ajuste continuellement le battement à votre état actuel — actuellement, aucun autre outil de battement binaural sur navigateur ne combine le battement avec la surveillance en temps réel de la respiration de cette manière. Tous les calculs sont effectués localement, sans enregistrement ni téléchargement."
       },
       {
         "q": "Faut-il un appareil portable ou une montre intelligente pour utiliser le battement adaptatif à la respiration ?",
-        "a": "Non. Vuko nécessite seulement un casque stéréo et, éventuellement, le microphone intégré de l'appareil. Aucun appareil portable, ceinture thoracique ou matériel supplémentaire n'est nécessaire — le microphone détecte votre respiration, et l'audio est analysé et supprimé directement dans votre navigateur."
+        "a": "Non, ce n'est pas nécessaire. Vuko nécessite uniquement un casque stéréo et, éventuellement, le microphone intégré de l'appareil. Aucun appareil portable, ceinture thoracique ou matériel supplémentaire n'est requis — le microphone détecte votre respiration, et l'audio est analysé entièrement dans votre navigateur avant d'être supprimé."
       },
       {
         "q": "Pourquoi faut-il absolument utiliser un casque ?",
-        "a": "Le principe du battement binaural est que chaque oreille entend une fréquence différente. Seul un casque peut garantir la séparation des canaux gauche et droit, permettant au cerveau de produire correctement l'effet de battement."
+        "a": "Le principe du battement binaural est que chaque oreille entend une fréquence différente. Seul l'usage d'un casque permet de garantir la séparation des canaux gauche et droit, permettant au cerveau de produire correctement l'effet de battement."
       },
       {
         "q": "Comment fonctionne la surveillance de la respiration ?",
-        "a": "Le système détecte le son de votre respiration via le microphone, analyse le rythme respiratoire et ajuste automatiquement le battement en fonction de votre état pour vous aider à atteindre plus rapidement l'état souhaité. Tout l'audio est traité localement et n'est pas téléchargé."
+        "a": "Le système détecte le son de votre respiration via le microphone, analyse le rythme respiratoire et ajuste automatiquement le battement en fonction de votre état pour vous aider à atteindre plus rapidement l'état souhaité. Tous les traitements audio sont effectués localement et ne sont pas téléchargés."
       },
       {
         "q": "Cet outil est-il vraiment gratuit ?",
-        "a": "Oui, Vuko est entièrement gratuit et open-source. Pas de frais cachés, pas d'abonnement, pas de publicité. Vous pouvez consulter le code complet sur GitHub."
+        "a": "Oui, Vuko est entièrement gratuit et open-source. Il n'y a pas de frais cachés, pas d'abonnement, pas de publicité. Vous pouvez consulter le code source complet sur GitHub."
       },
       {
         "q": "Mes données sont-elles en sécurité ?",
-        "a": "Absolument sécurisées. Tout le traitement audio se fait dans votre navigateur, nous ne collectons, stockons ni transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
+        "a": "Absolument sécurisées. Tous les traitements audio sont effectués dans votre navigateur, nous ne collectons, stockons ou transmettons aucune donnée audio. C'est une application purement frontale, sans serveur backend."
       }
     ]
   }
