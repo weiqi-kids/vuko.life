@@ -1,5 +1,5 @@
 # vuko.life daily-optimize RAW data — 2026-06-24
-_generated 2026-06-24 10:30:03 (host TZ)_
+_generated 2026-06-24 04:49:11 UTC (GitHub Actions)_
 
 ## 1. GSC search presence
 windows: last7=2026-06-15..2026-06-21  prev7=2026-06-08..2026-06-14  28d=2026-05-27..2026-06-24
@@ -52,4 +52,4 @@ windows: last7=2026-06-15..2026-06-21  prev7=2026-06-08..2026-06-14  28d=2026-05
 - sitemap https://www.vuko.life/sitemap.xml: submitted=30 indexed=0
 
 ---
-_end of RAW data. The optimizer reads this top-to-bottom; sparse search data is expected while the site is still being indexed — fall back to indexing/content-depth work per the playbook._
+_end of RAW data. Sparse search data is expected while the site is still being indexed — fall back to indexing/content-depth work per the playbook._
