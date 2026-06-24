@@ -17,8 +17,8 @@ AI 智能呼吸拍頻引導 Web App，透過雙耳拍頻（Binaural Beats）與�
 - **呼吸偵測**：MediaStream API + Canvas 視覺化
 - **多語系**：30 種語言，翻譯檔在 `i18n/` 目錄
 - **部署**：GitHub Pages + jsDelivr CDN（音樂檔）
-- **CI/CD**：GitHub Actions（翻譯、Embedding、截圖、部署）
-- **自動化腳本**：Python（OpenAI 翻譯、sentence-transformers Embedding、Playwright 截圖）
+- **CI/CD**：GitHub Actions（內容 prerender、Embedding、截圖、部署）
+- **自動化腳本**：Python（內容 prerender、sentence-transformers Embedding、Playwright 截圖）
 
 ## 目錄結構
 
@@ -50,7 +50,8 @@ AI 智能呼吸拍頻引導 Web App，透過雙耳拍頻（Binaural Beats）與�
 ## 開發注意事項
 
 - 無 Node.js 依賴，不使用 npm
-- 修改 `i18n/base.json` 或 `music/base.json` 後，CI 會自動觸發翻譯和 Embedding 更新
+- 修改 `content/**` 或 `i18n/**` 後，CI 會自動 prerender 進 HTML 並部署；修改 `music/base.json` 後自動更新 Embedding
+- 各語言 `i18n/*.json` 為靜態檔（原 OpenAI 自動翻譯已移除）；若要恢復自動翻譯，請改用 Claude（Anthropic API），勿再引入 OpenAI
 - 音樂檔案透過 jsDelivr CDN 提供：`cdn.jsdelivr.net/gh/weiqi-kids/vuko.life@main/music/suno/`
 
 ## 常用指令
@@ -59,11 +60,11 @@ AI 智能呼吸拍頻引導 Web App，透過雙耳拍頻（Binaural Beats）與�
 # 本地開發（任意靜態伺服器即可）
 python -m http.server 8000
 
-# 手動執行翻譯（需設定 OPENAI_API_KEY）
-python .github/scripts/translate.py
+# 手動把 content/i18n 重新 prerender 進 HTML
+python .github/scripts/prerender_content.py
 
 # 手動執行 Embedding 更新
-python .github/scripts/embedding.py
+python .github/scripts/embedding.py music/base.json
 ```
 
 ## 品質提升工作流程

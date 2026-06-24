@@ -11,11 +11,6 @@ on:
       - '.github/scripts/**'
       - '.github/workflows/site_update.yml'
   workflow_dispatch:
-    inputs:
-      skip_translate:
-        description: 'Skip OpenAI translation — only prerender content/*.json into HTML + deploy (use when the OpenAI key is broken, or to deploy a content-only change fast)'
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -23,149 +18,65 @@ permissions:
   id-token: write
 
 jobs:
-  translate:
+  # Bake the source JSON (content/*.json + i18n/*.json) into the static
+  # app/*.html + index.html and deploy. Pure stdlib — no external services.
+  # (The old OpenAI translation step was removed; the 30 i18n/*.json files are
+  # now static. To re-introduce auto-translation, do it with Claude, not OpenAI.)
+  prerender:
     if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     outputs:
-      changed: ${{ steps.detect.outputs.changed }}
-      langs: ${{ steps.detect.outputs.langs }}
+      music_changed: ${{ steps.scope.outputs.music_changed }}
     steps:
       - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-          # Check out the tip of main (not the trigger SHA) so the commit this
-          # job pushes lands fast-forward even if main advanced after the push.
+          # Tip of main (not the trigger SHA) so the commit this job pushes lands
+          # fast-forward even if main advanced after the push.
           ref: main
       - uses: actions/setup-python@v6
         with:
           python-version: '3.10'
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Load languages
-        id: langs
-        run: |
-          list=$(ls app/*.html | xargs -n1 basename | sed 's/\.html$//' | grep -v '^index$' | tr '\n' ' ')
-          echo "list=$list" >> "$GITHUB_OUTPUT"
-      - name: Detect change scope
-        # Translation (OpenAI) is only needed when a *source* of the i18n
-        # pipeline changed: i18n/base.json, i18n/overrides/**, or music/base.json
-        # (.github/** too, since prerender/translate logic may have changed).
-        # A content-only push (content/*.json — e.g. the daily-optimize engine's
-        # usual edit) needs NO translation: content/*.json is baked straight into
-        # HTML by prerender. Skipping translate there keeps the loop deploying
-        # even when the OPENAI_API_KEY is broken.
+      - name: Detect music change scope
+        # Embedding only needs to run when music/base.json changed in this push.
         id: scope
         run: |
           base='${{ github.event.before }}'
           head='${{ github.event.after }}'
-          if [ '${{ github.event.inputs.skip_translate }}' = 'true' ]; then
-            echo 'manual dispatch with skip_translate=true — content-only deploy (no OpenAI)'
-            echo 'need_translate=0' >> "$GITHUB_OUTPUT"
-          elif [ -n "$base" ] && [ "$base" != '0000000000000000000000000000000000000000' ] && git cat-file -e "$base" 2>/dev/null; then
+          if [ -n "$base" ] && [ "$base" != '0000000000000000000000000000000000000000' ] && git cat-file -e "$base" 2>/dev/null; then
             changed=$(git diff --name-only "$base" "$head")
             echo "changed in push:"; echo "$changed"
-            if echo "$changed" | grep -qE '^(i18n/base\.json|i18n/overrides/|music/base\.json|\.github/)'; then
-              echo 'need_translate=1' >> "$GITHUB_OUTPUT"
+            if echo "$changed" | grep -qE '^music/base\.json'; then
+              echo 'music_changed=1' >> "$GITHUB_OUTPUT"
             else
-              echo 'need_translate=0' >> "$GITHUB_OUTPUT"
+              echo 'music_changed=0' >> "$GITHUB_OUTPUT"
             fi
           else
-            echo 'no usable push range (manual dispatch?) — defaulting to full translate'
-            echo 'need_translate=1' >> "$GITHUB_OUTPUT"
-          fi
-      - name: Run translations
-        id: run
-        if: steps.scope.outputs.need_translate == '1'
-        continue-on-error: true
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          failed=0
-          for lang in ${{ steps.langs.outputs.list }}; do
-            python .github/scripts/translate.py i18n/base.json i18n/$lang.json >> translate.log 2>&1
-            if [ $? -ne 0 ]; then
-              echo "i18n $lang failed" >> translate.log
-              failed=1
-            fi
-            python .github/scripts/translate.py music/base.json music/$lang.json >> translate.log 2>&1
-            if [ $? -ne 0 ]; then
-              echo "music $lang failed" >> translate.log
-              failed=1
-            fi
-          done
-          if [ "$failed" = "1" ]; then
-            exit 1
-          fi
-      - name: Detect changes
-        id: detect
-        run: |
-          files=$(git status --porcelain i18n/*.json music/*.json | awk '{print $2}')
-          if [ -n "$files" ]; then
-            echo 'changed=1' >> "$GITHUB_OUTPUT"
-            langs=$(echo "$files" | grep '^music/' | awk -F'[/.]' '{print $(NF-1)}' | sort -u | tr '\n' ' ')
-            echo "langs=$langs" >> "$GITHUB_OUTPUT"
-          else
-            echo 'changed=0' >> "$GITHUB_OUTPUT"
-            echo 'langs=' >> "$GITHUB_OUTPUT"
+            echo 'no usable push range (manual dispatch?) — running embedding to be safe'
+            echo 'music_changed=1' >> "$GITHUB_OUTPUT"
           fi
       - name: Prerender static SEO content
-        # Re-bake content/<lang>.json long-form, crawlable lang-nav, and the
-        # keyword-rich <title>/meta tags from the freshly translated i18n into
-        # every app/*.html + index.html. Must run after translations so the
-        # static HTML never drifts from i18n (the cause of the old keyword-free
-        # <title> bug); committed alongside the translation update below.
-        # Runs when translation succeeded OR was skipped (content-only push).
-        if: steps.run.outcome == 'success' || steps.scope.outputs.need_translate == '0'
+        # Bake content/<lang>.json long-form, crawlable lang-nav, keyword-rich
+        # <title>/meta and FAQ JSON-LD from i18n into every app/*.html + index.html.
         run: python .github/scripts/prerender_content.py
-      - name: Upload log
-        if: always()
-        uses: actions/upload-artifact@v7
-        with:
-          name: translate-log
-          path: translate.log
-      - name: Commit translation updates
-        if: steps.run.outcome == 'success' && steps.detect.outputs.changed == '1'
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          files=$(git status --porcelain i18n/*.json music/*.json | awk '{print $2}' | tr '\n' ' ')
-          git add i18n/*.json music/*.json app/*.html index.html
-          git commit -m "Update translations [skip ci]" -m "$files"
-          # Rebase onto any commits that landed during the long translate step
-          # (e.g. a concurrent [skip ci] push) so the push is never rejected.
-          git pull --rebase origin main && git push
       - name: Commit prerendered content
-        # Content-only push: translation was skipped, but prerender re-baked the
-        # content/*.json into app/*.html + index.html. Commit + push those so the
-        # change deploys — no OpenAI involved.
-        if: steps.scope.outputs.need_translate == '0'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           if [ -n "$(git status --porcelain app/*.html index.html)" ]; then
             git add app/*.html index.html
             git commit -m "Prerender content updates [skip ci]"
+            # Rebase onto any commit that landed during this job so the push
+            # (e.g. against a concurrent [skip ci] push) is never rejected.
             git pull --rebase origin main && git push
           else
             echo "no HTML change to commit"
           fi
-      - name: Commit translation failure summary
-        # Only when translation actually ran and failed (not when skipped).
-        if: steps.run.outcome == 'failure'
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          msg=$(tail -n 20 translate.log | tr '\n' ' ')
-          git commit --allow-empty -m "Translation failed [skip ci]" -m "$msg"
-          git pull --rebase origin main && git push
-      - name: Fail job if translate failed
-        if: steps.run.outcome == 'failure'
-        run: exit 1
 
   embedding:
-    needs: translate
-    if: ${{ needs.translate.outputs.changed == '1' && !contains(github.event.head_commit.message, '[skip ci]') }}
+    needs: prerender
+    if: ${{ needs.prerender.outputs.music_changed == '1' && !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.detect.outputs.changed }}
@@ -174,9 +85,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-          # Check out the tip of main, which includes the commit the translate
-          # job just pushed — otherwise this job's own commit/push lands on a
-          # stale base and is rejected non-fast-forward.
+          # Tip of main, which includes the commit the prerender job just pushed.
           ref: main
       - uses: actions/setup-python@v6
         with:
@@ -188,11 +97,7 @@ jobs:
         continue-on-error: true
         run: |
           # The frontend (js/audio_selector.js) only ever loads music/base.json,
-          # so only base.json's embedding is actually used. We compute just that
-          # one file instead of all 30 languages — this removes pure dead work
-          # and the checkout race condition where translate-created language
-          # files (e.g. music/ar.json) were absent at this job's checked-out ref,
-          # causing FileNotFoundError.
+          # so only base.json's embedding is actually used — compute just that one.
           python .github/scripts/embedding.py music/base.json >> embedding.log 2>&1
       - name: Detect embedding change
         if: steps.run.outcome == 'success'
@@ -231,15 +136,15 @@ jobs:
         run: exit 1
 
   screenshot:
-    needs: [translate, embedding]
-    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && needs.translate.result == 'success' && (needs.embedding.result == 'success' || needs.embedding.result == 'skipped') }}
+    needs: [prerender, embedding]
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && needs.prerender.result == 'success' && (needs.embedding.result == 'success' || needs.embedding.result == 'skipped') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-          # Tip of main (incl. translate's + embedding's pushed commits) so this
+          # Tip of main (incl. prerender's + embedding's pushed commits) so this
           # job's screenshot-summary commit pushes fast-forward.
           ref: main
       - uses: actions/setup-python@v6
@@ -300,7 +205,4 @@ jobs:
 
   # NOTE: no deploy job. GitHub Pages for this repo is a "Deploy from a branch"
   # (legacy) site — the built-in `pages-build-deployment` publishes main on
-  # every push. The old actions/deploy-pages job never deployed anything here
-  # (that requires Pages build_type "workflow") and was failing on the retired
-  # actions/upload-artifact@v3, turning the whole run red for nothing.
-
+  # every push.

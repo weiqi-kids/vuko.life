@@ -97,8 +97,8 @@ git add/commit/push、絕不寫 ledger）：
     `seo/data/latest.raw.md`(資料 cron 所有)、`seo/data/index-coverage-history.jsonl`(同左)。
   - commit 訊息：第一行 `optimize(<index|serp-gap|onpage|content>): <一句話>`；body 逐項列
     目標檔＋來源 A/B/C/D＋理由；結尾一行 `🤖 daily-optimize 自動優化`。
-    **commit 訊息不可含 `[skip ci]`**——本次 push 必須觸發 `site_update.yml`（它會翻譯 30 語、
-    prerender、部署）。
+    **commit 訊息不可含 `[skip ci]`**——本次 push 必須觸發 `site_update.yml`
+    （它會把 content/i18n 用 `prerender_content.py` 烤進 HTML 並部署；不再有 OpenAI 翻譯）。
   - `git pull --rebase origin main`（防資料 cron 與 CI 的 `[skip ci]` 提交造成 non-fast-forward）→
     `git push origin main`。
   - **新內容 / (D) 走 PR**：建分支 + `gh pr create`，不直接 push main（等人工審）。
@@ -128,20 +128,21 @@ git add/commit/push、絕不寫 ledger）：
 |------|------|----------|
 | **長文 SEO 正文** | `content/<lang>.json`（`content/base.json` 為 zh-tw 源） | ✅ 手改來源 |
 | **UI 字串 / title / meta / FAQ 源（zh-tw）** | `i18n/base.json` | ✅ 手改來源 |
-| **各語言 title/meta/關鍵字覆寫** | `i18n/overrides/<lang>.json` | ✅ 手改來源（精準改單一語言、避免動 base 觸發全量重譯） |
-| 各語言 UI 字串（翻譯產物） | `i18n/<lang>.json`（base 以外） | ❌ CI `translate.py` 生成 |
+| **各語言 title/meta/關鍵字覆寫** | `i18n/overrides/<lang>.json` | ✅ 手改來源（精準改單一語言） |
+| 各語言 UI 字串 | `i18n/<lang>.json`（base 以外） | ⚠️ 靜態檔（原 OpenAI 翻譯已移除、不再自動重生）；勿由本引擎手改 |
 | 各語言 App 頁 | `app/<lang>.html` | ❌ CI `prerender_content.py` 生成（含 title/meta/hreflang/FAQ/JSON-LD/長文/lang-nav） |
 | EN 首頁 | `index.html` | ❌ 由 `content/en.json` prerender 生成 |
 | 音庫 / embedding | `music/**` | ❌ **完全別碰**（見 §3） |
 
 **部署鏈**：你改 `content/**` 或 `i18n/base.json` 或 `i18n/overrides/**` → push → `site_update.yml`
-觸發 → `translate.py` 重生 30 語 i18n → `prerender_content.py` 把內容/i18n 烤進所有 HTML（title、
-meta、hreflang、FAQ、JSON-LD、長文）→ 以 `[skip ci]` 提交生成物 → GitHub Pages 自動部署。
-**所以技術 SEO（title/meta/canonical/hreflang/JSON-LD）一律改來源，讓 prerender 生成，絕不手改 HTML。**
+觸發 → `prerender_content.py` 把內容/i18n 烤進所有 HTML（title、meta、hreflang、FAQ、JSON-LD、長文）
+→ 以 `[skip ci]` 提交生成物 → GitHub Pages 自動部署。**已無 OpenAI 翻譯步驟**；各語言 `i18n/<lang>.json`
+為靜態檔，改 `i18n/base.json` 不會自動傳播到其他語言（只影響 zh-tw 與 prerender 重烤）。
+**技術 SEO（title/meta/canonical/hreflang/JSON-LD）一律改來源，讓 prerender 生成，絕不手改 HTML。**
 
-**抖動控制**：改 `i18n/base.json` 或 `content/base.json` 會讓**全部 30 語**重譯/重渲染——這是大 diff，
-Google 可能視為全站抖動。除非是真正的全站級改善，否則**優先用最窄的編輯**（針對單一語言的
-`content/<lang>.json` 或 `i18n/overrides/<lang>.json`）來承接單一語言/市場的機會。
+**抖動控制**：仍**優先用最窄的編輯**（針對單一語言的 `content/<lang>.json` 或
+`i18n/overrides/<lang>.json`）來承接單一語言/市場的機會；非全站級改善別動 `base.json`，避免一次
+重渲染過多頁面被 Google 視為全站抖動。
 
 ---
 
