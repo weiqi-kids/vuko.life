@@ -2,6 +2,7 @@ User-agent: *
 Disallow: /badge/
 Disallow: /docs/
 Disallow: /music/
+Disallow: /seo/
 Disallow: /config.json
 Allow: /sitemap.xml
 

@@ -1,9 +1,10 @@
 # vuko.life — 每日優化引擎 playbook（方法論權威檔）
 
-> 這是 vuko.life「每日自我優化迴圈」的**唯一方法論依據**。`/root/.config/vuko-life/optimize-cron.sh`
-> 只是它的執行外殼：每天抓 GA4/GSC + 近 7 天關鍵字關係 + 索引覆蓋率 → 你（headless
-> claude）讀本檔，跑下面的 7 步迴圈 → 過 gate → 自動 commit + push（GitHub Pages 自動部署）。
-> `/docs/` 在 robots.txt 被 Disallow，本檔不會被索引。
+> 這是 vuko.life「每日自我優化迴圈」的**唯一方法論依據**。執行採**混合架構**：
+> (1) 本機唯讀資料 cron（`~/.config/vuko-life/data-cron.sh`）每天抓 GA4/GSC + 近 7 天關鍵字關係 +
+> 索引覆蓋率，寫進 repo 的 `seo/data/latest.raw.md` 並 commit；(2) 雲端 /schedule 優化 routine
+> （就是你）pull 後讀本檔 + RAW，跑下面的 7 步迴圈 → 過 gate → commit + push（GitHub Pages 自動部署）。
+> `/docs/` 與 `/seo/` 在 robots.txt 皆被 Disallow，本檔與資料不會被索引。
 
 ---
 
@@ -29,13 +30,15 @@ ROI 最高的 1–3 個動作把它做到位、過 gate、上線，並記錄成�
 ## 1. 七步迴圈
 
 ### Step 1 — 讀資料
-依序 Read：
-1. 當日 RAW 資料檔（路徑由外殼以提示告訴你，內含三桶：GSC 7d/28d + 週對週 + striking-distance
-   + query×page；GA4 7d/28d 流量/互動/事件/landing；索引覆蓋率 URL Inspection + sitemap）。
-2. 帳本 `/root/.config/vuko-life/optimize-ledger.jsonl`（每行一筆 JSON）。取**近 14 天動過的
-   目標**當作排除清單，避免每天重改同一處造成抖動。
-3.（可選）`/root/.config/vuko-life/index-coverage-history.jsonl` 看索引狀態的週對週變化，
-   判斷昨天/上週的動作有沒有讓某頁從 not-indexed 翻成 indexed。
+依序 Read（皆在 repo 內）：
+1. 當日 RAW 資料檔 `seo/data/latest.raw.md`（本機資料 cron 當天稍早寫入並 commit；內含三桶：
+   GSC 7d/28d + 週對週 + striking-distance + query×page；GA4 7d/28d 流量/互動/事件/landing；
+   索引覆蓋率 URL Inspection + sitemap）。**先確認它的日期是今天**——若是舊的，表示資料 cron 今天
+   還沒跑或失敗，據此謹慎判斷（可 no-op）。
+2. 帳本 `seo/data/optimize-ledger.jsonl`（每行一筆 JSON）。取**近 14 天動過的目標**當排除清單，
+   避免每天重改同一處造成抖動。
+3.（可選）`seo/data/index-coverage-history.jsonl` 看索引狀態的週對週變化，判斷昨天/上週的動作
+   有沒有讓某頁從 not-indexed 翻成 indexed。
 
 ### Step 2 — 診斷
 從資料推出「機會清單」，每項估三個維度的乘積分數：**牽引力 × 可改善幅度 × 索引/排名 ROI**。
@@ -77,32 +80,35 @@ ROI 最高的 1–3 個動作把它做到位、過 gate、上線，並記錄成�
    驗證後用 `git checkout -- app/ index.html` 還原這些生成物，再進 Step 7。
 
 ### Step 6 — 寫 run-log
-用 Write 把今日 run-log 寫成繁體中文 markdown 到
-`/root/.config/vuko-life/reports/optimize-<date>.md`（**此路徑在 repo 外，不進 git**）：
-`## 今日改動`（每項：目標檔 / 來源 A–D / 理由 / B 源附競品缺口依據 / 預期效益）、
-`## 索引狀態（本日 vs 上次）`、`## 下次觀察點`。**no-op 也要寫一句**說明為何今日無高 ROI 項目。
+用 Write 把今日 run-log 寫成繁體中文 markdown 到 `reports/optimize-<date>.md`（**在 repo 內、
+會 commit 進去**，作為公開的優化軌跡）：`## 今日改動`（每項：目標檔 / 來源 A–D / 理由 / B 源附
+競品缺口依據 / 預期效益）、`## 索引狀態（本日 vs 上次）`、`## 下次觀察點`。**no-op 也要寫一句**
+說明為何今日無高 ROI 項目（no-op 當天仍 commit 這份 run-log，但不碰任何內容檔）。
 
 ### Step 7 — 收斂（commit / push / ledger）
-依 `DRY_RUN` 與是否有過 gate 的改動分流：
+依是否有過 gate 的改動分流（若本次被指定為 dry-run，則只走前 6 步、產 run-log，**絕不**
+git add/commit/push、絕不寫 ledger）：
 
-- `DRY_RUN=1`：**只產 run-log，絕不 git add/commit/push、絕不寫 ledger。**
-- `DRY_RUN=0` 且全綠且確有改動：
-  - `git add` **只加真正改的來源檔**（`content/*.json`、`i18n/base.json`、`i18n/overrides/*.json`）。
-    **嚴禁** add `app/*.html`、`index.html`、`i18n/<lang>.json`(生成)、`music/**`、RAW 檔、任何
-    reports 檔。
+- **有過 gate 的內容改動**：
+  - `git add` **只加真正改的來源檔**（`content/*.json`、`i18n/base.json`、`i18n/overrides/*.json`），
+    **再加** 本次的 `seo/data/optimize-ledger.jsonl`（見收尾）與 `reports/optimize-<date>.md`。
+    **嚴禁** add `app/*.html`、`index.html`、`i18n/<lang>.json`(生成)、`music/**`、
+    `seo/data/latest.raw.md`(資料 cron 所有)、`seo/data/index-coverage-history.jsonl`(同左)。
   - commit 訊息：第一行 `optimize(<index|serp-gap|onpage|content>): <一句話>`；body 逐項列
     目標檔＋來源 A/B/C/D＋理由；結尾一行 `🤖 daily-optimize 自動優化`。
     **commit 訊息不可含 `[skip ci]`**——本次 push 必須觸發 `site_update.yml`（它會翻譯 30 語、
     prerender、部署）。
-  - `git pull --rebase origin main`（防 CI 的 `[skip ci]` 後續提交造成 non-fast-forward）→
+  - `git pull --rebase origin main`（防資料 cron 與 CI 的 `[skip ci]` 提交造成 non-fast-forward）→
     `git push origin main`。
   - **新內容 / (D) 走 PR**：建分支 + `gh pr create`，不直接 push main（等人工審）。
-- 沒有過 gate 的高 ROI 項目：**no-op**，不要空 commit。
+- **no-op（無過 gate 的高 ROI 項目）**：不碰任何內容檔，但仍 `git add reports/optimize-<date>.md`
+  （說明為何今日 no-op）→ commit（訊息 `optimize(noop): <一句話>`，不含 `[skip ci]`，但因為只動
+  `reports/` 不在 `site_update.yml` paths、不會觸發 build）→ pull --rebase → push。
+- **資料過舊或抓取失敗**（`latest.raw.md` 非今日）：同 no-op，run-log 註明資料問題。
 
-收尾：把每個「實際 commit 改過」的目標以 JSON append 進
-`/root/.config/vuko-life/optimize-ledger.jsonl`（每行一筆：
-`{"date":"<date>","target":"content/ja.json","source":"A","reason":"..."}`）。
-`DRY_RUN=1` 不寫 ledger。最後在 stdout 印 3 行內摘要（改了幾項 / 哪些 / 有無 push）。
+收尾：把每個「實際 commit 改過」的目標以 JSON append 進 `seo/data/optimize-ledger.jsonl`
+（每行一筆：`{"date":"<date>","target":"content/ja.json","source":"A","reason":"..."}`），
+並把這次 append 一起納入上面的 commit。最後在 stdout 印 3 行內摘要（改了幾項 / 哪些 / 有無 push）。
 
 ---
 
