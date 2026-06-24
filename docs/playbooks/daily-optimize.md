@@ -111,6 +111,15 @@ git add/commit/push、絕不寫 ledger）：
 （每行一筆：`{"date":"<date>","target":"content/ja.json","source":"A","reason":"..."}`），
 並把這次 append 一起納入上面的 commit。最後在 stdout 印 3 行內摘要（改了幾項 / 哪些 / 有無 push）。
 
+### Step 8 — Slack 回報（每次都做，無論有無改動）
+完成上面全部後，用 Slack 傳訊工具 `mcp__Slack__slack_send_message`（`channel_id` = `C0BCS1RAZ3L`，
+即 #vuko.life 頻道）post 一則**繁體中文**摘要（≤ 15 行，給人看的通知、不是資料）：
+- 標題一行：`今日優化` 或 `今日 no-op`（含 `<date>`）
+- 改了哪些 target、各自來源 A–D 與一句理由
+- 索引狀態重點（本日 vs 上次有無翻轉）
+- 若有 push，附 commit 短 hash；no-op 則一句說明原因
+若 Slack 工具不可用，不要因此中斷——記一行到 run-log 即可。
+
 ---
 
 ## 2. 來源 vs 生成（最重要、踩到就白做）
