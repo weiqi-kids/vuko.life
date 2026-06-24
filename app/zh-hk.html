@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones">請使用<strong>雙聲道耳機</strong>，這樣才能達成腦中拍頻的效果。</li>
+                <li id="instructionMicrophone">若您同意使用您的<strong>麥克風</strong>，請將麥克風靠近口鼻，我們會嘗試引導您進入更深層的狀態。</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="搜尋音樂... (例如: 鋼琴、海、冥想)">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">雙耳拍頻設置</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="專注" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>專注</span><span class="binaural-desc">10Hz Alpha 波，幫助進入專注狀態，適合工作學習</span></label></li><li><label><input type="radio" name="binauralPreset" value="冥想"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>冥想</span><span class="binaural-desc">7Hz Theta 波，引導深層放鬆，適合靜坐冥想</span></label></li><li><label><input type="radio" name="binauralPreset" value="舒曼共振"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>舒曼共振</span><span class="binaural-desc">7.83Hz 地球自然頻率，平衡身心能量</span></label></li><li><label><input type="radio" name="binauralPreset" value="睡眠"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>睡眠</span><span class="binaural-desc">3Hz Delta 波，幫助快速入睡</span></label></li><li><label><input type="radio" name="binauralPreset" value="提神"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>提神</span><span class="binaural-desc">15Hz Beta 波，提升精神活力</span></label></li><li><label><input type="radio" name="binauralPreset" value="激發靈感"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>激發靈感</span><span class="binaural-desc">40Hz Gamma 波，提升創意思維</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 設備測試</button>
             </div>
         </div>
 

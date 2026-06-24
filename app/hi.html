@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones">कृपया <strong>स्टीरियो हेडफ़ोन</strong> का उपयोग करें, ताकि मस्तिष्क में बाइनॉरल बीट्स का प्रभाव प्राप्त हो सके।</li>
+                <li id="instructionMicrophone">यदि आप अपने <strong>माइक्रोफोन</strong> का उपयोग करने के लिए सहमत हैं, तो कृपया माइक्रोफोन को अपने मुंह और नाक के पास रखें, हम आपको गहरी अवस्था में ले जाने का प्रयास करेंगे।</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="संगीत खोजें... (उदाहरण: पियानो, समुद्र, ध्यान)">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">बाइनॉरल बीट्स सेटिंग</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="ध्यान" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>ध्यान</span></label></li><li><label><input type="radio" name="binauralPreset" value="ध्यान"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>ध्यान</span></label></li><li><label><input type="radio" name="binauralPreset" value="शुमान अनुनाद"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>शुमान अनुनाद</span></label></li><li><label><input type="radio" name="binauralPreset" value="नींद"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>नींद</span></label></li><li><label><input type="radio" name="binauralPreset" value="ताजगी"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>ताजगी</span></label></li><li><label><input type="radio" name="binauralPreset" value="प्रेरणा जगाना"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>प्रेरणा जगाना</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 उपकरण परीक्षण</button>
             </div>
         </div>
 

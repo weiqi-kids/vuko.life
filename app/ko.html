@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones"><strong>스테레오 헤드폰</strong>을 사용하세요, 그래야 뇌의 박동 효과를 달성할 수 있습니다.</li>
+                <li id="instructionMicrophone"><strong>마이크</strong> 사용에 동의하신다면, 마이크를 입과 코 가까이에 두세요. 우리는 당신을 더 깊은 상태로 안내하려고 시도할 것입니다.</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="음악 검색... (예: 피아노, 바다, 명상)">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">바이노럴 비트 설정</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="집중" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>집중</span></label></li><li><label><input type="radio" name="binauralPreset" value="명상"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>명상</span></label></li><li><label><input type="radio" name="binauralPreset" value="슈만 공명"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>슈만 공명</span></label></li><li><label><input type="radio" name="binauralPreset" value="수면"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>수면</span></label></li><li><label><input type="radio" name="binauralPreset" value="기운 차리기"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>기운 차리기</span></label></li><li><label><input type="radio" name="binauralPreset" value="영감을 불러일으키다"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>영감을 불러일으키다</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 장비 테스트</button>
             </div>
         </div>
 

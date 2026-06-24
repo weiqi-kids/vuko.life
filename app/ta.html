@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones">தயவுசெய்து <strong>இரட்டை சவுண்ட் ஹெட்போன்</strong> பயன்படுத்தவும், இதனால் மூளையில்拍頻ஐ பெற முடியும்.</li>
+                <li id="instructionMicrophone">உங்கள் <strong>மைக்ரோஃபோன்</strong> பயன்படுத்த ஒப்புக்கொண்டால், மைக்ரோஃபோனை வாய் மற்றும் மூக்கிற்கு அருகில் வைத்துக்கொள்ளவும், நாங்கள் உங்களை ஆழமான நிலைக்கு வழிநடத்த முயற்சிப்போம்.</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="இசை தேடல்... (உதாரணம்: பியானோ, கடல், தியானம்)">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">இரட்டை காதுக்குள்拍頻 அமைப்புகள்</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="கவனம்" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>கவனம்</span></label></li><li><label><input type="radio" name="binauralPreset" value="தியானம்"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>தியானம்</span></label></li><li><label><input type="radio" name="binauralPreset" value="ஷூமான் அதிர்வு"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>ஷூமான் அதிர்வு</span></label></li><li><label><input type="radio" name="binauralPreset" value="தூக்கம்"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>தூக்கம்</span></label></li><li><label><input type="radio" name="binauralPreset" value="உற்சாகம்"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>உற்சாகம்</span></label></li><li><label><input type="radio" name="binauralPreset" value="உள்ளுணர்வை தூண்டுங்கள்"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>உள்ளுணர்வை தூண்டுங்கள்</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 சாதன பரிசோதனை</button>
             </div>
         </div>
 

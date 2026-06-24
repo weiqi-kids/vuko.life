@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones">ਕਿਰਪਾ ਕਰਕੇ <strong>ਦੋ-ਕਾਨੀ ਹੈਡਫੋਨ</strong> ਵਰਤੋ, ਤਾਂ ਜੋ ਮਗਜ਼ ਵਿੱਚ ਬੀਟ ਫ੍ਰੀਕਵੈਂਸੀ ਦਾ ਪ੍ਰਭਾਵ ਪੈ ਸਕੇ।</li>
+                <li id="instructionMicrophone">ਜੇ ਤੁਸੀਂ ਆਪਣੇ <strong>ਮਾਈਕਰੋਫੋਨ</strong> ਦੀ ਵਰਤੋਂ ਲਈ ਸਹਿਮਤ ਹੋ, ਤਾਂ ਮਾਈਕਰੋਫੋਨ ਨੂੰ ਮੂੰਹ ਅਤੇ ਨੱਕ ਦੇ ਨੇੜੇ ਰੱਖੋ, ਅਸੀਂ ਤੁਹਾਨੂੰ ਹੋਰ ਗਹਿਰੇ ਸਥਿਤੀ ਵਿੱਚ ਦਾਖਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗੇ।</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="ਸੰਗੀਤ ਖੋਜੋ... (ਉਦਾਹਰਣ: ਪਿਆਨੋ, ਸਮੁੰਦਰ, ਧਿਆਨ)">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">ਦੋ-ਕਾਨੀ ਬੀਟ ਫ੍ਰੀਕਵੈਂਸੀ ਸੈਟਿੰਗ</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="ਧਿਆਨ" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>ਧਿਆਨ</span></label></li><li><label><input type="radio" name="binauralPreset" value="ਧਿਆਨ ਲਗਾਉਣਾ"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>ਧਿਆਨ ਲਗਾਉਣਾ</span></label></li><li><label><input type="radio" name="binauralPreset" value="ਸ਼ੂਮੈਨ ਰਿਜੋਨੈਂਸ"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>ਸ਼ੂਮੈਨ ਰਿਜੋਨੈਂਸ</span></label></li><li><label><input type="radio" name="binauralPreset" value="ਨੀਂਦ"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>ਨੀਂਦ</span></label></li><li><label><input type="radio" name="binauralPreset" value="ਤਾਜ਼ਗੀ"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>ਤਾਜ਼ਗੀ</span></label></li><li><label><input type="radio" name="binauralPreset" value="ਪ੍ਰੇਰਣਾ ਪ੍ਰਾਪਤ ਕਰੋ"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>ਪ੍ਰੇਰਣਾ ਪ੍ਰਾਪਤ ਕਰੋ</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 ਉਪਕਰਣ ਟੈਸਟ</button>
             </div>
         </div>
 

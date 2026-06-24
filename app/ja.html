@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones"><strong>ステレオヘッドフォン</strong>を使用してください。これにより、脳内での拍動効果を達成できます。</li>
+                <li id="instructionMicrophone"><strong>マイク</strong>の使用に同意する場合は、マイクを口と鼻の近くに置いてください。より深い状態に導くことを試みます。</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="音楽を検索...（例：ピアノ、海、瞑想）">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">バイノーラルビート設定</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="集中" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>集中</span></label></li><li><label><input type="radio" name="binauralPreset" value="瞑想"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>瞑想</span></label></li><li><label><input type="radio" name="binauralPreset" value="シューマン共振"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>シューマン共振</span></label></li><li><label><input type="radio" name="binauralPreset" value="睡眠"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>睡眠</span><span class="binaural-desc">3Hzのデルタ波、素早く眠りに入るのを助けます</span></label></li><li><label><input type="radio" name="binauralPreset" value="リフレッシュ"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>リフレッシュ</span></label></li><li><label><input type="radio" name="binauralPreset" value="インスピレーションを刺激する"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>インスピレーションを刺激する</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 設備テスト</button>
             </div>
         </div>
 

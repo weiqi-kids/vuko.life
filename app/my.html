@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones"><strong>နှစ်ဘက်နားကြပ်</strong> ကို အသုံးပြုပါ၊ ဦးနှောက်အကြိမ်ရေ၏ အကျိုးသက်ရောက်မှုကို ရရှိနိုင်ရန် အထောက်အကူပြုပါသည်။</li>
+                <li id="instructionMicrophone">သင့်<strong>မိုက်ခရိုဖုန်း</strong>ကို အသုံးပြုရန် သဘောတူပါက မိုက်ခရိုဖုန်းကို နှုတ်ခမ်းနှင့် နှာခေါင်းအနီးတွင် ထားပါ၊ ကျွန်ုပ်တို့သည် သင့်ကို နက်ရှိုင်းသော အခြေအနေသို့ ဦးတည်စေရန် ကြိုးစားပါမည်။</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="ဂီတကို ရှာဖွေရန်... (ဥပမာ: ပီယာနို၊ ပင်လယ်၊冥想)">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">နှစ်ဘက်နားကြပ် အကြိမ်ရေ ပြင်ဆင်မှု</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="အာရုံစူးစိုက်မှု" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>အာရုံစူးစိုက်မှု</span></label></li><li><label><input type="radio" name="binauralPreset" value="တရားထိုင်ခြင်း"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>တရားထိုင်ခြင်း</span></label></li><li><label><input type="radio" name="binauralPreset" value="Schumann Resonance"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>Schumann Resonance</span></label></li><li><label><input type="radio" name="binauralPreset" value="အိပ်စက်ခြင်း"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>အိပ်စက်ခြင်း</span></label></li><li><label><input type="radio" name="binauralPreset" value="စိတ်လန်းဆန်းခြင်း"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>စိတ်လန်းဆန်းခြင်း</span></label></li><li><label><input type="radio" name="binauralPreset" value="လှုံ့ဆော်မှု"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>လှုံ့ဆော်မှု</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 စက်ပစ္စည်း စမ်းသပ်ခြင်း</button>
             </div>
         </div>
 

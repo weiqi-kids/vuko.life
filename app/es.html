@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones">Por favor, usa <strong>auriculares estéreo</strong> para lograr el efecto de frecuencia de latidos en el cerebro.</li>
+                <li id="instructionMicrophone">Si aceptas usar tu <strong>micrófono</strong>, acércalo a tu boca y nariz, intentaremos guiarte a un estado más profundo.</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="Buscando música... (por ejemplo: piano, mar, meditación)">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">Configuración de latidos binaurales</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="Concentración" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>Concentración</span></label></li><li><label><input type="radio" name="binauralPreset" value="Meditación"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>Meditación</span></label></li><li><label><input type="radio" name="binauralPreset" value="Resonancia Schumann"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>Resonancia Schumann</span></label></li><li><label><input type="radio" name="binauralPreset" value="Dormir"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>Dormir</span></label></li><li><label><input type="radio" name="binauralPreset" value="Refrescar"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>Refrescar</span></label></li><li><label><input type="radio" name="binauralPreset" value="Inspirar creatividad"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>Inspirar creatividad</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 Prueba de equipo</button>
             </div>
         </div>
 

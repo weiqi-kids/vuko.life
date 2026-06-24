@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones">অনুগ্রহ করে <strong>দ্বৈত সাউন্ড হেডফোন</strong> ব্যবহার করুন, যাতে মস্তিষ্কের বিট ফ্রিকোয়েন্সির প্রভাব অর্জন করা যায়।</li>
+                <li id="instructionMicrophone">যদি আপনি আপনার <strong>মাইক্রোফোন</strong> ব্যবহার করতে সম্মত হন, অনুগ্রহ করে মাইক্রোফোনটি মুখ ও নাকের কাছে রাখুন, আমরা আপনাকে আরও গভীর অবস্থায় নিয়ে যাওয়ার চেষ্টা করব।</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="সঙ্গীত অনুসন্ধান করুন... (যেমন: পিয়ানো, সমুদ্র, ধ্যান)">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">দ্বিকর্ণ বিট ফ্রিকোয়েন্সি সেটিংস</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="কেন্দ্রীভূত" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>কেন্দ্রীভূত</span></label></li><li><label><input type="radio" name="binauralPreset" value="ধ্যান"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>ধ্যান</span></label></li><li><label><input type="radio" name="binauralPreset" value="শুমান রেজোন্যান্স"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>শুমান রেজোন্যান্স</span></label></li><li><label><input type="radio" name="binauralPreset" value="ঘুম"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>ঘুম</span></label></li><li><label><input type="radio" name="binauralPreset" value="উদ্দীপনা"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>উদ্দীপনা</span></label></li><li><label><input type="radio" name="binauralPreset" value="অনুপ্রেরণা জাগান"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>অনুপ্রেরণা জাগান</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 উপকরণ পরীক্ষা</button>
             </div>
         </div>
 

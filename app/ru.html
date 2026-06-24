@@ -200,8 +200,8 @@
         <div class="adaptive-mode">
             <h3></h3>
             <ul>
-                <li id="instructionHeadphones"></li>
-                <li id="instructionMicrophone"></li>
+                <li id="instructionHeadphones">Пожалуйста, используйте <strong>стереонаушники</strong>, чтобы достичь эффекта бинауральных ритмов в мозгу.</li>
+                <li id="instructionMicrophone">Если вы согласны использовать ваш <strong>микрофон</strong>, пожалуйста, держите его близко к рту и носу, мы постараемся направить вас в более глубокое состояние.</li>
             </ul>
         </div>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div id="libraryTabContent">
                     <div class="search-container">
-                        <input type="text" id="musicSearchInput" class="search-input" placeholder="">
+                        <input type="text" id="musicSearchInput" class="search-input" placeholder="Поиск музыки... (например: пианино, море, медитация)">
                     </div>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
@@ -232,8 +232,8 @@
 
             <div class="config-info">
                 <h3 id="systemConfigTitle">Настройки бинауральных ритмов</h3>
-                <ul class="binaural-options" id="binauralOptionsList"></ul>
-                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn"></button>
+                <ul class="binaural-options" id="binauralOptionsList"><li><label><input type="radio" name="binauralPreset" value="Концентрация" checked><span class="binaural-mode-name"><span class="binaural-mode-icon">🎯</span>Концентрация</span></label></li><li><label><input type="radio" name="binauralPreset" value="Медитация"><span class="binaural-mode-name"><span class="binaural-mode-icon">🧘</span>Медитация</span></label></li><li><label><input type="radio" name="binauralPreset" value="Шумановский резонанс"><span class="binaural-mode-name"><span class="binaural-mode-icon">🌍</span>Шумановский резонанс</span></label></li><li><label><input type="radio" name="binauralPreset" value="Сон"><span class="binaural-mode-name"><span class="binaural-mode-icon">😴</span>Сон</span></label></li><li><label><input type="radio" name="binauralPreset" value="Бодрствование"><span class="binaural-mode-name"><span class="binaural-mode-icon">⚡</span>Бодрствование</span></label></li><li><label><input type="radio" name="binauralPreset" value="Вдохновение"><span class="binaural-mode-name"><span class="binaural-mode-icon">💡</span>Вдохновение</span></label></li></ul>
+                <button onclick="testDevice()" class="device-test-btn" id="deviceTestBtn">🎤 Тест оборудования</button>
             </div>
         </div>
 
