@@ -1,8 +1,8 @@
-# vuko.life daily-optimize RAW data — 2026-06-25
-_generated 2026-06-25 06:07:31 UTC (GitHub Actions)_
+# vuko.life daily-optimize RAW data — 2026-06-26
+_generated 2026-06-26 06:11:32 UTC (GitHub Actions)_
 
 ## 1. GSC search presence
-windows: last7=2026-06-16..2026-06-22  prev7=2026-06-09..2026-06-15  28d=2026-05-28..2026-06-25
+windows: last7=2026-06-17..2026-06-23  prev7=2026-06-10..2026-06-16  28d=2026-05-29..2026-06-26
 
 - total last7: impressions=0 clicks=0 ctr=0.0% pos=0.0
 - total prev7: impressions=0 clicks=0 ctr=0.0% pos=0.0
@@ -25,31 +25,32 @@ windows: last7=2026-06-16..2026-06-22  prev7=2026-06-09..2026-06-15  28d=2026-05
 
 ## 2. GA4 traffic & engagement
 
-- 7d overall: sessions=13 users=12 engRate=15% bounce=85% avgDur=8.5s
-- 28d overall: sessions=19 users=18 engRate=11% bounce=89% avgDur=7.2s
-- channels (28d sessions): Direct=14, Unassigned=5
+- 7d overall: sessions=14 users=14 engRate=29% bounce=71% avgDur=17.4s
+- 28d overall: sessions=20 users=20 engRate=20% bounce=80% avgDur=13.5s
+- channels (28d sessions): Direct=15, Unassigned=5
 - top landing paths (28d views/users):
     - /app/en.html: 9/9
-    - /app/zh-tw.html: 9/9
+    - /app/zh-tw.html: 8/9
+    - /: 2/2
 - key events (28d count/users):
     - onboarding_shown: 8/8
     - onboarding_completed: 0/0
-    - play: 0/0
-    - session_completed: 0/0
+    - play: 1/1
+    - session_completed: 1/1
     - music_selected: 0/0
     - demo_mode_started: 0/0
-    - start_monitoring: 0/0
+    - start_monitoring: 1/1
 
 - GA4 country (90d sessions/users):
     - United States: 16/16
     - South Korea: 8/8
+    - Germany: 4/4
     - (not set): 2/2
-    - Germany: 2/2
-    - Taiwan: 2/2
     - Portugal: 1/1
+    - Taiwan: 1/1
 - GA4 browser language (90d sessions/users):
-    - English: 21/21
-    - Chinese: 10/9
+    - English: 23/23
+    - Chinese: 9/9
 
 ## 3. Index coverage (URL Inspection + sitemap)
 
