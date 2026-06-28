@@ -1,8 +1,8 @@
-# vuko.life daily-optimize RAW data — 2026-06-27
-_generated 2026-06-27 05:53:47 UTC (GitHub Actions)_
+# vuko.life daily-optimize RAW data — 2026-06-28
+_generated 2026-06-28 06:18:30 UTC (GitHub Actions)_
 
 ## 1. GSC search presence
-windows: last7=2026-06-18..2026-06-24  prev7=2026-06-11..2026-06-17  28d=2026-05-30..2026-06-27
+windows: last7=2026-06-19..2026-06-25  prev7=2026-06-12..2026-06-18  28d=2026-05-31..2026-06-28
 
 - total last7: impressions=0 clicks=0 ctr=0.0% pos=0.0
 - total prev7: impressions=0 clicks=0 ctr=0.0% pos=0.0
@@ -61,13 +61,13 @@ windows: last7=2026-06-18..2026-06-24  prev7=2026-06-11..2026-06-17  28d=2026-05
 - https://www.vuko.life/app/ja.html
     coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - https://www.vuko.life/app/es.html
-    coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
+    coverage=URL is unknown to Google | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - https://www.vuko.life/app/de-de.html
     coverage=Crawled - currently not indexed | verdict=NEUTRAL | lastCrawl=2025-06-25 | googleCanonical=https://www.vuko.life/app/de-de.html
 - https://www.vuko.life/app/ko.html
     coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - https://www.vuko.life/app/pt.html
-    coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
+    coverage=URL is unknown to Google | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - sitemap https://www.vuko.life/sitemap.xml: submitted=30 indexed=0
 
 ---
