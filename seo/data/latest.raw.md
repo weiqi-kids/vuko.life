@@ -1,8 +1,8 @@
-# vuko.life daily-optimize RAW data — 2026-06-28
-_generated 2026-06-28 06:18:30 UTC (GitHub Actions)_
+# vuko.life daily-optimize RAW data — 2026-06-29
+_generated 2026-06-29 06:47:50 UTC (GitHub Actions)_
 
 ## 1. GSC search presence
-windows: last7=2026-06-19..2026-06-25  prev7=2026-06-12..2026-06-18  28d=2026-05-31..2026-06-28
+windows: last7=2026-06-20..2026-06-26  prev7=2026-06-13..2026-06-19  28d=2026-06-01..2026-06-29
 
 - total last7: impressions=0 clicks=0 ctr=0.0% pos=0.0
 - total prev7: impressions=0 clicks=0 ctr=0.0% pos=0.0
@@ -25,7 +25,7 @@ windows: last7=2026-06-19..2026-06-25  prev7=2026-06-12..2026-06-18  28d=2026-05
 
 ## 2. GA4 traffic & engagement
 
-- 7d overall: sessions=13 users=13 engRate=23% bounce=77% avgDur=18.7s
+- 7d overall: sessions=12 users=12 engRate=25% bounce=75% avgDur=20.1s
 - 28d overall: sessions=19 users=19 engRate=16% bounce=84% avgDur=14.2s
 - channels (28d sessions): Direct=14, Unassigned=5
 - top landing paths (28d views/users):
@@ -42,14 +42,14 @@ windows: last7=2026-06-19..2026-06-25  prev7=2026-06-12..2026-06-18  28d=2026-05
     - start_monitoring: 1/1
 
 - GA4 country (90d sessions/users):
-    - United States: 16/16
+    - United States: 15/15
     - South Korea: 8/8
     - Germany: 3/3
     - (not set): 2/2
     - Portugal: 1/1
     - Taiwan: 1/1
 - GA4 browser language (90d sessions/users):
-    - English: 22/22
+    - English: 21/21
     - Chinese: 9/9
 
 ## 3. Index coverage (URL Inspection + sitemap)
@@ -61,13 +61,13 @@ windows: last7=2026-06-19..2026-06-25  prev7=2026-06-12..2026-06-18  28d=2026-05
 - https://www.vuko.life/app/ja.html
     coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - https://www.vuko.life/app/es.html
-    coverage=URL is unknown to Google | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
+    coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - https://www.vuko.life/app/de-de.html
     coverage=Crawled - currently not indexed | verdict=NEUTRAL | lastCrawl=2025-06-25 | googleCanonical=https://www.vuko.life/app/de-de.html
 - https://www.vuko.life/app/ko.html
     coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - https://www.vuko.life/app/pt.html
-    coverage=URL is unknown to Google | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
+    coverage=Discovered - currently not indexed | verdict=NEUTRAL | lastCrawl=NEVER | googleCanonical=?
 - sitemap https://www.vuko.life/sitemap.xml: submitted=30 indexed=0
 
 ---
