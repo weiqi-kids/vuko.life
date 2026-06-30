@@ -120,12 +120,37 @@ git add/commit/push、絕不寫 ledger）：
 寫成檔再 `cat 檔 | /root/.config/vuko-life/slack-notify.sh C0BCS1RAZ3L`，避免引號問題）post 一則**繁體
 中文**摘要到 #拍頻-vuko-life（≤ 15 行，給人看的通知、不是資料）。
 **不要用 Slack MCP 工具**——本機 cron 的 headless claude 沒有它；`slack-notify.sh` 用 bot token 直發。
-摘要內容：
-- 標題一行：`今日優化` 或 `今日 no-op`（含 `<date>`）
-- 改了哪些 target、各自來源 A–D 與一句理由
-- 索引狀態重點（本日 vs 上次有無翻轉）
-- 若有 push，附 commit 短 hash；no-op 則一句說明原因
-若 Slack 工具不可用，不要因此中斷——記一行到 run-log 即可。
+若發送失敗，不中斷，記一行到 run-log 即可。
+
+**格式要可一眼掃讀**：用 emoji+粗體當小標、條列、區段間空一行；**不要寫成一整段文字**。
+數字靠左對齊、用 `·` 或 ` / ` 分隔。嚴格照下面兩個範本（依當天有無改動擇一）：
+
+有改動：
+```
+📊 *vuko 每日優化｜<date>*
+
+*✅ 今日改動（<N> 項）*
+• `content/fr-fr.json` — 補法國市場情境＋關鍵字　_(A·衝索引)_
+• `content/ru.json` — 補俄語市場情境　_(A·衝索引)_
+
+*🔍 索引覆蓋*
+• 已索引　1 / 31（首頁 `/`）
+• 待索引　zh-tw · de-de · ja · es · ko · pt
+• sitemap　0 / 30
+
+🚀 *已部署* commit `ad91029`　｜　👀 *下次觀察* fr-fr/ru 約 1–2 週後是否轉 indexed
+```
+
+no-op：
+```
+😴 *vuko 每日優化｜<date>｜今日 no-op*
+
+今日無高 ROI 項目（近 14 天動過的頁排除中），未改內容。
+*🔍 索引覆蓋*　已索引 1 / 31　·　sitemap 0 / 30　·　待索引 6 頁
+一句說明為何今日 no-op（例：可動的語言頁近期都已補過，等收錄結果）。
+```
+
+`<date>` 用台灣日期；`<N>`、檔名、來源、索引數字都換成當天實際值。
 
 ---
 
