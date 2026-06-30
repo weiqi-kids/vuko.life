@@ -116,8 +116,11 @@ git add/commit/push、絕不寫 ledger）：
 並把這次 append 一起納入上面的 commit。最後在 stdout 印 3 行內摘要（改了幾項 / 哪些 / 有無 push）。
 
 ### Step 8 — Slack 回報（每次都做，無論有無改動）
-完成上面全部後，用 Slack 傳訊工具 `mcp__Slack__slack_send_message`（`channel_id` = `C0BCS1RAZ3L`，
-即 #vuko.life 頻道）post 一則**繁體中文**摘要（≤ 15 行，給人看的通知、不是資料）：
+完成上面全部後，用 Bash 執行 `/root/.config/vuko-life/slack-notify.sh C0BCS1RAZ3L "<摘要>"`（或把摘要
+寫成檔再 `cat 檔 | /root/.config/vuko-life/slack-notify.sh C0BCS1RAZ3L`，避免引號問題）post 一則**繁體
+中文**摘要到 #拍頻-vuko-life（≤ 15 行，給人看的通知、不是資料）。
+**不要用 Slack MCP 工具**——本機 cron 的 headless claude 沒有它；`slack-notify.sh` 用 bot token 直發。
+摘要內容：
 - 標題一行：`今日優化` 或 `今日 no-op`（含 `<date>`）
 - 改了哪些 target、各自來源 A–D 與一句理由
 - 索引狀態重點（本日 vs 上次有無翻轉）
