@@ -3,7 +3,8 @@
     "h2": "Vuko nedir?",
     "p": [
       "Vuko, doğrudan tarayıcınızda çalışan ücretsiz ve açık kaynaklı bir nefes ve rahatlama web uygulamasıdır — kurulum yok, hesap yok, reklam yok. Bir binaural beats motorunu gerçek zamanlı nefes algılamayla birleştirerek uykuya hazırlanmanıza, çalışırken odaklı kalmanıza, stres ve kaygıyı hafifletmenize ya da meditasyona dalmanıza yardımcı olur. Kulaklığınızı takın, nasıl hissetmek istediğinizi seçin; Vuko, beyninizi yavaşça odaklanmaya, rahatlamaya veya derin uykuya yönlendiren hassas çift tonlu frekansları üretsin.",
-      "Vuko'yu farklı kılan şey, yalnızca sabit bir parça çalmamasıdır. Mikrofon erişimine izin verirseniz Vuko nefesinizi gerçek zamanlı olarak dinler — sesin yanıt verdiği bir nefes egzersizi gibi — ve vuruşları o anki durumunuza uyarlar; bedeniniz ile ses arasında kapalı bir geri besleme döngüsü oluşturur. Binaural beats ile canlı nefes takibini tarayıcıda birleştiren başka bir araç bulamadık; Vuko işte tam da bu boşluğu dolduruyor."
+      "Vuko'yu farklı kılan şey, yalnızca sabit bir parça çalmamasıdır. Mikrofon erişimine izin verirseniz Vuko nefesinizi gerçek zamanlı olarak dinler — sesin yanıt verdiği bir nefes egzersizi gibi — ve vuruşları o anki durumunuza uyarlar; bedeniniz ile ses arasında kapalı bir geri besleme döngüsü oluşturur. Binaural beats ile canlı nefes takibini tarayıcıda birleştiren başka bir araç bulamadık; Vuko işte tam da bu boşluğu dolduruyor.",
+      "Türkiye'de Vuko'yu arayanlar genellikle şunlardır: İstanbul trafiğinde uzun bir günün ardından zihni sakinleştirmek isteyen çalışanlar, YKS veya üniversite sınavlarına hazırlanırken geç saatlere kadar ders çalışan öğrenciler ve vardiyalı çalışma nedeniyle uyku düzeni bozulan kişiler. Vuko kurulum ya da üyelik gerektirmez; tarayıcıyı açıp altı moddan birini seçmek yeterlidir — bu da uykuya yardımcı binaural ses veya hızlı nefes egzersizi arayanlar için sade bir çözüm sunar."
     ]
   },
   "how": {
@@ -86,7 +87,8 @@
     "h2": "Nefes almanıza gerçek zamanlı uyum sağlayan binaural vuruşlar",
     "p": [
       "Çoğu binaural vuruş uygulaması sabit bir parça çalar ve umarınıza uymasını bekler. Vuko farklıdır: nefese uyumlu bir binaural vuruş üreticisidir. Mikrofonu açın ve Vuko nefes ritminizi dinlesin; ardından vuruş frekansını sürekli olarak bulunduğunuz gerçek duruma göre yeniden ayarlasın — nefesiniz yavaşladıkça vuruşları da yavaşlatarak sizi statik bir parçadan çok daha hızlı odaklanma, dinginlik veya uykuya taşısın.",
-      "Nefese senkronize bu geri bildirim döngüsü tamamen tarayıcınızda çalışır. Hiçbir şey kaydedilmez veya yüklenmez; giyilebilir cihaza ya da ekstra donanıma gerek yoktur — yalnızca kulaklık ve isteğe bağlı olarak cihazınızın mikrofonu yeterlidir. Nefese yanıt veren binaural vuruşlar, nefese senkronize meditasyon sesi veya uyumlu bir beyin dalgası üreticisi aradıysanız, Vuko tam olarak bunun için tasarlandı."
+      "Nefese senkronize bu geri bildirim döngüsü tamamen tarayıcınızda çalışır. Hiçbir şey kaydedilmez veya yüklenmez; giyilebilir cihaza ya da ekstra donanıma gerek yoktur — yalnızca kulaklık ve isteğe bağlı olarak cihazınızın mikrofonu yeterlidir. Nefese yanıt veren binaural vuruşlar, nefese senkronize meditasyon sesi veya uyumlu bir beyin dalgası üreticisi aradıysanız, Vuko tam olarak bunun için tasarlandı.",
+      "\"Uykuya yardımcı binaural vuruşlar\", \"rahatlama için nefes egzersizi\" ya da \"beyin dalgası üretici\" aradıysanız, Vuko tam olarak bunun için tasarlandı. Sabit bir ses dosyası çalmak yerine Vuko, mikrofon aracılığıyla gerçek nefesinizi dinler ve tonları buna göre anlık olarak yeniden ayarlar."
     ]
   }
 }
