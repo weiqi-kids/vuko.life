@@ -1,86 +1,74 @@
-# vuko.life 智能呼吸拍頻處理器
+# Vuko — binaural beats that adapt to your breathing, in your browser
 
+[![Try it now](https://img.shields.io/badge/try_it-www.vuko.life-4c1?logo=googlechrome&logoColor=white)](https://www.vuko.life/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![No signup](https://img.shields.io/badge/signup-none-brightgreen)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![Release](https://img.shields.io/github/release/yourname/project.svg)
-![update](https://img.shields.io/badge/updated-weekly-blue)
-![Security](https://img.shields.io/snyk/vulnerabilities/github/weiqi-kids/vuko.life)
 
----
+**Free, open-source, no signup, no install.** Vuko generates binaural beats with the Web Audio API and — if you allow microphone access — listens to your breathing rhythm and adapts the beat frequency to it in real time. Everything runs locally in your browser; no audio ever leaves your device.
 
-## 🧘 vuko.life 智能呼吸拍頻處理器
+**▶ Try it: [www.vuko.life](https://www.vuko.life/)**
 
-> AI 驅動的個人化呼吸節奏、環境音樂自動導引，
-> 結合聲音科技與即時偵測，幫助你隨時進入冥想、專注或療癒狀態。
+![Vuko — breathing-adaptive binaural beats web app](screenshots/en.jpg)
 
-### [🌐 線上體驗 DEMO https://www.vuko.life/](https://www.vuko.life/)
+## Why another binaural beats app?
 
----
+Every binaural beats app plays a fixed frequency at you. Vuko closes the loop: it detects your breathing through the microphone and nudges the beat frequency along with you — slowing as you slow down. Pick a target state and Vuko guides you there:
 
-## 功能特點
+| Mode | Beat frequency | Brainwave band | Best for |
+|------|---------------|----------------|----------|
+| Focus | 10 Hz | Alpha | Work, study and concentration |
+| Meditation | 7 Hz | Theta | Deep relaxation and mindfulness |
+| Schumann resonance | 7.83 Hz | Theta | Grounding and balance |
+| Sleep | 3 Hz | Delta | Falling asleep faster |
+| Refresh | 15 Hz | Beta | Alertness and energy |
+| Inspiration | 40 Hz | Gamma | Creative thinking |
 
-- 🎧 **AI 智能拍頻與音樂引導**（根據呼吸調整拍頻與聲音組成）
-- 🔎 **語意/向量化音樂搜尋**（支援自然語言/embedding 智慧推薦）
-- 🌎 **多語支援**（繁體中文／英文／日文／韓文，介面自動偵測）
-- 🔌 **模組化程式碼架構**（JS/i18n/config/music 分離易擴充）
-- 📈 **公開網站數據看板**（Plausible 儀表板）
-- 🎚️ **即時噪音監測與警告**（顯示環境噪音並依門檻提醒）
-- 🤝 **歡迎貢獻、支援 Pull Requests & Issue 討論**
+Plus a built-in library of ambient tracks with **semantic search** — type what you feel like ("rain on a tent", "temple bells") and it finds matching music via sentence-transformer embeddings, entirely client-side.
 
----
+## Privacy by architecture
 
-## 專案目錄結構
+- Microphone audio is processed **only in your browser** (MediaStream + Web Audio API). Nothing is uploaded — there is no backend at all; the whole site is static files on GitHub Pages.
+- No account, no paywall, no ads.
+- MIT licensed. Fork it, self-host it, remix it.
 
-```
-/
-├── index.html                  # 網站首頁，主要 UI 入口，引用 JS 與資源
-├── config.json                 # 全域設定（如預設語言、拍頻參數、音量、AI 閾值、噪音門檻等）
-├── README.md                   # 專案說明文件（含徽章、安裝教學、結構說明等）
-│
-├── js/                         # 前端主要 JavaScript 程式碼
-│   ├── binaural_processor.js   # 拍頻音訊與呼吸推論演算法
-│   ├── audio_selector.js       # 音檔搜尋、載入與播放控制
-│   ├── ga.js                   # GA 分析
-│   └── i18n.js                 # 多語界面切換/載入邏輯
-│
-├── i18n/                       # 多語系介面文案資料夾
-│   ├── zh-tw.json              # 繁體中文界面文字
-│   ├── en.json                 # 英文界面文字
-│   ├── ja.json                 # 日文界面文字
-│   └── ko.json                 # 韓文界面文字
-│
-├── music/                      # 多語音樂資料（標題、標籤、描述、embedding等）
-│   ├── zh-tw.json              # 中文音樂清單與標籤
-│   ├── en.json                 # 英文音樂清單與標籤
-│   └── base.json               # 共用音樂 embedding 資料（語意搜尋向量）
-│
-├── img/                        # 網站圖片與品牌資源
-│   └── logo.svg                # vuko.life Logo 向量檔
-│
-└── assets/                     # 其他靜態資源（CSS 樣式、圖標、文件等）
+## Tech notes
+
+Pure HTML/CSS/vanilla JS — no framework, no npm, no build step for the app itself.
+
+- `js/binaural_processor.js` — binaural beat synthesis (per-ear oscillators) + breathing-rate inference
+- `js/audio_selector.js` — semantic music search over precomputed embeddings (`music/base.json`, `all-MiniLM-L6-v2`)
+- `js/i18n.js` + `i18n/` — 30 languages, statically prerendered per language (`app/<lang>.html`)
+- `.github/scripts/` — Python CI automation: content prerender, embedding refresh, screenshots
+
+### Run locally
+
+```bash
+git clone https://github.com/weiqi-kids/vuko.life.git
+cd vuko.life
+python -m http.server 8000   # any static server works
 ```
 
-所有支援語言會根據 `app/` 目錄下的 HTML 檔名自動偵測，翻譯與向量化腳本皆會依此處理對應檔案。
+### Regenerate music embeddings
+
+```bash
+python .github/scripts/embedding.py music/base.json
+```
+
+Requires `sentence-transformers` (downloads the `all-MiniLM-L6-v2` weights on first run).
+
+## Contributing
+
+Issues and PRs are welcome — translations, new ambient tracks, breathing-detection improvements, or anything else. The 30 language files live in `i18n/` (machine-translated baseline + human overrides in `i18n/overrides/`); corrections from native speakers are especially appreciated.
 
 ---
 
-## 📦 快速開始
+## 中文簡介
 
-1. `index.html` 直接用瀏覽器打開即可（支援 Github Pages 靜態部署）
-2. 所有 JS/音樂資料皆為靜態載入（無需後端）
+Vuko 是免費、開源、免註冊的呼吸自適應雙耳拍頻 Web App：透過麥克風即時偵測你的呼吸節奏，動態調整拍頻，引導你進入睡眠、冥想、放鬆或專注狀態。所有音訊皆在瀏覽器本機處理，不上傳任何資料。線上體驗：[www.vuko.life](https://www.vuko.life/)。
 
-## 更新音樂向量 (Embeddings)
+## License
 
-執行 `.github/scripts/embedding.py [music/lang.json]` 會根據指定的音樂檔案（預設 `music/base.json`）
-中的 `title`、`desc` 與 `tag` 欄位，透過 `all-MiniLM-L6-v2` 模型生成
-embedding 並寫回檔案。此步驟需要下載 `sentence-transformers` 套件及模型
-權重，必須具備網路連線。若在離線環境，建議預先建置虛擬環境或快取依賴。
+[MIT](LICENSE) © 2025 Light
 
----
-
-## 授權
-
-[MIT License](LICENSE)
-
-本專案採用 MIT 授權，著作權所有 © 2025 Light。
-
----
+*Vuko is a wellness tool, not a medical device. Binaural beats research is ongoing; effects vary by individual.*
