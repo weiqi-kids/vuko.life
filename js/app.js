@@ -930,9 +930,42 @@
         // ===== Hero 接線（僅新增，不動既有邏輯） =====
         // 首屏大播放鍵走與 #monitorToggleBtn 完全相同的啟動流程
         // （toggleAdaptiveMode → start_monitoring / play GA 事件不變）。
+        // 未選音樂時先隨機帶一首線上曲目（見 heroPickRandomMusic）。
         function heroTogglePlay() {
+            if (!isRecording) {
+                heroPickRandomMusic();
+            }
             trackEvent('hero_play_click', { recording: isRecording });
             toggleAdaptiveMode();
+        }
+        // 明確掛上 window：service worker 曾讓回訪用戶拿到「新 HTML（含
+        // inline onclick）＋舊 app.js（無此函式）」而炸 ReferenceError。
+        // 新版 HTML 已移除 inline onclick、改用下方 addEventListener 綁定，
+        // 這行是給仍快取著舊 HTML 的用戶的相容退路。
+        window.heroTogglePlay = heroTogglePlay;
+
+        // 用戶尚未選音樂時，從線上音樂庫（music/base.json，經 jsDelivr CDN）
+        // 隨機挑一首伴隨拍頻播放。完全沿用 audio_selector.js 的既有機制：
+        // selectedMusicItem / CONFIG.MUSIC_CONTENT → getBackgroundAudioUrl()
+        // → loadBackgroundAudio()（自帶 catch，CDN 失敗時無聲降級為純拍頻），
+        // 曲名用既有 showCurrentSelection() 顯示。用戶已手動選曲則不做任何事。
+        function heroPickRandomMusic() {
+            try {
+                if (typeof selectedMusicItem === 'undefined' || selectedMusicItem) return; // 尊重用戶手動選曲
+                if (CONFIG.MUSIC_CONTENT.TYPE !== 'none') return; // 已有既定音樂來源
+                if (typeof allMusicItems === 'undefined' || !allMusicItems.length) return; // 音樂庫未就緒 → 純拍頻
+                const item = allMusicItems[Math.floor(Math.random() * allMusicItems.length)];
+                if (!item || !item.url) return;
+                selectedMusicItem = { url: item.url, name: item.name, category: item.category || '' };
+                CONFIG.MUSIC_CONTENT.TYPE = 'custom';
+                CONFIG.MUSIC_CONTENT.CUSTOM_URL = item.url;
+                if (typeof showCurrentSelection === 'function') {
+                    showCurrentSelection(item.name);
+                }
+                trackEvent('hero_random_music', { track: item.name });
+            } catch (e) {
+                console.warn('隨機音樂選取失敗，僅播放拍頻:', e);
+            }
         }
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -962,6 +995,14 @@
                 heroBtn.appendChild(icon);
                 heroBtn.appendChild(text);
                 heroBtn.setAttribute('aria-label', label);
+            }
+
+            if (heroBtn) {
+                // 行為不依賴全域函式：一律用 addEventListener 綁定。
+                // 舊快取 HTML 可能仍帶 inline onclick="heroTogglePlay()"，
+                // 先移除以免與這裡的監聽重複觸發（start→stop 互相抵銷）。
+                heroBtn.removeAttribute('onclick');
+                heroBtn.addEventListener('click', heroTogglePlay);
             }
 
             if (heroBtn && mainBtn) {

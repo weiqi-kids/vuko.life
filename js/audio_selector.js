@@ -8,11 +8,28 @@ let isMusicLoading = false;
 let preloadedAudioBuffer = null;
 let currentLoadingAbortController = null;
 
-async function loadEmbeddingModel() {
-    if (!extractor) {
-        const { pipeline } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.14.0/dist/transformers.min.js');
+let embeddingModelPromise = null;
+let embeddingModelFailed = false;
+
+// 語意模型改為「背景載入、可有可無」。先前 searchMusic 會 await 這個
+// ~25MB 的模型下載，CDN 被擋或很慢時整條搜尋鏈直接 reject——用戶輸入
+// 任何關鍵字都得不到結果。現在：不 await、失敗只降級為關鍵字搜尋。
+function ensureEmbeddingModel() {
+    if (extractor || embeddingModelFailed || embeddingModelPromise) return;
+    embeddingModelPromise = (async () => {
+        const { pipeline, env } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.14.0/dist/transformers.min.js');
+        env.allowLocalModels = false; // 不探測本站 /models/（避免一串 404 console error）
         extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
-    }
+    })().catch(e => {
+        embeddingModelFailed = true;
+        console.warn('語意搜尋模型載入失敗，改用關鍵字搜尋:', e);
+    });
+}
+
+// 舊名保留（相容既有呼叫點/舊快取），語意同 ensureEmbeddingModel。
+async function loadEmbeddingModel() {
+    ensureEmbeddingModel();
+    if (embeddingModelPromise) await embeddingModelPromise;
 }
 
 async function loadMusicLibrary() {
@@ -99,9 +116,22 @@ function cosineSimilarity(vecA, vecB) {
 
 async function searchMusic(query) {
     if (!query.trim()) return [];
-    await loadEmbeddingModel();
-    const result = await extractor(query);
-    const queryEmbedding = result[0][0];
+    // 關鍵字比對（tag/title/desc，中英雙語）為主要門檻；語意向量只作
+    // 排序加分。理由：(1) 模型可能載不進來（見 ensureEmbeddingModel）；
+    // (2) 舊寫法 result[0][0] 取的是第一個 token 的原始向量而非
+    // mean-pooled 句向量，與 CI 端 sentence-transformers 產的庫內向量
+    // 對不上（實測同字查詢 cosine≈0.40、無關曲目≈0.37，幾乎無鑑別度），
+    // 不能單獨作為過濾門檻。庫內 embedding 與模型皆不動。
+    ensureEmbeddingModel();
+    let queryEmbedding = null;
+    if (extractor) {
+        try {
+            const result = await extractor(query, { pooling: 'mean', normalize: true });
+            queryEmbedding = Array.from(result.data);
+        } catch (e) {
+            console.warn('查詢向量計算失敗，僅用關鍵字比對:', e);
+        }
+    }
     const results = [];
     allMusicItems.forEach(item => {
         let fuzzyScore = 0;
@@ -119,13 +149,14 @@ async function searchMusic(query) {
         const categoryScore = fuzzySearch(query, item.category);
         fuzzyScore = Math.max(fuzzyScore, categoryScore * 0.5);
 
-        const semanticScore = cosineSimilarity(queryEmbedding, item.embedding) * 100;
-        const finalScore = fuzzyScore * 0.4 + semanticScore * 0.6;
+        const semanticScore = queryEmbedding
+            ? cosineSimilarity(queryEmbedding, item.embedding) * 100
+            : 0;
 
-        if (finalScore > 30) {
+        if (fuzzyScore > 30) {
             results.push({
                 ...item,
-                score: finalScore
+                score: fuzzyScore + semanticScore * 0.3
             });
         }
     });
