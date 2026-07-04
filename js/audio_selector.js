@@ -457,29 +457,18 @@ function getBackgroundAudioUrl() {
     return '';
 }
 
+// 2026-07-04 修正：舊版在此每幀把拍頻 gain 設成 BINAURAL_VOLUME × 音樂瞬時 RMS，
+// 一般音樂 RMS 僅 0.05~0.3、安靜段趨近 0 → 音樂一開始播，拍頻就被壓到
+// 0.3×RMS（實測 0.085，安靜段 0.0006）幾乎聽不見（用戶回報「拍頻停止」）。
+// hero Play 自動帶背景音樂（6577d05）後所有一鍵播放用戶都踩到。
+// 正確行為：拍頻音量固定為 CONFIG.BINAURAL_VOLUME(0.3)，與音樂(0.7)並行，
+// 因此改為在音樂啟動時重新鎖定拍頻 gain，不再隨音樂 RMS 調變。
 function startBackgroundVolumeMonitor() {
-    if (!bgAnalyser) return;
     if (!binauralOscillators.length) return;
-    bgDataArray = new Float32Array(bgAnalyser.fftSize);
-    function monitor() {
-        if (!bgAnalyser || !binauralOscillators.length) return;
-        bgAnalyser.getFloatTimeDomainData(bgDataArray);
-        let sum = 0;
-        for (let i = 0; i < bgDataArray.length; i++) {
-            const v = bgDataArray[i];
-            sum += v * v;
-        }
-        const rms = Math.sqrt(sum / bgDataArray.length);
-        const leftGain = binauralOscillators[2];
-        const rightGain = binauralOscillators[3];
-        const target = CONFIG.BINAURAL_VOLUME * rms;
-        leftGain.gain.setTargetAtTime(target, audioContext.currentTime, 0.01);
-        rightGain.gain.setTargetAtTime(target, audioContext.currentTime, 0.01);
-        bgVolumeMonitorId = requestAnimationFrame(monitor);
-    }
-    if (!bgVolumeMonitorId) {
-        bgVolumeMonitorId = requestAnimationFrame(monitor);
-    }
+    const leftGain = binauralOscillators[2];
+    const rightGain = binauralOscillators[3];
+    leftGain.gain.setTargetAtTime(CONFIG.BINAURAL_VOLUME, audioContext.currentTime, 0.01);
+    rightGain.gain.setTargetAtTime(CONFIG.BINAURAL_VOLUME, audioContext.currentTime, 0.01);
 }
 
 function stopBackgroundVolumeMonitor() {
