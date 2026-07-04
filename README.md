@@ -9,7 +9,7 @@
 
 **▶ Try it: [www.vuko.life](https://www.vuko.life/)**
 
-![Vuko — breathing-adaptive binaural beats web app](screenshots/en.jpg)
+![Vuko demo — tap play, sound starts, beats adapt](screenshots/demo.gif)
 
 ## Why another binaural beats app?
 
