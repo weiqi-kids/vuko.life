@@ -1,6 +1,17 @@
 {
   "title": "Com a voz, encontre uma versão melhor de si mesmo",
   "subtitle": "🤖 Instruções de uso",
+  "hero": {
+    "title": "Batidas binaurais que se adaptam à sua respiração",
+    "trust": [
+      "Grátis",
+      "Código aberto",
+      "Sem cadastro",
+      "🎧 Use fones"
+    ],
+    "play": "Reproduzir",
+    "stop": "Parar"
+  },
   "description": "O sistema monitorará seu estado de respiração em tempo real e ajustará automaticamente a frequência de batida para guiá-lo a diferentes estados de consciência:",
   "seoKeywords": "Exercícios de respiração para dormir e relaxar · Binaural beats grátis",
   "seoDescription": "Vuko é um app web gratuito de respiração, relaxamento e sono. Ele detecta sua respiração em tempo real pelo microfone e ajusta os binaural beats para ajudar você a relaxar, aliviar o estresse, focar, meditar e dormir profundamente. Sem cadastro, sem anúncios e de código aberto, direto no navegador.",

@@ -1,4 +1,15 @@
 {
   "seoKeywords": "Ejercicios de respiración para dormir y relajarse · Binaural beats gratis",
-  "seoDescription": "Vuko es una app web gratuita de respiración, relajación y sueño. Detecta tu respiración en tiempo real con el micrófono y ajusta los binaural beats para ayudarte a relajarte, reducir el estrés, concentrarte, meditar y dormir profundamente. Sin registro, sin anuncios y de código abierto, directo en tu navegador."
+  "seoDescription": "Vuko es una app web gratuita de respiración, relajación y sueño. Detecta tu respiración en tiempo real con el micrófono y ajusta los binaural beats para ayudarte a relajarte, reducir el estrés, concentrarte, meditar y dormir profundamente. Sin registro, sin anuncios y de código abierto, directo en tu navegador.",
+  "hero": {
+    "title": "Sonidos binaurales que se adaptan a tu respiración",
+    "trust": [
+      "Gratis",
+      "Código abierto",
+      "Sin registro",
+      "🎧 Usa auriculares"
+    ],
+    "play": "Reproducir",
+    "stop": "Detener"
+  }
 }

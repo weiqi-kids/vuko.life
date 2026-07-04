@@ -1343,3 +1343,143 @@
             color: #fff;
             text-decoration: underline;
         }
+
+        /* ===== Hero（首屏價值主張＋一鍵播放）===== */
+        .hero {
+            text-align: center;
+            padding: 4px 0 8px;
+        }
+
+        .hero h1 {
+            margin-bottom: 12px;
+            font-size: 2.3rem;
+            line-height: 1.25;
+        }
+
+        .hero-tagline {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            margin-bottom: 14px;
+        }
+
+        .hero-trust {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px 10px;
+            padding: 0;
+            margin: 0 0 6px;
+        }
+
+        .hero-trust li {
+            background: rgba(102, 126, 234, 0.12);
+            color: var(--text-secondary);
+            border-radius: 999px;
+            padding: 4px 12px;
+            font-size: 0.88rem;
+            white-space: nowrap;
+        }
+
+        .hero-play-btn {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+            width: 132px;
+            height: 132px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            margin: 16px auto 6px;
+            background: linear-gradient(45deg, var(--accent-color), var(--accent-secondary));
+            color: #fff;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.45);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .hero-play-btn:hover:not(:disabled) {
+            transform: scale(1.06);
+            box-shadow: 0 14px 36px rgba(102, 126, 234, 0.55);
+        }
+
+        .hero-play-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .hero-play-btn.playing {
+            background: linear-gradient(45deg, #e05a6d, #c44569);
+            box-shadow: 0 10px 30px rgba(196, 69, 105, 0.45);
+        }
+
+        .hero-play-icon {
+            font-size: 2.4rem;
+            line-height: 1.1;
+        }
+
+        .hero-play-label {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-modes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin: 14px 0 4px;
+        }
+
+        .hero-mode-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            border-radius: 999px;
+            border: 1.5px solid rgba(102, 126, 234, 0.45);
+            background: transparent;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+        }
+
+        .hero-mode-chip:hover {
+            border-color: var(--accent-color);
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .hero-mode-chip.active {
+            background: linear-gradient(45deg, var(--accent-color), var(--accent-secondary));
+            border-color: transparent;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            /* 固定式語言/主題切換鈕高 48px（top:20px），把內容往下推，
+               避免蓋住 hero 標題（舊版 H1 在 390px 會被壓在按鈕下）。 */
+            .container {
+                margin-top: 60px;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-tagline {
+                font-size: 0.95rem;
+            }
+
+            .hero-play-btn {
+                width: 116px;
+                height: 116px;
+            }
+
+            .hero-mode-chip {
+                padding: 7px 12px;
+                font-size: 0.85rem;
+            }
+        }

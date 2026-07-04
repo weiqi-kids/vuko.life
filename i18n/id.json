@@ -1,6 +1,17 @@
 {
   "title": "Dengan suara, temui diri Anda yang lebih baik",
   "subtitle": "🤖 Petunjuk Penggunaan",
+  "hero": {
+    "title": "Binaural beats yang menyesuaikan dengan napas Anda",
+    "trust": [
+      "Gratis",
+      "Open source",
+      "Tanpa daftar",
+      "🎧 Gunakan headphone"
+    ],
+    "play": "Putar",
+    "stop": "Berhenti"
+  },
   "description": "Sistem akan memantau kondisi pernapasan Anda secara real-time dan secara otomatis menyesuaikan frekuensi ketukan untuk membimbing Anda memasuki berbagai kondisi kesadaran:",
   "seoKeywords": "Latihan Pernapasan untuk Tidur, Fokus & Relaksasi | Binaural Beats Gratis",
   "seoDescription": "Vuko adalah aplikasi web pernapasan dan relaksasi gratis. Ia mendeteksi napas Anda secara real-time lewat mikrofon dan menyetel binaural beats otomatis untuk membantu Anda rileks, meredakan stres, fokus, meditasi, dan tidur lebih nyenyak. Tanpa daftar, tanpa iklan, open source — langsung di browser.",

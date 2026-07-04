@@ -1,6 +1,17 @@
 {
   "title": "Avec la voix, rencontrez une meilleure version de vous-même",
   "subtitle": "🤖 Mode d'emploi",
+  "hero": {
+    "title": "Des battements binauraux qui s'adaptent à votre respiration",
+    "trust": [
+      "Gratuit",
+      "Open source",
+      "Sans inscription",
+      "🎧 Utilisez des écouteurs"
+    ],
+    "play": "Écouter",
+    "stop": "Arrêter"
+  },
   "description": "Le système surveille en temps réel votre état respiratoire et ajuste automatiquement la fréquence des battements pour vous guider vers différents états de conscience :",
   "seoKeywords": "Exercice de respiration pour dormir et se détendre · Binaural beats gratuit",
   "seoDescription": "Vuko est une appli web gratuite de respiration, de relaxation et de sommeil. Elle détecte votre respiration en temps réel avec le micro et ajuste les binaural beats pour vous aider à relaxer, déstresser, vous concentrer, méditer et dormir profondément. Sans inscription, sans pub, à code source ouvert, directement dans le navigateur.",

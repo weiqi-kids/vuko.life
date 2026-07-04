@@ -1,4 +1,15 @@
 {
   "seoKeywords": "Atemübung & Einschlafhilfe zum Entspannen, Stressabbau & Fokus | Gratis Binaural Beats",
-  "seoDescription": "Vuko ist eine kostenlose Web-App für Atemübungen, besseren Schlaf und Entspannung. Sie erkennt deine Atmung in Echtzeit übers Mikrofon und passt binaurale Beats automatisch an, damit du abschaltest, Stress abbaust, fokussiert bleibst, meditierst und tief schläfst. Ohne Anmeldung, werbefrei, quelloffen – direkt im Browser."
+  "seoDescription": "Vuko ist eine kostenlose Web-App für Atemübungen, besseren Schlaf und Entspannung. Sie erkennt deine Atmung in Echtzeit übers Mikrofon und passt binaurale Beats automatisch an, damit du abschaltest, Stress abbaust, fokussiert bleibst, meditierst und tief schläfst. Ohne Anmeldung, werbefrei, quelloffen – direkt im Browser.",
+  "hero": {
+    "title": "Binaurale Beats, die sich deiner Atmung anpassen",
+    "trust": [
+      "Kostenlos",
+      "Open Source",
+      "Ohne Anmeldung",
+      "🎧 Kopfhörer verwenden"
+    ],
+    "play": "Abspielen",
+    "stop": "Stopp"
+  }
 }

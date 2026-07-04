@@ -65,7 +65,26 @@ async function updateLanguageContent() {
     // .github/scripts/prerender_content.py (apply_seo_head). The poetic
     // content.title remains the on-page H1, not the document title.
     document.title = seoKw + '｜' + brand;
-    document.querySelector('h1').textContent = content.title || '';
+    // The poetic content.title is now the hero tagline (#mainTitle, a <p>);
+    // the H1 is the hero value proposition (#heroTitle, from content.hero).
+    const mainTitle = document.getElementById('mainTitle');
+    if (mainTitle) mainTitle.textContent = content.title || '';
+
+    // Hero (above the fold): value-prop H1 + trust chips. The play button
+    // label is synced separately (js/app.js hero wiring observes
+    // #monitorToggleBtn, which this function updates below).
+    const hero = content.hero || {};
+    const heroTitle = document.getElementById('heroTitle');
+    if (heroTitle && hero.title) heroTitle.textContent = hero.title;
+    const heroTrust = document.getElementById('heroTrust');
+    if (heroTrust && Array.isArray(hero.trust) && hero.trust.length) {
+        heroTrust.innerHTML = '';
+        hero.trust.forEach(t => {
+            const li = document.createElement('li');
+            li.textContent = t;
+            heroTrust.appendChild(li);
+        });
+    }
 
     // 更新 h2 區段標題
     const sections = content.sections || {};
@@ -127,6 +146,28 @@ async function updateLanguageContent() {
             }
             li.appendChild(label);
             binauralList.appendChild(li);
+        });
+    }
+
+    // Hero mode chips mirror the #binauralOptionsList radios (rebuilt above,
+    // so the checked radio is index 0 again). Markup must stay in sync with
+    // render_hero_modes() in .github/scripts/prerender_content.py.
+    const heroModes = document.getElementById('heroModes');
+    if (heroModes) {
+        heroModes.innerHTML = '';
+        const options = content.binauralOptions || [];
+        const icons = ['🎯', '🧘', '🌍', '😴', '⚡', '💡'];
+        options.forEach((text, idx) => {
+            const chip = document.createElement('button');
+            chip.type = 'button';
+            chip.className = 'hero-mode-chip' + (idx === 0 ? ' active' : '');
+            chip.dataset.modeIdx = idx;
+            const icon = document.createElement('span');
+            icon.className = 'hero-mode-icon';
+            icon.textContent = icons[idx] || '🎵';
+            chip.appendChild(icon);
+            chip.appendChild(document.createTextNode(text));
+            heroModes.appendChild(chip);
         });
     }
 

@@ -194,7 +194,13 @@
         <span class="icon-moon">🌙</span>
     </button>
     <div class="container">
-        <h1 id="mainTitle">Za pomocą dźwięku, spotkaj lepszą wersję siebie</h1>
+        <section class="hero">
+            <h1 id="heroTitle">Dudnienia różnicowe, które dopasowują się do Twojego oddechu</h1>
+            <p class="hero-tagline" id="mainTitle">Za pomocą dźwięku, spotkaj lepszą wersję siebie</p>
+            <ul class="hero-trust" id="heroTrust"><li>Za darmo</li><li>Open source</li><li>Bez rejestracji</li><li>🎧 Załóż słuchawki</li></ul>
+            <button type="button" class="hero-play-btn" id="heroPlayBtn" onclick="heroTogglePlay()" aria-label="Odtwórz"><span class="hero-play-icon" aria-hidden="true">▶</span><span class="hero-play-label">Odtwórz</span></button>
+            <div class="hero-modes" id="heroModes"><button type="button" class="hero-mode-chip active" data-mode-idx="0"><span class="hero-mode-icon">🎯</span>Skupienie</button><button type="button" class="hero-mode-chip" data-mode-idx="1"><span class="hero-mode-icon">🧘</span>Medytacja</button><button type="button" class="hero-mode-chip" data-mode-idx="2"><span class="hero-mode-icon">🌍</span>Rezonans Schumanna</button><button type="button" class="hero-mode-chip" data-mode-idx="3"><span class="hero-mode-icon">😴</span>Sen</button><button type="button" class="hero-mode-chip" data-mode-idx="4"><span class="hero-mode-icon">⚡</span>Pobudzenie</button><button type="button" class="hero-mode-chip" data-mode-idx="5"><span class="hero-mode-icon">💡</span>Inspiracja</button></div>
+        </section>
 
         <h2 id="sectionInstructions" class="section-title">Instrukcja obsługi</h2>
         <div class="adaptive-mode">

@@ -1,4 +1,15 @@
 {
   "seoKeywords": "Bài Tập Thở Giúp Ngủ Ngon, Tập Trung & Thư Giãn | Binaural Beats Miễn Phí",
-  "seoDescription": "Vuko là ứng dụng web tập thở và thư giãn miễn phí. Ứng dụng phát hiện hơi thở của bạn theo thời gian thực qua micro và tự động điều chỉnh binaural beats giúp bạn thư giãn, giảm căng thẳng, tập trung, thiền và ngủ sâu hơn. Không đăng ký, không quảng cáo, mã nguồn mở — chạy ngay trên trình duyệt."
+  "seoDescription": "Vuko là ứng dụng web tập thở và thư giãn miễn phí. Ứng dụng phát hiện hơi thở của bạn theo thời gian thực qua micro và tự động điều chỉnh binaural beats giúp bạn thư giãn, giảm căng thẳng, tập trung, thiền và ngủ sâu hơn. Không đăng ký, không quảng cáo, mã nguồn mở — chạy ngay trên trình duyệt.",
+  "hero": {
+    "title": "Nhịp song âm tự điều chỉnh theo hơi thở của bạn",
+    "trust": [
+      "Miễn phí",
+      "Mã nguồn mở",
+      "Không cần đăng ký",
+      "🎧 Hãy đeo tai nghe"
+    ],
+    "play": "Phát",
+    "stop": "Dừng"
+  }
 }

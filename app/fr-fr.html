@@ -194,7 +194,13 @@
         <span class="icon-moon">🌙</span>
     </button>
     <div class="container">
-        <h1 id="mainTitle">Avec la voix, rencontrez une meilleure version de vous-même</h1>
+        <section class="hero">
+            <h1 id="heroTitle">Des battements binauraux qui s'adaptent à votre respiration</h1>
+            <p class="hero-tagline" id="mainTitle">Avec la voix, rencontrez une meilleure version de vous-même</p>
+            <ul class="hero-trust" id="heroTrust"><li>Gratuit</li><li>Open source</li><li>Sans inscription</li><li>🎧 Utilisez un casque</li></ul>
+            <button type="button" class="hero-play-btn" id="heroPlayBtn" onclick="heroTogglePlay()" aria-label="Écouter"><span class="hero-play-icon" aria-hidden="true">▶</span><span class="hero-play-label">Écouter</span></button>
+            <div class="hero-modes" id="heroModes"><button type="button" class="hero-mode-chip active" data-mode-idx="0"><span class="hero-mode-icon">🎯</span>Concentration</button><button type="button" class="hero-mode-chip" data-mode-idx="1"><span class="hero-mode-icon">🧘</span>Méditation</button><button type="button" class="hero-mode-chip" data-mode-idx="2"><span class="hero-mode-icon">🌍</span>Résonance de Schumann</button><button type="button" class="hero-mode-chip" data-mode-idx="3"><span class="hero-mode-icon">😴</span>Sommeil</button><button type="button" class="hero-mode-chip" data-mode-idx="4"><span class="hero-mode-icon">⚡</span>Revitaliser</button><button type="button" class="hero-mode-chip" data-mode-idx="5"><span class="hero-mode-icon">💡</span>Inspiration</button></div>
+        </section>
 
         <h2 id="sectionInstructions" class="section-title">Mode d'emploi</h2>
         <div class="adaptive-mode">

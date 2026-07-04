@@ -308,6 +308,44 @@ def render_binaural_options(i18n: dict) -> str:
     return "".join(out)
 
 
+def render_hero_modes(i18n: dict) -> str:
+    """Build the hero mode chips exactly as js/i18n.js builds them at runtime
+    (updateLanguageContent), so hydration is a no-op refresh. Chips mirror the
+    #binauralOptionsList radios (first = active, matching the checked radio)."""
+    out = []
+    for idx, text in enumerate(i18n.get("binauralOptions") or []):
+        icon = BINAURAL_ICONS[idx] if idx < len(BINAURAL_ICONS) else "🎵"
+        active = " active" if idx == 0 else ""
+        out.append(
+            f'<button type="button" class="hero-mode-chip{active}" data-mode-idx="{idx}">'
+            f'<span class="hero-mode-icon">{icon}</span>{esc(text)}</button>'
+        )
+    return "".join(out)
+
+
+def set_hero(doc: str, i18n: dict) -> str:
+    """Bake the above-the-fold hero (value-prop H1, trust chips, big play
+    button, mode chips) from i18n `hero` + `binauralOptions`. All helpers are
+    idempotent (replace inner content by id), and js/i18n.js re-renders the
+    same strings at runtime, so static and runtime copies never fight."""
+    hero = i18n.get("hero") or {}
+    if hero.get("title"):
+        doc = set_text_by_id(doc, "heroTitle", hero["title"])
+    trust = hero.get("trust") or []
+    if trust:
+        doc = set_html_by_id(doc, "heroTrust",
+                             "".join(f"<li>{esc(t)}</li>" for t in trust))
+    if hero.get("play"):
+        doc = set_html_by_id(
+            doc, "heroPlayBtn",
+            '<span class="hero-play-icon" aria-hidden="true">▶</span>'
+            f'<span class="hero-play-label">{esc(hero["play"])}</span>')
+        doc = set_attr_by_id(doc, "heroPlayBtn", "aria-label", hero["play"])
+    if i18n.get("binauralOptions"):
+        doc = set_html_by_id(doc, "heroModes", render_hero_modes(i18n))
+    return doc
+
+
 def set_app_chrome(doc: str, i18n: dict) -> str:
     """Bake the interactive UI strings that js/i18n.js fills at runtime so
     non-English pages render in-language immediately instead of flashing the
@@ -381,6 +419,7 @@ def inject_file(cfile, hfile, label, lang) -> bool:
     if ifile.exists():
         i18n = json.loads(ifile.read_text(encoding="utf-8"))
         doc = apply_seo_head(doc, i18n)
+        doc = set_hero(doc, i18n)
         doc = set_app_chrome(doc, i18n)
         faq = i18n.get("faq")
         doc = set_faq(doc, faq)

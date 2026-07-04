@@ -1,6 +1,17 @@
 {
   "title": "Kwa sauti, kukutana na wewe bora zaidi",
   "subtitle": "🤖 Maelekezo ya Matumizi",
+  "hero": {
+    "title": "Midundo ya binaural inayojirekebisha kulingana na upumuaji wako",
+    "trust": [
+      "Bure",
+      "Chanzo huria",
+      "Bila usajili",
+      "🎧 Tumia hedfoni"
+    ],
+    "play": "Cheza",
+    "stop": "Simamisha"
+  },
   "description": "Mfumo utafuatilia hali yako ya kupumua kwa wakati halisi na kurekebisha mdundo wa mapigo ili kukuongoza kuingia katika hali tofauti za ufahamu:",
   "seoKeywords": "Programu ya Kupumua kwa Usingizi, Umakini na Utulivu | binaural beats Bure",
   "seoDescription": "Vuko ni programu-tovuti ya bure ya mazoezi ya kupumua na kupumzika. Hutambua mpumuo wako kupitia maikrofoni kwa wakati halisi na kurekebisha binaural beats kiotomatiki ili kukusaidia kulala, kuzingatia, kupunguza msongo wa mawazo na kutafakari. Bila kujisajili, bila matangazo, chanzo huria.",

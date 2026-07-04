@@ -194,7 +194,13 @@
         <span class="icon-moon">🌙</span>
     </button>
     <div class="container">
-        <h1 id="mainTitle">بصوتك، التقي بنفسك الأفضل</h1>
+        <section class="hero">
+            <h1 id="heroTitle">نغمات ثنائية الأذن تتكيّف مع تنفّسك</h1>
+            <p class="hero-tagline" id="mainTitle">بصوتك، التقي بنفسك الأفضل</p>
+            <ul class="hero-trust" id="heroTrust"><li>مجاني</li><li>مفتوح المصدر</li><li>بدون تسجيل</li><li>🎧 استخدم سماعات الرأس</li></ul>
+            <button type="button" class="hero-play-btn" id="heroPlayBtn" onclick="heroTogglePlay()" aria-label="تشغيل"><span class="hero-play-icon" aria-hidden="true">▶</span><span class="hero-play-label">تشغيل</span></button>
+            <div class="hero-modes" id="heroModes"><button type="button" class="hero-mode-chip active" data-mode-idx="0"><span class="hero-mode-icon">🎯</span>تركيز</button><button type="button" class="hero-mode-chip" data-mode-idx="1"><span class="hero-mode-icon">🧘</span>تأمل</button><button type="button" class="hero-mode-chip" data-mode-idx="2"><span class="hero-mode-icon">🌍</span>رنين شومان</button><button type="button" class="hero-mode-chip" data-mode-idx="3"><span class="hero-mode-icon">😴</span>نوم</button><button type="button" class="hero-mode-chip" data-mode-idx="4"><span class="hero-mode-icon">⚡</span>تنشيط</button><button type="button" class="hero-mode-chip" data-mode-idx="5"><span class="hero-mode-icon">💡</span>إلهام</button></div>
+        </section>
 
         <h2 id="sectionInstructions" class="section-title">تعليمات الاستخدام</h2>
         <div class="adaptive-mode">

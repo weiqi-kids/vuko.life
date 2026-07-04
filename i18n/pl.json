@@ -1,6 +1,17 @@
 {
   "title": "Za pomocą dźwięku, spotkaj lepszą wersję siebie",
   "subtitle": "🤖 Instrukcja obsługi",
+  "hero": {
+    "title": "Dudnienia różnicowe, które dopasowują się do Twojego oddechu",
+    "trust": [
+      "Za darmo",
+      "Open source",
+      "Bez rejestracji",
+      "🎧 Załóż słuchawki"
+    ],
+    "play": "Odtwórz",
+    "stop": "Zatrzymaj"
+  },
   "description": "System będzie na bieżąco monitorować twój stan oddechu i automatycznie dostosowywać częstotliwość bicia, aby wprowadzić cię w różne stany świadomości:",
   "seoKeywords": "Ćwiczenia oddechowe na sen, skupienie i relaks | Darmowe binaural beats",
   "seoDescription": "Vuko to darmowa aplikacja do oddychania, snu i relaksu. Wykrywa Twój oddech przez mikrofon w czasie rzeczywistym i dostraja binaural beats, by pomóc Ci się odprężyć, zredukować stres, skupić, medytować i głęboko zasnąć. Bez rejestracji, bez reklam, otwarty kod — działa w przeglądarce.",

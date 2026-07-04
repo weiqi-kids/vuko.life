@@ -1,4 +1,15 @@
 {
   "seoKeywords": "Uyku, Odaklanma ve Rahatlama için Nefes Egzersizi | Binaural Beats",
-  "seoDescription": "Vuko, ücretsiz bir nefes, uyku ve rahatlama uygulamasıdır. Nefesinizi mikrofonla gerçek zamanlı algılar ve binaural beats sesini otomatik ayarlayarak rahatlamanıza, stres atmanıza, odaklanmanıza, meditasyon yapmanıza ve derin uykuya dalmanıza yardımcı olur. Kayıt yok, reklam yok, açık kaynak — tarayıcıda."
+  "seoDescription": "Vuko, ücretsiz bir nefes, uyku ve rahatlama uygulamasıdır. Nefesinizi mikrofonla gerçek zamanlı algılar ve binaural beats sesini otomatik ayarlayarak rahatlamanıza, stres atmanıza, odaklanmanıza, meditasyon yapmanıza ve derin uykuya dalmanıza yardımcı olur. Kayıt yok, reklam yok, açık kaynak — tarayıcıda.",
+  "hero": {
+    "title": "Nefesinize uyum sağlayan binaural ritimler",
+    "trust": [
+      "Ücretsiz",
+      "Açık kaynak",
+      "Kayıt gerekmez",
+      "🎧 Kulaklık kullanın"
+    ],
+    "play": "Oynat",
+    "stop": "Durdur"
+  }
 }

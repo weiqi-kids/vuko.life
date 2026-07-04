@@ -805,3 +805,87 @@
                 document.getElementById('deviceTestBtn').disabled = true;
             }
         });
+
+        // ===== Hero 接線（僅新增，不動既有邏輯） =====
+        // 首屏大播放鍵走與 #monitorToggleBtn 完全相同的啟動流程
+        // （toggleAdaptiveMode → start_monitoring / play GA 事件不變）。
+        function heroTogglePlay() {
+            trackEvent('hero_play_click', { recording: isRecording });
+            toggleAdaptiveMode();
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const heroBtn = document.getElementById('heroPlayBtn');
+            const mainBtn = document.getElementById('monitorToggleBtn');
+            const heroModes = document.getElementById('heroModes');
+
+            // 依 isRecording 同步 hero 播放鍵的圖示/文字/樣式。既有邏輯在每次
+            // 啟停（與語言切換）時都會改寫 #monitorToggleBtn 的文字，因此用
+            // MutationObserver 跟隨即可，不需修改 start/stop 函式本身。
+            function syncHeroPlayBtn() {
+                if (!heroBtn) return;
+                heroBtn.classList.toggle('playing', isRecording);
+                heroBtn.disabled = mainBtn ? mainBtn.disabled : false;
+                const content = (typeof getLanguageContent === 'function') ? getLanguageContent() : {};
+                const hero = content.hero || {};
+                const label = isRecording ? hero.stop : hero.play;
+                if (!label) return; // i18n 尚未載入：保留預烤（prerender）的內容
+                heroBtn.innerHTML = '';
+                const icon = document.createElement('span');
+                icon.className = 'hero-play-icon';
+                icon.setAttribute('aria-hidden', 'true');
+                icon.textContent = isRecording ? '⏸' : '▶';
+                const text = document.createElement('span');
+                text.className = 'hero-play-label';
+                text.textContent = label;
+                heroBtn.appendChild(icon);
+                heroBtn.appendChild(text);
+                heroBtn.setAttribute('aria-label', label);
+            }
+
+            if (heroBtn && mainBtn) {
+                heroBtn.disabled = mainBtn.disabled; // 瀏覽器不支援時一併停用
+                new MutationObserver(syncHeroPlayBtn).observe(mainBtn, {
+                    childList: true,
+                    characterData: true,
+                    subtree: true,
+                    attributes: true,
+                    attributeFilter: ['disabled']
+                });
+            }
+
+            // Hero 模式 chip：點擊即勾選對應的既有 binauralPreset radio
+            //（沿用既有的模式選擇機制），chip 與 radio 雙向同步。
+            function setActiveChip(idx) {
+                if (!heroModes) return;
+                heroModes.querySelectorAll('.hero-mode-chip').forEach((c, i) => {
+                    c.classList.toggle('active', i === idx);
+                });
+            }
+
+            if (heroModes) {
+                heroModes.addEventListener('click', (e) => {
+                    const chip = e.target.closest('.hero-mode-chip');
+                    if (!chip) return;
+                    const idx = parseInt(chip.dataset.modeIdx, 10);
+                    const radios = document.querySelectorAll('input[name="binauralPreset"]');
+                    if (radios[idx]) {
+                        radios[idx].checked = true;
+                        radios[idx].dispatchEvent(new Event('change', { bubbles: true }));
+                    }
+                    setActiveChip(idx);
+                    trackEvent('hero_mode_select', {
+                        mode: radios[idx] ? radios[idx].value : String(idx)
+                    });
+                });
+            }
+
+            const binauralList = document.getElementById('binauralOptionsList');
+            if (binauralList) {
+                binauralList.addEventListener('change', (e) => {
+                    if (!e.target || e.target.name !== 'binauralPreset') return;
+                    const radios = Array.from(document.querySelectorAll('input[name="binauralPreset"]'));
+                    setActiveChip(radios.indexOf(e.target));
+                });
+            }
+        });
