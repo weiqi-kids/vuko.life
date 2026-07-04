@@ -47,7 +47,8 @@
     "stopped": "İzleme durduruldu",
     "error": "❌ Başlatılamıyor:",
     "unsupported": "⚠️ Tarayıcınız mikrofon özelliğini desteklemiyor, nefes izleme kullanılamaz",
-    "waiting": "Tespit Edilecek"
+    "waiting": "Tespit Edilecek",
+    "noMic": "🎤 Mikrofon olmadan sabit ritim çalınıyor. Nefese uyarlamayı etkinleştirmek için mikrofona izin verin."
   },
   "units": {
     "perMin": "kez/dakika",

@@ -11,5 +11,8 @@
     ],
     "play": "Oynat",
     "stop": "Durdur"
+  },
+  "status": {
+    "noMic": "🎤 Mikrofon olmadan sabit ritim çalınıyor. Nefese uyarlamayı etkinleştirmek için mikrofona izin verin."
   }
 }

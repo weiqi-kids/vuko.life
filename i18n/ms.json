@@ -47,7 +47,8 @@
     "stopped": "Pemantauan Dihentikan",
     "error": "❌ Tidak dapat dimulakan:",
     "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, tidak dapat menggunakan pemantauan pernafasan",
-    "waiting": "Menunggu Pengesanan"
+    "waiting": "Menunggu Pengesanan",
+    "noMic": "🎤 Memainkan denyut tetap tanpa mikrofon. Benarkan mikrofon untuk mengaktifkan penyesuaian pernafasan."
   },
   "units": {
     "perMin": "kali/min",

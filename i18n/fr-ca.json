@@ -47,7 +47,8 @@
     "stopped": "Surveillance arrêtée",
     "error": "❌ Impossible de démarrer :",
     "unsupported": "⚠️ Votre navigateur ne prend pas en charge la fonction microphone, la surveillance de la respiration ne peut pas être utilisée",
-    "waiting": "À détecter"
+    "waiting": "À détecter",
+    "noMic": "🎤 Lecture d'un battement fixe sans micro. Autorisez le micro pour activer l'adaptation à votre respiration."
   },
   "units": {
     "perMin": "fois/min",

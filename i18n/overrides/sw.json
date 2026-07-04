@@ -11,5 +11,8 @@
     ],
     "play": "Cheza",
     "stop": "Simamisha"
+  },
+  "status": {
+    "noMic": "🎤 Inacheza mdundo usiobadilika bila maikrofoni. Ruhusu maikrofoni ili kuwasha ulinganifu wa kupumua."
   }
 }

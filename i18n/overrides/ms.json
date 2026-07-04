@@ -11,5 +11,8 @@
     ],
     "play": "Main",
     "stop": "Berhenti"
+  },
+  "status": {
+    "noMic": "🎤 Memainkan denyut tetap tanpa mikrofon. Benarkan mikrofon untuk mengaktifkan penyesuaian pernafasan."
   }
 }

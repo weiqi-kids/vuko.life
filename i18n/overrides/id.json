@@ -11,5 +11,8 @@
     ],
     "play": "Putar",
     "stop": "Berhenti"
+  },
+  "status": {
+    "noMic": "🎤 Memutar ketukan tetap tanpa mikrofon. Izinkan mikrofon untuk mengaktifkan penyesuaian napas."
   }
 }

@@ -11,5 +11,8 @@
     ],
     "play": "Écouter",
     "stop": "Arrêter"
+  },
+  "status": {
+    "noMic": "🎤 Lecture d'un battement fixe sans micro. Autorisez le micro pour activer l'adaptation à votre respiration."
   }
 }

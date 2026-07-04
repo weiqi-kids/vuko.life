@@ -11,5 +11,8 @@
     ],
     "play": "Reproducir",
     "stop": "Detener"
+  },
+  "status": {
+    "noMic": "🎤 Reproduciendo un tono constante sin micrófono. Permite el micrófono para activar la adaptación a tu respiración."
   }
 }

@@ -11,5 +11,8 @@
     ],
     "play": "Reproduzir",
     "stop": "Parar"
+  },
+  "status": {
+    "noMic": "🎤 Reproduzindo um batimento fixo sem microfone. Permita o microfone para ativar a adaptação à respiração."
   }
 }

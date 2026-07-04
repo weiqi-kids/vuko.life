@@ -47,7 +47,8 @@
     "stopped": "Monitorowanie zatrzymane",
     "error": "❌ Nie można uruchomić:",
     "unsupported": "⚠️ Twoja przeglądarka nie obsługuje funkcji mikrofonu, nie można używać monitorowania oddechu",
-    "waiting": "Do wykrycia"
+    "waiting": "Do wykrycia",
+    "noMic": "🎤 Odtwarzanie stałego rytmu bez mikrofonu. Zezwól na mikrofon, aby włączyć dostosowanie do oddechu."
   },
   "units": {
     "perMin": "razy/min",

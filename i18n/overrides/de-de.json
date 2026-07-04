@@ -11,5 +11,8 @@
     ],
     "play": "Abspielen",
     "stop": "Stopp"
+  },
+  "status": {
+    "noMic": "🎤 Wiedergabe mit festem Beat ohne Mikrofon. Erlauben Sie das Mikrofon, um die Atemanpassung zu aktivieren."
   }
 }

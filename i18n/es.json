@@ -47,7 +47,8 @@
     "stopped": "Monitoreo detenido",
     "error": "❌ No se puede iniciar:",
     "unsupported": "⚠️ Su navegador no admite la función de micrófono, no se puede usar el monitoreo de respiración",
-    "waiting": "Por detectar"
+    "waiting": "Por detectar",
+    "noMic": "🎤 Reproduciendo un tono constante sin micrófono. Permite el micrófono para activar la adaptación a tu respiración."
   },
   "units": {
     "perMin": "veces/min",

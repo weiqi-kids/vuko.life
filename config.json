@@ -11,6 +11,7 @@
     "beatThreshold": 3,
     "beatMaxDiff": 10,
     "interpolation": 0.4,
+    "presetBeatTargets": [10, 7, 7.83, 3, 15, 40],
     "targetMap": {
       "relaxed": 6,
       "focus": 10,

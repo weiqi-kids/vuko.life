@@ -11,5 +11,8 @@
     ],
     "play": "Phát",
     "stop": "Dừng"
+  },
+  "status": {
+    "noMic": "🎤 Đang phát nhịp cố định không dùng micro. Cho phép micro để bật chế độ thích ứng theo hơi thở."
   }
 }

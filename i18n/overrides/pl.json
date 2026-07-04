@@ -11,5 +11,8 @@
     ],
     "play": "Odtwórz",
     "stop": "Zatrzymaj"
+  },
+  "status": {
+    "noMic": "🎤 Odtwarzanie stałego rytmu bez mikrofonu. Zezwól na mikrofon, aby włączyć dostosowanie do oddechu."
   }
 }

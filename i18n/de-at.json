@@ -47,7 +47,8 @@
     "stopped": "Überwachung gestoppt",
     "error": "❌ Kann nicht gestartet werden:",
     "unsupported": "⚠️ Ihr Browser unterstützt die Mikrofonfunktion nicht, Atemüberwachung nicht möglich",
-    "waiting": "Zu überprüfen"
+    "waiting": "Zu überprüfen",
+    "noMic": "🎤 Wiedergabe mit festem Beat ohne Mikrofon. Erlauben Sie das Mikrofon, um die Atemanpassung zu aktivieren."
   },
   "units": {
     "perMin": "Mal/Min",

@@ -47,7 +47,8 @@
     "stopped": "Ufuatiliaji umesimamishwa",
     "error": "❌ Haiwezi kuanzisha:",
     "unsupported": "⚠️ Kivinjari chako hakina msaada wa kipengele cha maikrofoni, huwezi kutumia ufuatiliaji wa kupumua",
-    "waiting": "Inasubiri kugunduliwa"
+    "waiting": "Inasubiri kugunduliwa",
+    "noMic": "🎤 Inacheza mdundo usiobadilika bila maikrofoni. Ruhusu maikrofoni ili kuwasha ulinganifu wa kupumua."
   },
   "units": {
     "perMin": "mara/dakika",

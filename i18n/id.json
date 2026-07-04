@@ -47,7 +47,8 @@
     "stopped": "Pemantauan Dihentikan",
     "error": "❌ Tidak dapat memulai:",
     "unsupported": "⚠️ Peramban Anda tidak mendukung fungsi mikrofon, tidak dapat menggunakan pemantauan pernapasan",
-    "waiting": "Menunggu Deteksi"
+    "waiting": "Menunggu Deteksi",
+    "noMic": "🎤 Memutar ketukan tetap tanpa mikrofon. Izinkan mikrofon untuk mengaktifkan penyesuaian napas."
   },
   "units": {
     "perMin": "kali/menit",

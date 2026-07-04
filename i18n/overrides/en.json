@@ -11,5 +11,8 @@
     ],
     "play": "Play",
     "stop": "Stop"
+  },
+  "status": {
+    "noMic": "🎤 Playing a steady beat without the microphone. Allow mic access to enable breath adaptation."
   }
 }

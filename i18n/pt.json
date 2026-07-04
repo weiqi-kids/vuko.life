@@ -47,7 +47,8 @@
     "stopped": "Monitoramento parado",
     "error": "❌ Não foi possível iniciar:",
     "unsupported": "⚠️ Seu navegador não suporta a função de microfone, não é possível usar o monitoramento de respiração",
-    "waiting": "A ser detectado"
+    "waiting": "A ser detectado",
+    "noMic": "🎤 Reproduzindo um batimento fixo sem microfone. Permita o microfone para ativar a adaptação à respiração."
   },
   "units": {
     "perMin": "vezes/min",

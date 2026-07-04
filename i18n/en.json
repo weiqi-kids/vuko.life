@@ -47,7 +47,8 @@
     "stopped": "Monitoring Stopped",
     "error": "❌ Unable to Start:",
     "unsupported": "⚠️ Your browser does not support microphone functionality, breathing monitoring cannot be used",
-    "waiting": "To be detected"
+    "waiting": "To be detected",
+    "noMic": "🎤 Playing a steady beat without the microphone. Allow mic access to enable breath adaptation."
   },
   "units": {
     "perMin": "times/min",

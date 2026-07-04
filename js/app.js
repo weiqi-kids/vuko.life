@@ -9,7 +9,18 @@
             BREATH_DETECTION_SENSITIVITY: 0.8, // 呼吸檢測敏感度，建議 0.5~1.5，值越高越不易觸發
             WAVEFORM_SCALE: 100,             // 呼吸波形對數放大倍率
             NOISE_THRESHOLD_DB: 50,         // 背景噪音警告門檻 (dB)
-            
+
+            // 雙耳拍頻模式設定（鏡射 config.json 的 binaural.*；改值請兩邊同步）
+            BINAURAL: {
+                // 六模式的目標拍頻 (Hz)，index 對應 binauralOptions / binauralPreset
+                // radio 的固定順序：專注10 / 冥想7 / 舒曼共振7.83 / 睡眠3 / 提神15 / 激發靈感40
+                // 與頁面「模式對照表」(content/*.json modes.rows) 的宣稱一致。
+                PRESET_BEAT_TARGETS: [10, 7, 7.83, 3, 15, 40],
+                INTERPOLATION: 0.4,          // 每秒朝目標收斂的比例 (config.binaural.interpolation)
+                BEAT_THRESHOLD: 3            // 呼吸調變偏離目標的上限 Hz (config.binaural.beatThreshold)
+            },
+
+
             // 語言設定
             LANGUAGE: 'auto',                // 'auto' 為自動偵測，或指定 'zh-TW', 'zh-CN', 'en', 'ja', 'ko', 'ar', 'hi', 'fr-FR', 'fr-CA', 'fr-BE', 'ru', 'de-DE', 'de-AT', 'de-CH', 'id', 'tr', 'vi', 'th', 'pl', 'uk', 'he', 'ms', 'sw', 'pa', 'my', 'ta', 'bn'
             FALLBACK_LANGUAGE: 'zh-TW',      // 自動偵測失敗時的預設語言
@@ -90,6 +101,8 @@
         let bgVolumeMonitorId = null;
         let lastNoiseUpdate = 0;
         let currentBeatFreq = 8;
+        let noMicMode = false;          // 麥克風被拒/失敗 → 以模式目標頻率播固定拍頻
+        let lastBreathStateKey = null;  // GA breath_state_change 用的上一個呼吸狀態
         let currentLanguage = CONFIG.FALLBACK_LANGUAGE;
         let userCountry = null;
         // 選擇狀態移至 audio_selector.js
@@ -100,6 +113,14 @@
         // 自動偵測用戶地理位置和語言
         function detectUserLanguage() {
             return new Promise((resolve, reject) => {
+                // 各語言頁面尾端的 inline script 會設 window.PAGE_LANGUAGE（在 deferred
+                // script 之前執行，不依賴 CONFIG 已定義），優先於瀏覽器語言偵測。
+                if (typeof window !== 'undefined' && window.PAGE_LANGUAGE) {
+                    currentLanguage = window.PAGE_LANGUAGE;
+                    resolve(currentLanguage);
+                    return;
+                }
+
                 // 如果設定為手動指定語言，直接使用
                 if (CONFIG.LANGUAGE !== 'auto') {
                     currentLanguage = CONFIG.LANGUAGE;
@@ -239,6 +260,23 @@
             });
         }
 
+        // ===== 模式 → 目標拍頻 =====
+        // 六模式（binauralPreset radio，hero chip 與其雙向同步）決定拍頻的「目標值」，
+        // 呼吸偵測只作為朝目標收斂的調變（見 updateBreathingStats）。
+        function getSelectedPresetIndex() {
+            const radios = document.querySelectorAll('input[name="binauralPreset"]');
+            for (let i = 0; i < radios.length; i++) {
+                if (radios[i].checked) return i;
+            }
+            return 0;
+        }
+
+        function getPresetTargetBeat() {
+            const targets = CONFIG.BINAURAL.PRESET_BEAT_TARGETS;
+            const idx = getSelectedPresetIndex();
+            return (typeof targets[idx] === 'number') ? targets[idx] : targets[0];
+        }
+
         // 切換監測狀態
         function toggleAdaptiveMode() {
             if (isRecording) {
@@ -259,15 +297,28 @@
                     });
                 }
 
+                // 播放起點 = 選定模式的目標拍頻（而非上一次殘留值）
+                currentBeatFreq = getPresetTargetBeat();
+                lastBreathStateKey = null;
+
                 const bgmName = selectedMusicItem ? selectedMusicItem.name : CONFIG.MUSIC_CONTENT.TYPE;
                 trackEvent('play', {
                     bgm: bgmName,
                     beat: currentBeatFreq
                 });
-                
+
                 // 取得麥克風權限 - 使用簡化的音訊設定以提高相容性
-                return navigator.mediaDevices.getUserMedia({ audio: true });
+                // 被拒或失敗時回傳 null → 走無麥克風固定拍頻模式（不進錯誤死路）
+                return navigator.mediaDevices.getUserMedia({ audio: true })
+                    .catch(error => {
+                        console.warn('麥克風不可用，改用固定拍頻模式:', error.message);
+                        return null;
+                    });
             }).then(stream => {
+                if (!stream) {
+                    startWithoutMic();
+                    return;
+                }
                 mediaStream = stream;
                 
                 // 設置音訊分析
@@ -313,9 +364,45 @@
             });
         }
 
+        // 無麥克風模式：以選定模式的目標頻率播放固定拍頻（無呼吸自適應）。
+        // getUserMedia 被拒或失敗時的退路，仍可完整聽到拍頻＋背景音樂。
+        function startWithoutMic() {
+            noMicMode = true;
+            isRecording = true;
+            currentBeatFreq = getPresetTargetBeat();
+
+            // 啟動 session 追蹤
+            if (typeof startSessionTracking === 'function') {
+                startSessionTracking();
+            }
+
+            // 固定拍頻（模式目標值）
+            startBinauralBeats();
+
+            // 載入背景音檔（如果有配置）
+            const audioUrl = getBackgroundAudioUrl();
+            if (audioUrl) {
+                loadBackgroundAudio(audioUrl);
+            }
+
+            const content = getLanguageContent();
+            const toggleBtn = document.getElementById('monitorToggleBtn');
+            toggleBtn.textContent = content.buttons.stop;
+            const statusText = (content.status && content.status.noMic) ||
+                'Playing a steady beat without the microphone. Allow mic access anytime to enable breath adaptation.';
+            showStatus(statusText, 'warning');
+
+            trackEvent('play_no_mic', {
+                beat: currentBeatFreq,
+                mode_index: getSelectedPresetIndex(),
+                language: currentLanguage
+            });
+        }
+
         // 停止智能模式
         function stopAdaptiveMode() {
             isRecording = false;
+            noMicMode = false;
 
             // 停止 session 追蹤
             if (typeof stopSessionTracking === 'function') {
@@ -332,6 +419,7 @@
 
             if (mediaStream) {
                 mediaStream.getTracks().forEach(track => track.stop());
+                mediaStream = null;
             }
 
             // 停止拍頻
@@ -569,37 +657,60 @@
             const units = content.units || {};
             document.getElementById('breathRate').textContent = `${breathRate.toFixed(1)} ${units.perMin || ''}`;
 
-            let beatFreq, stateKey;
+            // 呼吸狀態分級（門檻沿用既有 10/15/20 次/分）。
+            // breathBeat 是呼吸對應的參考拍頻，只作為「偏離模式目標」的調變來源；
+            // breathWeight 是調變權重：呼吸越慢 → 權重越小 → 越快貼向模式目標，
+            // 呼吸越快 → 暫時偏離目標，但幅度受 BEAT_MAX_DIFF 與權重限制。
+            let breathBeat, stateKey, breathWeight;
 
             if (breathRate < 10) {
                 stateKey = 'deep_relaxed';
-                beatFreq = 4;
+                breathBeat = 4;
+                breathWeight = 0.05;
             } else if (breathRate < 15) {
                 stateKey = 'relaxed';
-                beatFreq = 6;
+                breathBeat = 6;
+                breathWeight = 0.15;
             } else if (breathRate < 20) {
                 stateKey = 'normal';
-                beatFreq = 10;
+                breathBeat = 10;
+                breathWeight = 0.3;
             } else {
                 stateKey = 'tense';
-                beatFreq = 14;
+                breathBeat = 14;
+                breathWeight = 0.45;
             }
-            
-            // 更新拍頻
-            if (beatFreq !== currentBeatFreq) {
-                // Google Analytics 追蹤狀態變化
-                if (CONFIG.GOOGLE_ANALYTICS.TRACK_EVENTS.BREATH_STATE_CHANGE) {
+
+            // Google Analytics 追蹤呼吸狀態變化（沿用既有事件與參數形態：
+            // from_state / to_state 維持 4/6/10/14 的呼吸段位數值）
+            const BREATH_STATE_BEATS = { deep_relaxed: 4, relaxed: 6, normal: 10, tense: 14 };
+            if (stateKey !== lastBreathStateKey) {
+                if (lastBreathStateKey !== null &&
+                    CONFIG.GOOGLE_ANALYTICS.TRACK_EVENTS.BREATH_STATE_CHANGE) {
                     trackEvent('breath_state_change', {
-                        from_state: currentBeatFreq,
-                        to_state: beatFreq,
+                        from_state: BREATH_STATE_BEATS[lastBreathStateKey],
+                        to_state: breathBeat,
                         state_name: stateKey,
                         breath_rate: breathRate,
                         language: currentLanguage
                     });
                 }
-                
-                currentBeatFreq = beatFreq;
-                updateBinauralBeats(beatFreq);
+                lastBreathStateKey = stateKey;
+            }
+
+            // 模式目標拍頻 ＋ 有限的呼吸調變 → 每秒以 interpolation 比例收斂。
+            // 偏離量 = 呼吸參考拍頻與目標的差，夾在 ±BEAT_THRESHOLD 內再乘權重，
+            // 最壞情況（tense）偏離目標僅 3 × 0.45 = 1.35 Hz，宣稱頻率始終成立。
+            const target = getPresetTargetBeat();
+            const clampHz = CONFIG.BINAURAL.BEAT_THRESHOLD;
+            const deviation = Math.max(-clampHz, Math.min(clampHz, breathBeat - target)) * breathWeight;
+            const desired = target + deviation;
+            const next = currentBeatFreq +
+                (desired - currentBeatFreq) * CONFIG.BINAURAL.INTERPOLATION;
+
+            if (Math.abs(next - currentBeatFreq) > 0.005) {
+                currentBeatFreq = Math.round(next * 100) / 100;
+                updateBinauralBeats(currentBeatFreq);
             }
         }
 
@@ -804,6 +915,16 @@
                 document.getElementById('monitorToggleBtn').disabled = true;
                 document.getElementById('deviceTestBtn').disabled = true;
             }
+        });
+
+        // 模式切換即時生效：正在播放時，切換 binauralPreset（含 hero chip 轉發的
+        // change 事件）立刻把拍頻設為新模式的目標值；有麥克風時，之後的呼吸 tick
+        // 會繼續在目標附近做有限調變。用 document 級委派，i18n 重建選項列表也不失效。
+        document.addEventListener('change', (e) => {
+            if (!e.target || e.target.name !== 'binauralPreset') return;
+            if (!isRecording) return;
+            currentBeatFreq = getPresetTargetBeat();
+            updateBinauralBeats(currentBeatFreq);
         });
 
         // ===== Hero 接線（僅新增，不動既有邏輯） =====
