@@ -13,6 +13,8 @@
     "stop": "Stopp"
   },
   "status": {
-    "noMic": "🎤 Wiedergabe mit festem Beat ohne Mikrofon. Erlauben Sie das Mikrofon, um die Atemanpassung zu aktivieren."
+    "noMic": "🎤 Wiedergabe mit festem Beat ohne Mikrofon. Erlauben Sie das Mikrofon, um die Atemanpassung zu aktivieren.",
+    "btWarning": "🎧 Bluetooth-Kopfhörer erkannt: Bei aktiviertem Mikrofon schalten die meisten Bluetooth-Kopfhörer in einen Mono-Anrufmodus, der den linken und rechten Kanal zusammenmischt – der Effekt der binauralen Beats geht verloren. Verwenden Sie kabelgebundene Kopfhörer oder wechseln Sie in den festen Beat-Modus ohne Mikrofon.",
+    "useNoMic": "Modus ohne Mikrofon verwenden"
   }
 }

@@ -48,7 +48,9 @@
     "error": "❌ Başlatılamıyor:",
     "unsupported": "⚠️ Tarayıcınız mikrofon özelliğini desteklemiyor, nefes izleme kullanılamaz",
     "waiting": "Tespit Edilecek",
-    "noMic": "🎤 Mikrofon olmadan sabit ritim çalınıyor. Nefese uyarlamayı etkinleştirmek için mikrofona izin verin."
+    "noMic": "🎤 Mikrofon olmadan sabit ritim çalınıyor. Nefese uyarlamayı etkinleştirmek için mikrofona izin verin.",
+    "btWarning": "🎧 Bluetooth kulaklık algılandı: Mikrofon açıkken çoğu Bluetooth kulaklık, sol ve sağ kanalları birleştiren mono arama moduna geçer ve binaural ritim etkisi kaybolur. Kablolu kulaklık kullanın veya mikrofonsuz sabit ritim moduna geçin.",
+    "useNoMic": "Mikrofonsuz moda geç"
   },
   "units": {
     "perMin": "kez/dakika",

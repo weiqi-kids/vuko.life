@@ -13,6 +13,8 @@
     "stop": "Berhenti"
   },
   "status": {
-    "noMic": "🎤 Memainkan denyut tetap tanpa mikrofon. Benarkan mikrofon untuk mengaktifkan penyesuaian pernafasan."
+    "noMic": "🎤 Memainkan denyut tetap tanpa mikrofon. Benarkan mikrofon untuk mengaktifkan penyesuaian pernafasan.",
+    "btWarning": "🎧 Fon kepala Bluetooth dikesan: apabila mikrofon dihidupkan, kebanyakan fon kepala Bluetooth bertukar ke mod panggilan mono yang menggabungkan saluran kiri dan kanan, menyebabkan kesan binaural beats hilang. Gunakan fon berwayar, atau tukar ke mod rentak tetap tanpa mikrofon.",
+    "useNoMic": "Tukar ke mod tanpa mikrofon"
   }
 }

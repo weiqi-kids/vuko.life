@@ -48,7 +48,9 @@
     "error": "❌ Haiwezi kuanzisha:",
     "unsupported": "⚠️ Kivinjari chako hakina msaada wa kipengele cha maikrofoni, huwezi kutumia ufuatiliaji wa kupumua",
     "waiting": "Inasubiri kugunduliwa",
-    "noMic": "🎤 Inacheza mdundo usiobadilika bila maikrofoni. Ruhusu maikrofoni ili kuwasha ulinganifu wa kupumua."
+    "noMic": "🎤 Inacheza mdundo usiobadilika bila maikrofoni. Ruhusu maikrofoni ili kuwasha ulinganifu wa kupumua.",
+    "btWarning": "🎧 Vifaa vya masikioni vya Bluetooth vimegunduliwa: maikrofoni ikiwashwa, vifaa vingi vya Bluetooth hubadilika hadi hali ya simu ya mono inayounganisha chaneli ya kushoto na kulia, na athari ya midundo ya binaural hupotea. Tumia vifaa vya masikioni vya waya, au badilisha hadi hali ya mdundo usiobadilika bila maikrofoni.",
+    "useNoMic": "Tumia hali bila maikrofoni"
   },
   "units": {
     "perMin": "mara/dakika",

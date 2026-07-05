@@ -48,7 +48,9 @@
     "error": "❌ Nie można uruchomić:",
     "unsupported": "⚠️ Twoja przeglądarka nie obsługuje funkcji mikrofonu, nie można używać monitorowania oddechu",
     "waiting": "Do wykrycia",
-    "noMic": "🎤 Odtwarzanie stałego rytmu bez mikrofonu. Zezwól na mikrofon, aby włączyć dostosowanie do oddechu."
+    "noMic": "🎤 Odtwarzanie stałego rytmu bez mikrofonu. Zezwól na mikrofon, aby włączyć dostosowanie do oddechu.",
+    "btWarning": "🎧 Wykryto słuchawki Bluetooth: przy włączonym mikrofonie większość słuchawek Bluetooth przełącza się w tryb rozmowy mono, łącząc lewy i prawy kanał, przez co efekt dudnień różnicowych zanika. Użyj słuchawek przewodowych albo przełącz się na tryb stałego rytmu bez mikrofonu.",
+    "useNoMic": "Tryb bez mikrofonu"
   },
   "units": {
     "perMin": "razy/min",

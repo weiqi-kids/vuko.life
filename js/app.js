@@ -342,9 +342,12 @@
 
                 // 啟動呼吸檢測
                 startBreathDetection();
-                
+
                 // 生成初始拍頻
                 startBinauralBeats();
+
+                // 藍牙/單聲道體驗防線：拿到 mic 權限後盡力偵測，命中才提示（不阻斷）
+                maybeShowBtWarning(stream);
                 
                 // 載入背景音檔（如果有配置）
                 const audioUrl = getBackgroundAudioUrl();
@@ -403,6 +406,7 @@
         function stopAdaptiveMode() {
             isRecording = false;
             noMicMode = false;
+            hideBtWarning(); // session 結束，提示列一併收起（未設 dismissed，下次播放重新偵測）
 
             // 停止 session 追蹤
             if (typeof stopSessionTracking === 'function') {
@@ -430,16 +434,19 @@
                 crossfadeTimeout = null;
             }
 
-            // 停止背景音樂（帶淡出效果）
+            // 停止背景音樂（帶淡出效果）。捕捉「此刻」的 source 再延遲 stop：
+            // 若淡出期間又啟動了新 session（如 BT 提示列的「改用無麥克風模式」
+            // 先停後重啟），舊 timeout 才不會誤殺新載入的背景音樂。
             if (backgroundAudioSource && backgroundGainNode) {
                 const fadeOutDuration = CONFIG.MUSIC_CONTENT.FADE_OUT_DURATION;
+                const fadingSource = backgroundAudioSource;
                 backgroundGainNode.gain.exponentialRampToValueAtTime(
                     0.001,
                     audioContext.currentTime + fadeOutDuration
                 );
                 setTimeout(() => {
-                    if (backgroundAudioSource) {
-                        backgroundAudioSource.stop();
+                    try { fadingSource.stop(); } catch (e) { /* 已停過 */ }
+                    if (backgroundAudioSource === fadingSource) {
                         backgroundAudioSource = null;
                         backgroundGainNode = null;
                         bgAnalyser = null;
@@ -776,6 +783,112 @@
             binauralOscillators = [];
         }
 
+        // ===== 藍牙/單聲道體驗防線 =====
+        // 開麥克風時，多數藍牙耳機會從 A2DP（立體聲）切到 HFP/HSP（單聲道通話）：
+        // 左右聲道在「裝置端」被合流，真雙耳拍頻（左右耳不同頻率）退化成兩音疊加的
+        // 物理嗡鳴，用戶會誤以為產品是假的。程式端的聲道路由（startBinauralBeats 的
+        // ChannelMerger）已驗證正確，網頁端也無法阻止耳機切 profile，因此只能盡力
+        // 偵測並給不阻斷的提示。啟發式（保守：判不出就不提示，寧可漏報不誤殺）：
+        //   a) mic track getSettings().sampleRate ≤ 16000 —— HFP 窄頻/寬頻語音特徵
+        //   b) mic track 的 label / deviceId 含 bluetooth / hands-free / headset 等字樣
+        //   c) enumerateDevices() 的 audiooutput label 含 Bluetooth / AirPods / 藍牙等
+        //      （label 需在取得媒體權限後才可讀——呼叫點已拿到 mic 權限，剛好可讀）
+        const BT_OUTPUT_LABEL_RE = /bluetooth|hands-?free|hfp\b|airpods?|藍牙|蓝牙/i;
+        const BT_MIC_LABEL_RE = /bluetooth|hands-?free|hfp\b|headset|airpods?|藍牙|蓝牙/i;
+        let btWarningDismissed = false; // 用戶關掉或已切無麥模式後，本頁不再提示
+
+        function detectBluetoothMonoRisk(stream) {
+            const signals = [];
+            const track = stream && stream.getAudioTracks ? stream.getAudioTracks()[0] : null;
+            if (track) {
+                let settings = {};
+                try { settings = (track.getSettings && track.getSettings()) || {}; } catch (e) {}
+                if (typeof settings.sampleRate === 'number' &&
+                    settings.sampleRate > 0 && settings.sampleRate <= 16000) {
+                    signals.push('low_sample_rate');
+                }
+                const micText = `${track.label || ''} ${settings.deviceId || ''}`;
+                if (BT_MIC_LABEL_RE.test(micText)) {
+                    signals.push('mic_label');
+                }
+            }
+            if (!navigator.mediaDevices || !navigator.mediaDevices.enumerateDevices) {
+                return Promise.resolve(signals);
+            }
+            return navigator.mediaDevices.enumerateDevices().then(devices => {
+                const hit = devices.some(d =>
+                    d.kind === 'audiooutput' && BT_OUTPUT_LABEL_RE.test(d.label || ''));
+                if (hit) signals.push('output_label');
+                return signals;
+            }).catch(() => signals); // 列舉失敗＝無法判定 → 只用已有訊號
+        }
+
+        function maybeShowBtWarning(stream) {
+            if (btWarningDismissed) return;
+            detectBluetoothMonoRisk(stream).then(signals => {
+                if (!signals.length) return;               // 無法判定 → 不提示
+                if (!isRecording || noMicMode) return;     // session 已停/已是無麥模式
+                showBtWarning(signals);
+            }).catch(() => {});
+        }
+
+        function showBtWarning(signals) {
+            const bar = document.getElementById('btWarning');
+            if (!bar) return;
+            const content = getLanguageContent();
+            const status = content.status || {};
+            const textEl = document.getElementById('btWarningText');
+            if (textEl) {
+                textEl.textContent = status.btWarning ||
+                    'Bluetooth headphones detected: with the microphone on, most Bluetooth headsets switch to a mono call mode, so the binaural beat effect is lost. Use wired headphones, or switch to the fixed-beat mode without the microphone.';
+            }
+            const switchBtn = document.getElementById('btSwitchNoMicBtn');
+            if (switchBtn) {
+                switchBtn.textContent = status.useNoMic || 'Switch to no-mic mode';
+            }
+            bar.style.display = 'flex';
+            trackEvent('bt_mono_warning_shown', {
+                signals: signals.join(','),
+                language: currentLanguage
+            });
+        }
+
+        function hideBtWarning() {
+            const bar = document.getElementById('btWarning');
+            if (bar) bar.style.display = 'none';
+        }
+
+        // 「改用無麥克風模式」：先停現行 session（停 mic/拍頻、背景音樂淡出），
+        // 再走既有 startWithoutMic 流程以模式目標頻率重啟固定拍頻。
+        function btSwitchToNoMic() {
+            trackEvent('bt_switch_no_mic', {
+                language: currentLanguage,
+                mode_index: getSelectedPresetIndex()
+            });
+            btWarningDismissed = true;
+            hideBtWarning();
+            if (isRecording) {
+                stopAdaptiveMode();
+            }
+            initAudioContext().then(() => {
+                startWithoutMic();
+            }).catch(error => {
+                console.error('無麥克風模式啟動失敗:', error);
+                const content = getLanguageContent();
+                showStatus(`${(content.status || {}).error || ''}${error.message}`, 'error');
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const switchBtn = document.getElementById('btSwitchNoMicBtn');
+            if (switchBtn) switchBtn.addEventListener('click', btSwitchToNoMic);
+            const closeBtn = document.getElementById('btWarningCloseBtn');
+            if (closeBtn) closeBtn.addEventListener('click', () => {
+                btWarningDismissed = true;
+                hideBtWarning();
+            });
+        });
+
         // 設備測試功能
         function testDevice() {
             const btn = document.getElementById('deviceTestBtn');
@@ -840,16 +953,19 @@
                 }, 100);
 
             }).catch(error => {
+                // 麥克風測試失敗（被拒/無裝置）仍執行左右聲道測試——
+                // 拍頻本來就有無麥克風模式，喇叭/耳機的立體聲測試不該被跳過。
                 console.error('設備測試失敗:', error);
                 btn.innerHTML = '❌ 測試失敗';
                 btn.style.background = 'linear-gradient(45deg, #dc3545, #c82333)';
                 flashAdaptiveMode();
 
-                setTimeout(() => {
+                playStereoTest(() => {
                     btn.innerHTML = originalText;
                     btn.style.background = 'linear-gradient(45deg, #28a745, #20c997)';
                     btn.disabled = false;
-                }, 2000);
+                    showStatus('設備測試完成', 'success');
+                });
             });
         }
 

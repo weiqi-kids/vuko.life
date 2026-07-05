@@ -48,7 +48,9 @@
     "error": "❌ Tidak dapat dimulakan:",
     "unsupported": "⚠️ Pelayar anda tidak menyokong fungsi mikrofon, tidak dapat menggunakan pemantauan pernafasan",
     "waiting": "Menunggu Pengesanan",
-    "noMic": "🎤 Memainkan denyut tetap tanpa mikrofon. Benarkan mikrofon untuk mengaktifkan penyesuaian pernafasan."
+    "noMic": "🎤 Memainkan denyut tetap tanpa mikrofon. Benarkan mikrofon untuk mengaktifkan penyesuaian pernafasan.",
+    "btWarning": "🎧 Fon kepala Bluetooth dikesan: apabila mikrofon dihidupkan, kebanyakan fon kepala Bluetooth bertukar ke mod panggilan mono yang menggabungkan saluran kiri dan kanan, menyebabkan kesan binaural beats hilang. Gunakan fon berwayar, atau tukar ke mod rentak tetap tanpa mikrofon.",
+    "useNoMic": "Tukar ke mod tanpa mikrofon"
   },
   "units": {
     "perMin": "kali/min",

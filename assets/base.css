@@ -234,6 +234,75 @@
             border: 2px solid #f5c6cb;
         }
 
+        /* 藍牙單聲道提示列（js/app.js maybeShowBtWarning）——不阻斷、可關閉 */
+        .bt-warning {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px 14px;
+            margin: 25px 0;
+            padding: 12px 14px;
+            border-radius: 12px;
+            background: #fff3cd;
+            color: #856404;
+            border: 2px solid #ffeaa7;
+            text-align: start;
+            font-weight: bold;
+        }
+
+        .bt-warning-text {
+            flex: 1 1 260px;
+            line-height: 1.5;
+        }
+
+        .bt-warning-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-inline-start: auto;
+        }
+
+        .bt-warning-switch {
+            background: #856404;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 14px;
+            font-weight: bold;
+            font-size: 0.95em;
+            cursor: pointer;
+        }
+
+        .bt-warning-switch:hover {
+            opacity: 0.88;
+        }
+
+        .bt-warning-close {
+            background: transparent;
+            border: none;
+            color: inherit;
+            font-size: 1.1em;
+            line-height: 1;
+            padding: 6px 8px;
+            cursor: pointer;
+            opacity: 0.7;
+        }
+
+        .bt-warning-close:hover {
+            opacity: 1;
+        }
+
+        [data-theme="dark"] .bt-warning {
+            background: #3a3325;
+            color: #ffd970;
+            border-color: #6b5d33;
+        }
+
+        [data-theme="dark"] .bt-warning-switch {
+            background: #ffd970;
+            color: #3a3325;
+        }
+
         .control-buttons {
             text-align: center;
             margin: 30px 0;

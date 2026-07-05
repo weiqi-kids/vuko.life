@@ -13,6 +13,8 @@
     "stop": "Arrêter"
   },
   "status": {
-    "noMic": "🎤 Lecture d'un battement fixe sans micro. Autorisez le micro pour activer l'adaptation à votre respiration."
+    "noMic": "🎤 Lecture d'un battement fixe sans micro. Autorisez le micro pour activer l'adaptation à votre respiration.",
+    "btWarning": "🎧 Écouteurs Bluetooth détectés : lorsque le micro est activé, la plupart des écouteurs Bluetooth passent en mode appel mono qui fusionne les canaux gauche et droit, et l'effet des battements binauraux est perdu. Utilisez des écouteurs filaires, ou passez au mode battement fixe sans micro.",
+    "useNoMic": "Passer en mode sans micro"
   }
 }

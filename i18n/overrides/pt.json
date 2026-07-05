@@ -13,6 +13,8 @@
     "stop": "Parar"
   },
   "status": {
-    "noMic": "🎤 Reproduzindo um batimento fixo sem microfone. Permita o microfone para ativar a adaptação à respiração."
+    "noMic": "🎤 Reproduzindo um batimento fixo sem microfone. Permita o microfone para ativar a adaptação à respiração.",
+    "btWarning": "🎧 Fones Bluetooth detectados: com o microfone ativado, a maioria dos fones Bluetooth muda para um modo de chamada mono que mistura os canais esquerdo e direito, e o efeito dos batimentos binaurais se perde. Use fones com fio ou mude para o modo de batimento fixo sem microfone.",
+    "useNoMic": "Usar modo sem microfone"
   }
 }

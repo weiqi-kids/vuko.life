@@ -48,7 +48,9 @@
     "error": "❌ No se puede iniciar:",
     "unsupported": "⚠️ Su navegador no admite la función de micrófono, no se puede usar el monitoreo de respiración",
     "waiting": "Por detectar",
-    "noMic": "🎤 Reproduciendo un tono constante sin micrófono. Permite el micrófono para activar la adaptación a tu respiración."
+    "noMic": "🎤 Reproduciendo un tono constante sin micrófono. Permite el micrófono para activar la adaptación a tu respiración.",
+    "btWarning": "🎧 Auriculares Bluetooth detectados: al activar el micrófono, la mayoría de los auriculares Bluetooth cambian a un modo de llamada mono que fusiona los canales izquierdo y derecho, y el efecto de los tonos binaurales se pierde. Usa auriculares con cable o cambia al modo de tono fijo sin micrófono.",
+    "useNoMic": "Usar modo sin micrófono"
   },
   "units": {
     "perMin": "veces/min",

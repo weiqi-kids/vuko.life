@@ -13,6 +13,8 @@
     "stop": "Stop"
   },
   "status": {
-    "noMic": "🎤 Playing a steady beat without the microphone. Allow mic access to enable breath adaptation."
+    "noMic": "🎤 Playing a steady beat without the microphone. Allow mic access to enable breath adaptation.",
+    "btWarning": "🎧 Bluetooth headphones detected: with the microphone on, most Bluetooth headsets switch to a mono call mode that merges the left and right channels, so the binaural beat effect is lost. Use wired headphones, or switch to the fixed-beat mode without the microphone.",
+    "useNoMic": "Switch to no-mic mode"
   }
 }

@@ -13,6 +13,8 @@
     "stop": "Berhenti"
   },
   "status": {
-    "noMic": "🎤 Memutar ketukan tetap tanpa mikrofon. Izinkan mikrofon untuk mengaktifkan penyesuaian napas."
+    "noMic": "🎤 Memutar ketukan tetap tanpa mikrofon. Izinkan mikrofon untuk mengaktifkan penyesuaian napas.",
+    "btWarning": "🎧 Headset Bluetooth terdeteksi: saat mikrofon aktif, sebagian besar headset Bluetooth beralih ke mode panggilan mono yang menggabungkan kanal kiri dan kanan, sehingga efek binaural beats hilang. Gunakan earphone berkabel, atau beralih ke mode ketukan tetap tanpa mikrofon.",
+    "useNoMic": "Beralih ke mode tanpa mikrofon"
   }
 }

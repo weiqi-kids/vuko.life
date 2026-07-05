@@ -13,6 +13,8 @@
     "stop": "Dừng"
   },
   "status": {
-    "noMic": "🎤 Đang phát nhịp cố định không dùng micro. Cho phép micro để bật chế độ thích ứng theo hơi thở."
+    "noMic": "🎤 Đang phát nhịp cố định không dùng micro. Cho phép micro để bật chế độ thích ứng theo hơi thở.",
+    "btWarning": "🎧 Phát hiện tai nghe Bluetooth: khi bật micro, hầu hết tai nghe Bluetooth sẽ chuyển sang chế độ gọi đơn âm (mono), gộp kênh trái và phải khiến hiệu ứng nhịp song âm bị mất. Hãy dùng tai nghe có dây, hoặc chuyển sang chế độ nhịp cố định không dùng micro.",
+    "useNoMic": "Chuyển sang chế độ không micro"
   }
 }
