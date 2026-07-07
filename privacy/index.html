@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#667eea" />
+    <title>Privacy: Local Breath Detection, No Audio Upload｜Vuko</title>
+    <meta name="description" content="How Vuko protects your privacy: microphone audio is analyzed locally in your browser and never uploaded, breath detection is optional, and no account is required. Open source, so you can verify it.">
+    <link rel="canonical" href="https://www.vuko.life/privacy/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Privacy: Local Breath Detection, No Audio Upload" />
+    <meta property="og:description" content="Vuko analyzes your breathing locally in the browser. Microphone audio is never uploaded, breath detection is optional, and no account is required — and it's open source so you can verify it." />
+    <meta property="og:image" content="https://www.vuko.life/assets/en/home-og.jpg" />
+    <meta property="og:url" content="https://www.vuko.life/privacy/" />
+    <meta property="og:site_name" content="Vuko" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy: Local Breath Detection, No Audio Upload">
+    <meta name="twitter:description" content="Vuko analyzes your breathing locally in the browser. Microphone audio is never uploaded, breath detection is optional, and no account is required.">
+    <meta name="twitter:image" content="https://www.vuko.life/assets/en/home-og.jpg">
+    <link rel="stylesheet" href="/assets/base.css">
+    <style>
+        .guide-top { max-width: 800px; margin: 0 auto 16px; padding: 0 4px; }
+        .guide-top a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.95rem; font-weight: 600; }
+        .guide-top a:hover { text-decoration: underline; }
+        .guide-article h1 { font-size: 1.9rem; text-align: left; margin-bottom: 10px; line-height: 1.3; }
+        .byline { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 18px; }
+        .key-answer { background: rgba(102,126,234,0.10); border-left: 4px solid var(--accent-color); border-radius: 8px; padding: 14px 16px; color: var(--text-primary); }
+        .key-takeaway { background: rgba(40,167,69,0.08); border-left: 4px solid #28a745; border-radius: 8px; padding: 14px 16px; margin: 20px 0; color: var(--text-primary); }
+        .table-wrap { overflow-x: auto; }
+        .guide-article ul { margin: 0 0 14px 1.2em; }
+        .guide-article ul li { margin-bottom: 8px; }
+        .guide-faq { margin-top: 12px; display: flex; flex-direction: column; gap: 10px; }
+        .guide-faq .faq-item { border: 1px solid var(--border-color); box-shadow: none; }
+        .disclaimer { font-size: 0.8rem; color: var(--text-muted); margin-top: 22px; margin-bottom: 0; }
+        .guide-cta { background: rgba(102,126,234,0.10); border-radius: 12px; padding: 16px 18px; margin: 24px 0 4px; }
+        .related-guides { margin-top: 18px; }
+        .related-guides ul { list-style: none; margin: 8px 0 0; padding: 0; }
+        .related-guides li { margin-bottom: 6px; }
+        .guide-article a { color: var(--accent-color); }
+        @media (max-width: 600px) { .guide-article h1 { font-size: 1.5rem; } }
+    </style>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://www.vuko.life/privacy/#webpage",
+            "url": "https://www.vuko.life/privacy/",
+            "name": "Privacy: Local Breath Detection, No Audio Upload",
+            "description": "How Vuko protects your privacy: microphone audio is analyzed locally in your browser and never uploaded, breath detection is optional, and no account is required.",
+            "inLanguage": "en",
+            "isPartOf": { "@id": "https://www.vuko.life/#website" },
+            "breadcrumb": { "@id": "https://www.vuko.life/privacy/#breadcrumb" },
+            "datePublished": "2026-07-07",
+            "dateModified": "2026-07-07",
+            "speakable": {
+                "@type": "SpeakableSpecification",
+                "cssSelector": [".key-answer", ".key-takeaway", ".faq-answer"]
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://www.vuko.life/#organization",
+            "name": "Vuko",
+            "url": "https://www.vuko.life/",
+            "logo": { "@type": "ImageObject", "url": "https://www.vuko.life/favicon.ico" },
+            "sameAs": ["https://github.com/weiqi-kids/vuko.life"]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.vuko.life/#website",
+            "name": "Vuko",
+            "url": "https://www.vuko.life/",
+            "publisher": { "@id": "https://www.vuko.life/#organization" }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.vuko.life/privacy/#breadcrumb",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Vuko", "item": "https://www.vuko.life/" },
+                { "@type": "ListItem", "position": 2, "name": "Privacy", "item": "https://www.vuko.life/privacy/" }
+            ]
+        },
+        {
+            "@type": "FAQPage",
+            "@id": "https://www.vuko.life/privacy/#faq",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Does Vuko record or upload my microphone audio?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "No. When you enable breath detection, your microphone audio is analyzed in real time inside your browser using the Web Audio API. The audio is never uploaded to a server, never stored, and never leaves your device. Vuko only reads the rhythm of your breathing to adjust the sound." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do I have to use the microphone to use Vuko?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "No. The microphone is optional. Vuko works fully without it — you can pick a mode (sleep, focus, relax, meditate) and the binaural beats play on their own. Breath detection is an extra layer you can turn on or off at any time." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does Vuko require an account or signup?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "No. There is no account, no signup, no email, and no password. You open the page and it works. Because there is no account, Vuko holds no personal profile about you." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does Vuko use cookies or analytics?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "Vuko uses basic anonymous analytics (Google Analytics) to count aggregate visits and understand which languages are used. It does not collect personal information, does not show ads, and never sends your microphone audio or breathing data anywhere." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How can I verify Vuko's privacy claims?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "Vuko is open source under the MIT license. You can read the full source on GitHub, and you can open your browser's developer tools and watch the Network tab while breath detection runs — you will see that no audio data is sent to any server." }
+                }
+            ]
+        }
+    ]
+}
+    </script>
+</head>
+<body>
+    <nav class="guide-top" aria-label="Home"><a href="/">← Vuko — free breathing &amp; binaural beats app</a></nav>
+    <main class="seo-content guide-article">
+        <article>
+            <h1>Your breathing stays on your device</h1>
+            <p class="byline">By the Vuko team · Updated July 7, 2026</p>
+            <p class="key-answer" data-question="does vuko upload microphone audio">Vuko is a private, browser-based breathing and binaural-beats app. If you turn on breath detection, your microphone audio is analyzed locally in your browser and is never uploaded, never stored, and never leaves your device. The microphone is optional, there is no account to create, and because Vuko is open source you can verify all of this yourself.</p>
+
+            <h2>What Vuko never does</h2>
+            <ul>
+                <li><strong>Never uploads your microphone audio.</strong> Breath detection runs entirely in the browser via the Web Audio API. No audio is transmitted to any server.</li>
+                <li><strong>Never stores recordings.</strong> Vuko reads the live signal to estimate your breathing rhythm and discards it moment to moment. Nothing is saved.</li>
+                <li><strong>Never asks you to sign up.</strong> No account, no email, no password — so there is no personal profile tied to you.</li>
+                <li><strong>Never shows ads</strong> and never sells data, because there is no user data collected to sell.</li>
+            </ul>
+
+            <h2>How local breath detection works</h2>
+            <p>When you grant microphone permission, Vuko uses the browser's built-in Web Audio API to measure the changing loudness of your breath in real time. From that signal it estimates the pace of your inhale and exhale, and it uses that rhythm to gently adjust the binaural-beat frequency you hear. Every step of this — capturing the sound, analyzing it, and adjusting the audio — happens inside the page on your own computer or phone. There is no backend server processing your voice, and no network request carries your audio anywhere.</p>
+
+            <h2>The microphone is always optional</h2>
+            <p>Breath detection is a feature, not a requirement. You can use Vuko with the microphone switched off and still get the full sound experience: choose sleep, focus, relaxation, or meditation and the beats play on their own. If you do enable the microphone, you can revoke the permission at any time in your browser, and Vuko will simply fall back to playing without breath adaptation.</p>
+
+            <h2>What Vuko does collect</h2>
+            <p>To be honest and specific: Vuko uses standard anonymous web analytics (Google Analytics) to count how many people visit and which language versions get used. That data is aggregate and is not linked to any account, because there is no account. It contains no microphone audio, no breathing data, and no personal profile. If you prefer, an ad/analytics blocker will stop even that, and the app will keep working normally.</p>
+
+            <div class="key-takeaway"><strong>Key takeaway:</strong> Your breath data stays on your device. Microphone audio is analyzed locally and never uploaded, the microphone is optional, there is no account, and the whole app is open source — so the privacy promise is something you can check, not just something we say.</div>
+
+            <h2>Frequently asked questions</h2>
+            <div class="guide-faq">
+                <details class="faq-item"><summary class="faq-question">Does Vuko record or upload my microphone audio?</summary><div class="faq-answer">No. When you enable breath detection, your microphone audio is analyzed in real time inside your browser using the Web Audio API. The audio is never uploaded to a server, never stored, and never leaves your device. Vuko only reads the rhythm of your breathing to adjust the sound.</div></details>
+                <details class="faq-item"><summary class="faq-question">Do I have to use the microphone to use Vuko?</summary><div class="faq-answer">No. The microphone is optional. Vuko works fully without it — you can pick a mode and the binaural beats play on their own. Breath detection is an extra layer you can turn on or off at any time.</div></details>
+                <details class="faq-item"><summary class="faq-question">Does Vuko require an account or signup?</summary><div class="faq-answer">No. There is no account, no signup, no email, and no password. You open the page and it works. Because there is no account, Vuko holds no personal profile about you.</div></details>
+                <details class="faq-item"><summary class="faq-question">Does Vuko use cookies or analytics?</summary><div class="faq-answer">Vuko uses basic anonymous analytics (Google Analytics) to count aggregate visits and understand which languages are used. It does not collect personal information, does not show ads, and never sends your microphone audio or breathing data anywhere.</div></details>
+                <details class="faq-item"><summary class="faq-question">How can I verify Vuko's privacy claims?</summary><div class="faq-answer">Vuko is open source under the MIT license. You can read the full source on GitHub, and you can open your browser's developer tools and watch the Network tab while breath detection runs — you will see that no audio data is sent to any server.</div></details>
+            </div>
+
+            <div class="guide-cta"><strong>See for yourself:</strong> open <a href="https://www.vuko.life/">Vuko</a> and try it with the microphone off, then on. Or read the <a href="/open-source/">open-source code</a> to confirm exactly how breath detection works. Free, no signup, runs in your browser.</div>
+
+            <nav class="related-guides" aria-label="Related pages"><strong>Related</strong>
+                <ul>
+                    <li><a href="/open-source/">Vuko is open source — inspect and verify everything</a></li>
+                    <li><a href="/guides/binaural-beats-for-sleep.html">Do binaural beats help you sleep?</a></li>
+                    <li><a href="/guides/4-7-8-breathing.html">4-7-8 breathing technique: how to do it</a></li>
+                </ul>
+            </nav>
+
+            <p class="disclaimer">This page describes how Vuko handles data at the time of writing. Vuko is a general wellness and relaxation tool, not a medical device, and does not diagnose, treat, or cure any condition.</p>
+        </article>
+    </main>
+    <div class="footer">
+        <a href="/">Vuko app</a> · <a href="/open-source/">Open Source</a> · <a href="https://github.com/weiqi-kids/vuko.life" target="_blank" rel="noopener">GitHub</a>
+    </div>
+</body>
+</html>

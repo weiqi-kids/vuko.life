@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#667eea" />
+    <title>Open-Source Binaural Beats &amp; Breathing App｜Vuko</title>
+    <meta name="description" content="Vuko is a free, open-source (MIT) breath-adaptive binaural beats app that runs in the browser. Read the source on GitHub, verify the privacy claims yourself, self-host it, or contribute.">
+    <link rel="canonical" href="https://www.vuko.life/open-source/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Open-Source Binaural Beats &amp; Breathing App" />
+    <meta property="og:description" content="Vuko is a free, open-source (MIT) breath-adaptive binaural beats app that runs in the browser. Read the source, verify the privacy claims, self-host, or contribute." />
+    <meta property="og:image" content="https://www.vuko.life/assets/en/home-og.jpg" />
+    <meta property="og:url" content="https://www.vuko.life/open-source/" />
+    <meta property="og:site_name" content="Vuko" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Open-Source Binaural Beats &amp; Breathing App">
+    <meta name="twitter:description" content="Vuko is a free, open-source (MIT) breath-adaptive binaural beats app that runs in the browser. Read the source, verify the privacy claims, self-host, or contribute.">
+    <meta name="twitter:image" content="https://www.vuko.life/assets/en/home-og.jpg">
+    <link rel="stylesheet" href="/assets/base.css">
+    <style>
+        .guide-top { max-width: 800px; margin: 0 auto 16px; padding: 0 4px; }
+        .guide-top a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.95rem; font-weight: 600; }
+        .guide-top a:hover { text-decoration: underline; }
+        .guide-article h1 { font-size: 1.9rem; text-align: left; margin-bottom: 10px; line-height: 1.3; }
+        .byline { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 18px; }
+        .key-answer { background: rgba(102,126,234,0.10); border-left: 4px solid var(--accent-color); border-radius: 8px; padding: 14px 16px; color: var(--text-primary); }
+        .key-takeaway { background: rgba(40,167,69,0.08); border-left: 4px solid #28a745; border-radius: 8px; padding: 14px 16px; margin: 20px 0; color: var(--text-primary); }
+        .table-wrap { overflow-x: auto; }
+        .guide-article ul { margin: 0 0 14px 1.2em; }
+        .guide-article ul li { margin-bottom: 8px; }
+        .guide-faq { margin-top: 12px; display: flex; flex-direction: column; gap: 10px; }
+        .guide-faq .faq-item { border: 1px solid var(--border-color); box-shadow: none; }
+        .disclaimer { font-size: 0.8rem; color: var(--text-muted); margin-top: 22px; margin-bottom: 0; }
+        .guide-cta { background: rgba(102,126,234,0.10); border-radius: 12px; padding: 16px 18px; margin: 24px 0 4px; }
+        .related-guides { margin-top: 18px; }
+        .related-guides ul { list-style: none; margin: 8px 0 0; padding: 0; }
+        .related-guides li { margin-bottom: 6px; }
+        .guide-article a { color: var(--accent-color); }
+        @media (max-width: 600px) { .guide-article h1 { font-size: 1.5rem; } }
+    </style>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://www.vuko.life/open-source/#webpage",
+            "url": "https://www.vuko.life/open-source/",
+            "name": "Open-Source Binaural Beats & Breathing App",
+            "description": "Vuko is a free, open-source (MIT) breath-adaptive binaural beats app that runs in the browser. Read the source, verify the privacy claims yourself, self-host, or contribute.",
+            "inLanguage": "en",
+            "isPartOf": { "@id": "https://www.vuko.life/#website" },
+            "breadcrumb": { "@id": "https://www.vuko.life/open-source/#breadcrumb" },
+            "datePublished": "2026-07-07",
+            "dateModified": "2026-07-07",
+            "speakable": {
+                "@type": "SpeakableSpecification",
+                "cssSelector": [".key-answer", ".key-takeaway", ".faq-answer"]
+            }
+        },
+        {
+            "@type": "SoftwareApplication",
+            "@id": "https://www.vuko.life/#software",
+            "name": "Vuko",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "Web browser",
+            "url": "https://www.vuko.life/",
+            "isAccessibleForFree": true,
+            "license": "https://opensource.org/licenses/MIT",
+            "softwareVersion": "web",
+            "description": "A free, open-source, browser-based breath-adaptive binaural beats app for sleep, focus, relaxation, and meditation. Optional microphone-based breath detection runs locally in the browser.",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "publisher": { "@id": "https://www.vuko.life/#organization" }
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://www.vuko.life/#organization",
+            "name": "Vuko",
+            "url": "https://www.vuko.life/",
+            "logo": { "@type": "ImageObject", "url": "https://www.vuko.life/favicon.ico" },
+            "sameAs": ["https://github.com/weiqi-kids/vuko.life"]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.vuko.life/#website",
+            "name": "Vuko",
+            "url": "https://www.vuko.life/",
+            "publisher": { "@id": "https://www.vuko.life/#organization" }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.vuko.life/open-source/#breadcrumb",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Vuko", "item": "https://www.vuko.life/" },
+                { "@type": "ListItem", "position": 2, "name": "Open Source", "item": "https://www.vuko.life/open-source/" }
+            ]
+        },
+        {
+            "@type": "FAQPage",
+            "@id": "https://www.vuko.life/open-source/#faq",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Is Vuko really open source?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "Yes. Vuko is released under the permissive MIT license and the full source code is public on GitHub at github.com/weiqi-kids/vuko.life. You are free to read it, fork it, modify it, and self-host it." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is Vuko built with?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "Pure HTML, CSS, and vanilla JavaScript with no framework and no build step. Sound is generated with the browser's Web Audio API, and the site is deployed as static files on GitHub Pages. There is no backend server that processes user audio." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does breath detection work technically?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "With your permission, Vuko taps the microphone through the Web Audio API and measures the changing amplitude of your breath to estimate your breathing rhythm. That rhythm is mapped to the binaural-beat frequency. All of this runs client-side in the page; no audio is sent to a server." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I self-host or fork Vuko?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "Yes. Because it is MIT-licensed static HTML/CSS/JS, you can clone the repository and host it on any static host, or fork it and adapt it to your own needs. Contributions via pull request are welcome." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does open source help me trust Vuko's privacy claims?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "Because the code is public, the claim that microphone audio never leaves your device is verifiable rather than something you have to take on faith. You can read the audio-handling code and watch your browser's Network tab to confirm no audio is transmitted." }
+                }
+            ]
+        }
+    ]
+}
+    </script>
+</head>
+<body>
+    <nav class="guide-top" aria-label="Home"><a href="/">← Vuko — free breathing &amp; binaural beats app</a></nav>
+    <main class="seo-content guide-article">
+        <article>
+            <h1>Vuko is open source — inspect and verify everything</h1>
+            <p class="byline">By the Vuko team · Updated July 7, 2026</p>
+            <p class="key-answer" data-question="is vuko open source">Vuko is a free, open-source binaural beats and breathing app released under the MIT license, with its full source code public on GitHub. It is built as pure HTML, CSS, and vanilla JavaScript with no build step, generates sound with the Web Audio API, and runs entirely in your browser. Because the code is open, its privacy promise — that microphone audio never leaves your device — is something you can check for yourself.</p>
+
+            <h2>Read the source</h2>
+            <p>The complete Vuko codebase lives at <a href="https://github.com/weiqi-kids/vuko.life" target="_blank" rel="noopener">github.com/weiqi-kids/vuko.life</a> under the permissive MIT license. There is nothing hidden behind a server: what you download in your browser is essentially the whole application. You can read exactly how the beats are generated, how modes are selected, and how the optional microphone input is handled.</p>
+
+            <h2>How it's built</h2>
+            <ul>
+                <li><strong>No framework, no build step.</strong> Pure HTML, CSS, and vanilla JavaScript — easy to read and audit.</li>
+                <li><strong>Web Audio API.</strong> Binaural beats are synthesized live in the browser by playing two slightly different frequencies, one per ear.</li>
+                <li><strong>Static hosting.</strong> The site is deployed as static files on GitHub Pages. There is no application backend that receives or processes your audio.</li>
+                <li><strong>Local breath detection.</strong> When enabled, the microphone signal is analyzed on-device to estimate breathing rhythm, which adjusts the beat frequency in real time.</li>
+            </ul>
+
+            <h2>How breath detection works, in plain terms</h2>
+            <p>If you grant microphone permission, Vuko uses the Web Audio API to watch how the loudness of your breath rises and falls. From that pattern it estimates the pace of your inhale and exhale and nudges the binaural-beat frequency to match — slower and lower as you settle down. All of this computation happens inside the page on your device. You can confirm there is no audio upload by opening your browser's developer tools and watching the Network tab while it runs.</p>
+
+            <h2>Fork it, self-host it, contribute</h2>
+            <p>Because Vuko is MIT-licensed static files, you can clone the repository and serve it from any static host, fork it to build your own variation, or open a pull request to improve the original. Bug reports and feature ideas are welcome through GitHub issues.</p>
+
+            <div class="key-takeaway"><strong>Key takeaway:</strong> Vuko is genuinely open source (MIT) — pure HTML/CSS/JS, Web Audio API, no backend, hosted as static files. You can read every line, verify the local-only breath detection yourself, self-host it, or contribute.</div>
+
+            <h2>Frequently asked questions</h2>
+            <div class="guide-faq">
+                <details class="faq-item"><summary class="faq-question">Is Vuko really open source?</summary><div class="faq-answer">Yes. Vuko is released under the permissive MIT license and the full source code is public on GitHub at github.com/weiqi-kids/vuko.life. You are free to read it, fork it, modify it, and self-host it.</div></details>
+                <details class="faq-item"><summary class="faq-question">What is Vuko built with?</summary><div class="faq-answer">Pure HTML, CSS, and vanilla JavaScript with no framework and no build step. Sound is generated with the browser's Web Audio API, and the site is deployed as static files on GitHub Pages. There is no backend server that processes user audio.</div></details>
+                <details class="faq-item"><summary class="faq-question">How does breath detection work technically?</summary><div class="faq-answer">With your permission, Vuko taps the microphone through the Web Audio API and measures the changing amplitude of your breath to estimate your breathing rhythm. That rhythm is mapped to the binaural-beat frequency. All of this runs client-side in the page; no audio is sent to a server.</div></details>
+                <details class="faq-item"><summary class="faq-question">Can I self-host or fork Vuko?</summary><div class="faq-answer">Yes. Because it is MIT-licensed static HTML/CSS/JS, you can clone the repository and host it on any static host, or fork it and adapt it to your own needs. Contributions via pull request are welcome.</div></details>
+                <details class="faq-item"><summary class="faq-question">How does open source help me trust Vuko's privacy claims?</summary><div class="faq-answer">Because the code is public, the claim that microphone audio never leaves your device is verifiable rather than something you have to take on faith. You can read the audio-handling code and watch your browser's Network tab to confirm no audio is transmitted.</div></details>
+            </div>
+
+            <div class="guide-cta"><strong>Take a look:</strong> browse the <a href="https://github.com/weiqi-kids/vuko.life" target="_blank" rel="noopener">source on GitHub</a>, or read how we handle your data on the <a href="/privacy/">privacy page</a>. Then try <a href="https://www.vuko.life/">Vuko</a> — free, no signup, runs in your browser.</div>
+
+            <nav class="related-guides" aria-label="Related pages"><strong>Related</strong>
+                <ul>
+                    <li><a href="/privacy/">Your breathing stays on your device — Vuko's privacy approach</a></li>
+                    <li><a href="/guides/binaural-beats-for-sleep.html">Do binaural beats help you sleep?</a></li>
+                    <li><a href="/guides/40-hz-gamma-binaural-beats.html">What are 40 Hz gamma binaural beats?</a></li>
+                </ul>
+            </nav>
+
+            <p class="disclaimer">Vuko is a general wellness and relaxation tool, not a medical device, and does not diagnose, treat, or cure any condition.</p>
+        </article>
+    </main>
+    <div class="footer">
+        <a href="/">Vuko app</a> · <a href="/privacy/">Privacy</a> · <a href="https://github.com/weiqi-kids/vuko.life" target="_blank" rel="noopener">GitHub</a>
+    </div>
+</body>
+</html>

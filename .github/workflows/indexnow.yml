@@ -1,0 +1,38 @@
+name: IndexNow submit
+
+# Push changed/added public URLs to IndexNow (Bing, Yandex, Seznam, Naver) so
+# they recrawl on demand. Google does NOT use IndexNow — Google is nudged via
+# fresh sitemap <lastmod> + Search Console instead. GitHub Pages deploys main on
+# every push, so this fires right after the new content is live.
+#
+# Fires only when public HTML or the sitemap changes. [skip ci] commits (the
+# prerender/embedding/screenshot bot commits) are ignored to avoid duplicate
+# pings — those change app/*.html, so we still catch real content via manual
+# dispatch or the next human push if needed.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'app/**.html'
+      - 'guides/**.html'
+      - 'privacy/**'
+      - 'open-source/**'
+      - 'sitemap.xml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.10'
+      - name: Submit sitemap URLs to IndexNow
+        run: python .github/scripts/indexnow_submit.py
