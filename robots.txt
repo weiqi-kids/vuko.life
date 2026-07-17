@@ -1,3 +1,14 @@
+# Vuko is free and open-source software (MIT). We welcome AI search
+# indexing, real-time answer-engine citation, AND training on our public
+# content. No AI or training crawler is blocked. Internal working files
+# (/seo/, /docs/, /music/, /badge/, /config.json) are hidden from every
+# crawler for hygiene only — this is not a content restriction.
+# Policy: https://www.vuko.life/open-source/
+#
+# Vuko 為免費開源專案（MIT）。我們歡迎 AI 搜尋引擎索引、答案引擎即時
+# 引用，也允許以本站公開內容進行模型訓練，不封鎖任何 AI／訓練爬蟲。
+# 被遮蔽的僅為內部工作檔（非內容），對所有爬蟲一視同仁。
+
 User-agent: *
 Disallow: /badge/
 Disallow: /docs/
@@ -5,5 +16,30 @@ Disallow: /music/
 Disallow: /seo/
 Disallow: /config.json
 Allow: /sitemap.xml
+
+# AI answer engines, assistants, and model-training crawlers —
+# explicitly welcomed. Full access to public content; training permitted.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: CCBot
+User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: Bytespider
+User-agent: Meta-ExternalAgent
+User-agent: cohere-ai
+User-agent: Diffbot
+Disallow: /badge/
+Disallow: /docs/
+Disallow: /music/
+Disallow: /seo/
+Disallow: /config.json
+Allow: /
 
 Sitemap: https://www.vuko.life/sitemap.xml
