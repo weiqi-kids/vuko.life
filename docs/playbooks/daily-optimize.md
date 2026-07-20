@@ -1,11 +1,16 @@
 # vuko.life — 每日優化引擎 playbook（方法論權威檔）
 
 > 這是 vuko.life「每日自我優化迴圈」的**唯一方法論依據**。執行分兩段：
-> (1) **GitHub Actions** workflow `.github/workflows/seo_data.yml`（每日 UTC 02:00）用 `GA4_SA_KEY`
-> secret 抓 GA4/GSC + 近 7 天關鍵字關係 + 索引覆蓋率，寫進 repo 的 `seo/data/latest.raw.md` 並
-> commit；(2) 雲端 /schedule 優化 routine（就是你，每日 UTC 03:40）pull 後讀本檔 + RAW，跑下面的
-> 7 步迴圈 → 過 gate → commit + push（GitHub Pages 自動部署）。
+> (1) **感測層＝ seo-ops `seo-collect.mjs`**（host cron，台北每日 09:30）用本機 GA4 金鑰抓 GA4/GSC ＋
+> 近 7 天關鍵字關係 ＋ 索引覆蓋率，寫成 `seo/local-data/<date>.json`（**留本機、不進公開 repo**）；
+> (2) 優化 routine（就是你，seo-ops brain 層／台北每日 11:05）讀本檔 ＋ 當日 `seo/local-data/<date>.json`，
+> 跑下面的 7 步迴圈 → 過 gate → commit + push（GitHub Pages 自動部署）。
 > `/docs/` 與 `/seo/` 在 robots.txt 皆被 Disallow，本檔與資料不會被索引。
+>
+> **（2026-07-20 架構更正）** 舊感測層＝ GitHub Actions `seo_data.yml` 寫 `seo/data/latest.raw.md`，已於
+> 併入 seo-ops 時**停用並刪除**（連同 `.github/scripts/seo_data.py`、`seo/data/index-coverage-history.jsonl`）。
+> 資料來源一律改為 `seo/local-data/<date>.json`（欄位對照見站台 seo-ops envelope）。`seo/data/` 底下**只剩
+> `optimize-ledger.jsonl` 仍活著**——由 brain 層自己每天 append（去重帳本），勿誤刪。
 
 ---
 
@@ -24,7 +29,7 @@ ROI 最高的 1–3 個動作把它做到位、過 gate、上線，並記錄成�
 - **資料成熟後（GSC 開始有 query、page 有曝光）→ 關鍵字精修模式。** 改吃「striking-distance
   查詢（pos 5–20）」與「query×page 關係」做精準優化。
 
-每天讀完 RAW 資料自行判斷現在在哪個模式（兩者可並行，但別本末倒置）。
+每天讀完當日資料自行判斷現在在哪個模式（兩者可並行，但別本末倒置）。
 
 ---
 
@@ -32,14 +37,15 @@ ROI 最高的 1–3 個動作把它做到位、過 gate、上線，並記錄成�
 
 ### Step 1 — 讀資料
 依序 Read（皆在 repo 內）：
-1. 當日 RAW 資料檔 `seo/data/latest.raw.md`（GitHub Actions `seo_data.yml` 當天稍早寫入並 commit；
-   內含三桶：GSC 7d/28d + 週對週 + striking-distance + query×page；GA4 7d/28d 流量/互動/事件/
-   landing；索引覆蓋率 URL Inspection + sitemap）。**先確認它的日期是今天**——若是舊的，表示
-   `seo_data.yml` 今天還沒跑或失敗，據此謹慎判斷（可 no-op）。
+1. 當日資料檔 `seo/local-data/<date>.json`（seo-ops 感測層當天稍早寫入；三段 `ga4`/`gsc`/`index`：
+   `gsc` 含 7 天滑動視窗 totals/topQueries/topPages/pageQueryCross/strikingDistance/highImpZeroClick、
+   `ga4` 含 7d 流量/互動/landing、`index.coverage` 含 URL Inspection ＋ sitemap）。**先確認它的日期是
+   今天**——若缺當日檔或日期是舊的，表示感測層今天還沒跑或失敗，據此謹慎判斷（可 no-op）。
 2. 帳本 `seo/data/optimize-ledger.jsonl`（每行一筆 JSON）。取**近 14 天動過的目標**當排除清單，
    避免每天重改同一處造成抖動。
-3.（可選）`seo/data/index-coverage-history.jsonl` 看索引狀態的週對週變化，判斷昨天/上週的動作
-   有沒有讓某頁從 not-indexed 翻成 indexed。
+3.（可選）看索引狀態的週對週變化：對照近幾日 `seo/local-data/<date>.json` 的 `index.coverage` 段，
+   判斷昨天/上週的動作有沒有讓某頁從 not-indexed 翻成 indexed。（舊的 `seo/data/index-coverage-history.jsonl`
+   已隨舊感測層退役刪除。）
 
 ### Step 2 — 診斷
 從資料推出「機會清單」，每項估三個維度的乘積分數：**牽引力 × 可改善幅度 × 索引/排名 ROI**。
@@ -118,7 +124,7 @@ git add/commit/push、絕不寫 ledger）：
   - `git add` **只加真正改的來源檔**（`content/*.json`、`i18n/base.json`、`i18n/overrides/*.json`），
     **再加** 本次的 `seo/data/optimize-ledger.jsonl`（見收尾）與 `reports/optimize-<date>.md`。
     **嚴禁** add `app/*.html`、`index.html`、`i18n/<lang>.json`(生成)、`music/**`、
-    `seo/data/latest.raw.md`(資料 cron 所有)、`seo/data/index-coverage-history.jsonl`(同左)。
+    `seo/local-data/**`(感測層本機快照，不進公開 repo)。
   - commit 訊息：第一行 `optimize(<index|serp-gap|onpage|content>): <一句話>`；body 逐項列
     目標檔＋來源 A/B/C/D＋理由；結尾一行 `🤖 daily-optimize 自動優化`。
     **commit 訊息不可含 `[skip ci]`**——本次 push 必須觸發 `site_update.yml`
@@ -129,7 +135,7 @@ git add/commit/push、絕不寫 ledger）：
 - **no-op（無過 gate 的高 ROI 項目）**：不碰任何內容檔，但仍 `git add reports/optimize-<date>.md`
   （說明為何今日 no-op）→ commit（訊息 `optimize(noop): <一句話>`，不含 `[skip ci]`，但因為只動
   `reports/` 不在 `site_update.yml` paths、不會觸發 build）→ pull --rebase → push。
-- **資料過舊或抓取失敗**（`latest.raw.md` 非今日）：同 no-op，run-log 註明資料問題。
+- **資料過舊或抓取失敗**（當日缺 `seo/local-data/<date>.json` 或其日期非今日）：同 no-op，run-log 註明資料問題。
 
 收尾：把每個「實際 commit 改過」的目標以 JSON append 進 `seo/data/optimize-ledger.jsonl`
 （每行一筆：`{"date":"<date>","target":"content/ja.json","source":"A","reason":"..."}`），
@@ -216,7 +222,7 @@ no-op：
 ## 4. 成效追蹤（讓迴圈會「學」）
 
 - 每次實際改動都寫進 **ledger**（含 date/target/source/reason），這同時是去重清單也是因果記錄。
-- `index-coverage-history.jsonl` 由資料層每天 append 一筆覆蓋率快照；診斷時對照「某頁在我們動過
+- 索引覆蓋率每天記在 `seo/local-data/<date>.json` 的 `index.coverage` 段；診斷時對照「某頁在我們動過
   之後幾天，coverage 是否從 not-indexed → indexed / lastCrawl 是否更新」來判斷動作是否奏效。
 - run-log 的 `## 下次觀察點` 要寫明「這次改動預期在哪個指標、約幾天後看到效果」，下次 run 回看驗證。
 - 若某類動作連續多次無效（如某頁改了兩輪仍 not-indexed），在 run-log 標記並換策略（例如該頁可能
