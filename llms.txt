@@ -51,3 +51,7 @@ Vuko (https://www.vuko.life) is a browser-based AI guide that generates binaural
 ## Source code
 
 - [GitHub repository](https://github.com/weiqi-kids/vuko.life)
+
+## Full text
+
+- [llms-full.txt](https://www.vuko.life/llms-full.txt): Full text of the pages above, for assistants that fetch one file instead of crawling each URL.

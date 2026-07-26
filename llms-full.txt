@@ -1,0 +1,572 @@
+# Vuko — Free AI Binaural Beats & Breathing Guide (Full Text)
+
+> This file contains the full text content of Vuko's main pages, for AI assistants and answer engines that fetch complete page content in one request instead of crawling each URL individually. See https://www.vuko.life/llms.txt for the short-form index with page-by-page summaries.
+
+---
+
+## https://www.vuko.life/
+
+Breathing Exercise App for Sleep, Focus & Relaxation | Free Binaural Beats｜Vuko
+
+☀️
+🌙
+
+Binaural beats that adapt to your breathing
+With sound, meet a better version of yourself
+Free Open source No signup 🎧 Use headphones
+▶ Play
+🎯 Focus 🧘 Meditation 🌍 Schumann Resonance 😴 Sleep ⚡ Refresh 💡 Inspire Creativity
+
+Instructions
+
+🤖 User Guide
+
+Please use stereo headphones to achieve the brainwave effect.
+If you agree to use your microphone , please place it close to your mouth and nose, and we will attempt to guide you into a deeper state.
+
+Feature Settings
+
+🎵 Background Music Search
+
+Binaural Beat Settings
+🎯 Focus 🧘 Meditation 🌍 Schumann Resonance 😴 Sleep ⚡ Refresh 💡 Inspire Creativity
+🎤 Device Test
+
+✕
+
+Breathing Monitoring
+
+--
+
+--
+
+🎶 Start
+
+✓ Completely free, no registration required
+✓ Open Source Project
+✓ Audio is processed locally, not uploaded to the server
+
+Twitter
+Facebook
+LINE
+
+What is Vuko?
+Vuko is a free, open-source breathing and relaxation web app that runs right in your browser — nothing to install, no account, no ads. It pairs a binaural beats engine with real-time breath detection to help you wind down for sleep, stay focused while you work, ease stress and anxiety, or settle into meditation. Put on headphones, choose how you want to feel, and Vuko generates the precise dual-tone frequencies that gently guide your brain toward focus, relaxation, or deep sleep.
+What makes Vuko different is that it does not just play a fixed track. If you allow microphone access, Vuko listens to your breathing in real time — like a guided breathing exercise that the sound responds to — and adapts the beats to your actual state, a closed feedback loop between your body and the sound. We could not find another tool that combines binaural beats with live breath monitoring in the browser, which is exactly the gap Vuko fills.
+Binaural beats that adapt to your breathing in real time
+Most binaural beats apps play a fixed track and hope it matches how you feel. Vuko is different: it is a breath-adaptive binaural beats generator. Turn on your microphone and Vuko listens to the rhythm of your breathing, then continuously retunes the beat frequency to match where you actually are — slowing the beats as your breath settles, so you sink into focus, calm, or sleep faster than a static track can take you.
+This breath-synced feedback loop runs entirely in your browser. Nothing is recorded or uploaded, and you need no wearable or extra hardware — just headphones and, optionally, your device's microphone. If you have looked for binaural beats that respond to your breathing, breath-synced meditation sound, or an adaptive brainwave generator, that is exactly what Vuko was built to be.
+How Vuko works
+Vuko combines two systems that usually live in separate apps: a binaural beat engine and a real-time breath monitor that talk to each other while you listen.
+1. Binaural beat engine
+When your left and right ears hear two slightly different frequencies — say 200 Hz and 210 Hz — your brain perceives a third "beat" at the difference (10 Hz). This phantom beat can encourage your brainwaves to settle near that rhythm, a process often called entrainment. Because the effect depends on each ear hearing its own channel, stereo headphones are required. Vuko renders these tones live with the Web Audio API, so the sound is generated on your device rather than streamed.
+2. Real-time breath monitoring
+With your permission, Vuko uses the microphone to detect the soft sound of your breathing, measures your breathing rate, and adjusts the beat frequency to match where you are right now — slowing things down as you relax, easing you deeper toward the target state. The audio is analysed entirely on your device and never leaves your browser. If you prefer, you can skip the microphone and simply choose a preset.
+Six guided states
+Pick the state you want and Vuko tunes the beat frequency to the matching brainwave band. Each preset targets a well-known frequency range:
+
+Mode
+Beat frequency
+Brainwave band
+Best for
+
+Focus
+10 Hz
+Alpha
+Work, study and concentration
+
+Meditation
+7 Hz
+Theta
+Deep relaxation and mindfulness
+
+Schumann resonance
+7.83 Hz
+Theta
+Grounding and balance
+
+Sleep
+3 Hz
+Delta
+Falling asleep faster
+
+Refresh
+15 Hz
+Beta
+Alertness and energy
+
+Inspiration
+40 Hz
+Gamma
+Creative thinking
+
+Private by design, free forever
+Vuko has no backend server that stores your data. All sound generation and breath analysis happen locally in your browser, so your microphone audio is never uploaded, recorded, or shared. There is nothing to sign up for and nothing to pay.
+The entire project is open source on GitHub — you can read exactly how it works, verify the privacy claims, and contribute. It is free to use today and built to stay that way.
+How to use Vuko
+
+Put on stereo headphones — binaural beats only work when each ear hears its own channel.
+Choose a mode such as Focus, Meditation, or Sleep, or add background music from the built-in library.
+Optionally allow microphone access so Vuko can monitor your breathing and adapt the beats to you.
+Press Start, breathe naturally, and let the sound guide you toward a better you.
+
+FAQ
+
+What is binaural beats? Binaural beats occur when slightly different frequencies are heard in each ear, causing the brain to produce a third 'beat frequency'. For example, if the left ear hears 200Hz and the right ear hears 210Hz, the brain perceives a 10Hz beat frequency, which can help guide brainwaves into specific states.
+Which binaural beat app adjusts with breathing? Vuko is a free, open-source web app that adjusts binaural beats in real-time according to your breathing. With your consent, it detects your breathing rhythm through the device's microphone and continuously recalibrates the beats to your current state—currently, no other browser-based binaural beat tool combines beats with real-time breathing monitoring like this. All processing is done locally, with no recording or uploading.
+Do you need a wearable device or smartwatch to use breathing adaptive beats? No, you don't. Vuko only requires a pair of stereo headphones and an optional built-in device microphone. No wearable devices, chest straps, or additional hardware are needed—the microphone detects your breathing, and the audio is analyzed entirely within your browser and then discarded.
+Why do you have to use headphones? The principle of binaural beats is to let the left and right ears hear different frequencies. Only by using headphones can you ensure the separation of the left and right channels, allowing the brain to correctly produce the beat effect.
+How does breathing monitoring work? The system detects your breathing sounds through the microphone, analyzes the breathing rhythm, and automatically adjusts the beats according to your state to help you reach the target state faster. All audio is processed locally and not uploaded.
+Is this tool really free? Yes, Vuko is completely free and open-source. There are no hidden fees, no subscriptions, and no ads. You can view the full code on GitHub.
+Is my data safe? Absolutely safe. All audio processing is done within your browser, and we do not collect, store, or transmit any audio data. This is a purely front-end application with no backend server.
+
+English
+Español
+日本語
+한국어
+Português
+العربية
+বাংলা
+עברית
+हिन्दी
+Indonesia
+Melayu
+မြန်မာ
+ਪੰਜਾਬੀ
+Polski
+Русский
+Kiswahili
+தமிழ்
+ไทย
+Türkçe
+Українська
+Tiếng Việt
+简体中文
+繁體中文(香港)
+繁體中文
+Deutsch(AT)
+Deutsch(CH)
+Deutsch
+Français(BE)
+Français(CA)
+Français
+
+English 繁體中文 繁體中文(香港) 简体中文 日本語 한국어 Español Português Français Français(CA) Français(BE) Deutsch Deutsch(AT) Deutsch(CH) Русский Українська Polski Türkçe Tiếng Việt ไทย Indonesia Melayu हिन्दी বাংলা தமிழ் ਪੰਜਾਬੀ မြန်မာ العربية עברית Kiswahili
+
+4-7-8 Breathing Box Breathing Breathing Exercises for Sleep Binaural Beats for Sleep 40 Hz Gamma Beats
+
+Privacy · Open Source · GitHub
+
+---
+
+## https://www.vuko.life/guides/4-7-8-breathing.html
+
+4-7-8 Breathing Technique: How to Do It
+By the Vuko team · Updated July 4, 2026
+The 4-7-8 breathing technique is a relaxation exercise: inhale quietly through your nose for 4 seconds, hold your breath for 7 seconds, then exhale slowly through your mouth for 8 seconds, repeating the cycle four times. Popularized by Dr. Andrew Weil, it is a simple, free way to calm the nervous system before sleep or during stress.
+
+What is 4-7-8 breathing?
+4-7-8 breathing is a paced-breathing pattern developed by integrative-medicine physician Dr. Andrew Weil, who adapted it from pranayama, the breath-regulation practice in yoga. The numbers describe the length of each phase: a 4-count inhale, a 7-count hold, and an 8-count exhale. The whole point of the pattern is the long exhale — breathing out for twice as long as you breathe in is one of the quickest reliable ways to signal your body that it is safe to relax.
+You do not need any equipment, and a full session of four cycles takes well under two minutes. That makes it practical in exactly the moments when relaxation techniques are usually hardest to reach for: lying awake at 2 a.m., sitting in a waiting room, or in the pause before a difficult conversation.
+
+Step-by-step instructions
+
+Get comfortable. Sit with a straight back or lie down. Rest the tip of your tongue against the ridge of tissue behind your upper front teeth and keep it there throughout the exercise.
+Exhale completely through your mouth, making a soft whoosh sound, to empty your lungs before the first cycle.
+Inhale for 4. Close your mouth and breathe in quietly through your nose while you count to 4.
+Hold for 7. Hold your breath gently for a count of 7. Keep your shoulders and jaw relaxed — this is a soft pause, not a strain.
+Exhale for 8. Breathe out slowly and completely through your mouth, with the same whoosh, for a count of 8.
+Repeat. That is one cycle. Do four cycles in total when you are starting out.
+
+Count at whatever speed is comfortable. The ratio between the phases (4:7:8) matters more than hitting exact seconds — if a 7-second hold feels like too much, halve everything to 2-3.5-4 and keep the proportions.
+
+Why the long exhale calms you down
+Your breath is one of the few parts of the autonomic nervous system you can steer directly. When you exhale, your heart rate naturally slows slightly; when you inhale, it speeds up — a fluctuation researchers call respiratory sinus arrhythmia. By stretching the exhale to 8 counts, 4-7-8 breathing tilts that balance toward the parasympathetic ("rest and digest") side, activating the vagus nerve and lowering heart rate and muscle tension. The 7-count hold also lets carbon dioxide rise slightly, which encourages a slower, deeper breathing rhythm, and the counting itself occupies the mind — crowding out the racing thoughts that keep people awake.
+Research on slow-paced breathing in general supports these effects on heart-rate variability and self-reported relaxation. Evidence for the specific 4-7-8 pattern is thinner — mostly small studies — so it is best understood as one well-designed example of slow breathing rather than a uniquely magic ratio.
+
+When to use it
+
+Before sleep: the most popular use. Do four cycles after lights out, and again if you wake during the night.
+Acute stress: before a presentation, after an upsetting message, or whenever you notice shallow chest breathing.
+Cravings and impulses: Dr. Weil suggests using it as a pause button before reacting.
+As daily practice: twice a day builds the skill, so the response comes faster when you actually need it.
+
+If your main goal is daytime focus rather than sleep, a symmetrical pattern like box breathing (4-4-4-4) is usually the better fit, because it steadies you without being as sedating.
+
+Tips and cautions
+
+Light-headedness in the first sessions is common. Sit or lie down while practicing, and stop if you feel dizzy.
+Never practice breath holds while driving, standing in a pool, or operating machinery.
+If you are pregnant or have a heart, blood-pressure, or respiratory condition, ask your doctor before adding breath holds; you can use the same 4:8 inhale-exhale ratio without the hold in the meantime.
+Consistency beats intensity: four cycles twice a day for a few weeks does more than an occasional long session.
+
+Some people like a gentle pacing aid so they are not counting in their head. A free browser tool such as Vuko can help here: its Sleep mode plays slow delta-range binaural beats while, with your permission, it listens to your breathing through the microphone and adapts the sound as your breath slows — a useful companion to, not a replacement for, the exercise itself.
+
+Key takeaway: 4-7-8 breathing is a free, two-minute exercise — inhale 4, hold 7, exhale 8, four times. Its power comes from the extra-long exhale, which activates the body's relaxation response. Practice it daily for a few weeks and keep the 4:7:8 ratio even if you shorten the counts.
+
+Frequently asked questions
+
+How many times should I repeat 4-7-8 breathing? Start with four full cycles, once or twice a day. After a few weeks of regular practice, you can work up to eight cycles per session. More is not necessarily better — the technique is designed to be short.
+Does 4-7-8 breathing make you fall asleep immediately? Usually not on the first try. Claims that it puts you to sleep in 60 seconds are marketing, not science. What it reliably does is slow your breathing and heart rate, which creates better conditions for sleep. Most people notice a stronger effect after practicing daily for several weeks.
+Is 4-7-8 breathing safe for everyone? It is generally safe, but the breath hold can cause light-headedness at first. Practice sitting or lying down, never while driving, and stop if you feel dizzy. If you are pregnant or have a respiratory or cardiovascular condition, check with your doctor before adding breath holds.
+Can I change the counts if 7 seconds is too long? Yes. The ratio matters more than the absolute times. You can scale down to 2-3.5-4 seconds and keep the same 4:7:8 proportion, then lengthen the counts as your lung capacity and comfort improve.
+
+Try it with sound: open Vuko's Sleep mode (3 Hz delta binaural beats) and do your four 4-7-8 cycles as the audio plays — the slow beat gives your exhale something steady to land on. Free, no signup, runs in your browser.
+
+Related guides
+
+Breathing exercises to fall asleep fast
+Box breathing (4-4-4-4): steps and when to use it
+Do binaural beats help you sleep?
+What are 40 Hz gamma binaural beats?
+
+This article is for general information and education only and is not medical advice. Breathing exercises are not a treatment for insomnia, anxiety disorders, or any other medical condition. If sleep problems or anxiety persist, please consult a qualified healthcare professional.
+
+---
+
+## https://www.vuko.life/guides/binaural-beats-for-sleep.html
+
+Do Binaural Beats Help You Sleep?
+By the Vuko team · Updated July 4, 2026
+Binaural beats may help some people fall asleep by promoting relaxation, but the scientific evidence is mixed and mostly comes from small studies. They work best as part of a wind-down routine, not as a cure for insomnia. Delta-range beats (1–4 Hz) heard through headphones are the type most often used for sleep, and are generally safe to try.
+
+What binaural beats are
+Play a slightly different pure tone into each ear — say 200 Hz on the left and 204 Hz on the right — and your brain perceives a third, pulsing "beat" at the difference: 4 Hz. That phantom pulse is a binaural beat. It is created inside the auditory system, not in the air, which is why headphones are essential.
+The theory behind using them for sleep is called brainwave entrainment — technically, a frequency-following response (FFR) originating in the brainstem's auditory pathway: the idea that a steady rhythmic stimulus can nudge your dominant brainwave activity toward its frequency. Deep sleep is dominated by slow delta waves (roughly 0.5–4 Hz), so sleep tracks typically use beats in that range, or theta (4–8 Hz) for the drowsy stage before sleep.
+
+What the research actually says
+Here is the honest picture. Some small controlled studies have reported that people listening to delta or theta binaural beats fell asleep somewhat faster, felt more relaxed, or showed lower anxiety scores than controls. A frequently cited body of work also finds reductions in pre-operative anxiety in hospital settings. On the other hand, several studies have found no measurable EEG entrainment at all — meaning the brainwave-steering mechanism itself is not firmly established — and reviews of the field consistently note small samples, inconsistent methods, and difficulty separating the beats from the general relaxing effect of any calm audio.
+In short: the relaxation effect is plausible and repeatedly observed; the specific "brainwave tuning" explanation is not proven. Whether the benefit comes from entrainment, from masking environmental noise, from giving an anxious mind something neutral to attend to, or from expectation, listeners still often report winding down more easily. For a free, low-risk tool, that may be enough of a reason to run your own two-week experiment.
+
+Which frequencies are used for sleep?
+
+Beat frequency Brainwave band Typical use
+
+0.5–4 Hz Delta Deep sleep; the main choice for sleep tracks
+4–8 Hz Theta Drowsiness, meditation, the transition into sleep
+8–13 Hz Alpha Relaxed wakefulness — better for unwinding than sleeping
+13 Hz and above Beta / gamma Alertness and focus — avoid at bedtime
+
+A sensible pattern is theta while you read or do breathing exercises, then delta as you actually try to sleep. Avoid anything above ~8 Hz in the evening, since those ranges are marketed for focus and alertness.
+
+How to try binaural beats for sleep properly
+
+Use stereo headphones — soft earbuds or a sleep headband are more comfortable lying down.
+Keep the volume low. The effect does not require loudness; the tones should sit just above the edge of your attention.
+Give it 15–30 minutes as part of a consistent wind-down: dim lights, no doomscrolling, perhaps a slow-breathing exercise such as 4-7-8 breathing .
+Set a fade-out or timer so the audio does not run all night.
+Judge it over two weeks, not one night — note how long you take to fall asleep with and without it.
+
+Any binaural beats source can work for this. If you want one that runs free in the browser, Vuko generates delta-range beats in its Sleep mode and can optionally listen to your breathing through the microphone, slowing the sound as your breath slows — the audio never leaves your device.
+
+Who should be cautious
+
+People with epilepsy or a seizure history should ask their doctor before using any rhythmic audio-visual stimulation, as a precaution.
+If you have tinnitus or hearing sensitivity , pure tones can be irritating; stop if symptoms worsen.
+Never listen while driving or doing anything that requires alertness — the entire goal is drowsiness.
+If you suspect an actual sleep disorder (chronic insomnia, sleep apnea), audio tools are not a substitute for a medical evaluation.
+
+Key takeaway: binaural beats are a low-risk, free-to-try sleep aid with promising but unproven science. Delta-range beats at low volume through headphones, used for 15–30 minutes inside a consistent wind-down routine, help some people relax into sleep faster — just do not expect them to fix a genuine sleep disorder.
+
+Frequently asked questions
+
+What frequency of binaural beats is best for sleep? Most sleep tracks use delta-range beats between 1 and 4 Hz, matching the slow brainwaves of deep sleep, or theta-range beats between 4 and 8 Hz for the drowsy transition into sleep. A common approach is to start in theta while winding down and move into delta.
+Do binaural beats work without headphones? No. Binaural beats exist only when each ear receives its own tone, so stereo headphones or earbuds are required. Played over speakers, the two tones mix in the air and the binaural effect is lost — although slow, relaxing audio can still be pleasant on its own.
+How long should I listen before sleep? Studies typically use sessions of 15 to 30 minutes. Listening at a low, comfortable volume while winding down or after lights out is a reasonable starting point. Use a timer or an app that fades out, since sleeping in earbuds all night is uncomfortable for many people.
+Are binaural beats safe? For most people, yes — they are simply quiet audio tones. Keep the volume low to protect your hearing. If you have epilepsy, a seizure disorder, or significant tinnitus, or if you wear a hearing aid, talk to your doctor first. Never listen while driving.
+
+Try it tonight: open Vuko's Sleep mode (3 Hz delta binaural beats) — free, open source, no signup, and all audio processing stays in your browser.
+
+Related guides
+
+Breathing exercises to fall asleep fast
+What are 40 Hz gamma binaural beats?
+4-7-8 breathing technique: how to do it
+Box breathing (4-4-4-4): steps and when to use it
+
+This article is for general information and education only and is not medical advice. Binaural beats are not a treatment for insomnia, anxiety, or any other medical condition. If sleep problems persist, please consult a qualified healthcare professional.
+
+---
+
+## https://www.vuko.life/guides/40-hz-gamma-binaural-beats.html
+
+What Are 40 Hz Gamma Binaural Beats?
+By the Vuko team · Updated July 4, 2026
+40 Hz gamma binaural beats are an auditory illusion created by playing two tones roughly 40 Hz apart — one in each ear — so the brain perceives a single pulse at 40 Hz. That rate sits in the gamma brainwave band, associated with attention, memory binding, and alert mental processing — the brain's tendency to sync its own rhythms toward that perceived pulse is what researchers call brainwave entrainment, and it's why these tracks are marketed for focus.
+
+The gamma band, briefly
+Your brain's electrical activity is conventionally divided into frequency bands: delta (deep sleep), theta (drowsiness and meditation), alpha (relaxed wakefulness), beta (active thinking), and gamma — roughly 30–100 Hz, with 40 Hz as its most-studied point. Gamma rhythms appear when the brain is integrating information across regions: locking attention onto a task, binding sights and sounds into one perception, or retrieving a memory. Importantly, gamma activity is a signature of engaged processing; that does not automatically mean that piping a 40 Hz rhythm into your ears produces engaged processing. That distinction is where most marketing overreaches.
+
+How a 40 Hz binaural beat is made
+A binaural beat needs two tones and two ears. Play, for example, 200 Hz into the left ear and 240 Hz into the right through stereo headphones, and the auditory system generates a perceived 40 Hz fluctuation — the difference between the tones. You hear a smooth mid-range hum with a fast shimmer rather than a deep bass note. This is different from two other 40 Hz methods you will see online:
+
+40 Hz pure tone — an actual 40 Hz bass frequency, at the low edge of human hearing; used in some research with speakers.
+40 Hz isochronous tones — a tone pulsed on and off 40 times per second; works without headphones and produces stronger measurable auditory responses in EEG studies.
+40 Hz binaural beats — the headphone-based illusion described above; the gentlest-sounding of the three.
+
+Why 40 Hz gets so much attention
+The current wave of interest traces largely to MIT research beginning in 2016, where mice exposed to light flickering at 40 Hz — later combined with 40 Hz sound — showed reduced Alzheimer's-related amyloid plaques and improved memory performance. Small human trials of this "gamma sensory stimulation" (using precisely engineered light-and-sound devices, not music apps) have since reported encouraging safety data and hints of slowed brain atrophy, and larger trials are still under way.
+Two honest caveats matter. First, those studies used carefully calibrated flicker and click-train stimulation — not consumer binaural beats, which produce a weaker 40 Hz response in the brain. Second, mouse results and early-phase human trials regularly fail to translate into approved treatments. So: 40 Hz stimulation is a genuinely interesting research area, and it is far too early to claim any disease-related benefit from listening to 40 Hz audio. No honest app — ours included — should tell you otherwise.
+
+What listeners actually use it for
+Setting the medical research aside, 40 Hz beats occupy the "alert" end of the binaural spectrum. People typically put them on for studying, deep work, writing, or creative problem-solving — situations where you want stimulation rather than sedation. Small studies on gamma-frequency beats and attention or working memory show mixed results: some report modest improvements, others none. A realistic framing is that a steady 40 Hz bed of sound can mask distractions and give your brain a consistent, non-verbal backdrop — closer in spirit to a focus playlist than to a cognitive enhancer. If you respond well to it, that is a fine reason to keep it; measure it against silence and against plain music for a week each.
+
+How to listen
+
+Use stereo headphones — binaural beats do not exist over speakers.
+Keep volume low. The percept forms at quiet levels; loudness adds nothing but hearing risk.
+Match the task: 40 Hz for active work; for winding down or sleep switch to alpha, theta, or delta — see our honest review of binaural beats for sleep .
+Sessions of 15–60 minutes are typical; take breaks as you would with any audio.
+Cautions: people with epilepsy or a seizure history should ask a doctor before using rhythmic stimulation; stop if you develop headaches or worsened tinnitus.
+
+If you want to hear a 40 Hz beat right now without installing anything, the free open-source web app Vuko includes a 40 Hz gamma preset ("Inspire Creativity") alongside its focus and sleep modes, generated live in your browser.
+
+Key takeaway: 40 Hz gamma binaural beats are two tones 40 Hz apart that your brain fuses into a fast pulse in the gamma band linked to attention and memory. The famous 40 Hz Alzheimer's research used different, precisely engineered stimulation and is still unproven in humans — treat 40 Hz beats as a focus-friendly soundscape, not a therapy.
+
+Frequently asked questions
+
+Do 40 Hz binaural beats improve memory or prevent Alzheimer's? No one can honestly claim that today. The 40 Hz research that made headlines used precisely controlled light and sound in animals and small human trials, not consumer binaural beats. Human trials are still ongoing, and listening to 40 Hz audio is not a treatment or prevention for any disease.
+What is the difference between 40 Hz binaural beats and a 40 Hz tone? A 40 Hz pure tone is an actual very low bass sound at 40 Hz. Binaural beats instead play two comfortable mid-range tones about 40 Hz apart, one per ear, and your brain perceives a 40 Hz pulse. Isochronous tones — a tone switched on and off 40 times per second — are a third method that works over speakers.
+When should I listen to 40 Hz gamma beats? During tasks that need active engagement: studying, problem-solving, writing, or creative work. Gamma is an alert-state band, so avoid it near bedtime — for sleep, delta or theta beats are the usual choice instead.
+Are 40 Hz binaural beats safe? For most people yes, at a low, comfortable volume. As a precaution, people with epilepsy or a seizure history should consult a doctor before using rhythmic stimulation, and anyone with tinnitus should stop if symptoms worsen.
+
+Hear 40 Hz now: open Vuko and pick the "Inspire Creativity" mode (40 Hz gamma) — free, open source, no signup, generated live in your browser.
+
+Related guides
+
+Do binaural beats help you sleep?
+Box breathing (4-4-4-4): steps and when to use it
+4-7-8 breathing technique: how to do it
+Breathing exercises to fall asleep fast
+
+This article is for general information and education only and is not medical advice. 40 Hz audio is not a treatment, prevention, or diagnosis for Alzheimer's disease or any other condition. For health concerns, please consult a qualified healthcare professional.
+
+---
+
+## https://www.vuko.life/guides/box-breathing.html
+
+Box Breathing (4-4-4-4): Steps and When to Use It
+By the Vuko team · Updated July 4, 2026
+Box breathing is a paced-breathing method with four equal phases: inhale for 4 seconds, hold for 4, exhale for 4, and hold again for 4, like tracing the sides of a square. Practiced for one to five minutes, it steadies the nervous system and sharpens focus — which is why Navy SEALs, athletes, and clinicians teach it for acute stress.
+
+What is box breathing?
+Box breathing — also called square breathing or four-square breathing — is one of the simplest breath-control patterns there is. Each of the four phases lasts the same count, which is what makes it feel like a "box": four sides of equal length. The technique became widely known through the U.S. Navy SEALs, where former commander Mark Divine popularized it as a tool for staying composed under pressure, but the underlying pattern (sama vritti, "equal breath") comes from yoga and has been taught for far longer.
+Unlike sedating patterns built around a long exhale, box breathing is balanced. That balance is its personality: it calms you down without switching you off, which makes it the go-to choice when you need to stay sharp — before a presentation, in a difficult meeting, between points in a match.
+
+Step-by-step instructions
+
+Sit upright with both feet on the floor, shoulders relaxed. Exhale fully through your mouth to start empty.
+Inhale for 4. Breathe in slowly through your nose for a count of 4, letting your belly — not your shoulders — expand.
+Hold for 4. Keep your lungs full for a count of 4. Stay soft; no clenching your throat.
+Exhale for 4. Release the breath steadily through your mouth or nose for a count of 4.
+Hold for 4. Pause with lungs empty for a count of 4, then begin the next inhale.
+Repeat for 1–5 minutes — roughly 4 to 15 rounds. Finish whenever your breathing feels settled.
+
+Many people find it helps to visualize drawing a square, one side per phase, or to trace a square on their leg with a fingertip. The visualization is not decoration — giving your attention a concrete track is a large part of why the technique quiets mental chatter.
+
+Why it works
+Slow, paced breathing at around four to six breaths per minute stimulates the vagus nerve, increasing heart-rate variability and shifting the autonomic nervous system toward its parasympathetic, "rest and digest" branch — measurably lowering the physiological signature of stress. Box breathing at 4-4-4-4 lands close to that range (just under four breaths per minute). The two holds do additional work: they interrupt the shallow, rapid chest-breathing loop that anxiety produces, and they force enough attention onto counting that rumination loses its grip. The result most people report is not sleepiness but a kind of reset — lower arousal, clearer head.
+
+When to use it (and when not to)
+
+Before a stressful event: presentations, interviews, exams, difficult conversations. Two minutes beforehand is often enough.
+During acute stress: after an alarming email, in traffic, mid-conflict — anywhere you can take four slow breaths.
+To regain focus: as a reset between tasks or before deep work.
+As daily practice: five minutes a day builds the reflex so it is available under real pressure.
+
+When not to: box breathing is less ideal as a pure sleep-onset tool, because its symmetry keeps you composed rather than drowsy. At bedtime, a long-exhale pattern such as 4-7-8 breathing or the techniques in our falling-asleep guide usually works better. And as with any breath-holding, do not practice while driving or in water.
+
+Variations
+
+3-3-3-3: a gentler box if 4-second holds feel strained — common for beginners.
+5-5-5-5 or 6-6-6-6: a slower box as your comfort grows; stays effective as long as it feels smooth, not forced.
+4-4-4 (triangle): drop the empty hold if that phase makes you air-hungry.
+With sound pacing: some people prefer following audio instead of counting. The free browser app Vuko can accompany practice with alpha-band (10 Hz) binaural beats in its Focus mode and, with permission, tracks your breathing rhythm through the microphone — handy for keeping a steady cadence without counting.
+
+Key takeaway: box breathing is a four-sided pattern — inhale 4, hold 4, exhale 4, hold 4 — that lowers stress while keeping you alert. Use it for one to five minutes before or during pressure moments; shorten the counts if you feel strained, and prefer a long-exhale technique when your goal is sleep rather than composure.
+
+Frequently asked questions
+
+How long should I do box breathing? One to five minutes is the usual range — about 4 to 15 rounds. For acute stress, even three or four rounds noticeably steadies most people. As a daily practice, five minutes once or twice a day is plenty.
+Is box breathing better than 4-7-8 breathing? They serve different moments. Box breathing's equal phases keep you calm and alert, making it better for daytime stress and focus. 4-7-8's extra-long exhale is more sedating, making it better before sleep. Many people use both.
+Why do Navy SEALs use box breathing? Because it is a fast, equipment-free way to bring heart rate and attention under control in high-stress situations. The counting structure gives the mind a concrete task, and the paced rhythm blunts the fight-or-flight response without causing drowsiness.
+Can box breathing make you dizzy? The breath holds can cause mild light-headedness at first, especially if you inhale too deeply. Breathe at a normal depth, shorten the counts to 3-3-3-3 if needed, practice seated, and skip the holds if you are pregnant or have a cardiovascular or respiratory condition until you have medical advice.
+
+Pair it with sound: open Vuko's Focus mode (10 Hz alpha binaural beats) and run a few boxes before deep work — free, no signup, everything runs in your browser.
+
+Related guides
+
+4-7-8 breathing technique: how to do it
+Breathing exercises to fall asleep fast
+What are 40 Hz gamma binaural beats?
+Do binaural beats help you sleep?
+
+This article is for general information and education only and is not medical advice. Breathing exercises are not a treatment for anxiety disorders or any other medical condition. If stress or anxiety significantly affects your life, please consult a qualified healthcare professional.
+
+---
+
+## https://www.vuko.life/guides/breathing-exercises-to-fall-asleep.html
+
+Breathing Exercises to Fall Asleep Fast
+By the Vuko team · Updated July 4, 2026
+Slow breathing with an extended exhale is one of the quickest natural ways to prepare your body for sleep. Three techniques work especially well: 4-7-8 breathing, the simple 4-in-6-out extended exhale, and diaphragmatic (belly) breathing. Practiced for five to fifteen minutes at bedtime, they slow the heart rate and shift the nervous system into rest mode.
+
+Why slow breathing brings on sleep
+Falling asleep requires your arousal system to stand down — heart rate dropping, muscles releasing, thoughts loosening. Breath is the most direct lever you have over that system. When you lengthen your exhale, you stimulate the vagus nerve and tip the autonomic balance toward its parasympathetic branch, measurably slowing the heart. Slow breathing at around six breaths per minute — close to what researchers call resonance frequency breathing — also raises heart-rate variability, a marker of a relaxed state. Just as important, counting breaths occupies the mind with something neutral, displacing the mental to-do list that keeps most people staring at the ceiling. The techniques below are three different routes to the same destination; pick the one that feels most natural and give it a couple of weeks of nightly use.
+
+Technique 1: 4-7-8 breathing (most sedating)
+
+Exhale fully, then inhale through your nose for a count of 4.
+Hold your breath gently for a count of 7.
+Exhale slowly through your mouth for a count of 8.
+Repeat for four cycles, building to eight with practice.
+
+The 7-count hold and extra-long exhale make this the drowsiest-feeling of the three, and the best fit right after lights out. If the hold feels hard, shrink everything proportionally (2-3.5-4). Full details, cautions, and variations are in our dedicated 4-7-8 breathing guide .
+
+Technique 2: the extended exhale, 4-6 (easiest)
+
+Inhale through your nose for a count of 4.
+Exhale through your nose or mouth for a count of 6, soft and unforced.
+Continue for 5–10 minutes; let the counts lengthen naturally (5-7, 6-8) as you relax.
+
+No holds, nothing to strain against — just an exhale longer than the inhale. This is the technique to start with if breath holds make you tense or light-headed, and it is gentle enough to keep doing until you actually drift off.
+
+Technique 3: diaphragmatic (belly) breathing
+
+Lie on your back, one hand on your chest and one on your belly.
+Inhale slowly through your nose so the hand on your belly rises while the chest hand stays nearly still.
+Exhale slowly, feeling the belly fall. Aim for six to eight relaxed breaths per minute for 5–10 minutes.
+
+Stress pushes breathing up into the chest — fast and shallow. Re-anchoring the breath in the diaphragm reverses that pattern and releases the chest and shoulder tension that comes with it. Combine it with either pattern above: belly-breathe the mechanics, count the rhythm.
+
+Which technique when?
+
+Technique Pattern Best for
+
+4-7-8 breathing In 4 · hold 7 · out 8 Falling asleep; waking at night
+Extended exhale In 4 · out 6 Beginners; anyone who dislikes breath holds
+Belly breathing Slow, into the diaphragm Physical tension; pairing with other patterns
+Box breathing 4 · 4 · 4 · 4 Daytime stress — calming but not sedating
+
+A 10-minute wind-down routine
+
+Minutes 0–3: lights dimmed, phone away, in bed or a chair. Belly-breathe slowly to settle the mechanics.
+Minutes 3–8: switch to the extended exhale (4-6), letting the counts lengthen as your body gets heavier.
+Minutes 8–10: lights out, four cycles of 4-7-8, then stop counting and let your breath run on its own.
+
+Quiet, slow audio can make the routine easier to stick to. If you like sound with your breathing practice, the free browser app Vuko plays slow delta-range binaural beats in its Sleep mode and — with your permission — listens to your breathing and eases the sound down as your rhythm slows; whether such beats themselves help sleep is an open question, and we lay out the evidence honestly in our binaural beats review .
+
+Common mistakes
+
+Forcing big breaths. Deep does not mean huge; over-breathing causes dizziness. Keep volumes normal, rhythm slow.
+Treating it as a one-night test. The relaxation response strengthens with repetition — judge results after two weeks, not twenty minutes.
+Clock-watching. Checking the time re-arouses you. Count breaths, not minutes.
+Trying to force sleep. If you are still alert after ~20 minutes, get up, do something dull in dim light, and return when drowsy.
+
+Key takeaway: to fall asleep faster, breathe slower and exhale longer. Start with the 4-in-6-out extended exhale, use belly breathing to release tension, and finish with a few 4-7-8 cycles after lights out. Five to fifteen minutes nightly for two weeks is a fair trial — and persistent insomnia deserves a professional, not just a pattern.
+
+Frequently asked questions
+
+What is the fastest breathing technique to fall asleep? There is no technique that reliably knocks anyone out in 60 seconds. The most sedating common pattern is 4-7-8 breathing, thanks to its long exhale and hold. For people who find breath holds uncomfortable, a simple 4-in, 6-out extended exhale is nearly as effective and easier to sustain.
+How long should I do breathing exercises before I fall asleep? Plan on 5 to 15 minutes. Start the exercise as part of winding down, not as a stopwatch race after lights out. If you are still wide awake after 20 minutes in bed, sleep experts generally suggest getting up briefly and returning when drowsy rather than forcing it.
+Why does slow breathing make you sleepy? Slowing the breath — especially lengthening the exhale — activates the parasympathetic nervous system via the vagus nerve, lowering heart rate, blood pressure, and stress arousal. It also gives the mind a neutral focus, which interrupts the racing thoughts that commonly delay sleep.
+Do breathing exercises cure insomnia? No. They are a useful wind-down tool and can shorten the time it takes to fall asleep, but chronic insomnia is a medical condition. The best-supported treatment is cognitive behavioral therapy for insomnia (CBT-I); talk to a healthcare professional if sleeplessness persists for more than a few weeks.
+
+Wind down with sound: open Vuko's Sleep mode (3 Hz delta binaural beats) during your 10-minute routine — free, open source, no signup, and your microphone audio never leaves the browser.
+
+Related guides
+
+4-7-8 breathing technique: how to do it
+Do binaural beats help you sleep?
+Box breathing (4-4-4-4): steps and when to use it
+What are 40 Hz gamma binaural beats?
+
+This article is for general information and education only and is not medical advice. Breathing exercises are not a treatment for insomnia or any other medical condition. If sleep problems persist, please consult a qualified healthcare professional.
+
+---
+
+## https://www.vuko.life/privacy/
+
+Your breathing stays on your device
+By the Vuko team · Updated July 7, 2026
+Vuko is a private, browser-based breathing and binaural-beats app. If you turn on breath detection, your microphone audio is analyzed locally in your browser and is never uploaded, never stored, and never leaves your device. The microphone is optional, there is no account to create, and because Vuko is open source you can verify all of this yourself.
+
+What Vuko never does
+
+Never uploads your microphone audio. Breath detection runs entirely in the browser via the Web Audio API. No audio is transmitted to any server.
+Never stores recordings. Vuko reads the live signal to estimate your breathing rhythm and discards it moment to moment. Nothing is saved.
+Never asks you to sign up. No account, no email, no password — so there is no personal profile tied to you.
+Never shows ads and never sells data, because there is no user data collected to sell.
+
+How local breath detection works
+When you grant microphone permission, Vuko uses the browser's built-in Web Audio API to measure the changing loudness of your breath in real time. From that signal it estimates the pace of your inhale and exhale, and it uses that rhythm to gently adjust the binaural-beat frequency you hear. Every step of this — capturing the sound, analyzing it, and adjusting the audio — happens inside the page on your own computer or phone. There is no backend server processing your voice, and no network request carries your audio anywhere.
+
+The microphone is always optional
+Breath detection is a feature, not a requirement. You can use Vuko with the microphone switched off and still get the full sound experience: choose sleep, focus, relaxation, or meditation and the beats play on their own. If you do enable the microphone, you can revoke the permission at any time in your browser, and Vuko will simply fall back to playing without breath adaptation.
+
+What Vuko does collect
+To be honest and specific: Vuko uses standard anonymous web analytics (Google Analytics) to count how many people visit and which language versions get used. That data is aggregate and is not linked to any account, because there is no account. It contains no microphone audio, no breathing data, and no personal profile. If you prefer, an ad/analytics blocker will stop even that, and the app will keep working normally.
+
+Key takeaway: Your breath data stays on your device. Microphone audio is analyzed locally and never uploaded, the microphone is optional, there is no account, and the whole app is open source — so the privacy promise is something you can check, not just something we say.
+
+Frequently asked questions
+
+Does Vuko record or upload my microphone audio? No. When you enable breath detection, your microphone audio is analyzed in real time inside your browser using the Web Audio API. The audio is never uploaded to a server, never stored, and never leaves your device. Vuko only reads the rhythm of your breathing to adjust the sound.
+Do I have to use the microphone to use Vuko? No. The microphone is optional. Vuko works fully without it — you can pick a mode and the binaural beats play on their own. Breath detection is an extra layer you can turn on or off at any time.
+Does Vuko require an account or signup? No. There is no account, no signup, no email, and no password. You open the page and it works. Because there is no account, Vuko holds no personal profile about you.
+Does Vuko use cookies or analytics? Vuko uses basic anonymous analytics (Google Analytics) to count aggregate visits and understand which languages are used. It does not collect personal information, does not show ads, and never sends your microphone audio or breathing data anywhere.
+How can I verify Vuko's privacy claims? Vuko is open source under the MIT license. You can read the full source on GitHub, and you can open your browser's developer tools and watch the Network tab while breath detection runs — you will see that no audio data is sent to any server.
+
+See for yourself: open Vuko and try it with the microphone off, then on. Or read the open-source code to confirm exactly how breath detection works. Free, no signup, runs in your browser.
+
+Related
+
+Vuko is open source — inspect and verify everything
+Do binaural beats help you sleep?
+4-7-8 breathing technique: how to do it
+
+This page describes how Vuko handles data at the time of writing. Vuko is a general wellness and relaxation tool, not a medical device, and does not diagnose, treat, or cure any condition.
+
+---
+
+## https://www.vuko.life/open-source/
+
+Vuko is open source — inspect and verify everything
+By the Vuko team · Updated July 7, 2026
+Vuko is a free, open-source binaural beats and breathing app released under the MIT license, with its full source code public on GitHub. It is built as pure HTML, CSS, and vanilla JavaScript with no build step, generates sound with the Web Audio API, and runs entirely in your browser. Because the code is open, its privacy promise — that microphone audio never leaves your device — is something you can check for yourself.
+
+Read the source
+The complete Vuko codebase lives at github.com/weiqi-kids/vuko.life under the permissive MIT license. There is nothing hidden behind a server: what you download in your browser is essentially the whole application. You can read exactly how the beats are generated, how modes are selected, and how the optional microphone input is handled.
+
+How it's built
+
+No framework, no build step. Pure HTML, CSS, and vanilla JavaScript — easy to read and audit.
+Web Audio API. Binaural beats are synthesized live in the browser by playing two slightly different frequencies, one per ear.
+Static hosting. The site is deployed as static files on GitHub Pages. There is no application backend that receives or processes your audio.
+Local breath detection. When enabled, the microphone signal is analyzed on-device to estimate breathing rhythm, which adjusts the beat frequency in real time.
+
+How breath detection works, in plain terms
+If you grant microphone permission, Vuko uses the Web Audio API to watch how the loudness of your breath rises and falls. From that pattern it estimates the pace of your inhale and exhale and nudges the binaural-beat frequency to match — slower and lower as you settle down. All of this computation happens inside the page on your device. You can confirm there is no audio upload by opening your browser's developer tools and watching the Network tab while it runs.
+
+Fork it, self-host it, contribute
+Because Vuko is MIT-licensed static files, you can clone the repository and serve it from any static host, fork it to build your own variation, or open a pull request to improve the original. Bug reports and feature ideas are welcome through GitHub issues.
+
+Key takeaway: Vuko is genuinely open source (MIT) — pure HTML/CSS/JS, Web Audio API, no backend, hosted as static files. You can read every line, verify the local-only breath detection yourself, self-host it, or contribute.
+
+Frequently asked questions
+
+Is Vuko really open source? Yes. Vuko is released under the permissive MIT license and the full source code is public on GitHub at github.com/weiqi-kids/vuko.life. You are free to read it, fork it, modify it, and self-host it.
+What is Vuko built with? Pure HTML, CSS, and vanilla JavaScript with no framework and no build step. Sound is generated with the browser's Web Audio API, and the site is deployed as static files on GitHub Pages. There is no backend server that processes user audio.
+How does breath detection work technically? With your permission, Vuko taps the microphone through the Web Audio API and measures the changing amplitude of your breath to estimate your breathing rhythm. That rhythm is mapped to the binaural-beat frequency. All of this runs client-side in the page; no audio is sent to a server.
+Can I self-host or fork Vuko? Yes. Because it is MIT-licensed static HTML/CSS/JS, you can clone the repository and host it on any static host, or fork it and adapt it to your own needs. Contributions via pull request are welcome.
+How does open source help me trust Vuko's privacy claims? Because the code is public, the claim that microphone audio never leaves your device is verifiable rather than something you have to take on faith. You can read the audio-handling code and watch your browser's Network tab to confirm no audio is transmitted.
+
+Take a look: browse the source on GitHub , or read how we handle your data on the privacy page . Then try Vuko — free, no signup, runs in your browser.
+
+Related
+
+Your breathing stays on your device — Vuko's privacy approach
+Do binaural beats help you sleep?
+What are 40 Hz gamma binaural beats?
+
+Vuko is a general wellness and relaxation tool, not a medical device, and does not diagnose, treat, or cure any condition.
