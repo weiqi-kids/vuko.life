@@ -72,3 +72,7 @@ Vuko 是免費、開源、免註冊的呼吸自適應雙耳拍頻 Web App：透�
 [MIT](LICENSE) © 2025 Light
 
 *Vuko is a wellness tool, not a medical device. Binaural beats research is ongoing; effects vary by individual.*
+
+---
+
+Maintained by Light. I build and maintain websites with AI as a service: [arthurs.tw](https://arthurs.tw/?utm_source=github&utm_medium=readme&utm_campaign=oss)
