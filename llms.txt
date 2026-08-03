@@ -37,6 +37,7 @@ Vuko (https://www.vuko.life) is a browser-based AI guide that generates binaural
 
 ## Guides
 
+- [Breathing & Binaural Beats Guides (index)](https://www.vuko.life/guides/): One-page overview of all Vuko guides — breathing techniques for stress and sleep, plus the evidence on binaural beats.
 - [4-7-8 Breathing Technique: How to Do It (Step by Step)](https://www.vuko.life/guides/4-7-8-breathing.html): Step-by-step instructions for 4-7-8 breathing — inhale through the nose for 4 seconds, hold for 7, exhale through the mouth for 8 — why it calms you, when to use it, and safety tips.
 - [Do Binaural Beats Help You Sleep? An Honest Look at the Evidence](https://www.vuko.life/guides/binaural-beats-for-sleep.html): What the research actually shows about binaural beats and sleep, which frequencies (delta, theta) are used, how to listen properly, and who should be cautious.
 - [What Are 40 Hz Gamma Binaural Beats? Science, Uses & How to Listen](https://www.vuko.life/guides/40-hz-gamma-binaural-beats.html): What 40 Hz gamma waves are, how 40 Hz binaural beats create them, why this frequency is studied for memory and attention, and how to listen safely.
