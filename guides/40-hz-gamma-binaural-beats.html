@@ -39,8 +39,10 @@
         .related-guides ul { list-style: none; margin: 8px 0 0; padding: 0; }
         .related-guides li { margin-bottom: 6px; }
         .references { margin-top: 22px; }
-        .references ol { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
+        .references ol, .references ul { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
         .references li { margin-bottom: 8px; line-height: 1.55; }
+        .references .ref-group h3 { font-size: 0.85rem; font-weight: 700; margin: 18px 0 6px; color: var(--text-primary); }
+        .references .ref-group:first-child h3 { margin-top: 4px; }
         .guide-article a { color: var(--accent-color); }
         @media (max-width: 600px) { .guide-article h1 { font-size: 1.5rem; } }
     </style>
@@ -214,14 +216,27 @@
 
             <section class="references">
                 <h2>References</h2>
-                <ol>
-                    <li>Iaccarino HF, Singer AC, Martorell AJ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/27929004/" target="_blank" rel="noopener">Gamma frequency entrainment attenuates amyloid load and modifies microglia</a>. <em>Nature</em>, 2016.</li>
-                    <li>Martorell AJ, Paulson AL, Suk HJ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/30879788/" target="_blank" rel="noopener">Multi-sensory gamma stimulation ameliorates Alzheimer's-associated pathology and improves cognition</a>. <em>Cell</em>, 2019.</li>
-                    <li>Chan D, Suk HJ, Jackson BL, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/36454969/" target="_blank" rel="noopener">Gamma frequency sensory stimulation in mild probable Alzheimer's dementia patients: results of feasibility and pilot studies</a>. <em>PLOS ONE</em>, 2022.</li>
-                    <li>Jensen O, Kaiser J, Lachaux JP. <a href="https://pubmed.ncbi.nlm.nih.gov/17499860/" target="_blank" rel="noopener">Human gamma-frequency oscillations associated with attention and memory</a>. <em>Trends in Neurosciences</em>, 2007.</li>
-                    <li>Schwarz DWF, Taylor P. <a href="https://pubmed.ncbi.nlm.nih.gov/15721080/" target="_blank" rel="noopener">Human auditory steady state responses to binaural and monaural beats</a>. <em>Clinical Neurophysiology</em>, 2005.</li>
-                    <li>Garcia-Argibay M, Santed MA, Reales JM. <a href="https://pubmed.ncbi.nlm.nih.gov/30073406/" target="_blank" rel="noopener">Efficacy of binaural auditory beats in cognition, anxiety, and pain perception: a meta-analysis</a>. <em>Psychological Research</em>, 2019.</li>
-                </ol>
+                <div class="ref-group">
+                    <h3>Mechanism: what gamma actually is</h3>
+                    <ul>
+                        <li>Jensen O, Kaiser J, Lachaux JP. <a href="https://pubmed.ncbi.nlm.nih.gov/17499860/" target="_blank" rel="noopener">Human gamma-frequency oscillations associated with attention and memory</a>. <em>Trends in Neurosciences</em>, 2007. Defines the gamma band as roughly 30–100 Hz and ties it to attention and memory binding. Background on what gamma rhythms are, not evidence that binaural beats produce them.</li>
+                        <li>Schwarz DWF, Taylor P. <a href="https://pubmed.ncbi.nlm.nih.gov/15721080/" target="_blank" rel="noopener">Human auditory steady state responses to binaural and monaural beats</a>. <em>Clinical Neurophysiology</em>, 2005. Measured the brain's response to a binaural beat against its response to a pulsed tone at the same rate and found the binaural response smaller. That gap is why isochronous tones, not binaural beats, produce the strongest measured EEG entrainment.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>The Alzheimer's research story (light and sound, not headphone beats)</h3>
+                    <ul>
+                        <li>Iaccarino HF, Singer AC, Martorell AJ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/27929004/" target="_blank" rel="noopener">Gamma frequency entrainment attenuates amyloid load and modifies microglia</a>. <em>Nature</em>, 2016. Seven days of 40 Hz light flicker in mice shifted activity in roughly 500 genes (about 130 up, 393 down, p &lt; 0.05) and lowered amyloid protein levels — the mouse result that started the current wave of interest.</li>
+                        <li>Martorell AJ, Paulson AL, Suk HJ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/30879788/" target="_blank" rel="noopener">Multi-sensory gamma stimulation ameliorates Alzheimer's-associated pathology and improves cognition</a>. <em>Cell</em>, 2019. In groups of about 20 mice, 40 Hz sound alone improved memory-test performance over untreated controls (p &lt; 0.0001). Reducing amyloid plaques required combining the sound with 40 Hz light; sound by itself was not enough for that part.</li>
+                        <li>Chan D, Suk HJ, Jackson BL, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/36454969/" target="_blank" rel="noopener">Gamma frequency sensory stimulation in mild probable Alzheimer's dementia patients: results of feasibility and pilot studies</a>. <em>PLOS ONE</em>, 2022. A 15-patient human pilot. After three months the stimulated group showed less enlargement of brain ventricles than controls (p = 0.024) — an early, small signal, not proof the approach helps.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>Attention and cognition in healthy listeners</h3>
+                    <ul>
+                        <li>Garcia-Argibay M, Santed MA, Reales JM. <a href="https://pubmed.ncbi.nlm.nih.gov/30073406/" target="_blank" rel="noopener">Efficacy of binaural auditory beats in cognition, anxiety, and pain perception: a meta-analysis</a>. <em>Psychological Research</em>, 2019. Pooled 22 studies and 35 effect sizes and found a medium overall effect on cognition, anxiety, and pain measures (Hedges' g = 0.45) — the best current summary evidence for binaural beats generally: real, but modest.</li>
+                    </ul>
+                </div>
             </section>
 
             <div class="guide-cta"><strong>Hear 40 Hz now:</strong> open <a href="https://www.vuko.life/">Vuko and pick the "Inspire Creativity" mode (40 Hz gamma)</a> — free, open source, no signup, generated live in your browser.</div>

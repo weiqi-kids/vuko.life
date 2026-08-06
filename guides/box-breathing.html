@@ -39,8 +39,10 @@
         .related-guides ul { list-style: none; margin: 8px 0 0; padding: 0; }
         .related-guides li { margin-bottom: 6px; }
         .references { margin-top: 22px; }
-        .references ol { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
+        .references ol, .references ul { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
         .references li { margin-bottom: 8px; line-height: 1.55; }
+        .references .ref-group h3 { font-size: 0.85rem; font-weight: 700; margin: 18px 0 6px; color: var(--text-primary); }
+        .references .ref-group:first-child h3 { margin-top: 4px; }
         .guide-article a { color: var(--accent-color); }
         @media (max-width: 600px) { .guide-article h1 { font-size: 1.5rem; } }
     </style>
@@ -231,13 +233,21 @@
 
             <section class="references">
                 <h2>References</h2>
-                <ol>
-                    <li>Zaccaro A, Piarulli A, Laurino M, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/30245619/" target="_blank" rel="noopener">How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing</a>. <em>Frontiers in Human Neuroscience</em>, 2018.</li>
-                    <li>Lehrer PM, Gevirtz R. <a href="https://pubmed.ncbi.nlm.nih.gov/25101026/" target="_blank" rel="noopener">Heart rate variability biofeedback: how and why does it work?</a> <em>Frontiers in Psychology</em>, 2014.</li>
-                    <li>Gerritsen RJS, Band GPH. <a href="https://pubmed.ncbi.nlm.nih.gov/30356789/" target="_blank" rel="noopener">Breath of life: the respiratory vagal stimulation model of contemplative activity</a>. <em>Frontiers in Human Neuroscience</em>, 2018.</li>
-                    <li>Yasuma F, Hayano J. <a href="https://pubmed.ncbi.nlm.nih.gov/14769752/" target="_blank" rel="noopener">Respiratory sinus arrhythmia: why does the heartbeat synchronize with respiratory rhythm?</a> <em>Chest</em>, 2004.</li>
-                    <li>Ma X, Yue ZQ, Gong ZQ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/28626434/" target="_blank" rel="noopener">The effect of diaphragmatic breathing on attention, negative affect and stress in healthy adults</a>. <em>Frontiers in Psychology</em>, 2017.</li>
-                </ol>
+                <div class="ref-group">
+                    <h3>Why slow, paced breathing calms you</h3>
+                    <ul>
+                        <li>Zaccaro A, Piarulli A, Laurino M, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/30245619/" target="_blank" rel="noopener">How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing</a>. <em>Frontiers in Human Neuroscience</em>, 2018. Screened 2,461 papers and kept 15 that met its criteria. Breathing under 10 breaths per minute was consistently linked to higher heart-rate variability and lower self-reported anxiety and anger.</li>
+                        <li>Lehrer PM, Gevirtz R. <a href="https://pubmed.ncbi.nlm.nih.gov/25101026/" target="_blank" rel="noopener">Heart rate variability biofeedback: how and why does it work?</a> <em>Frontiers in Psychology</em>, 2014. Explains why paced breathing at around six or seven breaths a minute produces an outsized heart-rate-variability response, and why biofeedback training targets each person's own resonance rate rather than one fixed number.</li>
+                        <li>Gerritsen RJS, Band GPH. <a href="https://pubmed.ncbi.nlm.nih.gov/30356789/" target="_blank" rel="noopener">Breath of life: the respiratory vagal stimulation model of contemplative activity</a>. <em>Frontiers in Human Neuroscience</em>, 2018. A theoretical model of how breath-hold length changes vagus-nerve stimulation. Box breathing's two holds are exactly the variable this model addresses, though it is a framework paper rather than a measured trial.</li>
+                        <li>Yasuma F, Hayano J. <a href="https://pubmed.ncbi.nlm.nih.gov/14769752/" target="_blank" rel="noopener">Respiratory sinus arrhythmia: why does the heartbeat synchronize with respiratory rhythm?</a> <em>Chest</em>, 2004. Explains the heart-rate-slowing mechanism that a paced exhale draws on.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>Attention and focus</h3>
+                    <ul>
+                        <li>Ma X, Yue ZQ, Gong ZQ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/28626434/" target="_blank" rel="noopener">The effect of diaphragmatic breathing on attention, negative affect and stress in healthy adults</a>. <em>Frontiers in Psychology</em>, 2017. A 40-person randomized trial. Eight weeks of diaphragmatic breathing training at an average of 4 breaths per minute produced significantly lower cortisol, less negative affect, and better sustained attention than a control group. This is the study behind this guide's focus claims, and it tested belly-breathing practice specifically rather than box breathing itself.</li>
+                    </ul>
+                </div>
             </section>
 
             <div class="guide-cta"><strong>Pair it with sound:</strong> open <a href="https://www.vuko.life/">Vuko's Focus mode (10 Hz alpha binaural beats)</a> and run a few boxes before deep work — free, no signup, everything runs in your browser.</div>

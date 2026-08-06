@@ -39,8 +39,10 @@
         .related-guides ul { list-style: none; margin: 8px 0 0; padding: 0; }
         .related-guides li { margin-bottom: 6px; }
         .references { margin-top: 22px; }
-        .references ol { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
+        .references ol, .references ul { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
         .references li { margin-bottom: 8px; line-height: 1.55; }
+        .references .ref-group h3 { font-size: 0.85rem; font-weight: 700; margin: 18px 0 6px; color: var(--text-primary); }
+        .references .ref-group:first-child h3 { margin-top: 4px; }
         .guide-article a { color: var(--accent-color); }
         @media (max-width: 600px) { .guide-article h1 { font-size: 1.5rem; } }
     </style>
@@ -226,14 +228,32 @@
 
             <section class="references">
                 <h2>References</h2>
-                <ol>
-                    <li>Orozco Perez HD, Dumas G, Lehmann A. <a href="https://pubmed.ncbi.nlm.nih.gov/32066611/" target="_blank" rel="noopener">Binaural beats through the auditory pathway: from brainstem to connectivity patterns</a>. <em>eNeuro</em>, 2020.</li>
-                    <li>Jirakittayakorn N, Wongsawat Y. <a href="https://pubmed.ncbi.nlm.nih.gov/30319382/" target="_blank" rel="noopener">A novel insight of effects of a 3-Hz binaural beat on sleep stages during sleep</a>. <em>Frontiers in Human Neuroscience</em>, 2018.</li>
-                    <li>Padmanabhan R, Hildreth AJ, Laws D. <a href="https://pubmed.ncbi.nlm.nih.gov/16115248/" target="_blank" rel="noopener">A prospective, randomised, controlled study examining binaural beat audio and pre-operative anxiety in patients undergoing general anaesthesia for day case surgery</a>. <em>Anaesthesia</em>, 2005.</li>
-                    <li>López-Caballero F, Escera C. <a href="https://pubmed.ncbi.nlm.nih.gov/29187819/" target="_blank" rel="noopener">Binaural beat: a failure to enhance EEG power and emotional arousal</a>. <em>Frontiers in Human Neuroscience</em>, 2017.</li>
-                    <li>Chaieb L, Wilpert EC, Reber TP, Fell J. <a href="https://pubmed.ncbi.nlm.nih.gov/26029120/" target="_blank" rel="noopener">Auditory beat stimulation and its effects on cognition and mood states</a>. <em>Frontiers in Psychiatry</em>, 2015.</li>
-                    <li>Garcia-Argibay M, Santed MA, Reales JM. <a href="https://pubmed.ncbi.nlm.nih.gov/30073406/" target="_blank" rel="noopener">Efficacy of binaural auditory beats in cognition, anxiety, and pain perception: a meta-analysis</a>. <em>Psychological Research</em>, 2019.</li>
-                </ol>
+                <div class="ref-group">
+                    <h3>Mechanism: how a binaural beat reaches the brain</h3>
+                    <ul>
+                        <li>Orozco Perez HD, Dumas G, Lehmann A. <a href="https://pubmed.ncbi.nlm.nih.gov/32066611/" target="_blank" rel="noopener">Binaural beats through the auditory pathway: from brainstem to connectivity patterns</a>. <em>eNeuro</em>, 2020. Traced the signal from the brainstem's frequency-following response up to the cortex. Cortical entrainment to binaural beats was weaker than to monaural (single-speaker) beats, and the study found no measurable mood change from the beats themselves.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>Sleep-stage research</h3>
+                    <ul>
+                        <li>Jirakittayakorn N, Wongsawat Y. <a href="https://pubmed.ncbi.nlm.nih.gov/30319382/" target="_blank" rel="noopener">A novel insight of effects of a 3-Hz binaural beat on sleep stages during sleep</a>. <em>Frontiers in Human Neuroscience</em>, 2018. Tracked 24 participants over three nights. On the night with 3 Hz binaural-beat stimulation timed to sleep onset, deep sleep (N3) arrived sooner and lasted longer than on the silent control night — one of the few studies to measure actual sleep stages rather than ask people how they felt.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>Anxiety and relaxation</h3>
+                    <ul>
+                        <li>Padmanabhan R, Hildreth AJ, Laws D. <a href="https://pubmed.ncbi.nlm.nih.gov/16115248/" target="_blank" rel="noopener">A prospective, randomised, controlled study examining binaural beat audio and pre-operative anxiety in patients undergoing general anaesthesia for day case surgery</a>. <em>Anaesthesia</em>, 2005. In 108 patients awaiting day surgery, those who listened to binaural beats had anxiety scores drop 26.3%, versus 11.1% for a music-only group and 3.6% with no audio (p = 0.001 and p &lt; 0.0001). One of the larger effects in this literature, though measured for pre-operative anxiety rather than sleep.</li>
+                        <li>Garcia-Argibay M, Santed MA, Reales JM. <a href="https://pubmed.ncbi.nlm.nih.gov/30073406/" target="_blank" rel="noopener">Efficacy of binaural auditory beats in cognition, anxiety, and pain perception: a meta-analysis</a>. <em>Psychological Research</em>, 2019. Across 22 pooled studies the overall effect on cognition, anxiety, and pain was medium (Hedges' g = 0.45), rising to g = 0.69 for anxiety reduction specifically in the theta and delta range.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>Where the evidence is weaker</h3>
+                    <ul>
+                        <li>López-Caballero F, Escera C. <a href="https://pubmed.ncbi.nlm.nih.gov/29187819/" target="_blank" rel="noopener">Binaural beat: a failure to enhance EEG power and emotional arousal</a>. <em>Frontiers in Human Neuroscience</em>, 2017. Tested five beat frequencies from 4.5 to 57 Hz and found no significant change in the matching EEG brainwave band, for binaural or acoustic beats alike — a direct null result on the brainwave-entrainment mechanism itself.</li>
+                        <li>Chaieb L, Wilpert EC, Reber TP, Fell J. <a href="https://pubmed.ncbi.nlm.nih.gov/26029120/" target="_blank" rel="noopener">Auditory beat stimulation and its effects on cognition and mood states</a>. <em>Frontiers in Psychiatry</em>, 2015. A review noting that findings across the auditory-beat literature are frequently contradictory. That inconsistency is a large part of why this guide calls the evidence mixed rather than settled.</li>
+                    </ul>
+                </div>
             </section>
 
             <div class="guide-cta"><strong>Try it tonight:</strong> open <a href="https://www.vuko.life/">Vuko's Sleep mode (3 Hz delta binaural beats)</a> — free, open source, no signup, and all audio processing stays in your browser.</div>

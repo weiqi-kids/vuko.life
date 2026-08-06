@@ -39,8 +39,10 @@
         .related-guides ul { list-style: none; margin: 8px 0 0; padding: 0; }
         .related-guides li { margin-bottom: 6px; }
         .references { margin-top: 22px; }
-        .references ol { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
+        .references ol, .references ul { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
         .references li { margin-bottom: 8px; line-height: 1.55; }
+        .references .ref-group h3 { font-size: 0.85rem; font-weight: 700; margin: 18px 0 6px; color: var(--text-primary); }
+        .references .ref-group:first-child h3 { margin-top: 4px; }
         .guide-article a { color: var(--accent-color); }
         @media (max-width: 600px) { .guide-article h1 { font-size: 1.5rem; } }
     </style>
@@ -249,13 +251,26 @@
 
             <section class="references">
                 <h2>References</h2>
-                <ol>
-                    <li>Zaccaro A, Piarulli A, Laurino M, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/30245619/" target="_blank" rel="noopener">How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing</a>. <em>Frontiers in Human Neuroscience</em>, 2018.</li>
-                    <li>Gerritsen RJS, Band GPH. <a href="https://pubmed.ncbi.nlm.nih.gov/30356789/" target="_blank" rel="noopener">Breath of life: the respiratory vagal stimulation model of contemplative activity</a>. <em>Frontiers in Human Neuroscience</em>, 2018.</li>
-                    <li>Lehrer PM, Gevirtz R. <a href="https://pubmed.ncbi.nlm.nih.gov/25101026/" target="_blank" rel="noopener">Heart rate variability biofeedback: how and why does it work?</a> <em>Frontiers in Psychology</em>, 2014.</li>
-                    <li>Ma X, Yue ZQ, Gong ZQ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/28626434/" target="_blank" rel="noopener">The effect of diaphragmatic breathing on attention, negative affect and stress in healthy adults</a>. <em>Frontiers in Psychology</em>, 2017.</li>
-                    <li>Edinger JD, Arnedt JT, Bertisch SM, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/33164742/" target="_blank" rel="noopener">Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline</a>. <em>Journal of Clinical Sleep Medicine</em>, 2021.</li>
-                </ol>
+                <div class="ref-group">
+                    <h3>Slow breathing and the nervous system</h3>
+                    <ul>
+                        <li>Zaccaro A, Piarulli A, Laurino M, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/30245619/" target="_blank" rel="noopener">How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing</a>. <em>Frontiers in Human Neuroscience</em>, 2018. Screened 2,461 papers and kept 15 that met its criteria. Breathing under 10 breaths per minute was consistently linked to higher heart-rate variability and lower self-reported anxiety, depression, and anger.</li>
+                        <li>Gerritsen RJS, Band GPH. <a href="https://pubmed.ncbi.nlm.nih.gov/30356789/" target="_blank" rel="noopener">Breath of life: the respiratory vagal stimulation model of contemplative activity</a>. <em>Frontiers in Human Neuroscience</em>, 2018. A theoretical model of how inhale length, exhale length, and breath holds change the strength of vagus-nerve stimulation during slow breathing. Framework paper, no measured effect size.</li>
+                        <li>Lehrer PM, Gevirtz R. <a href="https://pubmed.ncbi.nlm.nih.gov/25101026/" target="_blank" rel="noopener">Heart rate variability biofeedback: how and why does it work?</a> <em>Frontiers in Psychology</em>, 2014. Explains why paced breathing at around six or seven breaths a minute produces an outsized heart-rate-variability response, and why biofeedback training targets each person's own resonance rate rather than one fixed number.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>Measured effects in healthy adults</h3>
+                    <ul>
+                        <li>Ma X, Yue ZQ, Gong ZQ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/28626434/" target="_blank" rel="noopener">The effect of diaphragmatic breathing on attention, negative affect and stress in healthy adults</a>. <em>Frontiers in Psychology</em>, 2017. Forty healthy adults split into a breathing group and a control group. The breathing group trained at about 4 breaths per minute across 20 sessions over 8 weeks, and afterwards showed better sustained attention, lower negative affect, and lower cortisol than controls. Note the training load: this was eight weeks of practice, not one night.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>Where breathing sits in insomnia treatment</h3>
+                    <ul>
+                        <li>Edinger JD, Arnedt JT, Bertisch SM, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/33164742/" target="_blank" rel="noopener">Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline</a>. <em>Journal of Clinical Sleep Medicine</em>, 2021. The clinical guideline gives multicomponent cognitive behavioural therapy for insomnia its only STRONG recommendation. Relaxation therapy on its own, the category these breathing routines fall under, gets a CONDITIONAL recommendation. If your sleep problem has lasted months, breathing exercises are a reasonable thing to try, but they are not what the evidence points to first.</li>
+                    </ul>
+                </div>
             </section>
 
             <div class="guide-cta"><strong>Wind down with sound:</strong> open <a href="https://www.vuko.life/">Vuko's Sleep mode (3 Hz delta binaural beats)</a> during your 10-minute routine — free, open source, no signup, and your microphone audio never leaves the browser.</div>

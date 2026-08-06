@@ -39,8 +39,10 @@
         .related-guides ul { list-style: none; margin: 8px 0 0; padding: 0; }
         .related-guides li { margin-bottom: 6px; }
         .references { margin-top: 22px; }
-        .references ol { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
+        .references ol, .references ul { margin: 10px 0 0 1.25em; padding: 0; font-size: 0.85rem; color: var(--text-muted); }
         .references li { margin-bottom: 8px; line-height: 1.55; }
+        .references .ref-group h3 { font-size: 0.85rem; font-weight: 700; margin: 18px 0 6px; color: var(--text-primary); }
+        .references .ref-group:first-child h3 { margin-top: 4px; }
         .guide-article a { color: var(--accent-color); }
         @media (max-width: 600px) { .guide-article h1 { font-size: 1.5rem; } }
     </style>
@@ -238,14 +240,27 @@
 
             <section class="references">
                 <h2>References</h2>
-                <ol>
-                    <li>Zaccaro A, Piarulli A, Laurino M, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/30245619/" target="_blank" rel="noopener">How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing</a>. <em>Frontiers in Human Neuroscience</em>, 2018.</li>
-                    <li>Yasuma F, Hayano J. <a href="https://pubmed.ncbi.nlm.nih.gov/14769752/" target="_blank" rel="noopener">Respiratory sinus arrhythmia: why does the heartbeat synchronize with respiratory rhythm?</a> <em>Chest</em>, 2004.</li>
-                    <li>Gerritsen RJS, Band GPH. <a href="https://pubmed.ncbi.nlm.nih.gov/30356789/" target="_blank" rel="noopener">Breath of life: the respiratory vagal stimulation model of contemplative activity</a>. <em>Frontiers in Human Neuroscience</em>, 2018.</li>
-                    <li>Lehrer PM, Gevirtz R. <a href="https://pubmed.ncbi.nlm.nih.gov/25101026/" target="_blank" rel="noopener">Heart rate variability biofeedback: how and why does it work?</a> <em>Frontiers in Psychology</em>, 2014.</li>
-                    <li>Aktaş GK, İlgin VE. <a href="https://pubmed.ncbi.nlm.nih.gov/36480101/" target="_blank" rel="noopener">The effect of deep breathing exercise and 4-7-8 breathing techniques applied to patients after bariatric surgery on anxiety and quality of life</a>. <em>Obesity Surgery</em>, 2023.</li>
-                    <li>Weil A. <a href="https://www.drweil.com/health-wellness/body-mind-spirit/stress-anxiety/three-breathing-exercises-and-techniques/" target="_blank" rel="noopener">Breathing exercises: three to try — the 4-7-8 breath</a>. DrWeil.com — the originator's own instructions for the technique.</li>
-                </ol>
+                <div class="ref-group">
+                    <h3>Why the long exhale calms you</h3>
+                    <ul>
+                        <li>Yasuma F, Hayano J. <a href="https://pubmed.ncbi.nlm.nih.gov/14769752/" target="_blank" rel="noopener">Respiratory sinus arrhythmia: why does the heartbeat synchronize with respiratory rhythm?</a> <em>Chest</em>, 2004. Explains the mechanism the technique leans on: heart rate quickens slightly on the inhale and slows on the exhale, so stretching the exhale tilts that balance toward slower.</li>
+                        <li>Gerritsen RJS, Band GPH. <a href="https://pubmed.ncbi.nlm.nih.gov/30356789/" target="_blank" rel="noopener">Breath of life: the respiratory vagal stimulation model of contemplative activity</a>. <em>Frontiers in Human Neuroscience</em>, 2018. A theoretical model of how inhale length, exhale length, and breath holds change how strongly slow breathing stimulates the vagus nerve. A framework paper, not a measured effect size.</li>
+                        <li>Lehrer PM, Gevirtz R. <a href="https://pubmed.ncbi.nlm.nih.gov/25101026/" target="_blank" rel="noopener">Heart rate variability biofeedback: how and why does it work?</a> <em>Frontiers in Psychology</em>, 2014. Explains why paced breathing at around six or seven breaths a minute produces an outsized heart-rate-variability response, and why biofeedback training targets each person's own resonance rate rather than one fixed number.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>Slow breathing, more broadly</h3>
+                    <ul>
+                        <li>Zaccaro A, Piarulli A, Laurino M, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/30245619/" target="_blank" rel="noopener">How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing</a>. <em>Frontiers in Human Neuroscience</em>, 2018. Screened 2,461 papers and kept 15 that met its criteria. Breathing under 10 breaths per minute was consistently linked to higher heart-rate variability and lower self-reported anxiety, depression, and anger across those studies.</li>
+                    </ul>
+                </div>
+                <div class="ref-group">
+                    <h3>4-7-8 breathing specifically</h3>
+                    <ul>
+                        <li>Aktaş GK, İlgin VE. <a href="https://pubmed.ncbi.nlm.nih.gov/36480101/" target="_blank" rel="noopener">The effect of deep breathing exercise and 4-7-8 breathing techniques applied to patients after bariatric surgery on anxiety and quality of life</a>. <em>Obesity Surgery</em>, 2023. A 90-patient randomized trial, 30 per group. The 4-7-8 group reported significantly lower post-operative anxiety than both a general deep-breathing group and a no-intervention control (p &lt; 0.05) — direct evidence for this specific pattern, in one clinical population.</li>
+                        <li>Weil A. <a href="https://www.drweil.com/health-wellness/body-mind-spirit/stress-anxiety/three-breathing-exercises-and-techniques/" target="_blank" rel="noopener">Breathing exercises: three to try — the 4-7-8 breath</a>. DrWeil.com — the originator's own instructions for the technique.</li>
+                    </ul>
+                </div>
             </section>
 
             <div class="guide-cta"><strong>Try it with sound:</strong> open <a href="https://www.vuko.life/">Vuko's Sleep mode (3 Hz delta binaural beats)</a> and do your four 4-7-8 cycles as the audio plays — the slow beat gives your exhale something steady to land on. Free, no signup, runs in your browser.</div>
