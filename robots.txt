@@ -10,6 +10,7 @@
 # 被遮蔽的僅為內部工作檔（非內容），對所有爬蟲一視同仁。
 
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Disallow: /badge/
 Disallow: /docs/
 Disallow: /music/
