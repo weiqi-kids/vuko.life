@@ -173,6 +173,7 @@ Breathing Exercises to Fall Asleep Fast: 3 Techniques That Work — 4-7-8 breath
 Binaural beats
 Do Binaural Beats Help You Sleep? An Honest Look at the Evidence — What the research actually shows, which frequencies (delta, theta) are used for sleep, how to listen properly, and who should be cautious.
 What Are 40 Hz Gamma Binaural Beats? Science, Uses & How to Listen — What 40 Hz gamma waves are, how binaural beats create them, why this frequency is studied for memory and attention, and how to listen safely.
+Binaural Beats for Focus: Alpha, Beta or Gamma? What the Research Shows — Which frequency to try for studying or deep work, what small trials and a meta-analysis found for alpha, beta and gamma, where the evidence disagrees, and how to test it yourself.
 
 Try it in practice: the techniques above pair with Vuko — free binaural beats and breath tracking that run entirely in your browser, no signup.
 
@@ -402,6 +403,61 @@ Box breathing (4-4-4-4): steps and when to use it
 Breathing exercises to fall asleep fast
 
 This article is for general information and education only and is not medical advice. 40 Hz audio is not a treatment, prevention, or diagnosis for Alzheimer's disease or any other condition. For health concerns, please consult a qualified healthcare professional.
+
+---
+
+## https://www.vuko.life/guides/binaural-beats-for-focus.html
+
+Binaural Beats for Focus: Alpha, Beta or Gamma?
+By the Vuko team · Published October 2, 2026
+There is no frequency with solid proof. If you want to try one, the usual picks are alpha (about 10 Hz) for calm, steady work like reading and writing, and beta (about 15-20 Hz) for alertness on a dull task. Gamma (40 Hz) is the third option. A 2019 meta-analysis found a medium average effect across attention and memory studies, but individual trials disagree with each other, and later work found little or nothing. Try one for a week and keep it only if you can tell the difference.
+
+The three bands people pick from
+Alpha (8-12 Hz, 10 Hz typical) is used for relaxed, steady attention such as reading, writing and studying; small gains showed up on one visuospatial task in one trial and helped idea generation in another, but only for some people. Beta (15-25 Hz) is used for alertness on tedious or vigilance-type tasks; one 29-person study found better target detection than theta/delta beats, with little replication since. Gamma (40 Hz) is used for active, effortful work; one experiment found narrowed attentional focus, but results elsewhere are mixed. These ranges come from how researchers label EEG bands, not from a tested prescription — nobody has shown that a 10 Hz beat makes your brain run at 10 Hz, and that gap is where most of the disagreement sits.
+
+What the studies found, one by one
+Beta, 16 and 24 Hz: in a 1998 experiment with 29 people doing a 30-minute vigilance task, beta-range beats gave more correct detections and fewer false alarms than theta/delta beats, with less negative mood reported; the comparison was against slow beats, not silence, on a small sample.
+Alpha, 10 Hz: a 2022 within-subject trial of 31 adults compared 10, 16 and 40 Hz beats with a plain tone and with silence during an 8-minute 2-back task; the authors reported the 10 Hz condition may have a few slight enhancing effects on the visuospatial side only, a small and narrow signal.
+Gamma, 40 Hz: after 3 minutes of 40 Hz beats, people in a global-local attention experiment showed a smaller global-precedence effect than people who heard a constant tone, read by the authors as a narrower spotlight of attention; whether that makes anyone work better was not tested. More on this band in our 40 Hz gamma guide.
+Alpha and gamma for ideas: a 2013 creativity study found beats at alpha and gamma frequency affected divergent thinking but not convergent thinking, with the effect depending on each person's dopamine-related baseline — some people benefited, others were unaffected or did worse.
+
+Where the evidence disagrees
+A meta-analysis of 22 studies on memory, attention, anxiety and pain reported an overall medium effect (Hedges' g = 0.45), with direction and size depending on frequency, listening time and timing relative to the task — exactly why one average cannot tell you which band to pick for focus. Other work is less friendly: a 2023 systematic review of 14 EEG studies found five in line with brainwave entrainment, eight contradicting it and one mixed, calling the studies too different to compare cleanly; a 2025 study of sustained attention in neurotypical adults and adults with attention deficits concluded binaural beats were not beneficial for either group, in behavior or EEG, with neurotypical adults actually reacting more slowly with beats than with noise. The honest summary is mixed: some small positive results, some nulls, and no head-to-head result crowning alpha, beta or gamma as best for concentration.
+
+How to test it on yourself
+Pick one band for one week — alpha (10 Hz) is the gentlest starting point for study and reading, moving to beta only if alpha leaves you drowsy on a boring task. Start the audio before the task: the meta-analysis found exposure before, or before and during, the task did better than starting at the same moment, and longer exposure tended to do better. Use stereo headphones at a low volume — over speakers the two tones blend in the air and the binaural beat disappears. Compare against silence or plain noise by doing the same kind of task on alternate days and tracking the difference. Stop gamma or beta in the evening since they are alertness ranges; for winding down see our sleep review. The free app Vuko has a Focus mode built on a 10 Hz alpha beat and a separate 40 Hz preset, generated in your browser with no signup, as a way to run this test.
+
+Who should skip it
+People with epilepsy or a seizure history should ask a doctor before using rhythmic audio stimulation, as a precaution. With tinnitus or sound sensitivity, pure tones can irritate — stop if symptoms get worse. If trouble concentrating is constant and affects work or school, that is worth a conversation with a clinician; audio tracks do not replace an assessment for ADHD or anything else.
+
+Key takeaway: no band has been proven best for focus. Alpha around 10 Hz is the common first try for studying, beta for alertness, gamma for effortful work, and the research behind each is small and inconsistent. Treat it as a cheap experiment: one band, headphones, started before you work, compared against silence.
+
+Frequently asked questions
+
+Which binaural beat is best for studying? Alpha, around 10 Hz, is the usual starting point for reading and studying, and it is the band with small positive results in the 2022 trial and the creativity study above. Evidence is thin, so check whether it helps you before committing.
+Are alpha or beta beats better for concentration? Alpha is used for calm, sustained attention and beta for staying alert on dull or monotonous tasks. No study cited here compared them head to head for long study sessions, so the choice is a matter of what feels right.
+How long should I listen before working? The meta-analysis found that starting the audio before the task, and listening longer, tended to give better results, without a specific minute count — many people try 15 to 30 minutes and judge by results over a week.
+Do I need headphones? Yes. A binaural beat only forms when each ear hears its own tone; over speakers the tones mix and the effect is lost.
+Can binaural beats treat ADHD? No. The 2025 study cited here found no benefit in adults with attention deficits, and none of the research tested a treatment.
+
+References
+1. Lane JD, Kasian SJ, Owens JE, Marsh GR. Binaural auditory beats affect vigilance performance and mood. Physiology & Behavior, 1998. https://pubmed.ncbi.nlm.nih.gov/9423966/ 29 participants, 30-minute visual vigilance task, beta (16 and 24 Hz) vs theta/delta (1.5 and 4 Hz) beats; beta gave more correct detections, fewer false alarms and less negative mood.
+2. Rakhshan V, Hassani-Abharian P, Joghataei M, Nasehi M, Khosrowabadi R. Effects of the alpha, beta, and gamma binaural beat brain stimulation and short-term training on simultaneously assessed visuospatial and verbal working memories, signal detection measures, response times, and intrasubject response time variabilities. BioMed Research International, 2022. https://pubmed.ncbi.nlm.nih.gov/35655482/ 31 healthy adults, 10, 16 and 40 Hz beats vs a 240 Hz tone and silence, dual 2-back task; conclusion: 8 minutes of alpha beats may have a few slight enhancing effects in the visuospatial modality only.
+3. Colzato LS, Barone H, Sellaro R, Hommel B. More attentional focusing through binaural beats: evidence from the global-local task. Psychological Research, 2017. https://pubmed.ncbi.nlm.nih.gov/26612201/ 40 Hz beats vs a 340 Hz constant tone for 3 minutes before and during the task; smaller global-precedence effect, read as a reduced attentional spotlight.
+4. Reedijk SA, Bolders A, Hommel B. The impact of binaural beats on creativity. Frontiers in Human Neuroscience, 2013. https://pubmed.ncbi.nlm.nih.gov/24294202/ Alpha and gamma beats affected divergent but not convergent thinking, with benefit depending on baseline striatal dopamine (estimated by eye blink rate).
+5. Garcia-Argibay M, Santed MA, Reales JM. Efficacy of binaural auditory beats in cognition, anxiety, and pain perception: a meta-analysis. Psychological Research, 2019. https://pubmed.ncbi.nlm.nih.gov/30073406/ 22 studies, overall g = 0.45; exposure before, or before and during, the task did better than during the task only; longer exposure did better; effect direction and size depend on frequency, exposure time and timing.
+6. Ingendoh RM, Posny ES, Heine A. Binaural beats to entrain the brain? A systematic review of the effects of binaural beat stimulation on brain oscillatory activity. PLOS ONE, 2023. https://pubmed.ncbi.nlm.nih.gov/37205669/ 14 EEG studies: five consistent with entrainment, eight contradictory, one mixed; methods too heterogeneous to compare.
+7. Alves-Castro G, Bonnefond A, Pham BT, Hutt A. Sustained attention in attention-deficit subjects and the impact of binaural beat stimulation evaluated by behavior and EEG. Experimental Brain Research, 2025. https://pubmed.ncbi.nlm.nih.gov/40938421/ Binaural beats were not found to be beneficial in neurotypical adults or in adults with attention deficits, in behavior or EEG.
+
+Try the test yourself: open Vuko's Focus mode (10 Hz alpha binaural beats) — free, open source, no signup, all audio processing stays in your browser.
+
+Related guides
+
+What are 40 Hz gamma binaural beats?
+Do binaural beats help you sleep?
+Box breathing (4-4-4-4): steps and when to use it
+
+This article is for general information and education only and is not medical advice. Binaural beats are not a treatment for ADHD, anxiety, or any other medical condition. If concentration problems persist, please consult a qualified healthcare professional.
 
 ---
 
