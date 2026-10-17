@@ -162,7 +162,7 @@ Privacy · Open Source · GitHub
 ## https://www.vuko.life/guides/
 
 Breathing & Binaural Beats Guides
-By the Vuko team · Updated August 3, 2026
+By the Vuko team · Updated October 2, 2026
 These guides accompany the free Vuko app. Each one covers a single technique or question in plain language: what it is, how to do it, what the research actually shows, and when to be cautious. Every claim links to its source, mostly peer-reviewed studies on PubMed.
 
 Breathing techniques
@@ -344,7 +344,7 @@ This article is for general information and education only and is not medical ad
 ## https://www.vuko.life/guides/40-hz-gamma-binaural-beats.html
 
 What Are 40 Hz Gamma Binaural Beats?
-By the Vuko team · Updated August 3, 2026
+By the Vuko team · Updated October 2, 2026
 40 Hz gamma binaural beats are an auditory illusion created by playing two tones roughly 40 Hz apart — one in each ear — so the brain perceives a single pulse at 40 Hz. That rate sits in the gamma brainwave band, associated with attention, memory binding, and alert mental processing — the brain's tendency to sync its own rhythms toward that perceived pulse is what researchers call brainwave entrainment, and it's why these tracks are marketed for focus.
 
 The gamma band, briefly
