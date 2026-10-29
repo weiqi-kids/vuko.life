@@ -344,7 +344,7 @@ This article is for general information and education only and is not medical ad
 ## https://www.vuko.life/guides/40-hz-gamma-binaural-beats.html
 
 What Are 40 Hz Gamma Binaural Beats?
-By the Vuko team · Updated October 13, 2026
+By the Vuko team · Updated October 28, 2026
 40 Hz gamma binaural beats are an auditory illusion created by playing two tones roughly 40 Hz apart — one in each ear — so the brain perceives a single pulse at 40 Hz. That rate sits in the gamma brainwave band, associated with attention, memory binding, and alert mental processing — the brain's tendency to sync its own rhythms toward that perceived pulse is what researchers call brainwave entrainment, and it's why these tracks are marketed for focus.
 
 The gamma band, briefly
@@ -379,9 +379,11 @@ Key takeaway: 40 Hz gamma binaural beats are two tones 40 Hz apart that your bra
 Frequently asked questions
 
 Do 40 Hz binaural beats improve memory or prevent Alzheimer's? No one can honestly claim that today. The 40 Hz research that made headlines used precisely controlled light and sound in animals and small human trials, not consumer binaural beats. Human trials are still ongoing, and listening to 40 Hz audio is not a treatment or prevention for any disease.
+Do gamma binaural beats work? The evidence is mixed. Small studies of gamma-frequency binaural beats and attention or working memory report modest gains in some cases and no effect in others, and the 40 Hz brain research that made headlines used different, precisely engineered stimulation. Many people find a steady 40 Hz sound a useful focus backdrop, but it is not a proven cognitive enhancer or a treatment for any condition.
 What is the difference between 40 Hz binaural beats and a 40 Hz tone? A 40 Hz pure tone is an actual very low bass sound at 40 Hz. Binaural beats instead play two comfortable mid-range tones about 40 Hz apart, one per ear, and your brain perceives a 40 Hz pulse. Isochronous tones — a tone switched on and off 40 times per second — are a third method that works over speakers.
 When should I listen to 40 Hz gamma beats? During tasks that need active engagement: studying, problem-solving, writing, or creative work. Gamma is an alert-state band, so avoid it near bedtime — for sleep, delta or theta beats are the usual choice instead.
 Are 40 Hz binaural beats safe? For most people yes, at a low, comfortable volume. As a precaution, people with epilepsy or a seizure history should consult a doctor before using rhythmic stimulation, and anyone with tinnitus should stop if symptoms worsen.
+Can humans hear 40 Hz? Yes — 40 Hz sits inside the human hearing range (roughly 20 Hz to 20 kHz), at the low end where a 40 Hz pure tone sounds like a steady, low hum rather than a musical pitch. A 40 Hz binaural beat is different: you are not hearing a 40 Hz tone at all. Each ear gets a separate mid-range tone about 40 Hz apart, and the brain fuses the difference into a perceived 40 Hz pulse in the gamma band — the same 40 Hz frequency and 40 Hz gamma waves this page covers.
 
 References
 Mechanism: what gamma actually is
