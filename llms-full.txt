@@ -288,7 +288,7 @@ A sensible pattern is theta while you read or do breathing exercises, then delta
 How to try binaural beats for sleep properly
 
 Use stereo headphones — soft earbuds or a sleep headband are more comfortable lying down.
-Keep the volume low. The effect does not require loudness; the tones should sit just above the edge of your attention.
+Keep the volume low. The effect does not require loudness; the tones should sit just above the edge of your attention, nowhere near the WHO-ITU safe listening cap of 80 dB over 40 hours a week.
 Give it 15–30 minutes as part of a consistent wind-down: dim lights, no doomscrolling, perhaps a slow-breathing exercise such as 4-7-8 breathing .
 Set a fade-out or timer so the audio does not run all night.
 Judge it over two weeks, not one night — note how long you take to fall asleep with and without it.
@@ -309,7 +309,7 @@ Frequently asked questions
 What frequency of binaural beats is best for sleep? Most sleep tracks use delta-range beats between 1 and 4 Hz, matching the slow brainwaves of deep sleep, or theta-range beats between 4 and 8 Hz for the drowsy transition into sleep. A common approach is to start in theta while winding down and move into delta.
 Do binaural beats work without headphones? No. Binaural beats exist only when each ear receives its own carrier tone (a steady pitch, such as 400 Hz in one ear and 420 Hz in the other, that the brain reads as a 20 Hz beat), so stereo headphones or earbuds are required. Played over speakers, the two carrier tones mix in the air and the binaural effect is lost — although slow, relaxing audio can still be pleasant on its own.
 How long should I listen before sleep? Studies typically use sessions of 15 to 30 minutes. Listening at a low, comfortable volume while winding down or after lights out is a reasonable starting point. Use a timer or an app that fades out, since sleeping in earbuds all night is uncomfortable for many people.
-Are binaural beats safe? For most people, yes — they are simply quiet audio tones. Keep the volume low to protect your hearing. If you have epilepsy, a seizure disorder, or significant tinnitus, or if you wear a hearing aid, talk to your doctor first. Never listen while driving.
+Are binaural beats safe? For most people, yes — they are simply quiet audio tones. Keep the volume low to protect your hearing: the WHO-ITU safe listening standard caps a comfortable weekly dose at 80 dB over 40 hours, well above what a sleep track needs. If you have epilepsy, a seizure disorder, or significant tinnitus, or if you wear a hearing aid, talk to your doctor first. Never listen while driving.
 Is 8 Hz safe before bed, and does it affect dreams? 8 Hz sits right at the edge between theta and alpha activity, so it falls inside the drowsy, winding-down range this guide covers rather than the deep-sleep delta range. The same safety notes above still apply: it's a quiet audio tone, keep the volume low, and the epilepsy and tinnitus cautions still hold. None of the studies cited on this page measured dream content or REM sleep directly — they tracked sleep onset and sleep stages, not what people dreamed about.
 What about 40 Hz gamma binaural beats — are those for sleep? No. 40 Hz sits in the gamma band, which research links to alertness and focused attention — the opposite end of the spectrum from the delta and theta beats covered here. See what 40 Hz gamma binaural beats are actually used for (https://www.vuko.life/guides/40-hz-gamma-binaural-beats.html) if that's what you're after.
 
@@ -327,6 +327,8 @@ Anxiety and relaxation
 Where the evidence is weaker
 8. Lopez-Caballero F, Escera C. Binaural beat: a failure to enhance EEG power and emotional arousal. Frontiers in Human Neuroscience, 2017. https://pubmed.ncbi.nlm.nih.gov/29187819/ Tested five beat frequencies from 4.5 to 57 Hz and found no significant change in the matching EEG brainwave band, for binaural or acoustic beats alike — a direct null result on the brainwave-entrainment mechanism itself.
 9. Chaieb L, Wilpert EC, Reber TP, Fell J. Auditory beat stimulation and its effects on cognition and mood states. Frontiers in Psychiatry, 2015. https://pubmed.ncbi.nlm.nih.gov/26029120/ A review noting that findings across the auditory-beat literature are frequently contradictory. That inconsistency is a large part of why this guide calls the evidence mixed rather than settled.
+Hearing safety
+10. World Health Organization, International Telecommunication Union. Safe listening devices and systems: a WHO-ITU standard. 2019. https://www.who.int/publications/i/item/9789241515276 Sets the comfortable weekly listening-volume cap most personal audio devices now track: 80 dB over 40 hours a week for the default adult mode (75 dB over 40 hours for the stricter child/sensitive-user mode).
 
 Try it tonight: open Vuko's Sleep mode (3 Hz delta binaural beats) — free, open source, no signup, and all audio processing stays in your browser.
 
