@@ -68,8 +68,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if [ -n "$(git status --porcelain app/*.html index.html sitemap.xml seo/lastmod-state.json)" ]; then
-            git add app/*.html index.html sitemap.xml seo/lastmod-state.json
+          if [ -n "$(git status --porcelain app/*.html index.html sitemap.xml seo/lastmod-state.json guides privacy open-source)" ]; then
+            git add app/*.html index.html sitemap.xml seo/lastmod-state.json guides privacy open-source
             git commit -m "Prerender content updates [skip ci]"
             # Rebase onto any commit that landed during this job so the push
             # (e.g. against a concurrent [skip ci] push) is never rejected.

@@ -2,7 +2,8 @@ name: Sitemap lastmod
 
 # sitemap.xml is hand-maintained. Whenever a public page changes on main, move
 # that URL's <lastmod> to today — but only if the page's visible content changed
-# (fingerprint in seo/lastmod-state.json; rules in the script header).
+# (fingerprint in seo/lastmod-state.json; rules in the script header). The same
+# date is written into each page's JSON-LD dateModified and visible byline.
 # Commits pushed with GITHUB_TOKEN do not trigger workflows, so the prerender
 # job in site_update.yml runs the same script itself before committing.
 
@@ -38,10 +39,10 @@ jobs:
         run: python .github/scripts/sync_sitemap_lastmod.py
       - name: Commit
         run: |
-          if [ -n "$(git status --porcelain sitemap.xml seo/lastmod-state.json)" ]; then
+          if [ -n "$(git status --porcelain sitemap.xml seo/lastmod-state.json index.html app guides privacy open-source)" ]; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add sitemap.xml seo/lastmod-state.json
+            git add sitemap.xml seo/lastmod-state.json index.html app guides privacy open-source
             git commit -m "sitemap: lastmod follows content changes [skip ci]"
             git pull --rebase origin main && git push
           else

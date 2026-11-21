@@ -1,4 +1,5 @@
 {
+ "_v": 2,
  "https://www.vuko.life/": {
   "hash": "57d20d0f1b05c8ccb3db8927ea67fe2cb86d986919c0300a4d9a641e9f88553e",
   "lastmod": "2026-10-03"
@@ -120,39 +121,39 @@
   "lastmod": "2026-07-05"
  },
  "https://www.vuko.life/guides/": {
-  "hash": "01ce163d79eb59f0503077ce812ddbc0b0fdb4de85a57c7a4ed6cae1c51cac8c",
-  "lastmod": "2026-10-04"
+  "hash": "5b48e5974e5829b6791ee078ad5431403db5c7096e4ca1d0e0f91783b6dae614",
+  "lastmod": "2026-10-02"
  },
  "https://www.vuko.life/guides/4-7-8-breathing.html": {
-  "hash": "c06f8bb627f300521482a2d4b45e4b7959b2b7f6648fdfb29ba6b892df89771e",
+  "hash": "67f14f0e7dfa67a221b67199db679a4c7fd8a093f895acec3af5247b8454420a",
   "lastmod": "2026-11-21"
  },
  "https://www.vuko.life/guides/40-hz-gamma-binaural-beats.html": {
-  "hash": "715c36c70fb9c8c2f9fafc3846847d3708d7a09f312c6bd72d7af93001df0649",
+  "hash": "5dccacca3dd640ed865059fa13a52a819e4eed91e4774ec8a9a21069d00dac69",
   "lastmod": "2026-11-04"
  },
  "https://www.vuko.life/guides/binaural-beats-for-focus.html": {
-  "hash": "258bc332dce535677b8749cb32a2dc03f879340365072664e5c82209af744768",
-  "lastmod": "2026-10-22"
+  "hash": "abb0460711f08a5d006ad59ea12f6998b68a25c8d9c88d8ae330b6a20000c8ff",
+  "lastmod": "2026-10-21"
  },
  "https://www.vuko.life/guides/binaural-beats-for-sleep.html": {
-  "hash": "c8d6dce916d34e1546387813c4fa587a27c7c416bc8aa2df31b0b8b260105fac",
+  "hash": "ccb721f735f071ca0bffd3ae91ce6568deb0e721985f6593077cb5cf2b609dcd",
   "lastmod": "2026-11-19"
  },
  "https://www.vuko.life/guides/box-breathing.html": {
-  "hash": "db8a6c489d46e62bdb08e66757c4166930a0165cb4058585e9326a2193ec996e",
+  "hash": "96abe2ec6cc799259c28757bb04c141ca606c73757875f3eae5ff24976706653",
   "lastmod": "2026-11-07"
  },
  "https://www.vuko.life/guides/breathing-exercises-to-fall-asleep.html": {
-  "hash": "322c19a000b13818bcfc24f5f39054fffa0af7b1f7169c1ae00618cf6263b7f3",
+  "hash": "e6659f9243636e299d12441d2d51b0d2c4be5632c08f6e707e1594f209432021",
   "lastmod": "2026-11-13"
  },
  "https://www.vuko.life/open-source/": {
-  "hash": "15df93b5600f84999bcf78b280710b091fe9f2f432f2770509aa7ff877cbe03d",
+  "hash": "28f2f0657853e912ba7b4d870b6a1b64956ef49e5fc95d682beecf8c0c3d582b",
   "lastmod": "2026-07-07"
  },
  "https://www.vuko.life/privacy/": {
-  "hash": "fad5a304cdb909bf4a81f9942d209010268b7a0bc6bf58b262238a5a5a4b4679",
+  "hash": "87064f83403c4ea379f62f1a18caea149b22f230734a7bc94b61fe3da950e9f7",
   "lastmod": "2026-07-07"
  }
 }
