@@ -1,0 +1,158 @@
+{
+ "https://www.vuko.life/": {
+  "hash": "57d20d0f1b05c8ccb3db8927ea67fe2cb86d986919c0300a4d9a641e9f88553e",
+  "lastmod": "2026-10-03"
+ },
+ "https://www.vuko.life/app/ar.html": {
+  "hash": "530da73d0cbe883077eecc392b3cd81ba77acc1a72f6ae192a6dd2eddf3de1dd",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/bn.html": {
+  "hash": "e313ecdc1325b514bfb6e5706acd5621fc427dbdcf8bcef9d4c018ed37f95824",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/de-at.html": {
+  "hash": "7a4d02aef32d2e91f5e858f6d673181515162b16244196370a0218168b953030",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/de-ch.html": {
+  "hash": "8bcbce33314687abbde18c484ce4b3f015eb892581628dfb4c258fe98cb80c38",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/de-de.html": {
+  "hash": "87f9d8eeaa17be1450daeb9e160486366944fce40d741f19e54f1bbfc34b03e3",
+  "lastmod": "2026-10-17"
+ },
+ "https://www.vuko.life/app/es.html": {
+  "hash": "508f9535d0a45d21d44b96390d3d76ff5d810682c7a46c9b9a4330380c405930",
+  "lastmod": "2026-10-03"
+ },
+ "https://www.vuko.life/app/fr-be.html": {
+  "hash": "741dd448c22a9f03ff0390f6c276cea865274223862d405e76daeb97b14e1a07",
+  "lastmod": "2026-10-03"
+ },
+ "https://www.vuko.life/app/fr-ca.html": {
+  "hash": "366082109daf4eb2e09f7757e81ceb9a3ed9dc1c4aab26a2a32b08a80f26794c",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/fr-fr.html": {
+  "hash": "5e0925df84d408228747aceb03b95704b2f45849c0bd2f79fe3e251f6b98dbdb",
+  "lastmod": "2026-10-08"
+ },
+ "https://www.vuko.life/app/he.html": {
+  "hash": "0b55e7e08c35946125e900a2ec512d67ab23ddc4701f6db112e01d9789d232e9",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/hi.html": {
+  "hash": "5c526cd75ed52af9d39e4bdc536b314e7003e4da90b81e274c61b7f70e59d661",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/id.html": {
+  "hash": "27565ab6c7c4bfc65dcb7e144014c7678b737028e4c1ac1b5919f519d7793a5e",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/ja.html": {
+  "hash": "3efcb58bded378467361c30424ba36cae2c226808350ce119e1f3c9ff7ba5467",
+  "lastmod": "2026-10-03"
+ },
+ "https://www.vuko.life/app/ko.html": {
+  "hash": "c62a713a8f2c96ec3658e8c82c89d0eff1f1ccffae10a65064ee160db651ccdd",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/ms.html": {
+  "hash": "6971544be58492b998514c03102711bc5ee539be54b929f529157ca3fcb2eb50",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/my.html": {
+  "hash": "5ec922c39f610c78cce78fbae5dc5d1f3c4d1e24be5af0b57596a3905ae8c9af",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/pa.html": {
+  "hash": "037a9c8fb1135900ac687353accdeb77273b2f30ab9d07bd6709e9083967c399",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/pl.html": {
+  "hash": "c79de7c46d4875901065e4b82a0546c68069255bf660b677d269e8d4ddeb81da",
+  "lastmod": "2026-10-20"
+ },
+ "https://www.vuko.life/app/pt.html": {
+  "hash": "72e3c51500a4df6fa73b2715bf6910b6f872cd152f06c5573333f397969ebd10",
+  "lastmod": "2026-10-07"
+ },
+ "https://www.vuko.life/app/ru.html": {
+  "hash": "2827c3e05b75ae392aaa699cf2aad42d4e68cf0dea382058afdc427442404e85",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/sw.html": {
+  "hash": "13aaf28270bb94558b5faee6d1aad3a42de248fbe37441851b993be6d23ccc21",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/ta.html": {
+  "hash": "2e5e2f1ae03eaef1a343fe85e8ff4ef96de2bbe1ed31570ab64f33b292d7abf1",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/th.html": {
+  "hash": "f3da7bcddb805b1139b03a5d2f825f2b75ea329eb983fcdd0fa7532196f5b118",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/tr.html": {
+  "hash": "3b62fb4802dce7ea2bd3db6f100b3e525f2943c581c121655f5c06a46dd2e00e",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/uk.html": {
+  "hash": "cf804b54ff1a38b3aa96a02a598e37aee284d86ec17735004c08dc905881f199",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/vi.html": {
+  "hash": "6e30acfed13d77bebf507fe467cfde270cfe6b5ee2075a9b46e17534f37aa1ba",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/zh-cn.html": {
+  "hash": "f7fe4ff001429dd7f8e9c1aeba2c12af4774a83a7af3d7ce6f8e9055c93b7412",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/zh-hk.html": {
+  "hash": "361553ba05d307f07efaa03b0a6fdc4c7844481ecd1c004de4eb5cc4d48c34fe",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/app/zh-tw.html": {
+  "hash": "880c918032a9422d66c6e3891db6e165927c016cbdf60a61a7e14676913af0c4",
+  "lastmod": "2026-07-05"
+ },
+ "https://www.vuko.life/guides/": {
+  "hash": "01ce163d79eb59f0503077ce812ddbc0b0fdb4de85a57c7a4ed6cae1c51cac8c",
+  "lastmod": "2026-10-04"
+ },
+ "https://www.vuko.life/guides/4-7-8-breathing.html": {
+  "hash": "c06f8bb627f300521482a2d4b45e4b7959b2b7f6648fdfb29ba6b892df89771e",
+  "lastmod": "2026-11-21"
+ },
+ "https://www.vuko.life/guides/40-hz-gamma-binaural-beats.html": {
+  "hash": "715c36c70fb9c8c2f9fafc3846847d3708d7a09f312c6bd72d7af93001df0649",
+  "lastmod": "2026-11-04"
+ },
+ "https://www.vuko.life/guides/binaural-beats-for-focus.html": {
+  "hash": "258bc332dce535677b8749cb32a2dc03f879340365072664e5c82209af744768",
+  "lastmod": "2026-10-22"
+ },
+ "https://www.vuko.life/guides/binaural-beats-for-sleep.html": {
+  "hash": "c8d6dce916d34e1546387813c4fa587a27c7c416bc8aa2df31b0b8b260105fac",
+  "lastmod": "2026-11-19"
+ },
+ "https://www.vuko.life/guides/box-breathing.html": {
+  "hash": "db8a6c489d46e62bdb08e66757c4166930a0165cb4058585e9326a2193ec996e",
+  "lastmod": "2026-11-07"
+ },
+ "https://www.vuko.life/guides/breathing-exercises-to-fall-asleep.html": {
+  "hash": "322c19a000b13818bcfc24f5f39054fffa0af7b1f7169c1ae00618cf6263b7f3",
+  "lastmod": "2026-11-13"
+ },
+ "https://www.vuko.life/open-source/": {
+  "hash": "15df93b5600f84999bcf78b280710b091fe9f2f432f2770509aa7ff877cbe03d",
+  "lastmod": "2026-07-07"
+ },
+ "https://www.vuko.life/privacy/": {
+  "hash": "fad5a304cdb909bf4a81f9942d209010268b7a0bc6bf58b262238a5a5a4b4679",
+  "lastmod": "2026-07-07"
+ }
+}

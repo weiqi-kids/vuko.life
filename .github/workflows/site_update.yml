@@ -60,12 +60,16 @@ jobs:
         # Bake content/<lang>.json long-form, crawlable lang-nav, keyword-rich
         # <title>/meta and FAQ JSON-LD from i18n into every app/*.html + index.html.
         run: python .github/scripts/prerender_content.py
+      - name: Sync sitemap lastmod
+        # This job's push uses GITHUB_TOKEN and so never triggers sitemap_lastmod.yml;
+        # run the same content-fingerprint sync here so prerendered pages get dated.
+        run: python .github/scripts/sync_sitemap_lastmod.py
       - name: Commit prerendered content
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if [ -n "$(git status --porcelain app/*.html index.html)" ]; then
-            git add app/*.html index.html
+          if [ -n "$(git status --porcelain app/*.html index.html sitemap.xml seo/lastmod-state.json)" ]; then
+            git add app/*.html index.html sitemap.xml seo/lastmod-state.json
             git commit -m "Prerender content updates [skip ci]"
             # Rebase onto any commit that landed during this job so the push
             # (e.g. against a concurrent [skip ci] push) is never rejected.
